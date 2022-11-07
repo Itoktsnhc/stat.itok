@@ -1,0 +1,2044 @@
+{
+  "data": {
+    "bankaraBattleHistories": {
+      "summary": {
+        "assistAverage": 1.6166077738515903,
+        "deathAverage": 9.381625441696114,
+        "killAverage": 10.60070671378092,
+        "lose": 22,
+        "perUnitTimeMinute": 5,
+        "specialAverage": 2.862190812720848,
+        "win": 25
+      },
+      "historyGroupsOnlyFirst": {
+        "nodes": [
+          {
+            "historyDetails": {
+              "nodes": [
+                {
+                  "player": {
+                    "weapon": {
+                      "specialWeapon": {
+                        "maskingImage": {
+                          "width": 100,
+                          "height": 100,
+                          "maskImageUrl": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/special_img/mask/fa8d49e8c850ee69f0231976208a913384e73dc0a39e6fb00806f6aa3da8a1ee_4.png?Expires=1673308800\u0026Signature=iawKUanBp86JQVEV7SJCZ-nFSPyMLGYSBosrBaI6SuOfozVE2L8PF03W4vXn9Qgn1EAignTpdpQuYtTlp76h-PvMNbCRKHjEgBu8d~FXoTGWFlTx2fMFJwSfrfQkFLb1fFck-BVAazweCPzfP7CfoddTfZnLLcAGHDQJTkPyJj07vxFnysGfBOpy6rKX4x~C0UogC0z8P~BljJpRk4sVwL2e0uNAWrmMcneVgqFTFGF6tZtrUvGSbvhqImbzNk7Q4C~y8YxY3Jw33XFBEyVbs~QvpsA9CmgFpShTgVoLFvEKfXTkhtPscYPgQMjqeGVMO33BhDaAtvFqHVB3cdmwxA__\u0026Key-Pair-Id=KNBS2THMRC385",
+                          "overlayImageUrl": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/special_img/overlay/fa8d49e8c850ee69f0231976208a913384e73dc0a39e6fb00806f6aa3da8a1ee_5.png?Expires=1673308800\u0026Signature=np8DmNDkoDRUhmoXiD6Wxx0RLA5tiWWLnBkLnl3Qc4Z5twndKNmgHIGZ2~LF3CZNtObYRg8pR47zyqWPF-Uaeoi8SC7NuKa8-WewkUZnLhbpctbCDVkDTRvrE5fiJaOx6CJQrzlCaf8sUhFt1lnQpoR6OIYiTFpmQVUkvHJRZMygPwGFklEAoRMePigyLwrVDnu7PLnizHGkQKWdojMZDl5GyzUh~5LNUe4SM8aJQq9xScd4YfeZJoESuei-7-VO9b9Qa3Dr5GTEZPJCW3lzlGKwzny3h~rq8VYxXhqXRfLnWAN27uCz7hXLhLomlgZOcwVXyiXdi3~40g2FnzKXVw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                        },
+                        "id": "U3BlY2lhbFdlYXBvbi05"
+                      },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA4VDExNTY0Ml80MTE1MjY3NC1kMDU0LTRlZDYtYWMwMy1lOGI2ZTdkOGMyZjc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTU2NDJfNDExNTI2NzQtZDA1NC00ZWQ2LWFjMDMtZThiNmU3ZDhjMmY3"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "historyGroups": {
+        "nodes": [
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 5,
+              "loseCount": 1,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "SUCCEEDED",
+              "isPromo": false,
+              "isUdemaeUp": true,
+              "udemaeAfter": "S+12",
+              "earnedUdemaePoint": 348
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTU2NDJfNDExNTI2NzQtZDA1NC00ZWQ2LWFjMDMtZThiNmU3ZDhjMmY3",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格鱼虎对战",
+                    "id": "VnNSdWxlLTM="
+                  },
+                  "vsStage": {
+                    "name": "座头 购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA4VDExNTY0Ml80MTE1MjY3NC1kMDU0LTRlZDYtYWMwMy1lOGI2ZTdkOGMyZjc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": null,
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTUxMDJfZjc0ZGU2MjAtOGQxNC00YzdlLTgwZmMtMjk5Zjc3Y2ZmZjdl" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTUxMDJfZjc0ZGU2MjAtOGQxNC00YzdlLTgwZmMtMjk5Zjc3Y2ZmZjdl",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格鱼虎对战",
+                    "id": "VnNSdWxlLTM="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA4VDExNTEwMl9mNzRkZTYyMC04ZDE0LTRjN2UtODBmYy0yOTlmNzdjZmZmN2U6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTU2NDJfNDExNTI2NzQtZDA1NC00ZWQ2LWFjMDMtZThiNmU3ZDhjMmY3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTQ2MTJfNzZlYWQwMGQtYjE1ZS00NmFmLWFiM2YtODQwODM1MmNiZmMx" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTQ2MTJfNzZlYWQwMGQtYjE1ZS00NmFmLWFiM2YtODQwODM1MmNiZmMx",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格鱼虎对战",
+                    "id": "VnNSdWxlLTM="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA4VDExNDYxMl83NmVhZDAwZC1iMTVlLTQ2YWYtYWIzZi04NDA4MzUyY2JmYzE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTUxMDJfZjc0ZGU2MjAtOGQxNC00YzdlLTgwZmMtMjk5Zjc3Y2ZmZjdl" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTM5MzVfN2MxZTVjNTEtOGQ2Ni00MTg1LWJlYzctMTczMTM5YjI3YmQ0" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTM5MzVfN2MxZTVjNTEtOGQ2Ni00MTg1LWJlYzctMTczMTM5YjI3YmQ0",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格鱼虎对战",
+                    "id": "VnNSdWxlLTM="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA4VDExMzkzNV83YzFlNWM1MS04ZDY2LTQxODUtYmVjNy0xNzMxMzliMjdiZDQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 87
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTQ2MTJfNzZlYWQwMGQtYjE1ZS00NmFmLWFiM2YtODQwODM1MmNiZmMx" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTM3MTZfYzI5YTlkNzgtOWU4Mi00Y2NhLTk1MzUtNGU0MzJiY2MzNzAy" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTM3MTZfYzI5YTlkNzgtOWU4Mi00Y2NhLTk1MzUtNGU0MzJiY2MzNzAy",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格鱼虎对战",
+                    "id": "VnNSdWxlLTM="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA4VDExMzcxNl9jMjlhOWQ3OC05ZTgyLTRjY2EtOTUzNS00ZTQzMmJjYzM3MDI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTM5MzVfN2MxZTVjNTEtOGQ2Ni00MTg1LWJlYzctMTczMTM5YjI3YmQ0" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTMzMjZfZmU1ZGQzYjktM2ViYy00ZDZiLWEwNmYtODI3Nzc2NGM1N2Zi" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTMzMjZfZmU1ZGQzYjktM2ViYy00ZDZiLWEwNmYtODI3Nzc2NGM1N2Zi",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格鱼虎对战",
+                    "id": "VnNSdWxlLTM="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA4VDExMzMyNl9mZTVkZDNiOS0zZWJjLTRkNmItYTA2Zi04Mjc3NzY0YzU3ZmI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTM3MTZfYzI5YTlkNzgtOWU4Mi00Y2NhLTk1MzUtNGU0MzJiY2MzNzAy" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzUyMTJfYTI0NmYyZWQtNTk0Ni00MGY4LWI5ZWEtZDQyZTdlZTIwYjIy" }
+                }
+              ]
+            }
+          },
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 5,
+              "loseCount": 2,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "SUCCEEDED",
+              "isPromo": false,
+              "isUdemaeUp": false,
+              "udemaeAfter": "S+11",
+              "earnedUdemaePoint": 348
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzUyMTJfYTI0NmYyZWQtNTk0Ni00MGY4LWI5ZWEtZDQyZTdlZTIwYjIy",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEzNTIxMl9hMjQ2ZjJlZC01OTQ2LTQwZjgtYjllYS1kNDJlN2VlMjBiMjI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 49
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwOFQxMTMzMjZfZmU1ZGQzYjktM2ViYy00ZDZiLWEwNmYtODI3Nzc2NGM1N2Zi" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzQ1MDNfMzMyMzMwMTktMjJiOS00YjgwLTgwNjEtZjdjNzcwZjYxMGNk" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzQ1MDNfMzMyMzMwMTktMjJiOS00YjgwLTgwNjEtZjdjNzcwZjYxMGNk",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEzNDUwM18zMzIzMzAxOS0yMmI5LTRiODAtODA2MS1mN2M3NzBmNjEwY2Q6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 40
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzUyMTJfYTI0NmYyZWQtNTk0Ni00MGY4LWI5ZWEtZDQyZTdlZTIwYjIy" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzM4MDlfNjY0NWE1MTYtZTE4NC00NDM3LWFmY2UtZGQ4NGU2OTc5MGUz" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzM4MDlfNjY0NWE1MTYtZTE4NC00NDM3LWFmY2UtZGQ4NGU2OTc5MGUz",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEzMzgwOV82NjQ1YTUxNi1lMTg0LTQ0MzctYWZjZS1kZDg0ZTY5NzkwZTM6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 20
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzQ1MDNfMzMyMzMwMTktMjJiOS00YjgwLTgwNjEtZjdjNzcwZjYxMGNk" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzMxMTlfMGYxZTk5ZDItMGZhNS00YzBmLWJjNTEtOTEwNjBmZTkzMzMx" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzMxMTlfMGYxZTk5ZDItMGZhNS00YzBmLWJjNTEtOTEwNjBmZTkzMzMx",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEzMzExOV8wZjFlOTlkMi0wZmE1LTRjMGYtYmM1MS05MTA2MGZlOTMzMzE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 36
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzM4MDlfNjY0NWE1MTYtZTE4NC00NDM3LWFmY2UtZGQ4NGU2OTc5MGUz" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzE3NTFfM2E2N2JhNTEtNjE4ZS00ODA5LTk5ZWMtODA5NjJmMTdiYTdk" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzE3NTFfM2E2N2JhNTEtNjE4ZS00ODA5LTk5ZWMtODA5NjJmMTdiYTdk",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEzMTc1MV8zYTY3YmE1MS02MThlLTQ4MDktOTllYy04MDk2MmYxN2JhN2Q6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 61
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzMxMTlfMGYxZTk5ZDItMGZhNS00YzBmLWJjNTEtOTEwNjBmZTkzMzMx" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzEwNTNfMmZlMWJhYTgtZjY3OS00ZTEzLWI1ZDAtNWIwZTcxZTc5Mzk3" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzEwNTNfMmZlMWJhYTgtZjY3OS00ZTEzLWI1ZDAtNWIwZTcxZTc5Mzk3",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEzMTA1M18yZmUxYmFhOC1mNjc5LTRlMTMtYjVkMC01YjBlNzFlNzkzOTc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 88
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzE3NTFfM2E2N2JhNTEtNjE4ZS00ODA5LTk5ZWMtODA5NjJmMTdiYTdk" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzAzNDhfMzdiNWFmYzQtNmQ4Ni00YTMwLThkOTEtYWQ1NTg0YWIwZmYw" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzAzNDhfMzdiNWFmYzQtNmQ4Ni00YTMwLThkOTEtYWQ1NTg0YWIwZmYw",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEzMDM0OF8zN2I1YWZjNC02ZDg2LTRhMzAtOGQ5MS1hZDU1ODRhYjBmZjA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 30
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzEwNTNfMmZlMWJhYTgtZjY3OS00ZTEzLWI1ZDAtNWIwZTcxZTc5Mzk3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjU3NDRfMDJkZTE2MmEtMjA4NC00NWUxLWEzMWYtMWRiODUwNzBmMDU5" }
+                }
+              ]
+            }
+          },
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 3,
+              "loseCount": 3,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "FAILED",
+              "isPromo": false,
+              "isUdemaeUp": false,
+              "udemaeAfter": "S+11",
+              "earnedUdemaePoint": 214
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjU3NDRfMDJkZTE2MmEtMjA4NC00NWUxLWEzMWYtMWRiODUwNzBmMDU5",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEyNTc0NF8wMmRlMTYyYS0yMDg0LTQ1ZTEtYTMxZi0xZGI4NTA3MGYwNTk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMzAzNDhfMzdiNWFmYzQtNmQ4Ni00YTMwLThkOTEtYWQ1NTg0YWIwZmYw" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjUwNDJfNmZhNDU4MWUtODdkOC00NWRhLThlNjMtODQ5NGNmZjY2MDUx" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjUwNDJfNmZhNDU4MWUtODdkOC00NWRhLThlNjMtODQ5NGNmZjY2MDUx",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEyNTA0Ml82ZmE0NTgxZS04N2Q4LTQ1ZGEtOGU2My04NDk0Y2ZmNjYwNTE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 30
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjU3NDRfMDJkZTE2MmEtMjA4NC00NWUxLWEzMWYtMWRiODUwNzBmMDU5" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjQ5MDJfODAxMGJlM2ItMDJjZS00NTg5LThmMzQtZGEwM2U3YWYwMDUw" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjQ5MDJfODAxMGJlM2ItMDJjZS00NTg5LThmMzQtZGEwM2U3YWYwMDUw",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "DRAW",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEyNDkwMl84MDEwYmUzYi0wMmNlLTQ1ODktOGYzNC1kYTAzZTdhZjAwNTA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": null,
+                  "myTeam": { "result": null },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjUwNDJfNmZhNDU4MWUtODdkOC00NWRhLThlNjMtODQ5NGNmZjY2MDUx" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjQyMDFfMWI2Yjg4ZTktMjI2Yy00YmE3LWE5NTQtNTljMDY4MWFjN2M4" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjQyMDFfMWI2Yjg4ZTktMjI2Yy00YmE3LWE5NTQtNTljMDY4MWFjN2M4",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市 场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEyNDIwMV8xYjZiODhlOS0yMjZjLTRiYTctYTk1NC01OWMwNjgxYWM3Yzg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 30
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjQ5MDJfODAxMGJlM2ItMDJjZS00NTg5LThmMzQtZGEwM2U3YWYwMDUw" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjM1MjlfZGE4Y2MzYmItN2FkYy00MWYyLThkYzMtNDUzZmU1NDhkYTdj" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjM1MjlfZGE4Y2MzYmItN2FkYy00MWYyLThkYzMtNDUzZmU1NDhkYTdj",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEyMzUyOV9kYThjYzNiYi03YWRjLTQxZjItOGRjMy00NTNmZTU0OGRhN2M6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 40
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjQyMDFfMWI2Yjg4ZTktMjI2Yy00YmE3LWE5NTQtNTljMDY4MWFjN2M4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjI5MjlfOTgyNjhmOWYtYTQzNC00NTdlLTkzZDYtMjBmYzdmZGQyOGQ5" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjI5MjlfOTgyNjhmOWYtYTQzNC00NTdlLTkzZDYtMjBmYzdmZGQyOGQ5",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEyMjkyOV85ODI2OGY5Zi1hNDM0LTQ1N2UtOTNkNi0yMGZjN2ZkZDI4ZDk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjM1MjlfZGE4Y2MzYmItN2FkYy00MWYyLThkYzMtNDUzZmU1NDhkYTdj" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjIxNDlfMzc4YTgyZGUtZjFjMS00N2Q3LTk0MWEtNTVkYzk4M2RhYTJi" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjIxNDlfMzc4YTgyZGUtZjFjMS00N2Q3LTk0MWEtNTVkYzk4M2RhYTJi",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "EXEMPTED_LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEyMjE0OV8zNzhhODJkZS1mMWMxLTQ3ZDctOTQxYS01NWRjOTgzZGFhMmI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 68
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjI5MjlfOTgyNjhmOWYtYTQzNC00NTdlLTkzZDYtMjBmYzdmZGQyOGQ5" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjE1MTNfZGNjNjY0ZjgtYzJlMy00NGZjLTg4NmUtZDg2MWQzY2JhNmU5" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjE1MTNfZGNjNjY0ZjgtYzJlMy00NGZjLTg4NmUtZDg2MWQzY2JhNmU5",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA3VDEyMTUxM19kY2M2NjRmOC1jMmUzLTQ0ZmMtODg2ZS1kODYxZDNjYmE2ZTk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 73
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjIxNDlfMzc4YTgyZGUtZjFjMS00N2Q3LTk0MWEtNTVkYzk4M2RhYTJi" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDI5NThfYmI4NmNlOTktNTI4OC00NmI0LWEwYWQtZWIyM2VmNTlkMGQ2" }
+                }
+              ]
+            }
+          },
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 0,
+              "loseCount": 3,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "FAILED",
+              "isPromo": false,
+              "isUdemaeUp": false,
+              "udemaeAfter": "S+11",
+              "earnedUdemaePoint": 41
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDI5NThfYmI4NmNlOTktNTI4OC00NmI0LWEwYWQtZWIyM2VmNTlkMGQ2",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格区域",
+                    "id": "VnNSdWxlLTE="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏 疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDE0Mjk1OF9iYjg2Y2U5OS01Mjg4LTQ2YjQtYTBhZC1lYjIzZWY1OWQwZDY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwN1QxMjE1MTNfZGNjNjY0ZjgtYzJlMy00NGZjLTg4NmUtZDg2MWQzY2JhNmU5" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDI2MTdfMmZkNzg2ZWQtM2QwNi00N2QzLThiNDItMzUwNDUwMzIzZDQz" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDI2MTdfMmZkNzg2ZWQtM2QwNi00N2QzLThiNDItMzUwNDUwMzIzZDQz",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格区域",
+                    "id": "VnNSdWxlLTE="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDE0MjYxN18yZmQ3ODZlZC0zZDA2LTQ3ZDMtOGI0Mi0zNTA0NTAzMjNkNDM6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDI5NThfYmI4NmNlOTktNTI4OC00NmI0LWEwYWQtZWIyM2VmNTlkMGQ2" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDIxMDdfMmNmN2FiYTctYTNmYi00YWQzLThmMjEtZjRlNzk0NzYxOWJm" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDIxMDdfMmNmN2FiYTctYTNmYi00YWQzLThmMjEtZjRlNzk0NzYxOWJm",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格区域",
+                    "id": "VnNSdWxlLTE="
+                  },
+                  "vsStage": {
+                    "name": "温泉花大峡谷",
+                    "id": "VnNTdGFnZS0x",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800\u0026Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDE0MjEwN18yY2Y3YWJhNy1hM2ZiLTRhZDMtOGYyMS1mNGU3OTQ3NjE5YmY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDI2MTdfMmZkNzg2ZWQtM2QwNi00N2QzLThiNDItMzUwNDUwMzIzZDQz" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzM0MDVfZmI5MzZiOWUtMjI5ZS00Mzc4LWFkZmUtYmNjNTg1NTc0OGI0" }
+                }
+              ]
+            }
+          },
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 3,
+              "loseCount": 3,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "FAILED",
+              "isPromo": false,
+              "isUdemaeUp": false,
+              "udemaeAfter": "S+11",
+              "earnedUdemaePoint": 235
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzM0MDVfZmI5MzZiOWUtMjI5ZS00Mzc4LWFkZmUtYmNjNTg1NTc0OGI0",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800\u0026Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEzMzQwNV9mYjkzNmI5ZS0yMjllLTQzNzgtYWRmZS1iY2M1ODU1NzQ4YjQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxNDIxMDdfMmNmN2FiYTctYTNmYi00YWQzLThmMjEtZjRlNzk0NzYxOWJm" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzI4NDdfOWYxOWM2YzItYmU2Mi00NjQzLTkyM2MtZWNlYjkwNzlkNzVl" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzI4NDdfOWYxOWM2YzItYmU2Mi00NjQzLTkyM2MtZWNlYjkwNzlkNzVl",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800\u0026Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加 仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEzMjg0N185ZjE5YzZjMi1iZTYyLTQ2NDMtOTIzYy1lY2ViOTA3OWQ3NWU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzM0MDVfZmI5MzZiOWUtMjI5ZS00Mzc4LWFkZmUtYmNjNTg1NTc0OGI0" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzIwMTZfYmY5Y2I3NzMtMjgyNy00ZGRiLWIyNTktM2EyMTdiNWI4Njdk" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzIwMTZfYmY5Y2I3NzMtMjgyNy00ZGRiLWIyNTktM2EyMTdiNWI4Njdk",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "鱼肉碎金属",
+                    "id": "VnNTdGFnZS02",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/de1f212e9ff0648f36cd3b8e0917ef36b3bd51445159297dcb948f34a09f2f05_3.png?Expires=1673308800\u0026Signature=AjXAbtuRslIkEIb2MKY83yzUNbKjQWNeZvDLP2fD~Gt-5Zxwu4yfj8f7IB8kU4lcBEaMDqqdtV8YYfaXFQP8UmMnHV7KK4Ctsq~wbpkFWtbIPLMtIMz2GyCfSfINqfNQF577So9HtVcndEdf6P3UACPWBTBFgmbe97kd-HAL~igicpXFC5hfmJtZmmRmmPlyM26kL6zBQIgUsHIi~l87NDIoRLgfH~WLU4u2szWDcuKBgQrNqTWgmbR6d0-ZuUUVN-XFxlnUm82u8O~J5ae~HGGl0gpsykth1F6Z5K2yB6XGy2bca0G6zvhtg8foWX7N9LqSFmzmTK61s3-Dgh2h-w__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEzMjAxNl9iZjljYjc3My0yODI3LTRkZGItYjI1OS0zYTIxN2I1Yjg2N2Q6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 28
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzI4NDdfOWYxOWM2YzItYmU2Mi00NjQzLTkyM2MtZWNlYjkwNzlkNzVl" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzE3MDVfNjA2ZWIzOTktZWRmZi00ZDljLThkMjctMTc5ODUyMmVhNmM5" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzE3MDVfNjA2ZWIzOTktZWRmZi00ZDljLThkMjctMTc5ODUyMmVhNmM5",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "鱼肉碎金属",
+                    "id": "VnNTdGFnZS02",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/de1f212e9ff0648f36cd3b8e0917ef36b3bd51445159297dcb948f34a09f2f05_3.png?Expires=1673308800\u0026Signature=AjXAbtuRslIkEIb2MKY83yzUNbKjQWNeZvDLP2fD~Gt-5Zxwu4yfj8f7IB8kU4lcBEaMDqqdtV8YYfaXFQP8UmMnHV7KK4Ctsq~wbpkFWtbIPLMtIMz2GyCfSfINqfNQF577So9HtVcndEdf6P3UACPWBTBFgmbe97kd-HAL~igicpXFC5hfmJtZmmRmmPlyM26kL6zBQIgUsHIi~l87NDIoRLgfH~WLU4u2szWDcuKBgQrNqTWgmbR6d0-ZuUUVN-XFxlnUm82u8O~J5ae~HGGl0gpsykth1F6Z5K2yB6XGy2bca0G6zvhtg8foWX7N9LqSFmzmTK61s3-Dgh2h-w__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEzMTcwNV82MDZlYjM5OS1lZGZmLTRkOWMtOGQyNy0xNzk4NTIyZWE2Yzk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzIwMTZfYmY5Y2I3NzMtMjgyNy00ZGRiLWIyNTktM2EyMTdiNWI4Njdk" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzExMTZfNzA1MmJmYjktYTAwNS00YzgzLThjNjMtZWZjZmU0NDQzMzdj" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzExMTZfNzA1MmJmYjktYTAwNS00YzgzLThjNjMtZWZjZmU0NDQzMzdj",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "鱼肉碎金属",
+                    "id": "VnNTdGFnZS02",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/de1f212e9ff0648f36cd3b8e0917ef36b3bd51445159297dcb948f34a09f2f05_3.png?Expires=1673308800\u0026Signature=AjXAbtuRslIkEIb2MKY83yzUNbKjQWNeZvDLP2fD~Gt-5Zxwu4yfj8f7IB8kU4lcBEaMDqqdtV8YYfaXFQP8UmMnHV7KK4Ctsq~wbpkFWtbIPLMtIMz2GyCfSfINqfNQF577So9HtVcndEdf6P3UACPWBTBFgmbe97kd-HAL~igicpXFC5hfmJtZmmRmmPlyM26kL6zBQIgUsHIi~l87NDIoRLgfH~WLU4u2szWDcuKBgQrNqTWgmbR6d0-ZuUUVN-XFxlnUm82u8O~J5ae~HGGl0gpsykth1F6Z5K2yB6XGy2bca0G6zvhtg8foWX7N9LqSFmzmTK61s3-Dgh2h-w__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEzMTExNl83MDUyYmZiOS1hMDA1LTRjODMtOGM2My1lZmNmZTQ0NDMzN2M6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzE3MDVfNjA2ZWIzOTktZWRmZi00ZDljLThkMjctMTc5ODUyMmVhNmM5" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzA1NDBfNjQyODdkMDMtMTE0MC00ZjI1LWIxNmItMDdkNjFjYzRjY2Rl" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzA1NDBfNjQyODdkMDMtMTE0MC00ZjI1LWIxNmItMDdkNjFjYzRjY2Rl",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格 塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800\u0026Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEzMDU0MF82NDI4N2QwMy0xMTQwLTRmMjUtYjE2Yi0wN2Q2MWNjNGNjZGU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzExMTZfNzA1MmJmYjktYTAwNS00YzgzLThjNjMtZWZjZmU0NDQzMzdj" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzAwMjBfOTI4MTg1YjQtZWNkYi00MTRjLWI1ZDYtMTIyYjQwYjcwMDM3" }
+                }
+              ]
+            }
+          },
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 3,
+              "loseCount": 3,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "FAILED",
+              "isPromo": false,
+              "isUdemaeUp": false,
+              "udemaeAfter": "S+11",
+              "earnedUdemaePoint": 218
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzAwMjBfOTI4MTg1YjQtZWNkYi00MTRjLWI1ZDYtMTIyYjQwYjcwMDM3",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "鱼肉碎金属",
+                    "id": "VnNTdGFnZS02",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/de1f212e9ff0648f36cd3b8e0917ef36b3bd51445159297dcb948f34a09f2f05_3.png?Expires=1673308800\u0026Signature=AjXAbtuRslIkEIb2MKY83yzUNbKjQWNeZvDLP2fD~Gt-5Zxwu4yfj8f7IB8kU4lcBEaMDqqdtV8YYfaXFQP8UmMnHV7KK4Ctsq~wbpkFWtbIPLMtIMz2GyCfSfINqfNQF577So9HtVcndEdf6P3UACPWBTBFgmbe97kd-HAL~igicpXFC5hfmJtZmmRmmPlyM26kL6zBQIgUsHIi~l87NDIoRLgfH~WLU4u2szWDcuKBgQrNqTWgmbR6d0-ZuUUVN-XFxlnUm82u8O~J5ae~HGGl0gpsykth1F6Z5K2yB6XGy2bca0G6zvhtg8foWX7N9LqSFmzmTK61s3-Dgh2h-w__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEzMDAyMF85MjgxODViNC1lY2RiLTQxNGMtYjVkNi0xMjJiNDBiNzAwMzc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzA1NDBfNjQyODdkMDMtMTE0MC00ZjI1LWIxNmItMDdkNjFjYzRjY2Rl" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjU2MTJfYWZhNDk2ZmEtMzBiZi00ZmQzLWE5NGEtNzYwYmE2ZTM0Zjg4" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjU2MTJfYWZhNDk2ZmEtMzBiZi00ZmQzLWE5NGEtNzYwYmE2ZTM0Zjg4",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800\u0026Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEyNTYxMl9hZmE0OTZmYS0zMGJmLTRmZDMtYTk0YS03NjBiYTZlMzRmODg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMzAwMjBfOTI4MTg1YjQtZWNkYi00MTRjLWI1ZDYtMTIyYjQwYjcwMDM3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjQ5MjZfOTU5NmYzMDQtMzliOS00Yzk5LThhNDYtNjdhZWMzOTVkY2Qw" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjQ5MjZfOTU5NmYzMDQtMzliOS00Yzk5LThhNDYtNjdhZWMzOTVkY2Qw",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "鱼肉碎金属",
+                    "id": "VnNTdGFnZS02",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/de1f212e9ff0648f36cd3b8e0917ef36b3bd51445159297dcb948f34a09f2f05_3.png?Expires=1673308800\u0026Signature=AjXAbtuRslIkEIb2MKY83yzUNbKjQWNeZvDLP2fD~Gt-5Zxwu4yfj8f7IB8kU4lcBEaMDqqdtV8YYfaXFQP8UmMnHV7KK4Ctsq~wbpkFWtbIPLMtIMz2GyCfSfINqfNQF577So9HtVcndEdf6P3UACPWBTBFgmbe97kd-HAL~igicpXFC5hfmJtZmmRmmPlyM26kL6zBQIgUsHIi~l87NDIoRLgfH~WLU4u2szWDcuKBgQrNqTWgmbR6d0-ZuUUVN-XFxlnUm82u8O~J5ae~HGGl0gpsykth1F6Z5K2yB6XGy2bca0G6zvhtg8foWX7N9LqSFmzmTK61s3-Dgh2h-w__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEyNDkyNl85NTk2ZjMwNC0zOWI5LTRjOTktOGE0Ni02N2FlYzM5NWRjZDA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 65
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjU2MTJfYWZhNDk2ZmEtMzBiZi00ZmQzLWE5NGEtNzYwYmE2ZTM0Zjg4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjQ1MDdfY2U1NmU3ZjgtYmY1My00OGU0LWI4ZWYtYWU5YjY5ZDYyYmUz" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjQ1MDdfY2U1NmU3ZjgtYmY1My00OGU0LWI4ZWYtYWU5YjY5ZDYyYmUz",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800\u0026Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEyNDUwN19jZTU2ZTdmOC1iZjUzLTQ4ZTQtYjhlZi1hZTliNjlkNjJiZTM6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjQ5MjZfOTU5NmYzMDQtMzliOS00Yzk5LThhNDYtNjdhZWMzOTVkY2Qw" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjM3MTBfMWY1Zjc4OGUtMzA3NS00MGQwLWIzOGItNGViNzk5Yjk4NzI4" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjM3MTBfMWY1Zjc4OGUtMzA3NS00MGQwLWIzOGItNGViNzk5Yjk4NzI4",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "鱼肉碎金属",
+                    "id": "VnNTdGFnZS02",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/de1f212e9ff0648f36cd3b8e0917ef36b3bd51445159297dcb948f34a09f2f05_3.png?Expires=1673308800\u0026Signature=AjXAbtuRslIkEIb2MKY83yzUNbKjQWNeZvDLP2fD~Gt-5Zxwu4yfj8f7IB8kU4lcBEaMDqqdtV8YYfaXFQP8UmMnHV7KK4Ctsq~wbpkFWtbIPLMtIMz2GyCfSfINqfNQF577So9HtVcndEdf6P3UACPWBTBFgmbe97kd-HAL~igicpXFC5hfmJtZmmRmmPlyM26kL6zBQIgUsHIi~l87NDIoRLgfH~WLU4u2szWDcuKBgQrNqTWgmbR6d0-ZuUUVN-XFxlnUm82u8O~J5ae~HGGl0gpsykth1F6Z5K2yB6XGy2bca0G6zvhtg8foWX7N9LqSFmzmTK61s3-Dgh2h-w__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEyMzcxMF8xZjVmNzg4ZS0zMDc1LTQwZDAtYjM4Yi00ZWI3OTliOTg3Mjg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 65
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjQ1MDdfY2U1NmU3ZjgtYmY1My00OGU0LWI4ZWYtYWU5YjY5ZDYyYmUz" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjI5NDlfODE3ZjkzMjQtMmI2MC00ZjJiLWJkNTQtYTBmMGE4MDFkNWM3" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjI5NDlfODE3ZjkzMjQtMmI2MC00ZjJiLWJkNTQtYTBmMGE4MDFkNWM3",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800\u0026Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEyMjk0OV84MTdmOTMyNC0yYjYwLTRmMmItYmQ1NC1hMGYwYTgwMWQ1Yzc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 82
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjM3MTBfMWY1Zjc4OGUtMzA3NS00MGQwLWIzOGItNGViNzk5Yjk4NzI4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjIzMzNfYzc2NmI5MTItMjVhZC00OGE3LWExOGUtZDRjMmQ3ZmI4OTYy" }
+                }
+              ]
+            }
+          },
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 0,
+              "loseCount": 3,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "FAILED",
+              "isPromo": false,
+              "isUdemaeUp": false,
+              "udemaeAfter": "S+11",
+              "earnedUdemaePoint": 19
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjIzMzNfYzc2NmI5MTItMjVhZC00OGE3LWExOGUtZDRjMmQ3ZmI4OTYy",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "鱼肉碎金属",
+                    "id": "VnNTdGFnZS02",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/de1f212e9ff0648f36cd3b8e0917ef36b3bd51445159297dcb948f34a09f2f05_3.png?Expires=1673308800\u0026Signature=AjXAbtuRslIkEIb2MKY83yzUNbKjQWNeZvDLP2fD~Gt-5Zxwu4yfj8f7IB8kU4lcBEaMDqqdtV8YYfaXFQP8UmMnHV7KK4Ctsq~wbpkFWtbIPLMtIMz2GyCfSfINqfNQF577So9HtVcndEdf6P3UACPWBTBFgmbe97kd-HAL~igicpXFC5hfmJtZmmRmmPlyM26kL6zBQIgUsHIi~l87NDIoRLgfH~WLU4u2szWDcuKBgQrNqTWgmbR6d0-ZuUUVN-XFxlnUm82u8O~J5ae~HGGl0gpsykth1F6Z5K2yB6XGy2bca0G6zvhtg8foWX7N9LqSFmzmTK61s3-Dgh2h-w__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEyMjMzM19jNzY2YjkxMi0yNWFkLTQ4YTctYTE4ZS1kNGMyZDdmYjg5NjI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjI5NDlfODE3ZjkzMjQtMmI2MC00ZjJiLWJkNTQtYTBmMGE4MDFkNWM3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjIwMTZfZGE4YWY5YjAtYThiOC00YjAzLWExZjItMWE0ODY4YzgyNDdj" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjIwMTZfZGE4YWY5YjAtYThiOC00YjAzLWExZjItMWE0ODY4YzgyNDdj",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800\u0026Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEyMjAxNl9kYThhZjliMC1hOGI4LTRiMDMtYTFmMi0xYTQ4NjhjODI0N2M6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjIzMzNfYzc2NmI5MTItMjVhZC00OGE3LWExOGUtZDRjMmQ3ZmI4OTYy" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjEzMjJfZmY5MjlhYjEtYzQxMC00YTkxLTk3N2QtOWQ3MjdmZWZkYWRk" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjEzMjJfZmY5MjlhYjEtYzQxMC00YTkxLTk3N2QtOWQ3MjdmZWZkYWRk",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "鱼肉碎金属",
+                    "id": "VnNTdGFnZS02",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/de1f212e9ff0648f36cd3b8e0917ef36b3bd51445159297dcb948f34a09f2f05_3.png?Expires=1673308800\u0026Signature=AjXAbtuRslIkEIb2MKY83yzUNbKjQWNeZvDLP2fD~Gt-5Zxwu4yfj8f7IB8kU4lcBEaMDqqdtV8YYfaXFQP8UmMnHV7KK4Ctsq~wbpkFWtbIPLMtIMz2GyCfSfINqfNQF577So9HtVcndEdf6P3UACPWBTBFgmbe97kd-HAL~igicpXFC5hfmJtZmmRmmPlyM26kL6zBQIgUsHIi~l87NDIoRLgfH~WLU4u2szWDcuKBgQrNqTWgmbR6d0-ZuUUVN-XFxlnUm82u8O~J5ae~HGGl0gpsykth1F6Z5K2yB6XGy2bca0G6zvhtg8foWX7N9LqSFmzmTK61s3-Dgh2h-w__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDEyMTMyMl9mZjkyOWFiMS1jNDEwLTRhOTEtOTc3ZC05ZDcyN2ZlZmRhZGQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 47
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjIwMTZfZGE4YWY5YjAtYThiOC00YjAzLWExZjItMWE0ODY4YzgyNDdj" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTM2NTdfMGJlNTcyOTMtZDU3Mi00MTViLWJmNTMtZDk3ZWI2NGU2NjA1" }
+                }
+              ]
+            }
+          },
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 5,
+              "loseCount": 2,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "SUCCEEDED",
+              "isPromo": false,
+              "isUdemaeUp": false,
+              "udemaeAfter": "S+11",
+              "earnedUdemaePoint": 369
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTM2NTdfMGJlNTcyOTMtZDU3Mi00MTViLWJmNTMtZDk3ZWI2NGU2NjA1",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": " 真 格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA5MzY1N18wYmU1NzI5My1kNTcyLTQxNWItYmY1My1kOTdlYjY0ZTY2MDU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 77
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQxMjEzMjJfZmY5MjlhYjEtYzQxMC00YTkxLTk3N2QtOWQ3MjdmZWZkYWRk" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTI5NThfNjhjMzZmZTMtMGVlZi00NTA3LWI5YWYtOWVhY2JlYWI4MzVk" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTI5NThfNjhjMzZmZTMtMGVlZi00NTA3LWI5YWYtOWVhY2JlYWI4MzVk",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加 仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA5Mjk1OF82OGMzNmZlMy0wZWVmLTQ1MDctYjlhZi05ZWFjYmVhYjgzNWQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 65
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTM2NTdfMGJlNTcyOTMtZDU3Mi00MTViLWJmNTMtZDk3ZWI2NGU2NjA1" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTI1MzdfY2U2OGYyYTMtZjgxMS00ZGNmLWIyYWEtYzQ3ZDY4NTk0YWEw" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTI1MzdfY2U2OGYyYTMtZjgxMS00ZGNmLWIyYWEtYzQ3ZDY4NTk0YWEw",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造 船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA5MjUzN19jZTY4ZjJhMy1mODExLTRkY2YtYjJhYS1jNDdkNjg1OTRhYTA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTI5NThfNjhjMzZmZTMtMGVlZi00NTA3LWI5YWYtOWVhY2JlYWI4MzVk" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTE4NDFfYTUxNmU0ZjMtZjkwMS00Yzc2LWI1MTMtNmI4NGJkYmI3NWNk" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTE4NDFfYTUxNmU0ZjMtZjkwMS00Yzc2LWI1MTMtNmI4NGJkYmI3NWNk",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA5MTg0MV9hNTE2ZTRmMy1mOTAxLTRjNzYtYjUxMy02Yjg0YmRiYjc1Y2Q6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 29
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTI1MzdfY2U2OGYyYTMtZjgxMS00ZGNmLWIyYWEtYzQ3ZDY4NTk0YWEw" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTExNDdfZmEwMjllMzQtMjA0OC00ZWEyLWFkODMtMmNlOGI1NDNiZTc5" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTExNDdfZmEwMjllMzQtMjA0OC00ZWEyLWFkODMtMmNlOGI1NDNiZTc5",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造 船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA5MTE0N19mYTAyOWUzNC0yMDQ4LTRlYTItYWQ4My0yY2U4YjU0M2JlNzk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 48
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTE4NDFfYTUxNmU0ZjMtZjkwMS00Yzc2LWI1MTMtNmI4NGJkYmI3NWNk" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTA4NTdfNGI3OGJhMWMtNTJlZS00ZTIzLWFhZTYtYzFlMGI0ZDYxNzE5" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTA4NTdfNGI3OGJhMWMtNTJlZS00ZTIzLWFhZTYtYzFlMGI0ZDYxNzE5",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA5MDg1N180Yjc4YmExYy01MmVlLTRlMjMtYWFlNi1jMWUwYjRkNjE3MTk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 100
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTExNDdfZmEwMjllMzQtMjA0OC00ZWEyLWFkODMtMmNlOGI1NDNiZTc5" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODU5NTFfNDhlMzYyNmEtMDg4OS00M2MxLTk2NTEtNjAxZWJkNDQ2MDlj" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODU5NTFfNDhlMzYyNmEtMDg4OS00M2MxLTk2NTEtNjAxZWJkNDQ2MDlj",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA4NTk1MV80OGUzNjI2YS0wODg5LTQzYzEtOTY1MS02MDFlYmQ0NDYwOWM6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 63
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwOTA4NTdfNGI3OGJhMWMtNTJlZS00ZTIzLWFhZTYtYzFlMGI0ZDYxNzE5" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODUyMzhfODBiNzVhNTYtMjhhZC00NWQ3LWFiYTItYzZmNDZlZTQyOGZl" }
+                }
+              ]
+            }
+          },
+          {
+            "bankaraMatchChallenge": {
+              "winCount": 1,
+              "loseCount": 3,
+              "maxWinCount": 5,
+              "maxLoseCount": 3,
+              "state": "FAILED",
+              "isPromo": false,
+              "isUdemaeUp": false,
+              "udemaeAfter": "S+11",
+              "earnedUdemaePoint": 79
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODUyMzhfODBiNzVhNTYtMjhhZC00NWQ3LWFiYTItYzZmNDZlZTQyOGZl",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA4NTIzOF84MGI3NWE1Ni0yOGFkLTQ1ZDctYWJhMi1jNmY0NmVlNDI4ZmU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 74
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODU5NTFfNDhlMzYyNmEtMDg4OS00M2MxLTk2NTEtNjAxZWJkNDQ2MDlj" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODQ4MDFfZDc0YTE5NDMtYzJmOC00ODliLTgwZjUtOGRhMzViNTQ4NjM5" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODQ4MDFfZDc0YTE5NDMtYzJmOC00ODliLTgwZjUtOGRhMzViNTQ4NjM5",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA4NDgwMV9kNzRhMTk0My1jMmY4LTQ4OWItODBmNS04ZGEzNWI1NDg2Mzk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 0
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODUyMzhfODBiNzVhNTYtMjhhZC00NWQ3LWFiYTItYzZmNDZlZTQyOGZl" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODQwNTlfMjgyZDM1ZjEtNGE4My00YjIyLWI5M2ItMzcyZjFjNTRhYWRl" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODQwNTlfMjgyZDM1ZjEtNGE4My00YjIyLWI5M2ItMzcyZjFjNTRhYWRl",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA4NDA1OV8yODJkMzVmMS00YTgzLTRiMjItYjkzYi0zNzJmMWM1NGFhZGU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 50
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODQ4MDFfZDc0YTE5NDMtYzJmOC00ODliLTgwZjUtOGRhMzViNTQ4NjM5" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODM0MDRfMjFjMTE5MDItMTYwZS00YTFjLWFjY2EtMGI1OGM1ZmRhYWNj" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODM0MDRfMjFjMTE5MDItMTYwZS00YTFjLWFjY2EtMGI1OGM1ZmRhYWNj",
+                  "vsMode": {
+                    "mode": "BANKARA",
+                    "id": "VnNNb2RlLTI="
+                  },
+                  "vsRule": {
+                    "name": "真格蛤蜊",
+                    "id": "VnNSdWxlLTQ="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "EXEMPTED_LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": ".52加仑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/01e8399a3c56707b6e9f7500d3d583ba1d400eec06449d8fe047cda1956a4ccc_1.png?Expires=1673308800\u0026Signature=QZNgnd8efJkFBJMuaa~caeasLLUy3AzhrDZMio1nR4RhvosWiYidWhiaVEuPKm0HIlx~DR8JKSzL0LWC1fCG33ejeWwwLU8zNdsX8UUq62IUBDQ8IKe6l~TB-8tHXf2XBtjoCQsKZ67eUlFLdosg33DGgJ14WS2FQFCM-SzGHbBlRmcEy-eOJ8cIwTbq02ZW5nwahVJ9xwRWaRG5ttemVRSjJXVGVLpfkWH5blaQxZRUtLddPbYrm2u3Tk87gPOlt3MFFQq8oc4QAqAoz-IpdNE3-dHpjvcfMZ8Ar8-wiYGTApyqPG2tS7txvs2MzBAng-WIiaTYxvsGOpFdsPZK8Q__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpCQU5LQVJBOjIwMjIxMTA2VDA4MzQwNF8yMWMxMTkwMi0xNjBlLTRhMWMtYWNjYS0wYjU4YzVmZGFhY2M6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": null,
+                      "paintRatio": null,
+                      "score": 20
+                    }
+                  },
+                  "udemae": "S+11",
+                  "bankaraMatch": { "earnedUdemaePoint": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06QkFOS0FSQToyMDIyMTEwNlQwODQwNTlfMjgyZDM1ZjEtNGE4My00YjIyLWI5M2ItMzcyZjFjNTRhYWRl" },
+                  "previousHistoryDetail": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

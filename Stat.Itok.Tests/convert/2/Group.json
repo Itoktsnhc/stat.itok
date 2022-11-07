@@ -1,0 +1,409 @@
+﻿{
+  "historyDetails": {
+    "nodes": [
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODI3MDlfM2IxZTQzNzEtMmI2MS00YjE3LThiZTctMTgxNTVmYzA2YzMy",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T08:27:09Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "金眼鲷美术馆",
+          "id": "VnNTdGFnZS0xMQ==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800&Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_1.png?Expires=1673308800&Signature=q-phYF~QX8XIbivJcEx4x7ERi1O2e-Bc9mV67duJ36As-lTd0PKalXX6JsD5XDQ-jAHxeAoxG~kwGqhDheuTD2WxVK73QdpOis42wZKDK5YwBKgMLZByr4-H6QdeY8WYgntvy6kBeo3bj~MQCBZ5tNOCpf--qStMyBqUL1N6LFydjXbmPbqqfAfoG4F0ojrRzer0bEDNF~edUJRq664nOp3-j4AK-iDBf5gHctFBivEwNtpd69Dz9AE4XcE15yCWK4x-jJ5nNPMu6XSM4xvNFA7qrMcDIBbjEr8tOPkL9oB7ZBS3CNxK47-g2wbTRPddQ59Zy2ndHrdAVRtGFitzBQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTUwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDA4MjcwOV8zYjFlNDM3MS0yYjYxLTRiMTctOGJlNy0xODE1NWZjMDZjMzI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 1079,
+            "paintRatio": 0.436,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": null,
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODIxNTRfZDIzZWUwMDEtNGNhYi00ZGViLWJlOWEtMWZkNjQzMzdhNjVk"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODIxNTRfZDIzZWUwMDEtNGNhYi00ZGViLWJlOWEtMWZkNjQzMzdhNjVk",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T08:21:54Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "鬼头刀SPA度假区",
+          "id": "VnNTdGFnZS0xMg==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8273118c1ffe1bf6fe031c7d8c9795dab52632c9b76e8e9f01f644ac5ae0ccc0_3.png?Expires=1673308800&Signature=Lumwey73bX1rXnHbCOpctRjiqtfQUhtmcMiPhyelURQOrBHRh-hoRHEgSxQ-qU3brVVdYvNZmgTCo4UO68J2iBvACrzT5qeZTlhRp0P9ofTDBjY5bCAMjTBQysc7CEwNDu6169cinpqZPhCaC2zdbStryxYFyp1y92G~OkY1ImfQZF-mDyToy6b1ddl6j7LfiyTG5BxMpcNJGKc5qhLn6mrNWjzp9M3lImFqLOMDbmFWqKq0gukGIcNtCYCbZVXOZx7RqFbhwZT4zQPp7t5Ox1ZtaG0C8hVeTXj9cM3hWZOhGBw~za43BXnzQ7wOMPN2wjE-bX~XDPEZ9N0lalyinw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "四重弹跳手枪 黑",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e68609e51d30dfb13e1ea996e46995ed1f7cf561caef0fe96314966d0a039109_1.png?Expires=1673308800&Signature=iwaeTb-ipglI9EBxxa8qONA5eqWgyaAHatjKLInDxG6ZX5ClthmtCUeiGXQaX~Eg9liv5Qn5aEmgyU4zJd5B7aIru8PW5l4abKjZYcx4aDGxDuirZujrA-Ez0O87tnfQri-KMj0riKdvQUYffgwJKepeYQP2BztHXJLK15nvMPO9niTOb28AQ3Xv99ZO3VaRfry581qICo5Ols94nNJhf1zQUYvy52G1JRUGxvcgZIL-9wNWTsonJoH-TkmEGCgHngurBGkGuNjdrTnvehb5u8JXS5eiYegPXIapQVSLoFvdBkSKXjCXx3OunIP0MAX~Ys7iYs25B~uGcXwne99kvQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTUwNDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDA4MjE1NF9kMjNlZTAwMS00Y2FiLTRkZWItYmU5YS0xZmQ2NDMzN2E2NWQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 439,
+            "paintRatio": 0.258,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODI3MDlfM2IxZTQzNzEtMmI2MS00YjE3LThiZTctMTgxNTVmYzA2YzMy"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODEzNDdfZTNhZGI0NDQtMTAxNS00ZjU1LThiZTMtMjdlMWMzNjdmZmJk"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODEzNDdfZTNhZGI0NDQtMTAxNS00ZjU1LThiZTMtMjdlMWMzNjdmZmJk",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T08:13:47Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "鬼头刀SPA度假区",
+          "id": "VnNTdGFnZS0xMg==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8273118c1ffe1bf6fe031c7d8c9795dab52632c9b76e8e9f01f644ac5ae0ccc0_3.png?Expires=1673308800&Signature=Lumwey73bX1rXnHbCOpctRjiqtfQUhtmcMiPhyelURQOrBHRh-hoRHEgSxQ-qU3brVVdYvNZmgTCo4UO68J2iBvACrzT5qeZTlhRp0P9ofTDBjY5bCAMjTBQysc7CEwNDu6169cinpqZPhCaC2zdbStryxYFyp1y92G~OkY1ImfQZF-mDyToy6b1ddl6j7LfiyTG5BxMpcNJGKc5qhLn6mrNWjzp9M3lImFqLOMDbmFWqKq0gukGIcNtCYCbZVXOZx7RqFbhwZT4zQPp7t5Ox1ZtaG0C8hVeTXj9cM3hWZOhGBw~za43BXnzQ7wOMPN2wjE-bX~XDPEZ9N0lalyinw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "四重弹跳手枪 黑",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e68609e51d30dfb13e1ea996e46995ed1f7cf561caef0fe96314966d0a039109_1.png?Expires=1673308800&Signature=iwaeTb-ipglI9EBxxa8qONA5eqWgyaAHatjKLInDxG6ZX5ClthmtCUeiGXQaX~Eg9liv5Qn5aEmgyU4zJd5B7aIru8PW5l4abKjZYcx4aDGxDuirZujrA-Ez0O87tnfQri-KMj0riKdvQUYffgwJKepeYQP2BztHXJLK15nvMPO9niTOb28AQ3Xv99ZO3VaRfry581qICo5Ols94nNJhf1zQUYvy52G1JRUGxvcgZIL-9wNWTsonJoH-TkmEGCgHngurBGkGuNjdrTnvehb5u8JXS5eiYegPXIapQVSLoFvdBkSKXjCXx3OunIP0MAX~Ys7iYs25B~uGcXwne99kvQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTUwNDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDA4MTM0N19lM2FkYjQ0NC0xMDE1LTRmNTUtOGJlMy0yN2UxYzM2N2ZmYmQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 885,
+            "paintRatio": 0.521,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODIxNTRfZDIzZWUwMDEtNGNhYi00ZGViLWJlOWEtMWZkNjQzMzdhNjVk"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODA4NTlfZjczYzEwOTctNGQ2Ni00ODRjLWI0YmMtNThmYTdmYjY0NWJh"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODA4NTlfZjczYzEwOTctNGQ2Ni00ODRjLWI0YmMtNThmYTdmYjY0NWJh",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T08:08:59Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "鬼头刀SPA度假区",
+          "id": "VnNTdGFnZS0xMg==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8273118c1ffe1bf6fe031c7d8c9795dab52632c9b76e8e9f01f644ac5ae0ccc0_3.png?Expires=1673308800&Signature=Lumwey73bX1rXnHbCOpctRjiqtfQUhtmcMiPhyelURQOrBHRh-hoRHEgSxQ-qU3brVVdYvNZmgTCo4UO68J2iBvACrzT5qeZTlhRp0P9ofTDBjY5bCAMjTBQysc7CEwNDu6169cinpqZPhCaC2zdbStryxYFyp1y92G~OkY1ImfQZF-mDyToy6b1ddl6j7LfiyTG5BxMpcNJGKc5qhLn6mrNWjzp9M3lImFqLOMDbmFWqKq0gukGIcNtCYCbZVXOZx7RqFbhwZT4zQPp7t5Ox1ZtaG0C8hVeTXj9cM3hWZOhGBw~za43BXnzQ7wOMPN2wjE-bX~XDPEZ9N0lalyinw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "EXEMPTED_LOSE",
+        "player": {
+          "weapon": {
+            "name": "四重弹跳手枪 黑",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e68609e51d30dfb13e1ea996e46995ed1f7cf561caef0fe96314966d0a039109_1.png?Expires=1673308800&Signature=iwaeTb-ipglI9EBxxa8qONA5eqWgyaAHatjKLInDxG6ZX5ClthmtCUeiGXQaX~Eg9liv5Qn5aEmgyU4zJd5B7aIru8PW5l4abKjZYcx4aDGxDuirZujrA-Ez0O87tnfQri-KMj0riKdvQUYffgwJKepeYQP2BztHXJLK15nvMPO9niTOb28AQ3Xv99ZO3VaRfry581qICo5Ols94nNJhf1zQUYvy52G1JRUGxvcgZIL-9wNWTsonJoH-TkmEGCgHngurBGkGuNjdrTnvehb5u8JXS5eiYegPXIapQVSLoFvdBkSKXjCXx3OunIP0MAX~Ys7iYs25B~uGcXwne99kvQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTUwNDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDA4MDg1OV9mNzNjMTA5Ny00ZDY2LTQ4NGMtYjRiYy01OGZhN2ZiNjQ1YmE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 648,
+            "paintRatio": 0.381,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODEzNDdfZTNhZGI0NDQtMTAxNS00ZjU1LThiZTMtMjdlMWMzNjdmZmJk"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODAzNTVfNTQ3MjJkMGYtYzM4YS00N2YwLWJkOWUtYzY1OGUzZjkxMjk0"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODAzNTVfNTQ3MjJkMGYtYzM4YS00N2YwLWJkOWUtYzY1OGUzZjkxMjk0",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T08:03:55Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "金眼鲷美术馆",
+          "id": "VnNTdGFnZS0xMQ==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1673308800&Signature=sP5BuAV2hEnms4KAWUdScnan0gpKrYUzvtHzoxhQziJTZ3pgmWsCOfl-luevCayTRSUEgokNlxbnWeIFa~gZw8tIcgIq4crS4qpHzgdoEVw~4PTDRo24W9y62v1YL83dASIeklNLzJ--RcSUzaXoDIS2VOpCdTRrRw-mK2WoXxLsDYbkJZ2f1sPHc4Bknq7NULewWxNMBa9E9R6Fsm1tfuOZEt5a0i9VNoszrKyQ09mlTn3jbZkDCxlusrlhemdRprNmkN--B-S7qDb6oKcmeF5XELN2j08QtsBl~K~cadS8EHZB7h7oIPUVvoSw5tQArDDR71rcxQ~4hI-ODwVozQ__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "四重弹跳手枪 黑",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e68609e51d30dfb13e1ea996e46995ed1f7cf561caef0fe96314966d0a039109_1.png?Expires=1673308800&Signature=iwaeTb-ipglI9EBxxa8qONA5eqWgyaAHatjKLInDxG6ZX5ClthmtCUeiGXQaX~Eg9liv5Qn5aEmgyU4zJd5B7aIru8PW5l4abKjZYcx4aDGxDuirZujrA-Ez0O87tnfQri-KMj0riKdvQUYffgwJKepeYQP2BztHXJLK15nvMPO9niTOb28AQ3Xv99ZO3VaRfry581qICo5Ols94nNJhf1zQUYvy52G1JRUGxvcgZIL-9wNWTsonJoH-TkmEGCgHngurBGkGuNjdrTnvehb5u8JXS5eiYegPXIapQVSLoFvdBkSKXjCXx3OunIP0MAX~Ys7iYs25B~uGcXwne99kvQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTUwNDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDA4MDM1NV81NDcyMmQwZi1jMzhhLTQ3ZjAtYmQ5ZS1jNjU4ZTNmOTEyOTQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 1033,
+            "paintRatio": 0.418,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODA4NTlfZjczYzEwOTctNGQ2Ni00ODRjLWI0YmMtNThmYTdmYjY0NWJh"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzQxMjdfZDBlY2I2YzctNmY4YS00ZDRhLWI4MDYtYjUxOGFjOGQwMDdh"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzQxMjdfZDBlY2I2YzctNmY4YS00ZDRhLWI4MDYtYjUxOGFjOGQwMDdh",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T03:41:27Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "真鲭跨海大桥",
+          "id": "VnNTdGFnZS0xMA==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/1db8ab338b64b464df50e7f9e270e59423ff8caac6f09679a24f1b7acf3a82f3_3.png?Expires=1673308800&Signature=eZ5fzAPncKJUXbWJoLehnrS-4pamEplX8ShZMKibYhcalp8RNWby2QTaR5uGxkWhmymtgoagLah57QoEiZCNuYmFKk6YaDfQNM~LjgZbym2Xkgao~faZ3bsVtj8rWNlEDxo7xzINMb0aLtS-akUr1vaJGJvvIPTCLKFou7T8hL190GSw7IGZByj~qAIxp6g1I4loPQeUiuY4QJN3kqikB-QD5lsdJItfip2SrRJJiBxNQU0AuajB4BF4D6OEq1T~dViRGdWKuFXy2c5amS4DjeJK0O63lsMURal2QxKJomTpeZfKDQH1-k7Phg-paiBTJam6g4XlNvhpCekYywUJWg__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "LACT-450",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/9baac6cc774d0e6f2ac8f6e217d700e6f1f47320130598c5f1e922210ccdcc89_1.png?Expires=1673308800&Signature=inFqoshW5ErCcJUCY4nVRlB4amWsrrpS1jl1HULnCUsN9W9ddl-B2tYy0CQdNwC6vjcBezLdM2KqNT2Cbe5~AiQHG9URdoexka~3rG8~y~pdbR~odKu50~1D4OTDPbjIYX55vuM5nW3rrATWygAxvt7418nBLFbhwRY1sxAA2FKdMadITre~xrZkr3Jg80kYL6dLIpS74pxfccd9D8mFMRLQPp9nUWzWiGK6b23HniBB5BxAbGZmpJtpK1A9H5iTkx48dgGP2mI2KYxe7O3FfHCk2hS0dQb5wTCeh6dxpP6PI2Flmbgm53jhwlbdetNfIYQPqIgMaZIhJiWhzTqTkQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTcwMjA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDAzNDEyN19kMGVjYjZjNy02ZjhhLTRkNGEtYjgwNi1iNTE4YWM4ZDAwN2E6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 951,
+            "paintRatio": 0.382,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwODAzNTVfNTQ3MjJkMGYtYzM4YS00N2YwLWJkOWUtYzY1OGUzZjkxMjk0"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzM2MDFfMzA4MjFhZTMtOGExZi00M2YyLWExNTYtYWQ5ZDNjYTdiMjAw"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzM2MDFfMzA4MjFhZTMtOGExZi00M2YyLWExNTYtYWQ5ZDNjYTdiMjAw",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T03:36:01Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "真鲭跨海大桥",
+          "id": "VnNTdGFnZS0xMA==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/1db8ab338b64b464df50e7f9e270e59423ff8caac6f09679a24f1b7acf3a82f3_3.png?Expires=1673308800&Signature=eZ5fzAPncKJUXbWJoLehnrS-4pamEplX8ShZMKibYhcalp8RNWby2QTaR5uGxkWhmymtgoagLah57QoEiZCNuYmFKk6YaDfQNM~LjgZbym2Xkgao~faZ3bsVtj8rWNlEDxo7xzINMb0aLtS-akUr1vaJGJvvIPTCLKFou7T8hL190GSw7IGZByj~qAIxp6g1I4loPQeUiuY4QJN3kqikB-QD5lsdJItfip2SrRJJiBxNQU0AuajB4BF4D6OEq1T~dViRGdWKuFXy2c5amS4DjeJK0O63lsMURal2QxKJomTpeZfKDQH1-k7Phg-paiBTJam6g4XlNvhpCekYywUJWg__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "LACT-450",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/9baac6cc774d0e6f2ac8f6e217d700e6f1f47320130598c5f1e922210ccdcc89_1.png?Expires=1673308800&Signature=inFqoshW5ErCcJUCY4nVRlB4amWsrrpS1jl1HULnCUsN9W9ddl-B2tYy0CQdNwC6vjcBezLdM2KqNT2Cbe5~AiQHG9URdoexka~3rG8~y~pdbR~odKu50~1D4OTDPbjIYX55vuM5nW3rrATWygAxvt7418nBLFbhwRY1sxAA2FKdMadITre~xrZkr3Jg80kYL6dLIpS74pxfccd9D8mFMRLQPp9nUWzWiGK6b23HniBB5BxAbGZmpJtpK1A9H5iTkx48dgGP2mI2KYxe7O3FfHCk2hS0dQb5wTCeh6dxpP6PI2Flmbgm53jhwlbdetNfIYQPqIgMaZIhJiWhzTqTkQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTcwMjA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDAzMzYwMV8zMDgyMWFlMy04YTFmLTQzZjItYTE1Ni1hZDlkM2NhN2IyMDA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 842,
+            "paintRatio": 0.338,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzQxMjdfZDBlY2I2YzctNmY4YS00ZDRhLWI4MDYtYjUxOGFjOGQwMDdh"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzMxMDdfY2VlM2Y4ZTQtNzJjZS00YTkzLWFhNzItNDkwN2IwYTMyN2E3"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzMxMDdfY2VlM2Y4ZTQtNzJjZS00YTkzLWFhNzItNDkwN2IwYTMyN2E3",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T03:31:07Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "温泉花大峡谷",
+          "id": "VnNTdGFnZS0x",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800&Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "LACT-450",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/9baac6cc774d0e6f2ac8f6e217d700e6f1f47320130598c5f1e922210ccdcc89_1.png?Expires=1673308800&Signature=inFqoshW5ErCcJUCY4nVRlB4amWsrrpS1jl1HULnCUsN9W9ddl-B2tYy0CQdNwC6vjcBezLdM2KqNT2Cbe5~AiQHG9URdoexka~3rG8~y~pdbR~odKu50~1D4OTDPbjIYX55vuM5nW3rrATWygAxvt7418nBLFbhwRY1sxAA2FKdMadITre~xrZkr3Jg80kYL6dLIpS74pxfccd9D8mFMRLQPp9nUWzWiGK6b23HniBB5BxAbGZmpJtpK1A9H5iTkx48dgGP2mI2KYxe7O3FfHCk2hS0dQb5wTCeh6dxpP6PI2Flmbgm53jhwlbdetNfIYQPqIgMaZIhJiWhzTqTkQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTcwMjA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDAzMzEwN19jZWUzZjhlNC03MmNlLTRhOTMtYWE3Mi00OTA3YjBhMzI3YTc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 1233,
+            "paintRatio": 0.574,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzM2MDFfMzA4MjFhZTMtOGExZi00M2YyLWExNTYtYWQ5ZDNjYTdiMjAw"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzI2MTVfMDE4MjZmNzEtNjA4Ni00OWQ0LWJlNmItNDYyYTViNGYxODNj"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzI2MTVfMDE4MjZmNzEtNjA4Ni00OWQ0LWJlNmItNDYyYTViNGYxODNj",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTc="
+        },
+        "playedTime": "2022-11-13T03:26:15Z",
+        "vsRule": {
+          "name": "占地对战",
+          "id": "VnNSdWxlLTA="
+        },
+        "vsStage": {
+          "name": "温泉花大峡谷",
+          "id": "VnNTdGFnZS0x",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800&Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "LACT-450",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/9baac6cc774d0e6f2ac8f6e217d700e6f1f47320130598c5f1e922210ccdcc89_1.png?Expires=1673308800&Signature=inFqoshW5ErCcJUCY4nVRlB4amWsrrpS1jl1HULnCUsN9W9ddl-B2tYy0CQdNwC6vjcBezLdM2KqNT2Cbe5~AiQHG9URdoexka~3rG8~y~pdbR~odKu50~1D4OTDPbjIYX55vuM5nW3rrATWygAxvt7418nBLFbhwRY1sxAA2FKdMadITre~xrZkr3Jg80kYL6dLIpS74pxfccd9D8mFMRLQPp9nUWzWiGK6b23HniBB5BxAbGZmpJtpK1A9H5iTkx48dgGP2mI2KYxe7O3FfHCk2hS0dQb5wTCeh6dxpP6PI2Flmbgm53jhwlbdetNfIYQPqIgMaZIhJiWhzTqTkQ__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTcwMjA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMTEzVDAzMjYxNV8wMTgyNmY3MS02MDg2LTQ5ZDQtYmU2Yi00NjJhNWI0ZjE4M2M6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永远的草派+1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 802,
+            "paintRatio": 0.374,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExM1QwMzMxMDdfY2VlM2Y4ZTQtNzJjZS00YTkzLWFhNzItNDkwN2IwYTMyN2E3"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTExMlQxNDE1MzlfZmE2ZGJkYmEtMGMwYy00YWQ3LWE3NmItN2IxYmQ2ZDEzMGYw"
+        }
+      }
+    ]
+  }
+}

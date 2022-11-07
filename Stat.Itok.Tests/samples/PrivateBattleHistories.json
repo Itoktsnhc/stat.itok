@@ -1,0 +1,17 @@
+{
+  "data": {
+    "privateBattleHistories": {
+      "summary": {
+        "assistAverage": 0.0,
+        "deathAverage": 0.0,
+        "killAverage": 0.0,
+        "lose": 0,
+        "perUnitTimeMinute": 1,
+        "specialAverage": 0.0,
+        "win": 0
+      },
+      "historyGroupsOnlyFirst": { "nodes": [] },
+      "historyGroups": { "nodes": [] }
+    }
+  }
+}

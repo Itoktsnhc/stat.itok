@@ -1,0 +1,1119 @@
+﻿[
+  {
+    "test": "no",
+    "uuid": "93abf362-b054-5107-bf1c-b078a988cb86",
+    "image_judge": null,
+    "image_result": null,
+    "image_gear": null,
+    "lobby": "splatfest_challenge",
+    "rule": "nawabari",
+    "stage": "museum",
+    "weapon": "5000",
+    "result": "lose",
+    "knockout": "no",
+    "rank_in_team": 4,
+    "kill": 2,
+    "assist": 1,
+    "kill_or_assist": 3,
+    "death": 7,
+    "special": 1,
+    "inked": 673,
+    "medals": [
+      "助攻数 No.1",
+      "能量站 No.1",
+      "本阵涂墨 No.2"
+    ],
+    "our_team_inked": 3093,
+    "their_team_inked": 3149,
+    "our_team_percent": 43.600,
+    "their_team_percent": 44.400,
+    "our_team_count": null,
+    "their_team_count": null,
+    "level_before": null,
+    "level_after": null,
+    "rank_before": null,
+    "rank_before_s_plus": null,
+    "rank_before_exp": null,
+    "rank_after": null,
+    "rank_after_s_plus": null,
+    "rank_after_exp": null,
+    "rank_exp_change": null,
+    "rank_up_battle": "no",
+    "challenge_win": null,
+    "challenge_lose": null,
+    "fest_power": 1620.93105798707,
+    "fest_dragon": null,
+    "clout_before": null,
+    "clout_after": null,
+    "clout_change": 0,
+    "cash_before": null,
+    "cash_after": null,
+    "our_team_players": [
+      {
+        "me": "no",
+        "rank_in_team": 1,
+        "name": "しろ",
+        "number": "1261",
+        "splashtag_title": "暧昧的蛋",
+        "weapon": "2030",
+        "inked": 1000,
+        "kill": 5,
+        "assist": 0,
+        "kill_or_assist": 5,
+        "death": 4,
+        "special": 3,
+        "gears": {
+          "headgear": {
+            "primary_ability": "ink_saver_main",
+            "secondary_abilities": [
+              "ink_saver_main",
+              "ink_resistance_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "ink_resistance_up",
+              "sub_power_up",
+              "special_saver"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "ink_saver_main",
+            "secondary_abilities": [
+              "ink_saver_main",
+              "ink_recovery_up",
+              "special_saver"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 2,
+        "name": "カマボコ",
+        "number": "7669",
+        "splashtag_title": "传说的鲑鱼卵",
+        "weapon": "4020",
+        "inked": 711,
+        "kill": 3,
+        "assist": 1,
+        "kill_or_assist": 4,
+        "death": 5,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "quick_respawn",
+            "secondary_abilities": [
+              "sub_power_up",
+              "ink_saver_main"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "special_saver"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "quick_respawn",
+            "secondary_abilities": [
+              "ink_saver_main",
+              "quick_respawn"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 3,
+        "name": "メガネまる",
+        "number": "2131",
+        "splashtag_title": "初次的墨汁",
+        "weapon": "8000",
+        "inked": 709,
+        "kill": 3,
+        "assist": 0,
+        "kill_or_assist": 3,
+        "death": 4,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "tenacity",
+            "secondary_abilities": [
+              "sub_resistance_up",
+              "quick_respawn",
+              "intensify_action"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ninja_squid",
+            "secondary_abilities": [
+              "special_charge_up",
+              "ink_resistance_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "quick_respawn",
+            "secondary_abilities": [
+              "run_speed_up",
+              "quick_respawn",
+              "swim_speed_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 4,
+        "name": "Mr.Fish",
+        "number": "4824",
+        "splashtag_title": "真诚的弟弟",
+        "weapon": "5000",
+        "inked": 673,
+        "kill": 2,
+        "assist": 1,
+        "kill_or_assist": 3,
+        "death": 7,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": [
+              "ink_saver_sub",
+              "ink_saver_main",
+              "quick_super_jump"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "swim_speed_up",
+              "ink_resistance_up",
+              "swim_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "quick_super_jump",
+            "secondary_abilities": [
+              "ink_saver_sub"
+            ]
+          }
+        },
+        "disconnected": "no"
+      }
+    ],
+    "their_team_players": [
+      {
+        "me": "no",
+        "rank_in_team": 1,
+        "name": "oue",
+        "number": "2869",
+        "splashtag_title": "蛮颓的年轻人",
+        "weapon": "4010",
+        "inked": 889,
+        "kill": 4,
+        "assist": 2,
+        "kill_or_assist": 6,
+        "death": 2,
+        "special": 3,
+        "gears": {
+          "headgear": {
+            "primary_ability": "run_speed_up",
+            "secondary_abilities": [
+              "ink_saver_main",
+              "special_saver",
+              "swim_speed_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "ink_saver_sub",
+              "run_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "run_speed_up",
+            "secondary_abilities": [
+              "swim_speed_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 2,
+        "name": "りおちゃん",
+        "number": "1571",
+        "splashtag_title": "直播中的幸运儿",
+        "weapon": "5010",
+        "inked": 826,
+        "kill": 6,
+        "assist": 3,
+        "kill_or_assist": 9,
+        "death": 4,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "comeback",
+            "secondary_abilities": [
+              "run_speed_up",
+              "ink_saver_sub",
+              "quick_respawn"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "swim_speed_up",
+              "ink_resistance_up",
+              "ink_saver_sub"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": [
+              "ink_saver_sub",
+              "quick_respawn",
+              "special_charge_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 3,
+        "name": "かにクリームコロッケ",
+        "number": "2664",
+        "splashtag_title": "异世界的守护神",
+        "weapon": "8000",
+        "inked": 784,
+        "kill": 9,
+        "assist": 2,
+        "kill_or_assist": 11,
+        "death": 4,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "quick_respawn",
+            "secondary_abilities": [
+              "ink_saver_main",
+              "ink_saver_main",
+              "ink_saver_main"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "run_speed_up",
+              "ink_resistance_up",
+              "special_power_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "ink_recovery_up",
+            "secondary_abilities": [
+              "special_saver",
+              "special_charge_up",
+              "ink_recovery_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 4,
+        "name": "　け　し　か　す　。",
+        "number": "1459",
+        "splashtag_title": "秋天的最终兵器",
+        "weapon": "2010",
+        "inked": 650,
+        "kill": 1,
+        "assist": 1,
+        "kill_or_assist": 2,
+        "death": 3,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "special_saver",
+            "secondary_abilities": [
+              "ink_recovery_up",
+              "swim_speed_up",
+              "quick_respawn"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": []
+          },
+          "shoes": {
+            "primary_ability": "quick_super_jump",
+            "secondary_abilities": [
+              "sub_resistance_up",
+              "quick_super_jump"
+            ]
+          }
+        },
+        "disconnected": "no"
+      }
+    ],
+    "note": null,
+    "private_note": null,
+    "link_url": null,
+    "agent": "itok.stat",
+    "agent_version": null,
+    "agent_variables": null,
+    "automated": "yes",
+    "start_at": 1668299229,
+    "end_at": 1668299409
+  },
+  {
+    "test": "no",
+    "uuid": "6b5176ef-c6cb-58b9-b34a-3890181a1e2b",
+    "image_judge": null,
+    "image_result": null,
+    "image_gear": null,
+    "lobby": "splatfest_challenge",
+    "rule": "nawabari",
+    "stage": "resort",
+    "weapon": "5040",
+    "result": "lose",
+    "knockout": "no",
+    "rank_in_team": 4,
+    "kill": 2,
+    "assist": 0,
+    "kill_or_assist": 2,
+    "death": 9,
+    "special": 1,
+    "inked": 678,
+    "medals": [
+      "墨汁消耗量 No.1"
+    ],
+    "our_team_inked": 3089,
+    "their_team_inked": 3503,
+    "our_team_percent": 25.800,
+    "their_team_percent": 68.00,
+    "our_team_count": null,
+    "their_team_count": null,
+    "level_before": null,
+    "level_after": null,
+    "rank_before": null,
+    "rank_before_s_plus": null,
+    "rank_before_exp": null,
+    "rank_after": null,
+    "rank_after_s_plus": null,
+    "rank_after_exp": null,
+    "rank_exp_change": null,
+    "rank_up_battle": "no",
+    "challenge_win": null,
+    "challenge_lose": null,
+    "fest_power": 1631.27104983626,
+    "fest_dragon": null,
+    "clout_before": null,
+    "clout_after": null,
+    "clout_change": 0,
+    "cash_before": null,
+    "cash_after": null,
+    "our_team_players": [
+      {
+        "me": "no",
+        "rank_in_team": 1,
+        "name": "pepe",
+        "number": "8679",
+        "splashtag_title": "无臭无味的鲶鱼",
+        "weapon": "300",
+        "inked": 929,
+        "kill": 4,
+        "assist": 1,
+        "kill_or_assist": 5,
+        "death": 6,
+        "special": 3,
+        "gears": {
+          "headgear": {
+            "primary_ability": "ink_saver_main",
+            "secondary_abilities": [
+              "ink_resistance_up",
+              "ink_saver_main",
+              "ink_saver_main"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "special_power_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": [
+              "swim_speed_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 2,
+        "name": "トロ",
+        "number": "3221",
+        "splashtag_title": "幸运的霸者",
+        "weapon": "20",
+        "inked": 787,
+        "kill": 1,
+        "assist": 0,
+        "kill_or_assist": 1,
+        "death": 7,
+        "special": 2,
+        "gears": {
+          "headgear": {
+            "primary_ability": "comeback",
+            "secondary_abilities": [
+              "special_charge_up",
+              "special_charge_up",
+              "special_charge_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "special_charge_up",
+              "sub_power_up",
+              "special_charge_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "quick_respawn",
+            "secondary_abilities": [
+              "quick_respawn",
+              "quick_respawn",
+              "quick_respawn"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 3,
+        "name": "Aoringo",
+        "number": "1196",
+        "splashtag_title": "我是神秘人",
+        "weapon": "60",
+        "inked": 695,
+        "kill": 3,
+        "assist": 1,
+        "kill_or_assist": 4,
+        "death": 8,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "comeback",
+            "secondary_abilities": [
+              "swim_speed_up",
+              "special_saver",
+              "intensify_action"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "ink_saver_sub",
+              "run_speed_up",
+              "ink_resistance_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "stealth_jump",
+            "secondary_abilities": [
+              "intensify_action",
+              "quick_super_jump",
+              "ink_resistance_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 4,
+        "name": "Mr.Fish",
+        "number": "4824",
+        "splashtag_title": "真诚的弟弟",
+        "weapon": "5040",
+        "inked": 678,
+        "kill": 2,
+        "assist": 0,
+        "kill_or_assist": 2,
+        "death": 9,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": [
+              "ink_saver_sub",
+              "ink_saver_main",
+              "quick_super_jump"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "swim_speed_up",
+              "ink_resistance_up",
+              "swim_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "quick_super_jump",
+            "secondary_abilities": [
+              "ink_saver_sub"
+            ]
+          }
+        },
+        "disconnected": "no"
+      }
+    ],
+    "their_team_players": [
+      {
+        "me": "no",
+        "rank_in_team": 1,
+        "name": "あり",
+        "number": "2968",
+        "splashtag_title": "想成为英雄的警卫",
+        "weapon": "60",
+        "inked": 1014,
+        "kill": 8,
+        "assist": 6,
+        "kill_or_assist": 14,
+        "death": 1,
+        "special": 3,
+        "gears": {
+          "headgear": {
+            "primary_ability": "last_ditch_effort",
+            "secondary_abilities": [
+              "intensify_action",
+              "sub_resistance_up",
+              "intensify_action"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "ink_resistance_up",
+              "run_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "stealth_jump",
+            "secondary_abilities": [
+              "ink_saver_main"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 2,
+        "name": "まゆも",
+        "number": "1697",
+        "splashtag_title": "到处乱涂的生活模式",
+        "weapon": "10",
+        "inked": 899,
+        "kill": 4,
+        "assist": 2,
+        "kill_or_assist": 6,
+        "death": 1,
+        "special": 3,
+        "gears": {
+          "headgear": {
+            "primary_ability": "ink_saver_sub",
+            "secondary_abilities": [
+              "quick_super_jump",
+              "ink_saver_main",
+              "special_power_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ninja_squid",
+            "secondary_abilities": [
+              "sub_power_up",
+              "swim_speed_up",
+              "ink_resistance_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "ink_saver_sub",
+            "secondary_abilities": [
+              "sub_power_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 3,
+        "name": "となりのとろろ",
+        "number": "2173",
+        "splashtag_title": "异世界的幸运儿",
+        "weapon": "5000",
+        "inked": 812,
+        "kill": 6,
+        "assist": 6,
+        "kill_or_assist": 12,
+        "death": 5,
+        "special": 2,
+        "gears": {
+          "headgear": {
+            "primary_ability": "ink_saver_main",
+            "secondary_abilities": [
+              "ink_saver_main",
+              "special_power_up",
+              "ink_saver_main"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "ink_saver_sub",
+              "special_saver",
+              "quick_respawn"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "object_shredder",
+            "secondary_abilities": [
+              "quick_super_jump",
+              "ink_saver_sub",
+              "intensify_action"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 4,
+        "name": "らる",
+        "number": "3222",
+        "splashtag_title": "邪恶的残像",
+        "weapon": "40",
+        "inked": 778,
+        "kill": 9,
+        "assist": 4,
+        "kill_or_assist": 13,
+        "death": 3,
+        "special": 2,
+        "gears": {
+          "headgear": {
+            "primary_ability": "ink_saver_sub",
+            "secondary_abilities": [
+              "special_power_up",
+              "swim_speed_up",
+              "run_speed_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "quick_respawn",
+              "sub_power_up",
+              "swim_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": []
+          }
+        },
+        "disconnected": "no"
+      }
+    ],
+    "note": null,
+    "private_note": null,
+    "link_url": null,
+    "agent": "itok.stat",
+    "agent_version": null,
+    "agent_variables": null,
+    "automated": "yes",
+    "start_at": 1668298914,
+    "end_at": 1668299094
+  },
+  {
+    "test": "no",
+    "uuid": "d4ba671e-888c-50ab-a646-e94d9c1e9967",
+    "image_judge": null,
+    "image_result": null,
+    "image_gear": null,
+    "lobby": "splatfest_challenge",
+    "rule": "nawabari",
+    "stage": "resort",
+    "weapon": "5040",
+    "result": "win",
+    "knockout": "no",
+    "rank_in_team": 4,
+    "kill": 6,
+    "assist": 3,
+    "kill_or_assist": 9,
+    "death": 7,
+    "special": 1,
+    "inked": 690,
+    "medals": [
+      "助攻数 No.1",
+      "对战 No.2",
+      "本阵涂墨 No.2"
+    ],
+    "our_team_inked": 3268,
+    "their_team_inked": 2931,
+    "our_team_percent": 52.100,
+    "their_team_percent": 40.400,
+    "our_team_count": null,
+    "their_team_count": null,
+    "level_before": null,
+    "level_after": null,
+    "rank_before": null,
+    "rank_before_s_plus": null,
+    "rank_before_exp": null,
+    "rank_after": null,
+    "rank_after_s_plus": null,
+    "rank_after_exp": null,
+    "rank_exp_change": null,
+    "rank_up_battle": "no",
+    "challenge_win": null,
+    "challenge_lose": null,
+    "fest_power": 1631.8519284515,
+    "fest_dragon": null,
+    "clout_before": null,
+    "clout_after": null,
+    "clout_change": 1614,
+    "cash_before": null,
+    "cash_after": null,
+    "our_team_players": [
+      {
+        "me": "no",
+        "rank_in_team": 1,
+        "name": "えびふらい",
+        "number": "13772",
+        "splashtag_title": "海女美术大学的霸者",
+        "weapon": "30",
+        "inked": 1115,
+        "kill": 2,
+        "assist": 0,
+        "kill_or_assist": 2,
+        "death": 4,
+        "special": 4,
+        "gears": {
+          "headgear": {
+            "primary_ability": "sub_resistance_up",
+            "secondary_abilities": [
+              "intensify_action",
+              "quick_respawn",
+              "special_saver"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "special_saver",
+              "ink_resistance_up",
+              "swim_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "special_charge_up",
+            "secondary_abilities": [
+              "special_charge_up",
+              "quick_respawn",
+              "intensify_action"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 2,
+        "name": "IH.Fuka",
+        "number": "1006",
+        "splashtag_title": "擅长护卫的霸者",
+        "weapon": "40",
+        "inked": 767,
+        "kill": 11,
+        "assist": 1,
+        "kill_or_assist": 12,
+        "death": 4,
+        "special": 2,
+        "gears": {
+          "headgear": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": [
+              "quick_super_jump",
+              "quick_super_jump"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "quick_super_jump"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "run_speed_up",
+            "secondary_abilities": [
+              "quick_super_jump",
+              "quick_super_jump"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 3,
+        "name": "たなかせきずいけん",
+        "number": "6490",
+        "splashtag_title": "全自动的舞者",
+        "weapon": "8010",
+        "inked": 696,
+        "kill": 7,
+        "assist": 2,
+        "kill_or_assist": 9,
+        "death": 6,
+        "special": 2,
+        "gears": {
+          "headgear": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": [
+              "ink_saver_main",
+              "ink_saver_main",
+              "special_power_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "ink_resistance_up",
+              "intensify_action"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "stealth_jump",
+            "secondary_abilities": [
+              "ink_saver_sub",
+              "ink_saver_sub",
+              "sub_power_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 4,
+        "name": "Mr.Fish",
+        "number": "4824",
+        "splashtag_title": "真诚的弟弟",
+        "weapon": "5040",
+        "inked": 690,
+        "kill": 6,
+        "assist": 3,
+        "kill_or_assist": 9,
+        "death": 7,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": [
+              "ink_saver_sub",
+              "ink_saver_main",
+              "quick_super_jump"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "swim_speed_up",
+              "ink_resistance_up",
+              "swim_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "quick_super_jump",
+            "secondary_abilities": []
+          }
+        },
+        "disconnected": "no"
+      }
+    ],
+    "their_team_players": [
+      {
+        "me": "no",
+        "rank_in_team": 1,
+        "name": "とも",
+        "number": "14205",
+        "splashtag_title": "心跳加速的鲑鱼生活",
+        "weapon": "10",
+        "inked": 1090,
+        "kill": 5,
+        "assist": 0,
+        "kill_or_assist": 5,
+        "death": 5,
+        "special": 2,
+        "gears": {
+          "headgear": {
+            "primary_ability": "special_power_up",
+            "secondary_abilities": [
+              "swim_speed_up",
+              "quick_respawn"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "swim_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "drop_roller",
+            "secondary_abilities": [
+              "ink_recovery_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 2,
+        "name": "snoweight",
+        "number": "1214",
+        "splashtag_title": "世纪末的雪人",
+        "weapon": "5000",
+        "inked": 708,
+        "kill": 7,
+        "assist": 2,
+        "kill_or_assist": 9,
+        "death": 8,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "comeback",
+            "secondary_abilities": [
+              "sub_resistance_up",
+              "special_charge_up",
+              "ink_recovery_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "quick_respawn",
+              "swim_speed_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "swim_speed_up",
+            "secondary_abilities": [
+              "sub_resistance_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 3,
+        "name": "みみ。",
+        "number": "2180",
+        "splashtag_title": "大致上是马尾",
+        "weapon": "8000",
+        "inked": 699,
+        "kill": 4,
+        "assist": 0,
+        "kill_or_assist": 4,
+        "death": 6,
+        "special": 1,
+        "gears": {
+          "headgear": {
+            "primary_ability": "last_ditch_effort",
+            "secondary_abilities": [
+              "ink_saver_main",
+              "ink_resistance_up",
+              "sub_power_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "intensify_action",
+              "ink_recovery_up",
+              "intensify_action"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "quick_respawn",
+            "secondary_abilities": [
+              "intensify_action",
+              "ink_recovery_up",
+              "ink_recovery_up"
+            ]
+          }
+        },
+        "disconnected": "no"
+      },
+      {
+        "me": "no",
+        "rank_in_team": 4,
+        "name": "まっひー",
+        "number": "5184",
+        "splashtag_title": "蛮颓的年轻人",
+        "weapon": "30",
+        "inked": 434,
+        "kill": 2,
+        "assist": 1,
+        "kill_or_assist": 3,
+        "death": 9,
+        "special": 0,
+        "gears": {
+          "headgear": {
+            "primary_ability": "ink_recovery_up",
+            "secondary_abilities": [
+              "special_power_up"
+            ]
+          },
+          "clothing": {
+            "primary_ability": "ability_doubler",
+            "secondary_abilities": [
+              "ink_recovery_up"
+            ]
+          },
+          "shoes": {
+            "primary_ability": "special_saver",
+            "secondary_abilities": [
+              "special_saver"
+            ]
+          }
+        },
+        "disconnected": "no"
+      }
+    ],
+    "note": null,
+    "private_note": null,
+    "link_url": null,
+    "agent": "itok.stat",
+    "agent_version": null,
+    "agent_variables": null,
+    "automated": "yes",
+    "start_at": 1668298427,
+    "end_at": 1668298607
+  }
+]

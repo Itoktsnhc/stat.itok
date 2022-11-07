@@ -1,0 +1,1915 @@
+{
+  "data": {
+    "regularBattleHistories": {
+      "summary": {
+        "assistAverage": 1.1041666666666665,
+        "deathAverage": 4.0625,
+        "killAverage": 5.916666666666666,
+        "lose": 26,
+        "perUnitTimeMinute": 3,
+        "specialAverage": 1.9166666666666665,
+        "win": 23
+      },
+      "historyGroupsOnlyFirst": {
+        "nodes": [
+          {
+            "historyDetails": {
+              "nodes": [
+                {
+                  "player": {
+                    "weapon": {
+                      "specialWeapon": {
+                        "maskingImage": {
+                          "width": 100,
+                          "height": 100,
+                          "maskImageUrl": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/special_img/mask/0785cb4979024a83aaa2196e287e232d5d7e4ac959895a650c30ed00fedbc714_4.png?Expires=1673308800\u0026Signature=qufEES3lh~0F7vXptFMWTjojpv5flxpJKfhMWD~K4pYVaMaVJcz69lM2x57WJVJgbtq9~xgxQlgwIJA1em10EB8RFRRXfKBrZUMftSgtOlzjD2CrJYLyV0jSXEUBLdp7NqhUzaywY17iD4c6Q7lbhww8CaSCPh9QA4F~wti71UeHGU5hN-wDhEdVARbRJ93qivaX0E01CrgGE1t4jSXW8EAx28zXj-UcrgsyOA0ZhCv-Cf3F2H5D4U3CvOZHIdlMwgJEQWFf7D0rQT5OG1LyWldh99cvrzc2S9CEeemnZ81iokhGJmjXnhbbq7aICCPQjVjf5zeVUWB72b1kE4oGrQ__\u0026Key-Pair-Id=KNBS2THMRC385",
+                          "overlayImageUrl": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/special_img/overlay/0785cb4979024a83aaa2196e287e232d5d7e4ac959895a650c30ed00fedbc714_5.png?Expires=1673308800\u0026Signature=W2FxpwGdp9N9ekLq4tbmzkP5-rAmZ9f9A48NFbGCenjQbgtKkJQTcm-sdQ6lpdWMtUHyhsiTmR1AefxW~l~H0xIC41tDo6RS-Ehu7cC~a7-QA6C62Y7wLOEP8fVRR71WOktnJVqHmnL6luqk1fyklRfZxZu02UvOYt6qsQCt3XVYn6LGBFMK87rYgcMXjnP9VqPczTsYhHuZOU5b0v9yu9-qpM554qB2MvHM2kKQV7FU5jE3lXrSdImq2aKqWaKm1xlCplmYRH5Vh10MsnEYYZUNM6R34s3KT4JTbTeysr8OQEJgLfgRGFiqJiLjScIJXcD2UEJSqmgyzdTjQJ3xYw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                        },
+                        "id": "U3BlY2lhbFdlYXBvbi0xMw=="
+                      },
+                      "id": "V2VhcG9uLTUwNDA="
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMDA5VDE0MjI1N184OWI0MTk0MC0xZDY5LTQ5YTMtYjJjMy0xOWZmMmFjYTU4ZDE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ=="
+                  },
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDIyNTdfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "historyGroups": {
+        "nodes": [
+          {
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDIyNTdfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx",
+                  "vsMode": {
+                    "mode": "REGULAR",
+                    "id": "VnNNb2RlLTE="
+                  },
+                  "playedTime": "2022-10-09T14:22:57Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "真鲭跨海大桥",
+                    "id": "VnNTdGFnZS0xMA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/1db8ab338b64b464df50e7f9e270e59423ff8caac6f09679a24f1b7acf3a82f3_3.png?Expires=1673308800\u0026Signature=eZ5fzAPncKJUXbWJoLehnrS-4pamEplX8ShZMKibYhcalp8RNWby2QTaR5uGxkWhmymtgoagLah57QoEiZCNuYmFKk6YaDfQNM~LjgZbym2Xkgao~faZ3bsVtj8rWNlEDxo7xzINMb0aLtS-akUr1vaJGJvvIPTCLKFou7T8hL190GSw7IGZByj~qAIxp6g1I4loPQeUiuY4QJN3kqikB-QD5lsdJItfip2SrRJJiBxNQU0AuajB4BF4D6OEq1T~dViRGdWKuFXy2c5amS4DjeJK0O63lsMURal2QxKJomTpeZfKDQH1-k7Phg-paiBTJam6g4XlNvhpCekYywUJWg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "四重弹跳手枪 黑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e68609e51d30dfb13e1ea996e46995ed1f7cf561caef0fe96314966d0a039109_1.png?Expires=1673308800\u0026Signature=iwaeTb-ipglI9EBxxa8qONA5eqWgyaAHatjKLInDxG6ZX5ClthmtCUeiGXQaX~Eg9liv5Qn5aEmgyU4zJd5B7aIru8PW5l4abKjZYcx4aDGxDuirZujrA-Ez0O87tnfQri-KMj0riKdvQUYffgwJKepeYQP2BztHXJLK15nvMPO9niTOb28AQ3Xv99ZO3VaRfry581qICo5Ols94nNJhf1zQUYvy52G1JRUGxvcgZIL-9wNWTsonJoH-TkmEGCgHngurBGkGuNjdrTnvehb5u8JXS5eiYegPXIapQVSLoFvdBkSKXjCXx3OunIP0MAX~Ys7iYs25B~uGcXwne99kvQ__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUwNDA="
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMDA5VDE0MjI1N184OWI0MTk0MC0xZDY5LTQ5YTMtYjJjMy0xOWZmMmFjYTU4ZDE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": null
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 880,
+                      "paintRatio": 0.355,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": null,
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDE4MTRfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDE4MTRfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx",
+                  "vsMode": {
+                    "mode": "REGULAR",
+                    "id": "VnNNb2RlLTE="
+                  },
+                  "playedTime": "2022-10-09T14:18:14Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "真鲭跨海大桥",
+                    "id": "VnNTdGFnZS0xMA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/1db8ab338b64b464df50e7f9e270e59423ff8caac6f09679a24f1b7acf3a82f3_3.png?Expires=1673308800\u0026Signature=eZ5fzAPncKJUXbWJoLehnrS-4pamEplX8ShZMKibYhcalp8RNWby2QTaR5uGxkWhmymtgoagLah57QoEiZCNuYmFKk6YaDfQNM~LjgZbym2Xkgao~faZ3bsVtj8rWNlEDxo7xzINMb0aLtS-akUr1vaJGJvvIPTCLKFou7T8hL190GSw7IGZByj~qAIxp6g1I4loPQeUiuY4QJN3kqikB-QD5lsdJItfip2SrRJJiBxNQU0AuajB4BF4D6OEq1T~dViRGdWKuFXy2c5amS4DjeJK0O63lsMURal2QxKJomTpeZfKDQH1-k7Phg-paiBTJam6g4XlNvhpCekYywUJWg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "四重弹跳手枪 黑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e68609e51d30dfb13e1ea996e46995ed1f7cf561caef0fe96314966d0a039109_1.png?Expires=1673308800\u0026Signature=iwaeTb-ipglI9EBxxa8qONA5eqWgyaAHatjKLInDxG6ZX5ClthmtCUeiGXQaX~Eg9liv5Qn5aEmgyU4zJd5B7aIru8PW5l4abKjZYcx4aDGxDuirZujrA-Ez0O87tnfQri-KMj0riKdvQUYffgwJKepeYQP2BztHXJLK15nvMPO9niTOb28AQ3Xv99ZO3VaRfry581qICo5Ols94nNJhf1zQUYvy52G1JRUGxvcgZIL-9wNWTsonJoH-TkmEGCgHngurBGkGuNjdrTnvehb5u8JXS5eiYegPXIapQVSLoFvdBkSKXjCXx3OunIP0MAX~Ys7iYs25B~uGcXwne99kvQ__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUwNDA="
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMDA5VDE0MTgxNF84OWI0MTk0MC0xZDY5LTQ5YTMtYjJjMy0xOWZmMmFjYTU4ZDE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": null
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 975,
+                      "paintRatio": 0.394,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDIyNTdfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDEzNDJfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDEzNDJfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx",
+                  "vsMode": {
+                    "mode": "REGULAR",
+                    "id": "VnNNb2RlLTE="
+                  },
+                  "playedTime": "2022-10-09T14:13:42Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "真鲭跨海大桥",
+                    "id": "VnNTdGFnZS0xMA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/1db8ab338b64b464df50e7f9e270e59423ff8caac6f09679a24f1b7acf3a82f3_3.png?Expires=1673308800\u0026Signature=eZ5fzAPncKJUXbWJoLehnrS-4pamEplX8ShZMKibYhcalp8RNWby2QTaR5uGxkWhmymtgoagLah57QoEiZCNuYmFKk6YaDfQNM~LjgZbym2Xkgao~faZ3bsVtj8rWNlEDxo7xzINMb0aLtS-akUr1vaJGJvvIPTCLKFou7T8hL190GSw7IGZByj~qAIxp6g1I4loPQeUiuY4QJN3kqikB-QD5lsdJItfip2SrRJJiBxNQU0AuajB4BF4D6OEq1T~dViRGdWKuFXy2c5amS4DjeJK0O63lsMURal2QxKJomTpeZfKDQH1-k7Phg-paiBTJam6g4XlNvhpCekYywUJWg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "四重弹跳手枪 黑",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e68609e51d30dfb13e1ea996e46995ed1f7cf561caef0fe96314966d0a039109_1.png?Expires=1673308800\u0026Signature=iwaeTb-ipglI9EBxxa8qONA5eqWgyaAHatjKLInDxG6ZX5ClthmtCUeiGXQaX~Eg9liv5Qn5aEmgyU4zJd5B7aIru8PW5l4abKjZYcx4aDGxDuirZujrA-Ez0O87tnfQri-KMj0riKdvQUYffgwJKepeYQP2BztHXJLK15nvMPO9niTOb28AQ3Xv99ZO3VaRfry581qICo5Ols94nNJhf1zQUYvy52G1JRUGxvcgZIL-9wNWTsonJoH-TkmEGCgHngurBGkGuNjdrTnvehb5u8JXS5eiYegPXIapQVSLoFvdBkSKXjCXx3OunIP0MAX~Ys7iYs25B~uGcXwne99kvQ__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTUwNDA="
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMDA5VDE0MTM0Ml84OWI0MTk0MC0xZDY5LTQ5YTMtYjJjMy0xOWZmMmFjYTU4ZDE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": null
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1168,
+                      "paintRatio": 0.472,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDE4MTRfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwN1QxMTEyMTFfZTllZGE0ZDgtMWIzMy00ODAzLWI2ZDEtMDYxZmE3MTZjNjA4" }
+                }
+              ]
+            }
+          },
+          {
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwN1QxMTEyMTFfZTllZGE0ZDgtMWIzMy00ODAzLWI2ZDEtMDYxZmE3MTZjNjA4",
+                  "vsMode": {
+                    "mode": "REGULAR",
+                    "id": "VnNNb2RlLTE="
+                  },
+                  "playedTime": "2022-10-07T11:12:11Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "温泉花大峡谷",
+                    "id": "VnNTdGFnZS0x",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800\u0026Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普 拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMDA3VDExMTIxMV9lOWVkYTRkOC0xYjMzLTQ4MDMtYjZkMS0wNjFmYTcxNmM2MDg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": null
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1143,
+                      "paintRatio": 0.534,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwOVQxNDEzNDJfODliNDE5NDAtMWQ2OS00OWEzLWIyYzMtMTlmZjJhY2E1OGQx" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwN1QxMTA3MzhfZTllZGE0ZDgtMWIzMy00ODAzLWI2ZDEtMDYxZmE3MTZjNjA4" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwN1QxMTA3MzhfZTllZGE0ZDgtMWIzMy00ODAzLWI2ZDEtMDYxZmE3MTZjNjA4",
+                  "vsMode": {
+                    "mode": "REGULAR",
+                    "id": "VnNNb2RlLTE="
+                  },
+                  "playedTime": "2022-10-07T11:07:38Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "温 泉花大峡谷",
+                    "id": "VnNTdGFnZS0x",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800\u0026Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMDA3VDExMDczOF9lOWVkYTRkOC0xYjMzLTQ4MDMtYjZkMS0wNjFmYTcxNmM2MDg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": null
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1302,
+                      "paintRatio": 0.608,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwN1QxMTEyMTFfZTllZGE0ZDgtMWIzMy00ODAzLWI2ZDEtMDYxZmE3MTZjNjA4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwM1QwNjQ3MTNfOTdiZTJjOGUtNzBiMi00Mzg3LWE4NWMtZjM4ZjYyMmEwM2M4" }
+                }
+              ]
+            }
+          },
+          {
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwM1QwNjQ3MTNfOTdiZTJjOGUtNzBiMi00Mzg3LWE4NWMtZjM4ZjYyMmEwM2M4",
+                  "vsMode": {
+                    "mode": "REGULAR",
+                    "id": "VnNNb2RlLTE="
+                  },
+                  "playedTime": "2022-10-03T06:47:12Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "DEEMED_LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉蓄力狙击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/3f99800b569e286305669b7ab28dc3ff0f0b1b015600569d5ac30ab8a97047a0_1.png?Expires=1673308800\u0026Signature=rCpTDMVpwWme99eiis-XAfkX4nu358tZjdJrb0C~sOgDKexOg1Gc0fVUY-HZ40wU5es4Pt~Kg91E4nadPyz~eBw38oRA3BcYoIAfYjSDssDxWM5r4aDPSLIU9yPwEMyTgfAfe8zW3RA~yTlFAaq7hMu0gtaypDLnLRon1Rxlj7mN3i9TTUMkSclvXNHwdigj81Mvp32oTnzvf~aosijW7yPhY3gu~6H-p4FLrtUtBIbSxEx4aXn4wpu~DZPQnnFmHdwwi-dUDZbou2Vxs8L0Do6-v97zCp-p0IkK53LeRrRO8-0UFeoMyQT4VBJN4ns1OzIxhIWpTTX1-dr4moPb9A__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTIwMTA="
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIxMDAzVDA2NDcxM185N2JlMmM4ZS03MGIyLTQzODctYTg1Yy1mMzhmNjIyYTAzYzg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": null
+                  },
+                  "knockout": null,
+                  "myTeam": { "result": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwN1QxMTA3MzhfZTllZGE0ZDgtMWIzMy00ODAzLWI2ZDEtMDYxZmE3MTZjNjA4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzE5MjVfODA5Y2M4MzctOWUyNS00OGJjLWFmOTMtZTE4ZTFkOTU0Mjk4" }
+                }
+              ]
+            }
+          },
+          {
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzE5MjVfODA5Y2M4MzctOWUyNS00OGJjLWFmOTMtZTE4ZTFkOTU0Mjk4",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-25T03:19:25Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI1VDAzMTkyNV84MDljYzgzNy05ZTI1LTQ4YmMtYWY5My1lMThlMWQ5NTQyOTg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西 派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1206,
+                      "paintRatio": 0.462,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMTAwM1QwNjQ3MTNfOTdiZTJjOGUtNzBiMi00Mzg3LWE4NWMtZjM4ZjYyMmEwM2M4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzE1MDBfZmM5ZjYwN2QtMDUzYy00N2MyLTg5NmQtZTk2ZGI3NWRiNDBk" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzE1MDBfZmM5ZjYwN2QtMDUzYy00N2MyLTg5NmQtZTk2ZGI3NWRiNDBk",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-25T03:15:00Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI1VDAzMTUwMF9mYzlmNjA3ZC0wNTNjLTQ3YzItODk2ZC1lOTZkYjc1ZGI0MGQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打 发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 812,
+                      "paintRatio": 0.311,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzE5MjVfODA5Y2M4MzctOWUyNS00OGJjLWFmOTMtZTE4ZTFkOTU0Mjk4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzEwMzRfYzE1NDdmMjktMWE2ZS00YjQyLWI1MzQtN2E0ZmE4YzA1Y2E3" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzEwMzRfYzE1NDdmMjktMWE2ZS00YjQyLWI1MzQtN2E0ZmE4YzA1Y2E3",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-25T03:10:34Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI1VDAzMTAzNF9jMTU0N2YyOS0xYTZlLTRiNDItYjUzNC03YTRmYThjMDVjYTc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1466,
+                      "paintRatio": 0.562,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzE1MDBfZmM5ZjYwN2QtMDUzYy00N2MyLTg5NmQtZTk2ZGI3NWRiNDBk" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTQyNTZfNTFlMmFkNzItY2E2My00ZjI1LWI1YmYtMmJhMzJhN2Y2MmEw" }
+                }
+              ]
+            }
+          },
+          {
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTQyNTZfNTFlMmFkNzItY2E2My00ZjI1LWI1YmYtMmJhMzJhN2Y2MmEw",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:42:56Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1NDI1Nl81MWUyYWQ3Mi1jYTYzLTRmMjUtYjViZi0yYmEzMmE3ZjYyYTA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 797,
+                      "paintRatio": 0.352,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNVQwMzEwMzRfYzE1NDdmMjktMWE2ZS00YjQyLWI1MzQtN2E0ZmE4YzA1Y2E3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTM4MzRfMzE3NDUyOGItZWUyYy00M2UyLThjNWMtMjM3ZmUyN2MyZTc2" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTM4MzRfMzE3NDUyOGItZWUyYy00M2UyLThjNWMtMjM3ZmUyN2MyZTc2",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:38:34Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大 学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1MzgzNF8zMTc0NTI4Yi1lZTJjLTQzZTItOGM1Yy0yMzdmZTI3YzJlNzY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1198,
+                      "paintRatio": 0.459,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTQyNTZfNTFlMmFkNzItY2E2My00ZjI1LWI1YmYtMmJhMzJhN2Y2MmEw" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTM0MDJfODYxN2U1YmMtMTRlZi00NTViLThkMmQtY2YwOTFjNDI1YWVi" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTM0MDJfODYxN2U1YmMtMTRlZi00NTViLThkMmQtY2YwOTFjNDI1YWVi",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:34:02Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1MzQwMl84NjE3ZTViYy0xNGVmLTQ1NWItOGQyZC1jZjA5MWM0MjVhZWI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 923,
+                      "paintRatio": 0.408,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTM4MzRfMzE3NDUyOGItZWUyYy00M2UyLThjNWMtMjM3ZmUyN2MyZTc2" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTI5MDJfNzA0MmE2OTAtN2U5OC00YTA3LWI3NTEtMDVjMTI0NjRiNjA4" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTI5MDJfNzA0MmE2OTAtN2U5OC00YTA3LWI3NTEtMDVjMTI0NjRiNjA4",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:29:02Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1MjkwMl83MDQyYTY5MC03ZTk4LTRhMDctYjc1MS0wNWMxMjQ2NGI2MDg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1130,
+                      "paintRatio": 0.499,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTM0MDJfODYxN2U1YmMtMTRlZi00NTViLThkMmQtY2YwOTFjNDI1YWVi" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTIyMTFfYjI2YzMxMTQtZDhmNi00MjBiLWJkYmQtM2Q5MGQzODBjMTM3" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTIyMTFfYjI2YzMxMTQtZDhmNi00MjBiLWJkYmQtM2Q5MGQzODBjMTM3",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:22:11Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1MjIxMV9iMjZjMzExNC1kOGY2LTQyMGItYmRiZC0zZDkwZDM4MGMxMzc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1238,
+                      "paintRatio": 0.547,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTI5MDJfNzA0MmE2OTAtN2U5OC00YTA3LWI3NTEtMDVjMTI0NjRiNjA4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTE3NDZfMzYzOTVhN2ItM2ZkMS00MWUxLTk1NDEtYTFiNWQxZDg0NTlh" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTE3NDZfMzYzOTVhN2ItM2ZkMS00MWUxLTk1NDEtYTFiNWQxZDg0NTlh",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:17:46Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1MTc0Nl8zNjM5NWE3Yi0zZmQxLTQxZTEtOTU0MS1hMWI1ZDFkODQ1OWE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 802,
+                      "paintRatio": 0.307,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTIyMTFfYjI2YzMxMTQtZDhmNi00MjBiLWJkYmQtM2Q5MGQzODBjMTM3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTEzMjNfZjM4NTdlYjktN2IxOC00NDFlLTg3YzYtODYzYTI4MWVlMDk3" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTEzMjNfZjM4NTdlYjktN2IxOC00NDFlLTg3YzYtODYzYTI4MWVlMDk3",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:13:23Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1MTMyM19mMzg1N2ViOS03YjE4LTQ0MWUtODdjNi04NjNhMjgxZWUwOTc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1354,
+                      "paintRatio": 0.519,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTE3NDZfMzYzOTVhN2ItM2ZkMS00MWUxLTk1NDEtYTFiNWQxZDg0NTlh" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTA5MDFfMzIzZjBmOTQtZDk2NS00ZDJkLThiNDktN2EwZjhmYjc1M2Q2" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTA5MDFfMzIzZjBmOTQtZDk2NS00ZDJkLThiNDktN2EwZjhmYjc1M2Q2",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:09:01Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1MDkwMV8zMjNmMGY5NC1kOTY1LTRkMmQtOGI0OS03YTBmOGZiNzUzZDY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1315,
+                      "paintRatio": 0.581,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTEzMjNfZjM4NTdlYjktN2IxOC00NDFlLTg3YzYtODYzYTI4MWVlMDk3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTAzNTdfMDJiMjQ5ZmItMDBkYy00YWJiLWFhOWItZjE4NWIxMTBjYmM2" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTAzNTdfMDJiMjQ5ZmItMDBkYy00YWJiLWFhOWItZjE4NWIxMTBjYmM2",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T15:03:57Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE1MDM1N18wMmIyNDlmYi0wMGRjLTRhYmItYWE5Yi1mMTg1YjExMGNiYzY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 916,
+                      "paintRatio": 0.404,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTA5MDFfMzIzZjBmOTQtZDk2NS00ZDJkLThiNDktN2EwZjhmYjc1M2Q2" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDU5NDhfZGRjY2E2YjctNjBkYS00MmJkLWFmMjEtM2VmMzk3NDEwZWUz" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDU5NDhfZGRjY2E2YjctNjBkYS00MmJkLWFmMjEtM2VmMzk3NDEwZWUz",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T14:59:48Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE0NTk0OF9kZGNjYTZiNy02MGRhLTQyYmQtYWYyMS0zZWYzOTc0MTBlZTM6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 922,
+                      "paintRatio": 0.353,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNTAzNTdfMDJiMjQ5ZmItMDBkYy00YWJiLWFhOWItZjE4NWIxMTBjYmM2" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDU0NDNfMTRjMjFkYzgtNTc4Yy00NjVmLTg0NDctZDc1MDgyM2Y5NWE1" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDU0NDNfMTRjMjFkYzgtNTc4Yy00NjVmLTg0NDctZDc1MDgyM2Y5NWE1",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T14:54:43Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE0NTQ0M18xNGMyMWRjOC01NzhjLTQ2NWYtODQ0Ny1kNzUwODIzZjk1YTU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1102,
+                      "paintRatio": 0.422,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDU5NDhfZGRjY2E2YjctNjBkYS00MmJkLWFmMjEtM2VmMzk3NDEwZWUz" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDUwMjJfYThhZGQ2MzEtZjdlMS00Y2MyLTlkZGItODczNjRhNjhmYmRj" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDUwMjJfYThhZGQ2MzEtZjdlMS00Y2MyLTlkZGItODczNjRhNjhmYmRj",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T14:50:22Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE0NTAyMl9hOGFkZDYzMS1mN2UxLTRjYzItOWRkYi04NzM2NGE2OGZiZGM6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东 西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1294,
+                      "paintRatio": 0.571,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDU0NDNfMTRjMjFkYzgtNTc4Yy00NjVmLTg0NDctZDc1MDgyM2Y5NWE1" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDQxMzZfY2UyM2RlMDMtM2I5ZS00MjFiLWFhNjItMjEyMTEzNDA2ZmU1" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDQxMzZfY2UyM2RlMDMtM2I5ZS00MjFiLWFhNjItMjEyMTEzNDA2ZmU1",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T14:41:36Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE0NDEzNl9jZTIzZGUwMy0zYjllLTQyMWItYWE2Mi0yMTIxMTM0MDZmZTU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1191,
+                      "paintRatio": 0.526,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDUwMjJfYThhZGQ2MzEtZjdlMS00Y2MyLTlkZGItODczNjRhNjhmYmRj" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDM2MTlfMzVmZmRkOTAtOTlhNS00OWJiLWE2Y2EtOTQ0YzA1Y2YyYjA3" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDM2MTlfMzVmZmRkOTAtOTlhNS00OWJiLWE2Y2EtOTQ0YzA1Y2YyYjA3",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T14:36:19Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射 击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE0MzYxOV8zNWZmZGQ5MC05OWE1LTQ5YmItYTZjYS05NDRjMDVjZjJiMDc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西 派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1023,
+                      "paintRatio": 0.452,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDQxMzZfY2UyM2RlMDMtM2I5ZS00MjFiLWFhNjItMjEyMTEzNDA2ZmU1" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDMxNTBfMWI0YmNiZWYtYjcxZi00ZGMyLWEwMTYtZmNhNDE0YTFmOTBl" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDMxNTBfMWI0YmNiZWYtYjcxZi00ZGMyLWEwMTYtZmNhNDE0YTFmOTBl",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T14:31:50Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "海女美术大学",
+                    "id": "VnNTdGFnZS0xMw==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/40aba8b36a9439e2d670fde5b3478819ea8a94f9e503b9d783248a5716786f35_3.png?Expires=1673308800\u0026Signature=ezmlCTJqqXxYwFBxXAY6w66NaFEjTkKFO~JLR1jBXzMkSwkwaOKTOVOqrszIfGJ3EDGAdTVlwGb-ystpIWxmuuif3NbapRFpl9pFPNd~RY5xDrY7mYR1kGPq8QIlFBb1Yszp~btUw8WKmeZbSe8Lb-f6yTQ8im-ot4O6zm0PwruiCIy9uo-TVmpFhzyjEfXCC8p21kt6LVPhpFBEDKb7BZNK~~q4dWBrLoNqCuUbGVeWmvcZ4m68sr17syWtgGVImfzwoymbDc0h~AKoVDF6~GiB82RSCIvgQnlTZZldLFEVle8JT3QtUs~GPNebDP0uEe6vgLin1L5-AktvU6IC~Q__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE0MzE1MF8xYjRiY2JlZi1iNzFmLTRkYzItYTAxNi1mY2E0MTRhMWY5MGU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1489,
+                      "paintRatio": 0.57,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDM2MTlfMzVmZmRkOTAtOTlhNS00OWJiLWE2Y2EtOTQ0YzA1Y2YyYjA3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDI3MzRfNzc3ZmU2MWYtYjg0ZC00NGI3LWJhMTktNDU4MGU2YzFkMTdj" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDI3MzRfNzc3ZmU2MWYtYjg0ZC00NGI3LWJhMTktNDU4MGU2YzFkMTdj",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T14:27:34Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "座头购物中心",
+                    "id": "VnNTdGFnZS0xNQ==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/a8ba96c3dbd015b7bc6ea4fa067245c4e9aee62b6696cb41e02d35139dd21fe7_3.png?Expires=1673308800\u0026Signature=wDWBgagqiPd5yNVtZahwyJUWQytFHVgGplUxI0sjOcqgLzl9IzdSVUKmyiW-rddFOTT-TCcy8pX0ollRoj96bCIN8bOEoXvk5UZjUOf0YUxmVr0ijByGO~iCO947WOd6PaOdj9Agq3YdHYijWvfCchKKQ2vCFBmUZD8FVLLLBptqFf~tMDzJ7vyNrwAXUwtwzco43CzuJk8yEELRgnXrgL8rxs8g91O3hHwE-q0rA5gIL65m9qARYBI0JQTeFE-FX07vlyvzr-Ystl6BdWXM2V6aDSSfwJI0igzCHh-7Ud0l1o-yQatERl9VHz~I2jwKMWO1lMjajIDQrqO9DsHztQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDE0MjczNF83NzdmZTYxZi1iODRkLTQ0YjctYmExOS00NTgwZTZjMWQxN2M6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 995,
+                      "paintRatio": 0.439,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDMxNTBfMWI0YmNiZWYtYjcxZi00ZGMyLWEwMTYtZmNhNDE0YTFmOTBl" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzQ2MDFfMDE2NmI1NjktYzVmYS00MjQ3LWFjZDUtZDFhNTMxZTdkZTU4" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzQ2MDFfMDE2NmI1NjktYzVmYS00MjQ3LWFjZDUtZDFhNTMxZTdkZTU4",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T13:46:01Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEzNDYwMV8wMTY2YjU2OS1jNWZhLTQyNDctYWNkNS1kMWE1MzFlN2RlNTg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 853,
+                      "paintRatio": 0.325,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxNDI3MzRfNzc3ZmU2MWYtYjg0ZC00NGI3LWJhMTktNDU4MGU2YzFkMTdj" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzQzNTVfNzJlNDFiYmMtMWU4Yi00OWM1LWJkNmYtZTQ1OTEwNmY3YmYx" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzQzNTVfNzJlNDFiYmMtMWU4Yi00OWM1LWJkNmYtZTQ1OTEwNmY3YmYx",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T13:43:55Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "DRAW",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEzNDM1NV83MmU0MWJiYy0xZThiLTQ5YzUtYmQ2Zi1lNDU5MTA2ZjdiZjE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": null,
+                  "myTeam": { "result": null },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzQ2MDFfMDE2NmI1NjktYzVmYS00MjQ3LWFjZDUtZDFhNTMxZTdkZTU4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzM5MThfYzUwMDBkZTEtYjc0MS00ZDJlLThjY2ItZjhjYWJjMGU1MWNh" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzM5MThfYzUwMDBkZTEtYjc0MS00ZDJlLThjY2ItZjhjYWJjMGU1MWNh",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T13:39:18Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "温泉花大峡谷",
+                    "id": "VnNTdGFnZS0x",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800\u0026Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEzMzkxOF9jNTAwMGRlMS1iNzQxLTRkMmUtOGNjYi1mOGNhYmMwZTUxY2E6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+2"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 849,
+                      "paintRatio": 0.396,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzQzNTVfNzJlNDFiYmMtMWU4Yi00OWM1LWJkNmYtZTQ1OTEwNmY3YmYx" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjI5MTRfYmM5MDFlMmUtOTRlYi00M2E0LTg5NTEtYTMyNzAyNDllOWMz" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjI5MTRfYmM5MDFlMmUtOTRlYi00M2E0LTg5NTEtYTMyNzAyNDllOWMz",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T12:29:14Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEyMjkxNF9iYzkwMWUyZS05NGViLTQzYTQtODk1MS1hMzI3MDI0OWU5YzM6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1259,
+                      "paintRatio": 0.48,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMzM5MThfYzUwMDBkZTEtYjc0MS00ZDJlLThjY2ItZjhjYWJjMGU1MWNh" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjI0NDVfMTljYjIwMDMtMjkyZC00M2ZhLTkwNGEtYmY1NGI3NzJiYzk4" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjI0NDVfMTljYjIwMDMtMjkyZC00M2ZhLTkwNGEtYmY1NGI3NzJiYzk4",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T12:24:45Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "温泉花大峡谷",
+                    "id": "VnNTdGFnZS0x",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800\u0026Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEyMjQ0NV8xOWNiMjAwMy0yOTJkLTQzZmEtOTA0YS1iZjU0Yjc3MmJjOTg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1101,
+                      "paintRatio": 0.514,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjI5MTRfYmM5MDFlMmUtOTRlYi00M2E0LTg5NTEtYTMyNzAyNDllOWMz" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjIwMzNfYmZmNDEwNGItMzgxNi00YmU2LWFhMzQtODI3NDRkNjI3MWM4" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjIwMzNfYmZmNDEwNGItMzgxNi00YmU2LWFhMzQtODI3NDRkNjI3MWM4",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T12:20:33Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "烟管 鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEyMjAzM19iZmY0MTA0Yi0zODE2LTRiZTYtYWEzNC04Mjc0NGQ2MjcxYzg6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 697,
+                      "paintRatio": 0.266,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjI0NDVfMTljYjIwMDMtMjkyZC00M2ZhLTkwNGEtYmY1NGI3NzJiYzk4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjE2MDNfZGIzMjg1M2UtZDc2ZS00OWZjLWExZTEtOTkwMGQ3NjA1Y2Y0" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjE2MDNfZGIzMjg1M2UtZDc2ZS00OWZjLWExZTEtOTkwMGQ3NjA1Y2Y0",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T12:16:03Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "温泉花大峡谷",
+                    "id": "VnNTdGFnZS0x",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800\u0026Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEyMTYwM19kYjMyODUzZS1kNzZlLTQ5ZmMtYTFlMS05OTAwZDc2MDVjZjQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 792,
+                      "paintRatio": 0.37,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjIwMzNfYmZmNDEwNGItMzgxNi00YmU2LWFhMzQtODI3NDRkNjI3MWM4" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjExNDFfNDBiOTJhODgtZThiYS00YWM1LTkxNGMtY2FjZjFhYWVjNmE2" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjExNDFfNDBiOTJhODgtZThiYS00YWM1LTkxNGMtY2FjZjFhYWVjNmE2",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T12:11:41Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射 击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEyMTE0MV80MGI5MmE4OC1lOGJhLTRhYzUtOTE0Yy1jYWNmMWFhZWM2YTY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1135,
+                      "paintRatio": 0.433,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjE2MDNfZGIzMjg1M2UtZDc2ZS00OWZjLWExZTEtOTkwMGQ3NjA1Y2Y0" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjA3MTJfY2E2ZmE1YTUtZDMyMS00MzJhLWFlY2EtNWI5NDRhMmM0MDBh" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjA3MTJfY2E2ZmE1YTUtZDMyMS00MzJhLWFlY2EtNWI5NDRhMmM0MDBh",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T12:07:12Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "温泉花大峡谷",
+                    "id": "VnNTdGFnZS0x",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/35f9ca08ccc2bf759774ab2cb886567c117b9287875ca92fb590c1294ddcdc1e_3.png?Expires=1673308800\u0026Signature=wo13cX5m0BT5QbPV80y5~TnN67UjjelUkQP09uoJ4uhzI4IsL0ETMNHNwM5c7JUWY6rAbXzZkes~ZyYtnY5GOiSedzsIuXU4IIsVr9yos4Q46XBNorDH7tKjIStNqA3~QXT3yAZTl4nEh-GOenorQCnSxDlppfqBfM~~uUxEyQFjD8zS4rmWCcQmaPRZO8eYFq6sld~oKvjPTx1HA9TyMtQH2GRr4RDCrzzKqTRUzHZcXPO2lkxhkbnzRYCj4xtGmtDCvgMQ~a9cpyEdyYfy27PsxBOjh1Lrr5dzdGQHd8pNa8NVguqiVGDXxm3hJsbG5CJhJYI6ytKElCBXRdpesQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击 枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEyMDcxMl9jYTZmYTVhNS1kMzIxLTQzMmEtYWVjYS01Yjk0NGEyYzQwMGE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 771,
+                      "paintRatio": 0.36,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjExNDFfNDBiOTJhODgtZThiYS00YWM1LTkxNGMtY2FjZjFhYWVjNmE2" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjAyNTNfMWUyZWVhZWEtMjI2MS00YTA1LWI2YmYtMDc4YWUyMDdmN2Zi" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjAyNTNfMWUyZWVhZWEtMjI2MS00YTA1LWI2YmYtMDc4YWUyMDdmN2Zi",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T12:02:53Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "烟管鱼市场",
+                    "id": "VnNTdGFnZS0z",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1673308800\u0026Signature=QA2wJVf~-aY2-hhhFhcKdQTax~hzQQ87mgUWjEiqmoXutZiI0GOPlGi8LJ~ZtN3bIE5XhsSoDyxIQbS2kOUb5Fjs27AkGt7-XotQ1hg2BDHmAW03M56QX1mhKND-1pLkhRyx2arBbc73afeQ3w0GmSayZIdmeGi11fYi2tsyaHokp~UhK~~9h5NZDBbC0xLseDUuTO8T1epgmahqy9Tna0C6iByfKmnkP16g0aEyAwsVXSiQB5RWxIJb4fz-Zk~uCvxCP7CgGyQrwYqOq7J-BGDaboePfGGSvRLZze0QCfKUaJ2viy6eXX3dPURcHqIeikm2Gdq-pdEv3oRI2wJGSw__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射 击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEyMDI1M18xZTJlZWFlYS0yMjYxLTRhMDUtYjZiZi0wNzhhZTIwN2Y3ZmI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永 远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 968,
+                      "paintRatio": 0.369,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjA3MTJfY2E2ZmE1YTUtZDMyMS00MzJhLWFlY2EtNWI5NDRhMmM0MDBh" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTU3MzhfMTM4NTEzNWEtZjlhZi00YjViLTkyNDUtODQ4NzBmYjg3NzVh" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTU3MzhfMTM4NTEzNWEtZjlhZi00YjViLTkyNDUtODQ4NzBmYjg3NzVh",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T11:57:38Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDExNTczOF8xMzg1MTM1YS1mOWFmLTRiNWItOTI0NS04NDg3MGZiODc3NWE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1208,
+                      "paintRatio": 0.44,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMjAyNTNfMWUyZWVhZWEtMjI2MS00YTA1LWI2YmYtMDc4YWUyMDdmN2Zi" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTUzMDJfNGJmMzYzZGUtNDY3MS00NjY1LThmZTctMzRkZmVhZTEzM2Y1" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTUzMDJfNGJmMzYzZGUtNDY3MS00NjY1LThmZTctMzRkZmVhZTEzM2Y1",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T11:53:02Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "顶尖射 击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_1.png?Expires=1673308800\u0026Signature=Rfg4glz7uIriWQlvGuEjrF6jVLMofVvH8Ff6Wp0oK~y6zD2Bj6Hk34bi1XDDK0flZWM2sdRUaZQYIDI-KE3Im09gV-JzXMNfB68N7PpserMfCnGPY6Z38u2kyGqVOGcTa3SQupgCwKNSmBpCiix8wn~oS7JLEhQpW2tHXrXKmrg3Ipyd7P2tNXvpJTdtWB-VzmAz3L08gjWt9eOXXWszHWoVQvOzSddNFLf9fSfWl7fm52~JPNXyks~d-4cM49OLOYIZZvjgPZpW8hUrxuXQqMctvZRpfYIl8hud-A2CkSi9rVSX-MRPax5VU1hKjFLcBZxyI7rMXR1nQ2VYBEe9Ew__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTcw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDExNTMwMl80YmYzNjNkZS00NjcxLTQ2NjUtOGZlNy0zNGRmZWFlMTMzZjU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西 派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1262,
+                      "paintRatio": 0.481,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTU3MzhfMTM4NTEzNWEtZjlhZi00YjViLTkyNDUtODQ4NzBmYjg3NzVh" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTQ4MTNfMWYxYWIxYjgtYTg5Mi00NWY3LWFmOWYtMDIxNmRkNzI5N2Q2" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTQ4MTNfMWYxYWIxYjgtYTg5Mi00NWY3LWFmOWYtMDIxNmRkNzI5N2Q2",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T11:48:13Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDExNDgxM18xZjFhYjFiOC1hODkyLTQ1ZjctYWY5Zi0wMjE2ZGQ3Mjk3ZDY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东 西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1029,
+                      "paintRatio": 0.375,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTUzMDJfNGJmMzYzZGUtNDY3MS00NjY1LThmZTctMzRkZmVhZTEzM2Y1" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTQzNTlfN2Q1MTAyNGMtYjNmZS00ZTJkLWI3ZjUtNzM5MmE1OTU1NDc5" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTQzNTlfN2Q1MTAyNGMtYjNmZS00ZTJkLWI3ZjUtNzM5MmE1OTU1NDc5",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T11:43:59Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDExNDM1OV83ZDUxMDI0Yy1iM2ZlLTRlMmQtYjdmNS03MzkyYTU5NTU0Nzk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的 东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1154,
+                      "paintRatio": 0.42,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTQ4MTNfMWYxYWIxYjgtYTg5Mi00NWY3LWFmOWYtMDIxNmRkNzI5N2Q2" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTM4NTVfYjg3NTZjZTQtYmIzMC00NGI4LWI3YzUtZDc3NWNjYTI0ODM1" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTM4NTVfYjg3NTZjZTQtYmIzMC00NGI4LWI3YzUtZDc3NWNjYTI0ODM1",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T11:38:55Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDExMzg1NV9iODc1NmNlNC1iYjMwLTQ0YjgtYjdjNS1kNzc1Y2NhMjQ4MzU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时 间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1138,
+                      "paintRatio": 0.434,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTQzNTlfN2Q1MTAyNGMtYjNmZS00ZTJkLWI3ZjUtNzM5MmE1OTU1NDc5" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTAxNDZfNTM1OTU4NGMtNDM1NS00ODg4LThjYTgtNTBiNjgzZGI1NjIw" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTAxNDZfNTM1OTU4NGMtNDM1NS00ODg4LThjYTgtNTBiNjgzZGI1NjIw",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T11:01:46Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDExMDE0Nl81MzU5NTg0Yy00MzU1LTQ4ODgtOGNhOC01MGI2ODNkYjU2MjA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的 打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 916,
+                      "paintRatio": 0.349,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTM4NTVfYjg3NTZjZTQtYmIzMC00NGI4LWI3YzUtZDc3NWNjYTI0ODM1" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDU3MjZfZTI5YzZjZmYtZjM5YS00NTZlLWFhZGQtNDcwMjQyZDhmMjk3" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDU3MjZfZTI5YzZjZmYtZjM5YS00NTZlLWFhZGQtNDcwMjQyZDhmMjk3",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T10:57:26Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEwNTcyNl9lMjljNmNmZi1mMzlhLTQ1NmUtYWFkZC00NzAyNDJkOGYyOTc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的 打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1582,
+                      "paintRatio": 0.576,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMTAxNDZfNTM1OTU4NGMtNDM1NS00ODg4LThjYTgtNTBiNjgzZGI1NjIw" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDUzMTFfOTUxYjc0NjUtNGEzZi00NzVkLWEzYmItNmY3ZDY3Yjc5OWRl" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDUzMTFfOTUxYjc0NjUtNGEzZi00NzVkLWEzYmItNmY3ZDY3Yjc5OWRl",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T10:53:11Z",
+                  "vsRule": {
+                    "name": "占 地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEwNTMxMV85NTFiNzQ2NS00YTNmLTQ3NWQtYTNiYi02ZjdkNjdiNzk5ZGU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 896,
+                      "paintRatio": 0.342,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDU3MjZfZTI5YzZjZmYtZjM5YS00NTZlLWFhZGQtNDcwMjQyZDhmMjk3" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQ4NDVfNmRlNzVkODAtMjViNy00OWIwLTliYWQtMGIyZjg0OWVjNGU0" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQ4NDVfNmRlNzVkODAtMjViNy00OWIwLTliYWQtMGIyZjg0OWVjNGU0",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T10:48:45Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEwNDg0NV82ZGU3NWQ4MC0yNWI3LTQ5YjAtOWJhZC0wYjJmODQ5ZWM0ZTQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1049,
+                      "paintRatio": 0.4,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDUzMTFfOTUxYjc0NjUtNGEzZi00NzVkLWEzYmItNmY3ZDY3Yjc5OWRl" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQ0MThfYTE3NWEzMmUtMDU5My00ZDExLWE5MWUtNzZiMjFjNWI3MDVj" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQ0MThfYTE3NWEzMmUtMDU5My00ZDExLWE5MWUtNzZiMjFjNWI3MDVj",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T10:44:18Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEwNDQxOF9hMTc1YTMyZS0wNTkzLTRkMTEtYTkxZS03NmIyMWM1YjcwNWM6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1390,
+                      "paintRatio": 0.506,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQ4NDVfNmRlNzVkODAtMjViNy00OWIwLTliYWQtMGIyZjg0OWVjNGU0" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQwMDJfODY0YjFhMzItZDdiMi00OTE3LTkyOTktMmE4ZDFiMWRhNGE0" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQwMDJfODY0YjFhMzItZDdiMi00OTE3LTkyOTktMmE4ZDFiMWRhNGE0",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T10:40:02Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEwNDAwMl84NjRiMWEzMi1kN2IyLTQ5MTctOTI5OS0yYThkMWIxZGE0YTQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1562,
+                      "paintRatio": 0.569,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQ0MThfYTE3NWEzMmUtMDU5My00ZDExLWE5MWUtNzZiMjFjNWI3MDVj" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDM1NDFfYzdmNzk0YTItYWQyZi00Y2M4LTlmZmItNzQ2ODY2OWIyMzQw" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDM1NDFfYzdmNzk0YTItYWQyZi00Y2M4LTlmZmItNzQ2ODY2OWIyMzQw",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T10:35:41Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "鳗鲶区",
+                    "id": "VnNTdGFnZS0y",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/898e1ae6c737a9d44552c7c81f9b710676492681525c514eadc68a6780aa52af_3.png?Expires=1673308800\u0026Signature=GRHCR9VRn~5RFBmAzzFGke4ZIvPcHnNQF3LafCwQ4QWic-uwYfT5jPsRmPYqSUCSiv9mEZ~4BQQvzih2urrfcL1fKcQ9uq7wqwGxWZaqwpOshCvh-IeUDPggaPv2~3t788LQld61IIgtBW2hP7yZ4owYitUAwYHPTBe8Nh3M7W-BZiqcOHiUBEmCUgiRzYHOyzwqp8uwUGzPQtFcLEg-zPg90HnpO-9W1PFbPoGHSli5kSN5weehYcTA6HiyFybZb41r4o1Im9cFlUdeIK98lhTvyZE2cMouogJkdP6no5jCfZWopQOMfuDmNZcQ~AVVTNGYbi~jsVyNZpA07IsrTQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEwMzU0MV9jN2Y3OTRhMi1hZDJmLTRjYzgtOWZmYi03NDY4NjY5YjIzNDA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 764,
+                      "paintRatio": 0.278,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDQwMDJfODY0YjFhMzItZDdiMi00OTE3LTkyOTktMmE4ZDFiMWRhNGE0" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDMxMzBfZjFkYzViNTUtZWUyOS00ZDNmLTgwZTctY2FjMTJjMTAwNTJh" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDMxMzBfZjFkYzViNTUtZWUyOS00ZDNmLTgwZTctY2FjMTJjMTAwNTJh",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T10:31:30Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEwMzEzMF9mMWRjNWI1NS1lZTI5LTRkM2YtODBlNy1jYWMxMmMxMDA1MmE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1269,
+                      "paintRatio": 0.484,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDM1NDFfYzdmNzk0YTItYWQyZi00Y2M4LTlmZmItNzQ2ODY2OWIyMzQw" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDI2NDhfNzUzMzA0NmQtMmM5Yi00YjY4LTk2ZmYtODRkNjYwNzBjMTA0" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDI2NDhfNzUzMzA0NmQtMmM5Yi00YjY4LTk2ZmYtODRkNjYwNzBjMTA0",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T10:26:48Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "竹蛏疏洪道",
+                    "id": "VnNTdGFnZS00",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1673308800\u0026Signature=NmsRLP2uxL-wCMBE49yZnc-t-uq7qdopcNV-oUTvQp~EHbTl9rW3YnDUZfOamUFV4nLXYU2No9TZHc0e3jNEPM2zIPyfKMVYTfsYly59uaT5PGBCYYnmgFm2dzcvKukEyApUV3SFq9jP4mWjD~KMrZ49rdZUh7EQ~3~JwVdsy2teCK~6LPMw8DF9aauTGWmHY6-75sVBUDiU8-rs2a0jFDpxBV6AHLMf0bsjxSuJs4vIFuSNT6OEVtjKbaWSNa0XzVGurxoqfCqpbMTyFnbNQ60A9TbbYVGay8ApC6cjTYRp6AyLY6lBoyKwdHcU4AI8wM~~pS72N5y7LrfezAuxEQ__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击 枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDEwMjY0OF83NTMzMDQ2ZC0yYzliLTRiNjgtOTZmZi04NGQ2NjA3MGMxMDQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派+1"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 953,
+                      "paintRatio": 0.363,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDMxMzBfZjFkYzViNTUtZWUyOS00ZDNmLTgwZTctY2FjMTJjMTAwNTJh" },
+                  "previousHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQwODIwNDVfMjRhODM4ZjUtN2MzYS00YmRhLTk5NGMtY2QxZmRmOTk1MjU5" }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQwODIwNDVfMjRhODM4ZjUtN2MzYS00YmRhLTk5NGMtY2QxZmRmOTk1MjU5",
+                  "vsMode": {
+                    "mode": "FEST",
+                    "id": "VnNNb2RlLTc="
+                  },
+                  "playedTime": "2022-09-24T08:20:45Z",
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "鲟鱼造船厂",
+                    "id": "VnNTdGFnZS0xNA==",
+                    "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/48684c69d5c5a4ffaf16b712a4895545a8d01196115d514fc878ce99863bb3e9_3.png?Expires=1673308800\u0026Signature=cjRSd9x3FZUGS1dfNX-BTpt9mkSaymajpAKCmqqAK53XLaVMjUjEm-yh1wrEeaaUNlx~EhVlV7bsH7CNGvwsS8BnUCi9JYkjbMz6A4qu-shEf-LEGC5-6YaOVbucQl7iabB4UFfiuEFtv~EO~o6l-7-zUmWIWmCns-vlXy3byORkFblHGjWOAk-lFtsiJjrCN~uEgDTzoKVXZ3nn-y~67P7ALo5TPXEj5MyMPcLXGil9gPMtwYYxP7LH1U9KkacjeSeEZtrLFiRd~tvcw0HAZp0yYkC0yRP3Es-XnSFDcP0RGJPNuIRGufDGK6oseNVo788paMZn2asAaNEbx0y4tg__\u0026Key-Pair-Id=KNBS2THMRC385" }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": { "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800\u0026Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__\u0026Key-Pair-Id=KNBS2THMRC385" },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjIwOTI0VDA4MjA0NV8yNGE4MzhmNS03YzNhLTRiZGEtOTk0Yy1jZDFmZGY5OTUyNTk6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+                    "festGrade": "永远的打发时间的东西派"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1407,
+                      "paintRatio": 0.474,
+                      "score": null
+                    }
+                  },
+                  "nextHistoryDetail": { "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIyMDkyNFQxMDI2NDhfNzUzMzA0NmQtMmM5Yi00YjY4LTk2ZmYtODRkNjYwNzBjMTA0" },
+                  "previousHistoryDetail": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
