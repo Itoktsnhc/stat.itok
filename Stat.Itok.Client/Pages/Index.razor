@@ -4,39 +4,128 @@
 @inject NavigationManager Navigation
 @inject IJSRuntime jsRuntime
 
+<style></style>
 <PageTitle>A tool for splatoon3</PageTitle>
 
-<h2>给<a href="https://stat.ink/" target="_blank">stat.ink</a>提交数据的工具</h2>
-
-<div style="display:inline-block">
-    <HxButton Text="获取认证URL" style="margin-left:5px;margin-right:5px" Color=ThemeColor.Light Spinner="waitingVerifyUrl" OnClick="async () => await GetVerifyUrlAsync()"></HxButton>
-    <HxButton Text="去复制Token URL" style="margin-left:5px" Color=ThemeColor.Link hidden="@(string.IsNullOrEmpty(verifyUrl))" OnClick="OpenVerifyUrlAsync"></HxButton>
-    <HxIcon hidden="@(string.IsNullOrEmpty(verifyUrl))" title="登录后 右键【选择此人】复制链接" Icon="@BootstrapIcon.InfoCircle" />
+<div class="h2">给<a href="https://stat.ink/" target="_blank">stat.ink</a>提交数据的工具</div>
+<hr />
+<div class="container-fluid">
+    <div class="row justify-content-lg-center">
+        <div class="form-control">
+            <ul class="h6">
+                <li>在同一个浏览器内登录任天堂账号</li>
+                <li>点击 <span class="bg-info">获取认证URL</span> , 等待出现 <span class="bg-info">去复制Token 链接</span> 然后点击</li>
+                <li>在打开的页面中，鼠标右键点击 <span class="bg-info">选择此人</span> 按钮, 右键菜单中点击 <span class="bg-info">复制链接</span> </li>
+            </ul>
+            <HxButton Text="获取认证URL" Color=ThemeColor.Light Spinner="waitingVerifyUrl" OnClick="async () => await GetVerifyUrlAsync()"></HxButton>
+            <HxButton Text="去复制Token 链接" Color=ThemeColor.Link hidden="@(string.IsNullOrEmpty(verifyUrl))" OnClick="OpenVerifyUrlAsync"></HxButton>
+            <br />
+            <hr />
+            <ul>
+                <li>将上面复制结果粘贴到下方 <span class="bg-warning">Token 链接</span> 中</li>
+                <li>点击尝试进行账号验证,等待验证结果</li>
+            </ul>
+            <HxInputText Label="Token Link" @bind-Value=@tokenUrl Placeholder="Paste Your Token Link" />
+            <br />
+            <HxSelect Label="覆盖账户设置中的语言(影响铭牌、奖牌等的获取)"
+                      TItem="UserLang"
+                      TValue="string"
+                      InputGroupStartText="语言/文化"
+                      Data="langs"
+                      @bind-Value="userLang"
+                      Nullable="false"
+                      TextSelector="@(p => p.ShowName)"
+                      ValueSelector="@(p => p.Value)" />
+            <br />
+            <HxButton Enabled=@(!string.IsNullOrEmpty(tokenUrl)) Text="尝试进行账号验证" Color=ThemeColor.Primary Spinner="waitingAuthAccount" OnClick="async () => await TryAuthAccontInfoAsync()"></HxButton>
+            <hr />
+            <HxCollapse @ref="detailCard" Id="myCollapse" CssClass="mt-3">
+                <HxCard>
+                    <BodyTemplate>
+                        Some placeholder content for the collapse component.
+                        This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </BodyTemplate>
+                </HxCard>
+            </HxCollapse>
+            <br />
+            <HxButton Enabled=@(!string.IsNullOrEmpty(tokenUrl)) Text="确认并提交" Color=ThemeColor.Primary Spinner="waitingSubmit" OnClick="async () => await TryAuthAccontInfoAsync()"></HxButton>
+        </div>
+    </div>
 </div>
-<br />
-<div style="display:inline-block">
-    <HxInputText Label="HxInputText" @bind-Value=@tokenUrl Placeholder="Token URL" Hint="粘贴上面复制的【选择此人】" />
 
-</div>
 
 
 @code
 {
-    string tokenUrl = null;
+    private string userLang = "zh-CN";
+    private HxCollapse detailCard;
     bool waitingVerifyUrl = false;
+    bool waitingAuthAccount = false;
+    bool waitingSubmit = false;
     string verifyUrl = null;
+    string tokenUrl = null;
+    private IList<UserLang> langs = new List<UserLang>()
+    {
+        new UserLang("简体中文(zh-CN)", "zh-CN"),
+        new UserLang("繁体中文(zh-TW)", "zh-TW"),
+        new UserLang("美式英语(en-US)", "en-US"),
+    };
     public async Task GetVerifyUrlAsync()
     {
         verifyUrl = "";
+        tokenUrl = "";
         waitingVerifyUrl = true;
-        await Task.Delay(2000);
-        verifyUrl = "https://www.github.com";
+        try
+        {
+            await Task.Delay(2000);
+            verifyUrl = "https://www.github.com";
+        }
+        catch (Exception)
+        {
+            //ignore
+        }
         waitingVerifyUrl = false;
+    }
+
+    public async Task TryAuthAccontInfoAsync()
+    {
+        waitingAuthAccount = true;
+        try
+        {
+            await Task.Delay(2000);
+            verifyUrl = "https://www.github.com";
+            //TODO Fill RealData
+            await detailCard.ShowAsync();
+        }
+        catch (Exception)
+        {
+            //ignore
+        }
+        waitingAuthAccount = false;
+    }
+
+    public async Task UpsertJobConfigAsync()
+    {
+        waitingSubmit = true;
+        try
+        {
+            await Task.Delay(2000);
+            verifyUrl = "https://www.github.com";
+            //TODO Fill RealData
+            
+        }
+        catch (Exception)
+        {
+            //ignore
+        }
+        waitingSubmit = false;
     }
 
     public async void OpenVerifyUrlAsync()
     {
         await jsRuntime.InvokeVoidAsync("open", verifyUrl, "_blank");
     }
+
+    record UserLang(string ShowName, string Value);
 
 }
