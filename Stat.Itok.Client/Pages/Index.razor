@@ -1,9 +1,42 @@
 ﻿@page "/"
+@using System.ComponentModel.DataAnnotations;
+@using Havit;
+@inject NavigationManager Navigation
+@inject IJSRuntime jsRuntime
 
-<PageTitle>Index</PageTitle>
+<PageTitle>A tool for splatoon3</PageTitle>
 
-<h1>Hello, world!</h1>
+<h2>给<a href="https://stat.ink/" target="_blank">stat.ink</a>提交数据的工具</h2>
 
-Welcome to your new app.
+<div style="display:inline-block">
+    <HxButton Text="获取认证URL" style="margin-left:5px;margin-right:5px" Color=ThemeColor.Light Spinner="waitingVerifyUrl" OnClick="async () => await GetVerifyUrlAsync()"></HxButton>
+    <HxButton Text="去复制Token URL" style="margin-left:5px" Color=ThemeColor.Link hidden="@(string.IsNullOrEmpty(verifyUrl))" OnClick="OpenVerifyUrlAsync"></HxButton>
+    <HxIcon hidden="@(string.IsNullOrEmpty(verifyUrl))" title="登录后 右键【选择此人】复制链接" Icon="@BootstrapIcon.InfoCircle" />
+</div>
+<br />
+<div style="display:inline-block">
+    <HxInputText Label="HxInputText" @bind-Value=@tokenUrl Placeholder="Token URL" Hint="粘贴上面复制的【选择此人】" />
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+</div>
+
+
+@code
+{
+    string tokenUrl = null;
+    bool waitingVerifyUrl = false;
+    string verifyUrl = null;
+    public async Task GetVerifyUrlAsync()
+    {
+        verifyUrl = "";
+        waitingVerifyUrl = true;
+        await Task.Delay(2000);
+        verifyUrl = "https://www.github.com";
+        waitingVerifyUrl = false;
+    }
+
+    public async void OpenVerifyUrlAsync()
+    {
+        await jsRuntime.InvokeVoidAsync("open", verifyUrl, "_blank");
+    }
+
+}
