@@ -14,13 +14,13 @@ namespace Stat.Itok.Func.Functions;
 public class JobExecutor
 {
     private readonly IMediator _mediator;
-    private readonly ILogger<NinAuthFunctions> _logger;
+    private readonly ILogger<JobExecutor> _logger;
     private readonly IStorageAccessSvc _storage;
     private readonly IOptions<GlobalConfig> _options;
 
     public JobExecutor(
         IMediator mediator,
-        ILogger<NinAuthFunctions> logger,
+        ILogger<JobExecutor> logger,
         IStorageAccessSvc storage,
         IOptions<GlobalConfig> options)
     {

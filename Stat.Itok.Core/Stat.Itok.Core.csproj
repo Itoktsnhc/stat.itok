@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -6,6 +6,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 	<ItemGroup>
+		<PackageReference Include="Azure.Data.Tables" Version="12.7.1" />
+		<PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
 		<PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.2.1" />
 		<PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
 		<PackageReference Include="MediatR" Version="11.0.0" />

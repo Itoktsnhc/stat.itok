@@ -5,8 +5,13 @@ name: Build and deploy dotnet core project to Azure Function App - stat-itok
 
 on:
   push:
-    tags:
-      - "r-*"
+    branches:
+      - release/background
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - release/background
+
   workflow_dispatch:
 
 env:
