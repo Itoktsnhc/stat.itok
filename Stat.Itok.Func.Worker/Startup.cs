@@ -13,9 +13,9 @@ using Stat.Itok.Core;
 using Stat.Itok.Core.ApiClients;
 using Stat.Itok.Core.Handlers;
 
-[assembly: FunctionsStartup(typeof(Stat.Itok.Func.Background.Startup))]
+[assembly: FunctionsStartup(typeof(Stat.Itok.Func.Worker.Startup))]
 
-namespace Stat.Itok.Func.Background
+namespace Stat.Itok.Func.Worker
 {
     public class Startup : FunctionsStartup
     {

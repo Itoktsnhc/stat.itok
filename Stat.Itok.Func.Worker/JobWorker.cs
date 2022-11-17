@@ -9,18 +9,18 @@ using Microsoft.Extensions.Options;
 using Stat.Itok.Core;
 using Stat.Itok.Core.Handlers;
 
-namespace Stat.Itok.Func.Functions;
+namespace Stat.Itok.Func.Worker;
 
-public class JobExecutor
+public class JobDispatcher
 {
     private readonly IMediator _mediator;
-    private readonly ILogger<JobExecutor> _logger;
+    private readonly ILogger<JobDispatcher> _logger;
     private readonly IStorageAccessSvc _storage;
     private readonly IOptions<GlobalConfig> _options;
 
-    public JobExecutor(
+    public JobDispatcher(
         IMediator mediator,
-        ILogger<JobExecutor> logger,
+        ILogger<JobDispatcher> logger,
         IStorageAccessSvc storage,
         IOptions<GlobalConfig> options)
     {
@@ -30,7 +30,7 @@ public class JobExecutor
         _options = options;
     }
 
-    [FunctionName("JobExecutor")]
+    [FunctionName("JobDispatcher")]
     public async Task RunAsync([TimerTrigger("0 */5 * * * *", RunOnStartup = true)] TimerInfo timerInfo)
     {
         var jobConfigTable = await _storage.GetTableClientAsync<JobConfig>();
@@ -40,6 +40,7 @@ public class JobExecutor
         {
             jobs.Add(item);
         }
+
         _logger.LogInformation("JobExecutor GOT {N} Records", jobs.Count);
         if (jobs.Count <= 0) return;
         var gearsInfoDict = await _mediator.Send(new ReqGetGearsInfo());
@@ -56,11 +57,17 @@ public class JobExecutor
             }
         }
     }
+    
+    [FunctionName("JobWorker")]
+    public static async Task RunAsync([QueueTrigger("tasks", Connection = "")] string rawTask, ILogger log)
+    {
+        //TODO This will handle the JobDetailFetchAndUpload  
+    }
 
     private async Task<JobConfig> ExecuteJobAsync(JobConfig jobConfig, Dictionary<string, string> gearsInfo)
     {
         var hisTable = await _storage.GetTableClientAsync<JobRunHistory>();
-        var lastHis = await GetLastestJobRunHistoryAsync(jobConfig, hisTable);
+        var lastHis = await GetLatestJobRunHistoryAsync(jobConfig, hisTable);
         var lastBattleIdDict = lastHis == null ? new Dictionary<string, string>() : lastHis.BattleIdDict;
         var jobRunHis = new JobRunHistory
         {
@@ -70,24 +77,27 @@ public class JobExecutor
         };
         try
         {
-            var checkRes = await _mediator.Send(new ReqPreCheck() { AuthContext = jobConfig.NinAuthContext });
+            var checkRes = await _mediator.Send(new ReqPreCheck() {AuthContext = jobConfig.NinAuthContext});
             if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
             {
                 jobRunHis.PreCheckResult = PreCheckResult.NeedBuildFromBegin;
                 jobRunHis.Status = TaskStatus.Faulted;
                 throw new Exception("PreCheckResult.NeedBuildFromBegin");
             }
+
             jobConfig.NinAuthContext = checkRes.AuthContext;
-            jobRunHis.Status = TaskStatus.RanToCompletion;// assum ok result;
+            jobRunHis.Status = TaskStatus.RanToCompletion; // assum ok result;
             var newBattleIdDict = new Dictionary<string, string>();
             foreach (var queryName in jobConfig.EnabledQueries)
             {
-                var battleIdDict = await UploadPlayHistoriesAsync(queryName, lastBattleIdDict, jobRunHis, jobConfig, gearsInfo);
+                var battleIdDict =
+                    await UploadPlayHistoriesAsync(queryName, lastBattleIdDict, jobRunHis, jobConfig, gearsInfo);
                 foreach (var (bodyBattleId, WebBattleId) in battleIdDict)
                 {
                     newBattleIdDict[bodyBattleId] = WebBattleId;
                 }
             }
+
             jobRunHis.BattleIdDict = newBattleIdDict;
         }
         catch (Exception ex)
@@ -100,6 +110,7 @@ public class JobExecutor
             jobRunHis.EndAt = DateTimeOffset.Now;
             await UploadJobRunHistoryAsync(jobRunHis, hisTable);
         }
+
         return jobConfig;
     }
 
@@ -113,9 +124,11 @@ public class JobExecutor
             switch (queryName)
             {
                 case nameof(QueryHash.BankaraBattleHistories):
-                    return await DoVsBattleUploadAsync(QueryHash.BankaraBattleHistories, hisBattleIds, jobRunHis, jobConfig, gearsInfoDict);
+                    return await DoVsBattleUploadAsync(QueryHash.BankaraBattleHistories, hisBattleIds, jobRunHis,
+                        jobConfig, gearsInfoDict);
                 case nameof(QueryHash.RegularBattleHistories):
-                    return await DoVsBattleUploadAsync(QueryHash.RegularBattleHistories, hisBattleIds, jobRunHis, jobConfig, gearsInfoDict);
+                    return await DoVsBattleUploadAsync(QueryHash.RegularBattleHistories, hisBattleIds, jobRunHis,
+                        jobConfig, gearsInfoDict);
                 default:
                     _logger.LogError("NoSupportedQuery:{querName}", queryName);
                     jobRunHis.Status = TaskStatus.Faulted;
@@ -127,6 +140,7 @@ public class JobExecutor
             jobRunHis.Status = TaskStatus.Faulted;
             _logger.LogError(ex, "Error when do query:{queryName}", queryName);
         }
+
         return new Dictionary<string, string>();
     }
 
@@ -152,9 +166,10 @@ public class JobExecutor
                 if (!jobConfig.ForceOverride && hisBattleIdDict.ContainsKey(statInkBattleId))
                 {
                     newBattleIdDict[statInkBattleId] = hisBattleIdDict[statInkBattleId];
-                    _logger.LogInformation("Skipping {battleId} due to previous upload");
+                    _logger.LogInformation("Skipping {battleId} due to previous upload", statInkBattleId);
                     continue;
                 }
+
                 var detailRes = await _mediator.Send(new ReqDoGraphQL()
                 {
                     AuthContext = jobConfig.NinAuthContext,
@@ -175,15 +190,17 @@ public class JobExecutor
                 newBattleIdDict[statInkBattleId] = resp.Id;
             }
         }
+
         return newBattleIdDict;
     }
 
-    private async Task<JobRunHistory> GetLastestJobRunHistoryAsync(JobConfig job, TableClient hisTable)
+    private async Task<JobRunHistory> GetLatestJobRunHistoryAsync(JobConfig job, TableClient hisTable)
     {
         await foreach (var his in hisTable.QueryAsync<JobRunHistory>(x => x.PartitionKey == job.RowKey))
         {
             return his;
         }
+
         return null;
     }
 
