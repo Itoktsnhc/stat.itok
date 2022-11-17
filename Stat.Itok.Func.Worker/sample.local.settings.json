@@ -4,7 +4,8 @@
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
     "APPINSIGHTS_INSTRUMENTATIONKEY": "c00e58fe-fec4-48ea-b38d-71d98b6ceebd",
-    "GlobalConfig__StorageAccountConnStr": "<FILL_ME>"
+    "GlobalConfig__StorageAccountConnStr": "<FILL_ME>",
+    "WorkerQueueConnStr": "<FILL_ME>"
   },
   "Host": {
     "LocalHttpPort": 7071,

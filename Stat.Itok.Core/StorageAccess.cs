@@ -9,7 +9,7 @@ namespace Stat.Itok.Core
     {
         Task<TableClient> GetTableClientAsync(string tableName);
         Task<TableClient> GetTableClientAsync<T>();
-        Task<QueueClient> GetQueueClientAsync(string queueName);
+        Task<QueueClient> GeJobRunTaskQueueClientAsync();
     }
 
     public class StorageAccessSvc : IStorageAccessSvc
@@ -47,12 +47,13 @@ namespace Stat.Itok.Core
             return tableClient;
         }
         
-        public async Task<QueueClient> GetQueueClientAsync(string queueName)
+        public async Task<QueueClient> GeJobRunTaskQueueClientAsync()
         {
-            var serviceClient = new QueueServiceClient(_options.Value.StorageAccountConnStr);
-            var queueClient = serviceClient.GetQueueClient(queueName);
+            var serviceClient = new QueueServiceClient(Environment.GetEnvironmentVariable("WorkerQueueConnStr"));
+            var queueClient = serviceClient.GetQueueClient(StatItokConstants.JobRunTaskQueueName);
             await queueClient.CreateIfNotExistsAsync();
             return queueClient;
         }
+
     }
 }

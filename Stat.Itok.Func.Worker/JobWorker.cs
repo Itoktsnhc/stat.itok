@@ -42,7 +42,7 @@ public class JobDispatcher
     }
 
     [FunctionName("JobDispatcher")]
-    public async Task RunAsync([TimerTrigger("0 */5 * * * *", RunOnStartup = true)] TimerInfo timerInfo)
+    public async Task ActJobDispatcher([TimerTrigger("0 */5 * * * *", RunOnStartup = true)] TimerInfo timerInfo)
     {
         var jobConfigTable = await _storage.GetTableClientAsync<JobConfig>();
         var queryRes = jobConfigTable.QueryAsync<JobConfig>(x => x.PartitionKey == nameof(JobConfig) && x.Enabled);
@@ -69,21 +69,20 @@ public class JobDispatcher
         }
     }
 
-    //[FunctionName("JobWorker")]
-    //[StorageAccount($"GlobalConfig__StorageAccountConnStr")]
-    //public static async Task RunAsync(
-    //    [QueueTrigger(StatItokConstants.JobRunTaskQueueName)]
-    //    string contentBase64)
-    //{
-    //    if (string.IsNullOrEmpty(contentBase64))
-    //    {
-    //        return;
-    //    }
+    [FunctionName("JobWorker")]
+    public static async Task ActJobWorkerAsync(
+        [QueueTrigger(StatItokConstants.JobRunTaskQueueName, Connection ="WorkerQueueConnStr")]
+        string content)
+    {
+        if (string.IsNullOrEmpty(content))
+        {
+            return;
+        }
 
-    //    var str = Encoding.UTF8.GetString(Convert.FromBase64String(contentBase64));
-    //    //var jobRunTask
-    //    //May need base64 decode;
-    //}
+        var str = Helper.DecompressStr(content);
+        //var jobRunTask
+        //May need base64 decode;
+    }
 
     private async Task DispatchJobRunAsync(JobConfig jobConfig, TableClient jobConfigTable)
     {
@@ -178,7 +177,7 @@ public class JobDispatcher
                 jobRunTask.TrackedId = tJobRunTask.JobId;
                 try
                 {
-                    var queueClient = await _storage.GetQueueClientAsync(StatItokConstants.JobRunTaskQueueName);
+                    var queueClient = await _storage.GeJobRunTaskQueueClientAsync();
                     var resp = await queueClient
                         .SendMessageAsync(Helper.CompressStr(JsonConvert.SerializeObject(jobRunTask.Adapt<JobRunTaskLite>())));
                     await _jobTracker.UpdateJobStatesAsync(jobRunTask.TrackedId,
