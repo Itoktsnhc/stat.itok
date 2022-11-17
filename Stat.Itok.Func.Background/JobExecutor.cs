@@ -31,13 +31,8 @@ public class JobExecutor
     }
 
     [FunctionName("JobExecutor")]
-    public async Task RunAsync([TimerTrigger("0 */10 * * * *", RunOnStartup = true)] TimerInfo timerInfo)
+    public async Task RunAsync([TimerTrigger("0 */5 * * * *", RunOnStartup = true)] TimerInfo timerInfo)
     {
-        if (!_options.Value.EnableJobExecutor)
-        {
-            _logger.LogWarning("JobExecutor disabled by Config");
-        }
-        
         var jobConfigTable = await _storage.GetTableClientAsync<JobConfig>();
         var queryRes = jobConfigTable.QueryAsync<JobConfig>(x => x.PartitionKey == nameof(JobConfig) && x.Enabled);
         var jobs = new List<JobConfig>();

@@ -8,7 +8,6 @@
 @inject HttpClient Http
 @inject JsonSerializerOptions jsonOptions
 
-<style></style>
 <PageTitle>A tool for splat3</PageTitle>
 
 <div class="h2">stat.itok 一个给<a href="https://stat.ink/" target="_blank">stat.ink</a>提交数据的工具</div>
@@ -24,35 +23,33 @@
             <HxButton Text="获取认证URL" Color=ThemeColor.Light Spinner="waitingVerifyUrl" OnClick="async () => await GetCopyRedirectionUrlAsync()"></HxButton>
             <a class="link-info" hidden="@(string.IsNullOrEmpty(jobConfig.NinAuthContext.TokenCopyInfo.CopyRedirectionUrl))"
                href="@jobConfig.NinAuthContext.TokenCopyInfo.CopyRedirectionUrl" target="_blank">
-                去复制重定向链
+                去复制重定向链接
             </a>
             <br />
             <hr />
             <ul>
-                <li>将上面复制结果粘贴到下方 <span class="bg-warning">重定向链接</span> 中</li>
-                <li>点击尝试进行账号验证,等待验证结果</li>
+                <li>粘贴到下方 <span class="bg-warning">重定向链接</span> 中, 点击<span class="bg-danger">进行账号验证</span></li>
             </ul>
             <HxInputText Label="重定向链接" @bind-Value=@jobConfig.NinAuthContext.TokenCopyInfo.RedirectUrl Placeholder="粘贴重定向链接" />
             <br />
-            <HxButton Enabled=@(!string.IsNullOrEmpty(jobConfig.NinAuthContext.TokenCopyInfo.RedirectUrl)) Text="尝试进行账号验证" Color=ThemeColor.Primary Spinner="waitingAuthAccount" OnClick="async () => await TryAuthAccontInfoAsync()"></HxButton>
+            <HxButton Enabled=@(!string.IsNullOrEmpty(jobConfig.NinAuthContext.TokenCopyInfo.RedirectUrl)) Text="进行账号验证" Color=ThemeColor.Primary Spinner="waitingAuthAccount" OnClick="async () => await TryAuthAccontInfoAsync()"></HxButton>
             <br />
             <HxCollapse @ref="detailCard" Id="myCollapse" CssClass="mt-3">
                 <HxCard>
                     <BodyTemplate>
                         <HxCardText>
-                            <div class="p-1"><span>账户标识&emsp;: </span> @jobConfig.NinAuthContext.UserInfo.Id</div>
-                            <div class="p-1"><span>账户名&emsp;&emsp;: </span> @jobConfig.NinAuthContext.UserInfo.Nickname</div>
-                            <div class="p-1"><span>国家或地区: </span> @jobConfig.NinAuthContext.UserInfo.Country</div>
-                            <div class="p-1"><span>语言&emsp;&emsp;&emsp;: </span> @jobConfig.NinAuthContext.UserInfo.Lang</div>
+                            <div class="p-1"><span>账户标识&emsp;:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Id</div>
+                            <div class="p-1"><span>账户名&emsp;&emsp;:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Nickname</div>
+                            <div class="p-1"><span>国家或地区:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Country</div>
                         </HxCardText>
                     </BodyTemplate>
                 </HxCard>
             </HxCollapse>
             <br />
-            <HxSelect Label="覆盖账户设置中的语言(影响铭牌、奖牌等的获取)"
+            <HxSelect Label="覆盖账户中获取的语言(影响铭牌、奖牌等的描述)"
                       TItem="UserLang"
                       TValue="string"
-                      InputGroupStartText="语言/文化"
+                      InputGroupStartText="语言"
                       Data="langs"
                       @bind-Value="userLang"
                       Nullable="false"
@@ -60,26 +57,39 @@
                       ValueSelector="@(p => p.Value)" />
             <hr />
 
-            <HxInputText Label="StatInk Api密钥" @bind-Value=@jobConfig.StatInkApiKey Placeholder="粘贴Stat的 Api密钥" />
+            <HxInputText Label="stat.ink Api密钥" @bind-Value=@jobConfig.StatInkApiKey Placeholder="粘贴stat.ink的Api密钥" />
             <a class="link-info" href="https://stat.ink/profile" target="_blank">
-                去stat.ink 复制Api密钥
+                去 stat.ink 复制Api密钥
             </a>
             <br />
             <hr />
-            <HxButton Enabled=@(IsAuthSuccess())
+            <HxMultiSelect Label="监控的对战类型"
+                           TItem="BattleType"
+                           TValue="string"
+                           Data="@battleConfigs"
+                           @bind-Value="@jobConfig.EnabledQueries"
+                           NullDataText="---选择需要监控的对战类型---"
+                           EmptyText="---选择需要监控的对战类型---"
+                           TextSelector="@(p => p.Name)"
+                           ValueSelector="@(p => p.Value)" />
+            <br />
+            <hr />
+            <HxButton Enabled=@(IsFormOk())
                       Text="确认并提交" Color=ThemeColor.Primary Spinner="waitingSubmit"
                       OnClick="async () => await UpsertJobConfigAsync()"></HxButton>
         </div>
     </div>
 </div>
 
-
-
 @code
 {
-
     [Inject] protected IHxMessageBoxService MessageBox { get; set; }
     private string userLang = "zh-CN";
+    private List<BattleType> battleConfigs = new List<BattleType>()
+    {
+        new BattleType("真格",nameof(QueryHash.BankaraBattleHistories)),
+        new BattleType("涂地(包含祭典)",nameof(QueryHash.RegularBattleHistories)),
+    };
     private HxCollapse detailCard;
     bool waitingVerifyUrl = false;
     bool waitingAuthAccount = false;
@@ -92,12 +102,13 @@
         new UserLang("美式英语(en-US)", "en-US"),
     };
 
-    public bool IsAuthSuccess()
+    public bool IsFormOk()
     {
         return
         !string.IsNullOrEmpty(jobConfig?.NinAuthContext?.UserInfo?.Id)
         && !string.IsNullOrEmpty(jobConfig?.StatInkApiKey)
-        && !string.IsNullOrEmpty(jobConfig.NinAuthContext.SessionToken);
+        && !string.IsNullOrEmpty(jobConfig.NinAuthContext.SessionToken)
+        && jobConfig.EnabledQueries?.Any() == true;
     }
 
     public async Task GetCopyRedirectionUrlAsync()
@@ -135,7 +146,6 @@
         try
         {
             var rawResp = await Http.PostAsJsonAsync<NinTokenCopyInfo>("/api/nin/auth_account", jobConfig.NinAuthContext.TokenCopyInfo);
-            rawResp.EnsureSuccessStatusCode();
             var strResp = await rawResp.Content.ReadAsStringAsync();
             var resp = JsonSerializer.Deserialize<ApiResp<NinAuthContext>>(strResp, jsonOptions);
             if (resp.Result)
@@ -155,7 +165,7 @@
                     Text = ex.Message,
                     Title = "请求出错",
                     ShowCloseButton = true,
-                    Buttons = MessageBoxButtons.Ignore
+                    Buttons = MessageBoxButtons.Ok
                 });
         }
         waitingAuthAccount = false;
@@ -168,12 +178,11 @@
         {
             jobConfig.NinAuthContext.UserInfo.Lang = userLang;
             var rawResp = await Http.PostAsJsonAsync("/api/job/upsert", jobConfig);
-            rawResp.EnsureSuccessStatusCode();
             var strResp = await rawResp.Content.ReadAsStringAsync();
             var resp = JsonSerializer.Deserialize<ApiResp<JobConfigLite>>(strResp, jsonOptions);
             if (!resp.Result)
             {
-                throw new Exception($"请求失败:{resp.Msg}");
+                throw new Exception($"{resp.Msg}");
             }
 
             _ = await MessageBox.ShowAsync(new MessageBoxRequest()
@@ -181,7 +190,7 @@
                     Text = $"后台任务已创建成功",
                     Title = "请求成功",
                     ShowCloseButton = true,
-                    Buttons = MessageBoxButtons.Yes
+                    Buttons = MessageBoxButtons.Ok
                 });
         }
         catch (Exception ex)
@@ -191,11 +200,12 @@
                     Text = ex.Message,
                     Title = "请求出错",
                     ShowCloseButton = true,
-                    Buttons = MessageBoxButtons.Ignore
+                    Buttons = MessageBoxButtons.Ok
                 });
         }
         waitingSubmit = false;
     }
     record UserLang(string ShowName, string Value);
+    record BattleType(string Name, string Value);
 
 }
