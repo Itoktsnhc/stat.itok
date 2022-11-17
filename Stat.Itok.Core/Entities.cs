@@ -363,14 +363,14 @@ public record JobConfig : JobConfigLite, ITableEntity
     public string NinAuthContextStr { get; set; }
 
     [IgnoreDataMember]
-    public new IList<string> EnabledQueries
+    public new List<string> EnabledQueries
     {
         get
         {
             return
                 string.IsNullOrEmpty(EnabledQueriesStr) ?
                 new List<string>()
-                : JsonConvert.DeserializeObject<IList<string>>(Helper.DecompressStr(EnabledQueriesStr));
+                : JsonConvert.DeserializeObject<List<string>>(Helper.DecompressStr(EnabledQueriesStr));
         }
         set
         {
