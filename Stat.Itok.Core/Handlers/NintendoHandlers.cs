@@ -32,7 +32,7 @@ public class NintendoPublicHandlers : HandlerBase,
         var strResp = await RunWithDefaultPolicy(_api.GetTokenCopyUrlAsync(authCode, authCodeVerifier), true);
         return new NinTokenCopyInfo()
         {
-            TokenCopyUrl = strResp,
+            CopyRedirectionUrl = strResp,
             AuthCodeVerifier = authCodeVerifier,
         };
     }
@@ -111,7 +111,7 @@ public class NintendoPublicHandlers : HandlerBase,
             {
                 AuthContext = request.AuthContext,
                 QueryHash = QueryHash.HomeQuery
-            });
+            }, cancellationToken);
         }
         catch (Exception)
         {

@@ -16,4 +16,7 @@
 		<PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
 		<PackageReference Include="UrlBase64" Version="0.1.2" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Stat.Itok.Shared\Stat.Itok.Shared.csproj" />
+	</ItemGroup>
 </Project>

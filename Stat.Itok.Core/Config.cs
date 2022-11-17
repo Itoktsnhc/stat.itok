@@ -27,6 +27,7 @@
         public string StatInkUUIDListApi { get; set; } = "https://stat.ink/api/v3/s3s/uuid-list";
         public string StatInkFullGearApi { get; set; } = "https://stat.ink/api/v3/ability?full=1";
         public FallbackConfig FallbackConfig { get; set; }
+        public bool EnableJobExecutor { get; set; } = false;
     }
 
     public class FallbackConfig
