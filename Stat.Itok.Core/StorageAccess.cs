@@ -1,16 +1,15 @@
 ﻿using Azure.Data.Tables;
 using Azure.Storage.Blobs;
+using Azure.Storage.Queues;
 using Microsoft.Extensions.Options;
-using Stat.Itok.Core;
 
 namespace Stat.Itok.Core
 {
     public interface IStorageAccessSvc
     {
-        Task<BlobContainerClient> GetBlobClientAsync(string containerName);
-        Task<BlobContainerClient> GetBlobClientAsync<T>();
         Task<TableClient> GetTableClientAsync(string tableName);
         Task<TableClient> GetTableClientAsync<T>();
+        Task<QueueClient> GetQueueClientAsync(string queueName);
     }
 
     public class StorageAccessSvc : IStorageAccessSvc
@@ -41,22 +40,19 @@ namespace Stat.Itok.Core
 
         public async Task<TableClient> GetTableClientAsync<T>()
         {
-            var tableName = $"{_options.Value.SubPrefix}000{typeof(T).Name}";
+            var tableName = $"{typeof(T).Name}";
             var serviceClient = new TableServiceClient(_options.Value.StorageAccountConnStr);
             var tableClient = serviceClient.GetTableClient(tableName);
             await tableClient.CreateIfNotExistsAsync();
             return tableClient;
         }
-
-        public async Task<BlobContainerClient> GetBlobClientAsync<T>()
+        
+        public async Task<QueueClient> GetQueueClientAsync(string queueName)
         {
-            var containerName = $"{_options.Value.SubPrefix}000{typeof(T).Name}";
-            var serviceClient = new BlobServiceClient(_options.Value.StorageAccountConnStr);
-            var containerClient = serviceClient.GetBlobContainerClient(containerName);
-            await containerClient.CreateIfNotExistsAsync();
-            return containerClient;
+            var serviceClient = new QueueServiceClient(_options.Value.StorageAccountConnStr);
+            var queueClient = serviceClient.GetQueueClient(queueName);
+            await queueClient.CreateIfNotExistsAsync();
+            return queueClient;
         }
-
     }
-
 }

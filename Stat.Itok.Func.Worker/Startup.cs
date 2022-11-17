@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using JobTrackerX.Client;
 using MediatR;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Azure.WebJobs.Logging;
@@ -27,6 +28,8 @@ namespace Stat.Itok.Func.Worker
                 .AddSingleton<IStorageAccessSvc, StorageAccessSvc>()
                 .AddMediatR(typeof(NintendoPrivateHandlers))
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
+                .AddSingleton<IJobTrackerClient, JobTrackerClient>(x =>
+                    new JobTrackerClient(x.GetRequiredService<IOptions<GlobalConfig>>().Value.JobSysBase))
                 .AddLogging();
 
             builder.Services.AddHttpClient<INintendoApi, NintendoApi>()
@@ -54,26 +57,31 @@ namespace Stat.Itok.Func.Worker
             if (logger != null)
                 builder.Services.Remove(logger);
 
-            builder.Services.Add(new ServiceDescriptor(typeof(ILogger<>), typeof(FunctionsLogger<>), ServiceLifetime.Transient));
+            builder.Services.Add(new ServiceDescriptor(typeof(ILogger<>), typeof(FunctionsLogger<>),
+                ServiceLifetime.Transient));
         }
 
         class FunctionsLogger<T> : ILogger<T>
         {
             readonly ILogger _logger;
+
             public FunctionsLogger(ILoggerFactory factory)
                 // See https://github.com/Azure/azure-functions-host/issues/4689#issuecomment-533195224
                 => _logger = factory.CreateLogger(LogCategories.CreateFunctionUserCategory(typeof(T).FullName));
+
             public IDisposable BeginScope<TState>(TState state) => _logger.BeginScope(state);
             public bool IsEnabled(LogLevel logLevel) => _logger.IsEnabled(logLevel);
-            public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func<TState, Exception, string> formatter)
+
+            public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception exception,
+                Func<TState, Exception, string> formatter)
                 => _logger.Log(logLevel, eventId, state, exception, formatter);
         }
-
     }
 
     public static class ServiceExtensions
     {
-        public static void RegisterConfiguration<TCustomConfiguration>(this IServiceCollection services, string sectionName, ServiceLifetime serviceLifetime) where TCustomConfiguration : class, new()
+        public static void RegisterConfiguration<TCustomConfiguration>(this IServiceCollection services,
+            string sectionName, ServiceLifetime serviceLifetime) where TCustomConfiguration : class, new()
         {
             if (services == null)
             {
@@ -97,7 +105,8 @@ namespace Stat.Itok.Func.Worker
             }, serviceLifetime));
         }
 
-        public static void RegisterConfiguration<TCustomConfiguration>(this IServiceCollection services, ServiceLifetime serviceLifetime) where TCustomConfiguration : class, new()
+        public static void RegisterConfiguration<TCustomConfiguration>(this IServiceCollection services,
+            ServiceLifetime serviceLifetime) where TCustomConfiguration : class, new()
         {
             services.RegisterConfiguration<TCustomConfiguration>(typeof(TCustomConfiguration).Name, serviceLifetime);
         }

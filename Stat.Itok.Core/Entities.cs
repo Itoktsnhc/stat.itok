@@ -14,7 +14,6 @@ public record IMinkFCalcApiResp
     public string Timestamp { get; set; }
 }
 
-
 public enum BattleType
 {
     Vs,
@@ -342,7 +341,6 @@ public class StatInkPostBattleSuccess
     public string Url { get; set; }
 }
 
-
 public record JobConfig : JobConfigLite, ITableEntity
 {
     [IgnoreDataMember]
@@ -351,15 +349,13 @@ public record JobConfig : JobConfigLite, ITableEntity
         get
         {
             return
-                string.IsNullOrEmpty(NinAuthContextStr) ?
-                null
-                : JsonConvert.DeserializeObject<NinAuthContext>(Helper.DecompressStr(NinAuthContextStr));
+                string.IsNullOrEmpty(NinAuthContextStr)
+                    ? null
+                    : JsonConvert.DeserializeObject<NinAuthContext>(Helper.DecompressStr(NinAuthContextStr));
         }
-        set
-        {
-            NinAuthContextStr = Helper.CompressStr(JsonConvert.SerializeObject(value));
-        }
+        set { NinAuthContextStr = Helper.CompressStr(JsonConvert.SerializeObject(value)); }
     }
+
     public string NinAuthContextStr { get; set; }
 
     [IgnoreDataMember]
@@ -368,61 +364,71 @@ public record JobConfig : JobConfigLite, ITableEntity
         get
         {
             return
-                string.IsNullOrEmpty(EnabledQueriesStr) ?
-                new List<string>()
-                : JsonConvert.DeserializeObject<List<string>>(Helper.DecompressStr(EnabledQueriesStr));
+                string.IsNullOrEmpty(EnabledQueriesStr)
+                    ? new List<string>()
+                    : JsonConvert.DeserializeObject<List<string>>(Helper.DecompressStr(EnabledQueriesStr));
         }
-        set
-        {
-            EnabledQueriesStr = Helper.CompressStr(JsonConvert.SerializeObject(value));
-        }
+        set { EnabledQueriesStr = Helper.CompressStr(JsonConvert.SerializeObject(value)); }
     }
+
     public string EnabledQueriesStr { get; set; }
 
     /// <summary>
     /// nameof(JobConfig)
     /// </summary>
     public string PartitionKey { get; set; }
+
     /// <summary>
     /// $"nin_user_{this.NinAuthContext.UserInfo.Id}";
     /// </summary>
     public string RowKey { get; set; }
+
     public DateTimeOffset? Timestamp { get; set; } = DateTimeOffset.Now;
     public ETag ETag { get; set; }
-
 }
 
-public record JobRunHistory : JobRunHistoryLite, ITableEntity
+public record JobRun : ITableEntity
 {
-    /// <summary>
-    /// StatInk UUID -> Returned BattleId
-    /// </summary>
-    [IgnoreDataMember]
-    public new Dictionary<string, string> BattleIdDict
-    {
-        get
-        {
-            return
-                string.IsNullOrEmpty(BattleIdStr) ?
-                new Dictionary<string, string>()
-                : JsonConvert.DeserializeObject<Dictionary<string, string>>(BattleIdStr);
-        }
-        set
-        {
-            BattleIdStr = JsonConvert.SerializeObject(value);
-        }
-    }
-
-    public string BattleIdStr { get; set; }
+    public long TrackedId { get; set; }
+    public string JobConfigId { get; set; }
 
     /// <summary>
     /// JobConfigId
     /// </summary>
     public string PartitionKey { get; set; }
+
     /// <summary>
     /// invertedTimeKey
     /// </summary>
     public string RowKey { get; set; }
+
     public DateTimeOffset? Timestamp { get; set; } = DateTimeOffset.Now;
     public ETag ETag { get; set; }
+}
+
+public class JobBattleIdHis : ITableEntity
+{
+    public string CompressedPayload { get; set; }
+    public string PartitionKey { get; set; }
+    public string RowKey  { get; set; }
+    public DateTimeOffset? Timestamp  { get; set; }
+    public ETag ETag  { get; set; }
+}
+
+public class JobRunTaskLite
+{
+    public string JobConfigId { get; set; }
+    public long JobRunTrackedId { get; set; }
+    public long TrackedId { get; set; }
+}
+
+public class JobRunTask<T>: JobRunTaskLite
+{
+    public T Payload { get; set; }
+}
+
+public class BattleTaskPayload
+{
+    public string BattleGroupRawStr { get; set; }
+    public string BattleIdRawStr { get; set; }
 }

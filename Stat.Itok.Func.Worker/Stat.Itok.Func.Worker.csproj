@@ -8,6 +8,7 @@
 	  <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
 	  <PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.2.1" />
 	  <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+	  <PackageReference Include="JobTrackerX.Client" Version="1.0.30" />
 	  <PackageReference Include="Mapster" Version="7.3.0" />
 	  <PackageReference Include="Mediator.Net.MicrosoftDependencyInjection" Version="4.7.0" />
 	  <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
@@ -28,6 +29,10 @@
   <ItemGroup>
     <None Update="host.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
     <None Update="local.settings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

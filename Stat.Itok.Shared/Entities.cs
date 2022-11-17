@@ -45,16 +45,6 @@ namespace Stat.Itok.Shared
         AutoRefreshed = 2,
         NeedBuildFromBegin = 3,
     }
-    public record JobRunHistoryLite
-    {
-        public string JobConfigId { get; set; }
-        public DateTimeOffset? StartAt { get; set; }
-        public DateTimeOffset? EndAt { get; set; }
-        public TaskStatus? Status { get; set; }
-        public PreCheckResult PreCheckResult { get; set; }
-        public string Info { get; set; }
-        public Dictionary<string, string> BattleIdDict { get; set; }
-    }
 
     public record JobConfigLite
     {
@@ -107,6 +97,7 @@ namespace Stat.Itok.Shared
             return new ApiResp<TData>(default, false, errorMsg);
         }
     }
+
     public static class QueryHash
     {
         public static Dictionary<string, string> BattleQueries;
@@ -138,4 +129,5 @@ namespace Stat.Itok.Shared
         public const string CoopResult = "817618ce39bcf5570f52a97d73301b30";
         public const string CoopHistoryDetail = "f3799a033f0a7ad4b1b396f9a3bafb1e";
     }
+
 }

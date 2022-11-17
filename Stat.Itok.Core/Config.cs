@@ -2,7 +2,6 @@
 {
     public class GlobalConfig
     {
-        public string SubPrefix { get; set; } = "dev";
         public string StorageAccountConnStr { get; set; }
 
         public string NSOAppStoreLink { get; set; } =
@@ -27,6 +26,7 @@
         public string StatInkUUIDListApi { get; set; } = "https://stat.ink/api/v3/s3s/uuid-list";
         public string StatInkFullGearApi { get; set; } = "https://stat.ink/api/v3/ability?full=1";
         public FallbackConfig FallbackConfig { get; set; }
+        public string JobSysBase { get; set; } = "http://jobtracker.itok.xyz";
     }
 
     public class FallbackConfig
@@ -38,5 +38,6 @@
     public static class StatItokConstants
     {
         public const string StatVersion = "0.1.0";
+        public const string JobRunTaskQueueName = "job-run-task";
     }
 }

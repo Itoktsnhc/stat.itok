@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Stat.Itok.Func.Background": {
+    "Stat.Itok.Func.Worker": {
       "commandName": "Project",
       "commandLineArgs": "--port 7102",
       "launchBrowser": false

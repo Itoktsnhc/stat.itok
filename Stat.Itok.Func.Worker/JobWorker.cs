@@ -1,11 +1,19 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
+using AutoMapper.Mappers;
 using Azure.Data.Tables;
+using JobTrackerX.Client;
+using JobTrackerX.SharedLibs;
+using Mapster;
 using MediatR;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using Stat.Itok.Core;
 using Stat.Itok.Core.Handlers;
 
@@ -17,17 +25,20 @@ public class JobDispatcher
     private readonly ILogger<JobDispatcher> _logger;
     private readonly IStorageAccessSvc _storage;
     private readonly IOptions<GlobalConfig> _options;
+    private readonly IJobTrackerClient _jobTracker;
 
     public JobDispatcher(
         IMediator mediator,
         ILogger<JobDispatcher> logger,
         IStorageAccessSvc storage,
-        IOptions<GlobalConfig> options)
+        IOptions<GlobalConfig> options,
+        IJobTrackerClient jobTracker)
     {
         _mediator = mediator;
         _logger = logger;
         _storage = storage;
         _options = options;
+        _jobTracker = jobTracker;
     }
 
     [FunctionName("JobDispatcher")]
@@ -43,111 +54,161 @@ public class JobDispatcher
 
         _logger.LogInformation("JobExecutor GOT {N} Records", jobs.Count);
         if (jobs.Count <= 0) return;
-        var gearsInfoDict = await _mediator.Send(new ReqGetGearsInfo());
+
         foreach (var job in jobs)
         {
-            var newJob = await ExecuteJobAsync(job, gearsInfoDict);
+
             try
             {
-                await jobConfigTable.UpsertEntityAsync(newJob);
+                await DispatchJobRunAsync(job, jobConfigTable);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error when UpdateJob after execute");
+                _logger.LogError(ex, "Error when DispatchJobRunAsync");
             }
         }
     }
-    
-    [FunctionName("JobWorker")]
-    public static async Task RunAsync([QueueTrigger("tasks", Connection = "")] string rawTask, ILogger log)
+
+    //[FunctionName("JobWorker")]
+    //[StorageAccount($"GlobalConfig__StorageAccountConnStr")]
+    //public static async Task RunAsync(
+    //    [QueueTrigger(StatItokConstants.JobRunTaskQueueName)]
+    //    string contentBase64)
+    //{
+    //    if (string.IsNullOrEmpty(contentBase64))
+    //    {
+    //        return;
+    //    }
+
+    //    var str = Encoding.UTF8.GetString(Convert.FromBase64String(contentBase64));
+    //    //var jobRunTask
+    //    //May need base64 decode;
+    //}
+
+    private async Task DispatchJobRunAsync(JobConfig jobConfig, TableClient jobConfigTable)
     {
-        //TODO This will handle the JobDetailFetchAndUpload  
-    }
-
-    private async Task<JobConfig> ExecuteJobAsync(JobConfig jobConfig, Dictionary<string, string> gearsInfo)
-    {
-        var hisTable = await _storage.GetTableClientAsync<JobRunHistory>();
-        var lastHis = await GetLatestJobRunHistoryAsync(jobConfig, hisTable);
-        var lastBattleIdDict = lastHis == null ? new Dictionary<string, string>() : lastHis.BattleIdDict;
-        var jobRunHis = new JobRunHistory
+        var checkRes = await _mediator.Send(new ReqPreCheck { AuthContext = jobConfig.NinAuthContext });
+        if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
         {
-            StartAt = DateTimeOffset.Now,
-            Status = TaskStatus.WaitingToRun,
-            JobConfigId = jobConfig.Id,
-        };
-        try
-        {
-            var checkRes = await _mediator.Send(new ReqPreCheck() {AuthContext = jobConfig.NinAuthContext});
-            if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
-            {
-                jobRunHis.PreCheckResult = PreCheckResult.NeedBuildFromBegin;
-                jobRunHis.Status = TaskStatus.Faulted;
-                throw new Exception("PreCheckResult.NeedBuildFromBegin");
-            }
-
-            jobConfig.NinAuthContext = checkRes.AuthContext;
-            jobRunHis.Status = TaskStatus.RanToCompletion; // assum ok result;
-            var newBattleIdDict = new Dictionary<string, string>();
-            foreach (var queryName in jobConfig.EnabledQueries)
-            {
-                var battleIdDict =
-                    await UploadPlayHistoriesAsync(queryName, lastBattleIdDict, jobRunHis, jobConfig, gearsInfo);
-                foreach (var (bodyBattleId, WebBattleId) in battleIdDict)
-                {
-                    newBattleIdDict[bodyBattleId] = WebBattleId;
-                }
-            }
-
-            jobRunHis.BattleIdDict = newBattleIdDict;
+            throw new Exception("PreCheckResult.NeedBuildFromBegin");
         }
-        catch (Exception ex)
-        {
-            jobRunHis.Status = TaskStatus.Faulted;
-            _logger.LogError(ex, "Error when Execution Job");
-        }
-        finally
-        {
-            jobRunHis.EndAt = DateTimeOffset.Now;
-            await UploadJobRunHistoryAsync(jobRunHis, hisTable);
-        }
+        jobConfig.NinAuthContext = checkRes.AuthContext;
+        await jobConfigTable.UpsertEntityAsync(jobConfig);
 
-        return jobConfig;
-    }
-
-    private async Task<Dictionary<string, string>> UploadPlayHistoriesAsync(string queryName,
-        Dictionary<string, string> hisBattleIds,
-        JobRunHistory jobRunHis,
-        JobConfig jobConfig, Dictionary<string, string> gearsInfoDict)
-    {
-        try
+        var jobRunTaskList = new List<JobRunTask<BattleTaskPayload>>();
+        foreach (var queryName in jobConfig.EnabledQueries)
         {
             switch (queryName)
             {
                 case nameof(QueryHash.BankaraBattleHistories):
-                    return await DoVsBattleUploadAsync(QueryHash.BankaraBattleHistories, hisBattleIds, jobRunHis,
-                        jobConfig, gearsInfoDict);
+                    jobRunTaskList.AddRange(await GetJobRunTasksAsync(QueryHash.BankaraBattleHistories, jobConfig));
+                    break;
                 case nameof(QueryHash.RegularBattleHistories):
-                    return await DoVsBattleUploadAsync(QueryHash.RegularBattleHistories, hisBattleIds, jobRunHis,
-                        jobConfig, gearsInfoDict);
+                    jobRunTaskList.AddRange(await GetJobRunTasksAsync(QueryHash.RegularBattleHistories, jobConfig));
+                    break;
                 default:
-                    _logger.LogError("NoSupportedQuery:{querName}", queryName);
-                    jobRunHis.Status = TaskStatus.Faulted;
+                    _logger.LogError("NoSupportedQuery:{queryName}", queryName);
                     break;
             }
         }
-        catch (Exception ex)
-        {
-            jobRunHis.Status = TaskStatus.Faulted;
-            _logger.LogError(ex, "Error when do query:{queryName}", queryName);
-        }
+        await TryDispatchJobRunTasksAsync(jobConfig, jobRunTaskList);
+    }
 
-        return new Dictionary<string, string>();
+    private async Task<IList<JobRunTask<BattleTaskPayload>>> GetJobRunTasksAsync(
+        string queryHash, JobConfig jobConfig)
+    {
+        var groupRes = await _mediator.Send(new ReqDoGraphQL
+        {
+            AuthContext = jobConfig.NinAuthContext,
+            QueryHash = queryHash,
+        });
+        var jobRunTaskList = StatHelper.ExtractBattleIds(groupRes, queryHash)
+            .SelectMany(x => x.BattleIds.Select(y => new JobRunTask<BattleTaskPayload>
+            {
+                Payload = new BattleTaskPayload()
+                {
+                    BattleGroupRawStr = x.RawBattleGroup,
+                    BattleIdRawStr = y
+                },
+                JobConfigId = jobConfig.Id
+            })).ToList();
+        return jobRunTaskList;
+    }
+
+
+    private async Task TryDispatchJobRunTasksAsync(JobConfig jobConfig, IList<JobRunTask<BattleTaskPayload>> tasks)
+    {
+        if (!tasks.Any()) return;
+        var runTable = await _storage.GetTableClientAsync<JobRun>();
+        var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
+        {
+            Tags = new List<string> { "stat.itok" }
+        };
+        var tJob = await _jobTracker.CreateNewJobAsync(newJobDto);
+        var jobRun = new JobRun
+        {
+            TrackedId = tJob.JobId,
+            JobConfigId = jobConfig.Id,
+            PartitionKey = jobConfig.Id,
+            RowKey = (long.MaxValue - tJob.JobId).ToString()
+        };
+        await runTable.UpsertEntityAsync(jobRun);
+        await _jobTracker.UpdateJobStatesAsync(tJob.JobId,
+            new UpdateJobStateDto(JobState.WaitingToRun, "JobRun Saved"));
+        var battleIdTable = await _storage.GetTableClientAsync<JobBattleIdHis>();
+        try
+        {
+            foreach (var jobRunTask in tasks)
+            {
+                jobRunTask.JobConfigId = jobConfig.Id;
+                jobRunTask.JobRunTrackedId = jobRunTask.JobRunTrackedId;
+                var existBattleId =
+                    await battleIdTable.GetEntityIfExistsAsync<JobBattleIdHis>(jobConfig.Id,
+                        StatHelper.GetBattleIdForStatInk(jobRunTask.Payload.BattleIdRawStr));
+                if (existBattleId.HasValue)
+                    continue;
+                var addJobDto = new AddJobDto($"[{nameof(JobRunTask<BattleTaskPayload>).ToUpperInvariant()}]",
+                    jobRun.TrackedId)
+                {
+                    Options = StatHelper.GetBattleIdForStatInk(jobRunTask.Payload.BattleIdRawStr)
+
+                };
+                var tJobRunTask =
+                    await _jobTracker.CreateNewJobAsync(addJobDto);
+                jobRunTask.TrackedId = tJobRunTask.JobId;
+                try
+                {
+                    var queueClient = await _storage.GetQueueClientAsync(StatItokConstants.JobRunTaskQueueName);
+                    var resp = await queueClient
+                        .SendMessageAsync(Helper.CompressStr(JsonConvert.SerializeObject(jobRunTask.Adapt<JobRunTaskLite>())));
+                    await _jobTracker.UpdateJobStatesAsync(jobRunTask.TrackedId,
+                        new UpdateJobStateDto(JobState.WaitingToRun, $"queue message Id:{resp.Value.MessageId}"));
+                    await battleIdTable.UpsertEntityAsync(new JobBattleIdHis()
+                    {
+                        CompressedPayload = Helper.CompressStr(JsonConvert.SerializeObject(jobRunTask)),
+                        PartitionKey = jobConfig.Id,
+                        RowKey = StatHelper.GetBattleIdForStatInk(jobRunTask.Payload.BattleIdRawStr)
+                    });
+                }
+                catch (Exception ex)
+                {
+                    await _jobTracker.UpdateJobStatesAsync(jobRunTask.TrackedId,
+                      new UpdateJobStateDto(JobState.Faulted, ex.Message));
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            await _jobTracker.UpdateJobStatesAsync(tJob.JobId, new UpdateJobStateDto(JobState.Faulted, e.Message));
+        }
+        await _jobTracker.UpdateJobStatesAsync(tJob.JobId,
+            new UpdateJobStateDto(JobState.WaitingForChildrenToComplete));
     }
 
     private async Task<Dictionary<string, string>> DoVsBattleUploadAsync(
         string queryHash,
         Dictionary<string, string> hisBattleIdDict,
-        JobRunHistory jobRunHis,
+        JobRun jobRunHis,
         JobConfig jobConfig,
         Dictionary<string, string> gearInfoDict)
     {
@@ -192,30 +253,5 @@ public class JobDispatcher
         }
 
         return newBattleIdDict;
-    }
-
-    private async Task<JobRunHistory> GetLatestJobRunHistoryAsync(JobConfig job, TableClient hisTable)
-    {
-        await foreach (var his in hisTable.QueryAsync<JobRunHistory>(x => x.PartitionKey == job.RowKey))
-        {
-            return his;
-        }
-
-        return null;
-    }
-
-
-    private async Task UploadJobRunHistoryAsync(JobRunHistory his, TableClient hisTable)
-    {
-        try
-        {
-            his.PartitionKey = his.JobConfigId;
-            his.RowKey = (DateTime.MaxValue.Ticks - his.StartAt!.Value.Ticks).ToString();
-            await hisTable.UpsertEntityAsync(his);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error when UploadJobRunHistory");
-        }
     }
 }
