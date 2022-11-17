@@ -1,5 +1,4 @@
 using System;
-using System.Net;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.Azure.WebJobs;
@@ -88,6 +87,7 @@ namespace Stat.Itok.Func.Functions
                 var upsertResp = await tableClient.UpsertEntityAsync(jobConfig);
                 if (upsertResp.IsError) throw new Exception($"upsert resp is ERROR:{upsertResp.Status},{upsertResp.ReasonPhrase}");
                 _logger.LogInformation("upsert doc:{obj} with resp:{resp}", jobConfig, upsertResp);
+                req.HttpContext.Response.StatusCode = StatusCodes.Status200OK;
                 return ApiResp.OkWith(jobConfigLite);
             }
             catch (Exception e)

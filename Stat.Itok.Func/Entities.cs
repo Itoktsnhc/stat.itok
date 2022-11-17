@@ -6,19 +6,11 @@ using Azure;
 using Azure.Data.Tables;
 using Newtonsoft.Json;
 using Stat.Itok.Core;
+using Stat.Itok.Shared;
 
 namespace Stat.Itok.Func;
 
-public record JobConfigLite
-{
-    public string Id { get; set; }
-    public NinAuthContext NinAuthContext { get; set; }
-    public bool Enabled { get; set; } = true;
-    public DateTimeOffset? LastUpdateTime { get; set; } = DateTimeOffset.Now;
-    public IList<string> EnabledQueries { get; set; }
-    public string StatInkApiKey { get; set; }
-    public bool ForceOverride { get; set; } = false;
-}
+
 
 public record JobConfig : JobConfigLite, ITableEntity
 {
@@ -69,20 +61,13 @@ public record JobConfig : JobConfigLite, ITableEntity
 
 }
 
-public record JobRunHistoryLite
+public record JobRunHistory : JobRunHistoryLite, ITableEntity
 {
-    public string JobConfigId { get; set; }
-    public DateTimeOffset? StartAt { get; set; }
-    public DateTimeOffset? EndAt { get; set; }
-    public TaskStatus? Status { get; set; }
-    public PreCheckResult PreCheckResult { get; set; }
-    public string Info { get; set; }
-
     /// <summary>
-    /// StatInk UUID -> BattleId
+    /// StatInk UUID -> Returned BattleId
     /// </summary>
     [IgnoreDataMember]
-    public Dictionary<string, string> BattleIdDict
+    public new Dictionary<string, string> BattleIdDict
     {
         get
         {
@@ -98,10 +83,7 @@ public record JobRunHistoryLite
     }
 
     public string BattleIdStr { get; set; }
-}
 
-public record JobRunHistory : JobRunHistoryLite, ITableEntity
-{
     /// <summary>
     /// JobConfigId
     /// </summary>

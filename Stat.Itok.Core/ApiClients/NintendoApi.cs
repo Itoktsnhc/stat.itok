@@ -3,6 +3,7 @@ using HtmlAgilityPack;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Options;
 using NeoSmart.Utils;
+using Stat.Itok.Shared;
 using System.Net.Http.Json;
 using System.Security.Cryptography;
 using System.Text;
