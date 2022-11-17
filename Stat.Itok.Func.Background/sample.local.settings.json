@@ -1,0 +1,15 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "c00e58fe-fec4-48ea-b38d-71d98b6ceebd",
+    "GlobalConfig__SubPrefix": "dev",
+    "GlobalConfig__StorageAccountConnStr": "<FILL_ME>"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}

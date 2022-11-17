@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stat.Itok.Core", "Stat.Itok
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stat.Itok.Client", "Stat.Itok.Client\Stat.Itok.Client.csproj", "{72B31843-6261-4C6A-9322-D7501B69F836}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stat.Itok.Shared", "Stat.Itok.Shared\Stat.Itok.Shared.csproj", "{88F13739-B572-4E93-865B-408D6D82AB22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stat.Itok.Shared", "Stat.Itok.Shared\Stat.Itok.Shared.csproj", "{88F13739-B572-4E93-865B-408D6D82AB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stat.Itok.Func.Background", "Stat.Itok.Func.Background\Stat.Itok.Func.Background.csproj", "{BBACE904-BD27-419B-97D9-FAF32F35B63A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{88F13739-B572-4E93-865B-408D6D82AB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88F13739-B572-4E93-865B-408D6D82AB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88F13739-B572-4E93-865B-408D6D82AB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBACE904-BD27-419B-97D9-FAF32F35B63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBACE904-BD27-419B-97D9-FAF32F35B63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBACE904-BD27-419B-97D9-FAF32F35B63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBACE904-BD27-419B-97D9-FAF32F35B63A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

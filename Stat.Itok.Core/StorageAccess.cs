@@ -2,9 +2,8 @@
 using Azure.Storage.Blobs;
 using Microsoft.Extensions.Options;
 using Stat.Itok.Core;
-using System.Threading.Tasks;
 
-namespace Stat.Itok.Func
+namespace Stat.Itok.Core
 {
     public interface IStorageAccessSvc
     {
