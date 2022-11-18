@@ -9,7 +9,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Stat.Itok.Core;
 using Stat.Itok.Core.ApiClients;
 using Stat.Itok.Core.Handlers;
 

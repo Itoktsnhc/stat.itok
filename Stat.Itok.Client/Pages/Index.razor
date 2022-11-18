@@ -177,7 +177,7 @@
         try
         {
             jobConfig.NinAuthContext.UserInfo.Lang = userLang;
-            var rawResp = await Http.PostAsJsonAsync("/api/job/upsert", jobConfig);
+            var rawResp = await Http.PostAsJsonAsync("/api/job_config/upsert", jobConfig);
             var strResp = await rawResp.Content.ReadAsStringAsync();
             var resp = JsonSerializer.Deserialize<ApiResp<JobConfigLite>>(strResp, jsonOptions);
             if (!resp.Result)
