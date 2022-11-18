@@ -330,7 +330,7 @@ namespace Stat.Itok.Core
                         body.RankAfter = body.RankBefore;
                         body.RankAfterSPlus = body.RankBeforeSPlus;
                         var challenge = parent["bankaraMatchChallenge"];
-                        if (challenge != null/* && challenge.Type != JTokenType.Null*/)
+                        if (challenge != null && challenge.Type != JTokenType.Null)
                         {
                             var ranks = new[] { "c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s" };
                             if (challenge["rank_up_battle"].TryWith<bool?>() == true)
@@ -346,7 +346,7 @@ namespace Stat.Itok.Core
                             else
                             {
                                 var udemaeAfter = challenge["udemaeAfter"].TryWith<string>()?.ToLower();
-                                if (/*udemaeAfter == null ||*/ i != 0)
+                                if (udemaeAfter == null || i != 0)
                                 {
                                     body.RankAfter = body.RankBefore;
                                     if (WasSPlusBefore)
