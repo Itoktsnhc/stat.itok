@@ -12,7 +12,6 @@ using MediatR;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Stat.Itok.Core;
 using Stat.Itok.Core.Handlers;
@@ -24,7 +23,6 @@ public class JobDispatcher
     private readonly IMediator _mediator;
     private readonly ILogger<JobDispatcher> _logger;
     private readonly IStorageAccessSvc _storage;
-    private readonly IOptions<GlobalConfig> _options;
     private readonly IJobTrackerClient _jobTracker;
     private readonly IMemoryCache _memCache;
 
@@ -32,14 +30,12 @@ public class JobDispatcher
         IMediator mediator,
         ILogger<JobDispatcher> logger,
         IStorageAccessSvc storage,
-        IOptions<GlobalConfig> options,
         IJobTrackerClient jobTracker,
         IMemoryCache memCache)
     {
         _mediator = mediator;
         _logger = logger;
         _storage = storage;
-        _options = options;
         _jobTracker = jobTracker;
         _memCache = memCache;
     }
@@ -139,6 +135,7 @@ public class JobDispatcher
             _logger.LogInformation("No new battle Find");
             return;
         }
+        
         var runTable = await _storage.GetTableClientAsync<JobRun>();
         var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
         {
@@ -236,7 +233,7 @@ public class JobDispatcher
         {
             var info = $"JobRunTaskPayload not found:{jobRunTaskLite.Pk}:{jobRunTaskLite.Rk}, go to next round";
             _logger.LogError(info);
-            await _jobTracker.AppendToJobLogAsync(task.TrackedId, new AppendLogDto(info));
+            await _jobTracker.AppendToJobLogAsync(jobRunTaskLite.TrackedId, new AppendLogDto(info));
             throw new Exception(info);
         }
 
@@ -262,7 +259,7 @@ public class JobDispatcher
         {
             var msgStr = Helper.DecompressStr(queueMsg.MessageText);
             var jobRunTaskLite = JsonConvert.DeserializeObject<JobRunTaskLite>(msgStr);
-            await _jobTracker.UpdateJobStatesAsync(jobRunTaskLite.TrackedId, new UpdateJobStateDto(JobState.Faulted,
+            await _jobTracker.UpdateJobStatesAsync(jobRunTaskLite!.TrackedId, new UpdateJobStateDto(JobState.Faulted,
                 $"PoisonJobWorker:{msgStr}"));
         }
         catch (Exception ex)
@@ -323,55 +320,5 @@ public class JobDispatcher
             Body = battleBody,
         });
         return resp.Id;
-    }
-
-    private async Task<Dictionary<string, string>> DoVsBattleUploadAsync(
-        string queryHash,
-        Dictionary<string, string> hisBattleIdDict,
-        JobRun jobRunHis,
-        JobConfig jobConfig,
-        Dictionary<string, string> gearInfoDict)
-    {
-        var newBattleIdDict = new Dictionary<string, string>();
-        var groupRes = await _mediator.Send(new ReqDoGraphQL()
-        {
-            AuthContext = jobConfig.NinAuthContext,
-            QueryHash = queryHash,
-        });
-        var battleAndIds = StatHelper.ExtractBattleIds(groupRes, queryHash);
-        foreach (var battleGroup in battleAndIds)
-        {
-            foreach (var battleId in battleGroup.BattleIds)
-            {
-                var statInkBattleId = StatHelper.GetBattleIdForStatInk(battleId);
-                if (!jobConfig.ForceOverride && hisBattleIdDict.ContainsKey(statInkBattleId))
-                {
-                    newBattleIdDict[statInkBattleId] = hisBattleIdDict[statInkBattleId];
-                    _logger.LogInformation("Skipping {battleId} due to previous upload", statInkBattleId);
-                    continue;
-                }
-
-                var detailRes = await _mediator.Send(new ReqDoGraphQL()
-                {
-                    AuthContext = jobConfig.NinAuthContext,
-                    QueryHash = QueryHash.VsHistoryDetail,
-                    VarName = "vsResultId",
-                    VarValue = battleId
-                });
-
-                var battleBody = StatHelper.BuildStatInkBattleBody(
-                    detailRes,
-                    battleGroup.RawBattleGroup,
-                    jobConfig.NinAuthContext.UserInfo.Lang, gearInfoDict);
-                var resp = await _mediator.Send(new ReqPostBattle()
-                {
-                    ApiKey = jobConfig.StatInkApiKey,
-                    Body = battleBody,
-                });
-                newBattleIdDict[statInkBattleId] = resp.Id;
-            }
-        }
-
-        return newBattleIdDict;
     }
 }
