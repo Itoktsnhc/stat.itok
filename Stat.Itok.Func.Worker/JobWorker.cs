@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -132,7 +133,12 @@ public class JobDispatcher
 
     private async Task DispatchJobRunTasksAsync(JobConfig jobConfig, IList<BattleTaskPayload> tasks)
     {
-        if (!tasks.Any()) return;
+        tasks = await ExcludeExistBattlesAsync(jobConfig, tasks);
+        if (!tasks.Any())
+        {
+            _logger.LogInformation("No new battle Find");
+            return;
+        }
         var runTable = await _storage.GetTableClientAsync<JobRun>();
         var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
         {
@@ -149,18 +155,14 @@ public class JobDispatcher
         await runTable.UpsertEntityAsync(jobRun);
         await _jobTracker.UpdateJobStatesAsync(tJob.JobId,
             new UpdateJobStateDto(JobState.WaitingToRun, "JobRun Saved"));
-        var payloadTable = await _storage.GetTableClientAsync<JobRunTaskPayload>();
+
         try
         {
             foreach (var battleTask in tasks)
             {
                 battleTask.JobConfigId = jobConfig.Id;
                 battleTask.JobRunTrackedId = battleTask.JobRunTrackedId;
-                var existBattleId =
-                    await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfig.Id,
-                        StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr));
-                if (existBattleId.HasValue)
-                    continue;
+
                 var addJobDto = new AddJobDto(nameof(BattleTaskPayload),
                     jobRun.TrackedId)
                 {
@@ -196,6 +198,28 @@ public class JobDispatcher
 
         await _jobTracker.UpdateJobStatesAsync(tJob.JobId,
             new UpdateJobStateDto(JobState.WaitingForChildrenToComplete));
+    }
+
+    private async Task<IList<BattleTaskPayload>> ExcludeExistBattlesAsync(JobConfig jobConfig, IList<BattleTaskPayload> tasks)
+    {
+        var res = new ConcurrentBag<BattleTaskPayload>();
+        if (!tasks.Any()) return res.ToList();
+        var payloadTable = await _storage.GetTableClientAsync<JobRunTaskPayload>();
+        var checkTasks = tasks.Select(async task =>
+        {
+            var existBattleId =
+               await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfig.Id,
+                StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
+            if (existBattleId.HasValue)
+            {
+                _logger.LogInformation("{jobConfigId}: ignoring exist battle {battleId} ",
+                    jobConfig.Id, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
+                return;
+            }
+            res.Add(task);
+        });
+        await Task.WhenAll(checkTasks);
+        return res.ToList();
     }
 
     [FunctionName("JobWorker")]
