@@ -327,10 +327,10 @@ namespace Stat.Itok.Core
                         body.RankBefore = fullRank[0];
                         if (WasSPlusBefore)
                             body.RankBeforeSPlus = int.Parse(fullRank[1]);
-                        if (parent["bankaraMatchChallenge"] != null)
+                        var challenge = parent["bankaraMatchChallenge"];
+                        if (challenge != null && challenge.Type != JTokenType.Null)
                         {
                             var ranks = new[] { "c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s" };
-                            var challenge = parent["bankaraMatchChallenge"];
                             if (challenge["rank_up_battle"].TryWith<bool?>() == true)
                                 body.RankUpBattle = StatInkBoolean.Yes;
                             else
@@ -343,7 +343,8 @@ namespace Stat.Itok.Core
                             }
                             else
                             {
-                                if (i != 0)
+                                var udemaeAfter = challenge["udemaeAfter"].TryWith<string>()?.ToLower();
+                                if (udemaeAfter == null || i != 0)
                                 {
                                     body.RankAfter = body.RankBefore;
                                     if (WasSPlusBefore)
@@ -351,8 +352,9 @@ namespace Stat.Itok.Core
                                 }
                                 else
                                 {
+
                                     var fullRankAfter =
-                                        Regex.Split(challenge["udemaeAfter"].TryWith<string>().ToLower(), "([0-9]+)");
+                                        Regex.Split(udemaeAfter, "([0-9]+)");
                                     body.RankAfter = fullRankAfter[0];
                                     if (fullRankAfter.Length > 1)
                                         body.RankAfterSPlus = int.Parse(fullRankAfter[1]);

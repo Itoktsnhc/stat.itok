@@ -1,6 +1,9 @@
 ﻿{
   "IsEncrypted": false,
   "Values": {
+    "AzureWebJobs.JobWorker.Disabled": false,
+    "AzureWebJobs.JobWorkerPoison.Disabled": false,
+    "AzureWebJobs.JobDispatcher.Disabled": false,
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
     "APPINSIGHTS_INSTRUMENTATIONKEY": "c00e58fe-fec4-48ea-b38d-71d98b6ceebd",
