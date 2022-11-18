@@ -10,11 +10,11 @@
   },
   "extensions": {
     "queues": {
-      "maxPollingInterval": "00:00:10",
-      "visibilityTimeout": "00:01:00",
-      "batchSize": 8,
-      "maxDequeueCount": 3,
-      "newBatchThreshold": 4,
+      "maxPollingInterval": "00:01:00",
+      "visibilityTimeout": "00:05:00",
+      "batchSize": 16,
+      "maxDequeueCount": 20,
+      "newBatchThreshold": 8,
       "messageEncoding": "none"
     }
   }
