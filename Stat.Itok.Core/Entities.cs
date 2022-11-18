@@ -406,7 +406,7 @@ public record JobRun : ITableEntity
     public ETag ETag { get; set; }
 }
 
-public class JobBattleIdHis : ITableEntity
+public class JobRunTaskPayload : ITableEntity
 {
     public string CompressedPayload { get; set; }
     public string PartitionKey { get; set; }
@@ -417,18 +417,17 @@ public class JobBattleIdHis : ITableEntity
 
 public class JobRunTaskLite
 {
-    public string JobConfigId { get; set; }
-    public long JobRunTrackedId { get; set; }
     public long TrackedId { get; set; }
+    public string Pk { get; set; }
+    public string Rk { get; set; }
 }
 
-public class JobRunTask<T>: JobRunTaskLite
-{
-    public T Payload { get; set; }
-}
 
 public class BattleTaskPayload
 {
+    public string JobConfigId { get; set; }
+    public long JobRunTrackedId { get; set; }
+    public long TrackedId { get; set; }
     public string BattleGroupRawStr { get; set; }
     public string BattleIdRawStr { get; set; }
 }
