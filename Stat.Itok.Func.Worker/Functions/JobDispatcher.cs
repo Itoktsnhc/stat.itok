@@ -65,7 +65,7 @@ public class JobDispatcher
 
     private async Task DispatchJobRunAsync(JobConfig jobConfig, TableClient jobConfigTable)
     {
-        var checkRes = await _mediator.Send(new ReqPreCheck {AuthContext = jobConfig.NinAuthContext});
+        var checkRes = await _mediator.Send(new ReqPreCheck { AuthContext = jobConfig.NinAuthContext });
         if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
         {
             throw new Exception("PreCheckResult.NeedBuildFromBegin");
@@ -133,9 +133,10 @@ public class JobDispatcher
         }
 
         var runTable = await _storage.GetTableClientAsync<JobRun>();
-        var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
+
+        var newJobDto = new AddJobDto($"[{nameof(JobRun)}::{runTable.AccountName}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
         {
-            Tags = new List<string> {"stat.itok"}
+            Tags = new List<string> { "stat.itok" }
         };
         var tJob = await _jobTracker.CreateNewJobAsync(newJobDto);
         var jobRun = new JobRun
@@ -156,7 +157,7 @@ public class JobDispatcher
                 battleTask.JobConfigId = jobConfig.Id;
                 battleTask.JobRunTrackedId = battleTask.JobRunTrackedId;
 
-                var addJobDto = new AddJobDto(nameof(BattleTaskPayload),
+                var addJobDto = new AddJobDto($"{nameof(BattleTaskPayload)}::{runTable.AccountName}",
                     jobRun.TrackedId)
                 {
                     Options = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)
