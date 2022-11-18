@@ -41,7 +41,12 @@ public class JobDispatcher
     }
 
     [FunctionName("JobDispatcher")]
-    public async Task ActJobDispatcher([TimerTrigger("0 */3 * * * *", RunOnStartup = true)] TimerInfo timerInfo)
+    public async Task ActJobDispatcher([TimerTrigger("0 */3 * * * *"
+#if DEBUG
+            , RunOnStartup = true
+#endif
+        )]
+        TimerInfo timerInfo)
     {
         var jobConfigTable = await _storage.GetTableClientAsync<JobConfig>();
         var queryRes = jobConfigTable.QueryAsync<JobConfig>(x => x.PartitionKey == nameof(JobConfig) && x.Enabled);
