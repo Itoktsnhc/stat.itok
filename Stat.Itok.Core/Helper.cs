@@ -327,6 +327,8 @@ namespace Stat.Itok.Core
                         body.RankBefore = fullRank[0];
                         if (WasSPlusBefore)
                             body.RankBeforeSPlus = int.Parse(fullRank[1]);
+                        body.RankAfter = body.RankBefore;
+                        body.RankAfterSPlus = body.RankBeforeSPlus;
                         var challenge = parent["bankaraMatchChallenge"];
                         if (challenge != null && challenge.Type != JTokenType.Null)
                         {
