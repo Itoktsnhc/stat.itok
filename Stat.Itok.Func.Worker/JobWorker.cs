@@ -45,11 +45,7 @@ public class JobDispatcher
     {
         var jobConfigTable = await _storage.GetTableClientAsync<JobConfig>();
         var queryRes = jobConfigTable.QueryAsync<JobConfig>(x => x.PartitionKey == nameof(JobConfig) && x.Enabled);
-        var jobs = new List<JobConfig>();
-        await foreach (var item in queryRes)
-        {
-            jobs.Add(item);
-        }
+        var jobs = await queryRes.ToListAsync();
 
         _logger.LogInformation("JobExecutor GOT {N} Records", jobs.Count);
         if (jobs.Count <= 0) return;
