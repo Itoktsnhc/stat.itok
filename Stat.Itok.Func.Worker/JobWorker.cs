@@ -65,7 +65,7 @@ public class JobDispatcher
 
     private async Task DispatchJobRunAsync(JobConfig jobConfig, TableClient jobConfigTable)
     {
-        var checkRes = await _mediator.Send(new ReqPreCheck { AuthContext = jobConfig.NinAuthContext });
+        var checkRes = await _mediator.Send(new ReqPreCheck {AuthContext = jobConfig.NinAuthContext});
         if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
         {
             throw new Exception("PreCheckResult.NeedBuildFromBegin");
@@ -131,11 +131,11 @@ public class JobDispatcher
             _logger.LogInformation("No new battle Find");
             return;
         }
-        
+
         var runTable = await _storage.GetTableClientAsync<JobRun>();
         var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
         {
-            Tags = new List<string> { "stat.itok" }
+            Tags = new List<string> {"stat.itok"}
         };
         var tJob = await _jobTracker.CreateNewJobAsync(newJobDto);
         var jobRun = new JobRun
@@ -147,7 +147,7 @@ public class JobDispatcher
         };
         await runTable.UpsertEntityAsync(jobRun);
         await _jobTracker.UpdateJobStatesAsync(tJob.JobId,
-            new UpdateJobStateDto(JobState.WaitingToRun, "JobRun Saved"));
+            new UpdateJobStateDto(JobState.Running, "JobRun Saved"));
 
         try
         {
@@ -172,7 +172,7 @@ public class JobDispatcher
                     jobRunTaskLite.Rk = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr);
                     var resp = await queueClient
                         .SendMessageAsync(
-                            Helper.CompressStr(JsonConvert.SerializeObject(jobRunTaskLite)));
+                            Helper.CompressStr(JsonConvert.SerializeObject(jobRunTaskLite)), TimeSpan.FromSeconds(30));
                     await _jobTracker.UpdateJobStatesAsync(battleTask.TrackedId,
                         new UpdateJobStateDto(JobState.WaitingToRun, $"queue message Id:{resp.Value.MessageId}"));
                     await SetJobRunTaskPayloadAsync(jobRunTaskLite.Pk, jobRunTaskLite.Rk, battleTask);
@@ -193,7 +193,8 @@ public class JobDispatcher
             new UpdateJobStateDto(JobState.WaitingForChildrenToComplete));
     }
 
-    private async Task<IList<BattleTaskPayload>> ExcludeExistBattlesAsync(JobConfig jobConfig, IList<BattleTaskPayload> tasks)
+    private async Task<IList<BattleTaskPayload>> ExcludeExistBattlesAsync(JobConfig jobConfig,
+        IList<BattleTaskPayload> tasks)
     {
         var res = new ConcurrentBag<BattleTaskPayload>();
         if (!tasks.Any()) return res.ToList();
@@ -201,14 +202,15 @@ public class JobDispatcher
         var checkTasks = tasks.Select(async task =>
         {
             var existBattleId =
-               await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfig.Id,
-                StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
+                await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfig.Id,
+                    StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
             if (existBattleId.HasValue)
             {
                 _logger.LogInformation("{jobConfigId}: ignoring exist battle {battleId} ",
                     jobConfig.Id, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
                 return;
             }
+
             res.Add(task);
         });
         await Task.WhenAll(checkTasks);
@@ -224,7 +226,8 @@ public class JobDispatcher
         var jobRunTaskLite = JsonConvert.DeserializeObject<JobRunTaskLite>(msgStr);
         var task = await GetJobRunTaskPayloadAsync<BattleTaskPayload>(jobRunTaskLite!.Pk, jobRunTaskLite.Rk);
         await _jobTracker.UpdateJobStatesAsync(jobRunTaskLite.TrackedId,
-            new UpdateJobStateDto(JobState.Running, $"{queueMsg.MessageId};{queueMsg.PopReceipt};[{queueMsg.DequeueCount}]"));
+            new UpdateJobStateDto(JobState.Running,
+                $"{queueMsg.MessageId};{queueMsg.PopReceipt};[{queueMsg.DequeueCount}]"));
         if (task == null)
         {
             var info = $"JobRunTaskPayload not found:{jobRunTaskLite.Pk}:{jobRunTaskLite.Rk}, go to next round";
@@ -247,8 +250,8 @@ public class JobDispatcher
     }
 
     [FunctionName("PoisonJobWorker")]
-    public async Task ActPoisonJobWorkerAsync([QueueTrigger(StatItokConstants.JobRunTaskQueueName+"-poison",
-        Connection = "WorkerQueueConnStr")]
+    public async Task ActPoisonJobWorkerAsync([QueueTrigger(StatItokConstants.JobRunTaskQueueName + "-poison",
+            Connection = "WorkerQueueConnStr")]
         QueueMessage queueMsg)
     {
         try
@@ -262,8 +265,8 @@ public class JobDispatcher
         {
             _logger.LogError(ex, $"ERROR WHEN {nameof(ActPoisonJobWorkerAsync)}");
         }
-
     }
+
     private async Task<T> GetJobRunTaskPayloadAsync<T>(string pk, string rk)
     {
         var payloadTable = await _storage.GetTableClientAsync<JobRunTaskPayload>();
