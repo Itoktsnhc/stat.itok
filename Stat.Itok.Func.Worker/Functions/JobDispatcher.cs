@@ -72,6 +72,11 @@ public class JobDispatcher
         }
 
         jobConfig.NinAuthContext = checkRes.AuthContext;
+        if (string.IsNullOrEmpty(jobConfig.ForcedUserLang))
+        {
+            jobConfig.ForcedUserLang = jobConfig.NinAuthContext.UserInfo.Lang;
+        }
+        jobConfig.NinAuthContext.UserInfo.Lang = jobConfig.ForcedUserLang;
         await jobConfigTable.UpsertEntityAsync(jobConfig);
 
         var jobRunTaskList = new List<BattleTaskPayload>();

@@ -53,6 +53,7 @@ namespace Stat.Itok.Shared
         public bool Enabled { get; set; } = true;
         public DateTimeOffset? LastUpdateTime { get; set; } = DateTimeOffset.Now;
         public List<string> EnabledQueries { get; set; } = new List<string>();
+        public string ForcedUserLang { get; set; }
         public string StatInkApiKey { get; set; }
         public bool ForceOverride { get; set; } = false;
     }
