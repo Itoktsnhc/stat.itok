@@ -36,7 +36,7 @@ public class JobDispatcher
     }
 
     [FunctionName("JobDispatcher")]
-    public async Task ActJobDispatcher([TimerTrigger("0 */3 * * * *"
+    public async Task ActJobDispatcher([TimerTrigger("0 */5 * * * *"
 #if DEBUG
             , RunOnStartup = true
 #endif
