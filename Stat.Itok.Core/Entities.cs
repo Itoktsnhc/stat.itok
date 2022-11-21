@@ -431,3 +431,13 @@ public class BattleTaskPayload
     public string BattleGroupRawStr { get; set; }
     public string BattleIdRawStr { get; set; }
 }
+
+public class RawBattleCacheEntity
+{
+    public string JobConfigId { get; set; }
+    public string StatInkBattleId { get; set; }
+    public string StatInkWebBattleId { get; set; }
+    public string BattleIdRawStr { get; set; }
+    public string BattleGroupRawStr { get; set; }
+    public string BattleDetailRawStr { get; set; }
+}

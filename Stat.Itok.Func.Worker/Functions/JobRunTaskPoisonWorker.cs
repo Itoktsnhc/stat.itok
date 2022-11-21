@@ -23,7 +23,7 @@ public class JobRunTaskPoisonWorker
         _jobTracker = jobTracker;
     }
 
-    
+
     [FunctionName("JobWorkerPoison")]
     public async Task ActPoisonJobWorkerAsync([QueueTrigger(StatItokConstants.JobRunTaskQueueName + "-poison",
             Connection = "WorkerQueueConnStr")]
@@ -33,6 +33,8 @@ public class JobRunTaskPoisonWorker
         {
             var msgStr = Helper.DecompressStr(queueMsg.MessageText);
             var jobRunTaskLite = JsonConvert.DeserializeObject<JobRunTaskLite>(msgStr);
+            _logger.LogWarning("Parsed Poison FOR TrackedId {jobId}", jobRunTaskLite.TrackedId);
+
             await _jobTracker.UpdateJobStatesAsync(jobRunTaskLite!.TrackedId, new UpdateJobStateDto(JobState.Faulted,
                 $"PoisonJobWorker:{msgStr}"));
         }

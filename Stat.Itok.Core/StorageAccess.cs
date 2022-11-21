@@ -2,6 +2,7 @@
 using Azure.Storage.Blobs;
 using Azure.Storage.Queues;
 using Microsoft.Extensions.Options;
+using System.Text.RegularExpressions;
 
 namespace Stat.Itok.Core
 {
@@ -10,6 +11,7 @@ namespace Stat.Itok.Core
         Task<TableClient> GetTableClientAsync(string tableName);
         Task<TableClient> GetTableClientAsync<T>();
         Task<QueueClient> GeJobRunTaskQueueClientAsync();
+        Task<BlobContainerClient> GetBlobClientAsync<T>();
     }
 
     public class StorageAccessSvc : IStorageAccessSvc
@@ -29,6 +31,15 @@ namespace Stat.Itok.Core
             return tableClient;
         }
 
+        public async Task<BlobContainerClient> GetBlobClientAsync<T>()
+        {
+            var containerName = typeof(T).Name.ToLowerInvariant();
+            var serviceClient = new BlobServiceClient(_options.Value.StorageAccountConnStr);
+            var containerClient = serviceClient.GetBlobContainerClient(containerName);
+            await containerClient.CreateIfNotExistsAsync();
+            return containerClient;
+        }
+
         public async Task<BlobContainerClient> GetBlobClientAsync(string containerName)
         {
             var serviceClient = new BlobServiceClient(_options.Value.StorageAccountConnStr);
@@ -46,7 +57,7 @@ namespace Stat.Itok.Core
             await tableClient.CreateIfNotExistsAsync();
             return tableClient;
         }
-        
+
         public async Task<QueueClient> GeJobRunTaskQueueClientAsync()
         {
             var serviceClient = new QueueServiceClient(Environment.GetEnvironmentVariable("WorkerQueueConnStr"));

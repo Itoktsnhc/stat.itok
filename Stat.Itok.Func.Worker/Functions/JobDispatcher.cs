@@ -139,9 +139,9 @@ public class JobDispatcher
 
         var runTable = await _storage.GetTableClientAsync<JobRun>();
 
-        var newJobDto = new AddJobDto($"[{nameof(JobRun)}::{runTable.AccountName}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
+        var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
         {
-            Tags = new List<string> { "stat.itok" }
+            Tags = new List<string> { "stat.itok", runTable.AccountName }
         };
         var tJob = await _jobTracker.CreateNewJobAsync(newJobDto);
         var jobRun = new JobRun
@@ -162,10 +162,11 @@ public class JobDispatcher
                 battleTask.JobConfigId = jobConfig.Id;
                 battleTask.JobRunTrackedId = battleTask.JobRunTrackedId;
 
-                var addJobDto = new AddJobDto($"{nameof(BattleTaskPayload)}::{runTable.AccountName}",
+                var addJobDto = new AddJobDto($"[{nameof(BattleTaskPayload)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]",
                     jobRun.TrackedId)
                 {
-                    Options = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)
+                    Options = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr),
+                    Tags = new List<string> { "stat.itok", runTable.AccountName }
                 };
                 var tJobRunTask =
                     await _jobTracker.CreateNewJobAsync(addJobDto);
