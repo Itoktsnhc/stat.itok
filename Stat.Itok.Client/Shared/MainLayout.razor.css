@@ -27,14 +27,14 @@ main {
         text-decoration: none;
     }
 
-    .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row ::deep a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row ::deep a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth) {
@@ -68,6 +68,11 @@ main {
         z-index: 1;
     }
 
+    .sidebar {
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
     .top-row.auth ::deep a:first-child {
         flex: 1;
         text-align: right;
@@ -78,4 +83,15 @@ main {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+}
+
+.main > footer {
+    height: 3rem;
+    max-height: 3rem;
+}
+
+.main > .content {
+    height: calc(100vh - 6.5rem);
+    max-height: calc(100vh - 6.5rem);
+    overflow-y: auto;
 }
