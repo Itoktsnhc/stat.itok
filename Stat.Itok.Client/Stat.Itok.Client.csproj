@@ -1,34 +1,36 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Havit.Blazor.Components.Web.Bootstrap" Version="3.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.11" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.11" PrivateAssets="all" />
-    <PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
-	  <PackageReference Include="Mapster" Version="7.3.0" />
-  </ItemGroup>
+	<PropertyGroup>
+		<ServiceWorkerCacheVersion>2</ServiceWorkerCacheVersion>
+		<ServiceWorkerForce>true</ServiceWorkerForce>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Stat.Itok.Shared\Stat.Itok.Shared.csproj" />
-  </ItemGroup>
+		<ServiceWorkerRegisterInstallableType>installable-blazor</ServiceWorkerRegisterInstallableType>
 
-  <ItemGroup>
-    <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
-  </ItemGroup>
+		<ManifestShortName>Stat.Itok</ManifestShortName>
+		<ManifestLongName>Stat.Itok</ManifestLongName>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Content Update="wwwroot\icon-192.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\icon-512.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Havit.Blazor.Components.Web.Bootstrap" Version="3.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.11" PrivateAssets="all" />
+		<PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
+		<PackageReference Include="Mapster" Version="7.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Stat.Itok.Shared\Stat.Itok.Shared.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+	</ItemGroup>
+
 
 </Project>
