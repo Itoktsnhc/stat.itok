@@ -8,7 +8,7 @@ A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink]
 
 > **Hosted on Azure now: https://stat.itok.xyz/**
 >
-> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （No jobs if no one play the game 🙂）
+> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （Empty if no one play the game 🙂）
 
 ## Basic Info
 Programing language: C#
@@ -41,3 +41,12 @@ Azure service used:
 
 ![image-20221122160620624](_assets/image-20221122160620624.png)
 
+## Thanks
+
+- [s3s](https://github.com/frozenpandaman/s3s) for the total battle detail parse code
+
+- [stat.ink](https://github.com/fetus-hina/stat.ink) for the great website
+
+- [imink](https://github.com/imink-app) for the f-calc API
+
+  
