@@ -55,6 +55,6 @@ Azure service used:
 
 **This is not a Nintendo or stat.ink official tool.** 
 
-This tool will store the Nintendo Account's Session Token related info. And If you care about your account's privacy, you should host your own by forking the code and deploy to Azure or any where else you want.
+This tool will store the Nintendo Account's Session Token related info. And If you care about your account's privacy, you should host your own by forking the code and deploy to Azure or anywhere else you want.
 
 **No commitment to the reliability**
