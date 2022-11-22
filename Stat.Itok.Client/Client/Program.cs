@@ -2,6 +2,7 @@ using Havit.Blazor.Components.Web;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using System.Text.Json;
+using Toolbelt.Blazor.Extensions.DependencyInjection;
 
 namespace Stat.Itok.Client
 {
@@ -13,6 +14,7 @@ namespace Stat.Itok.Client
             builder.RootComponents.Add<App>("#app");
             builder.RootComponents.Add<HeadOutlet>("head::after");
             builder.Services.AddHxServices();
+            builder.Services.AddI18nText();
             builder.Services.AddSingleton(_ => new JsonSerializerOptions()
             {
                 PropertyNameCaseInsensitive = true,

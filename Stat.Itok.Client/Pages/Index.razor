@@ -3,53 +3,64 @@
 @using Havit;
 @using Mapster;
 @using System.Text.Json;
+@using Toolbelt.Blazor.I18nText;
 @inject NavigationManager Navigation
 @inject IJSRuntime jsRuntime
 @inject HttpClient Http
 @inject JsonSerializerOptions jsonOptions
+@inject Toolbelt.Blazor.I18nText.I18nText I18nText
+
 
 <PageTitle>A tool for splat3</PageTitle>
+<div class="form-row align-items-center text-muted px-4">
+    <div class="col-1">
+        <select class="form-control form-control-sm" style="margin-left:-25px" @onchange="OnChangeCurrentLang">
+            <option value="en" selected="@(CurrentLang == "en")">English</option>
+            <option value="zh" selected="@(CurrentLang == "zh")">中文</option>
+        </select>
+    </div>
+</div>
 
-<div class="h2">stat.itok 一个给<a href="https://stat.ink/" target="_blank">stat.ink</a>提交数据的工具</div>
+<div class="h2"><a href="https://github.com/Itoktsnhc/stat.itok">stat.itok</a>: @Text.Intro</div>
 <hr />
 <div class="container-fluid">
     <div class="row justify-content-lg-center">
         <div class="form-control">
             <ul class="h6">
-                <li>在同一个浏览器内登录任天堂账号</li>
-                <li>点击 <span class="bg-info">获取认证URL</span> , 等待出现 <span class="bg-info">去复制重定向链接</span> 然后点击</li>
-                <li>在打开的页面中，鼠标右键点击红色的 <span class="bg-warning">选择此人</span> 按钮, 右键菜单中点击 <span class="bg-info">复制链接</span> </li>
+                <li>@Text.LoginToNintendoAccount</li>
+                <li>@Text.WaitForTheRedirectLink</li>
+                <li>@Text.CopyBtnInfo</li>
             </ul>
-            <HxButton Text="获取认证URL" Color=ThemeColor.Light Spinner="waitingVerifyUrl" OnClick="async () => await GetCopyRedirectionUrlAsync()"></HxButton>
+            <HxButton Text="@Text.GetAuthUrlBtnLabel" Color=ThemeColor.Light Spinner="waitingVerifyUrl" OnClick="async () => await GetCopyRedirectionUrlAsync()"></HxButton>
             <a class="link-info" hidden="@(string.IsNullOrEmpty(jobConfig.NinAuthContext.TokenCopyInfo.CopyRedirectionUrl))"
                href="@jobConfig.NinAuthContext.TokenCopyInfo.CopyRedirectionUrl" target="_blank">
-                去复制重定向链接
+                @Text.ToCopyRedirectInfoText
             </a>
             <br />
             <hr />
             <ul>
-                <li>粘贴到下方 <span class="bg-warning">重定向链接</span> 中, 点击<span class="bg-danger">进行账号验证</span></li>
+                <li>@Text.RedirectLinkTextLabel</li>
             </ul>
-            <HxInputText Label="重定向链接" @bind-Value=@jobConfig.NinAuthContext.TokenCopyInfo.RedirectUrl Placeholder="粘贴重定向链接" />
+            <HxInputText Label="@Text.RedirectLinkLabel" @bind-Value=@jobConfig.NinAuthContext.TokenCopyInfo.RedirectUrl Placeholder="@Text.RedirectLinkPlaceHolder" />
             <br />
-            <HxButton Enabled=@(!string.IsNullOrEmpty(jobConfig.NinAuthContext.TokenCopyInfo.RedirectUrl)) Text="进行账号验证" Color=ThemeColor.Primary Spinner="waitingAuthAccount" OnClick="async () => await TryAuthAccontInfoAsync()"></HxButton>
+            <HxButton Enabled=@(!string.IsNullOrEmpty(jobConfig.NinAuthContext.TokenCopyInfo.RedirectUrl)) Text="@Text.BtnAuthAccountInfoText" Color=ThemeColor.Primary Spinner="waitingAuthAccount" OnClick="async () => await TryAuthAccontInfoAsync()"></HxButton>
             <br />
             <HxCollapse @ref="detailCard" Id="myCollapse" CssClass="mt-3">
                 <HxCard>
                     <BodyTemplate>
                         <HxCardText>
-                            <div class="p-1"><span>账户标识&emsp;:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Id</div>
-                            <div class="p-1"><span>账户名&emsp;&emsp;:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Nickname</div>
-                            <div class="p-1"><span>国家或地区:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Country</div>
+                            <div class="p-1"><span>@Text.TextLabelAccountId&emsp;:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Id</div>
+                            <div class="p-1"><span>@Text.TextLabelAccountName&emsp;&emsp;:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Nickname</div>
+                            <div class="p-1"><span>@Text.TextLabelAccountCountryOrArea:&emsp; </span> @jobConfig.NinAuthContext.UserInfo.Country</div>
                         </HxCardText>
                     </BodyTemplate>
                 </HxCard>
             </HxCollapse>
             <br />
-            <HxSelect Label="覆盖账户中获取的语言(影响铭牌、奖牌等的描述)"
+            <HxSelect Label="@Text.InputLangOverrideLabel"
                       TItem="UserLang"
                       TValue="string"
-                      InputGroupStartText="语言"
+                      InputGroupStartText="@Text.InputLangOverrideStart"
                       Data="langs"
                       @bind-Value="userLang"
                       Nullable="false"
@@ -57,39 +68,38 @@
                       ValueSelector="@(p => p.Value)" />
             <hr />
 
-            <HxInputText Label="stat.ink Api密钥" @bind-Value=@jobConfig.StatInkApiKey Placeholder="粘贴stat.ink的Api密钥" />
+            <HxInputText Label="@Text.InputStatInkApiLabel" @bind-Value=@jobConfig.StatInkApiKey Placeholder="@Text.InputStatInkApiPlaceholder" />
             <a class="link-info" href="https://stat.ink/profile" target="_blank">
-                去 stat.ink 复制Api密钥
+                @Text.InputStatInkAPILinkInnerText
             </a>
             <br />
             <hr />
-            <HxMultiSelect Label="监控的对战类型"
+            <HxMultiSelect Label="@Text.InputBattleTypesLabel"
                            TItem="BattleType"
                            TValue="string"
                            Data="@battleConfigs"
                            @bind-Value="@jobConfig.EnabledQueries"
-                           NullDataText="---选择需要监控的对战类型---"
-                           EmptyText="---选择需要监控的对战类型---"
+                           NullDataText="@Text.InputBattleTypesPlaceHolder"
+                           EmptyText="@Text.InputBattleTypesPlaceHolder"
                            TextSelector="@(p => p.Name)"
                            ValueSelector="@(p => p.Value)" />
             <br />
             <hr />
             <HxButton Enabled=@(IsFormOk())
-                      Text="确认并提交" Color=ThemeColor.Primary Spinner="waitingSubmit"
+                      Text="@Text.BtnSubmitText" Color=ThemeColor.Primary Spinner="waitingSubmit"
                       OnClick="async () => await UpsertJobConfigAsync()"></HxButton>
         </div>
     </div>
 </div>
 
+
+
 @code
 {
+    Stat.Itok.Client.I18nText.Text Text = new();
     [Inject] protected IHxMessageBoxService MessageBox { get; set; }
     private string userLang = "zh-CN";
-    private List<BattleType> battleConfigs = new List<BattleType>()
-    {
-        new BattleType("真格",nameof(QueryHash.BankaraBattleHistories)),
-        new BattleType("涂地(包含祭典)",nameof(QueryHash.RegularBattleHistories)),
-    };
+    private List<BattleType> battleConfigs = new List<BattleType>() { };
     private HxCollapse detailCard;
     bool waitingVerifyUrl = false;
     bool waitingAuthAccount = false;
@@ -97,9 +107,9 @@
     private JobConfigLite jobConfig = new JobConfigLite();
     private IList<UserLang> langs = new List<UserLang>()
     {
-        new UserLang("简体中文(zh-CN)", "zh-CN"),
-        new UserLang("繁体中文(zh-TW)", "zh-TW"),
-        new UserLang("美式英语(en-US)", "en-US"),
+        new UserLang("zh-CN", "zh-CN"),
+        new UserLang("zh-TW", "zh-TW"),
+        new UserLang("en-US", "en-US"),
     };
 
     public bool IsFormOk()
@@ -209,5 +219,44 @@
     }
     record UserLang(string ShowName, string Value);
     record BattleType(string Name, string Value);
+    protected override async Task OnInitializedAsync()
+    {
+        Text = await I18nText.GetTextTableAsync<Stat.Itok.Client.I18nText.Text>(this);
+        var lang = await I18nText.GetCurrentLanguageAsync();
+        if (new[] { "zh", "en" }.Contains(lang.Split('-')[0]))
+        {
+            CurrentLang = lang;
+        }
+        else
+        {
+            CurrentLang = "en";
+        }
+
+        Text = await I18nText.GetTextTableAsync<Stat.Itok.Client.I18nText.Text>(this);
+        I18nText.ChangeLanguage += (s, a) =>
+        {
+            Console.WriteLine($"Language Changed: {a.LanguageCode}");
+        };
+        battleConfigs = new List<BattleType>()
+        {
+            new BattleType(Text.SelectionItemBankaraBattleHistories, nameof(QueryHash.BankaraBattleHistories)),
+            new BattleType(Text.SelectionItemRegularBattleHistories, nameof(QueryHash.RegularBattleHistories)),
+        };
+        await base.OnInitializedAsync();
+    }
+
+    private string CurrentLang;
+
+    private async Task OnChangeCurrentLang(ChangeEventArgs args)
+    {
+        Console.WriteLine($"OnChange: {args.Value}");
+        CurrentLang = args.Value as string;
+        await I18nText.SetCurrentLanguageAsync(CurrentLang);
+        battleConfigs = new List<BattleType>()
+        {
+            new BattleType(Text.SelectionItemBankaraBattleHistories, nameof(QueryHash.BankaraBattleHistories)),
+            new BattleType(Text.SelectionItemRegularBattleHistories, nameof(QueryHash.RegularBattleHistories)),
+        };
+    }
 
 }
