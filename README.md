@@ -8,7 +8,7 @@ A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink]
 
 > **Hosted on Azure now: https://stat.itok.xyz/**
 >
-> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （show no jobs if no one play the game 🙂）
+> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （No jobs if no one play the game 🙂）
 
 ## Basic Info
 Programing language: C#
