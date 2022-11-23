@@ -1,0 +1,40 @@
+<div class="columns">
+    <aside class="column sidebar is-narrow">
+        <section class="section">
+            <nav class="menu">
+                <ul class="menu-list">
+                    ${Menu}
+                    <template id="MenuItem">
+                        <li><a class="${Active}" href="${Url}">${Text}</a></li>
+                    </template>
+                </ul>
+            </nav>
+        </section>
+    </aside>
+    <div class="column">
+        <section class="section">
+            ${Body}
+
+            <div id="notification-area">
+                <div>${Error}</div>
+            </div>
+
+            <template id="Home">
+                ${HomeBody}
+
+            </template>
+
+            <template id="About">
+                ${AboutBody}
+            </template>
+
+            <template id="ErrorNotification">
+                <div class="notification is-warning">
+                    <button class="delete ${HideClass}" onclick="${Hide}"></button>
+                    ${Text}
+                </div>
+            </template>
+
+        </section>
+    </div>
+</div>
