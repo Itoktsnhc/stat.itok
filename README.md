@@ -41,7 +41,7 @@ Azure service used:
 
 ![image-20221122160620624](_assets/image-20221122160620624.png)
 
-## Thanks
+## Credits
 
 - [s3s](https://github.com/frozenpandaman/s3s) for the total battle detail parse code
 
