@@ -168,20 +168,24 @@ let doAuthAccount_EN model dispatch =
         if String.IsNullOrEmpty(model.jobConfig.NinAuthContext.UserInfo.Id)
         then empty()
         else 
-            section{
-                attr.``class`` ([Bulma.Hero; Bulma.IsInfo]|> String.concat " ")
-                div{
-                    attr.``class`` Bulma.HeroBody
-                    p{
-                        attr.``class`` Bulma.Subtitle
-                        "Login success"
-                    }
-                    div{
-                        attr.``class`` Bulma.Content
-                        p{$"Id           :%s{model.jobConfig.NinAuthContext.UserInfo.Id}"}
-                        p{$"Nickname     :%s{model.jobConfig.NinAuthContext.UserInfo.Nickname}"}
-                        p{$"Country/Area :%s{model.jobConfig.NinAuthContext.UserInfo.Country}"}
-                    }
+            table{
+                attr.``class`` ([
+                    Bulma.Table;
+                    Bulma.IsNarrow;
+                    Bulma.IsBordered;
+                    if model.isBtnAuthAccountLoading then Bulma.IsLoading  else null
+                ]|>String.concat " ")
+                tr{
+                    td{"Id"}
+                    td{$"%s{model.jobConfig.NinAuthContext.UserInfo.Id}"}
+                }
+                tr{
+                    td{"Nickname"}
+                    td{$"%s{model.jobConfig.NinAuthContext.UserInfo.Nickname}"}
+                }
+                tr{
+                    td{"Country/Area"}
+                    td{$"%s{model.jobConfig.NinAuthContext.UserInfo.Country}"}
                 }
             }
     }
@@ -198,12 +202,12 @@ let mainForm_EN (model:Model) dispatch =
                attr.``class`` Bulma.IsBlock
                "2. Click "
                span{
-                    attr.``class`` Bulma.HasBackgroundLink
+                    attr.``class`` Bulma.HasBackgroundPrimary
                     "Get Auth URL"
                }
                " , wait "
                span{
-                    attr.``class`` Bulma.HasBackgroundLink
+                    attr.``class`` Bulma.HasBackgroundPrimary
                     "To Copy Redirection"
                }
                " show, then click"
@@ -230,12 +234,12 @@ let mainForm_EN (model:Model) dispatch =
                 attr.``class`` Bulma.IsBlock
                 "4. Paste to "
                 span{
-                    attr.``class`` Bulma.HasBackgroundLink
+                    attr.``class`` Bulma.HasBackgroundPrimary
                     "Redirection Link,"
                 }
                 " Then Click "
                 span{
-                    attr.``class`` Bulma.HasBackgroundLink
+                    attr.``class`` Bulma.HasBackgroundPrimary
                     "Login Account"
                 }
                 " Button "
