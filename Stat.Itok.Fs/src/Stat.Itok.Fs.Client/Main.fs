@@ -33,6 +33,10 @@ type Model =
         jobConfig: JobConfigLite
         isBtnGetNewVerifyUrlLoading:bool
         isBtnAuthAccountLoading:bool
+        isBtnSubmitLoading:bool
+        isAuthSuccess:bool
+        isRankedChecked:bool
+        isTurfWarChecked:bool
     }
 
 let initModel =
@@ -43,17 +47,26 @@ let initModel =
         jobConfig = JobConfigLite()
         isBtnGetNewVerifyUrlLoading = false
         isBtnAuthAccountLoading = false
+        isAuthSuccess = false
+        isRankedChecked = true
+        isTurfWarChecked = true
+        isBtnSubmitLoading = false
     }
+
+initModel.jobConfig.ForcedUserLang <- "zh-CN"
 
 /// The Elmish application's update messages.
 type Message =
     | SetPage of Page
     | SetRedirectionInput of string
+    | SetForcedUserLang of string
     | GetNewVerifyUrl
     | GotNewVerifyUrl of ApiResp<NinTokenCopyInfo>
     | TryLoginAccountInfo
     | RawLoginAccountInfoResp of HttpResponseMessage
     | ParsedLoginAccountInfo of Result<NinAuthContext, string>
+    | TrufWarChecked of bool
+    | RankedChecked of bool
     | Error of exn
     | ClearError
 
@@ -61,9 +74,16 @@ let update (http: HttpClient) message model =
     match message with
     | SetPage page ->
         { model with page = page }, Cmd.none
+    |TrufWarChecked isChecked ->
+        {model with isTurfWarChecked = isChecked},Cmd.none
+    |RankedChecked isChecked ->
+        {model with isRankedChecked = isChecked},Cmd.none
     | SetRedirectionInput input ->
         model.jobConfig.NinAuthContext.TokenCopyInfo.RedirectUrl <- input
         model , Cmd.none
+    | SetForcedUserLang selected ->
+        model.jobConfig.ForcedUserLang <- selected
+        model, Cmd.none
     | GetNewVerifyUrl -> 
         let getNewVerifyUrl() = http.GetFromJsonAsync<ApiResp<NinTokenCopyInfo>>("/api/nin/verify_url")
         let cmd = Cmd.OfTask.either getNewVerifyUrl () GotNewVerifyUrl Error
@@ -96,7 +116,7 @@ let update (http: HttpClient) message model =
         match res with
         |Ok ninAuthCtx ->
             model.jobConfig.NinAuthContext<- ninAuthCtx
-            model, Cmd.none
+            {model with isAuthSuccess = true}, Cmd.none
         |Result.Error err -> { model with error = Some err }, Cmd.none
     | Error exn ->
         { model with error = Some exn.Message; isBtnGetNewVerifyUrlLoading = false; isBtnAuthAccountLoading = false }, Cmd.none
@@ -108,7 +128,7 @@ let router = Router.infer SetPage (fun model -> model.page)
 
 type Main = Template<"wwwroot/main.html">
 
-let textItem (str:string)=
+let textItem (str:string) =
     p{
         attr.``class`` Bulma.IsBlock
         str
@@ -141,7 +161,7 @@ let doAuthAccount_EN model dispatch =
     div{
         attr.``class`` ([ Bulma.Field]|> String.concat "")
         label{
-            attr.``class`` Bulma.Field
+            attr.``class`` ([Bulma.Field; Bulma.Label]|> String.concat "")
             "Redirection Link"
             }
         input{
@@ -188,6 +208,61 @@ let doAuthAccount_EN model dispatch =
                     td{$"%s{model.jobConfig.NinAuthContext.UserInfo.Country}"}
                 }
             }
+    }
+
+let CustomLang_EN model dispatch=
+    div{
+        attr.``class`` ([Bulma.Field; Bulma.Select]|> String.concat " ")
+        select{
+            bind.change.string model.jobConfig.ForcedUserLang (fun n -> dispatch (SetForcedUserLang n))
+            option{
+                attr.value  "zh-CN"
+                "zh-CN"
+            }
+            option{
+                attr.value  "en-US"
+                "en-US"
+            }
+            option{
+                attr.value  "zh-TW"
+                "zh-TW"
+            }
+        }
+        
+    }
+
+let SelectBattleModel_EN model dispatch =
+    div{
+        label{
+            attr.``class`` ([Bulma.Checkbox]|> String.concat " ")
+            input{
+                attr.``type`` Bulma.Checkbox
+                bind.``checked`` model.isRankedChecked (fun n -> dispatch (RankedChecked n))
+            }
+            "Bankara(Ranked)"
+            
+        }
+        span{"   "}
+        label{
+            attr.``class`` ([Bulma.Checkbox]|> String.concat " ")
+            input{
+                attr.``type`` Bulma.Checkbox
+                bind.``checked`` model.isTurfWarChecked (fun n -> dispatch (TrufWarChecked n))
+            }
+            "Regular(Turf War, contains SplatFest)"
+        }
+    }
+
+let submitForm_En model dispatch =
+    button{
+        attr.``class`` ([
+            Bulma.Button;
+            Bulma.IsSuccess;
+            if model.isBtnSubmitLoading then Bulma.IsLoading  else null
+        ]|>String.concat " ")
+        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked)) ||not model.isAuthSuccess) then "disabled" else null)
+        on.click (fun _ -> dispatch TryLoginAccountInfo)
+        "Submit"
     }
 
 let mainForm_EN (model:Model) dispatch =
@@ -246,6 +321,27 @@ let mainForm_EN (model:Model) dispatch =
             }
         }
         doAuthAccount_EN model dispatch
+        hr
+        p{
+            attr.``class`` ([Bulma.Block] |> String.concat " ")
+            p{
+                attr.``class`` Bulma.IsBlock
+                "5. Choose the language for in-game medals, nameplate etc."
+            }
+        }
+        CustomLang_EN model dispatch
+        hr
+        p{
+            attr.``class`` ([Bulma.Block] |> String.concat " ")
+            p{
+                attr.``class`` Bulma.IsBlock
+                "6. Select the battle mode you want to monitor"
+            }
+        }
+        SelectBattleModel_EN model dispatch
+        hr
+        submitForm_En model dispatch
+
     }
 
 let homeBlock_EN model dispatch =
