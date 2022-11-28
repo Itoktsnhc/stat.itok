@@ -109,8 +109,9 @@ let update (http: HttpClient) message model =
     | TryLoginAccountInfo ->
         let getRawResp() = http.PostAsJsonAsync<NinTokenCopyInfo>("/api/nin/auth_account", model.jobConfig.NinAuthContext.TokenCopyInfo)
         let cmd = Cmd.OfTask.either getRawResp () RawLoginAccountInfoResp Error
-        {model with isBtnAuthAccountLoading = true}, cmd
-    |RawLoginAccountInfoResp rawResp ->
+        model.jobConfig.NinAuthContext <- new NinAuthContext()
+        {model with isBtnAuthAccountLoading = true;}, cmd
+    | RawLoginAccountInfoResp rawResp ->
         let parseAsNinAuthContext() = 
             task{
                 if rawResp.IsSuccessStatusCode then 
@@ -123,7 +124,7 @@ let update (http: HttpClient) message model =
             }
         let cmd = Cmd.OfTask.either parseAsNinAuthContext () ParsedLoginAccountInfo Error
         {model with isBtnAuthAccountLoading = false},cmd
-    |ParsedLoginAccountInfo res ->
+    | ParsedLoginAccountInfo res ->
         match res with
         |Ok ninAuthCtx ->
             model.jobConfig.NinAuthContext<- ninAuthCtx
