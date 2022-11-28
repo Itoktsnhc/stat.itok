@@ -442,3 +442,5 @@ public class RawBattleCacheEntity
     public string BattleGroupRawStr { get; set; }
     public string BattleDetailRawStr { get; set; }
 }
+
+public class PoisonQueueMsg { }
