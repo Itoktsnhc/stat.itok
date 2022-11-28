@@ -1,5 +1,4 @@
-# stat.itok <img src="https://user-images.githubusercontent.com/11204672/204310549-5c30aec4-924e-4e15-8a04-27ed9d7afe5c.png" width="25"> 
-
+# <img src="https://user-images.githubusercontent.com/11204672/204310549-5c30aec4-924e-4e15-8a04-27ed9d7afe5c.png" width="25"> stat.itok
 
 
 [![Frontend Static Web](https://github.com/Itoktsnhc/stat.itok/actions/workflows/azure-static-web-apps-jolly-rock-08ba20c00.yml/badge.svg?branch=release%2Fstatic)](https://github.com/Itoktsnhc/stat.itok/actions/workflows/azure-static-web-apps-jolly-rock-08ba20c00.yml)
