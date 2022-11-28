@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stat.Itok.Shared", "Stat.It
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stat.Itok.Func.Worker", "Stat.Itok.Func.Worker\Stat.Itok.Func.Worker.csproj", "{BBACE904-BD27-419B-97D9-FAF32F35B63A}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Stat.Itok.Fs.Client", "Stat.Itok.Fs\src\Stat.Itok.Fs.Client\Stat.Itok.Fs.Client.fsproj", "{64CE236D-DB15-47BF-A3B8-563A42FE5F75}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Stat.Itok.Fs.Client", "Stat.Itok.Fs.Client\Stat.Itok.Fs.Client.fsproj", "{64CE236D-DB15-47BF-A3B8-563A42FE5F75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
