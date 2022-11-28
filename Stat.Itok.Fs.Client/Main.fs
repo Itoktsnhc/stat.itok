@@ -140,15 +140,18 @@ let update (http: HttpClient) message model =
                 if rawResp.IsSuccessStatusCode then 
                     let! strResp = rawResp.Content.ReadAsStringAsync()
                     let parsed = JsonSerializer.Deserialize<ApiResp<JobConfigLite>>(strResp, jsonOptions);
-                    match parsed.Result && (not (String.IsNullOrEmpty(parsed.Data.Id))) with
-                    |true -> return Ok parsed.Data
+                    match parsed.Result with
+                    |true when (not (String.IsNullOrWhiteSpace parsed.Data.Id)) -> return Ok parsed.Data
                     |_-> return Result.Error $"Error response is: %s{parsed.Msg}"
                 else return Result.Error $"Error when do request: {rawResp.StatusCode}"
             }
         let cmd = Cmd.OfTask.either parsedResp () ParsedSubmitJobConig Error
-        {model with isBtnSubmitLoading = false; notification = NSuccess "Submit success!"},cmd
-    | ParsedSubmitJobConig _ ->
-        { model with isBtnSubmitLoading = false }, Cmd.none
+        {model with isBtnSubmitLoading = false;},cmd
+    | ParsedSubmitJobConig res ->
+        match res with
+        | Ok _ -> { model with isBtnSubmitLoading = false ; notification = NSuccess " Success!"}, Cmd.none
+        | Result.Error msg -> { model with isBtnSubmitLoading = false ; notification = NError $"Failed:%s{msg}"}, Cmd.none
+       
     | Error exn ->
         { model with 
             notification = NError exn.Message; 
