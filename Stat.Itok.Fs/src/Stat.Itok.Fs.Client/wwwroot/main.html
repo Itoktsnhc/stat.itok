@@ -16,7 +16,7 @@
             ${Body}
 
             <div id="notification-area">
-                <div>${Error}</div>
+                <div>${Notification}</div>
             </div>
 
             <template id="Home">
@@ -34,7 +34,12 @@
                     ${Text}
                 </div>
             </template>
-
+            <template id="SuccessNotification">
+                <div class="notification is-success">
+                    <button class="delete ${HideClass}" onclick="${Hide}"></button>
+                    ${Text}
+                </div>
+            </template>
         </section>
     </div>
 </div>
