@@ -2,7 +2,7 @@
   "name": "stat-itok",
   "version": "1.0.0",
   "scripts": {
-    "start" : "dotnet run --project Stat.Itok.Client",
+    "start" : "dotnet run --project Stat.Itok.Fs.Client",
     "playwright_test" : "playwright test"
   },
  "devDependencies": {
