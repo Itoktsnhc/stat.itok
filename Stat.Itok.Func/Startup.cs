@@ -2,7 +2,6 @@
 using System.Linq;
 using System.Net;
 using System.Net.Http;
-using FluentValidation;
 using MediatR;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Azure.WebJobs.Logging;
@@ -12,7 +11,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Stat.Itok.Core.ApiClients;
 using Stat.Itok.Core.Handlers;
-using Stat.Itok.Func.Functions;
 
 [assembly: FunctionsStartup(typeof(Stat.Itok.Func.Startup))]
 
@@ -48,8 +46,6 @@ namespace Stat.Itok.Func
                     {
                         AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
                     });
-
-            builder.Services.AddScoped<IValidator<JobConfigLite>, JobConfigLiteValidator>();
 
             //Replace ILogger<T> with the one that works fine in all scenarios
 

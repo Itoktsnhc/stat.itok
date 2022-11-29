@@ -134,7 +134,6 @@ public class JobRunTaskWorker
                 StatInkBattleId = StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr),
                 BattleIdRawStr = task.BattleIdRawStr,
                 StatInkWebBattleId = resp?.Id,
-                StatInkWebUrl= resp?.Url,
                 BattleDetailRawStr = JsonConvert.SerializeObject(battleBody),
                 BattleGroupRawStr = task.BattleGroupRawStr
             });

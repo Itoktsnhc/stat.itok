@@ -1,4 +1,4 @@
-# <img src="https://user-images.githubusercontent.com/11204672/204310549-5c30aec4-924e-4e15-8a04-27ed9d7afe5c.png" width="25"> stat.itok
+# stat.itok
 
 
 [![Frontend Static Web](https://github.com/Itoktsnhc/stat.itok/actions/workflows/azure-static-web-apps-jolly-rock-08ba20c00.yml/badge.svg?branch=release%2Fstatic)](https://github.com/Itoktsnhc/stat.itok/actions/workflows/azure-static-web-apps-jolly-rock-08ba20c00.yml)
@@ -8,7 +8,7 @@ A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink]
 
 > **Hosted on Azure now: https://stat.itok.xyz/**
 >
-> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （Empty if no one play the game 🙂）
+> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （show no jobs if no one play the game 🙂）
 
 ## Basic Info
 Programing language: C#
@@ -41,20 +41,3 @@ Azure service used:
 
 ![image-20221122160620624](_assets/image-20221122160620624.png)
 
-## Credits
-
-- [s3s](https://github.com/frozenpandaman/s3s) for the total battle detail parse code
-
-- [stat.ink](https://github.com/fetus-hina/stat.ink) for the great website
-
-- [imink](https://github.com/imink-app) for the f-calc API
-
-  
-
-## Disclaimer
-
-**This is not a Nintendo or stat.ink official tool.** 
-
-This tool will store the Nintendo Account's Session Token related info. And If you care about your account's privacy, you should host your own by forking the code and deploy to Azure or anywhere else you want.
-
-**No commitment to the reliability**
