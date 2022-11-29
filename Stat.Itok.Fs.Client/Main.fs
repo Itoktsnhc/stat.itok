@@ -109,7 +109,7 @@ let update (http: HttpClient) message model =
     | TryLoginAccountInfo ->
         let getRawResp() = http.PostAsJsonAsync<NinTokenCopyInfo>("/api/nin/auth_account", model.jobConfig.NinAuthContext.TokenCopyInfo)
         let cmd = Cmd.OfTask.either getRawResp () RawLoginAccountInfoResp Error
-        model.jobConfig.NinAuthContext <- new NinAuthContext()
+        model.jobConfig.NinAuthContext.UserInfo <- new NinUserInfo()
         {model with isBtnAuthAccountLoading = true;}, cmd
     | RawLoginAccountInfoResp rawResp ->
         let parseAsNinAuthContext() = 
