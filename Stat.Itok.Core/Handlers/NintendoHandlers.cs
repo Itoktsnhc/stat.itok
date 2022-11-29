@@ -86,7 +86,7 @@ public class NintendoPublicHandlers : HandlerBase,
             SessionToken = request.NinAuthContext.SessionToken,
             AccessTokenInfo = accessTokenInfo,
             UserInfo = user,
-            PreGameToken = preGameToken,
+            PerGameToken = preGameToken,
             GameToken = gameToken,
             BulletToken = bulletToken
         };

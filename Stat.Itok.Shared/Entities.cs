@@ -36,7 +36,7 @@ namespace Stat.Itok.Shared
         public string BulletToken { get; set; }
         public NinUserInfo UserInfo { get; set; } = new NinUserInfo();
         public NinAccessTokenInfo AccessTokenInfo { get; set; } = new NinAccessTokenInfo();
-        public string PreGameToken { get; set; }
+        public string PerGameToken { get; set; }
     }
 
     public enum PreCheckResult

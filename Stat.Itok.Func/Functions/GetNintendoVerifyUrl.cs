@@ -19,7 +19,7 @@ public class GetNintendoVerifyUrl
     [FunctionName("GetNintendoVerifyUrl")]
     public async Task<ApiResp<NinTokenCopyInfo>> GetNintendoVerifyUrlAsync(
         [HttpTrigger(AuthorizationLevel.Function, "get", Route = "nin/verify_url")]
-        HttpRequest _)
+        HttpRequest req)
     {
         var tokenCopyInfo = await _mediator.Send(new ReqGetTokenCopyInfo());
         return ApiResp.OkWith(tokenCopyInfo);
