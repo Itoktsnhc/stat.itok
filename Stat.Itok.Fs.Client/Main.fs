@@ -64,6 +64,7 @@ initModel.jobConfig.ForcedUserLang <- "zh-CN"
 type Message =
     | SetPage of Page
     | SetRedirectionInput of string
+    | SetStatInkApiKey of string
     | SetForcedUserLang of string
     | SetPageLang of string
     | GetNewVerifyUrl
@@ -83,6 +84,9 @@ let update (http: HttpClient) message model =
     match message with
     | SetPage page ->
         {model with page = page }, Cmd.none
+    | SetStatInkApiKey apiKey ->
+        model.jobConfig.StatInkApiKey<-apiKey
+        model, Cmd.none
     | SetPageLang langStr ->
         {model with pageLang = langStr},Cmd.none
     |TrufWarChecked isChecked ->
@@ -131,6 +135,9 @@ let update (http: HttpClient) message model =
             {model with isAuthSuccess = true}, Cmd.none
         |Result.Error err -> { model with notification = NError err }, Cmd.none
     | TrySubmitJobConfig ->
+        model.jobConfig.EnabledQueries.Clear()
+        if(model.isRankedChecked) then model.jobConfig.EnabledQueries.Add(nameof(QueryHash.BankaraBattleHistories))
+        if(model.isTurfWarChecked) then model.jobConfig.EnabledQueries.Add(nameof(QueryHash.RegularBattleHistories))
         let getRawResp() = http.PostAsJsonAsync<JobConfigLite>("/api/job_config/upsert", model.jobConfig)
         let cmd = Cmd.OfTask.either getRawResp () RawSubmitJobConig Error
         {model with isBtnSubmitLoading = true}, cmd
@@ -303,6 +310,30 @@ let SelectBattleModel_EN model dispatch =
             "Regular(Turf War, contains SplatFest)"
         }
     }
+let FillStatInkApiForm_EN model dispatch = 
+    div{
+        attr.``class`` ([ Bulma.Field]|> String.concat " ")
+        label{
+            attr.``class`` ([Bulma.Field; Bulma.Label]|> String.concat " ")
+            "stat.ink's API key"
+            }
+        input{
+            bind.input.string model.jobConfig.StatInkApiKey (fun n -> dispatch (SetStatInkApiKey n))
+            attr.``class`` Bulma.Input
+            attr.``type`` "text"
+            attr.placeholder "Paste your stat.ink's API key"
+            }
+        Html.br
+        Html.br
+        a{
+            attr.``class``([
+                Bulma.IsLink
+            ]|> String.concat " ")
+            attr.target "_blank"
+            attr.href "https://stat.ink/profile"
+            "To Copy stat.ink's API key" 
+        }
+    }
 let submitForm_En model dispatch =
     button{
         attr.``class`` ([
@@ -310,7 +341,7 @@ let submitForm_En model dispatch =
             Bulma.IsSuccess;
             if model.isBtnSubmitLoading then Bulma.IsLoading  else null
         ]|>String.concat " ")
-        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked)) ||not model.isAuthSuccess) then "disabled" else null)
+        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked)) ||not model.isAuthSuccess || (String.IsNullOrWhiteSpace(model.jobConfig.StatInkApiKey))) then "disabled" else null)
         on.click (fun _ -> dispatch TrySubmitJobConfig)
         "Submit"
     }
@@ -390,8 +421,9 @@ let mainForm_EN (model:Model) dispatch =
         }
         SelectBattleModel_EN model dispatch
         hr
+        FillStatInkApiForm_EN model dispatch
+        hr
         submitForm_En model dispatch
-
     }
 let homeBlock_EN model dispatch =
     Main.Home()
@@ -513,6 +545,30 @@ let SelectBattleModel_CN model dispatch =
             "涂地(包含祭典)"
         }
     }
+let FillStatInkApiForm_CN model dispatch = 
+    div{
+        attr.``class`` ([ Bulma.Field]|> String.concat " ")
+        label{
+            attr.``class`` ([Bulma.Field; Bulma.Label]|> String.concat " ")
+            "stat.ink的API密钥"
+            }
+        input{
+            bind.input.string model.jobConfig.StatInkApiKey (fun n -> dispatch (SetStatInkApiKey n))
+            attr.``class`` Bulma.Input
+            attr.``type`` "text"
+            attr.placeholder "填入你的stat.ink的API密钥"
+            }
+        Html.br
+        Html.br
+        a{
+            attr.``class``([
+                Bulma.IsLink
+            ]|> String.concat " ")
+            attr.target "_blank"
+            attr.href "https://stat.ink/profile"
+            "去复制stat.ink的API密钥" 
+        }
+    }
 let submitForm_CN model dispatch =
     button{
         attr.``class`` ([
@@ -520,7 +576,7 @@ let submitForm_CN model dispatch =
             Bulma.IsSuccess;
             if model.isBtnSubmitLoading then Bulma.IsLoading  else null
         ]|>String.concat " ")
-        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked)) ||not model.isAuthSuccess) then "disabled" else null)
+        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked)) ||not model.isAuthSuccess || (String.IsNullOrWhiteSpace(model.jobConfig.StatInkApiKey))) then "disabled" else null)
         on.click (fun _ -> dispatch TrySubmitJobConfig)
         "提交"
     }
@@ -599,6 +655,8 @@ let mainForm_CN (model:Model) dispatch =
             }
         }
         SelectBattleModel_CN model dispatch
+        hr
+        FillStatInkApiForm_CN model dispatch
         hr
         submitForm_CN model dispatch
 
