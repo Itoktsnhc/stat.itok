@@ -6,7 +6,6 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using System.Threading;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -43,6 +42,7 @@ public class UpsertJobConfig
             var jobConfig = jobConfigLite.Adapt<JobConfig>();
             jobConfig.PartitionKey = nameof(JobConfig);
             jobConfig.RowKey = jobConfig.Id;
+            jobConfig.LastUpdateTime = DateTimeOffset.Now;
             var tableClient = await _storage.GetTableClientAsync<JobConfig>();
             var upsertResp = await tableClient.UpsertEntityAsync(jobConfig);
             if (upsertResp.IsError)

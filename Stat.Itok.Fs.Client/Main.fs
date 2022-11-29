@@ -670,18 +670,8 @@ let notFoundBlock model dispatch =
     p{
         "NotFound"
     }
-
-let menuItem (model: Model) (page: Page) (text: string) =
-    Main.MenuItem()
-        .Active(if model.page = page then "is-active" else null)
-        .Url(router.Link page)
-        .Text(text)
-        .Elt()
 let view model dispatch =
     Main()
-        .Menu(concat {
-            menuItem model Home "Home"
-        })
         .Body(
             cond model.page <| function
             | Home -> 
