@@ -55,7 +55,7 @@ public class JobRunTaskPoisonWorker
     private async Task TrySavePoisonAsync(QueueMessage msg)
     {
         var fileName = $"{msg.MessageId}.payload";
-        var container = await _storage.GetBlobClientAsync<PoisonQueueMsg>();
+        var container = await _storage.GetBlobContainerClientAsync<PoisonQueueMsg>();
         var blob = container.GetBlockBlobClient(fileName);
         using var ms = new MemoryStream(Helper.CompressBytes(Encoding.UTF8.GetBytes(msg.MessageText)));
         ms.Seek(0, SeekOrigin.Begin);

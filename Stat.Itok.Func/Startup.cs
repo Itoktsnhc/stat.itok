@@ -28,7 +28,12 @@ namespace Stat.Itok.Func
                 .AddSingleton<IStorageAccessSvc, StorageAccessSvc>()
                 .AddMediatR(typeof(NintendoPrivateHandlers))
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
-                .AddSingleton(_ => StatHelper.InitialWebViewData())
+                .AddSingleton<RemoteConfigStore>()
+                .AddSingleton(sp =>
+                {
+                    var store = sp.GetRequiredService<RemoteConfigStore>();
+                    return store.GetWebViewDataAsync().GetAwaiter().GetResult();
+                })
                 .AddLogging();
 
             builder.Services.AddHttpClient<INintendoApi, NintendoApi>()
