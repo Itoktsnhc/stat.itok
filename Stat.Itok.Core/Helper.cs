@@ -604,7 +604,9 @@ namespace Stat.Itok.Core
                 case 4: return "spillway";
 
                 case 6: return "metalworks";
+                case 7: return "kusaya";
 
+                case 9: return "hirame";
                 case 10: return "bridge";
                 case 11: return "museum";
                 case 12: return "resort";
