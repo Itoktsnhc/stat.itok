@@ -598,22 +598,22 @@ namespace Stat.Itok.Core
             var stageId = ParseStageId(battle["vsStage"]["id"].TryWith<string>());
             switch (stageId)
             {
-                case 1: return "gorge";
-                case 2: return "alley";
-                case 3: return "market";
-                case 4: return "spillway";
+                case 1: return "yunohana";
+                case 2: return "gonzui";
+                case 3: return "yagara";
+                case 4: return "mategai";
 
-                case 6: return "metalworks";
+                case 6: return "namero";
                 case 7: return "kusaya";
 
                 case 9: return "hirame";
-                case 10: return "bridge";
-                case 11: return "museum";
-                case 12: return "resort";
-                case 13: return "academy";
-                case 14: return "shipyard";
-                case 15: return "mart";
-                case 16: return "world";
+                case 10: return "masaba";
+                case 11: return "kinmedai";
+                case 12: return "mahimahi";
+                case 13: return "amabi";
+                case 14: return "chozame";
+                case 15: return "zatou";
+                case 16: return "sumeshi";
 
                 default: throw new NotSupportedException("NO STAGE PARSED");
             }

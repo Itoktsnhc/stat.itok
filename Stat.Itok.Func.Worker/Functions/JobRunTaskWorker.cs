@@ -66,8 +66,8 @@ public class JobRunTaskWorker
 
         try
         {
-            var statInkWebBattleId = await RunBattleTaskAsync(task);
-            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto(statInkWebBattleId));
+            var postResp = await RunBattleTaskAsync(task);
+            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto($"url:{postResp.Url}  ;;  id:{postResp.Id}"));
             await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.RanToCompletion));
         }
         catch (Exception e)
@@ -108,7 +108,7 @@ public class JobRunTaskWorker
         return resp.Value;
     }
 
-    private async Task<string> RunBattleTaskAsync(BattleTaskPayload task)
+    private async Task<StatInkPostBattleSuccess> RunBattleTaskAsync(BattleTaskPayload task)
     {
         var gearsInfo = await GetGearsInfoAsync();
         var jobConfig = await GetJobConfigAsync(task.JobConfigId);
@@ -153,7 +153,7 @@ public class JobRunTaskWorker
             _logger.LogError(ex, $"ERROR when {nameof(TrySaveCacheAsync)}:{task.JobConfigId}:{task.BattleIdRawStr}");
         }
 
-        return resp.Id;
+        return resp;
     }
 
     private async Task TrySaveCacheAsync(RawBattleCacheEntity entity)
