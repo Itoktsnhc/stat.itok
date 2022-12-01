@@ -159,7 +159,7 @@ public class JobRunTaskWorker
     private async Task TrySaveCacheAsync(RawBattleCacheEntity entity)
     {
         var fileName = $"{entity.JobConfigId}__{entity.StatInkBattleId}.json";
-        var container = await _storage.GetBlobClientAsync<RawBattleCacheEntity>();
+        var container = await _storage.GetBlobContainerClientAsync<RawBattleCacheEntity>();
         var blob = container.GetBlockBlobClient(fileName);
         using var ms = new MemoryStream(Helper.CompressBytes(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(entity))));
         ms.Seek(0, SeekOrigin.Begin);
@@ -184,7 +184,7 @@ public class JobRunTaskWorker
     private async Task<RawBattleCacheEntity> TryReadCachedAsync(string jobConfigId, string statInkBattleId)
     {
         var fileName = $"{jobConfigId}__{statInkBattleId}.json";
-        var container = await _storage.GetBlobClientAsync<RawBattleCacheEntity>();
+        var container = await _storage.GetBlobContainerClientAsync<RawBattleCacheEntity>();
         var blob = container.GetBlockBlobClient(fileName);
         using var ms = new MemoryStream();
         await blob.DownloadToAsync(ms);

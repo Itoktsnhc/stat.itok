@@ -119,11 +119,6 @@ namespace Stat.Itok.Core
             return jToken;
         }
 
-        public static NinWebViewData InitialWebViewData(string path = "./RawRes/splatnet3_webview_data.json")
-        {
-            return JsonConvert.DeserializeObject<NinWebViewData>(File.ReadAllText(path));
-        }
-
         public static IList<BattleGroupAndIds> ExtractBattleIds(string rawJsonResp, string queryHash)
         {
             var res = new List<BattleGroupAndIds>();

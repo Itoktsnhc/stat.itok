@@ -3,6 +3,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using JobTrackerX.Client;
+using JobTrackerX.SharedLibs;
 using MediatR;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Azure.WebJobs.Logging;
@@ -30,7 +31,12 @@ namespace Stat.Itok.Func.Worker
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
                 .AddSingleton<IJobTrackerClient, JobTrackerClient>(x =>
                     new JobTrackerClient(x.GetRequiredService<IOptions<GlobalConfig>>().Value.JobSysBase))
-                .AddSingleton(_ => StatHelper.InitialWebViewData())
+                .AddSingleton<RemoteConfigStore>()
+                .AddSingleton(sp =>
+                {
+                    var store = sp.GetRequiredService<RemoteConfigStore>();
+                    return store.GetWebViewDataAsync().GetAwaiter().GetResult();
+                })
                 .AddLogging();
 
             builder.Services.AddHttpClient<INintendoApi, NintendoApi>()
