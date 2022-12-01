@@ -1,0 +1,234 @@
+{
+  "xMatchMeasurement": {
+    "state": "COMPLETED",
+    "xPowerAfter": 1673.9951387374592,
+    "isInitial": true,
+    "winCount": 1,
+    "loseCount": 4,
+    "maxInitialBattleCount": 5,
+    "maxWinCount": 3,
+    "maxLoseCount": 3,
+    "vsRule": {
+      "name": "真格塔樓",
+      "rule": "LOFT",
+      "id": "VnNSdWxlLTI="
+    }
+  },
+  "historyDetails": {
+    "nodes": [
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExNDMwN185YmNlNzYwOC1lNDQ1LTRmZmQtYjFjNC02ZjUyOGNmYWFjN2M=",
+        "vsMode": {
+          "mode": "X_MATCH",
+          "id": "VnNNb2RlLTM="
+        },
+        "vsRule": {
+          "name": "真格塔樓",
+          "id": "VnNSdWxlLTI="
+        },
+        "vsStage": {
+          "name": "臭魚乾溫泉",
+          "id": "VnNTdGFnZS03",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/cd84d711b47a424334569ac20f33f8e0ab6a652dc07854dcd36508a0081e9034_3.png?Expires=1673308800&Signature=H1y-oMh57peSPjcPwavyjAljbICyeC9my4YRE39AMll7fvgn3Xf~u4RUHRjVx1k5PEQXUwSeHClbJIOxGiKylEhiwKS33z~CGzDxsII6uegM4o8phRH8hyQTe6sKiZC1cBHeCWL-6IXa8docO1kSWvGY2O1CDBx9bleOI7jL3Y-NAj1jRsMIMaxvR8a0a4w6tu5to9fK3SNVD-iWIMl-ntWLUxzIUiIl0q1NpTWxpcXup1fVjH7IP9oKsvJRYhZZodwnJvxfDG8cFABcJZXbea8G2sKIuK5llt1c2Y~xtAhb-gePUEmyWSDy8~EGj96uHd~g6dSHrcY-ESYMC1khZg__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "斯普拉射擊槍",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800&Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTQw"
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpYTUFUQ0g6MjAyMjEyMDFUMTE0MzA3XzliY2U3NjA4LWU0NDUtNGZmZC1iMWM0LTZmNTI4Y2ZhYWM3Yzp1LWF2c2R0bXF3eHpicWZzZmphbm1t"
+        },
+        "knockout": "WIN",
+        "myTeam": {
+          "result": {
+            "paintPoint": null,
+            "paintRatio": null,
+            "score": 100
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExNDg0OV9hYzVmZWM0YS0wZDA4LTRmZGEtODZmYi1jMmMwMjkxMmI2OGU="
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMzYzM19mZWY1MzlhMy1kZGRlLTRiY2ItYWQzMS05OWE0M2ZiYjRhOTk="
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMzYzM19mZWY1MzlhMy1kZGRlLTRiY2ItYWQzMS05OWE0M2ZiYjRhOTk=",
+        "vsMode": {
+          "mode": "X_MATCH",
+          "id": "VnNNb2RlLTM="
+        },
+        "vsRule": {
+          "name": "真格塔樓",
+          "id": "VnNSdWxlLTI="
+        },
+        "vsStage": {
+          "name": "鬼頭刀SPA度假區",
+          "id": "VnNTdGFnZS0xMg==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8273118c1ffe1bf6fe031c7d8c9795dab52632c9b76e8e9f01f644ac5ae0ccc0_3.png?Expires=1673308800&Signature=Lumwey73bX1rXnHbCOpctRjiqtfQUhtmcMiPhyelURQOrBHRh-hoRHEgSxQ-qU3brVVdYvNZmgTCo4UO68J2iBvACrzT5qeZTlhRp0P9ofTDBjY5bCAMjTBQysc7CEwNDu6169cinpqZPhCaC2zdbStryxYFyp1y92G~OkY1ImfQZF-mDyToy6b1ddl6j7LfiyTG5BxMpcNJGKc5qhLn6mrNWjzp9M3lImFqLOMDbmFWqKq0gukGIcNtCYCbZVXOZx7RqFbhwZT4zQPp7t5Ox1ZtaG0C8hVeTXj9cM3hWZOhGBw~za43BXnzQ7wOMPN2wjE-bX~XDPEZ9N0lalyinw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "斯普拉射擊槍",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800&Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTQw"
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpYTUFUQ0g6MjAyMjEyMDFUMTEzNjMzX2ZlZjUzOWEzLWRkZGUtNGJjYi1hZDMxLTk5YTQzZmJiNGE5OTp1LWF2c2R0bXF3eHpicWZzZmphbm1t"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": null,
+            "paintRatio": null,
+            "score": 71
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExNDMwN185YmNlNzYwOC1lNDQ1LTRmZmQtYjFjNC02ZjUyOGNmYWFjN2M="
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMzA1N18zNTM2MDczYy1mMTE2LTQ3NDUtOTczOS1mNTgzNTZmM2MzOTY="
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMzA1N18zNTM2MDczYy1mMTE2LTQ3NDUtOTczOS1mNTgzNTZmM2MzOTY=",
+        "vsMode": {
+          "mode": "X_MATCH",
+          "id": "VnNNb2RlLTM="
+        },
+        "vsRule": {
+          "name": "真格塔樓",
+          "id": "VnNSdWxlLTI="
+        },
+        "vsStage": {
+          "name": "臭魚乾溫泉",
+          "id": "VnNTdGFnZS03",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/cd84d711b47a424334569ac20f33f8e0ab6a652dc07854dcd36508a0081e9034_3.png?Expires=1673308800&Signature=H1y-oMh57peSPjcPwavyjAljbICyeC9my4YRE39AMll7fvgn3Xf~u4RUHRjVx1k5PEQXUwSeHClbJIOxGiKylEhiwKS33z~CGzDxsII6uegM4o8phRH8hyQTe6sKiZC1cBHeCWL-6IXa8docO1kSWvGY2O1CDBx9bleOI7jL3Y-NAj1jRsMIMaxvR8a0a4w6tu5to9fK3SNVD-iWIMl-ntWLUxzIUiIl0q1NpTWxpcXup1fVjH7IP9oKsvJRYhZZodwnJvxfDG8cFABcJZXbea8G2sKIuK5llt1c2Y~xtAhb-gePUEmyWSDy8~EGj96uHd~g6dSHrcY-ESYMC1khZg__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "斯普拉射擊槍",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800&Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTQw"
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpYTUFUQ0g6MjAyMjEyMDFUMTEzMDU3XzM1MzYwNzNjLWYxMTYtNDc0NS05NzM5LWY1ODM1NmYzYzM5Njp1LWF2c2R0bXF3eHpicWZzZmphbm1t"
+        },
+        "knockout": "LOSE",
+        "myTeam": {
+          "result": {
+            "paintPoint": null,
+            "paintRatio": null,
+            "score": 0
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMzYzM19mZWY1MzlhMy1kZGRlLTRiY2ItYWQzMS05OWE0M2ZiYjRhOTk="
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMjI0M19mMTM2NzdjOC0yZDNlLTQ1OGItOGM1MS0xZDY1N2Y4ODNkYmY="
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMjI0M19mMTM2NzdjOC0yZDNlLTQ1OGItOGM1MS0xZDY1N2Y4ODNkYmY=",
+        "vsMode": {
+          "mode": "X_MATCH",
+          "id": "VnNNb2RlLTM="
+        },
+        "vsRule": {
+          "name": "真格塔樓",
+          "id": "VnNSdWxlLTI="
+        },
+        "vsStage": {
+          "name": "鬼頭刀SPA度假區",
+          "id": "VnNTdGFnZS0xMg==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8273118c1ffe1bf6fe031c7d8c9795dab52632c9b76e8e9f01f644ac5ae0ccc0_3.png?Expires=1673308800&Signature=Lumwey73bX1rXnHbCOpctRjiqtfQUhtmcMiPhyelURQOrBHRh-hoRHEgSxQ-qU3brVVdYvNZmgTCo4UO68J2iBvACrzT5qeZTlhRp0P9ofTDBjY5bCAMjTBQysc7CEwNDu6169cinpqZPhCaC2zdbStryxYFyp1y92G~OkY1ImfQZF-mDyToy6b1ddl6j7LfiyTG5BxMpcNJGKc5qhLn6mrNWjzp9M3lImFqLOMDbmFWqKq0gukGIcNtCYCbZVXOZx7RqFbhwZT4zQPp7t5Ox1ZtaG0C8hVeTXj9cM3hWZOhGBw~za43BXnzQ7wOMPN2wjE-bX~XDPEZ9N0lalyinw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "斯普拉射擊槍",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800&Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTQw"
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpYTUFUQ0g6MjAyMjEyMDFUMTEyMjQzX2YxMzY3N2M4LTJkM2UtNDU4Yi04YzUxLTFkNjU3Zjg4M2RiZjp1LWF2c2R0bXF3eHpicWZzZmphbm1t"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": null,
+            "paintRatio": null,
+            "score": 40
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMzA1N18zNTM2MDczYy1mMTE2LTQ3NDUtOTczOS1mNTgzNTZmM2MzOTY="
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMTkzNl8xOTkxMjJlMS0xMzU3LTQxNTktYjhmOC0wNWZiZGU3MmE4YmM="
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMTkzNl8xOTkxMjJlMS0xMzU3LTQxNTktYjhmOC0wNWZiZGU3MmE4YmM=",
+        "vsMode": {
+          "mode": "X_MATCH",
+          "id": "VnNNb2RlLTM="
+        },
+        "vsRule": {
+          "name": "真格塔樓",
+          "id": "VnNSdWxlLTI="
+        },
+        "vsStage": {
+          "name": "鬼頭刀SPA度假區",
+          "id": "VnNTdGFnZS0xMg==",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/8273118c1ffe1bf6fe031c7d8c9795dab52632c9b76e8e9f01f644ac5ae0ccc0_3.png?Expires=1673308800&Signature=Lumwey73bX1rXnHbCOpctRjiqtfQUhtmcMiPhyelURQOrBHRh-hoRHEgSxQ-qU3brVVdYvNZmgTCo4UO68J2iBvACrzT5qeZTlhRp0P9ofTDBjY5bCAMjTBQysc7CEwNDu6169cinpqZPhCaC2zdbStryxYFyp1y92G~OkY1ImfQZF-mDyToy6b1ddl6j7LfiyTG5BxMpcNJGKc5qhLn6mrNWjzp9M3lImFqLOMDbmFWqKq0gukGIcNtCYCbZVXOZx7RqFbhwZT4zQPp7t5Ox1ZtaG0C8hVeTXj9cM3hWZOhGBw~za43BXnzQ7wOMPN2wjE-bX~XDPEZ9N0lalyinw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "斯普拉射擊槍",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1673308800&Signature=pmyHlJCy1e-yxqMVTK7mcf0HU1RuKJ1ZzoByCYCOR4TgTFxHWyS3-McuE82Iq-lDKso9kK4wVOzZDmfaw3pahSrO1wliabps3AZSEB3wjyKWeco10ev3I7t-RZU5VHA93eRmKoaGRLEhuo-Zf9vLaCycxABk1UfZcdmUSWWMAG6AJCJP0vmrE~DSmlRkNbiOv~rVSl6guZeRSstO7awq3-~c-qKtbaZLDIStdtL9Lxo~~H8U6mEjBqSNRvhnpW3lvb3yAqnGEc6GC3N263pgi5cWeAXOQsAKAD4WEzcOdJOuJuv158GQHXpcavKxHnKPcapcmDF-u7eqLWDHPcNqNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTQw"
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpYTUFUQ0g6MjAyMjEyMDFUMTExOTM2XzE5OTEyMmUxLTEzNTctNDE1OS1iOGY4LTA1ZmJkZTcyYThiYzp1LWF2c2R0bXF3eHpicWZzZmphbm1t"
+        },
+        "knockout": "LOSE",
+        "myTeam": {
+          "result": {
+            "paintPoint": null,
+            "paintRatio": null,
+            "score": 0
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06WE1BVENIOjIwMjIxMjAxVDExMjI0M19mMTM2NzdjOC0yZDNlLTQ1OGItOGM1MS0xZDY1N2Y4ODNkYmY="
+        },
+        "previousHistoryDetail": null
+      }
+    ]
+  }
+}

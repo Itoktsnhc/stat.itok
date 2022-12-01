@@ -28,6 +28,7 @@ namespace Stat.Itok.Func
                 .AddSingleton<IStorageAccessSvc, StorageAccessSvc>()
                 .AddMediatR(typeof(NintendoPrivateHandlers))
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
+                .AddSingleton(_ => StatHelper.InitialWebViewData())
                 .AddLogging();
 
             builder.Services.AddHttpClient<INintendoApi, NintendoApi>()

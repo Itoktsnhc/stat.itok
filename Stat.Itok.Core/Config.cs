@@ -1,4 +1,6 @@
-﻿namespace Stat.Itok.Core
+﻿using Newtonsoft.Json;
+
+namespace Stat.Itok.Core
 {
     public class GlobalConfig
     {
@@ -39,5 +41,17 @@
     {
         public const string StatVersion = "0.1.0";
         public const string JobRunTaskQueueName = "job-run-task";
+    }
+
+    public class NinWebViewData
+    {
+        [JsonProperty("graphQL")]
+        public ApiDictWrapper ApiDictWrapper { get; set; }
+    }
+
+    public class ApiDictWrapper
+    {
+        [JsonProperty("apis")]
+        public Dictionary<string,string> Dict { get; set; }
     }
 }

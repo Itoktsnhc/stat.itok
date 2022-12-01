@@ -54,6 +54,9 @@ public enum StatInkLobby
 
     [EnumMember(Value = "private")]
     Private,
+
+    [EnumMember(Value = "xmatch")]
+    XMatch
 }
 
 public enum StatInkResult
@@ -262,6 +265,12 @@ public record StatInkBattleBody
 
     [JsonProperty("end_at")]
     public long EndAt { get; set; }
+
+    [JsonProperty("x_power_before")]
+    public decimal? XPowerBefore { get; set; }
+
+    [JsonProperty("x_power_after")]
+    public decimal? XPowerAfter { get; set; }
 }
 
 public class StatInkPlayer

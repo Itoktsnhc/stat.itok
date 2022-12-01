@@ -42,6 +42,7 @@ type Model =
         isAuthSuccess:bool
         isRankedChecked:bool
         isTurfWarChecked:bool
+        isXModeChecked:bool
     }
 
 let initModel =
@@ -55,6 +56,7 @@ let initModel =
         isAuthSuccess = false
         isRankedChecked = true
         isTurfWarChecked = true
+        isXModeChecked = true
         isBtnSubmitLoading = false
     }
 
@@ -72,8 +74,9 @@ type Message =
     | TryLoginAccountInfo
     | RawLoginAccountInfoResp of HttpResponseMessage
     | ParsedLoginAccountInfo of Result<NinAuthContext, string>
-    | TrufWarChecked of bool
+    | TurfWarChecked of bool
     | RankedChecked of bool
+    | XModeChecked of bool
     | TrySubmitJobConfig
     | RawSubmitJobConig of  HttpResponseMessage
     | ParsedSubmitJobConig of  Result<JobConfigLite, string>
@@ -89,8 +92,10 @@ let update (http: HttpClient) message model =
         model, Cmd.none
     | SetPageLang langStr ->
         {model with pageLang = langStr},Cmd.none
-    |TrufWarChecked isChecked ->
+    |TurfWarChecked isChecked ->
         {model with isTurfWarChecked = isChecked},Cmd.none
+    |XModeChecked isChecked ->
+        {model with isXModeChecked = isChecked}, Cmd.none
     |RankedChecked isChecked ->
         {model with isRankedChecked = isChecked},Cmd.none
     | SetRedirectionInput input ->
@@ -138,6 +143,7 @@ let update (http: HttpClient) message model =
         model.jobConfig.EnabledQueries.Clear()
         if(model.isRankedChecked) then model.jobConfig.EnabledQueries.Add(nameof(QueryHash.BankaraBattleHistories))
         if(model.isTurfWarChecked) then model.jobConfig.EnabledQueries.Add(nameof(QueryHash.RegularBattleHistories))
+        if(model.isXModeChecked) then model.jobConfig.EnabledQueries.Add(nameof(QueryHash.XBattleHistories))
         let getRawResp() = http.PostAsJsonAsync<JobConfigLite>("/api/job_config/upsert", model.jobConfig)
         let cmd = Cmd.OfTask.either getRawResp () RawSubmitJobConig Error
         {model with isBtnSubmitLoading = true; notification = NNone}, cmd
@@ -305,9 +311,17 @@ let SelectBattleModel_EN model dispatch =
             attr.``class`` ([Bulma.Checkbox; Bulma.Px2]|> String.concat " ")
             input{
                 attr.``type`` Bulma.Checkbox
-                bind.``checked`` model.isTurfWarChecked (fun n -> dispatch (TrufWarChecked n))
+                bind.``checked`` model.isTurfWarChecked (fun n -> dispatch (TurfWarChecked n))
             }
             "Regular(Turf War, contains SplatFest)"
+        }
+        label{
+            attr.``class`` ([Bulma.Checkbox; Bulma.Px2]|> String.concat " ")
+            input{
+                attr.``type`` Bulma.Checkbox
+                bind.``checked`` model.isXModeChecked (fun n -> dispatch (XModeChecked n))
+            }
+            "XMatch"
         }
     }
 let FillStatInkApiForm_EN model dispatch = 
@@ -341,7 +355,7 @@ let submitForm_En model dispatch =
             Bulma.IsSuccess;
             if model.isBtnSubmitLoading then Bulma.IsLoading  else null
         ]|>String.concat " ")
-        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked)) ||not model.isAuthSuccess || (String.IsNullOrWhiteSpace(model.jobConfig.StatInkApiKey))) then "disabled" else null)
+        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked) && (not model.isXModeChecked)) ||not model.isAuthSuccess || (String.IsNullOrWhiteSpace(model.jobConfig.StatInkApiKey))) then "disabled" else null)
         on.click (fun _ -> dispatch TrySubmitJobConfig)
         "Submit"
     }
@@ -540,9 +554,17 @@ let SelectBattleModel_CN model dispatch =
             attr.``class`` ([Bulma.Checkbox; Bulma.Px2]|> String.concat " ")
             input{
                 attr.``type`` Bulma.Checkbox
-                bind.``checked`` model.isTurfWarChecked (fun n -> dispatch (TrufWarChecked n))
+                bind.``checked`` model.isTurfWarChecked (fun n -> dispatch (TurfWarChecked n))
             }
             "涂地(包含祭典)"
+        }
+        label{
+            attr.``class`` ([Bulma.Checkbox; Bulma.Px2]|> String.concat " ")
+            input{
+                attr.``type`` Bulma.Checkbox
+                bind.``checked`` model.isXModeChecked (fun n -> dispatch (XModeChecked n))
+            }
+            "X比赛"
         }
     }
 let FillStatInkApiForm_CN model dispatch = 
@@ -576,7 +598,7 @@ let submitForm_CN model dispatch =
             Bulma.IsSuccess;
             if model.isBtnSubmitLoading then Bulma.IsLoading  else null
         ]|>String.concat " ")
-        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked)) ||not model.isAuthSuccess || (String.IsNullOrWhiteSpace(model.jobConfig.StatInkApiKey))) then "disabled" else null)
+        attr.disabled (if (((not model.isTurfWarChecked) && (not model.isRankedChecked) && (not model.isXModeChecked)) ||not model.isAuthSuccess || (String.IsNullOrWhiteSpace(model.jobConfig.StatInkApiKey))) then "disabled" else null)
         on.click (fun _ -> dispatch TrySubmitJobConfig)
         "提交"
     }
