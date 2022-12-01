@@ -22,17 +22,20 @@ public class JobDispatcher
     private readonly ILogger<JobDispatcher> _logger;
     private readonly IStorageAccessSvc _storage;
     private readonly IJobTrackerClient _jobTracker;
+    private readonly Dictionary<string, string> _queryHash;
 
     public JobDispatcher(
         IMediator mediator,
         ILogger<JobDispatcher> logger,
         IStorageAccessSvc storage,
-        IJobTrackerClient jobTracker)
+        IJobTrackerClient jobTracker,
+        NinWebViewData webViewData)
     {
         _mediator = mediator;
         _logger = logger;
         _storage = storage;
         _jobTracker = jobTracker;
+        _queryHash = webViewData.ApiDictWrapper.Dict ?? new Dictionary<string, string>();
     }
 
     [FunctionName("JobDispatcher")]
@@ -72,35 +75,30 @@ public class JobDispatcher
         }
 
         jobConfig.NinAuthContext = checkRes.AuthContext;
-        if (string.IsNullOrEmpty(jobConfig.ForcedUserLang))
-        {
-            jobConfig.ForcedUserLang = jobConfig.NinAuthContext.UserInfo.Lang;
-        }
-        jobConfig.NinAuthContext.UserInfo.Lang = jobConfig.ForcedUserLang;
+
         await jobConfigTable.UpsertEntityAsync(jobConfig);
 
+        var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
+        jobConfigLite.CorrectUserInfoLang();
         var jobRunTaskList = new List<BattleTaskPayload>();
-        foreach (var queryName in jobConfig.EnabledQueries)
+        foreach (var queryName in jobConfigLite.EnabledQueries)
         {
-            switch (queryName)
+            var queryNameFull = queryName.EndsWith("Query") ? queryName : queryName + "Query";
+            if (_queryHash.TryGetValue(queryNameFull, out var queryHash))
             {
-                case nameof(QueryHash.BankaraBattleHistories):
-                    jobRunTaskList.AddRange(await GetJobRunTasksAsync(QueryHash.BankaraBattleHistories, jobConfig));
-                    break;
-                case nameof(QueryHash.RegularBattleHistories):
-                    jobRunTaskList.AddRange(await GetJobRunTasksAsync(QueryHash.RegularBattleHistories, jobConfig));
-                    break;
-                default:
-                    _logger.LogError("NoSupportedQuery:{queryName}", queryName);
-                    break;
+                jobRunTaskList.AddRange(await GetJobRunTasksAsync(queryHash, jobConfigLite));
+            }
+            else
+            {
+                _logger.LogError("NotFoundQuery:{queryName}", queryName);
             }
         }
 
-        await DispatchJobRunTasksAsync(jobConfig, jobRunTaskList);
+        await DispatchJobRunTasksAsync(jobConfigLite, jobRunTaskList);
     }
 
     private async Task<IList<BattleTaskPayload>> GetJobRunTasksAsync(
-        string queryHash, JobConfig jobConfig)
+        string queryHash, JobConfigLite jobConfig)
     {
         var groupRes = await _mediator.Send(new ReqDoGraphQL
         {
@@ -128,9 +126,9 @@ public class JobDispatcher
         });
     }
 
-    private async Task DispatchJobRunTasksAsync(JobConfig jobConfig, IList<BattleTaskPayload> tasks)
+    private async Task DispatchJobRunTasksAsync(JobConfigLite jobConfigLite, IList<BattleTaskPayload> tasks)
     {
-        tasks = await ExcludeExistBattlesAsync(jobConfig, tasks);
+        tasks = await ExcludeExistBattlesAsync(jobConfigLite, tasks);
         if (!tasks.Any())
         {
             _logger.LogInformation("No new battle Find");
@@ -139,7 +137,7 @@ public class JobDispatcher
 
         var runTable = await _storage.GetTableClientAsync<JobRun>();
 
-        var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
+        var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfigLite.NinAuthContext.UserInfo.Nickname}]")
         {
             Tags = new List<string> { "stat.itok", runTable.AccountName }
         };
@@ -147,8 +145,8 @@ public class JobDispatcher
         var jobRun = new JobRun
         {
             TrackedId = tJob.JobId,
-            JobConfigId = jobConfig.Id,
-            PartitionKey = jobConfig.Id,
+            JobConfigId = jobConfigLite.Id,
+            PartitionKey = jobConfigLite.Id,
             RowKey = (long.MaxValue - tJob.JobId).ToString()
         };
         await runTable.UpsertEntityAsync(jobRun);
@@ -159,10 +157,10 @@ public class JobDispatcher
         {
             foreach (var battleTask in tasks)
             {
-                battleTask.JobConfigId = jobConfig.Id;
+                battleTask.JobConfigId = jobConfigLite.Id;
                 battleTask.JobRunTrackedId = battleTask.JobRunTrackedId;
 
-                var addJobDto = new AddJobDto($"[{nameof(BattleTaskPayload)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]",
+                var addJobDto = new AddJobDto($"[{nameof(BattleTaskPayload)}] for [{jobConfigLite.NinAuthContext.UserInfo.Nickname}]",
                     jobRun.TrackedId)
                 {
                     Options = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr),
@@ -200,7 +198,7 @@ public class JobDispatcher
             new UpdateJobStateDto(JobState.WaitingForChildrenToComplete));
     }
 
-    private async Task<IList<BattleTaskPayload>> ExcludeExistBattlesAsync(JobConfig jobConfig,
+    private async Task<IList<BattleTaskPayload>> ExcludeExistBattlesAsync(JobConfigLite jobConfigLite,
         IList<BattleTaskPayload> tasks)
     {
         var res = new ConcurrentBag<BattleTaskPayload>();
@@ -209,12 +207,12 @@ public class JobDispatcher
         var checkTasks = tasks.Select(async task =>
         {
             var existBattleId =
-                await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfig.Id,
+                await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfigLite.Id,
                     StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
             if (existBattleId.HasValue)
             {
                 _logger.LogInformation("{jobConfigId}: ignoring exist battle {battleId} ",
-                    jobConfig.Id, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
+                    jobConfigLite.Id, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
                 return;
             }
 

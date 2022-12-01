@@ -1,4 +1,5 @@
-﻿using Stat.Itok.Core;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Stat.Itok.Core;
 
 namespace Stat.Itok.Tests
 {
@@ -20,25 +21,20 @@ namespace Stat.Itok.Tests
         }
 
         [TestMethod]
-        public void TestExtarctBattleId()
-        {
-            var files = Directory.GetFiles("./samples");
-            foreach (var file in files)
-            {
-                var content = File.ReadAllText(file);
-                var res = StatHelper.ExtractBattleIds(content,
-                    QueryHash.BattleQueries[Path.GetFileNameWithoutExtension(file)]);
-                if (Path.GetFileNameWithoutExtension(file) != "PrivateBattleHistories")
-                    Assert.IsTrue(res.Any());
-            }
-        }
-
-        [TestMethod]
         public void TestConvertToStatInkBody()
         {
             var groupStr = File.ReadAllText("./convert/1/Group.json");
             var detailStr = File.ReadAllText("./convert/1/Detail.json");
             var res = StatHelper.BuildStatInkBattleBody(detailStr, groupStr);
+        }
+
+
+        [TestMethod]
+        public void TestConvertToStatInkBody_1()
+        {
+            var groupStr = File.ReadAllText("./samples/Detail_XMatch/0_group.json");
+            var detail_1 = File.ReadAllText("./samples/Detail_XMatch/1.json");
+            var res = StatHelper.BuildStatInkBattleBody(detail_1, groupStr);
         }
     }
 }

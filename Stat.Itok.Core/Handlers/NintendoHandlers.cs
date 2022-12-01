@@ -15,13 +15,16 @@ public class NintendoPublicHandlers : HandlerBase,
     private readonly IMediator _mediator;
     private readonly INintendoApi _api;
     private readonly ILogger<NintendoPublicHandlers> _logger;
+    private readonly Dictionary<string, string> _queryDict;
 
     public NintendoPublicHandlers(
-        IMediator mediator, INintendoApi api, ILogger<NintendoPublicHandlers> logger)
+        IMediator mediator, INintendoApi api, ILogger<NintendoPublicHandlers> logger,
+        NinWebViewData webViewData)
     {
         _mediator = mediator;
         _api = api;
         _logger = logger;
+        _queryDict = webViewData.ApiDictWrapper.Dict ?? new Dictionary<string, string>();
     }
 
 
@@ -107,10 +110,11 @@ public class NintendoPublicHandlers : HandlerBase,
         NinAuthContext newAuthContext = request.AuthContext;
         try
         {
+            var homeQueryName = nameof(QueryHash.HomeQuery);
             _ = await _mediator.Send(new ReqDoGraphQL()
             {
                 AuthContext = request.AuthContext,
-                QueryHash = QueryHash.HomeQuery
+                QueryHash = _queryDict[homeQueryName]
             }, cancellationToken);
         }
         catch (Exception)

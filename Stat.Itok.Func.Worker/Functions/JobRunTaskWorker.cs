@@ -9,6 +9,7 @@ using Azure.Storage.Blobs.Specialized;
 using Azure.Storage.Queues.Models;
 using JobTrackerX.Client;
 using JobTrackerX.SharedLibs;
+using Mapster;
 using MediatR;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Caching.Memory;
@@ -26,19 +27,22 @@ public class JobRunTaskWorker
     private readonly IStorageAccessSvc _storage;
     private readonly IJobTrackerClient _jobTracker;
     private readonly IMemoryCache _memCache;
+    private readonly Dictionary<string, string> _queryHash;
 
     public JobRunTaskWorker(
         IMediator mediator,
         ILogger<JobRunTaskWorker> logger,
         IStorageAccessSvc storage,
         IJobTrackerClient jobTracker,
-        IMemoryCache memCache)
+        IMemoryCache memCache,
+        NinWebViewData webViewData)
     {
         _mediator = mediator;
         _logger = logger;
         _storage = storage;
         _jobTracker = jobTracker;
         _memCache = memCache;
+        _queryHash = webViewData.ApiDictWrapper.Dict ?? new Dictionary<string, string>();
     }
 
     [FunctionName("JobWorker")]
@@ -108,21 +112,26 @@ public class JobRunTaskWorker
     {
         var gearsInfo = await GetGearsInfoAsync();
         var jobConfig = await GetJobConfigAsync(task.JobConfigId);
+        var vsDetailDistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
+
+        var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
+        jobConfigLite.CorrectUserInfoLang();
+        
         var detailRes = await _mediator.Send(new ReqDoGraphQL()
         {
-            AuthContext = jobConfig.NinAuthContext,
-            QueryHash = QueryHash.VsHistoryDetail,
+            AuthContext = jobConfigLite.NinAuthContext,
+            QueryHash = _queryHash[vsDetailDistoryQueryName],
             VarName = "vsResultId",
             VarValue = task.BattleIdRawStr
         });
         var battleBody = StatHelper.BuildStatInkBattleBody(
             detailRes,
             task.BattleGroupRawStr,
-            jobConfig.NinAuthContext.UserInfo.Lang, gearsInfo);
+            jobConfigLite.NinAuthContext.UserInfo.Lang, gearsInfo);
 
         var resp = await _mediator.Send(new ReqPostBattle
         {
-            ApiKey = jobConfig.StatInkApiKey,
+            ApiKey = jobConfigLite.StatInkApiKey,
             Body = battleBody
         });
 
@@ -134,7 +143,7 @@ public class JobRunTaskWorker
                 StatInkBattleId = StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr),
                 BattleIdRawStr = task.BattleIdRawStr,
                 StatInkWebBattleId = resp?.Id,
-                StatInkWebUrl= resp?.Url,
+                StatInkWebUrl = resp?.Url,
                 BattleDetailRawStr = JsonConvert.SerializeObject(battleBody),
                 BattleGroupRawStr = task.BattleGroupRawStr
             });

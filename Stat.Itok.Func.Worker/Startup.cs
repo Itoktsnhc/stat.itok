@@ -30,6 +30,7 @@ namespace Stat.Itok.Func.Worker
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
                 .AddSingleton<IJobTrackerClient, JobTrackerClient>(x =>
                     new JobTrackerClient(x.GetRequiredService<IOptions<GlobalConfig>>().Value.JobSysBase))
+                .AddSingleton(_ => StatHelper.InitialWebViewData())
                 .AddLogging();
 
             builder.Services.AddHttpClient<INintendoApi, NintendoApi>()

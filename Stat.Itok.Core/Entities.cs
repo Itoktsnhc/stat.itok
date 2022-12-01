@@ -267,10 +267,10 @@ public record StatInkBattleBody
     public long EndAt { get; set; }
 
     [JsonProperty("x_power_before")]
-    public decimal XPowerBefore { get; set; }
+    public decimal? XPowerBefore { get; set; }
 
     [JsonProperty("x_power_after")]
-    public decimal XPowerAfter { get; set; }
+    public decimal? XPowerAfter { get; set; }
 }
 
 public class StatInkPlayer

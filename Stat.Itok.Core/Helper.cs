@@ -1,4 +1,5 @@
-﻿using System.Dynamic;
+﻿using System;
+using System.Dynamic;
 using System.Globalization;
 using System.IO.Compression;
 using System.Security.Cryptography;
@@ -60,6 +61,15 @@ namespace Stat.Itok.Core
             return UrlBase64.Encode(arr);
         }
 
+        public static void CorrectUserInfoLang(this JobConfigLite jobConfig)
+        {
+            if (string.IsNullOrEmpty(jobConfig.ForcedUserLang))
+            {
+                jobConfig.ForcedUserLang = jobConfig.NinAuthContext.UserInfo.Lang;
+            }
+            jobConfig.NinAuthContext.UserInfo.Lang = jobConfig.ForcedUserLang;
+        }
+
         public static JToken ThrowIfJsonPropNotFound(this string json, params string[] propNames)
         {
             JToken jToken;
@@ -109,6 +119,10 @@ namespace Stat.Itok.Core
             return jToken;
         }
 
+        public static NinWebViewData InitialWebViewData(string path = "./RawRes/splatnet3_webview_data.json")
+        {
+            return JsonConvert.DeserializeObject<NinWebViewData>(File.ReadAllText(path));
+        }
 
         public static IList<BattleGroupAndIds> ExtractBattleIds(string rawJsonResp, string queryHash)
         {
@@ -116,23 +130,20 @@ namespace Stat.Itok.Core
             try
             {
                 var json = JToken.Parse(rawJsonResp);
-                foreach (var (name, hash) in QueryHash.BattleQueries)
+                var queryName = (json["data"]?.FirstOrDefault() as JProperty)?.Name;
+                if (string.IsNullOrWhiteSpace(queryName)) return res;
+                foreach (var battleGroup in json["data"][queryName]["historyGroups"]["nodes"] as JArray)
                 {
-                    if (queryHash != hash) continue;
-                    foreach (var battleGroup in
-                             json["data"][name.FirstCharToLower()]["historyGroups"]["nodes"] as JArray)
+                    var group = new BattleGroupAndIds()
                     {
-                        var group = new BattleGroupAndIds()
-                        {
-                            RawBattleGroup = battleGroup.ToString()
-                        };
-                        foreach (var battle in battleGroup["historyDetails"]["nodes"] as JArray)
-                        {
-                            group.BattleIds.Add(battle["id"].TryWith<string>());
-                        }
-
-                        res.Add(group);
+                        RawBattleGroup = battleGroup.ToString()
+                    };
+                    foreach (var battle in battleGroup["historyDetails"]["nodes"] as JArray)
+                    {
+                        group.BattleIds.Add(battle["id"].TryWith<string>());
                     }
+
+                    res.Add(group);
                 }
             }
             catch (Exception)
@@ -372,6 +383,31 @@ namespace Stat.Itok.Core
 
                         break;
                     }
+                }
+            }
+            if (body.Lobby == StatInkLobby.XMatch)
+            {
+                try
+                {
+                    body.OurTeamCount = battle["myTeam"]["result"]["score"].TryWith<int?>();
+                    body.TheirTeamCount = (battle["otherTeams"] as JArray)[0]["result"]["score"].TryWith<int?>();
+                }
+                catch (Exception)
+                {
+                    //ignore
+                }
+
+                body.Knockout = battle["knockout"] == null || battle["knockout"].TryWith<string>() == "NEITHER"
+                    ? StatInkBoolean.No
+                    : StatInkBoolean.Yes;
+                var xMatchObj = battle["xMatch"];
+                if (xMatchObj != null && xMatchObj.Type != JTokenType.None)
+                {
+                    var lastXPower = xMatchObj["lastXPower"]?.TryWith<decimal?>();
+                    var entireXPower = xMatchObj["entireXPower"]?.TryWith<decimal?>();
+                    //TODO CHECK S3S For correct logic!!!!
+                    body.XPowerBefore = entireXPower;
+                    body.XPowerAfter = lastXPower;
                 }
             }
         }
@@ -629,6 +665,7 @@ namespace Stat.Itok.Core
                     return StatInkLobby.SplatFestChallenge;
                 throw new NotSupportedException($"{mode}:mode;vsModeId:{vsModeId}");
             }
+            if (mode == "X_MATCH") return StatInkLobby.XMatch;
 
             throw new NotSupportedException($"{mode}:mode;");
         }
