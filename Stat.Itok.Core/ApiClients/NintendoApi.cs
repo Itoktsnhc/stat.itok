@@ -101,35 +101,45 @@ namespace Stat.Itok.Core.ApiClients
 
         public async Task<string> GetNSOAppVersionAsync(bool forceRefresh = false)
         {
-            if (!forceRefresh && _memCache.TryGetValue<string>(nameof(GetNSOAppVersionAsync), out var verStr))
+            var defaultVer = "2.4.0";
+            try
             {
+
+                if (!forceRefresh && _memCache.TryGetValue<string>(nameof(GetNSOAppVersionAsync), out var verStr))
+                {
+                    return verStr;
+                }
+
+                var html = await _client.GetStringAsync(_options.Value.NSOAppStoreLink);
+                var doc = new HtmlDocument();
+                doc.LoadHtml(html);
+                var node = doc.DocumentNode.QuerySelector("p.whats-new__latest__version");
+                var str = node?.GetDirectInnerText();
+                verStr = str?.Replace("Version", "").Trim();
+                if (!string.IsNullOrEmpty(verStr))
+                {
+                    _memCache.Set(nameof(GetNSOAppVersionAsync), verStr);
+                }
+
                 return verStr;
             }
-
-            var html = await _client.GetStringAsync(_options.Value.NSOAppStoreLink);
-            var doc = new HtmlDocument();
-            doc.LoadHtml(html);
-            var node = doc.DocumentNode.QuerySelector("p.whats-new__latest__version");
-            var str = node?.GetDirectInnerText();
-            verStr = str?.Replace("Version", "").Trim();
-            if (!string.IsNullOrEmpty(verStr))
+            catch (Exception)
             {
-                _memCache.Set(nameof(GetNSOAppVersionAsync), verStr);
+                //ignore
             }
-
-            return verStr;
+            return defaultVer;
         }
 
         public async Task<string> GetWebViewVersionAsync(Dictionary<string, string> bHeaders = null,
             string gToken = null)
         {
             await Task.CompletedTask;
-            return "1.0.0-5644e7a2";
-/*
-            throw new NotImplementedException();
-            var jsUrl = await GetMainJsUrlPathAsync(bHeaders, gToken);
-            return await GetWebViewVersionAsync(jsUrl, bHeaders, gToken);
-*/
+            return "2.0.0-1b57b7ac";
+            /*
+                        throw new NotImplementedException();
+                        var jsUrl = await GetMainJsUrlPathAsync(bHeaders, gToken);
+                        return await GetWebViewVersionAsync(jsUrl, bHeaders, gToken);
+            */
         }
 
         // ReSharper disable once UnusedMember.Local
@@ -165,7 +175,7 @@ namespace Stat.Itok.Core.ApiClients
                 }
             }
 
-            var cookieList = new List<string>() {"_dht=1"};
+            var cookieList = new List<string>() { "_dht=1" };
             if (string.IsNullOrEmpty(gToken)) cookieList.Add(gToken);
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
             var resp = await _client.SendAsync(req);
@@ -211,7 +221,7 @@ namespace Stat.Itok.Core.ApiClients
                 }
             }
 
-            var cookieList = new List<string>() {"_dht=1"};
+            var cookieList = new List<string>() { "_dht=1" };
             if (string.IsNullOrEmpty(gToken)) cookieList.Add(gToken);
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
             var resp = await _client.SendAsync(req);
@@ -495,7 +505,7 @@ namespace Stat.Itok.Core.ApiClients
                 req.Headers.TryAddWithoutValidation(k, v);
             }
 
-            var cookieList = new List<string>() {"_dht=1", $"_gtoken={stepTwoIdToken}"};
+            var cookieList = new List<string>() { "_dht=1", $"_gtoken={stepTwoIdToken}" };
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
 
             var rawResp = await _client.SendAsync(req);
@@ -535,7 +545,7 @@ namespace Stat.Itok.Core.ApiClients
                 req.Headers.TryAddWithoutValidation(k, v);
             }
 
-            var cookieList = new List<string>() {$"_gtoken={gToken}"};
+            var cookieList = new List<string>() { $"_gtoken={gToken}" };
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
             var queryBody = StatHelper.BuildGraphQLBody(queryHash, varName, varValue);
             req.Content = new StringContent(queryBody, Encoding.UTF8, "application/json");

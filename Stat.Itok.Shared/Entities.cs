@@ -111,6 +111,7 @@ namespace Stat.Itok.Shared
                 {nameof(LatestBattleHistories), LatestBattleHistories},
                 {nameof(RegularBattleHistories), RegularBattleHistories},
                 {nameof(BankaraBattleHistories), BankaraBattleHistories},
+                {nameof(XModeBattleHistories), XModeBattleHistories },
                 {nameof(PrivateBattleHistories), PrivateBattleHistories},
             };
             CoopQueries = new()
@@ -124,6 +125,7 @@ namespace Stat.Itok.Shared
         public const string LatestBattleHistories = "7d8b560e31617e981cf7c8aa1ca13a00";
         public const string RegularBattleHistories = "f6e7e0277e03ff14edfef3b41f70cd33";
         public const string BankaraBattleHistories = "c1553ac75de0a3ea497cdbafaa93e95b";
+        public const string XModeBattleHistories = "FILLTHISLATTER"; //TODO replace with real xBattle history
         public const string PrivateBattleHistories = "38e0529de8bc77189504d26c7a14e0b8";
         public const string VsHistoryDetail = "2b085984f729cd51938fc069ceef784a";
 
