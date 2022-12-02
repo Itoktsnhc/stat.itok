@@ -350,3 +350,4 @@ MigrationBackup/
 .ionide/
 .idea
 /Stat.Itok.Client/Properties/launchSettings.json
+Stat.Itok.Tests/configs/settings.json

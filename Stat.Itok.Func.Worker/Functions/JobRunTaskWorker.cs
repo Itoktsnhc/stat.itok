@@ -86,9 +86,9 @@ public class JobRunTaskWorker
             : default;
     }
 
-    private async Task<Dictionary<string, string>> GetGearsInfoAsync(bool uncached = false)
+    private async Task<Dictionary<string, string>> GetGearsInfoAsync(bool unCached = false)
     {
-        if (!uncached &&
+        if (!unCached &&
             _memCache.TryGetValue<Dictionary<string, string>>(nameof(GetGearsInfoAsync), out var gearsInfo) &&
             gearsInfo != null)
         {
