@@ -10,6 +10,8 @@ open Zanaptak.TypedCssClasses
 open Stat.Itok.Shared
 open System
 open System.Text.Json
+open Microsoft.JSInterop
+
 
 let jsonOptions = new JsonSerializerOptions(PropertyNameCaseInsensitive = true)
 
@@ -45,22 +47,7 @@ type Model =
         isXModeChecked:bool
     }
 
-let initModel =
-    {
-        pageLang = "CN"
-        page = Home
-        notification = NNone
-        jobConfig = JobConfigLite()
-        isBtnGetNewVerifyUrlLoading = false
-        isBtnAuthAccountLoading = false
-        isAuthSuccess = false
-        isRankedChecked = true
-        isTurfWarChecked = true
-        isXModeChecked = true
-        isBtnSubmitLoading = false
-    }
 
-initModel.jobConfig.ForcedUserLang <- "zh-CN"
 
 /// The Elmish application's update messages.
 type Message =
@@ -83,7 +70,7 @@ type Message =
     | Error of exn
     | ClearNotification
 
-let update (http: HttpClient) message model =
+let update (http: HttpClient) (jsRuntime: IJSRuntime) message model =
     match message with
     | SetPage page ->
         {model with page = page }, Cmd.none
@@ -724,7 +711,26 @@ type StatItokApp() =
     [<Inject>]
     member val HttpClient = Unchecked.defaultof<HttpClient> with get, set
 
+
     override this.Program =
-        let update = update this.HttpClient
+        let jsInProcess = this.JSRuntime :?> JSInProcessRuntime
+        let culture = jsInProcess.Invoke<string>("window.getCulture",null)
+        let initModel =
+            {
+                pageLang = if culture.StartsWith("zh") then "CN" else "EN"
+                page = Home
+                notification = NNone
+                jobConfig = JobConfigLite()
+                isBtnGetNewVerifyUrlLoading = false
+                isBtnAuthAccountLoading = false
+                isAuthSuccess = false
+                isRankedChecked = true
+                isTurfWarChecked = true
+                isXModeChecked = true
+                isBtnSubmitLoading = false
+            }
+    
+        initModel.jobConfig.ForcedUserLang <- "zh-CN"
+        let update = update this.HttpClient this.JSRuntime
         Program.mkProgram (fun _ -> initModel, Cmd.ofMsg ClearNotification) update view
         |> Program.withRouter router

@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/545c2b81dc.js" crossorigin="anonymous"></script>
+    <script>
+        window.getCulture = function () {
+            return (navigator.languages && navigator.languages.length) ? navigator.languages[0] :
+                navigator.userLanguage || navigator.language || navigator.browserLanguage || 'en';
+        }
+    </script>
 
 </head>
 <body>
