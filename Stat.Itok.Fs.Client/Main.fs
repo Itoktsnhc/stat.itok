@@ -94,7 +94,8 @@ let update (http: HttpClient) (jsRuntime: IJSRuntime) message model =
     | GetNewVerifyUrl -> 
         let getNewVerifyUrl() = http.GetFromJsonAsync<ApiResp<NinTokenCopyInfo>>("/api/nin/verify_url")
         let cmd = Cmd.OfTask.either getNewVerifyUrl () GotNewVerifyUrl Error
-        {model with isBtnGetNewVerifyUrlLoading = true; notification = NNone},cmd
+        model.jobConfig.NinAuthContext.UserInfo <- new NinUserInfo()
+        {model with isBtnGetNewVerifyUrlLoading = true; isAuthSuccess = false; notification = NNone},cmd
     | GotNewVerifyUrl verifyUrlResp-> 
         let model = {model with isBtnGetNewVerifyUrlLoading = false}
         match verifyUrlResp.Result with
@@ -106,7 +107,7 @@ let update (http: HttpClient) (jsRuntime: IJSRuntime) message model =
         let getRawResp() = http.PostAsJsonAsync<NinTokenCopyInfo>("/api/nin/auth_account", model.jobConfig.NinAuthContext.TokenCopyInfo)
         let cmd = Cmd.OfTask.either getRawResp () RawLoginAccountInfoResp Error
         model.jobConfig.NinAuthContext.UserInfo <- new NinUserInfo()
-        {model with isBtnAuthAccountLoading = true; notification = NNone}, cmd
+        {model with isBtnAuthAccountLoading = true; isAuthSuccess = false; notification = NNone}, cmd
     | RawLoginAccountInfoResp rawResp ->
         let parseAsNinAuthContext() = 
             task{
@@ -497,7 +498,7 @@ let doAuthAccount_CN model dispatch =
                     td{$"%s{model.jobConfig.NinAuthContext.UserInfo.Id}"}
                 }
                 tr{
-                    td{"Nickname"}
+                    td{"昵称"}
                     td{$"%s{model.jobConfig.NinAuthContext.UserInfo.Nickname}"}
                 }
                 tr{
