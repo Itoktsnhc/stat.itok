@@ -67,6 +67,9 @@ public record ReqDoGraphQL : IRequest<string>
     public string VarValue { get; set; }
 }
 
+public record ReqGetNinMiscConfig: IRequest<NinMiscConfig> { }
+
+
 public record ReqPostBattle : IRequest<StatInkPostBattleSuccess>
 {
     public string ApiKey { get; set; }

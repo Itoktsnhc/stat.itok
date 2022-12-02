@@ -27,22 +27,19 @@ public class JobRunTaskWorker
     private readonly IStorageAccessSvc _storage;
     private readonly IJobTrackerClient _jobTracker;
     private readonly IMemoryCache _memCache;
-    private readonly Dictionary<string, string> _queryHash;
 
     public JobRunTaskWorker(
         IMediator mediator,
         ILogger<JobRunTaskWorker> logger,
         IStorageAccessSvc storage,
         IJobTrackerClient jobTracker,
-        IMemoryCache memCache,
-        NinWebViewData webViewData)
+        IMemoryCache memCache)
     {
         _mediator = mediator;
         _logger = logger;
         _storage = storage;
         _jobTracker = jobTracker;
         _memCache = memCache;
-        _queryHash = webViewData.ApiDictWrapper.Dict ?? new Dictionary<string, string>();
     }
 
     [FunctionName("JobWorker")]
@@ -120,7 +117,8 @@ public class JobRunTaskWorker
             debugContext.StatInkBattleId = StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr);
             #endregion
 
-
+            var ninMiscConfig = await _mediator.Send(new ReqGetNinMiscConfig());
+            var queryHashDict = ninMiscConfig.GraphQL.APIs;
             var gearsInfo = await GetGearsInfoAsync();
             var jobConfig = await GetJobConfigAsync(task.JobConfigId);
             var vsDetailDistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
@@ -131,7 +129,7 @@ public class JobRunTaskWorker
             var detailRes = await _mediator.Send(new ReqDoGraphQL()
             {
                 AuthContext = jobConfigLite.NinAuthContext,
-                QueryHash = _queryHash[vsDetailDistoryQueryName],
+                QueryHash = queryHashDict[vsDetailDistoryQueryName],
                 VarName = "vsResultId",
                 VarValue = task.BattleIdRawStr
             });

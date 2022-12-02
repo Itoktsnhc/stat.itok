@@ -43,15 +43,19 @@ namespace Stat.Itok.Core
         public const string JobRunTaskQueueName = "job-run-task";
     }
 
-    public class NinWebViewData
+    public class NinMiscConfig
     {
         [JsonProperty("graphQL")]
-        public ApiDictWrapper ApiDictWrapper { get; set; }
+        public NinGraphQL GraphQL { get; set; } = new NinGraphQL();
+        [JsonProperty("version")]
+        public string WebViewVersion { get; set; }
+        [JsonProperty("nsoVer")]
+        public string NSOAppVersion { get; set; }
     }
 
-    public class ApiDictWrapper
+    public class NinGraphQL
     {
         [JsonProperty("apis")]
-        public Dictionary<string,string> Dict { get; set; }
+        public Dictionary<string, string> APIs { get; set; } = new Dictionary<string, string>();
     }
 }

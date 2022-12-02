@@ -22,20 +22,17 @@ public class JobDispatcher
     private readonly ILogger<JobDispatcher> _logger;
     private readonly IStorageAccessSvc _storage;
     private readonly IJobTrackerClient _jobTracker;
-    private readonly Dictionary<string, string> _queryHash;
 
     public JobDispatcher(
         IMediator mediator,
         ILogger<JobDispatcher> logger,
         IStorageAccessSvc storage,
-        IJobTrackerClient jobTracker,
-        NinWebViewData webViewData)
+        IJobTrackerClient jobTracker)
     {
         _mediator = mediator;
         _logger = logger;
         _storage = storage;
         _jobTracker = jobTracker;
-        _queryHash = webViewData.ApiDictWrapper.Dict ?? new Dictionary<string, string>();
     }
 
     [FunctionName("JobDispatcher")]
@@ -75,7 +72,8 @@ public class JobDispatcher
         }
 
         jobConfig.NinAuthContext = checkRes.AuthContext;
-
+        var ninMiscConfig = await _mediator.Send(new ReqGetNinMiscConfig());
+        var queryHashDict = ninMiscConfig.GraphQL.APIs;
         await jobConfigTable.UpsertEntityAsync(jobConfig);
 
         var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
@@ -84,9 +82,9 @@ public class JobDispatcher
         foreach (var queryName in jobConfigLite.EnabledQueries)
         {
             var queryNameFull = queryName.EndsWith("Query") ? queryName : queryName + "Query";
-            if (_queryHash.TryGetValue(queryNameFull, out var queryHash))
+            if (queryHashDict.TryGetValue(queryNameFull, out var hash))
             {
-                jobRunTaskList.AddRange(await GetJobRunTasksAsync(queryHash, jobConfigLite));
+                jobRunTaskList.AddRange(await GetJobRunTasksAsync(hash, jobConfigLite));
             }
             else
             {

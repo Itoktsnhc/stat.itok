@@ -39,7 +39,7 @@ namespace Stat.Itok.Tests
                 .AddSingleton(sp =>
                 {
                     var store = sp.GetRequiredService<RemoteConfigStore>();
-                    return store.GetWebViewDataAsync().GetAwaiter().GetResult();
+                    return store.GetNinMiscConfigAsync().GetAwaiter().GetResult();
                 })
                 .AddMediatR(typeof(NintendoPrivateHandlers))
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
@@ -89,7 +89,7 @@ namespace Stat.Itok.Tests
             var _mediator = sp.GetRequiredService<IMediator>();
             var gearsInfo = await _mediator.Send(new ReqGetGearsInfo());
             var vsDetailDistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
-            var _queryHash = sp.GetRequiredService<NinWebViewData>().ApiDictWrapper.Dict;
+            var _queryHash = sp.GetRequiredService<NinMiscConfig>().GraphQL.APIs;
             var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
             jobConfigLite.CorrectUserInfoLang();
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Newtonsoft.Json;
 using Stat.Itok.Core;
 
 namespace Stat.Itok.Tests
@@ -35,6 +36,20 @@ namespace Stat.Itok.Tests
             var groupStr = File.ReadAllText("./samples/Detail_XMatch/0_group.json");
             var detail_1 = File.ReadAllText("./samples/Detail_XMatch/1.json");
             var res = StatHelper.BuildStatInkBattleBody(detail_1, groupStr);
+        }
+
+        [TestMethod]
+        public void TestWebViewParse()
+        {
+            var str = File.ReadAllText("./samples/resp/webview.txt");
+            var res = StatHelper.ParseNinWebViewData(str);
+        }
+
+        [TestMethod]
+        public void TestRConfigParse()
+        {
+            var str = File.ReadAllText("./samples/resp/nin_misc_config.json");
+            var res = JsonConvert.DeserializeObject<NinMiscConfig>(str);
         }
     }
 }

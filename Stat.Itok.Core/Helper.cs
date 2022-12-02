@@ -54,6 +54,26 @@ namespace Stat.Itok.Core
         private static readonly Random _random = new Random();
         private static readonly Guid _splatoon3NsGuid = Guid.Parse("b3a2dbf5-2c09-4792-b78c-00b548b70aeb");
 
+        public static NinMiscConfig ParseNinWebViewData(string str)
+        {
+            var webViewData = new NinMiscConfig();
+
+            var versionMatchRes = Regex.Match(str, "=.(?<revision>[0-9a-f]{40}).*revision_info_not_set.*=.(?<version>\\d+\\.\\d+\\.\\d+)-");
+            if (versionMatchRes.Groups.Count < 3) return null;
+            var versionRange = versionMatchRes.Groups["version"];
+
+            var revisionRange = versionMatchRes.Groups["revision"];
+            var revision = str.Substring(revisionRange.Index, 8);
+            webViewData.WebViewVersion = $"{versionRange.Value}-{revision}";
+            var graphQLMatchRes = Regex.Matches(str, "params:\\{id:.(?<id>[0-9a-f]{32}).,metadata:\\{\\},name:.(?<name>[a-zA-Z0-9_]+).,");
+
+            foreach (Match match in graphQLMatchRes)
+            {
+                if (!match.Success || match.Groups.Count < 3) { continue; }
+                webViewData.GraphQL.APIs[match.Groups["name"].Value] = match.Groups["id"].Value;
+            }
+            return webViewData;
+        }
         public static string BuildRandomSizedBased64Str(int size)
         {
             var arr = new byte[size];

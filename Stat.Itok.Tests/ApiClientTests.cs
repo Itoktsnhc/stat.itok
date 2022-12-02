@@ -16,6 +16,18 @@ namespace Stat.Itok.Tests
                 .AddSingleton(_ => Options.Create(new GlobalConfig()))
                 .AddHttpClient()
                 .AddMemoryCache()
+                .AddSingleton(_ => new NinMiscConfig()
+                {
+                    NSOAppVersion = "1.2.3",
+                    WebViewVersion = "1.0",
+                    GraphQL = new NinGraphQL
+                    {
+                        APIs = new Dictionary<string, string>
+                        {
+                            { "PhotoAlbumRefetchQuery","123"}
+                        }
+                    }
+                })
                 .AddLogging();
             svc.AddHttpClient<INintendoApiForTest, NintendoApi>()
                 .ConfigurePrimaryHttpMessageHandler(x =>

@@ -1,6 +1,8 @@
 ﻿using Fizzler.Systems.HtmlAgilityPack;
 using HtmlAgilityPack;
+using Mapster;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using NeoSmart.Utils;
 using Stat.Itok.Shared;
@@ -70,14 +72,17 @@ namespace Stat.Itok.Core.ApiClients
         // ReSharper disable once InconsistentNaming
         Task<HttpResponseMessage> SendGraphQLRequestAsync(string gToken, string bulletToken, NinUserInfo user,
             string queryHash, string varName = null, string varValue = null);
+
+        Task<NinMiscConfig> GetNinMiscConfigAsync(bool unCached = false);
     }
 
     public interface INintendoApiForTest : INintendoApi
     {
-        Task<string> GetWebViewVersionAsync(Dictionary<string, string> bHeaders = null, string gToken = null);
+        Task<string> GetWebViewVersionAsync();
 
         // ReSharper disable once InconsistentNaming
         Task<string> GetNSOAppVersionAsync(bool forceRefresh = false);
+
     }
 
     public class NintendoApi : INintendoApiForTest
@@ -86,65 +91,86 @@ namespace Stat.Itok.Core.ApiClients
         private readonly IOptions<GlobalConfig> _options;
         private readonly IMemoryCache _memCache;
         private readonly IImInkApi _inkApi;
+        private readonly NinMiscConfig _defaultConfig;
+        private readonly ILogger<NintendoApi> _logger;
 
         public NintendoApi(HttpClient client,
             IOptions<GlobalConfig> options,
             IMemoryCache memCache,
-            IImInkApi inkApi
+            IImInkApi inkApi,
+            NinMiscConfig defaultWebViewData,
+            ILogger<NintendoApi> logger
         )
         {
             _client = client;
             _options = options;
             _memCache = memCache;
             _inkApi = inkApi;
+            _defaultConfig = defaultWebViewData;
+            _logger = logger;
         }
+
 
         public async Task<string> GetNSOAppVersionAsync(bool forceRefresh = false)
         {
-            var defaultVer = "2.4.0";
-            try
-            {
-
-                if (!forceRefresh && _memCache.TryGetValue<string>(nameof(GetNSOAppVersionAsync), out var verStr))
-                {
-                    return verStr;
-                }
-
-                var html = await _client.GetStringAsync(_options.Value.NSOAppStoreLink);
-                var doc = new HtmlDocument();
-                doc.LoadHtml(html);
-                var node = doc.DocumentNode.QuerySelector("p.whats-new__latest__version");
-                var str = node?.GetDirectInnerText();
-                verStr = str?.Replace("Version", "").Trim();
-                if (!string.IsNullOrEmpty(verStr))
-                {
-                    _memCache.Set(nameof(GetNSOAppVersionAsync), verStr);
-                }
-
-                return verStr;
-            }
-            catch (Exception)
-            {
-                //ignore
-            }
-            return defaultVer;
+            var miscConfig = await GetNinMiscConfigAsync();
+            return miscConfig.NSOAppVersion;
         }
 
-        public async Task<string> GetWebViewVersionAsync(Dictionary<string, string> bHeaders = null,
-            string gToken = null)
+        public async Task<NinMiscConfig> GetNinMiscConfigAsync(bool unCached = false)
         {
-            await Task.CompletedTask;
-            return "2.0.0-1b57b7ac";
-            /*
-                        throw new NotImplementedException();
-                        var jsUrl = await GetMainJsUrlPathAsync(bHeaders, gToken);
-                        return await GetWebViewVersionAsync(jsUrl, bHeaders, gToken);
-            */
+            if (!unCached && _memCache.TryGetValue<NinMiscConfig>(nameof(GetNinMiscConfigAsync), out var cachedWebViewData))
+            {
+                return cachedWebViewData;
+            }
+            var combinedNinMiscConfig = _defaultConfig.Adapt<NinMiscConfig>();
+            try
+            {
+                var liveData = new NinMiscConfig();
+                try
+                {
+                    var jsUrl = await GetMainJsUrlPathAsync();
+                    var jsContent = await GetWebViewRawContentAsync(jsUrl);
+                    liveData = StatHelper.ParseNinWebViewData(jsContent);
+
+                    var html = await _client.GetStringAsync(_options.Value.NSOAppStoreLink);
+                    var doc = new HtmlDocument();
+                    doc.LoadHtml(html);
+                    var node = doc.DocumentNode.QuerySelector("p.whats-new__latest__version");
+                    var str = node?.GetDirectInnerText();
+                    liveData.NSOAppVersion = str?.Replace("Version", "").Trim();
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"error when {nameof(GetNinMiscConfigAsync)}", ex);
+                }
+
+                if (!string.IsNullOrWhiteSpace(liveData.WebViewVersion))
+                    combinedNinMiscConfig.WebViewVersion = liveData.WebViewVersion;
+                if (!string.IsNullOrWhiteSpace(liveData.NSOAppVersion))
+                    combinedNinMiscConfig.NSOAppVersion = liveData.NSOAppVersion;
+                foreach (var (key, val) in liveData.GraphQL.APIs)
+                {
+                    combinedNinMiscConfig.GraphQL.APIs[key] = val;
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("error when fetch or combine NinMiscConfig", ex);
+            }
+            _memCache.Set(nameof(GetNinMiscConfigAsync), combinedNinMiscConfig);
+
+            return combinedNinMiscConfig;
+        }
+
+        public async Task<string> GetWebViewVersionAsync()
+        {
+            var webViewData = await GetNinMiscConfigAsync();
+            return webViewData.WebViewVersion;
         }
 
         // ReSharper disable once UnusedMember.Local
-        private async Task<string> GetWebViewVersionAsync(string jsUrl, Dictionary<string, string> bHeaders = null,
-            string gToken = null)
+        private async Task<string> GetWebViewRawContentAsync(string jsUrl)
         {
             var req = new HttpRequestMessage
             {
@@ -167,28 +193,17 @@ namespace Stat.Itok.Core.ApiClients
                 req.Headers.TryAddWithoutValidation(k, v);
             }
 
-            if (bHeaders?.Any() == true)
-            {
-                foreach (var (k, v) in bHeaders)
-                {
-                    req.Headers.TryAddWithoutValidation(k, v);
-                }
-            }
-
             var cookieList = new List<string>() { "_dht=1" };
-            if (string.IsNullOrEmpty(gToken)) cookieList.Add(gToken);
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
             var resp = await _client.SendAsync(req);
             resp.EnsureSuccessStatusCode();
             var respContent = await resp.Content.ReadAsStringAsync();
-            //var matchRes = Regex.Match(respContent, "\\\\b\\(\\?P<revision>\\[0-9a-f]\\{40\\}\\)\\\\b\\.\\*revision_info_not_set\\\\\"\\\\\\),\\.\\*\\?=\\\\\"\\(\\?P<version>\\\\d\\+\\\\\\.\\\\d\\+\\\\\\.\\\\d\\+\\)");
-            //TODO extract the real web_view_version
+
             return respContent;
         }
 
         // ReSharper disable once UnusedMember.Local
-        private async Task<string> GetMainJsUrlPathAsync(Dictionary<string, string> bHeaders = null,
-            string gToken = null)
+        public async Task<string> GetMainJsUrlPathAsync()
         {
             var req = new HttpRequestMessage
             {
@@ -213,16 +228,7 @@ namespace Stat.Itok.Core.ApiClients
                 req.Headers.TryAddWithoutValidation(k, v);
             }
 
-            if (bHeaders?.Any() == true)
-            {
-                foreach (var (k, v) in bHeaders)
-                {
-                    req.Headers.TryAddWithoutValidation(k, v);
-                }
-            }
-
             var cookieList = new List<string>() { "_dht=1" };
-            if (string.IsNullOrEmpty(gToken)) cookieList.Add(gToken);
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
             var resp = await _client.SendAsync(req);
             resp.EnsureSuccessStatusCode();
@@ -492,7 +498,7 @@ namespace Stat.Itok.Core.ApiClients
                     "User-Agent",
                     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35"
                 },
-                {"X-Web-View-Ver", await GetWebViewVersionAsync()}, //TODO REPLACE WithREAL
+                {"X-Web-View-Ver", await GetWebViewVersionAsync()},
                 {"Accept", "*/*"},
                 {"Origin", _options.Value.SplatNet3Url},
                 {"X-NACOUNTRY", "*/*"},

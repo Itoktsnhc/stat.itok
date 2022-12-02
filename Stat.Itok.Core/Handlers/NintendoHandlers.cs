@@ -10,7 +10,8 @@ public class NintendoPublicHandlers : HandlerBase,
     IRequestHandler<ReqGenAuthContext, NinAuthContext>,
     IRequestHandler<ReqDoGraphQL, string>,
     IRequestHandler<ReqReGenAuthContext, NinAuthContext>,
-    IRequestHandler<ReqPreCheck, RespPreCheck>
+    IRequestHandler<ReqPreCheck, RespPreCheck>,
+    IRequestHandler<ReqGetNinMiscConfig, NinMiscConfig>
 {
     private readonly IMediator _mediator;
     private readonly INintendoApi _api;
@@ -19,12 +20,12 @@ public class NintendoPublicHandlers : HandlerBase,
 
     public NintendoPublicHandlers(
         IMediator mediator, INintendoApi api, ILogger<NintendoPublicHandlers> logger,
-        NinWebViewData webViewData)
+        NinMiscConfig webViewData)
     {
         _mediator = mediator;
         _api = api;
         _logger = logger;
-        _queryDict = webViewData.ApiDictWrapper.Dict ?? new Dictionary<string, string>();
+        _queryDict = webViewData.GraphQL.APIs ?? new Dictionary<string, string>();
     }
 
 
@@ -138,6 +139,11 @@ public class NintendoPublicHandlers : HandlerBase,
             AuthContext = newAuthContext,
             Result = checkResp
         };
+    }
+
+    public async Task<NinMiscConfig> Handle(ReqGetNinMiscConfig request, CancellationToken cancellationToken)
+    {
+        return await _api.GetNinMiscConfigAsync();
     }
 }
 

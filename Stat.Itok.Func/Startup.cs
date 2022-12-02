@@ -32,7 +32,7 @@ namespace Stat.Itok.Func
                 .AddSingleton(sp =>
                 {
                     var store = sp.GetRequiredService<RemoteConfigStore>();
-                    return store.GetWebViewDataAsync().GetAwaiter().GetResult();
+                    return store.GetNinMiscConfigAsync().GetAwaiter().GetResult();
                 })
                 .AddLogging();
 
