@@ -419,9 +419,9 @@ public class JobRunTaskPayload : ITableEntity
 {
     public string CompressedPayload { get; set; }
     public string PartitionKey { get; set; }
-    public string RowKey  { get; set; }
-    public DateTimeOffset? Timestamp  { get; set; }
-    public ETag ETag  { get; set; }
+    public string RowKey { get; set; }
+    public DateTimeOffset? Timestamp { get; set; }
+    public ETag ETag { get; set; }
 }
 
 public class JobRunTaskLite
@@ -441,12 +441,16 @@ public class BattleTaskPayload
     public string BattleIdRawStr { get; set; }
 }
 
-public class RawBattleCacheEntity
+public class BattleTaskDebugContext
 {
     public string JobConfigId { get; set; }
+
     public string StatInkBattleId { get; set; }
     public string StatInkWebBattleId { get; set; }
     public string StatInkWebUrl { get; set; }
+    public StatInkBattleBody StatInkBattleBody { get; set; }
+    public StatInkPostBattleSuccess StatInkPostBattleSuccess { get; set; }
+
     public string BattleIdRawStr { get; set; }
     public string BattleGroupRawStr { get; set; }
     public string BattleDetailRawStr { get; set; }

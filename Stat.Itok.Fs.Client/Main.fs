@@ -304,7 +304,7 @@ let SelectBattleModel_EN model dispatch =
                 attr.``type`` Bulma.Checkbox
                 bind.``checked`` model.isRankedChecked (fun n -> dispatch (RankedChecked n))
             }
-            "Bankara(Ranked)"
+            " Bankara(Ranked)"
             
         }
         label{
@@ -313,7 +313,7 @@ let SelectBattleModel_EN model dispatch =
                 attr.``type`` Bulma.Checkbox
                 bind.``checked`` model.isTurfWarChecked (fun n -> dispatch (TurfWarChecked n))
             }
-            "Regular(Turf War, contains SplatFest)"
+            " Regular(Turf War, contains SplatFest)"
         }
         label{
             attr.``class`` ([Bulma.Checkbox; Bulma.Px2]|> String.concat " ")
@@ -321,7 +321,7 @@ let SelectBattleModel_EN model dispatch =
                 attr.``type`` Bulma.Checkbox
                 bind.``checked`` model.isXModeChecked (fun n -> dispatch (XModeChecked n))
             }
-            "XMatch"
+            " XMatch"
         }
     }
 let FillStatInkApiForm_EN model dispatch = 
@@ -547,7 +547,7 @@ let SelectBattleModel_CN model dispatch =
                 attr.``type`` Bulma.Checkbox
                 bind.``checked`` model.isRankedChecked (fun n -> dispatch (RankedChecked n))
             }
-            "真格"
+            " 真格"
             
         }
         label{
@@ -556,7 +556,7 @@ let SelectBattleModel_CN model dispatch =
                 attr.``type`` Bulma.Checkbox
                 bind.``checked`` model.isTurfWarChecked (fun n -> dispatch (TurfWarChecked n))
             }
-            "涂地(包含祭典)"
+            " 涂地(包含祭典)"
         }
         label{
             attr.``class`` ([Bulma.Checkbox; Bulma.Px2]|> String.concat " ")
@@ -564,7 +564,7 @@ let SelectBattleModel_CN model dispatch =
                 attr.``type`` Bulma.Checkbox
                 bind.``checked`` model.isXModeChecked (fun n -> dispatch (XModeChecked n))
             }
-            "X比赛"
+            " X比赛"
         }
     }
 let FillStatInkApiForm_CN model dispatch = 

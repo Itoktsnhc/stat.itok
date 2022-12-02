@@ -39,7 +39,7 @@ namespace Stat.Itok.Core
 
     public static class StatItokConstants
     {
-        public const string StatVersion = "0.1.0";
+        public const string StatVersion = "0.1.1";
         public const string JobRunTaskQueueName = "job-run-task";
     }
 

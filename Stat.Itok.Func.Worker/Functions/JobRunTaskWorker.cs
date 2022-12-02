@@ -67,7 +67,7 @@ public class JobRunTaskWorker
         try
         {
             var postResp = await RunBattleTaskAsync(task);
-            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto($"url:{postResp.Url}  ;;  id:{postResp.Id}"));
+            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto($"URL:[{postResp.Url}]  ID:[{postResp.Id}]"));
             await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.RanToCompletion));
         }
         catch (Exception e)
@@ -110,56 +110,78 @@ public class JobRunTaskWorker
 
     private async Task<StatInkPostBattleSuccess> RunBattleTaskAsync(BattleTaskPayload task)
     {
-        var gearsInfo = await GetGearsInfoAsync();
-        var jobConfig = await GetJobConfigAsync(task.JobConfigId);
-        var vsDetailDistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
-
-        var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
-        jobConfigLite.CorrectUserInfoLang();
-        
-        var detailRes = await _mediator.Send(new ReqDoGraphQL()
-        {
-            AuthContext = jobConfigLite.NinAuthContext,
-            QueryHash = _queryHash[vsDetailDistoryQueryName],
-            VarName = "vsResultId",
-            VarValue = task.BattleIdRawStr
-        });
-        var battleBody = StatHelper.BuildStatInkBattleBody(
-            detailRes,
-            task.BattleGroupRawStr,
-            jobConfigLite.NinAuthContext.UserInfo.Lang, gearsInfo);
-
-        var resp = await _mediator.Send(new ReqPostBattle
-        {
-            ApiKey = jobConfigLite.StatInkApiKey,
-            Body = battleBody
-        });
-
+        var debugContext = new BattleTaskDebugContext();
         try
         {
-            await TrySaveCacheAsync(new RawBattleCacheEntity
-            {
-                JobConfigId = task.JobConfigId,
-                StatInkBattleId = StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr),
-                BattleIdRawStr = task.BattleIdRawStr,
-                StatInkWebBattleId = resp?.Id,
-                StatInkWebUrl = resp?.Url,
-                BattleDetailRawStr = JsonConvert.SerializeObject(battleBody),
-                BattleGroupRawStr = task.BattleGroupRawStr
-            });
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, $"ERROR when {nameof(TrySaveCacheAsync)}:{task.JobConfigId}:{task.BattleIdRawStr}");
-        }
+            #region Fill Basic DebugInfo
+            debugContext.JobConfigId = task.JobConfigId;
+            debugContext.BattleIdRawStr = task.BattleIdRawStr;
+            debugContext.BattleGroupRawStr = task.BattleGroupRawStr;
+            debugContext.StatInkBattleId = StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr);
+            #endregion
 
-        return resp;
+
+            var gearsInfo = await GetGearsInfoAsync();
+            var jobConfig = await GetJobConfigAsync(task.JobConfigId);
+            var vsDetailDistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
+
+            var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
+            jobConfigLite.CorrectUserInfoLang();
+
+            var detailRes = await _mediator.Send(new ReqDoGraphQL()
+            {
+                AuthContext = jobConfigLite.NinAuthContext,
+                QueryHash = _queryHash[vsDetailDistoryQueryName],
+                VarName = "vsResultId",
+                VarValue = task.BattleIdRawStr
+            });
+
+            #region Fill Basic DebugInfo
+            debugContext.BattleDetailRawStr = detailRes;
+            #endregion
+
+            var battleBody = StatHelper.BuildStatInkBattleBody(
+                detailRes,
+                task.BattleGroupRawStr,
+                jobConfigLite.NinAuthContext.UserInfo.Lang, gearsInfo);
+
+            #region Fill Basic DebugInfo
+            debugContext.StatInkBattleBody = battleBody;
+            #endregion
+
+            var resp = await _mediator.Send(new ReqPostBattle
+            {
+                ApiKey = jobConfigLite.StatInkApiKey,
+                Body = battleBody
+            });
+
+            #region Fill Basic DebugInfo
+            debugContext.StatInkPostBattleSuccess = resp;
+            #endregion
+
+            return resp;
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+        finally
+        {
+            try
+            {
+                await SaveDebugContextAsync(debugContext);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"ERROR when {nameof(SaveDebugContextAsync)}:{task.JobConfigId}:{task.BattleIdRawStr}");
+            }
+        }
     }
 
-    private async Task TrySaveCacheAsync(RawBattleCacheEntity entity)
+    private async Task SaveDebugContextAsync(BattleTaskDebugContext entity)
     {
         var fileName = $"{entity.JobConfigId}__{entity.StatInkBattleId}.json";
-        var container = await _storage.GetBlobContainerClientAsync<RawBattleCacheEntity>();
+        var container = await _storage.GetBlobContainerClientAsync<BattleTaskDebugContext>();
         var blob = container.GetBlockBlobClient(fileName);
         using var ms = new MemoryStream(Helper.CompressBytes(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(entity))));
         ms.Seek(0, SeekOrigin.Begin);
@@ -181,15 +203,15 @@ public class JobRunTaskWorker
     }
 
     /// may used later
-    private async Task<RawBattleCacheEntity> TryReadCachedAsync(string jobConfigId, string statInkBattleId)
+    private async Task<BattleTaskDebugContext> TryReadCachedAsync(string jobConfigId, string statInkBattleId)
     {
         var fileName = $"{jobConfigId}__{statInkBattleId}.json";
-        var container = await _storage.GetBlobContainerClientAsync<RawBattleCacheEntity>();
+        var container = await _storage.GetBlobContainerClientAsync<BattleTaskDebugContext>();
         var blob = container.GetBlockBlobClient(fileName);
         using var ms = new MemoryStream();
         await blob.DownloadToAsync(ms);
         ms.Seek(0, SeekOrigin.Begin);
         var content = Encoding.UTF8.GetString(Helper.DecompressBytes(ms.ToArray()));
-        return JsonConvert.DeserializeObject<RawBattleCacheEntity>(content);
+        return JsonConvert.DeserializeObject<BattleTaskDebugContext>(content);
     }
 }
