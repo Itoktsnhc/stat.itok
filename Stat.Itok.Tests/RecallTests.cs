@@ -114,5 +114,20 @@ namespace Stat.Itok.Tests
             if (!resp.HasValue) throw new Exception("Cannot FindJobConfig");
             return resp.Value;
         }
+
+        [TestMethod]
+        public async Task TestDeleteBattleHistory()
+        {
+            var configDict = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText("./configs/settings.json"));
+            var apiKey = configDict["StatInApiKey"];
+            var statInkApi = _sp.GetRequiredService<IStatInkApi>();
+            var files = Directory.GetFiles("C:\\Users\\itok\\Downloads", "*.json");
+            foreach (var filePath in files)
+            {
+                var body = JsonConvert.DeserializeObject<BattleTaskDebugContext>(File.ReadAllText(filePath));
+                await statInkApi.DeleteBattleAsync(apiKey, body.StatInkPostBattleSuccess.Id);
+            }
+
+        }
     }
 }

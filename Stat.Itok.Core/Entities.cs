@@ -446,8 +446,6 @@ public class BattleTaskDebugContext
     public string JobConfigId { get; set; }
 
     public string StatInkBattleId { get; set; }
-    public string StatInkWebBattleId { get; set; }
-    public string StatInkWebUrl { get; set; }
     public StatInkBattleBody StatInkBattleBody { get; set; }
     public StatInkPostBattleSuccess StatInkPostBattleSuccess { get; set; }
 
