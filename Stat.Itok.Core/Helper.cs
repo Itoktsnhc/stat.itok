@@ -419,10 +419,21 @@ namespace Stat.Itok.Core
                 if (xMatchObj != null && xMatchObj.Type != JTokenType.None)
                 {
                     var lastXPower = xMatchObj["lastXPower"]?.TryWith<decimal?>();
-                    var entireXPower = xMatchObj["entireXPower"]?.TryWith<decimal?>();
-                    //TODO CHECK S3S For correct logic!!!!
-                    body.XPowerBefore = entireXPower;
-                    body.XPowerAfter = lastXPower;
+                    body.XPowerBefore = lastXPower;
+                }
+                var parentNodes = parent["historyDetails"]["nodes"] as JArray;
+                for (var i = 0; i < parentNodes.Count; i++)
+                {
+                    var child = parentNodes[i];
+                    if (child["id"].TryWith<string>() == battle["id"].TryWith<string>())
+                    {
+                        var xMatchMeasurement = parent["xMatchMeasurement"];
+                        if (i == 0 && xMatchMeasurement != null && xMatchMeasurement.Type != JTokenType.None)
+                        {
+                            var afterXPower = xMatchMeasurement["xPowerAfter"]?.TryWith<decimal?>();
+                            body.XPowerAfter = afterXPower;
+                        }
+                    }
                 }
             }
         }
