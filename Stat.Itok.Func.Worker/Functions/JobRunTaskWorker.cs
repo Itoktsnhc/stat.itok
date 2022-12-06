@@ -64,7 +64,7 @@ public class JobRunTaskWorker
         try
         {
             var postResp = await RunBattleTaskAsync(task);
-            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto($"URL:[{postResp.Url}]  ID:[{postResp.Id}]"));
+            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto($"URL:[{postResp.Url}] ID:[{postResp.Id}]"));
             await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.RanToCompletion));
         }
         catch (Exception e)

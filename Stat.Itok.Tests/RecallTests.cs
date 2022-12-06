@@ -1,4 +1,5 @@
-﻿using Azure.Storage.Blobs.Specialized;
+﻿using Azure.Storage.Blobs.Models;
+using Azure.Storage.Blobs.Specialized;
 using JobTrackerX.Client;
 using Mapster;
 using MediatR;
@@ -9,6 +10,7 @@ using Stat.Itok.Core;
 using Stat.Itok.Core.ApiClients;
 using Stat.Itok.Core.Handlers;
 using System.Net;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -73,7 +75,7 @@ namespace Stat.Itok.Tests
             var sp = scope.ServiceProvider;
             var store = sp.GetRequiredService<IStorageAccessSvc>();
             var container = await store.GetBlobContainerClientAsync<PoisonQueueMsg>();
-            var fileName = "44e4392e-6f7f-4215-af01-9bc991aa2ba5.payload";
+            var fileName = "9d65b2ab-5704-467a-8fdd-440d450d309d.payload";
             var content = container.GetBlockBlobClient(fileName);
             var resp = await content.DownloadContentAsync();
             var array = resp.Value.Content.ToArray();
@@ -126,6 +128,44 @@ namespace Stat.Itok.Tests
             {
                 var body = JsonConvert.DeserializeObject<BattleTaskDebugContext>(File.ReadAllText(filePath));
                 await statInkApi.DeleteBattleAsync(apiKey, body.StatInkPostBattleSuccess.Id);
+            }
+
+        }
+
+
+        [TestMethod]
+        public async Task ReorgDebugContexts()
+        {
+            var store = _sp.GetRequiredService<IStorageAccessSvc>();
+            var container = await store.GetBlobContainerClientAsync<BattleTaskDebugContext>();
+            var blobs = container.GetBlobsAsync();
+            await foreach (var srcBlobItem in blobs)
+            {
+                if (srcBlobItem.Name.Contains("__"))
+                {
+                    var srcBlob = container.GetBlockBlobClient(srcBlobItem.Name);
+                    var tarBlobName = srcBlob.Name.Replace("__", "/");
+                    var tarBlob = container.GetBlockBlobClient(tarBlobName);
+                    var srcBlobStream = await srcBlob.DownloadStreamingAsync();
+                   
+                    var stream = srcBlobStream.GetRawResponse().Content.ToStream();
+                    stream.Seek(0, SeekOrigin.Begin);
+                    await tarBlob.UploadAsync(stream);
+                    var properties = await tarBlob.GetPropertiesAsync();
+                    await tarBlob.SetHttpHeadersAsync(new BlobHttpHeaders
+                    {
+                        // Set the MIME ContentType every time the properties 
+                        // are updated or the field will be cleared
+                        ContentType = "application/json; charset=utf8",
+                        ContentEncoding = "br",
+
+                        // Populate remaining headers with 
+                        // the pre-existing properties
+                        CacheControl = properties.Value.CacheControl,
+                        ContentDisposition = properties.Value.ContentDisposition,
+                        ContentHash = properties.Value.ContentHash
+                    });
+                }
             }
 
         }
