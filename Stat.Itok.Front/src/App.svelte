@@ -1,41 +1,70 @@
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <script lang="ts">
-  import appLogo from './assets/icon-512.png'
-  let appName = "stat.itok"
+    import { onMount } from "svelte";
+    import LangSelect from "./libs/LangSelect.svelte";
+    import { get } from "svelte/store";
+    import Login from "./libs/Login.svelte";
+    import NavBar from "./libs/NavBar.svelte";
+    import authContext from "./libs/Login.svelte";
+    import {
+        ApiResp,
+        NinTokenCopyInfo,
+        NinAuthContext,
+        stored_nin_user,
+        stored_locale,
+    } from "./model";
+    import { addMessages, getLocaleFromNavigator, _, init } from "svelte-i18n";
+    import en from "./lang/en.json";
+    import cn from "./lang/cn.json";
+    addMessages("en-US", en);
+    addMessages("zh-CN", cn);
+    init({
+        fallbackLocale: "en-US",
+        initialLocale: get(stored_locale) || getLocaleFromNavigator(),
+    });
+    let showLoginModal = true;
+    onMount(async () => {
+        stored_nin_user.subscribe(async (context) => {
+            if (
+                context != null &&
+                context.sessionToken !== null &&
+                context.sessionToken !== undefined &&
+                context.sessionToken !== ""
+            ) {
+                showLoginModal = false;
+            } else {
+                showLoginModal = true;
+            }
+        });
+    });
+
+    let curTab = "Profile";
 </script>
 
-
 <main>
-  <nav class="navbar is-dark" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item has-text-weight-bold is-size-5" rel="noreferrer" href="https://github.com/Itoktsnhc/stat.itok" target="_blank">
-            <img style="height:40px" src={appLogo} alt="{appName}" />
-            &nbsp;
-            {appName}
-        </a>
-    </div>
-    <div class="navbar-end">
-        <div class="navbar-item">
-            <div class="buttons">
-                <a class="button is-link" rel="noreferrer"  href="https://github.com/Itoktsnhc" target="_blank">
-                    <div style="position:relative">
-                        <span class="icon"><i class="fa-brands fa-github"></i></span>
-                        <span>GitHub</span>
+    <NavBar />
+    <!--Login first with Collapse-->
+    <div class="columns is-centered is-narrow">
+        <div class="column is-half ">
+            <section class="section">
+                <div
+                    class="modal {showLoginModal ? 'is-active' : null} is-large"
+                >
+                    <div class="modal-background" />
+                    <div class="modal-content">
+                        <div class="box has-background-light">
+                            <Login />
+                        </div>
                     </div>
-                </a>
-                <a class="button is-link" rel="noreferrer"  href="https://twitter.com/Itoktsnhc" target="_blank">
-                    <div style="position:relative">
-                        <span class="icon"><i class="fa-brands fa-twitter"></i></span>
-                        <span>Twitter</span>
-                    </div>
-                </a>
-                <a class="button is-link" rel="noreferrer"  href="https://space.bilibili.com/784032" target="_blank">
-                    <div style="position:relative">
-                        <span class="icon"><i class="fa-brands fa-bilibili"></i></span>
-                        <span>Bilibili</span>
-                    </div>
-                </a>
-            </div>
+                </div>
+                <div class="tabs borders">
+                    <ul>
+                        <li class="is-active">
+                            <a href="#/">{$_("profile.tab_name")}</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
     </div>
-</nav>
 </main>

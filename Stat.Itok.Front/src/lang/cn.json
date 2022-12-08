@@ -1,0 +1,35 @@
+{
+    "login": {
+        "block_name": "作为任天堂用户登录",
+        "nintendo_login_intro": "在同一个浏览器内登录任天堂账号",
+        "click_and_get_auth_template": {
+            "seg_1": "点击 ",
+            "seg_2": " , 等待 ",
+            "seg_3": " 出现, 然后点击"
+        },
+        "new_tab_copy_template": {
+            "seg_1": "打开的标签页中,  鼠标右键点击红色的",
+            "seg_2": " 按钮. 在右键菜单中 ",
+            "select_this_one": "选择此人",
+            "copy_link": "复制链接"
+        },
+        "paste_redirection_template": {
+            "seg_1": "粘贴到",
+            "seg_2": " , 然后点击 ",
+            "seg_3": " "
+        },
+        "label_redirection_link": "重定向链接",
+        "btn_login_account": "登录账户",
+        "label_login_success": "登录成功",
+        "btn_get_auth_url": "获取认证URL",
+        "link_to_copy_redirection": "去复制重定向链接",
+        "link_to_copy_redirection_placeholder": "请粘贴重定向链接",
+        "label_login_success_id": "Id",
+        "label_login_success_nickname": "昵称",
+        "label_login_success_country": "国家 / 地区"
+    },
+    "profile": {
+        "tab_name":"配置",
+        "tab_intro":"新增 或 更新 你在 stat.itok 上的监控配置"
+    }
+}
