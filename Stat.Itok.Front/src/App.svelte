@@ -51,7 +51,7 @@
                     class="modal {showLoginModal ? 'is-active' : null} is-large"
                 >
                     <div class="modal-background" />
-                    <div class="modal-content">
+                    <div class="modal-content" style="width:auto;">
                         <div class="box has-background-light">
                             <Login />
                         </div>
