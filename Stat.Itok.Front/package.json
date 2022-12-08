@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.4",
+    "bulma-toast": "^2.4.2",
     "svelte-i18n": "^3.6.0",
     "svelte-local-storage-store": "^0.3.2"
   }

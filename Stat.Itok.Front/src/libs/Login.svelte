@@ -2,6 +2,7 @@
 <script type="ts">
     import LangSelect from "./LangSelect.svelte";
     import { _ } from "svelte-i18n";
+    import * as bulmaToast from "bulma-toast";
     import {
         ApiResp,
         NinTokenCopyInfo,
@@ -18,14 +19,28 @@
         authContext = new NinAuthContext();
         try {
             var res = await fetch("/api/nin/verify_url");
-            var resp = (await res.json()) as ApiResp<NinTokenCopyInfo>;
-            if (resp.result === true) {
-                authContext.tokenCopyInfo = resp.data;
-            } else {
-                throw "Failed to get new auth url:" + resp.msg;
+            if (!res.ok) {
+                throw new Error("Network response was not OK");
             }
-        } catch (error) {
-            console.log(error);
+            var bResp = (await res.json()) as ApiResp<NinTokenCopyInfo>;
+            if (bResp.result === true) {
+                authContext.tokenCopyInfo = bResp.data;
+            } else {
+                throw "Failed to get new auth url:" + bResp.msg;
+            }
+        } catch (e: unknown) {
+            let msg = "";
+            if (typeof e === "string") {
+                msg = e;
+            } else if (e instanceof Error) {
+                msg = e.message; // works, `e` narrowed to Error
+            }
+            bulmaToast.toast({
+                message: msg,
+                type: "is-warning",
+                dismissible: true,
+                animate: { in: "fadeIn", out: "fadeOut" },
+            });
         }
         isGettingNewAuthUrl = false;
     }
@@ -72,10 +87,9 @@
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 
-
 <div class="label level">
     {$_("login.block_name")}
-    <div  class="level-right"><LangSelect /> </div>
+    <div class="level-right"><LangSelect /></div>
 </div>
 <div class="field">
     <div class="py-1">
@@ -117,7 +131,7 @@
                 class="level-item"
                 href={authContext.tokenCopyInfo.copyRedirectionUrl}
                 rel="noreferrer"
-                target="_blank">{$_('login.link_to_copy_redirection')}</a
+                target="_blank">{$_("login.link_to_copy_redirection")}</a
             >
         {/if}
     </div>
