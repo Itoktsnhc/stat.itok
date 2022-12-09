@@ -1,9 +1,15 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-
 <script type="ts">
     import LangSelect from "./LangSelect.svelte";
+    import {_} from "svelte-i18n";
     import AppLogo from "../assets/icon-512.png";
+    import { stored_nin_user } from "../model";
     let AppName = "stat.itok";
+
+    function clearLoginInfo()
+    {
+        stored_nin_user.set(null);
+    }
 </script>
 
 <nav class="navbar is-dark" aria-label="main navigation">
@@ -20,49 +26,10 @@
         </a>
     </div>
     <div class="navbar-end">
-        <div class="navbar-item">
-            <LangSelect />
-            <!-- <div class="buttons">
-                <a
-                    class="button is-link"
-                    rel="noreferrer"
-                    href="https://github.com/Itoktsnhc"
-                    target="_blank"
-                >
-                    <div style="position:relative">
-                        <span class="icon"
-                            ><i class="fa-brands fa-github" /></span
-                        >
-                        <span>GitHub</span>
-                    </div>
-                </a>
-                <a
-                    class="button is-link"
-                    rel="noreferrer"
-                    href="https://twitter.com/Itoktsnhc"
-                    target="_blank"
-                >
-                    <div style="position:relative">
-                        <span class="icon"
-                            ><i class="fa-brands fa-twitter" /></span
-                        >
-                        <span>Twitter</span>
-                    </div>
-                </a>
-                <a
-                    class="button is-link"
-                    rel="noreferrer"
-                    href="https://space.bilibili.com/784032"
-                    target="_blank"
-                >
-                    <div style="position:relative">
-                        <span class="icon"
-                            ><i class="fa-brands fa-bilibili" /></span
-                        >
-                        <span>Bilibili</span>
-                    </div>
-                </a>
-            </div> -->
+        <div class="navbar-item level level-right">
+            <div class="level-item"><LangSelect /></div>
+            <div class="button level-item is-small is-link" on:click={clearLoginInfo}>{$_('btn_logout')}</div>
         </div>
     </div>
+    
 </nav>

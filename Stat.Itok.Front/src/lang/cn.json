@@ -48,5 +48,6 @@
         "context_not_ok": "请先登录",
         "upsert_success": "创建/更新 成功！",
         "upsert_error": "创建/更新 失败！"
-    }
+    },
+    "btn_logout":"登出"
 }

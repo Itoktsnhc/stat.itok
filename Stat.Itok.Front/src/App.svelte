@@ -13,10 +13,12 @@
         stored_nin_user,
         stored_locale,
     } from "./model";
+    let nickname = "";
     import { addMessages, getLocaleFromNavigator, _, init } from "svelte-i18n";
     import en from "./lang/en.json";
     import cn from "./lang/cn.json";
     import Profile from "./libs/Profile.svelte";
+    import Footer from "./libs/Footer.svelte";
     addMessages("en-US", en);
     addMessages("zh-CN", cn);
     init({
@@ -33,6 +35,7 @@
                 context.sessionToken !== ""
             ) {
                 showLoginModal = false;
+                nickname = context.userInfo.nickname;
             } else {
                 showLoginModal = true;
             }
@@ -61,7 +64,7 @@
                 <div class="tabs borders">
                     <ul>
                         <li class="is-active">
-                            <a href="#/">{$_("profile.tab_name")}</a>
+                            <a href="#/">{$_("profile.tab_name")}[{nickname}]</a>
                         </li>
                     </ul>
                 </div>
@@ -69,4 +72,5 @@
             </section>
         </div>
     </div>
+    <Footer />
 </main>

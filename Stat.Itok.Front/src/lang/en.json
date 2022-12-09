@@ -51,5 +51,6 @@
         "context_not_ok": "Please login first",
         "upsert_success": "Create/Update success !",
         "upsert_error": "Create/Update error !"
-    }
+    },
+    "btn_logout":"Logout"
 }
