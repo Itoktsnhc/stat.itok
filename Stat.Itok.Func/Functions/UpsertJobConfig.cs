@@ -71,7 +71,7 @@ public class JobConfigLiteValidator : AbstractValidator<JobConfigLite>
 
         RuleFor(config => config.NinAuthContext.SessionToken).NotEmpty();
 
-        RuleFor(config => config.EnabledQueries).NotEmpty();
+        RuleFor(config => config.EnabledQueries).NotNull();
 
         RuleFor(config => config.StatInkApiKey).NotEmpty();
     }

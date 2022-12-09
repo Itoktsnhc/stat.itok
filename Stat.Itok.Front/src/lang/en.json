@@ -29,10 +29,27 @@
         "link_to_copy_redirection_placeholder": "Paste your Redirection Link",
         "label_login_success_id": "Id",
         "label_login_success_nickname": "Nickname",
-        "label_login_success_country": "Country/Area"
+        "label_login_success_country": "Country/Area",
+        "login_success_message": "Login success, closing in 2 seconds..."
     },
     "profile": {
-        "tab_name":"Profile",
-        "tab_intro":"Add, update or delete your stat.itok monitor profile"
+        "tab_name": "Profile",
+        "tab_intro": "Create or update your stat.itok monitor profile",
+        "lang_override": "Choose the language for in-game medals, nameplate etc.",
+        "mode_select": "Select battle modes",
+        "mode_none_warning": "None of these selected will disable monitor!!!",
+        "mode_label_turf_war": "Turf War, SplatFest",
+        "mode_label_ranked": "Bankara(Ranked)",
+        "mode_label_x_match" : "XMatch",
+        "label_stat_ink_api" : "stat.ink's API key",
+        "link_stat_ink_api" : "To Copy stat.ink's API key",
+        "placeholder_stat_ink_api" : "Paste your stat.ink's API key",
+        "btn_update":"Create/Update"
+    },
+    "error_info":{
+        "form_not_ok": "Please fill in all fields",
+        "context_not_ok": "Please login first",
+        "upsert_success": "Create/Update success !",
+        "upsert_error": "Create/Update error !"
     }
 }

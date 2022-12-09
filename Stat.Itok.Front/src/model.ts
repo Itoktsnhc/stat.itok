@@ -34,5 +34,12 @@ export class NinAuthContext {
   AccessTokenInfo: NinAccessTokenInfo = new NinAccessTokenInfo();
 }
 
+export class JobConfigLite {
+  ninAuthContext: NinAuthContext = new NinAuthContext();
+  enabledQueries: string[] = [];
+  forceUserLang:string;
+  statInkApiKey:string;
+}
+
 export const stored_nin_user = writable("nin_user", new NinAuthContext());
 export const stored_locale = writable("user_locale", "");

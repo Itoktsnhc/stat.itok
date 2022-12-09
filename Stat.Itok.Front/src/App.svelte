@@ -16,6 +16,7 @@
     import { addMessages, getLocaleFromNavigator, _, init } from "svelte-i18n";
     import en from "./lang/en.json";
     import cn from "./lang/cn.json";
+    import Profile from "./libs/Profile.svelte";
     addMessages("en-US", en);
     addMessages("zh-CN", cn);
     init({
@@ -64,6 +65,7 @@
                         </li>
                     </ul>
                 </div>
+                <Profile />
             </section>
         </div>
     </div>

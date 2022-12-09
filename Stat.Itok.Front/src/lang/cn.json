@@ -30,6 +30,23 @@
     },
     "profile": {
         "tab_name":"配置",
-        "tab_intro":"新增 或 更新 你在 stat.itok 上的监控配置"
+        "tab_intro":"创建 或 更新 你在 stat.itok 上的监控配置",
+        "lang_override": "选择游戏中铭牌、奖牌等的描述语言",
+        "mode_select": "选择需要监控的对战类型",
+        "mode_none_warning": "不选择模式将禁用监控!!!",
+        "mode_label_turf_war": "涂地(包含祭典)",
+        "mode_label_ranked": "真格",
+        "mode_label_x_match" : "X比赛",
+        "label_stat_ink_api" : "stat.ink的API密钥",
+        "link_stat_ink_api" : "去复制stat.ink的API密钥",
+        "placeholder_stat_ink_api" : "填入你的stat.ink的API密钥",
+        "btn_update":"创建/更新"
+        
+    },
+    "error_info":{
+        "form_not_ok": "请填入所有字段",
+        "context_not_ok": "请先登录",
+        "upsert_success": "创建/更新 成功！",
+        "upsert_error": "创建/更新 失败！"
     }
 }

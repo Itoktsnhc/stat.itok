@@ -2,7 +2,7 @@
 <script type="ts">
     import LangSelect from "./LangSelect.svelte";
     import { _ } from "svelte-i18n";
-    import * as bulmaToast from "bulma-toast";
+    import * as messenger from "bulma-toast";
     import {
         ApiResp,
         NinTokenCopyInfo,
@@ -11,7 +11,6 @@
     } from "../model";
     export let isGettingNewAuthUrl = false;
     export let isAuthingNinAccount = false;
-
     export let redirectUrl = "";
     export let authContext = new NinAuthContext();
     async function getNewAuthUrl() {
@@ -20,13 +19,13 @@
         try {
             var res = await fetch("/api/nin/verify_url");
             if (!res.ok) {
-                throw new Error("Network response was not OK");
+                throw new Error("Response is not OK: " + res.statusText);
             }
             var bResp = (await res.json()) as ApiResp<NinTokenCopyInfo>;
             if (bResp.result === true) {
                 authContext.tokenCopyInfo = bResp.data;
             } else {
-                throw "Failed to get new auth url:" + bResp.msg;
+                throw "getNewAuthUrl:" + bResp.msg;
             }
         } catch (e: unknown) {
             let msg = "";
@@ -35,11 +34,10 @@
             } else if (e instanceof Error) {
                 msg = e.message; // works, `e` narrowed to Error
             }
-            bulmaToast.toast({
+            messenger.toast({
                 message: msg,
                 type: "is-warning",
-                dismissible: true,
-                animate: { in: "fadeIn", out: "fadeOut" },
+                position: "bottom-center",
             });
         }
         isGettingNewAuthUrl = false;
@@ -70,16 +68,34 @@
                 },
                 body: JSON.stringify(authContext.tokenCopyInfo),
             });
+            if (!res.ok) {
+                throw new Error("Response is not OK: " + res.statusText);
+            }
             var resp = (await res.json()) as ApiResp<NinAuthContext>;
             if (resp.result === true) {
                 authContext = resp.data;
+                messenger.toast({
+                    message: $_("login.login_success_message"),
+                    type: "is-success",
+                    position: "bottom-center",
+                });
                 await new Promise((resolve) => setTimeout(resolve, 2000));
                 stored_nin_user.set(authContext);
             } else {
-                throw "Failed to get new auth url:" + resp.msg;
+                throw "loginNinAccount:" + resp.msg;
             }
-        } catch (error) {
-            console.log(error);
+        } catch (e: unknown) {
+            let msg = "";
+            if (typeof e === "string") {
+                msg = e;
+            } else if (e instanceof Error) {
+                msg = e.message;
+            }
+            messenger.toast({
+                message: msg,
+                type: "is-warning",
+                position: "bottom-center",
+            });
         }
         isAuthingNinAccount = false;
     }

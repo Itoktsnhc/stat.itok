@@ -3,7 +3,6 @@
     import { stored_locale } from "../model";
 
     function update_stored_locale() {
-        console.log($locale);
         stored_locale.set($locale);
     }
 </script>
