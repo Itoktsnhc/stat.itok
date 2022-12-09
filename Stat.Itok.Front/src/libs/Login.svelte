@@ -78,8 +78,10 @@
                     message: $_("login.login_success_message"),
                     type: "is-success",
                     position: "bottom-center",
+                    duration: 5000,
                 });
-                await new Promise((resolve) => setTimeout(resolve, 2000));
+                isAuthingNinAccount = false;
+                await new Promise((resolve) => setTimeout(resolve, 5000));
                 stored_nin_user.set(authContext);
             } else {
                 throw "loginNinAccount:" + resp.msg;
@@ -95,6 +97,7 @@
                 message: msg,
                 type: "is-warning",
                 position: "bottom-center",
+                duration: 5000,
             });
         }
         isAuthingNinAccount = false;
