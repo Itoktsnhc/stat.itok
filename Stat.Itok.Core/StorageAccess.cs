@@ -2,7 +2,6 @@
 using Azure.Storage.Blobs;
 using Azure.Storage.Queues;
 using Microsoft.Extensions.Options;
-using System.Text.RegularExpressions;
 
 namespace Stat.Itok.Core
 {
@@ -25,7 +24,7 @@ namespace Stat.Itok.Core
 
         public async Task<TableClient> GetTableClientAsync(string tableName)
         {
-            var serviceClient = new TableServiceClient(_options.Value.StorageAccountConnStr);
+            var serviceClient = new TableServiceClient(_options.Value.CosmosTableConnStr);
             var tableClient = serviceClient.GetTableClient(tableName);
             await tableClient.CreateIfNotExistsAsync();
             return tableClient;
@@ -52,7 +51,7 @@ namespace Stat.Itok.Core
         public async Task<TableClient> GetTableClientAsync<T>()
         {
             var tableName = $"{typeof(T).Name}";
-            var serviceClient = new TableServiceClient(_options.Value.StorageAccountConnStr);
+            var serviceClient = new TableServiceClient(_options.Value.CosmosTableConnStr);
             var tableClient = serviceClient.GetTableClient(tableName);
             await tableClient.CreateIfNotExistsAsync();
             return tableClient;

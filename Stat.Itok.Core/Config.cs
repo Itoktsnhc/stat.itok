@@ -5,6 +5,7 @@ namespace Stat.Itok.Core
     public class GlobalConfig
     {
         public string StorageAccountConnStr { get; set; }
+        public string CosmosTableConnStr { get; set; }
 
         public string NSOAppStoreLink { get; set; } =
             "https://apps.apple.com/us/app/nintendo-switch-online/id1234806557";
