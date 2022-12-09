@@ -5,7 +5,10 @@ namespace Stat.Itok.Core
     public class GlobalConfig
     {
         public string StorageAccountConnStr { get; set; }
-        public string CosmosTableConnStr { get; set; }
+        public string CosmosDbConnStr { get; set; }
+        public string CosmosDbPkPrefix { get; set; } = "dev";
+        public string CosmosContainerName { get; set; } = "container";
+        public string CosmosDbName { get; set; } = "store";
 
         public string NSOAppStoreLink { get; set; } =
             "https://apps.apple.com/us/app/nintendo-switch-online/id1234806557";
@@ -48,8 +51,10 @@ namespace Stat.Itok.Core
     {
         [JsonProperty("graphQL")]
         public NinGraphQL GraphQL { get; set; } = new NinGraphQL();
+
         [JsonProperty("version")]
         public string WebViewVersion { get; set; }
+
         [JsonProperty("nsoVer")]
         public string NSOAppVersion { get; set; }
     }

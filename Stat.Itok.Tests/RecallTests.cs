@@ -28,10 +28,10 @@ namespace Stat.Itok.Tests
                     StorageAccountConnStr = content["GlobalConfig__StorageAccountConnStr"]
                 }))
                 .AddHttpClient()
-                .AddSingleton<StorageAccessSvc>()
+                .AddSingleton<StorageAccessor>()
                 .AddHttpClient()
                 .AddMemoryCache()
-                .AddSingleton<IStorageAccessSvc, StorageAccessSvc>()
+                .AddSingleton<IStorageAccessor, StorageAccessor>()
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
                 .AddSingleton<IJobTrackerClient, JobTrackerClient>(x =>
                     new JobTrackerClient(x.GetRequiredService<IOptions<GlobalConfig>>().Value.JobSysBase))
@@ -66,68 +66,5 @@ namespace Stat.Itok.Tests
             _sp = svc.BuildServiceProvider();
         }
 
-        [TestMethod]
-        public async Task TestPosionMsgAsync()
-        {
-            var scope = _sp.CreateScope();
-            var sp = scope.ServiceProvider;
-            var store = sp.GetRequiredService<IStorageAccessSvc>();
-            var container = await store.GetBlobContainerClientAsync<PoisonQueueMsg>();
-            var fileName = "44e4392e-6f7f-4215-af01-9bc991aa2ba5.payload";
-            var content = container.GetBlockBlobClient(fileName);
-            var resp = await content.DownloadContentAsync();
-            var array = resp.Value.Content.ToArray();
-            var jobRunTaskLite = JsonConvert.DeserializeObject<JobRunTaskLite>(
-                Stat.Itok.Core.Helper.DecompressStr(
-                    Encoding.UTF8.GetString(
-                        Stat.Itok.Core.Helper.DecompressBytes(array))));
-
-            var payloadTable = await store.GetTableClientAsync<JobRunTaskPayload>();
-            var p = await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobRunTaskLite.Pk, jobRunTaskLite.Rk);
-            var task = JsonConvert.DeserializeObject<BattleTaskPayload>(Helper.DecompressStr(p.Value.CompressedPayload));
-            var jobConfig = await GetJobConfigAsync(store, task.JobConfigId);
-            var _mediator = sp.GetRequiredService<IMediator>();
-            var gearsInfo = await _mediator.Send(new ReqGetGearsInfo());
-            var vsDetailDistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
-            var _queryHash = sp.GetRequiredService<NinMiscConfig>().GraphQL.APIs;
-            var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
-            jobConfigLite.CorrectUserInfoLang();
-
-            var detailRes = await _mediator.Send(new ReqDoGraphQL()
-            {
-                AuthContext = jobConfigLite.NinAuthContext,
-                QueryHash = _queryHash[vsDetailDistoryQueryName],
-                VarName = "vsResultId",
-                VarValue = task.BattleIdRawStr
-            });
-            var battleBody = StatHelper.BuildStatInkBattleBody(
-            detailRes,
-                task.BattleGroupRawStr,
-                jobConfigLite.NinAuthContext.UserInfo.Lang, gearsInfo);
-
-        }
-
-        private async Task<JobConfig> GetJobConfigAsync(IStorageAccessSvc storage, string jobConfigId)
-        {
-            var jobConfigTable = await storage.GetTableClientAsync<JobConfig>();
-            var resp = await jobConfigTable.GetEntityIfExistsAsync<JobConfig>(nameof(JobConfig), jobConfigId);
-            if (!resp.HasValue) throw new Exception("Cannot FindJobConfig");
-            return resp.Value;
-        }
-
-        [TestMethod]
-        public async Task TestDeleteBattleHistory()
-        {
-            var configDict = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText("./configs/settings.json"));
-            var apiKey = configDict["StatInApiKey"];
-            var statInkApi = _sp.GetRequiredService<IStatInkApi>();
-            var files = Directory.GetFiles("C:\\Users\\itok\\Downloads", "*.json");
-            foreach (var filePath in files)
-            {
-                var body = JsonConvert.DeserializeObject<BattleTaskDebugContext>(File.ReadAllText(filePath));
-                await statInkApi.DeleteBattleAsync(apiKey, body.StatInkPostBattleSuccess.Id);
-            }
-
-        }
     }
 }

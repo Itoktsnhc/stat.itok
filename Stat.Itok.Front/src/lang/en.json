@@ -30,12 +30,12 @@
         "label_login_success_id": "Id",
         "label_login_success_nickname": "Nickname",
         "label_login_success_country": "Country/Area",
-        "login_success_message": "Login success, closing in 2 seconds..."
+        "login_success_message": "Login success, closing in 5 seconds..."
     },
     "profile": {
         "tab_name": "Profile",
         "tab_intro": "Create or update your stat.itok monitor profile",
-        "lang_override": "Choose the language for in-game medals, nameplate etc.",
+        "lang_override": "Choose the language for in-game text (medals, nameplate etc.)",
         "mode_select": "Select battle modes",
         "mode_none_warning": "None of these selected will disable monitor!!!",
         "mode_label_turf_war": "Turf War, SplatFest",
@@ -50,7 +50,7 @@
         "form_not_ok": "Please fill in all fields",
         "context_not_ok": "Please login first",
         "upsert_success": "Create/Update success !",
-        "upsert_error": "Create/Update error !"
+        "upsert_error": "Create/Update failed ! you may need logout and retry."
     },
     "btn_logout":"Logout"
 }

@@ -46,9 +46,9 @@ namespace Stat.Itok.Shared
         NeedBuildFromBegin = 3,
     }
 
-    public record JobConfigLite
+    public record JobConfig
     {
-        public string JobConfigId { get; set; }
+        public string Id { get; set; }
         public NinAuthContext NinAuthContext { get; set; } = new NinAuthContext();
         public bool Enabled { get; set; } = true;
         public DateTimeOffset? LastUpdateTime { get; set; } = DateTimeOffset.Now;

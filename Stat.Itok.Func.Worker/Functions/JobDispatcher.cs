@@ -13,6 +13,9 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Stat.Itok.Core;
 using Stat.Itok.Core.Handlers;
+using Microsoft.Azure.Cosmos;
+using Microsoft.Azure.Cosmos.Linq;
+using Microsoft.Extensions.Options;
 
 namespace Stat.Itok.Func.Worker.Functions;
 
@@ -20,19 +23,24 @@ public class JobDispatcher
 {
     private readonly IMediator _mediator;
     private readonly ILogger<JobDispatcher> _logger;
-    private readonly IStorageAccessSvc _storage;
+    private readonly IStorageAccessor _storage;
     private readonly IJobTrackerClient _jobTracker;
+    private readonly ICosmosAccessor _cosmos;
+    private readonly IOptions<GlobalConfig> _options;
 
     public JobDispatcher(
         IMediator mediator,
         ILogger<JobDispatcher> logger,
-        IStorageAccessSvc storage,
-        IJobTrackerClient jobTracker)
+        IStorageAccessor storage,
+        IJobTrackerClient jobTracker,
+        ICosmosAccessor cosmos, IOptions<GlobalConfig> options)
     {
         _mediator = mediator;
         _logger = logger;
         _storage = storage;
         _jobTracker = jobTracker;
+        _cosmos = cosmos;
+        _options = options;
     }
 
     [FunctionName("JobDispatcher")]
@@ -43,9 +51,20 @@ public class JobDispatcher
         )]
         TimerInfo timerInfo)
     {
-        var jobConfigTable = await _storage.GetTableClientAsync<JobConfig>();
-        var queryRes = jobConfigTable.QueryAsync<JobConfig>(x => x.PartitionKey == nameof(JobConfig) && x.Enabled);
-        var jobs = await queryRes.ToListAsync();
+        var pk = CosmosEntity.GetPartitionKey<JobConfig>(_options.Value.CosmosDbPkPrefix);
+        using var feed = _cosmos.GetContainer<JobConfig>()
+            .GetItemLinqQueryable<CosmosEntity<JobConfig>>()
+            .Where(x => x.PartitionKey == pk)
+            .ToFeedIterator();
+        var jobs = new List<JobConfig>();
+        while (feed.HasMoreResults)
+        {
+            var resp = await feed.ReadNextAsync();
+            foreach (var job in resp)
+            {
+                jobs.Add(job.Data);
+            }
+        }
 
         _logger.LogInformation("JobExecutor GOT {N} Records", jobs.Count);
         if (jobs.Count <= 0) return;
@@ -54,7 +73,7 @@ public class JobDispatcher
         {
             try
             {
-                await DispatchJobRunAsync(job, jobConfigTable);
+                await DispatchJobRunAsync(job);
             }
             catch (Exception ex)
             {
@@ -63,7 +82,7 @@ public class JobDispatcher
         }
     }
 
-    private async Task DispatchJobRunAsync(JobConfig jobConfig, TableClient jobConfigTable)
+    private async Task DispatchJobRunAsync(JobConfig jobConfig)
     {
         var checkRes = await _mediator.Send(new ReqPreCheck { AuthContext = jobConfig.NinAuthContext });
         if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
@@ -74,17 +93,15 @@ public class JobDispatcher
         jobConfig.NinAuthContext = checkRes.AuthContext;
         var ninMiscConfig = await _mediator.Send(new ReqGetNinMiscConfig());
         var queryHashDict = ninMiscConfig.GraphQL.APIs;
-        await jobConfigTable.UpsertEntityAsync(jobConfig);
+        await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
 
-        var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
-        jobConfigLite.CorrectUserInfoLang();
         var jobRunTaskList = new List<BattleTaskPayload>();
-        foreach (var queryName in jobConfigLite.EnabledQueries)
+        foreach (var queryName in jobConfig.EnabledQueries)
         {
             var queryNameFull = queryName.EndsWith("Query") ? queryName : queryName + "Query";
             if (queryHashDict.TryGetValue(queryNameFull, out var hash))
             {
-                jobRunTaskList.AddRange(await GetJobRunTasksAsync(hash, jobConfigLite));
+                jobRunTaskList.AddRange(await GetJobRunTasksAsync(hash, jobConfig));
             }
             else
             {
@@ -92,11 +109,11 @@ public class JobDispatcher
             }
         }
 
-        await DispatchJobRunTasksAsync(jobConfigLite, jobRunTaskList);
+        await DispatchJobRunTasksAsync(jobConfig, jobRunTaskList);
     }
 
     private async Task<IList<BattleTaskPayload>> GetJobRunTasksAsync(
-        string queryHash, JobConfigLite jobConfig)
+        string queryHash, JobConfig jobConfig)
     {
         var groupRes = await _mediator.Send(new ReqDoGraphQL
         {
@@ -108,46 +125,33 @@ public class JobDispatcher
             {
                 BattleGroupRawStr = x.RawBattleGroup,
                 BattleIdRawStr = y,
-                JobConfigId = jobConfig.JobConfigId
+                JobConfigId = jobConfig.Id
             })).ToList();
         return jobRunTaskList;
     }
 
-    private async Task SetJobRunTaskPayloadAsync<T>(string pk, string rk, T payloadObj)
+    private async Task DispatchJobRunTasksAsync(JobConfig jobConfig, IList<BattleTaskPayload> tasks)
     {
-        var payloadTable = await _storage.GetTableClientAsync<JobRunTaskPayload>();
-        await payloadTable.UpsertEntityAsync(new JobRunTaskPayload()
-        {
-            CompressedPayload = Helper.CompressStr(JsonConvert.SerializeObject(payloadObj)),
-            PartitionKey = pk,
-            RowKey = rk
-        });
-    }
-
-    private async Task DispatchJobRunTasksAsync(JobConfigLite jobConfigLite, IList<BattleTaskPayload> tasks)
-    {
-        tasks = await ExcludeExistBattlesAsync(jobConfigLite, tasks);
+        tasks = await ExcludeExistBattlesAsync(jobConfig, tasks);
         if (!tasks.Any())
         {
             _logger.LogInformation("No new battle Find");
             return;
         }
 
-        var runTable = await _storage.GetTableClientAsync<JobRun>();
+        var jobRunContainer = _cosmos.GetContainer<JobRun>();
 
-        var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfigLite.NinAuthContext.UserInfo.Nickname}]")
+        var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
         {
-            Tags = new List<string> { "stat.itok", runTable.AccountName }
+            Tags = new List<string> { "stat.itok", jobRunContainer.Database.Id }
         };
         var tJob = await _jobTracker.CreateNewJobAsync(newJobDto);
         var jobRun = new JobRun
         {
             TrackedId = tJob.JobId,
-            JobConfigId = jobConfigLite.JobConfigId,
-            PartitionKey = jobConfigLite.JobConfigId,
-            RowKey = (long.MaxValue - tJob.JobId).ToString()
+            JobConfigId = jobConfig.Id,
         };
-        await runTable.UpsertEntityAsync(jobRun);
+        await _cosmos.UpsertEntityInStoreAsync($"{jobRun.JobConfigId}__{jobRun.TrackedId}", jobRun);
         await _jobTracker.UpdateJobStatesAsync(tJob.JobId,
             new UpdateJobStateDto(JobState.Running, "JobRun Saved"));
 
@@ -155,14 +159,15 @@ public class JobDispatcher
         {
             foreach (var battleTask in tasks)
             {
-                battleTask.JobConfigId = jobConfigLite.JobConfigId;
+                battleTask.JobConfigId = jobConfig.Id;
                 battleTask.JobRunTrackedId = battleTask.JobRunTrackedId;
 
-                var addJobDto = new AddJobDto($"[{nameof(BattleTaskPayload)}] for [{jobConfigLite.NinAuthContext.UserInfo.Nickname}]",
+                var addJobDto = new AddJobDto(
+                    $"[{nameof(BattleTaskPayload)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]",
                     jobRun.TrackedId)
                 {
                     Options = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr),
-                    Tags = new List<string> { "stat.itok", runTable.AccountName }
+                    Tags = new List<string> { "stat.itok", jobRunContainer.Database.Id }
                 };
                 var tJobRunTask =
                     await _jobTracker.CreateNewJobAsync(addJobDto);
@@ -171,14 +176,15 @@ public class JobDispatcher
                 {
                     var queueClient = await _storage.GeJobRunTaskQueueClientAsync();
                     var jobRunTaskLite = battleTask.Adapt<JobRunTaskLite>();
-                    jobRunTaskLite.Pk = battleTask.JobConfigId;
-                    jobRunTaskLite.Rk = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr);
+                    jobRunTaskLite.PayloadId = $"{jobConfig.Id}__{StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)}";
+
                     var resp = await queueClient
                         .SendMessageAsync(
                             Helper.CompressStr(JsonConvert.SerializeObject(jobRunTaskLite)), TimeSpan.FromSeconds(30));
                     await _jobTracker.UpdateJobStatesAsync(battleTask.TrackedId,
                         new UpdateJobStateDto(JobState.WaitingToRun, $"queue message Id:{resp.Value.MessageId}"));
-                    await SetJobRunTaskPayloadAsync(jobRunTaskLite.Pk, jobRunTaskLite.Rk, battleTask);
+
+                    await _cosmos.UpsertEntityInStoreAsync(jobRunTaskLite.PayloadId, battleTask);
                 }
                 catch (Exception ex)
                 {
@@ -196,27 +202,46 @@ public class JobDispatcher
             new UpdateJobStateDto(JobState.WaitingForChildrenToComplete));
     }
 
-    private async Task<IList<BattleTaskPayload>> ExcludeExistBattlesAsync(JobConfigLite jobConfigLite,
+    private async Task<IList<BattleTaskPayload>> ExcludeExistBattlesAsync(JobConfig jobConfig,
         IList<BattleTaskPayload> tasks)
     {
         var res = new ConcurrentBag<BattleTaskPayload>();
         if (!tasks.Any()) return res.ToList();
-        var payloadTable = await _storage.GetTableClientAsync<JobRunTaskPayload>();
+        var container = _cosmos.GetContainer<BattleTaskPayload>();
         var checkTasks = tasks.Select(async task =>
         {
-            var existBattleId =
-                await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfigLite.JobConfigId,
-                    StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
-            if (existBattleId.HasValue)
+            var targetBattleId =
+                Helper.BuildCosmosRealId<BattleTaskPayload>(
+                    $"{jobConfig.Id}__{StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr)}");
+
+            var query = new QueryDefinition(
+                query: "SELECT * FROM store AS s WHERE s.id = @targetBattleId"
+            ).WithParameter("@targetBattleId", targetBattleId);
+            using var filteredFeed = container.GetItemQueryIterator<PureIdDto>(
+                queryDefinition: query
+            );
+
+            while (filteredFeed.HasMoreResults)
             {
-                _logger.LogInformation("{jobConfigId}: ignoring exist battle {battleId} ",
-                    jobConfigLite.JobConfigId, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
-                return;
+                FeedResponse<PureIdDto> response = await filteredFeed.ReadNextAsync();
+
+                // Iterate query results
+                foreach (var _ in response)
+                {
+                    _logger.LogInformation("{jobConfigId}: ignoring exist battle {battleId} ",
+                        jobConfig.Id, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
+                    return;
+                }
             }
 
             res.Add(task);
         });
         await Task.WhenAll(checkTasks);
         return res.ToList();
+    }
+
+    private class PureIdDto
+    {
+        public string Id { get; set; }
     }
 }

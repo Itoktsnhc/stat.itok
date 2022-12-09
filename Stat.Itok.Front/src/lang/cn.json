@@ -26,7 +26,9 @@
         "link_to_copy_redirection_placeholder": "请粘贴重定向链接",
         "label_login_success_id": "Id",
         "label_login_success_nickname": "昵称",
-        "label_login_success_country": "国家 / 地区"
+        "label_login_success_country": "国家 / 地区",
+        "login_success_message": "登录成功，5秒后继续..."
+
     },
     "profile": {
         "tab_name":"配置",
@@ -47,7 +49,7 @@
         "form_not_ok": "请填入所有字段",
         "context_not_ok": "请先登录",
         "upsert_success": "创建/更新 成功！",
-        "upsert_error": "创建/更新 失败！"
+        "upsert_error": "创建/更新 失败！请登出账号后重试"
     },
     "btn_logout":"登出"
 }

@@ -1,6 +1,5 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <script type="ts">
-    import LangSelect from "./LangSelect.svelte";
     import {_} from "svelte-i18n";
     import AppLogo from "../assets/icon-512.png";
     import { stored_nin_user } from "../model";
@@ -27,7 +26,6 @@
     </div>
     <div class="navbar-end">
         <div class="navbar-item level level-right">
-            <div class="level-item"><LangSelect /></div>
             <div class="button level-item is-small is-link" on:click={clearLoginInfo}>{$_('btn_logout')}</div>
         </div>
     </div>

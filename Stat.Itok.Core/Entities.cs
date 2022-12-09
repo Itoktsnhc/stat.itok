@@ -350,87 +350,22 @@ public class StatInkPostBattleSuccess
     public string Url { get; set; }
 }
 
-public record JobConfig : JobConfigLite, ITableEntity
-{
-    [IgnoreDataMember]
-    public new NinAuthContext NinAuthContext
-    {
-        get
-        {
-            return
-                string.IsNullOrEmpty(NinAuthContextStr)
-                    ? null
-                    : JsonConvert.DeserializeObject<NinAuthContext>(Helper.DecompressStr(NinAuthContextStr));
-        }
-        set { NinAuthContextStr = Helper.CompressStr(JsonConvert.SerializeObject(value)); }
-    }
-
-    public string NinAuthContextStr { get; set; }
-
-    [IgnoreDataMember]
-    public new List<string> EnabledQueries
-    {
-        get
-        {
-            return
-                string.IsNullOrEmpty(EnabledQueriesStr)
-                    ? new List<string>()
-                    : JsonConvert.DeserializeObject<List<string>>(Helper.DecompressStr(EnabledQueriesStr));
-        }
-        set { EnabledQueriesStr = Helper.CompressStr(JsonConvert.SerializeObject(value)); }
-    }
-
-    public string EnabledQueriesStr { get; set; }
-
-    /// <summary>
-    /// nameof(JobConfig)
-    /// </summary>
-    public string PartitionKey { get; set; }
-
-    /// <summary>
-    /// $"nin_user_{this.NinAuthContext.UserInfo.Id}";
-    /// </summary>
-    public string RowKey { get; set; }
-
-    public DateTimeOffset? Timestamp { get; set; } = DateTimeOffset.Now;
-    public ETag ETag { get; set; }
-}
-
-public record JobRun : ITableEntity
+public record JobRun
 {
     public long TrackedId { get; set; }
     public string JobConfigId { get; set; }
-
-    /// <summary>
-    /// JobConfigId
-    /// </summary>
-    public string PartitionKey { get; set; }
-
-    /// <summary>
-    /// invertedTimeKey
-    /// </summary>
-    public string RowKey { get; set; }
-
-    public DateTimeOffset? Timestamp { get; set; } = DateTimeOffset.Now;
-    public ETag ETag { get; set; }
 }
 
-public class JobRunTaskPayload : ITableEntity
+public class JobRunTaskPayload
 {
     public string CompressedPayload { get; set; }
-    public string PartitionKey { get; set; }
-    public string RowKey { get; set; }
-    public DateTimeOffset? Timestamp { get; set; }
-    public ETag ETag { get; set; }
 }
 
 public class JobRunTaskLite
 {
     public long TrackedId { get; set; }
-    public string Pk { get; set; }
-    public string Rk { get; set; }
+    public string PayloadId { get; set; }
 }
-
 
 public class BattleTaskPayload
 {
@@ -454,4 +389,6 @@ public class BattleTaskDebugContext
     public string BattleDetailRawStr { get; set; }
 }
 
-public class PoisonQueueMsg { }
+public class PoisonQueueMsg
+{
+}

@@ -33,9 +33,10 @@
         try {
             if (!isFormOk("", "")) {
                 messenger.toast({
-                    message: $_("profile.form_not_ok") as string,
+                    message: $_("error_info.form_not_ok") as string,
                     type: "is-warning",
-                    position: "bottom-center"
+                    position: "bottom-center",
+                    duration: 5000,
                 });
                 return;
             }
@@ -51,7 +52,8 @@
                 messenger.toast({
                     message: $_("error_info.context_not_ok") as string,
                     type: "is-warning",
-                    position: "bottom-center"
+                    position: "bottom-center",
+                    duration: 5000,
                 });
                 stored_nin_user.set(null);
                 return;
@@ -74,7 +76,9 @@
                 body: JSON.stringify(jobConfig),
             });
             if (!res.ok) {
-                throw new Error("Response is not OK: " + res.statusText);
+                throw new Error(
+                    $_("error_info.upsert_error") + "||" + res.statusText
+                );
             }
             var resp = (await res.json()) as ApiResp<NinAuthContext>;
             if (resp.result === true) {
@@ -82,6 +86,7 @@
                     message: $_("error_info.upsert_success"),
                     type: "is-success",
                     position: "bottom-center",
+                    duration: 5000,
                 });
             } else {
                 throw $_("error_info.upsert_error") + resp.msg;
@@ -97,6 +102,7 @@
                 message: msg,
                 type: "is-warning",
                 position: "bottom-center",
+                duration: 5000,
             });
         } finally {
             isSubmittingJobConfig = false;
@@ -111,7 +117,7 @@
     <div class="field">
         <div class="level level-left has-text-weight-medium">
             <div class="py-1 ">
-                1. {$_("profile.lang_override")}: &nbsp; &nbsp;&nbsp;&nbsp;
+                1. {$_("profile.lang_override")}: &nbsp; &nbsp;
             </div>
             <div class=" field select is-small">
                 <select bind:value={forcedUserLang}>
@@ -143,25 +149,18 @@
                     {$_("profile.mode_label_x_match")}</label
                 >
             </div>
-            <div class="py-1 is-size-7 has-background-warning" hidden={isTurfWarSelected||isRankBattleSelected||isXMatchSelected||null}>
+            <div
+                class="py-1 is-size-7 has-background-warning"
+                hidden={isTurfWarSelected ||
+                    isRankBattleSelected ||
+                    isXMatchSelected ||
+                    null}
+            >
                 {$_("profile.mode_none_warning")} &nbsp;
             </div>
         </div>
-
-
-        <div class="level-left">
-            <div class=" py-1 level-item has-text-weight-medium">
-                3. {$_("profile.label_stat_ink_api")}
-            </div>
-            <br />
-            <br />
-            <a
-                class="is-link level-item is-size-7"
-                target="_blank"
-                rel="noreferrer"
-                href="https://stat.ink/profile"
-                >{$_("profile.link_stat_ink_api")}</a
-            >
+        <div class=" py-1 level-left has-text-weight-medium">
+            3. {$_("profile.label_stat_ink_api")}:
         </div>
         <input
             class="input"
@@ -169,6 +168,15 @@
             bind:value={statInkApiKey}
             placeholder={$_("profile.placeholder_stat_ink_api")}
         />
+        <br>
+
+        <a
+        class="is-link  level-left is-size-7"
+        target="_blank"
+        rel="noreferrer"
+        href="https://stat.ink/profile"
+        >{$_("profile.link_stat_ink_api")}</a
+    >
         <hr />
         <div class="level">
             <div class="level-left">

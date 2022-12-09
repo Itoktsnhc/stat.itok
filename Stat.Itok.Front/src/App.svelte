@@ -19,6 +19,7 @@
     import cn from "./lang/cn.json";
     import Profile from "./libs/Profile.svelte";
     import Footer from "./libs/Footer.svelte";
+    let unique = {};
     addMessages("en-US", en);
     addMessages("zh-CN", cn);
     init({
@@ -38,6 +39,7 @@
                 nickname = context.userInfo.nickname;
             } else {
                 showLoginModal = true;
+                unique = {};
             }
         });
     });
@@ -48,23 +50,28 @@
 <main>
     <NavBar />
     <!--Login first with Collapse-->
-    <div class="columns is-centered is-narrow">
+    <div class="columns is-centered is-narrow" >
         <div class="column is-half ">
             <section class="section">
-                <div
-                    class="modal {showLoginModal ? 'is-active' : null} is-large"
-                >
-                    <div class="modal-background" />
-                    <div class="modal-content" style="width:auto;">
-                        <div class="box has-background-light">
-                            <Login />
+                {#key unique}
+                    <div
+                        class="modal {showLoginModal
+                            ? 'is-active'
+                            : null} is-large"
+                    >
+                        <div class="modal-background" />
+                        <div class="modal-content" style="width:auto;">
+                            <div class="box has-background-light">
+                                <Login />
+                            </div>
                         </div>
                     </div>
-                </div>
+                {/key}
                 <div class="tabs borders">
                     <ul>
                         <li class="is-active">
-                            <a href="#/">{$_("profile.tab_name")}[{nickname}]</a>
+                            <a href="#/">{$_("profile.tab_name")}[{nickname}]</a
+                            >
                         </li>
                     </ul>
                 </div>
