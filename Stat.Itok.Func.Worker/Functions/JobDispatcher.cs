@@ -108,7 +108,7 @@ public class JobDispatcher
             {
                 BattleGroupRawStr = x.RawBattleGroup,
                 BattleIdRawStr = y,
-                JobConfigId = jobConfig.Id
+                JobConfigId = jobConfig.JobConfigId
             })).ToList();
         return jobRunTaskList;
     }
@@ -143,8 +143,8 @@ public class JobDispatcher
         var jobRun = new JobRun
         {
             TrackedId = tJob.JobId,
-            JobConfigId = jobConfigLite.Id,
-            PartitionKey = jobConfigLite.Id,
+            JobConfigId = jobConfigLite.JobConfigId,
+            PartitionKey = jobConfigLite.JobConfigId,
             RowKey = (long.MaxValue - tJob.JobId).ToString()
         };
         await runTable.UpsertEntityAsync(jobRun);
@@ -155,7 +155,7 @@ public class JobDispatcher
         {
             foreach (var battleTask in tasks)
             {
-                battleTask.JobConfigId = jobConfigLite.Id;
+                battleTask.JobConfigId = jobConfigLite.JobConfigId;
                 battleTask.JobRunTrackedId = battleTask.JobRunTrackedId;
 
                 var addJobDto = new AddJobDto($"[{nameof(BattleTaskPayload)}] for [{jobConfigLite.NinAuthContext.UserInfo.Nickname}]",
@@ -205,12 +205,12 @@ public class JobDispatcher
         var checkTasks = tasks.Select(async task =>
         {
             var existBattleId =
-                await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfigLite.Id,
+                await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(jobConfigLite.JobConfigId,
                     StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
             if (existBattleId.HasValue)
             {
                 _logger.LogInformation("{jobConfigId}: ignoring exist battle {battleId} ",
-                    jobConfigLite.Id, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
+                    jobConfigLite.JobConfigId, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
                 return;
             }
 

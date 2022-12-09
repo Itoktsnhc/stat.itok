@@ -37,11 +37,11 @@ public class UpsertJobConfig
         {
             var jobConfigLite = JsonConvert.DeserializeObject<JobConfigLite>(bodyStr);
             validator.ValidateAndThrow(jobConfigLite); 
-            jobConfigLite!.Id = $"nin_user_{jobConfigLite.NinAuthContext.UserInfo.Id}";
+            jobConfigLite!.JobConfigId = $"nin_user_{jobConfigLite.NinAuthContext.UserInfo.Id}";
 
             var jobConfig = jobConfigLite.Adapt<JobConfig>();
             jobConfig.PartitionKey = nameof(JobConfig);
-            jobConfig.RowKey = jobConfig.Id;
+            jobConfig.RowKey = jobConfig.JobConfigId;
             jobConfig.LastUpdateTime = DateTimeOffset.Now;
             var tableClient = await _storage.GetTableClientAsync<JobConfig>();
             var upsertResp = await tableClient.UpsertEntityAsync(jobConfig);

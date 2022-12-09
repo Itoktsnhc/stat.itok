@@ -48,7 +48,7 @@ namespace Stat.Itok.Shared
 
     public record JobConfigLite
     {
-        public string Id { get; set; }
+        public string JobConfigId { get; set; }
         public NinAuthContext NinAuthContext { get; set; } = new NinAuthContext();
         public bool Enabled { get; set; } = true;
         public DateTimeOffset? LastUpdateTime { get; set; } = DateTimeOffset.Now;
