@@ -26,12 +26,13 @@ namespace Stat.Itok.Func.Worker
             builder.Services.RegisterConfiguration<GlobalConfig>(nameof(GlobalConfig), ServiceLifetime.Scoped);
             builder.Services.AddHttpClient()
                 .AddMemoryCache()
-                .AddSingleton<IStorageAccessSvc, StorageAccessSvc>()
+                .AddSingleton<IStorageAccessor, StorageAccessor>()
                 .AddMediatR(typeof(NintendoPrivateHandlers))
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
                 .AddSingleton<IJobTrackerClient, JobTrackerClient>(x =>
                     new JobTrackerClient(x.GetRequiredService<IOptions<GlobalConfig>>().Value.JobSysBase))
                 .AddSingleton<RemoteConfigStore>()
+                .AddSingleton<ICosmosAccessor, CosmosDbAccessor>()
                 .AddSingleton(sp =>
                 {
                     var store = sp.GetRequiredService<RemoteConfigStore>();

@@ -14,6 +14,10 @@ namespace Stat.Itok.Core
 {
     public static class Helper
     {
+        public static string BuildCosmosRealId<TEntity>(string id)
+        {
+            return $"${typeof(TEntity).Name}__{id}";
+        }
         public static string CompressStr(string input, Encoding encoding = null)
         {
             encoding ??= Encoding.UTF8;
@@ -35,6 +39,7 @@ namespace Stat.Itok.Core
             {
                 compressStream.Write(bytes, 0, bytes.Length);
             }
+
             return outputStream.ToArray();
         }
 
@@ -46,9 +51,11 @@ namespace Stat.Itok.Core
             {
                 decompressStream.CopyTo(outputStream);
             }
+
             return outputStream.ToArray();
         }
     }
+
     public static class StatHelper
     {
         private static readonly Random _random = new Random();
@@ -58,22 +65,30 @@ namespace Stat.Itok.Core
         {
             var webViewData = new NinMiscConfig();
 
-            var versionMatchRes = Regex.Match(str, "=.(?<revision>[0-9a-f]{40}).*revision_info_not_set.*=.(?<version>\\d+\\.\\d+\\.\\d+)-");
+            var versionMatchRes = Regex.Match(str,
+                "=.(?<revision>[0-9a-f]{40}).*revision_info_not_set.*=.(?<version>\\d+\\.\\d+\\.\\d+)-");
             if (versionMatchRes.Groups.Count < 3) return null;
             var versionRange = versionMatchRes.Groups["version"];
 
             var revisionRange = versionMatchRes.Groups["revision"];
             var revision = str.Substring(revisionRange.Index, 8);
             webViewData.WebViewVersion = $"{versionRange.Value}-{revision}";
-            var graphQLMatchRes = Regex.Matches(str, "params:\\{id:.(?<id>[0-9a-f]{32}).,metadata:\\{\\},name:.(?<name>[a-zA-Z0-9_]+).,");
+            var graphQLMatchRes = Regex.Matches(str,
+                "params:\\{id:.(?<id>[0-9a-f]{32}).,metadata:\\{\\},name:.(?<name>[a-zA-Z0-9_]+).,");
 
             foreach (Match match in graphQLMatchRes)
             {
-                if (!match.Success || match.Groups.Count < 3) { continue; }
+                if (!match.Success || match.Groups.Count < 3)
+                {
+                    continue;
+                }
+
                 webViewData.GraphQL.APIs[match.Groups["name"].Value] = match.Groups["id"].Value;
             }
+
             return webViewData;
         }
+
         public static string BuildRandomSizedBased64Str(int size)
         {
             var arr = new byte[size];
@@ -81,12 +96,13 @@ namespace Stat.Itok.Core
             return UrlBase64.Encode(arr);
         }
 
-        public static void CorrectUserInfoLang(this JobConfigLite jobConfig)
+        public static void CorrectUserInfoLang(this JobConfig jobConfig)
         {
             if (string.IsNullOrEmpty(jobConfig.ForcedUserLang))
             {
                 jobConfig.ForcedUserLang = jobConfig.NinAuthContext.UserInfo.Lang;
             }
+
             jobConfig.NinAuthContext.UserInfo.Lang = jobConfig.ForcedUserLang;
         }
 
@@ -191,7 +207,7 @@ namespace Stat.Itok.Core
             dynamic persistedQuery = new ExpandoObject();
             dynamic variables = new ExpandoObject();
             if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(value))
-                ((IDictionary<string, object>)variables)[name] = value;
+                ((IDictionary<string, object>) variables)[name] = value;
             persistedQuery.sha256Hash = queryHash;
             persistedQuery.version = 1;
             extensions.persistedQuery = persistedQuery;
@@ -235,7 +251,7 @@ namespace Stat.Itok.Core
 
             //start -> end
             body.StartAt =
-                (long)(DateTimeOffset.Parse(battle["playedTime"].TryWith<string>(), CultureInfo.InvariantCulture,
+                (long) (DateTimeOffset.Parse(battle["playedTime"].TryWith<string>(), CultureInfo.InvariantCulture,
                             DateTimeStyles.AssumeUniversal)
                         - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.FromHours(0))).TotalSeconds;
             body.EndAt = body.StartAt + battle["duration"].TryWith<int?>() ?? 300;
@@ -358,7 +374,7 @@ namespace Stat.Itok.Core
                         var challenge = parent["bankaraMatchChallenge"];
                         if (challenge != null && challenge.Type != JTokenType.Null)
                         {
-                            var ranks = new[] { "c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s" };
+                            var ranks = new[] {"c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s"};
                             if (challenge["rank_up_battle"].TryWith<bool?>() == true)
                                 body.RankUpBattle = StatInkBoolean.Yes;
                             else
@@ -400,6 +416,7 @@ namespace Stat.Itok.Core
                     }
                 }
             }
+
             if (body.Lobby == StatInkLobby.XMatch)
             {
                 try
@@ -419,10 +436,22 @@ namespace Stat.Itok.Core
                 if (xMatchObj != null && xMatchObj.Type != JTokenType.None)
                 {
                     var lastXPower = xMatchObj["lastXPower"]?.TryWith<decimal?>();
-                    var entireXPower = xMatchObj["entireXPower"]?.TryWith<decimal?>();
-                    //TODO CHECK S3S For correct logic!!!!
-                    body.XPowerBefore = entireXPower;
-                    body.XPowerAfter = lastXPower;
+                    body.XPowerBefore = lastXPower;
+                }
+
+                var parentNodes = parent["historyDetails"]["nodes"] as JArray;
+                for (var i = 0; i < parentNodes.Count; i++)
+                {
+                    var child = parentNodes[i];
+                    if (child["id"].TryWith<string>() == battle["id"].TryWith<string>())
+                    {
+                        var xMatchMeasurement = parent["xMatchMeasurement"];
+                        if (i == 0 && xMatchMeasurement != null && xMatchMeasurement.Type != JTokenType.None)
+                        {
+                            var afterXPower = xMatchMeasurement["xPowerAfter"]?.TryWith<decimal?>();
+                            body.XPowerAfter = afterXPower;
+                        }
+                    }
                 }
             }
         }
@@ -682,6 +711,7 @@ namespace Stat.Itok.Core
                     return StatInkLobby.SplatFestChallenge;
                 throw new NotSupportedException($"{mode}:mode;vsModeId:{vsModeId}");
             }
+
             if (mode == "X_MATCH") return StatInkLobby.XMatch;
 
             throw new NotSupportedException($"{mode}:mode;");
@@ -764,10 +794,10 @@ namespace Stat.Itok.Core
                 Array.Copy(hash, 0, newGuid, 0, 16);
 
                 // set the four most significant bits (bits 12 through 15) of the time_hi_and_version field to the appropriate 4-bit version number from Section 4.1.3 (step 8)
-                newGuid[6] = (byte)((newGuid[6] & 0x0F) | (version << 4));
+                newGuid[6] = (byte) ((newGuid[6] & 0x0F) | (version << 4));
 
                 // set the two most significant bits (bits 6 and 7) of the clock_seq_hi_and_reserved to zero and one, respectively (step 10)
-                newGuid[8] = (byte)((newGuid[8] & 0x3F) | 0x80);
+                newGuid[8] = (byte) ((newGuid[8] & 0x3F) | 0x80);
 
                 // convert the resulting UUID to local byte order (step 13)
                 GuidUtility.SwapByteOrder(newGuid);
