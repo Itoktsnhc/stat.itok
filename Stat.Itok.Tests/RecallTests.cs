@@ -98,6 +98,16 @@ namespace Stat.Itok.Tests
                 await container.DeleteItemAsync<JobConfig>(id, new Microsoft.Azure.Cosmos.PartitionKey("prod.JobConfig"));
             }
         }
+        [TestMethod]
+        public void MyTestMethod()
+        {
+            var payloadNameList = Directory.GetFiles("D:\\_repos\\stat.itok\\Stat.Itok.Tests\\msg\\");
+            foreach (var payload in payloadNameList)
+            {
+                var content = JsonConvert.DeserializeObject<JobRunTaskLite>(Helper.DecompressStr(File.ReadAllText(payload)));
+
+            }
+        }
     }
 
     public record EncryptedJobConfig : JobConfig, ITableEntity

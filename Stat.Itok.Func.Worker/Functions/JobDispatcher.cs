@@ -143,7 +143,8 @@ public class JobDispatcher
 
         var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
         {
-            Tags = new List<string> { "stat.itok", jobRunContainer.Database.Id }
+            Tags = new List<string> { $"stat.itok", StatItokConstants.StatVersion },
+            CreatedBy = $"{jobConfig.Id}"
         };
         var tJob = await _jobTracker.CreateNewJobAsync(newJobDto);
         var jobRun = new JobRun
@@ -167,7 +168,9 @@ public class JobDispatcher
                     jobRun.TrackedId)
                 {
                     Options = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr),
-                    Tags = new List<string> { "stat.itok", jobRunContainer.Database.Id }
+                    Tags = new List<string> { "stat.itok", StatItokConstants.StatVersion },
+                    CreatedBy = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)
+
                 };
                 var tJobRunTask =
                     await _jobTracker.CreateNewJobAsync(addJobDto);
