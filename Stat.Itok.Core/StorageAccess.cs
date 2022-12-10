@@ -103,7 +103,7 @@ namespace Stat.Itok.Core
 
         public async Task<TableClient> GetTableClientAsync(string tableName)
         {
-            var serviceClient = new TableServiceClient(_options.Value.CosmosDbConnStr);
+            var serviceClient = new TableServiceClient(_options.Value.StorageAccountConnStr);
             var tableClient = serviceClient.GetTableClient(tableName);
             await tableClient.CreateIfNotExistsAsync();
             return tableClient;
@@ -130,7 +130,7 @@ namespace Stat.Itok.Core
         public async Task<TableClient> GetTableClientAsync<T>()
         {
             var tableName = $"{typeof(T).Name}";
-            var serviceClient = new TableServiceClient(_options.Value.CosmosDbConnStr);
+            var serviceClient = new TableServiceClient(_options.Value.StorageAccountConnStr);
             var tableClient = serviceClient.GetTableClient(tableName);
             await tableClient.CreateIfNotExistsAsync();
             return tableClient;
