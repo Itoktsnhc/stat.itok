@@ -4,7 +4,6 @@ using Azure.Storage.Blobs;
 using Azure.Storage.Queues;
 using Microsoft.Extensions.Options;
 using Microsoft.Azure.Cosmos;
-using Microsoft.Azure.Cosmos.Linq;
 
 namespace Stat.Itok.Core
 {
@@ -28,7 +27,7 @@ namespace Stat.Itok.Core
             {
                 Id = id,
                 Data = data,
-                PartitionKey = $"{pkPrefix}.{typeof(TData).Name}"
+                PartitionKey = GetPartitionKey<TData>(pkPrefix)
             };
         }
     }
