@@ -25,10 +25,11 @@ namespace Stat.Itok.Func
             builder.Services.RegisterConfiguration<GlobalConfig>(nameof(GlobalConfig), ServiceLifetime.Scoped);
             builder.Services.AddHttpClient()
                 .AddMemoryCache()
-                .AddSingleton<IStorageAccessSvc, StorageAccessSvc>()
+                .AddSingleton<IStorageAccessor, StorageAccessor>()
                 .AddMediatR(typeof(NintendoPrivateHandlers))
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
                 .AddSingleton<RemoteConfigStore>()
+                .AddSingleton<ICosmosAccessor,CosmosDbAccessor>()
                 .AddSingleton(sp =>
                 {
                     var store = sp.GetRequiredService<RemoteConfigStore>();
@@ -55,7 +56,7 @@ namespace Stat.Itok.Func
                         AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
                     });
 
-            builder.Services.AddScoped<IValidator<JobConfigLite>, JobConfigLiteValidator>();
+            builder.Services.AddScoped<IValidator<JobConfig>, JobConfigValidator>();
 
             //Replace ILogger<T> with the one that works fine in all scenarios
 

@@ -5,9 +5,9 @@ namespace Stat.Itok.Core
 {
     public class RemoteConfigStore
     {
-        private readonly IStorageAccessSvc _store;
+        private readonly IStorageAccessor _store;
 
-        public RemoteConfigStore(IStorageAccessSvc store)
+        public RemoteConfigStore(IStorageAccessor store)
         {
             _store = store;
         }

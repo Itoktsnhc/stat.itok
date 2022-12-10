@@ -24,22 +24,24 @@ public class JobRunTaskWorker
 {
     private readonly IMediator _mediator;
     private readonly ILogger<JobRunTaskWorker> _logger;
-    private readonly IStorageAccessSvc _storage;
+    private readonly IStorageAccessor _storage;
     private readonly IJobTrackerClient _jobTracker;
     private readonly IMemoryCache _memCache;
+    private readonly ICosmosAccessor _cosmos;
 
     public JobRunTaskWorker(
         IMediator mediator,
         ILogger<JobRunTaskWorker> logger,
-        IStorageAccessSvc storage,
+        IStorageAccessor storage,
         IJobTrackerClient jobTracker,
-        IMemoryCache memCache)
+        IMemoryCache memCache, ICosmosAccessor cosmos)
     {
         _mediator = mediator;
         _logger = logger;
         _storage = storage;
         _jobTracker = jobTracker;
         _memCache = memCache;
+        _cosmos = cosmos;
     }
 
     [FunctionName("JobWorker")]
@@ -49,13 +51,13 @@ public class JobRunTaskWorker
     {
         var msgStr = Helper.DecompressStr(queueMsg.MessageText);
         var jobRunTaskLite = JsonConvert.DeserializeObject<JobRunTaskLite>(msgStr);
-        var task = await GetJobRunTaskPayloadAsync<BattleTaskPayload>(jobRunTaskLite!.Pk, jobRunTaskLite.Rk);
+        var task = await _cosmos.GetEntityIfExistAsync<BattleTaskPayload>(jobRunTaskLite!.PayloadId);
         await _jobTracker.UpdateJobStatesAsync(jobRunTaskLite.TrackedId,
             new UpdateJobStateDto(JobState.Running,
                 $"{queueMsg.MessageId};{queueMsg.PopReceipt};[{queueMsg.DequeueCount}]"));
         if (task == null)
         {
-            var info = $"JobRunTaskPayload not found:{jobRunTaskLite.Pk}:{jobRunTaskLite.Rk}, go to next round";
+            var info = $"JobRunTaskPayload not found:{jobRunTaskLite.PayloadId}, go to next round";
             _logger.LogError(info);
             await _jobTracker.AppendToJobLogAsync(jobRunTaskLite.TrackedId, new AppendLogDto(info));
             throw new Exception(info);
@@ -64,7 +66,8 @@ public class JobRunTaskWorker
         try
         {
             var postResp = await RunBattleTaskAsync(task);
-            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto($"URL:[{postResp.Url}] ID:[{postResp.Id}]"));
+            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId,
+                new UpdateJobOptionsDto($"URL:[{postResp.Url}]  ID:[{postResp.Id}]"));
             await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.RanToCompletion));
         }
         catch (Exception e)
@@ -72,15 +75,6 @@ public class JobRunTaskWorker
             await _jobTracker.AppendToJobLogAsync(task.TrackedId, new AppendLogDto(e.Message));
             throw;
         }
-    }
-
-    private async Task<T> GetJobRunTaskPayloadAsync<T>(string pk, string rk)
-    {
-        var payloadTable = await _storage.GetTableClientAsync<JobRunTaskPayload>();
-        var resp = await payloadTable.GetEntityIfExistsAsync<JobRunTaskPayload>(pk, rk);
-        return resp.HasValue
-            ? JsonConvert.DeserializeObject<T>(Helper.DecompressStr(resp.Value.CompressedPayload))
-            : default;
     }
 
     private async Task<Dictionary<string, string>> GetGearsInfoAsync(bool unCached = false)
@@ -97,64 +91,62 @@ public class JobRunTaskWorker
         return gearsInfo;
     }
 
-    private async Task<JobConfig> GetJobConfigAsync(string jobConfigId)
-    {
-        var jobConfigTable = await _storage.GetTableClientAsync<JobConfig>();
-        var resp = await jobConfigTable.GetEntityIfExistsAsync<JobConfig>(nameof(JobConfig), jobConfigId);
-        if (!resp.HasValue) throw new Exception("Cannot FindJobConfig");
-        return resp.Value;
-    }
-
     private async Task<StatInkPostBattleSuccess> RunBattleTaskAsync(BattleTaskPayload task)
     {
         var debugContext = new BattleTaskDebugContext();
         try
         {
             #region Fill Basic DebugInfo
+
             debugContext.JobConfigId = task.JobConfigId;
             debugContext.BattleIdRawStr = task.BattleIdRawStr;
             debugContext.BattleGroupRawStr = task.BattleGroupRawStr;
             debugContext.StatInkBattleId = StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr);
+
             #endregion
 
             var ninMiscConfig = await _mediator.Send(new ReqGetNinMiscConfig());
             var queryHashDict = ninMiscConfig.GraphQL.APIs;
             var gearsInfo = await GetGearsInfoAsync();
-            var jobConfig = await GetJobConfigAsync(task.JobConfigId);
-            var vsDetailDistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
-
-            var jobConfigLite = jobConfig.Adapt<JobConfigLite>();
-            jobConfigLite.CorrectUserInfoLang();
+            var jobConfig = await _cosmos.GetEntityIfExistAsync<JobConfig>(task.JobConfigId);
+            var vsDetailHistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
+            jobConfig.CorrectUserInfoLang();
 
             var detailRes = await _mediator.Send(new ReqDoGraphQL()
             {
-                AuthContext = jobConfigLite.NinAuthContext,
-                QueryHash = queryHashDict[vsDetailDistoryQueryName],
+                AuthContext = jobConfig.NinAuthContext,
+                QueryHash = queryHashDict[vsDetailHistoryQueryName],
                 VarName = "vsResultId",
                 VarValue = task.BattleIdRawStr
             });
 
             #region Fill Basic DebugInfo
+
             debugContext.BattleDetailRawStr = detailRes;
+
             #endregion
 
             var battleBody = StatHelper.BuildStatInkBattleBody(
                 detailRes,
                 task.BattleGroupRawStr,
-                jobConfigLite.NinAuthContext.UserInfo.Lang, gearsInfo);
+                jobConfig.NinAuthContext.UserInfo.Lang, gearsInfo);
 
             #region Fill Basic DebugInfo
+
             debugContext.StatInkBattleBody = battleBody;
+
             #endregion
 
             var resp = await _mediator.Send(new ReqPostBattle
             {
-                ApiKey = jobConfigLite.StatInkApiKey,
+                ApiKey = jobConfig.StatInkApiKey,
                 Body = battleBody
             });
 
             #region Fill Basic DebugInfo
+
             debugContext.StatInkPostBattleSuccess = resp;
+
             #endregion
 
             return resp;
@@ -171,17 +163,19 @@ public class JobRunTaskWorker
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"ERROR when {nameof(SaveDebugContextAsync)}:{task.JobConfigId}:{task.BattleIdRawStr}");
+                _logger.LogError(ex,
+                    $"ERROR when {nameof(SaveDebugContextAsync)}:{task.JobConfigId}:{task.BattleIdRawStr}");
             }
         }
     }
 
     private async Task SaveDebugContextAsync(BattleTaskDebugContext entity)
     {
-        var fileName = $"{entity.JobConfigId}/{entity.StatInkBattleId}.json";
+        var fileName = $"{entity.JobConfigId}__{entity.StatInkBattleId}.json";
         var container = await _storage.GetBlobContainerClientAsync<BattleTaskDebugContext>();
         var blob = container.GetBlockBlobClient(fileName);
-        using var ms = new MemoryStream(Helper.CompressBytes(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(entity))));
+        using var ms =
+            new MemoryStream(Helper.CompressBytes(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(entity))));
         ms.Seek(0, SeekOrigin.Begin);
         await blob.UploadAsync(ms);
         var properties = await blob.GetPropertiesAsync();

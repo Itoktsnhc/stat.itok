@@ -46,7 +46,7 @@ namespace Stat.Itok.Shared
         NeedBuildFromBegin = 3,
     }
 
-    public record JobConfigLite
+    public record JobConfig
     {
         public string Id { get; set; }
         public NinAuthContext NinAuthContext { get; set; } = new NinAuthContext();

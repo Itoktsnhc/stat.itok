@@ -17,12 +17,12 @@ namespace Stat.Itok.Func.Worker.Functions;
 public class JobRunTaskPoisonWorker
 {
     private readonly ILogger<JobRunTaskPoisonWorker> _logger;
-    private readonly IStorageAccessSvc _storage;
+    private readonly IStorageAccessor _storage;
     private readonly IJobTrackerClient _jobTracker;
 
     public JobRunTaskPoisonWorker(
         ILogger<JobRunTaskPoisonWorker> logger,
-        IStorageAccessSvc storage,
+        IStorageAccessor storage,
         IJobTrackerClient jobTracker)
     {
         _logger = logger;
