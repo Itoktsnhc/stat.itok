@@ -14,9 +14,9 @@ namespace Stat.Itok.Core
 {
     public static class Helper
     {
-        public static string BuildCosmosRealId<TEntity>(string id)
+        public static string BuildCosmosRealId<TEntity>(string id, string prefix)
         {
-            return $"${typeof(TEntity).Name}__{id}";
+            return $"${prefix}.{typeof(TEntity).Name}__{id}";
         }
         public static string CompressStr(string input, Encoding encoding = null)
         {
@@ -207,7 +207,7 @@ namespace Stat.Itok.Core
             dynamic persistedQuery = new ExpandoObject();
             dynamic variables = new ExpandoObject();
             if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(value))
-                ((IDictionary<string, object>) variables)[name] = value;
+                ((IDictionary<string, object>)variables)[name] = value;
             persistedQuery.sha256Hash = queryHash;
             persistedQuery.version = 1;
             extensions.persistedQuery = persistedQuery;
@@ -251,7 +251,7 @@ namespace Stat.Itok.Core
 
             //start -> end
             body.StartAt =
-                (long) (DateTimeOffset.Parse(battle["playedTime"].TryWith<string>(), CultureInfo.InvariantCulture,
+                (long)(DateTimeOffset.Parse(battle["playedTime"].TryWith<string>(), CultureInfo.InvariantCulture,
                             DateTimeStyles.AssumeUniversal)
                         - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.FromHours(0))).TotalSeconds;
             body.EndAt = body.StartAt + battle["duration"].TryWith<int?>() ?? 300;
@@ -374,7 +374,7 @@ namespace Stat.Itok.Core
                         var challenge = parent["bankaraMatchChallenge"];
                         if (challenge != null && challenge.Type != JTokenType.Null)
                         {
-                            var ranks = new[] {"c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s"};
+                            var ranks = new[] { "c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s" };
                             if (challenge["rank_up_battle"].TryWith<bool?>() == true)
                                 body.RankUpBattle = StatInkBoolean.Yes;
                             else
@@ -794,10 +794,10 @@ namespace Stat.Itok.Core
                 Array.Copy(hash, 0, newGuid, 0, 16);
 
                 // set the four most significant bits (bits 12 through 15) of the time_hi_and_version field to the appropriate 4-bit version number from Section 4.1.3 (step 8)
-                newGuid[6] = (byte) ((newGuid[6] & 0x0F) | (version << 4));
+                newGuid[6] = (byte)((newGuid[6] & 0x0F) | (version << 4));
 
                 // set the two most significant bits (bits 6 and 7) of the clock_seq_hi_and_reserved to zero and one, respectively (step 10)
-                newGuid[8] = (byte) ((newGuid[8] & 0x3F) | 0x80);
+                newGuid[8] = (byte)((newGuid[8] & 0x3F) | 0x80);
 
                 // convert the resulting UUID to local byte order (step 13)
                 GuidUtility.SwapByteOrder(newGuid);

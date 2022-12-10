@@ -66,7 +66,7 @@ namespace Stat.Itok.Core
         {
             var cName = _options.Value.CosmosContainerName;
             var container = _client.GetContainer(_options.Value.CosmosDbName, cName);
-            return await container.UpsertItemAsync(CosmosEntity.CreateFrom(Helper.BuildCosmosRealId<TEntity>(entityId),
+            return await container.UpsertItemAsync(CosmosEntity.CreateFrom(Helper.BuildCosmosRealId<TEntity>(entityId, _options.Value.CosmosDbPkPrefix),
                 entity, _options.Value.CosmosDbPkPrefix));
         }
 
@@ -79,7 +79,7 @@ namespace Stat.Itok.Core
         public async Task<TEntity> GetEntityIfExistAsync<TEntity>(string id)
         {
             var container = _client.GetContainer(_options.Value.CosmosDbName, _options.Value.CosmosContainerName);
-            var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(Helper.BuildCosmosRealId<TEntity>(id),
+            var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(Helper.BuildCosmosRealId<TEntity>(id, _options.Value.CosmosDbPkPrefix),
                 new PartitionKey(CosmosEntity.GetPartitionKey<TEntity>(_options.Value.CosmosDbPkPrefix)));
             if (resp.StatusCode == HttpStatusCode.OK) return resp.Resource.Data;
             return default;

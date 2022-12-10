@@ -212,7 +212,7 @@ public class JobDispatcher
         {
             var targetBattleId =
                 Helper.BuildCosmosRealId<BattleTaskPayload>(
-                    $"{jobConfig.Id}__{StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr)}");
+                    $"{jobConfig.Id}__{StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr)}", _options.Value.CosmosDbPkPrefix);
 
             var query = new QueryDefinition(
                 query: "SELECT * FROM store AS s WHERE s.id = @targetBattleId"
