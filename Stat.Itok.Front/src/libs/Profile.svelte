@@ -66,7 +66,7 @@
                 jobConfig.enabledQueries.push("BankaraBattleHistories");
             if (isXMatchSelected)
                 jobConfig.enabledQueries.push("XBattleHistories");
-            jobConfig.forceUserLang = forcedUserLang;
+            jobConfig.forcedUserLang = forcedUserLang;
             jobConfig.statInkApiKey = statInkApiKey;
             var res = await fetch("/api/job_config/upsert", {
                 method: "POST",

@@ -37,7 +37,7 @@ export class NinAuthContext {
 export class JobConfigLite {
   ninAuthContext: NinAuthContext = new NinAuthContext();
   enabledQueries: string[] = [];
-  forceUserLang:string;
+  forcedUserLang:string;
   statInkApiKey:string;
 }
 
