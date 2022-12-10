@@ -55,9 +55,6 @@ public class UpsertJobConfig
             jobConfig.NinAuthContext = precheckRes.AuthContext;
             jobConfig.LastUpdateTime = DateTimeOffset.Now;
             var upsertResp = await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
-            if (upsertResp.StatusCode != HttpStatusCode.OK || upsertResp.StatusCode != HttpStatusCode.Created)
-                throw new Exception(
-                    $"upsert resp is ERROR:{upsertResp.StatusCode},{upsertResp.Diagnostics}");
             _logger.LogInformation("upsert doc:{obj} with resp:{resp}", jobConfig, upsertResp);
             req.HttpContext.Response.StatusCode = StatusCodes.Status200OK;
             return ApiResp.OkWith(jobConfig);
