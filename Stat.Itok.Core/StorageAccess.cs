@@ -80,8 +80,7 @@ namespace Stat.Itok.Core
             var container = _client.GetContainer(_options.Value.CosmosDbName, _options.Value.CosmosContainerName);
             var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(Helper.BuildCosmosRealId<TEntity>(id, _options.Value.CosmosDbPkPrefix),
                 new PartitionKey(CosmosEntity.GetPartitionKey<TEntity>(_options.Value.CosmosDbPkPrefix)));
-            if (resp.StatusCode == HttpStatusCode.OK) return resp.Resource.Data;
-            return default;
+            return resp.Resource.Data;
         }
     }
 
