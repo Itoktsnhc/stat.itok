@@ -19,14 +19,13 @@
     import cn from "./lang/cn.json";
     import Profile from "./libs/Profile.svelte";
     import Footer from "./libs/Footer.svelte";
-    let unique = {};
     addMessages("en-US", en);
     addMessages("zh-CN", cn);
     init({
         fallbackLocale: "en-US",
         initialLocale: get(stored_locale) || getLocaleFromNavigator(),
     });
-    let showLoginModal = true;
+    let needAuth = true;
     onMount(async () => {
         stored_nin_user.subscribe(async (context) => {
             if (
@@ -35,15 +34,13 @@
                 context.sessionToken !== undefined &&
                 context.sessionToken !== ""
             ) {
-                showLoginModal = false;
+                needAuth = false;
                 nickname = context.userInfo.nickname;
             } else {
-                showLoginModal = true;
-                unique = {};
+                needAuth = true;
             }
         });
     });
-
 </script>
 
 <main>
@@ -52,32 +49,26 @@
     <div class="columns is-centered is-narrow">
         <div class="column is-half ">
             <section class="section">
-                {#key unique}
-                    <div
-                        class="modal {showLoginModal
-                            ? 'is-active'
-                            : null} is-large"
-                    >
-                        <div class="modal-background" />
-                        <div class="modal-content" style="width:auto;">
-                            <div class="box has-background-light">
-                                <Login />
-                            </div>
+                <div class="modal {needAuth ? 'is-active' : null} is-large">
+                    <div class="modal-background" />
+                    <div class="modal-content" style="width:auto;">
+                        <div class="box has-background-light">
+                            <Login />
                         </div>
                     </div>
-                {/key}
-                {#key unique}
-                    <div class="tabs borders">
-                        <ul>
-                            <li class="is-active">
-                                <a href="#/"
-                                    >{$_("profile.tab_name")}[{nickname}]</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <div class="tabs borders">
+                    <ul>
+                        <li class="is-active">
+                            <a href="#/">{$_("profile.tab_name")}[{nickname}]</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <!-- <Profile /> -->
+                {#if !needAuth}
                     <Profile />
-                {/key}
+                {/if}
             </section>
         </div>
     </div>
