@@ -62,8 +62,8 @@ namespace Stat.Itok.Func.Functions
                 }
                 configInDb.NinAuthContext = preCheckRes.AuthContext;
                 await _cosmos.UpsertEntityInStoreAsync(configInDb.Id, configInDb);
+                req.HttpContext.Response.StatusCode = StatusCodes.Status200OK;
                 return ApiResp.OkWith(configInDb);
-
             }
             catch (Exception ex)
             {

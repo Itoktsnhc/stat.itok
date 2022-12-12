@@ -124,7 +124,7 @@
             });
             if (!res.ok) {
                 if (res.status === 400 || res.status === 401) {
-                    stored_nin_user.set(null);
+                    throw new Error($_('error_info.profile_validation_failed'));
                 } else if (res.status == 404) {
                     messenger.toast({
                         message: $_("error_info.no_exist_profile_found"),

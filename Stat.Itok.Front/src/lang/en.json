@@ -52,7 +52,8 @@
         "context_not_ok": "Please login first",
         "upsert_success": "Create/Update success !",
         "upsert_error": "Create/Update failed ! you may need logout and retry.",
-        "no_exist_profile_found": "No exist remote profile found, please create first"
+        "no_exist_profile_found": "No exist remote profile found, please create first",
+        "profile_validation_failed": "Profile validation failed, please logout and retry"
     },
     "btn_logout":"Logout"
 }

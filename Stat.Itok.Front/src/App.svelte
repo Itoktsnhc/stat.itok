@@ -13,6 +13,8 @@
         stored_nin_user,
         stored_locale,
     } from "./model";
+    let profileKey = Date.now();
+    let loginKey = Date.now();
     let nickname = "";
     import { addMessages, getLocaleFromNavigator, _, init } from "svelte-i18n";
     import en from "./lang/en.json";
@@ -38,9 +40,13 @@
                 nickname = context.userInfo.nickname;
             } else {
                 needAuth = true;
+                loginKey = Date.now();
             }
         });
     });
+    function refreshProfile() {
+        profileKey = Date.now();
+    }
 </script>
 
 <main>
@@ -49,25 +55,30 @@
     <div class="columns is-centered is-narrow">
         <div class="column is-half ">
             <section class="section">
-                <div class="modal {needAuth ? 'is-active' : null} is-large">
-                    <div class="modal-background" />
-                    <div class="modal-content" style="width:auto;">
-                        <div class="box has-background-light">
-                            <Login />
+                {#key loginKey}
+                    <div class="modal {needAuth ? 'is-active' : null} is-large">
+                        <div class="modal-background" />
+                        <div class="modal-content" style="width:auto;">
+                            <div class="box has-background-light">
+                                <Login />
+                            </div>
                         </div>
                     </div>
-                </div>
+                {/key}
                 <div class="tabs borders">
                     <ul>
                         <li class="is-active">
-                            <a href="#/">{$_("profile.tab_name")}[{nickname}]</a
+                            <a href="#/"
+                                >{$_("profile.tab_name")}[{nickname}]&nbsp;</a
                             >
                         </li>
                     </ul>
                 </div>
-                <!-- <Profile /> -->
+
                 {#if !needAuth}
-                    <Profile />
+                    {#key profileKey}
+                        <Profile />
+                    {/key}
                 {/if}
             </section>
         </div>
