@@ -41,7 +41,7 @@ Azure service used:
 
 ### Execution Flow
 
-![image-20221122160620624](_assets/image-20221122160620624.png)
+![Snipaste_2022-12-12_17-56-04](https://user-images.githubusercontent.com/11204672/207016519-3872ef8d-7370-43f6-8f09-8bd68c2d4d9d.png)
 
 ## Credits
 
