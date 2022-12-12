@@ -44,13 +44,12 @@
         });
     });
 
-    let curTab = "Profile";
 </script>
 
 <main>
     <NavBar />
     <!--Login first with Collapse-->
-    <div class="columns is-centered is-narrow" >
+    <div class="columns is-centered is-narrow">
         <div class="column is-half ">
             <section class="section">
                 {#key unique}
@@ -67,15 +66,18 @@
                         </div>
                     </div>
                 {/key}
-                <div class="tabs borders">
-                    <ul>
-                        <li class="is-active">
-                            <a href="#/">{$_("profile.tab_name")}[{nickname}]</a
-                            >
-                        </li>
-                    </ul>
-                </div>
-                <Profile />
+                {#key unique}
+                    <div class="tabs borders">
+                        <ul>
+                            <li class="is-active">
+                                <a href="#/"
+                                    >{$_("profile.tab_name")}[{nickname}]</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <Profile />
+                {/key}
             </section>
         </div>
     </div>

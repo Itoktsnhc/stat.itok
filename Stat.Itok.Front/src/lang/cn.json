@@ -42,14 +42,15 @@
         "label_stat_ink_api" : "stat.ink的API密钥",
         "link_stat_ink_api" : "去复制stat.ink的API密钥",
         "placeholder_stat_ink_api" : "填入你的stat.ink的API密钥",
-        "btn_update":"创建/更新"
-        
+        "btn_update":"创建/更新",
+        "loading_label":"加载远端配置中"
     },
     "error_info":{
         "form_not_ok": "请填入所有字段",
         "context_not_ok": "请先登录",
         "upsert_success": "创建/更新 成功！",
-        "upsert_error": "创建/更新 失败！请登出账号后重试"
+        "upsert_error": "创建/更新 失败！请登出账号后重试",
+        "no_exist_profile_found": "未找到远端配置，请先创建配置"
     },
     "btn_logout":"登出"
 }

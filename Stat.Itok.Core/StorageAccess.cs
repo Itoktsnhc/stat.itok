@@ -78,9 +78,17 @@ namespace Stat.Itok.Core
         public async Task<TEntity> GetEntityIfExistAsync<TEntity>(string id)
         {
             var container = _client.GetContainer(_options.Value.CosmosDbName, _options.Value.CosmosContainerName);
-            var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(Helper.BuildCosmosRealId<TEntity>(id, _options.Value.CosmosDbPkPrefix),
-                new PartitionKey(CosmosEntity.GetPartitionKey<TEntity>(_options.Value.CosmosDbPkPrefix)));
-            return resp.Resource.Data;
+            try
+            {
+                var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(Helper.BuildCosmosRealId<TEntity>(id, _options.Value.CosmosDbPkPrefix),
+              new PartitionKey(CosmosEntity.GetPartitionKey<TEntity>(_options.Value.CosmosDbPkPrefix)));
+                return resp.Resource.Data;
+            }
+            catch (Exception)
+            {
+                return default;
+            }
+
         }
     }
 

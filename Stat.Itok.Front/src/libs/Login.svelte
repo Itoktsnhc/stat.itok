@@ -37,7 +37,8 @@
             messenger.toast({
                 message: msg,
                 type: "is-warning",
-                position: "bottom-center",
+                duration: 5000,
+                position: "top-center",
             });
         }
         isGettingNewAuthUrl = false;
@@ -77,10 +78,9 @@
                 messenger.toast({
                     message: $_("login.login_success_message"),
                     type: "is-success",
-                    position: "bottom-center",
+                    position: "top-center",
                     duration: 5000,
                 });
-                isAuthingNinAccount = false;
                 await new Promise((resolve) => setTimeout(resolve, 5000));
                 stored_nin_user.set(authContext);
             } else {
@@ -96,11 +96,12 @@
             messenger.toast({
                 message: msg,
                 type: "is-warning",
-                position: "bottom-center",
                 duration: 5000,
+                position: "top-center",
             });
+        } finally {
+            isAuthingNinAccount = false;
         }
-        isAuthingNinAccount = false;
     }
 </script>
 

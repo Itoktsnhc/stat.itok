@@ -28,9 +28,9 @@ namespace Stat.Itok.Func.Functions
             _sp = sp;
             _mediator = mediator;
         }
-        [FunctionName("GetJobConfig")]
-        public async Task<ApiResp<JobConfig>> GetJobConfigAsync(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "nin/jobConfig")] HttpRequest req)
+        [FunctionName("GetJobConfigInStore")]
+        public async Task<ApiResp<JobConfig>> GetJobConfigInStoreAsync(
+            [HttpTrigger(AuthorizationLevel.Function, "post", Route = "nin/get_job_config_stored")] HttpRequest req)
         {
             var bodyStr = await req.ReadAsStringAsync();
             req.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
@@ -40,7 +40,7 @@ namespace Stat.Itok.Func.Functions
             {
                 var authContext = JsonConvert.DeserializeObject<NinAuthContext>(bodyStr);
                 await validator.ValidateAndThrowAsync(authContext);
-                var configInDb = await _cosmos.GetEntityIfExistAsync<JobConfig>(authContext.UserInfo.Id);
+                var configInDb = await _cosmos.GetEntityIfExistAsync<JobConfig>($"nin_user_{authContext.UserInfo.Id}");
                 if (configInDb == null)
                 {
                     req.HttpContext.Response.StatusCode = StatusCodes.Status404NotFound;
