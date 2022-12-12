@@ -162,7 +162,7 @@ public class JobDispatcher
             foreach (var battleTask in tasks)
             {
                 battleTask.JobConfigId = jobConfig.Id;
-                battleTask.JobRunTrackedId = battleTask.JobRunTrackedId;
+                battleTask.JobRunTrackedId = jobRun.TrackedId;
 
                 var addJobDto = new AddJobDto(
                     $"[{nameof(BattleTaskPayload)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]",
