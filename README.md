@@ -27,6 +27,8 @@ Azure service used:
   - Queue Trigger: 
     - Job Worker: Handler for normal detail battle fetch job.
     - Job Poison Worker: Handler for bad(poison) detail battle fetch job
+- Azure CosmosDB(no SQL api)
+  - Free(1000RU + 25GB)data store for JobConfig, JobRun and BattleTaskPayload
 
 
 
