@@ -86,6 +86,28 @@ namespace Stat.Itok.Tests
                 var resp = await cosmos.UpsertEntityInStoreAsync<JobConfig>(jobConfig.Id, jobConfig);
             }
         }
+
+        [TestMethod]
+        public async Task DeleteOldElement()
+        {
+            var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
+            var container = cosmos.GetContainer<JobConfig>();
+            var ids = File.ReadAllLines("./configs/doc_id_list.txt");
+            foreach (var id in ids)
+            {
+                await container.DeleteItemAsync<JobConfig>(id, new Microsoft.Azure.Cosmos.PartitionKey("prod.JobConfig"));
+            }
+        }
+        [TestMethod]
+        public void MyTestMethod()
+        {
+            var payloadNameList = Directory.GetFiles("D:\\_repos\\stat.itok\\Stat.Itok.Tests\\msg\\");
+            foreach (var payload in payloadNameList)
+            {
+                var content = JsonConvert.DeserializeObject<JobRunTaskLite>(Helper.DecompressStr(File.ReadAllText(payload)));
+
+            }
+        }
     }
 
     public record EncryptedJobConfig : JobConfig, ITableEntity

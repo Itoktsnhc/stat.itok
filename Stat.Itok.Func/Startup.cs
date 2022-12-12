@@ -29,7 +29,7 @@ namespace Stat.Itok.Func
                 .AddMediatR(typeof(NintendoPrivateHandlers))
                 .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
                 .AddSingleton<RemoteConfigStore>()
-                .AddSingleton<ICosmosAccessor,CosmosDbAccessor>()
+                .AddSingleton<ICosmosAccessor, CosmosDbAccessor>()
                 .AddSingleton(sp =>
                 {
                     var store = sp.GetRequiredService<RemoteConfigStore>();
@@ -57,6 +57,7 @@ namespace Stat.Itok.Func
                     });
 
             builder.Services.AddScoped<IValidator<JobConfig>, JobConfigValidator>();
+            builder.Services.AddScoped<IValidator<NinAuthContext>, NinAuthContextValidator>();
 
             //Replace ILogger<T> with the one that works fine in all scenarios
 

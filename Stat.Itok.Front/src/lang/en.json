@@ -44,13 +44,16 @@
         "label_stat_ink_api" : "stat.ink's API key",
         "link_stat_ink_api" : "To Copy stat.ink's API key",
         "placeholder_stat_ink_api" : "Paste your stat.ink's API key",
-        "btn_update":"Create/Update"
+        "btn_update":"Create/Update",
+        "loading_label":"Loading remote profile"
     },
     "error_info":{
         "form_not_ok": "Please fill in all fields",
         "context_not_ok": "Please login first",
         "upsert_success": "Create/Update success !",
-        "upsert_error": "Create/Update failed ! you may need logout and retry."
+        "upsert_error": "Create/Update failed ! you may need logout and retry.",
+        "no_exist_profile_found": "No exist remote profile found, please create first",
+        "profile_validation_failed": "Profile validation failed, please logout and retry"
     },
     "btn_logout":"Logout"
 }

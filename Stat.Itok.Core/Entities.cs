@@ -379,11 +379,9 @@ public class BattleTaskPayload
 public class BattleTaskDebugContext
 {
     public string JobConfigId { get; set; }
-
     public string StatInkBattleId { get; set; }
     public StatInkBattleBody StatInkBattleBody { get; set; }
     public StatInkPostBattleSuccess StatInkPostBattleSuccess { get; set; }
-
     public string BattleIdRawStr { get; set; }
     public string BattleGroupRawStr { get; set; }
     public string BattleDetailRawStr { get; set; }

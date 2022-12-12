@@ -171,7 +171,7 @@ public class JobRunTaskWorker
 
     private async Task SaveDebugContextAsync(BattleTaskDebugContext entity)
     {
-        var fileName = $"{entity.JobConfigId}__{entity.StatInkBattleId}.json";
+        var fileName = $"{entity.JobConfigId}/{entity.StatInkBattleId}.json";
         var container = await _storage.GetBlobContainerClientAsync<BattleTaskDebugContext>();
         var blob = container.GetBlockBlobClient(fileName);
         using var ms =
@@ -197,7 +197,7 @@ public class JobRunTaskWorker
     /// may used later
     private async Task<BattleTaskDebugContext> TryReadCachedAsync(string jobConfigId, string statInkBattleId)
     {
-        var fileName = $"{jobConfigId}__{statInkBattleId}.json";
+        var fileName = $"{jobConfigId}/{statInkBattleId}.json";
         var container = await _storage.GetBlobContainerClientAsync<BattleTaskDebugContext>();
         var blob = container.GetBlockBlobClient(fileName);
         using var ms = new MemoryStream();
