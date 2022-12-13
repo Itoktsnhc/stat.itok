@@ -3,6 +3,7 @@ using Azure.Data.Tables;
 using JobTrackerX.Client;
 using Mapster;
 using MediatR;
+using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -10,6 +11,7 @@ using Newtonsoft.Json;
 using Stat.Itok.Core;
 using Stat.Itok.Core.ApiClients;
 using Stat.Itok.Core.Handlers;
+using Stat.Itok.Shared;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +33,10 @@ namespace Stat.Itok.Tests
                     CosmosDbConnStr = content["GlobalConfig__CosmosDbConnStr"],
                     CosmosDbPkPrefix = content["GlobalConfig__CosmosDbPkPrefix"]
                 }))
+                .AddSingleton<IJobTrackerClient, JobTrackerClient>(_ =>
+                {
+                    return new JobTrackerClient("http://jobtracker.itok.xyz/");
+                })
                 .AddHttpClient()
                 .AddSingleton<StorageAccessor>()
                 .AddSingleton<CosmosDbAccessor>()
@@ -107,6 +113,35 @@ namespace Stat.Itok.Tests
                 var content = JsonConvert.DeserializeObject<JobRunTaskLite>(Helper.DecompressStr(File.ReadAllText(payload)));
 
             }
+        }
+
+        [TestMethod]
+        public async Task DeleteOldElements()
+        {
+            var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
+            var container = cosmos.GetContainer<BattleTaskPayload>();
+            var query = new QueryDefinition(
+                    query: "SELECT * FROM store AS s WHERE s.partitionKey = 'prod.BattleTaskPayload' and s._ts >=1670895947"
+                );
+            using var filteredFeed = container.GetItemQueryIterator<PureIdDto>(
+                queryDefinition: query
+            );
+            var i = 0;
+            while (filteredFeed.HasMoreResults)
+            {
+                FeedResponse<PureIdDto> response = await filteredFeed.ReadNextAsync();
+                foreach (var item in response.Resource)
+                {
+                    var resp = await container.DeleteItemAsync<PureIdDto>(item.Id, new Microsoft.Azure.Cosmos.PartitionKey("prod.BattleTaskPayload"));
+                    i++;
+                }
+            }
+            Console.WriteLine(i);
+        }
+
+        private class PureIdDto
+        {
+            public string Id { get; set; }
         }
     }
 

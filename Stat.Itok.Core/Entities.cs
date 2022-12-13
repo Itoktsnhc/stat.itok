@@ -356,11 +356,6 @@ public record JobRun
     public string JobConfigId { get; set; }
 }
 
-public class JobRunTaskPayload
-{
-    public string CompressedPayload { get; set; }
-}
-
 public class JobRunTaskLite
 {
     public long TrackedId { get; set; }
