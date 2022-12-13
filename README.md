@@ -11,7 +11,9 @@ A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink]
 > And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （Empty if no one play the game 🙂）
 
 ## Basic Info
-Programing language: C#
+Programing languages or frameworks: 
+- C# for backend functions and worker in **Stat.Itok.Func**, **Stat.Itok.Func.Worker**
+- Svelte + Bulma CSS for frontend in **Stat.Itok.Front**
 
 Azure service used:
 
