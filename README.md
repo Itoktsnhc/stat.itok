@@ -1,8 +1,9 @@
 # <img src="https://user-images.githubusercontent.com/11204672/204310549-5c30aec4-924e-4e15-8a04-27ed9d7afe5c.png" width="25"> stat.itok
 
 
-[![Frontend Static Web](https://github.com/Itoktsnhc/stat.itok/actions/workflows/azure-static-web-apps-jolly-rock-08ba20c00.yml/badge.svg?branch=release%2Fstatic)](https://github.com/Itoktsnhc/stat.itok/actions/workflows/azure-static-web-apps-jolly-rock-08ba20c00.yml)
-[![Build and deploy dotnet core project to Azure Function App - stat-itok-worker](https://github.com/Itoktsnhc/stat.itok/actions/workflows/release-background_stat-itok-worker.yml/badge.svg?branch=release%2Fbackground)](https://github.com/Itoktsnhc/stat.itok/actions/workflows/release-background_stat-itok-worker.yml)
+[![Azure Static Web Apps stat-itok-web](https://github.com/Itoktsnhc/stat.itok/actions/workflows/static_website.yml/badge.svg?branch=release%2Fstatic)](https://github.com/Itoktsnhc/stat.itok/actions/workflows/static_website.yml)
+
+[![Azure Function App - stat-itok-worker](https://github.com/Itoktsnhc/stat.itok/actions/workflows/background_worker.yml/badge.svg?branch=release%2Fbackground)](https://github.com/Itoktsnhc/stat.itok/actions/workflows/background_worker.yml)
 
 A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink](https://stat.ink/)
 
