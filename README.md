@@ -1,9 +1,10 @@
 # <img src="https://user-images.githubusercontent.com/11204672/204310549-5c30aec4-924e-4e15-8a04-27ed9d7afe5c.png" width="25"> stat.itok
 
 
-[![Azure Static Web Apps stat-itok-web](https://github.com/Itoktsnhc/stat.itok/actions/workflows/static_website.yml/badge.svg?branch=release%2Fstatic)](https://github.com/Itoktsnhc/stat.itok/actions/workflows/static_website.yml)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Itoktsnhc/stat.itok/Azure%20Static%20Web%20Apps%20stat-itok-web?label=%20stat-itok-web)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Itoktsnhc/stat.itok/Azure%20Function%20App%20-%20stat-itok-worker?label=stat-itok-worker)
 
-[![Azure Function App - stat-itok-worker](https://github.com/Itoktsnhc/stat.itok/actions/workflows/background_worker.yml/badge.svg?branch=release%2Fbackground)](https://github.com/Itoktsnhc/stat.itok/actions/workflows/background_worker.yml)
+
 
 A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink](https://stat.ink/)
 
