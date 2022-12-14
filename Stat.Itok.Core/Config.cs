@@ -45,6 +45,7 @@ namespace Stat.Itok.Core
     {
         public const string StatVersion = "0.1.1";
         public const string JobRunTaskQueueName = "job-run-task";
+        public const string QueryContinuationHeaderName = "x-stat-itok-continuation";
     }
 
     public class NinMiscConfig

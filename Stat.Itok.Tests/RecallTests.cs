@@ -139,6 +139,31 @@ namespace Stat.Itok.Tests
             Console.WriteLine(i);
         }
 
+        [TestMethod]
+        public async Task PerformeIndexPolicyAsync()
+        {
+            var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
+            var container = cosmos.GetContainer<BattleTaskPayload>();
+            string sqlQueryText = "SELECT c.data.trackedId FROM c where c.partitionKey = 'prod.BattleTaskPayload' and c.data.jobConfigId = 'nin_user_1ae0221c54a7cba9'   order by c.data.trackedId desc offset 0 limit 10";
+
+            QueryDefinition query = new QueryDefinition(sqlQueryText);
+
+            FeedIterator<PureIdDto> resultSetIterator = container.GetItemQueryIterator<PureIdDto>(
+                        query, requestOptions: new QueryRequestOptions
+                        {
+                            PopulateIndexMetrics = true
+                        });
+
+            FeedResponse<PureIdDto> response = null;
+
+            while (resultSetIterator.HasMoreResults)
+            {
+                response = await resultSetIterator.ReadNextAsync();
+                Console.WriteLine(response.IndexMetrics);
+            }
+        }
+
+
         private class PureIdDto
         {
             public string Id { get; set; }

@@ -10,27 +10,33 @@ using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using Newtonsoft.Json;
 using Stat.Itok.Core.Handlers;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Options;
 
 namespace Stat.Itok.Func.Functions
 {
-    public class FetchInfo
+    public class FetchJobConfig
     {
-        private readonly ILogger<FetchInfo> _logger;
+        private readonly ILogger<FetchJobHistory> _logger;
         private readonly ICosmosAccessor _cosmos;
         private readonly IServiceProvider _sp;
         private readonly IMediator _mediator;
+        private readonly IMemoryCache _memCache;
+        private readonly IOptions<GlobalConfig> _options;
 
-        public FetchInfo(ILogger<FetchInfo> logger, ICosmosAccessor cosmos,
-        IServiceProvider sp, IMediator mediator)
+        public FetchJobConfig(ILogger<FetchJobHistory> logger, ICosmosAccessor cosmos,
+        IServiceProvider sp, IMediator mediator, IMemoryCache memCache, IOptions<GlobalConfig> options)
         {
             _logger = logger;
             _cosmos = cosmos;
             _sp = sp;
             _mediator = mediator;
+            _memCache = memCache;
+            _options = options;
         }
         [FunctionName("GetJobConfigInStore")]
         public async Task<ApiResp<JobConfig>> GetJobConfigInStoreAsync(
-            [HttpTrigger(AuthorizationLevel.Function, "post", Route = "nin/get_job_config_stored")] HttpRequest req)
+            [HttpTrigger(AuthorizationLevel.Function, "post", Route = "get_job_config_stored")] HttpRequest req)
         {
             var bodyStr = await req.ReadAsStringAsync();
             req.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
@@ -71,16 +77,5 @@ namespace Stat.Itok.Func.Functions
             }
         }
 
-    }
-
-    public class NinAuthContextValidator : AbstractValidator<NinAuthContext>
-    {
-        public NinAuthContextValidator()
-        {
-            RuleFor(x => x).NotNull();
-            RuleFor(x => x.UserInfo).NotNull();
-            RuleFor(x => x.UserInfo.Id).NotNull();
-            RuleFor(x => x.SessionToken).NotEmpty(); ;
-        }
     }
 }

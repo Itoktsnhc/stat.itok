@@ -21,6 +21,11 @@ namespace Stat.Itok.Core
             return $"{pkPrefix}.{typeof(TData).Name}";
         }
 
+        public static string BuildCosmosRealId<TData>(string id, string prefix)
+        {
+            return $"${prefix}.{typeof(TData).Name}__{id}";
+        }
+
         public static CosmosEntity<TData> CreateFrom<TData>(string id, TData data, string pkPrefix)
         {
             return new CosmosEntity<TData>()
@@ -65,7 +70,7 @@ namespace Stat.Itok.Core
         {
             var cName = _options.Value.CosmosContainerName;
             var container = _client.GetContainer(_options.Value.CosmosDbName, cName);
-            return await container.UpsertItemAsync(CosmosEntity.CreateFrom(Helper.BuildCosmosRealId<TEntity>(entityId, _options.Value.CosmosDbPkPrefix),
+            return await container.UpsertItemAsync(CosmosEntity.CreateFrom(CosmosEntity.BuildCosmosRealId<TEntity>(entityId, _options.Value.CosmosDbPkPrefix),
                 entity, _options.Value.CosmosDbPkPrefix));
         }
 
@@ -80,7 +85,7 @@ namespace Stat.Itok.Core
             var container = _client.GetContainer(_options.Value.CosmosDbName, _options.Value.CosmosContainerName);
             try
             {
-                var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(Helper.BuildCosmosRealId<TEntity>(id, _options.Value.CosmosDbPkPrefix),
+                var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(CosmosEntity.BuildCosmosRealId<TEntity>(id, _options.Value.CosmosDbPkPrefix),
               new PartitionKey(CosmosEntity.GetPartitionKey<TEntity>(_options.Value.CosmosDbPkPrefix)));
                 return resp.Resource.Data;
             }

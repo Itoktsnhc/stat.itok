@@ -110,12 +110,12 @@
             isSubmittingJobConfig = false;
         }
     }
-    async function fetchStoredConfig() {
+    async function fetchStoredConfigAsync() {
         isLoadingProfile = true;
         let authCtx = get(stored_nin_user);
         if (authCtx === null && authCtx === undefined) return;
         try {
-            let res = await fetch("/api/nin/get_job_config_stored", {
+            let res = await fetch("/api/get_job_config_stored", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -171,7 +171,7 @@
         }
     }
     onMount(async () => {
-        await fetchStoredConfig();
+        await fetchStoredConfigAsync();
     });
 </script>
 

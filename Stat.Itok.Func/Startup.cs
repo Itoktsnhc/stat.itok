@@ -3,6 +3,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using FluentValidation;
+using JobTrackerX.Client;
 using MediatR;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Azure.WebJobs.Logging;
@@ -58,6 +59,8 @@ namespace Stat.Itok.Func
 
             builder.Services.AddScoped<IValidator<JobConfig>, JobConfigValidator>();
             builder.Services.AddScoped<IValidator<NinAuthContext>, NinAuthContextValidator>();
+            builder.Services.AddSingleton<IJobTrackerClient, JobTrackerClient>(x =>
+                    new JobTrackerClient(x.GetRequiredService<IOptions<GlobalConfig>>().Value.JobSysBase));
 
             //Replace ILogger<T> with the one that works fine in all scenarios
 

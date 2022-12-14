@@ -1,59 +1,64 @@
 {
-    "login": {
-        "block_name": "Login as Nintendo user",
-        "nintendo_login_intro": "Login to Nintendo Account in this browser",
-        "click_and_get_auth_template": {
-            "seg_ref": "2. Click Get Auth URL , wait To Copy Redirection show, then click",
-            "seg_1": "Click ",
-            "seg_2": " , wait ",
-            "seg_3": " show, then click"
-        },
-        "new_tab_copy_template": {
-            "seg_ref": "In opened page, right click on the red Select this one button. In the menu click Copy Link",
-            "seg_1": "In opened tab, right click on the red ",
-            "seg_2": " button. In the menu click ",
-            "select_this_one": "Select this one",
-            "copy_link": "Copy Link"
-        },
-        "paste_redirection_template": {
-            "seg_ref": "4. Paste to Redirection Link , Then Click Login Account Button",
-            "seg_1": "Paste to ",
-            "seg_2": " , Then click ",
-            "seg_3": " Button"
-        },
-        "label_redirection_link": "Redirection Link",
-        "btn_login_account": "Login Account",
-        "label_login_success": "Login Success",
-        "btn_get_auth_url": " Get Auth URL",
-        "link_to_copy_redirection": "To Copy Redirection",
-        "link_to_copy_redirection_placeholder": "Paste your Redirection Link",
-        "label_login_success_id": "Id",
-        "label_login_success_nickname": "Nickname",
-        "label_login_success_country": "Country/Area",
-        "login_success_message": "Login success, closing in 5 seconds..."
+  "login": {
+    "block_name": "Login as Nintendo user",
+    "nintendo_login_intro": "Login to Nintendo Account in this browser",
+    "click_and_get_auth_template": {
+      "seg_ref": "2. Click Get Auth URL , wait To Copy Redirection show, then click",
+      "seg_1": "Click ",
+      "seg_2": " , wait ",
+      "seg_3": " show, then click"
     },
-    "profile": {
-        "tab_name": "Profile",
-        "tab_intro": "Create or update your stat.itok monitor profile",
-        "lang_override": "Choose the language for in-game text (medals, nameplate etc.)",
-        "mode_select": "Select battle modes",
-        "mode_none_warning": "None of these selected will disable monitor!!!",
-        "mode_label_turf_war": "Turf War, SplatFest",
-        "mode_label_ranked": "Bankara(Ranked)",
-        "mode_label_x_match" : "XMatch",
-        "label_stat_ink_api" : "stat.ink's API key",
-        "link_stat_ink_api" : "To Copy stat.ink's API key",
-        "placeholder_stat_ink_api" : "Paste your stat.ink's API key",
-        "btn_update":"Create/Update",
-        "loading_label":"Loading remote profile"
+    "new_tab_copy_template": {
+      "seg_ref": "In opened page, right click on the red Select this one button. In the menu click Copy Link",
+      "seg_1": "In opened tab, right click on the red ",
+      "seg_2": " button. In the menu click ",
+      "select_this_one": "Select this one",
+      "copy_link": "Copy Link"
     },
-    "error_info":{
-        "form_not_ok": "Please fill in all fields",
-        "context_not_ok": "Please login first",
-        "upsert_success": "Create/Update success !",
-        "upsert_error": "Create/Update failed ! you may need logout and retry.",
-        "no_exist_profile_found": "No exist remote profile found, please create first",
-        "profile_validation_failed": "Profile validation failed, please logout and retry"
+    "paste_redirection_template": {
+      "seg_ref": "4. Paste to Redirection Link , Then Click Login Account Button",
+      "seg_1": "Paste to ",
+      "seg_2": " , Then click ",
+      "seg_3": " Button"
     },
-    "btn_logout":"Logout"
+    "label_redirection_link": "Redirection Link",
+    "btn_login_account": "Login Account",
+    "label_login_success": "Login Success",
+    "btn_get_auth_url": " Get Auth URL",
+    "link_to_copy_redirection": "To Copy Redirection",
+    "link_to_copy_redirection_placeholder": "Paste your Redirection Link",
+    "label_login_success_id": "Id",
+    "label_login_success_nickname": "Nickname",
+    "label_login_success_country": "Country/Area",
+    "login_success_message": "Login success, closing in 5 seconds..."
+  },
+  "profile": {
+    "tab_name": "Profile",
+    "tab_intro": "Create or update your stat.itok monitor profile",
+    "lang_override": "Choose the language for in-game text (medals, nameplate etc.)",
+    "mode_select": "Select battle modes",
+    "mode_none_warning": "None of these selected will disable monitor!!!",
+    "mode_label_turf_war": "Turf War, SplatFest",
+    "mode_label_ranked": "Bankara(Ranked)",
+    "mode_label_x_match": "XMatch",
+    "label_stat_ink_api": "stat.ink's API key",
+    "link_stat_ink_api": "To Copy stat.ink's API key",
+    "placeholder_stat_ink_api": "Paste your stat.ink's API key",
+    "btn_update": "Create/Update",
+    "loading_label": "Loading remote profile"
+  },
+  "error_info": {
+    "form_not_ok": "Please fill in all fields",
+    "context_not_ok": "Please login first",
+    "upsert_success": "Create/Update success !",
+    "upsert_error": "Create/Update failed ! you may need logout and retry.",
+    "no_exist_profile_found": "No exist remote profile found, please create first",
+    "profile_validation_failed": "Profile validation failed, please logout and retry"
+  },
+  "btn_logout": "Logout",
+  "history": {
+    "tab_name": "History",
+    "loading_label": "Loading history",
+    "tab_intro": "Recent Runs"
+  }
 }

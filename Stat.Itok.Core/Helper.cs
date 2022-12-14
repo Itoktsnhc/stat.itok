@@ -14,10 +14,6 @@ namespace Stat.Itok.Core
 {
     public static class Helper
     {
-        public static string BuildCosmosRealId<TEntity>(string id, string prefix)
-        {
-            return $"${prefix}.{typeof(TEntity).Name}__{id}";
-        }
         public static string CompressStr(string input, Encoding encoding = null)
         {
             encoding ??= Encoding.UTF8;

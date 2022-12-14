@@ -3,8 +3,8 @@
 
 </script>
 
-<footer class="footer fix-footer">
-    <div class="content has-text-centered"  style="max-height:15px;">
+<footer class="footer" style="max-height:79px;">
+    <div class="content has-text-centered">
         <div class="level level-right">
             <p class="level-item">
                 <strong>stat.itok</strong>&nbsp; by &nbsp;<i>itoktsnhc</i> &nbsp;
