@@ -61,7 +61,11 @@ namespace Stat.Itok.Func.Functions
                 string continuation = null;
                 if (req.Headers.TryGetValue(StatItokConstants.QueryContinuationHeaderName, out var continuationVal))
                 {
-                    continuation = continuationVal.ToString();
+                    var cVal = continuationVal.ToString()?.ToLowerInvariant();
+                    if (!string.IsNullOrWhiteSpace(cVal) && cVal != "null")
+                    {
+                        continuation = continuationVal.ToString();
+                    }
                 }
                 var container = _cosmos.GetContainer<BattleTaskPayload>();
                 QueryDefinition query = new QueryDefinition(

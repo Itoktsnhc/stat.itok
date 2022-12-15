@@ -56,6 +56,12 @@
   "history": {
     "tab_name": "历史",
     "loading_label": "历史记录加载中",
-    "tab_intro": "近期运行情况"
+    "tab_intro": "近期运行情况",
+    "load_more": "加载更多",
+    "th_id": "Id",
+    "th_create_time": "创建时间",
+    "th_status": "状态",
+    "th_stat_ink_link": "stat.ink链接",
+    "th_exec_cost": "执行耗时"
   }
 }

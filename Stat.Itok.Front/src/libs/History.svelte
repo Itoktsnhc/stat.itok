@@ -2,6 +2,8 @@
 import { _ } from "svelte-i18n";
 import { locale } from "svelte-i18n";
 import * as messenger from "bulma-toast";
+import type { JobRunHistoryItem, TrackedJobEntity } from "../model";
+import { JobState } from "../model";
 import { get } from "svelte/store";
 import {
   ApiResp,
@@ -11,24 +13,37 @@ import {
   stored_nin_user,
 } from "../model";
 import { onMount } from "svelte";
-let isLoadingSummary = true;
+import { format, parseISO, intervalToDuration, formatDuration } from "date-fns";
+
+let isLoadingSummary = false;
+let continuationToken: string = null;
+let historyItems: JobRunHistoryItem[] = [];
 async function fetchHistoryAsync() {
   isLoadingSummary = true;
   let authCtx = get(stored_nin_user);
   if (authCtx === null && authCtx === undefined) return;
   try {
-    let res = await fetch("/api/get_config_run_history", {
+    let res = await fetch("/api/get_job_history_stored", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "x-stat-itok-continuation": continuationToken,
       },
       body: JSON.stringify(authCtx),
     });
     if (!res.ok) {
-        throw new Error("Response is not OK: " + res.statusText);
+      throw new Error("Response is not OK: " + res.statusText);
     }
-    let resp = (await res.json()) as ApiResp<JobConfigLite>;
+    let resp = (await res.json()) as ApiResp<JobRunHistoryItem[]>;
     if (resp.result === true) {
+      let tmpItems = historyItems;
+      tmpItems.push(...resp.data);
+      historyItems = tmpItems;
+      if (res.headers.has("x-stat-itok-continuation")) {
+        continuationToken = res.headers.get("x-stat-itok-continuation");
+      } else {
+        continuationToken = null;
+      }
     } else {
       throw new Error($_("error_info.no_exist_profile_found"));
     }
@@ -49,185 +64,107 @@ async function fetchHistoryAsync() {
     isLoadingSummary = false;
   }
 }
-onMount(async () => {
-  await fetchHistoryAsync();
-});
+
+function getDurationStr(DateTimeStart: string, DateTimeEnd: string) {
+  let start = parseISO(DateTimeStart);
+  let end = parseISO(DateTimeEnd);
+  let duration = intervalToDuration({
+    start,
+    end,
+  });
+  var retStr ="";
+  if(duration.days > 0){
+    retStr += duration.days + "d ";
+  }
+  if(duration.hours > 0){
+    retStr += duration.hours + "h ";
+  }
+  if(duration.minutes > 0){
+    retStr += duration.minutes + "m ";
+  }
+  if(duration.seconds > 0){
+    retStr += duration.seconds + "s ";
+  }
+  return retStr;
+}
 </script>
 
-{#if isLoadingSummary}
-  <br />
-  <br />
-  <br />
-  <br />
-  <div class="title level level-item">{$_("history.loading_label")}</div>
-  <progress class="progress is-large is-info" max="100">15%</progress>
-{:else}
-  <div class="box has-background-light">
-    <div class="title is-4 level">{$_("history.tab_intro")}</div>
-    <table class="table is-hoverable">
+<div class="box has-background-light">
+  <div class="title is-4 level">
+    {$_("history.tab_intro")}
+  </div>
+  <div class="table-container">
+    <table
+      class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
       <thead>
-        <tr>
-          <th><abbr title="Position">Pos</abbr></th>
-          <th>Team</th>
-          <th><abbr title="Played">Pld</abbr></th>
-          <th><abbr title="Won">W</abbr></th>
-          <th><abbr title="Drawn">D</abbr></th>
-          <th><abbr title="Lost">L</abbr></th>
-          <th><abbr title="Goals for">GF</abbr></th>
-          <th><abbr title="Goals against">GA</abbr></th>
-          <th><abbr title="Goal difference">GD</abbr></th>
-          <th><abbr title="Points">Pts</abbr></th>
-          <th>Qualification or relegation</th>
+        <tr class="has-background-info-light">
+          <th><abbr title="Id">{$_("history.th_id")}</abbr></th>
+          <th
+            ><abbr title="CreateTime">{$_("history.th_create_time")}</abbr></th>
+          <th
+            ><abbr title="Execution Cost">{$_("history.th_exec_cost")}</abbr
+            ></th>
+          <th><abbr title="Status">{$_("history.th_status")}</abbr></th>
+          <th
+            ><abbr title="statInkLink">{$_("history.th_stat_ink_link")}</abbr
+            ></th>
         </tr>
       </thead>
-      <tfoot>
-        <tr>
-          <th><abbr title="Position">Pos</abbr></th>
-          <th>Team</th>
-          <th><abbr title="Played">Pld</abbr></th>
-          <th><abbr title="Won">W</abbr></th>
-          <th><abbr title="Drawn">D</abbr></th>
-          <th><abbr title="Lost">L</abbr></th>
-          <th><abbr title="Goals for">GF</abbr></th>
-          <th><abbr title="Goals against">GA</abbr></th>
-          <th><abbr title="Goal difference">GD</abbr></th>
-          <th><abbr title="Points">Pts</abbr></th>
-          <th>Qualification or relegation</th>
-        </tr>
-      </tfoot>
       <tbody>
-        <tr>
-          <th>1</th>
-          <td
-            ><a
-              href="https://en.wikipedia.org/wiki/Leicester_City_F.C."
-              title="Leicester City F.C.">Leicester City</a>
-            <strong>(C)</strong>
-          </td>
-          <td>38</td>
-          <td>23</td>
-          <td>12</td>
-          <td>3</td>
-          <td>68</td>
-          <td>36</td>
-          <td>+32</td>
-          <td>81</td>
-          <td
-            >Qualification for the <a
-              href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage"
-              title="2016–17 UEFA Champions League"
-              >Champions League group stage</a
-            ></td>
-        </tr>
-        <tr>
-          <th>2</th>
-          <td
-            ><a
-              href="https://en.wikipedia.org/wiki/Arsenal_F.C."
-              title="Arsenal F.C.">Arsenal</a
-            ></td>
-          <td>38</td>
-          <td>20</td>
-          <td>11</td>
-          <td>7</td>
-          <td>65</td>
-          <td>36</td>
-          <td>+29</td>
-          <td>71</td>
-          <td
-            >Qualification for the <a
-              href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage"
-              title="2016–17 UEFA Champions League"
-              >Champions League group stage</a
-            ></td>
-        </tr>
-        <tr>
-          <th>3</th>
-          <td
-            ><a
-              href="https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
-              title="Tottenham Hotspur F.C.">Tottenham Hotspur</a
-            ></td>
-          <td>38</td>
-          <td>19</td>
-          <td>13</td>
-          <td>6</td>
-          <td>69</td>
-          <td>35</td>
-          <td>+34</td>
-          <td>70</td>
-          <td
-            >Qualification for the <a
-              href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage"
-              title="2016–17 UEFA Champions League"
-              >Champions League group stage</a
-            ></td>
-        </tr>
-        <tr class="is-selected">
-          <th>4</th>
-          <td
-            ><a
-              href="https://en.wikipedia.org/wiki/Manchester_City_F.C."
-              title="Manchester City F.C.">Manchester City</a
-            ></td>
-          <td>38</td>
-          <td>19</td>
-          <td>9</td>
-          <td>10</td>
-          <td>71</td>
-          <td>41</td>
-          <td>+30</td>
-          <td>66</td>
-          <td
-            >Qualification for the <a
-              href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Play-off_round"
-              title="2016–17 UEFA Champions League"
-              >Champions League play-off round</a
-            ></td>
-        </tr>
-        <tr>
-          <th>5</th>
-          <td
-            ><a
-              href="https://en.wikipedia.org/wiki/Manchester_United_F.C."
-              title="Manchester United F.C.">Manchester United</a
-            ></td>
-          <td>38</td>
-          <td>19</td>
-          <td>9</td>
-          <td>10</td>
-          <td>49</td>
-          <td>35</td>
-          <td>+14</td>
-          <td>66</td>
-          <td
-            >Qualification for the <a
-              href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage"
-              title="2016–17 UEFA Europa League">Europa League group stage</a
-            ></td>
-        </tr>
-        <tr>
-          <th>6</th>
-          <td
-            ><a
-              href="https://en.wikipedia.org/wiki/Southampton_F.C."
-              title="Southampton F.C.">Southampton</a
-            ></td>
-          <td>38</td>
-          <td>18</td>
-          <td>9</td>
-          <td>11</td>
-          <td>59</td>
-          <td>41</td>
-          <td>+18</td>
-          <td>63</td>
-          <td
-            >Qualification for the <a
-              href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage"
-              title="2016–17 UEFA Europa League">Europa League group stage</a
-            ></td>
-        </tr>
+        {#each historyItems as his}
+          <tr>
+            <td>{his.trackedId}</td>
+            {#if his.trackedJobEntity !== null && his.trackedJobEntity !== undefined}
+              <td
+                >{format(
+                  parseISO(his.trackedJobEntity.createTime),
+                  "yyyy-MM-dd HH:mm:ss"
+                )}</td>
+              {#if his.trackedJobEntity.endTime !== null && his.trackedJobEntity.endTime !== undefined && his.trackedJobEntity.startTime !== null && his.trackedJobEntity.startTime !== undefined}
+                <td
+                  >{getDurationStr(
+                    his.trackedJobEntity.startTime,
+                    his.trackedJobEntity.endTime
+                  )}</td>
+              {:else}
+                <td>N/A</td>
+              {/if}
+
+              <td
+                class="{his.trackedJobEntity.currentJobState ==
+                JobState.RanToCompletion
+                  ? 'has-background-success-light'
+                  : his.trackedJobEntity.currentJobState == JobState.Faulted
+                  ? 'has-background-danger-light'
+                  : ''}">{JobState[his.trackedJobEntity.currentJobState]}</td>
+            {:else}
+              <td class="is-warning" colspan="4">ERROR</td>
+            {/if}
+            {#if his.statInkLink !== null && his.statInkLink !== undefined && his.statInkLink !== ""}
+              <td>
+                <a
+                  class="is-link"
+                  rel="noreferrer"
+                  href="{his.statInkLink}"
+                  target="_blank">Link</a>
+              </td>
+            {:else}
+              <td class="is-info" colspan="4">Not Available</td>
+            {/if}
+          </tr>
+        {/each}
       </tbody>
     </table>
   </div>
-{/if}
+  <div
+    class="level level-item level-right {continuationToken == null &&
+    historyItems.length > 0
+      ? 'is-hidden'
+      : ''}">
+    <div
+      on:click="{fetchHistoryAsync}"
+      class="button is-small is-info {isLoadingSummary ? 'is-loading' : ''}">
+      {$_("history.load_more")}
+    </div>
+  </div>
+</div>

@@ -59,6 +59,12 @@
   "history": {
     "tab_name": "History",
     "loading_label": "Loading history",
-    "tab_intro": "Recent Runs"
+    "tab_intro": "Recent Runs",
+    "load_more": "Load More",
+    "th_id": "Id",
+    "th_create_time": "Create Time",
+    "th_status": "Status",
+    "th_stat_ink_link": "stat.ink's link",
+    "th_exec_cost": "Execution Cost"
   }
 }

@@ -70,17 +70,17 @@ let curTab = "Profile";
             </li>
             <li
               on:click="{(event) => (curTab = 'History')}"
-              class="{curTab === 'Summary' ? 'is-active' : null}">
+              class="{curTab === 'History' ? 'is-active' : null}">
               <a href="#/">{$_("history.tab_name")}</a>
             </li>
           </ul>
         </div>
 
         {#if !needAuth}
-          <div hidden="{curTab !== 'Profile'}">
+          <div class="{curTab !== 'Profile' ? 'is-hidden' : ''}">
             <Profile />
           </div>
-          <div hidden="{curTab !== 'History'}">
+          <div class="{curTab !== 'History' ? 'is-hidden' : ''}">
             <History />
           </div>
         {/if}
