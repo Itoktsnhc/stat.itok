@@ -215,7 +215,7 @@ public class JobDispatcher
         var checkTasks = tasks.Select(async task =>
         {
             var targetBattleId =
-                Helper.BuildCosmosRealId<BattleTaskPayload>(
+                CosmosEntity.BuildCosmosRealId<BattleTaskPayload>(
                     $"{jobConfig.Id}__{StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr)}", _options.Value.CosmosDbPkPrefix);
 
             var query = new QueryDefinition(
