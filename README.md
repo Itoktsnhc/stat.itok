@@ -22,7 +22,7 @@ Azure service used:
 - Azure Storage
   - Blob: Cache battle detail responses.
   - Queue: For internal fetch detail job task.
-  - Table: Store raw Nintendo account info(Session Token), store battle id map for deduplication
+  - ~~Table: Store raw Nintendo account info(Session Token), store battle id map for deduplication~~
 - Azure Static Web App
   - Static Web App
   - Backend functions(HTTP Triggers): handle new Nintendo account info(**Job Config**)
