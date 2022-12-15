@@ -50,7 +50,8 @@
     "upsert_success": "创建/更新 成功！",
     "upsert_error": "创建/更新 失败！请登出账号后重试",
     "no_exist_profile_found": "未找到远端配置，请先创建配置",
-    "profile_validation_failed": "远端配置校验失败，请登出账号后重试"
+    "profile_validation_failed": "远端配置校验失败，请登出账号后重试",
+    "no_more_history_found": "没有更多的记录了"
   },
   "btn_logout": "登出",
   "history": {

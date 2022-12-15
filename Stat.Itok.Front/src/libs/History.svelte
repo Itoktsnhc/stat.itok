@@ -41,6 +41,14 @@
       }
       let resp = (await res.json()) as ApiResp<JobRunHistoryItem[]>;
       if (resp.result === true) {
+        if (resp.data.length <= 0) {
+          messenger.toast({
+            message: $_('error_info.no_more_history_found'),
+            type: "is-success",
+            position: "top-center",
+            duration: 5000,
+          });
+        }
         let tmpItems = historyItems;
         tmpItems.push(...resp.data);
         historyItems = tmpItems;

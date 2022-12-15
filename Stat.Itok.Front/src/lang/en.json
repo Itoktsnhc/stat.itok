@@ -53,7 +53,8 @@
     "upsert_success": "Create/Update success !",
     "upsert_error": "Create/Update failed ! you may need logout and retry.",
     "no_exist_profile_found": "No exist remote profile found, please create first",
-    "profile_validation_failed": "Profile validation failed, please logout and retry"
+    "profile_validation_failed": "Profile validation failed, please logout and retry",
+    "no_more_history_found": "No More Records"
   },
   "btn_logout": "Logout",
   "history": {
