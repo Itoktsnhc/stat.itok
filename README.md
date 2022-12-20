@@ -1,5 +1,6 @@
 # <img src="https://user-images.githubusercontent.com/11204672/204310549-5c30aec4-924e-4e15-8a04-27ed9d7afe5c.png" width="25"> stat.itok
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/keep_func_alive.yml?branch=main&label=Keep%20Site%20Alive)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/static_website.yml?branch=release%2Fstatic&label=web)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/background_worker.yml?branch=release%2Fbackground&label=worker)
 
