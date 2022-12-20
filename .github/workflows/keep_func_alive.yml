@@ -1,14 +1,15 @@
 name: Keep function alive
+
 on:
   push:
     branches:
       - main
-  schedule:
-    - "*/10 * * * *"
+
 defaults:
   run:
     shell: bash
     working-directory: _KeepAlive
+
 jobs:
   test:
     timeout-minutes: 60
