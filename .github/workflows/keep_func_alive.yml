@@ -1,8 +1,8 @@
-
 name: Keep function alive
 on:
   push:
-    branches: [main, master]
+    branches:
+      - main
   schedule:
     - "*/10 * * * *"
 defaults:
