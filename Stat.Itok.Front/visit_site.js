@@ -1,0 +1,1 @@
+playwright.chromium.launch({ args: ['--no-sandbox'] })
