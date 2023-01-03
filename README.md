@@ -1,14 +1,17 @@
 # <img src="https://user-images.githubusercontent.com/11204672/204310549-5c30aec4-924e-4e15-8a04-27ed9d7afe5c.png" width="25"> stat.itok
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/keep_func_alive.yml?branch=main&label=Keep%20Site%20Alive)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/static_website.yml?branch=release%2Fstatic&label=web)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/background_worker.yml?branch=release%2Fbackground&label=worker)
 
 
-A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink](https://stat.ink/)
+A tool/system for uploading your splatoon3 battle history from NSOAPP to [stat.ink](https://stat.ink/)
 
 > **Hosted on Azure now: https://stat.itok.xyz/**
 >
-> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （Empty if no one play the game 🙂）
+> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （Empty if no one play the game 🙂）  
+
+*If you want to deploy your own stat.itok, check the [deployment guide](https://github.com/Itoktsnhc/stat.itok/blob/main/_assets/deploy_your_own%20stat.itok.md)*
 
 ## Basic Info
 Programing languages or frameworks: 
