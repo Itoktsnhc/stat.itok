@@ -248,7 +248,7 @@ public record StatInkBattleBody
     public string LinkUrl { get; set; }
 
     [JsonProperty("agent")]
-    public string Agent { get; set; } = "itok.stat";
+    public string Agent { get; set; } = "stat.itok";
 
     [JsonProperty("agent_version")]
     public string AgentVersion { get; set; }
