@@ -5,7 +5,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/background_worker.yml?branch=release%2Fbackground&label=worker)
 
 
-A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink](https://stat.ink/)
+A tool/system for uploading your splatoon3 battle history from NSOAPP to [stat.ink](https://stat.ink/)
 
 > **Hosted on Azure now: https://stat.itok.xyz/**
 >
