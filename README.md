@@ -9,7 +9,9 @@ A tool/system for connecting your splatoon3 battle history(nsoapp) to [stat.ink]
 
 > **Hosted on Azure now: https://stat.itok.xyz/**
 >
-> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （Empty if no one play the game 🙂）
+> And check the run status on JobTrackerX: http://jobtracker.itok.xyz/ （Empty if no one play the game 🙂）  
+
+*If you want to deploy your own stat.itok, check the [deployment guide](https://github.com/Itoktsnhc/stat.itok/blob/main/_assets/deploy_your_own%20stat.itok.md)*
 
 ## Basic Info
 Programing languages or frameworks: 
