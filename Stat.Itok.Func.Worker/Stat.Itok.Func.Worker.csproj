@@ -11,10 +11,8 @@
 	  <PackageReference Include="JobTrackerX.Client" Version="1.0.30" />
 	  <PackageReference Include="Mapster" Version="7.3.0" />
 	  <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
-	  <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.15.0" />
 	  <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
 	  <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage.Queues" Version="5.0.0" />
-	  <PackageReference Include="Microsoft.Azure.WebJobs.Logging.ApplicationInsights" Version="3.0.33" />
 	  <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
 	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
 	  <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
