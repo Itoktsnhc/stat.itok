@@ -678,9 +678,8 @@ namespace Stat.Itok.Core
             if (rule == "LOFT") return StatInkRule.Yagura;
             if (rule == "GOAL") return StatInkRule.Hoko;
             if (rule == "CLAM") return StatInkRule.Asari;
-
+            //TODO if (rule == "TRI_COLOR") return StatInkRule.Nawabari;
             return null;
-            //if (rule == "TRI_COLOR") return StatInkRule.Nawabari;
         }
 
         private static StatInkLobby ExtractStatInkLobby(JToken battle)

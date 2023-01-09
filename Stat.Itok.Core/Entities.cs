@@ -350,6 +350,11 @@ public class StatInkPostBattleSuccess
     public string Url { get; set; }
 }
 
+public enum RunBattleTaskStatus
+{
+    Ok = 0, BattleBodyIsNull = 1
+}
+
 public record JobRun
 {
     public long TrackedId { get; set; }
@@ -373,6 +378,7 @@ public class BattleTaskPayload
 
 public class BattleTaskDebugContext
 {
+    public string FilePath => $"{JobConfigId}/{StatInkBattleId}.json";
     public string JobConfigId { get; set; }
     public string StatInkBattleId { get; set; }
     public StatInkBattleBody StatInkBattleBody { get; set; }

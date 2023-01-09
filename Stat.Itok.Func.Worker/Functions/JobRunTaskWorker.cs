@@ -65,10 +65,17 @@ public class JobRunTaskWorker
 
         try
         {
-            var postResp = await RunBattleTaskAsync(task);
-            await _jobTracker.UpdateJobOptionsAsync(task.TrackedId,
-                new UpdateJobOptionsDto($"URL:[{postResp.Url}]  ID:[{postResp.Id}]"));
-            await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.RanToCompletion));
+            var (status, msg) = await RunBattleTaskAsync(task);
+
+            if (status == RunBattleTaskStatus.Ok)
+            {
+                await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.RanToCompletion, $"{status}, {msg}"));
+                await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto($"{status}, {msg}"));
+            }
+            else
+            {
+                await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.Faulted, $"{status}, {msg}"));
+            }
         }
         catch (Exception e)
         {
@@ -91,7 +98,7 @@ public class JobRunTaskWorker
         return gearsInfo;
     }
 
-    private async Task<StatInkPostBattleSuccess> RunBattleTaskAsync(BattleTaskPayload task)
+    private async Task<(RunBattleTaskStatus, string)> RunBattleTaskAsync(BattleTaskPayload task)
     {
         var debugContext = new BattleTaskDebugContext();
         try
@@ -136,7 +143,10 @@ public class JobRunTaskWorker
             debugContext.StatInkBattleBody = battleBody;
 
             #endregion
-
+            if (battleBody == null)
+            {
+                return (RunBattleTaskStatus.BattleBodyIsNull, $"DebugContext:[{debugContext.FilePath}]");
+            }
             var resp = await _mediator.Send(new ReqPostBattle
             {
                 ApiKey = jobConfig.StatInkApiKey,
@@ -149,7 +159,7 @@ public class JobRunTaskWorker
 
             #endregion
 
-            return resp;
+            return (RunBattleTaskStatus.Ok, $"URL:[{resp.Url}]  ID:[{resp.Id}]");
         }
         catch (Exception)
         {
@@ -171,9 +181,8 @@ public class JobRunTaskWorker
 
     private async Task SaveDebugContextAsync(BattleTaskDebugContext entity)
     {
-        var fileName = $"{entity.JobConfigId}/{entity.StatInkBattleId}.json";
         var container = await _storage.GetBlobContainerClientAsync<BattleTaskDebugContext>();
-        var blob = container.GetBlockBlobClient(fileName);
+        var blob = container.GetBlockBlobClient(entity.FilePath);
         using var ms =
             new MemoryStream(Helper.CompressBytes(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(entity))));
         ms.Seek(0, SeekOrigin.Begin);
