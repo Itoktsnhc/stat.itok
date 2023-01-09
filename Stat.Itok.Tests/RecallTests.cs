@@ -163,6 +163,18 @@ namespace Stat.Itok.Tests
             }
         }
 
+        [TestMethod]
+        public async Task RerunBattleTaskAsync()
+        {
+            var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
+            var container = cosmos.GetContainer<BattleTaskPayload>();
+            var ids = File.ReadAllLines("./configs/rerun_list.txt");
+            foreach (var id in ids)
+            {
+                await container.DeleteItemAsync<PureIdDto>(id, new Microsoft.Azure.Cosmos.PartitionKey("prod.BattleTaskPayload"));
+            }
+        }
+
 
         private class PureIdDto
         {
