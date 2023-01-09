@@ -93,6 +93,7 @@ public class JobDispatcher
         jobConfig.NinAuthContext = checkRes.AuthContext;
         var ninMiscConfig = await _mediator.Send(new ReqGetNinMiscConfig());
         var queryHashDict = ninMiscConfig.GraphQL.APIs;
+        jobConfig.CorrectUserInfoLang();
         await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
 
         var jobRunTaskList = new List<BattleTaskPayload>();
