@@ -20,6 +20,7 @@ using JobTrackerX.SharedLibs;
 using Mapster;
 using System.Threading;
 using System.Text.RegularExpressions;
+using System.Linq;
 
 namespace Stat.Itok.Func.Functions
 {
@@ -72,13 +73,13 @@ namespace Stat.Itok.Func.Functions
                     "SELECT c.data.trackedId " +
                     "FROM c where c.partitionKey = " +
                     "@partitionKey and c.data.jobConfigId = @jobConfigId " +
-                    "order by c.data.trackedId desc")
+                    "order by c._ts desc")
                     .WithParameter("@jobConfigId", $"nin_user_{authContext.UserInfo.Id}")
                     .WithParameter("@partitionKey", CosmosEntity.GetPartitionKey<BattleTaskPayload>(_options.Value.CosmosDbPkPrefix));
                 using FeedIterator<JobRunHistoryItem> resultSetIterator = container.GetItemQueryIterator<JobRunHistoryItem>(query,
                     requestOptions: new QueryRequestOptions()
                     {
-                        MaxItemCount = 50
+                        MaxItemCount = 15
                     }, continuationToken: continuation);
                 var results = new List<JobRunHistoryItem>();
                 while (resultSetIterator.HasMoreResults)
@@ -111,6 +112,7 @@ namespace Stat.Itok.Func.Functions
                 });
                 req.HttpContext.Response.StatusCode = StatusCodes.Status200OK;
                 req.HttpContext.Response.Headers.Add(StatItokConstants.QueryContinuationHeaderName, continuation);
+                results = results.Where(x => x.TrackedJobEntity != null).ToList();
                 return ApiResp.OkWith(results);
             }
             catch (Exception ex)
