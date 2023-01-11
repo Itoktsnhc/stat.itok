@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Stat.Itok.Workload": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true
+    }
+  }
+}
