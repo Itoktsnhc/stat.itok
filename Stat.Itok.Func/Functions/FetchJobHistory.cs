@@ -112,7 +112,7 @@ namespace Stat.Itok.Func.Functions
                 });
                 req.HttpContext.Response.StatusCode = StatusCodes.Status200OK;
                 req.HttpContext.Response.Headers.Add(StatItokConstants.QueryContinuationHeaderName, continuation);
-                results = results.Where(x => x.TrackedJobEntity != null).ToList();
+                results = results.Where(x => x.TrackedJobEntity?.CreateTime != null).ToList();
                 return ApiResp.OkWith(results);
             }
             catch (Exception ex)
