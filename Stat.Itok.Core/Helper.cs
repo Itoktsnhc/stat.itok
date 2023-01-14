@@ -678,7 +678,7 @@ namespace Stat.Itok.Core
             if (rule == "LOFT") return StatInkRule.Yagura;
             if (rule == "GOAL") return StatInkRule.Hoko;
             if (rule == "CLAM") return StatInkRule.Asari;
-            //TODO if (rule == "TRI_COLOR") return StatInkRule.Nawabari;
+            if (rule == "TRI_COLOR") return StatInkRule.TriColor;
             return null;
         }
 

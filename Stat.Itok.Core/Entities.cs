@@ -90,6 +90,9 @@ public enum StatInkRule
 
     [EnumMember(Value = "asari")]
     Asari,
+
+    [EnumMember(Value = "tricolor")]
+    TriColor
 }
 
 public record StatInkBattleBody
@@ -162,17 +165,26 @@ public record StatInkBattleBody
     [JsonProperty("their_team_inked")]
     public int? TheirTeamInked { get; set; }
 
+    [JsonProperty("third_team_inked")]
+    public int? ThirdTeamInked { get; set; }
+
     [JsonProperty("our_team_percent")]
     public decimal? OurTeamPercent { get; set; }
 
     [JsonProperty("their_team_percent")]
     public decimal? TheirTeamPercent { get; set; }
 
+    [JsonProperty("third_team_percent")]
+    public decimal? ThirdTeamPercent { get; set; }
+
     [JsonProperty("our_team_count")]
     public int? OurTeamCount { get; set; }
 
     [JsonProperty("their_team_count")]
     public int? TheirTeamCount { get; set; }
+
+    //[JsonProperty("third_team_count")]
+    //public decimal? ThirdTeamCount { get; set; }
 
     [JsonProperty("level_before")]
     public int? LevelBefore { get; set; }
