@@ -250,6 +250,9 @@ public record StatInkBattleBody
     [JsonProperty("their_team_players")]
     public List<StatInkPlayer> TheirTeamPlayers { get; set; } = new();
 
+    [JsonProperty("third_team_players")]
+    public List<StatInkPlayer> ThirdTeamPlayers { get; set; } = new();
+
     [JsonProperty("note")]
     public string Note { get; set; }
 
@@ -257,7 +260,7 @@ public record StatInkBattleBody
     public string PrivateNote { get; set; }
 
     [JsonProperty("link_url")]
-    public string LinkUrl { get; set; }
+    public string LinkUrl { get; set; } = "https://stat.itok.xyz/";
 
     [JsonProperty("agent")]
     public string Agent { get; set; } = "stat.itok";
@@ -283,6 +286,33 @@ public record StatInkBattleBody
 
     [JsonProperty("x_power_after")]
     public decimal? XPowerAfter { get; set; }
+
+    [JsonProperty("our_team_color")]
+    public string OurTeamColor { get; set; }
+
+    [JsonProperty("their_team_color")]
+    public string TheirTeamColor { get; set; }
+
+    [JsonProperty("third_team_color")]
+    public string ThirdTeamColor { get; set; }
+
+    [JsonProperty("our_team_role")]
+    public string OurTeamRole { get; set; }
+
+    [JsonProperty("their_team_role")]
+    public string TheirTeamRole { get; set; }
+
+    [JsonProperty("third_team_role")]
+    public string ThirdTeamRole { get; set; }
+
+    [JsonProperty("our_team_theme")]
+    public string OurTeamTheme { get; set; }
+
+    [JsonProperty("their_team_theme")]
+    public string TheirTeamTheme { get; set; }
+
+    [JsonProperty("third_team_theme")]
+    public string ThirdTeamTheme { get; set; }
 }
 
 public class StatInkPlayer

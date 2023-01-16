@@ -1,0 +1,576 @@
+{
+  "historyDetails": {
+    "nodes": [
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTI4MjdfMWNkNTBkNmMtODg3Yi00YjUzLTk3ZWMtZjQwYjYyZDM5ODVk",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T05:28:27Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA1MjgyN18xY2Q1MGQ2Yy04ODdiLTRiNTMtOTdlYy1mNDBiNjJkMzk4NWQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派＋1"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 722,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": null,
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTIzMzBfZjFkMWFlNDEtYTM0Mi00OWMwLWEwZGUtN2E4MzgzZjRmMDhi"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTIzMzBfZjFkMWFlNDEtYTM0Mi00OWMwLWEwZGUtN2E4MzgzZjRmMDhi",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T05:23:30Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA1MjMzMF9mMWQxYWU0MS1hMzQyLTQ5YzAtYTBkZS03YTgzODNmNGYwOGI6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 577,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTI4MjdfMWNkNTBkNmMtODg3Yi00YjUzLTk3ZWMtZjQwYjYyZDM5ODVk"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTE4MjlfOGVlMTZkOGUtMjhkYi00MDlhLTlmZmYtMTJhZDBmY2VmZTBh"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTE4MjlfOGVlMTZkOGUtMjhkYi00MDlhLTlmZmYtMTJhZDBmY2VmZTBh",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T05:18:29Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA1MTgyOV84ZWUxNmQ4ZS0yOGRiLTQwOWEtOWZmZi0xMmFkMGZjZWZlMGE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 738,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTIzMzBfZjFkMWFlNDEtYTM0Mi00OWMwLWEwZGUtN2E4MzgzZjRmMDhi"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTEzMThfNWE2MTJhNDYtMjA0Yy00ZTIzLWI0OTUtMTBkNDg1MzBlOWRh"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTEzMThfNWE2MTJhNDYtMjA0Yy00ZTIzLWI0OTUtMTBkNDg1MzBlOWRh",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T05:13:18Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA1MTMxOF81YTYxMmE0Ni0yMDRjLTRlMjMtYjQ5NS0xMGQ0ODUzMGU5ZGE6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 668,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTE4MjlfOGVlMTZkOGUtMjhkYi00MDlhLTlmZmYtMTJhZDBmY2VmZTBh"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTA4MzNfOWNiNDY5NDctMDY4MC00ODRhLTk0YWItNmYyYWE0YTc4ZjUw"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTA4MzNfOWNiNDY5NDctMDY4MC00ODRhLTk0YWItNmYyYWE0YTc4ZjUw",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T05:08:33Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA1MDgzM185Y2I0Njk0Ny0wNjgwLTQ4NGEtOTRhYi02ZjJhYTRhNzhmNTA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 480,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTEzMThfNWE2MTJhNDYtMjA0Yy00ZTIzLWI0OTUtMTBkNDg1MzBlOWRh"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTAzNTBfMDY1ODdkZjItMmE5NS00NjUwLWI5OTUtNGY5YzFmOTA5ODdh"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTAzNTBfMDY1ODdkZjItMmE5NS00NjUwLWI5OTUtNGY5YzFmOTA5ODdh",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T05:03:50Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA1MDM1MF8wNjU4N2RmMi0yYTk1LTQ2NTAtYjk5NS00ZjljMWY5MDk4N2E6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 796,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTA4MzNfOWNiNDY5NDctMDY4MC00ODRhLTk0YWItNmYyYWE0YTc4ZjUw"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDU5MDVfMDcyOGMyYzYtYThjMS00ZWM4LWE0NmYtMDRhNThjZjQ4Zjhk"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDU5MDVfMDcyOGMyYzYtYThjMS00ZWM4LWE0NmYtMDRhNThjZjQ4Zjhk",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T04:59:05Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA0NTkwNV8wNzI4YzJjNi1hOGMxLTRlYzgtYTQ2Zi0wNGE1OGNmNDhmOGQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 670,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNTAzNTBfMDY1ODdkZjItMmE5NS00NjUwLWI5OTUtNGY5YzFmOTA5ODdh"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDUzNDNfOGE4MzYyODUtYjQ3ZS00ZTg3LWE0YzUtMTVjYmViM2JlY2Q3"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDUzNDNfOGE4MzYyODUtYjQ3ZS00ZTg3LWE0YzUtMTVjYmViM2JlY2Q3",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T04:53:43Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA0NTM0M184YTgzNjI4NS1iNDdlLTRlODctYTRjNS0xNWNiZWIzYmVjZDc6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 818,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDU5MDVfMDcyOGMyYzYtYThjMS00ZWM4LWE0NmYtMDRhNThjZjQ4Zjhk"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDQ4MjlfOTQxNTdmOWEtMDdhZC00NDRmLWE4MzUtYzEzNDljYTk5MTk0"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDQ4MjlfOTQxNTdmOWEtMDdhZC00NDRmLWE4MzUtYzEzNDljYTk5MTk0",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T04:48:29Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA0NDgyOV85NDE1N2Y5YS0wN2FkLTQ0NGYtYTgzNS1jMTM0OWNhOTkxOTQ6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 641,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDUzNDNfOGE4MzYyODUtYjQ3ZS00ZTg3LWE0YzUtMTVjYmViM2JlY2Q3"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDQzMjZfZjlhN2JiYjktYWFlNy00NGQzLTgwMjctOGI1NjA2OTA5MmRl"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDQzMjZfZjlhN2JiYjktYWFlNy00NGQzLTgwMjctOGI1NjA2OTA5MmRl",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T04:43:26Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDA0NDMyNl9mOWE3YmJiOS1hYWU3LTQ0ZDMtODAyNy04YjU2MDY5MDkyZGU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 483,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDQ4MjlfOTQxNTdmOWEtMDdhZC00NDRmLWE4MzUtYzEzNDljYTk5MTk0"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwMzU4MjJfMGZhZTIyMmYtZjhhNi00NzE5LTlmNWQtOWU5YzRhMTE0OGY2"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwMzU4MjJfMGZhZTIyMmYtZjhhNi00NzE5LTlmNWQtOWU5YzRhMTE0OGY2",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T03:58:22Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDAzNTgyMl8wZmFlMjIyZi1mOGE2LTQ3MTktOWY1ZC05ZTljNGExMTQ4ZjY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 802,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwNDQzMjZfZjlhN2JiYjktYWFlNy00NGQzLTgwMjctOGI1NjA2OTA5MmRl"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwMzUzMDlfNzViZTc1N2EtYjk1Ny00MjU1LTg4NjUtMjc4MGJkY2I0NWU2"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwMzUzMDlfNzViZTc1N2EtYjk1Ny00MjU1LTg4NjUtMjc4MGJkY2I0NWU2",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T03:53:09Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "LOSE",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDAzNTMwOV83NWJlNzU3YS1iOTU3LTQyNTUtODg2NS0yNzgwYmRjYjQ1ZTY6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 461,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwMzU4MjJfMGZhZTIyMmYtZjhhNi00NzE5LTlmNWQtOWU5YzRhMTE0OGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwMzQ4MDJfNDQ2MGIxNTMtZTBhMi00ZGEwLTk5ZDQtYWRmZjViYzhmMGQw"
+        }
+      },
+      {
+        "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwMzQ4MDJfNDQ2MGIxNTMtZTBhMi00ZGEwLTk5ZDQtYWRmZjViYzhmMGQw",
+        "vsMode": {
+          "mode": "FEST",
+          "id": "VnNNb2RlLTg="
+        },
+        "playedTime": "2023-01-08T03:48:02Z",
+        "vsRule": {
+          "name": "三色奪寶對戰",
+          "id": "VnNSdWxlLTU="
+        },
+        "vsStage": {
+          "name": "竹蟶疏洪道",
+          "id": "VnNTdGFnZS00",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/stage_img/banner/low_resolution/9b1c17b2075479d0397d2fb96efbc6fa3a28900712920e5fe1e9dfc59c6abc5c_3.png?Expires=1704844800&Signature=GV68d1uNmjn7aAbpMQ1kFDlIiKfYTFJ5V8JD0ESAdBfB3lRuTGO4FE3F-NIIBp5V1e2v4hjuDmpeUVFCo8ey0o9zK7ns-7BLx1IFiTPscpbTc4lk9PnkKKPN8SvfWp-5OsGaocgsHaYVOy6Vcfozj8Qjux3aGxze-2pstf0aHHZ8a6zLKdt-p4Cb-w52UF3ovTQuaMK20Cyj4hg9~lUsc64ULEUyA6wFLeC4HwgQQ8iLrBn9VLHEwCuH6QtdN7DWAoLDXcBpO5bwQCmHxFvTQM4Ebwe7fESIGUmeWBAPi~eczqwL7Fh9TOwlWaqt5lTvAGXiovFylqO3Drj8xs4EXw__&Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        "judgement": "WIN",
+        "player": {
+          "weapon": {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_1.png?Expires=1704844800&Signature=wPt8yLH17ep48Qtd5uHpiNPUZzhmLSmq~3ZC4APbI0iIrHlGVRnhbtJ4~ETGPCrC-aD4luuG1XlV2IbCVJELPuZ4uFm9da5xIkLeYFOdtQk9zoLOOhVrm-7g3ws7cCq4KYUNTObITz~J9V7-Rb3C4dODw4uZeAD5lDMNXFmmvNse1tu-YO1qYRuojFXLnfWVYqSh1uOIMcBDk~fBwLYu-jmbe-R2sYXHtn1Cptso4F2UzIlVnzY9p-0x-9yMxf7JQiOClr616ITsKYZ187g7yriKZ57ummJr9bKi9MD5D2PC-8-Cg2iBYHOPRKNXXMKD28nj-YxUcz9ci8-LKrwaNw__&Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "V2VhcG9uLTgwMDA="
+          },
+          "id": "VnNQbGF5ZXItdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbTpSRUdVTEFSOjIwMjMwMTA4VDAzNDgwMl80NDYwYjE1My1lMGEyLTRkYTAtOTlkNC1hZGZmNWJjOGYwZDA6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "festGrade": "永遠的辣派"
+        },
+        "knockout": "NEITHER",
+        "myTeam": {
+          "result": {
+            "paintPoint": 696,
+            "score": null
+          }
+        },
+        "nextHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwOFQwMzUzMDlfNzViZTc1N2EtYjk1Ny00MjU1LTg4NjUtMjc4MGJkY2I0NWU2"
+        },
+        "previousHistoryDetail": {
+          "id": "VnNIaXN0b3J5RGV0YWlsLXUtYXZzZHRtcXd4emJxZnNmamFubW06UkVHVUxBUjoyMDIzMDEwN1QxNTAzMTVfYmJkYjI2MzctODllYy00NDJhLWI2ODAtYjEyODE4ZTZkY2Rl"
+        }
+      }
+    ]
+  }
+}

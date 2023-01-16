@@ -252,8 +252,8 @@ namespace Stat.Itok.Core
                         - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.FromHours(0))).TotalSeconds;
             body.EndAt = body.StartAt + battle["duration"].TryWith<int?>() ?? 300;
 
-            //SCOREBOARD: our & other teams
-            FillScoreBoard(battle, body, userLang, gearInfoDict);
+            //SCOREBOARD: our & other teams(their and third)
+            FillScoreBoardAndPlayers(battle, body, userLang, gearInfoDict);
 
             //SPLATFEST 
             FillSplafest(battle, body);
@@ -292,6 +292,11 @@ namespace Stat.Itok.Core
                     body.OurTeamPercent = battle["myTeam"]["result"]["paintRatio"].TryWith<decimal?>() * 100;
                     body.TheirTeamPercent =
                         (battle["otherTeams"] as JArray)[0]["result"]["paintRatio"].TryWith<decimal?>() * 100;
+                    if (body.Rule == StatInkRule.TriColor)
+                    {
+                        body.ThirdTeamPercent =
+                        (battle["otherTeams"] as JArray)[1]["result"]["paintRatio"].TryWith<decimal?>() * 100;
+                    }
                 }
                 catch (Exception)
                 {
@@ -300,6 +305,10 @@ namespace Stat.Itok.Core
 
                 body.OurTeamInked = body.OurTeamPlayers.Sum(x => x.Inked ?? 0);
                 body.TheirTeamInked = body.TheirTeamPlayers.Sum(x => x.Inked ?? 0);
+                if (body.Rule == StatInkRule.TriColor)
+                {
+                    body.ThirdTeamInked = body.ThirdTeamPlayers.Sum(x => x.Inked ?? 0);
+                }
             }
 
             if (body.Lobby == StatInkLobby.Private)
@@ -463,10 +472,31 @@ namespace Stat.Itok.Core
                 body.ClountChange = battle["festMatch"]["contribution"].TryWith<int?>();
                 if (body.Lobby == StatInkLobby.SplatFestChallenge)
                     body.FestPower = battle["festMatch"]["myFestPower"].TryWith<decimal?>();
+
+                body.OurTeamColor = ConvertAsColorStr(battle["myTeam"]["color"]);
+                body.OurTeamTheme = battle["myTeam"]["festTeamName"]?.TryWith<string>();
+
+                var otherTeamsArray = battle["otherTeams"] as JArray;
+                var theirTeam = otherTeamsArray[0];
+                body.TheirTeamColor = ConvertAsColorStr(theirTeam["color"]);
+                body.TheirTeamTheme = theirTeam["festTeamName"]?.TryWith<string>();
+
+                if (body.Rule == StatInkRule.TriColor)
+                {
+                    body.OurTeamRole = ConvertTriColorRole(battle["myTeam"]["tricolorRole"]?.TryWith<string>());
+                    body.TheirTeamRole = ConvertTriColorRole(theirTeam["tricolorRole"]?.TryWith<string>());
+                    if (otherTeamsArray.Count > 1)
+                    {
+                        var thirdTeam = otherTeamsArray[1];
+                        body.ThirdTeamColor = ConvertAsColorStr(thirdTeam["color"]);
+                        body.ThirdTeamTheme = thirdTeam["festTeamName"]?.TryWith<string>();
+                        body.ThirdTeamRole = ConvertTriColorRole(thirdTeam["tricolorRole"]?.TryWith<string>());
+                    }
+                }
             }
         }
 
-        private static void FillScoreBoard(JToken battle, StatInkBattleBody body,
+        private static void FillScoreBoardAndPlayers(JToken battle, StatInkBattleBody body,
             string userLang, Dictionary<string, string> gearInfoDict)
         {
             var myTeam = battle["myTeam"]["players"] as JArray;
@@ -475,12 +505,21 @@ namespace Stat.Itok.Core
                 var playerJ = myTeam[i];
                 body.OurTeamPlayers.Add(BuildStatInkPlayer(playerJ, i, userLang, gearInfoDict));
             }
-
-            var otherTeams = (battle["otherTeams"] as JArray)[0]["players"] as JArray;
-            for (int i = 0; i < otherTeams.Count; i++)
+            var otherTeamsArray = battle["otherTeams"] as JArray;
+            var theirTeam = otherTeamsArray[0]["players"] as JArray;
+            for (int i = 0; i < theirTeam.Count; i++)
             {
-                var playerJ = otherTeams[i];
+                var playerJ = theirTeam[i];
                 body.TheirTeamPlayers.Add(BuildStatInkPlayer(playerJ, i, userLang, gearInfoDict));
+            }
+            if (body.Rule == StatInkRule.TriColor && otherTeamsArray.Count > 1)
+            {
+                var thirdTeam = otherTeamsArray[1]["players"] as JArray;
+                for (int i = 0; i < thirdTeam.Count; i++)
+                {
+                    var playerJ = thirdTeam[i];
+                    body.ThirdTeamPlayers.Add(BuildStatInkPlayer(playerJ, i, userLang, gearInfoDict));
+                }
             }
         }
 
@@ -660,7 +699,7 @@ namespace Stat.Itok.Core
                 case 15: return "zatou";
                 case 16: return "sumeshi";
 
-                default: throw new NotSupportedException("NO STAGE PARSED");
+                default: return stageId.ToString(); // return stage_id as Alias
             }
         }
 
@@ -682,6 +721,21 @@ namespace Stat.Itok.Core
             return null;
         }
 
+        private static string ConvertAsColorStr(JToken colorObj)
+        {
+            var r = (int?)(colorObj["r"].TryWith<decimal?>() * 255);
+            var g = (int?)(colorObj["g"].TryWith<decimal?>() * 255);
+            var b = (int?)(colorObj["b"].TryWith<decimal?>() * 255);
+            var a = (int?)(colorObj["a"].TryWith<decimal?>() * 255);
+            return $"{r?.ToString("x2")}{g?.ToString("x2")}{b?.ToString("x2")}{a?.ToString("x2")}";
+        }
+
+        private static string ConvertTriColorRole(string rawRole)
+        {
+            if (rawRole == "DEFENSE") return "defender";
+            return "attacker";
+        }
+
         private static StatInkLobby ExtractStatInkLobby(JToken battle)
         {
             var mode = battle["vsMode"]["mode"].TryWith<string>();
@@ -700,7 +754,7 @@ namespace Stat.Itok.Core
             if (mode == "FEST")
             {
                 var vsModeId = ParseVsModeId(battle["vsMode"]["id"].TryWith<string>());
-                if (vsModeId == 6)
+                if (vsModeId == 6 || vsModeId == 8) //open or tricolor
                     return StatInkLobby.SplatFestOpen;
                 if (vsModeId == 7)
                     return StatInkLobby.SplatFestChallenge;

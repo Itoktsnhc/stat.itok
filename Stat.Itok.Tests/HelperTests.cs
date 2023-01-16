@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using Stat.Itok.Core;
 
 namespace Stat.Itok.Tests
@@ -50,6 +49,15 @@ namespace Stat.Itok.Tests
         {
             var str = File.ReadAllText("./samples/resp/nin_misc_config.json");
             var res = JsonConvert.DeserializeObject<NinMiscConfig>(str);
+        }
+
+        [TestMethod]
+        public void TestTriColorConvert()
+        {
+            var groupStr = File.ReadAllText("./samples/tricolor/0/group.json");
+            var detail_1 = File.ReadAllText("./samples/tricolor/0/detail.json");
+            var res = StatHelper.BuildStatInkBattleBody(detail_1, groupStr);
+
         }
     }
 }
