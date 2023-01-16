@@ -260,7 +260,7 @@ public record StatInkBattleBody
     public string PrivateNote { get; set; }
 
     [JsonProperty("link_url")]
-    public string LinkUrl { get; set; } = "https://stat.itok.xyz/";
+    public string LinkUrl { get; set; }
 
     [JsonProperty("agent")]
     public string Agent { get; set; } = "stat.itok";
