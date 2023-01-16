@@ -38,7 +38,7 @@
     "lang_override": "Choose the language for in-game text (medals, nameplate etc.)",
     "mode_select": "Select battle modes",
     "mode_none_warning": "None of these selected will disable monitor!!!",
-    "mode_label_turf_war": "Turf War, SplatFest",
+    "mode_label_turf_war": "Turf War, SplatFest(contains tricolor)",
     "mode_label_ranked": "Bankara(Ranked)",
     "mode_label_x_match": "XMatch",
     "label_stat_ink_api": "stat.ink's API key",
