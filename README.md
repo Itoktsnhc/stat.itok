@@ -2,7 +2,8 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/keep_func_alive.yml?branch=main&label=Keep%20Site%20Alive)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/static_website.yml?branch=release%2Fstatic&label=web)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/background_worker.yml?branch=release%2Fbackground&label=worker)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/background_worker.yml?branch=release%2Fbackground&label=worker)  
+[![CodeFactor](https://www.codefactor.io/repository/github/itoktsnhc/stat.itok/badge)](https://www.codefactor.io/repository/github/itoktsnhc/stat.itok)
 
 
 A tool/system for uploading your splatoon3 battle history from NSOAPP to [stat.ink](https://stat.ink/)
