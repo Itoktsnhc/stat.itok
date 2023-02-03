@@ -64,8 +64,9 @@ public class JobDispatcher
                 jobs.Add(job.Data);
             }
         }
-
-        _logger.LogInformation("JobExecutor GOT {N} Records", jobs.Count);
+        _logger.LogInformation("JobExecutor GOT Total {N} records", jobs.Count);
+        jobs = jobs.Where(x => x.Enabled).ToList();
+        _logger.LogInformation("JobExecutor GOT {N} active records", jobs.Count);
         if (jobs.Count <= 0) return;
 
         foreach (var job in jobs)
