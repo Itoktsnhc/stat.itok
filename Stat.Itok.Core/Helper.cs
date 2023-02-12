@@ -527,7 +527,9 @@ namespace Stat.Itok.Core
             string userLang, Dictionary<string, string> gearInfoDict)
         {
             var player = new StatInkPlayer();
-            player.Me = playerJ["isMySelf"].TryWith<bool?>() == true ? StatInkBoolean.Yes : StatInkBoolean.No;
+            player.Me = playerJ["isMyself"].TryWith<bool?>() == true
+                || playerJ["isMySelf"].TryWith<bool?>() == true
+                ? StatInkBoolean.Yes : StatInkBoolean.No;
             player.Name = playerJ["name"].TryWith<string>();
             player.Number = playerJ["nameId"].TryWith<string>();
             player.SplashtagTitle = playerJ["byname"].TryWith<string>();

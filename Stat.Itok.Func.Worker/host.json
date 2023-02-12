@@ -11,9 +11,9 @@
   "extensions": {
     "queues": {
       "maxPollingInterval": "00:01:00",
-      "visibilityTimeout": "00:05:00",
+      "visibilityTimeout": "00:10:00",
       "batchSize": 16,
-      "maxDequeueCount": 5,
+      "maxDequeueCount": 72,
       "newBatchThreshold": 8,
       "messageEncoding": "none"
     }
