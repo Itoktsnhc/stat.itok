@@ -4,6 +4,7 @@ namespace Stat.Itok.Core
 {
     public class GlobalConfig
     {
+        public EmailConfig EmailConfig { get; set; }
         public string StorageAccountConnStr { get; set; }
         public string CosmosDbConnStr { get; set; }
         public string CosmosDbPkPrefix { get; set; } = "dev";
@@ -33,6 +34,7 @@ namespace Stat.Itok.Core
         public string StatInkFullGearApi { get; set; } = "https://stat.ink/api/v3/ability?full=1";
         public FallbackConfig FallbackConfig { get; set; }
         public string JobSysBase { get; set; } = "http://jobtracker.itok.xyz";
+        public int MaxNeedBuildFromBeginCount { get; set; } = 12 * 24;
     }
 
     public class FallbackConfig
@@ -64,5 +66,18 @@ namespace Stat.Itok.Core
     {
         [JsonProperty("apis")]
         public Dictionary<string, string> APIs { get; set; } = new Dictionary<string, string>();
+    }
+
+    /// <summary>
+    /// Defai
+    /// </summary>
+    public class EmailConfig
+    {
+        public string Server { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string FromEmail { get; set; } = "stat.itok";
+        public string AdminEmail { get; set; }
+        public int Port { get; set; } = 465;
     }
 }

@@ -42,7 +42,11 @@ public class UpsertJobConfig
         try
         {
             var jobConfig = JsonConvert.DeserializeObject<JobConfig>(bodyStr);
-            await validator.ValidateAsync(jobConfig);
+
+            jobConfig.NotificationEmail = jobConfig.NotificationEmail?.Trim();
+            jobConfig.StatInkApiKey = jobConfig.StatInkApiKey?.Trim();
+
+            await validator.ValidateAndThrowAsync(jobConfig);
             jobConfig!.Id = $"nin_user_{jobConfig.NinAuthContext.UserInfo.Id}";
             var precheckRes = await _mediator.Send(new ReqPreCheck()
             {
@@ -79,5 +83,10 @@ public class JobConfigValidator : AbstractValidator<JobConfig>
         RuleFor(config => config.EnabledQueries).NotNull();
 
         RuleFor(config => config.StatInkApiKey).NotEmpty();
+        When(config => !string.IsNullOrWhiteSpace(config.NotificationEmail), () =>
+        {
+            RuleFor(config => config.NotificationEmail).EmailAddress();
+        });
+
     }
 }

@@ -56,6 +56,8 @@ namespace Stat.Itok.Shared
         public string ForcedUserLang { get; set; }
         public string StatInkApiKey { get; set; }
         public bool ForceOverride { get; set; } = false;
+        public int NeedBuildFromBeginCount { get; set; }
+        public string NotificationEmail { get; set; }
     }
 
     public class ApiResp

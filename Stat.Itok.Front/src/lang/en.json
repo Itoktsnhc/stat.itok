@@ -45,7 +45,9 @@
     "link_stat_ink_api": "To Copy stat.ink's API key",
     "placeholder_stat_ink_api": "Paste your stat.ink's API key",
     "btn_update": "Create/Update",
-    "loading_label": "Loading remote profile"
+    "loading_label": "Loading remote profile",
+    "notification_email_label": "Email me if Nintendo account tested invalid",
+    "placeholder_notification_email": "Enter your email address for notification"
   },
   "error_info": {
     "form_not_ok": "Please fill in all fields",
@@ -54,7 +56,8 @@
     "upsert_error": "Create/Update failed ! you may need logout and retry.",
     "no_exist_profile_found": "No exist remote profile found, please create first",
     "profile_validation_failed": "Profile validation failed, please logout and retry",
-    "no_more_history_found": "No More Records"
+    "no_more_history_found": "No More Records",
+    "upsert_error_ex": "Create/Update failed ! "
   },
   "btn_logout": "Logout",
   "history": {

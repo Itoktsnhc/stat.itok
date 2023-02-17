@@ -15,6 +15,10 @@ using Stat.Itok.Core.Handlers;
 using Microsoft.Azure.Cosmos;
 using Microsoft.Azure.Cosmos.Linq;
 using Microsoft.Extensions.Options;
+using MailKit.Net.Smtp;
+using MimeKit;
+using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
+using MailKit.Net.Proxy;
 
 namespace Stat.Itok.Func.Worker.Functions;
 
@@ -87,8 +91,12 @@ public class JobDispatcher
         var checkRes = await _mediator.Send(new ReqPreCheck { AuthContext = jobConfig.NinAuthContext });
         if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
         {
-            throw new Exception("PreCheckResult.NeedBuildFromBegin");
+            jobConfig.NeedBuildFromBeginCount++;
+            await DoWarningIfNeedAsync(jobConfig);
+            _logger.LogError($"job config: {jobConfig.Id} failed renew");
+            return;
         }
+        jobConfig.NeedBuildFromBeginCount = 0;
 
         jobConfig.NinAuthContext = checkRes.AuthContext;
         var ninMiscConfig = await _mediator.Send(new ReqGetNinMiscConfig());
@@ -111,6 +119,64 @@ public class JobDispatcher
         }
 
         await DispatchJobRunTasksAsync(jobConfig, jobRunTaskList);
+    }
+
+    private async Task DoWarningIfNeedAsync(JobConfig jobConfig)
+    {
+        if (!jobConfig.Enabled || jobConfig.NeedBuildFromBeginCount < _options.Value.MaxNeedBuildFromBeginCount) return;
+        jobConfig.Enabled = false;
+        await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
+        await SendWarningEmailAsync(jobConfig);
+    }
+
+    private async Task SendWarningEmailAsync(JobConfig config)
+    {
+        if (_options.Value.EmailConfig == null)
+        {
+            _logger.LogWarning($"{nameof(_options.Value.EmailConfig)} is null or empty");
+            return;
+        }
+        if (string.IsNullOrWhiteSpace(config.NotificationEmail))
+        {
+            _logger.LogWarning($"{nameof(config.NotificationEmail)} is null or empty");
+            return;
+        }
+        try
+        {
+            var mailConfig = _options.Value.EmailConfig;
+            using var client = new SmtpClient();
+#if DEBUG 
+            //china main_land for gmail connection
+            client.ProxyClient = new HttpProxyClient("127.0.0.1", 10245);
+#endif
+            await client.ConnectAsync(mailConfig.Server, mailConfig.Port, true);
+            await client.AuthenticateAsync(mailConfig.Username, mailConfig.Password);
+            var mail = new MimeMessage();
+            mail.From.Add(new MailboxAddress(mailConfig.FromEmail, mailConfig.Username));
+            mail.To.Add(new MailboxAddress(config.NotificationEmail, config.NotificationEmail));
+            mail.Bcc.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
+            var content = config.ForcedUserLang.StartsWith("zh-", StringComparison.InvariantCultureIgnoreCase) ?
+                @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效，如需继续使用对战历史监控功能，请重新设置。"
+                : "The Nintendo account information you previously configured on the stat.itok website has been tested to be invalid. " +
+                "If you wish to continue using the match history monitoring feature, please config again.";
+            var bodyBuilder = new BodyBuilder
+            {
+                TextBody = @$"
+Hi {config.NinAuthContext?.UserInfo?.Nickname ?? config.NotificationEmail}:
+
+    {content}
+
+Thanks.
+"
+            };
+            mail.Body = bodyBuilder.ToMessageBody();
+            mail.Subject = "[Stat.Itok] Warning";
+            await client.SendAsync(mail);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, $"Error when {nameof(SendWarningEmailAsync)}");
+        }
     }
 
     private async Task<IList<BattleTaskPayload>> GetJobRunTasksAsync(

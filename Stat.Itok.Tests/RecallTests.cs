@@ -31,7 +31,7 @@ namespace Stat.Itok.Tests
                 {
                     StorageAccountConnStr = content["GlobalConfig__StorageAccountConnStr"],
                     CosmosDbConnStr = content["GlobalConfig__CosmosDbConnStr"],
-                    CosmosDbPkPrefix = content["GlobalConfig__CosmosDbPkPrefix"]
+                    CosmosDbPkPrefix = content["GlobalConfig__CosmosDbPkPrefix"],
                 }))
                 .AddSingleton<IJobTrackerClient, JobTrackerClient>(_ =>
                 {

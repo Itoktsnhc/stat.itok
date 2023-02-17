@@ -42,7 +42,9 @@
     "link_stat_ink_api": "去复制stat.ink的API密钥",
     "placeholder_stat_ink_api": "填入你的stat.ink的API密钥",
     "btn_update": "创建/更新",
-    "loading_label": "加载远端配置中"
+    "loading_label": "加载远端配置中",
+    "notification_email_label": "如果任天堂账户失效,通知我",
+    "placeholder_notification_email": "请输入接收邮箱"
   },
   "error_info": {
     "form_not_ok": "请填入所有字段",
@@ -51,7 +53,8 @@
     "upsert_error": "创建/更新 失败！请登出账号后重试",
     "no_exist_profile_found": "未找到远端配置，请先创建配置",
     "profile_validation_failed": "远端配置校验失败，请登出账号后重试",
-    "no_more_history_found": "没有更多的记录了"
+    "no_more_history_found": "没有更多的记录了",
+    "upsert_error_ex": "更新失败"
   },
   "btn_logout": "登出",
   "history": {

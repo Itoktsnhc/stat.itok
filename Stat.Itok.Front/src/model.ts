@@ -39,6 +39,8 @@ export class JobConfigLite {
   enabledQueries: string[] = [];
   forcedUserLang: string;
   statInkApiKey: string;
+  enabled: boolean;
+  notificationEmail: string;
 }
 
 export enum JobState {
