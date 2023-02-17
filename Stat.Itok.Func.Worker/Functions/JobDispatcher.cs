@@ -136,11 +136,6 @@ public class JobDispatcher
             _logger.LogWarning($"{nameof(_options.Value.EmailConfig)} is null or empty");
             return;
         }
-        if (string.IsNullOrWhiteSpace(config.NotificationEmail))
-        {
-            _logger.LogWarning($"{nameof(config.NotificationEmail)} is null or empty");
-            return;
-        }
         try
         {
             var mailConfig = _options.Value.EmailConfig;
@@ -153,8 +148,16 @@ public class JobDispatcher
             await client.AuthenticateAsync(mailConfig.Username, mailConfig.Password);
             var mail = new MimeMessage();
             mail.From.Add(new MailboxAddress(mailConfig.FromEmail, mailConfig.Username));
-            mail.To.Add(new MailboxAddress(config.NotificationEmail, config.NotificationEmail));
-            mail.Bcc.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
+            if (string.IsNullOrWhiteSpace(config.NotificationEmail))
+            {
+                mail.To.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
+            }
+            else
+            {
+                mail.To.Add(new MailboxAddress(config.NotificationEmail, config.NotificationEmail));
+                mail.Bcc.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
+            }
+           
             var content = config.ForcedUserLang.StartsWith("zh-", StringComparison.InvariantCultureIgnoreCase) ?
                 @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效，如需继续使用对战历史监控功能，请重新设置。"
                 : "The Nintendo account information you previously configured on the stat.itok website has been tested to be invalid. " +
