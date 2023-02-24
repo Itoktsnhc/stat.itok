@@ -123,7 +123,10 @@ public class JobDispatcher
 
     private async Task DoWarningIfNeedAsync(JobConfig jobConfig)
     {
-        if (!jobConfig.Enabled || jobConfig.NeedBuildFromBeginCount < _options.Value.MaxNeedBuildFromBeginCount) return;
+        if (!jobConfig.Enabled
+            ||
+            jobConfig.NeedBuildFromBeginCount <
+            Math.Min(_options.Value.MaxNeedBuildFromBeginCount, jobConfig.NeedBuildFromBeginLimit)) return;
         jobConfig.Enabled = false;
         await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
         await SendWarningEmailAsync(jobConfig);
@@ -157,7 +160,7 @@ public class JobDispatcher
                 mail.To.Add(new MailboxAddress(config.NotificationEmail, config.NotificationEmail));
                 mail.Bcc.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
             }
-           
+
             var content = config.ForcedUserLang.StartsWith("zh-", StringComparison.InvariantCultureIgnoreCase) ?
                 @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效，如需继续使用对战历史监控功能，请重新设置。"
                 : "The Nintendo account information you previously configured on the stat.itok website has been tested to be invalid. " +

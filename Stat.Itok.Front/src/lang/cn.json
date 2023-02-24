@@ -44,7 +44,9 @@
     "btn_update": "创建/更新",
     "loading_label": "加载远端配置中",
     "notification_email_label": "如果任天堂账户失效,通知我",
-    "placeholder_notification_email": "请输入接收邮箱"
+    "placeholder_notification_email": "请输入接收邮箱",
+    "auth _error_limit_label": "错误次数上限(stat.itok 将每5分钟检测一次新的记录)",
+    "placeholder_error_limit": "不可小于12"
   },
   "error_info": {
     "form_not_ok": "请填入所有字段",

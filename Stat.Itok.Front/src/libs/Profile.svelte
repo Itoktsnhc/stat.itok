@@ -20,10 +20,11 @@
   if ($locale == "en-US") forcedUserLang = "en-US";
   export let statInkApiKey = "";
   export let notificationEmail = "";
+  export let authErrorLimit = 12;
   const re =
     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
   let isSubmittingJobConfig = false;
-  function isFormOk(p1: any, p2: any, p3: any) {
+  function isFormOk(p1: any, p2: any, p3: any, p4: any) {
     return (
       forcedUserLang !== null &&
       forcedUserLang !== undefined &&
@@ -34,13 +35,14 @@
       (notificationEmail === null ||
         notificationEmail === undefined ||
         notificationEmail == "" ||
-        notificationEmail.match(re) !== null)
+        notificationEmail.match(re) !== null) &&
+      authErrorLimit >= 12
     );
   }
   async function upsertJobConfigAsync() {
     isSubmittingJobConfig = true;
     try {
-      if (!isFormOk("", "", "")) {
+      if (!isFormOk("", "", "", "")) {
         messenger.toast({
           message: $_("error_info.form_not_ok") as string,
           type: "is-warning",
@@ -78,6 +80,7 @@
       jobConfig.statInkApiKey = statInkApiKey;
       jobConfig.notificationEmail = notificationEmail;
       jobConfig.enabled = true;
+      jobConfig.needBuildFromBeginLimit = authErrorLimit;
       var res = await fetch("/api/job_config/upsert", {
         method: "POST",
         headers: {
@@ -254,16 +257,26 @@
         href="https://stat.ink/profile">{$_("profile.link_stat_ink_api")}</a
       >
       <br />
-
       <div class="is-italic is-size-7 py-1 level-left has-text-weight-medium">
         {$_("profile.notification_email_label")}
       </div>
+
       <input
         class="input"
         type="text"
         bind:value={notificationEmail}
         placeholder={$_("profile.placeholder_notification_email")}
       />
+      <div class="is-italic is-size-7 py-1 level-left has-text-weight-medium">
+        {$_("profile.auth _error_limit_label")}
+      </div>
+      <input
+        class="input"
+        type="text"
+        bind:value={authErrorLimit}
+        placeholder={$_("profile.placeholder_error_limit")}
+      />
+
       <br />
       <hr />
       <div class="level">
@@ -276,7 +289,8 @@
             disabled={!isFormOk(
               forcedUserLang,
               statInkApiKey,
-              notificationEmail
+              notificationEmail,
+              authErrorLimit
             )}>{$_("profile.btn_update")}</button
           >
         </div>

@@ -47,7 +47,9 @@
     "btn_update": "Create/Update",
     "loading_label": "Loading remote profile",
     "notification_email_label": "Email me if Nintendo account tested invalid",
-    "placeholder_notification_email": "Enter your email address for notification"
+    "placeholder_notification_email": "Enter your email address for notification",
+    "auth _error_limit_label": "Test failed count limit(stat.itok will check for account's new records per 5 minutes)",
+    "placeholder_error_limit": "Cannot less than 12"
   },
   "error_info": {
     "form_not_ok": "Please fill in all fields",

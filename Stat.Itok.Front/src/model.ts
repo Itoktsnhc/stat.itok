@@ -41,6 +41,7 @@ export class JobConfigLite {
   statInkApiKey: string;
   enabled: boolean;
   notificationEmail: string;
+  needBuildFromBeginLimit: number
 }
 
 export enum JobState {

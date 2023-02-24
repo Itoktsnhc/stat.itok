@@ -45,7 +45,7 @@ public class UpsertJobConfig
 
             jobConfig.NotificationEmail = jobConfig.NotificationEmail?.Trim();
             jobConfig.StatInkApiKey = jobConfig.StatInkApiKey?.Trim();
-
+            jobConfig.NeedBuildFromBeginLimit = Math.Max(12, jobConfig.NeedBuildFromBeginLimit);
             await validator.ValidateAndThrowAsync(jobConfig);
             jobConfig!.Id = $"nin_user_{jobConfig.NinAuthContext.UserInfo.Id}";
             var precheckRes = await _mediator.Send(new ReqPreCheck()
@@ -87,6 +87,7 @@ public class JobConfigValidator : AbstractValidator<JobConfig>
         {
             RuleFor(config => config.NotificationEmail).EmailAddress();
         });
+        RuleFor(config => config.NeedBuildFromBeginLimit).GreaterThanOrEqualTo(12);
 
     }
 }
