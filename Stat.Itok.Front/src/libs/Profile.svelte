@@ -160,6 +160,7 @@
         forcedUserLang = jobConfig.forcedUserLang;
         statInkApiKey = jobConfig.statInkApiKey;
         notificationEmail = jobConfig.notificationEmail;
+        authErrorLimit = jobConfig.needBuildFromBeginLimit;
       } else {
         throw new Error($_("error_info.no_exist_profile_found"));
       }
