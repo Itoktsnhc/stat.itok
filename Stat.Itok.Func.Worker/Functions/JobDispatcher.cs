@@ -123,6 +123,7 @@ public class JobDispatcher
 
     private async Task DoWarningIfNeedAsync(JobConfig jobConfig)
     {
+        await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
         if (!jobConfig.Enabled
             ||
             jobConfig.NeedBuildFromBeginCount <
