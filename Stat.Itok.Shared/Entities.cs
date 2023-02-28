@@ -57,7 +57,7 @@ namespace Stat.Itok.Shared
         public string StatInkApiKey { get; set; }
         public bool ForceOverride { get; set; } = false;
         public int NeedBuildFromBeginCount { get; set; }
-        public int NeedBuildFromBeginLimit { get; set; } = 12;
+        public int NeedBuildFromBeginLimit { get; set; } = 120;
         public string NotificationEmail { get; set; }
     }
 

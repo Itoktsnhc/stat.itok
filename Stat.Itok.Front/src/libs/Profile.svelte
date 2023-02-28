@@ -20,7 +20,7 @@
   if ($locale == "en-US") forcedUserLang = "en-US";
   export let statInkApiKey = "";
   export let notificationEmail = "";
-  export let authErrorLimit = 12;
+  export let authErrorLimit = 120;
   const re =
     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
   let isSubmittingJobConfig = false;
