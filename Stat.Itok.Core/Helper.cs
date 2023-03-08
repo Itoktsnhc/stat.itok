@@ -203,7 +203,7 @@ namespace Stat.Itok.Core
             dynamic persistedQuery = new ExpandoObject();
             dynamic variables = new ExpandoObject();
             if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(value))
-                ((IDictionary<string, object>)variables)[name] = value;
+                ((IDictionary<string, object>) variables)[name] = value;
             persistedQuery.sha256Hash = queryHash;
             persistedQuery.version = 1;
             extensions.persistedQuery = persistedQuery;
@@ -247,7 +247,7 @@ namespace Stat.Itok.Core
 
             //start -> end
             body.StartAt =
-                (long)(DateTimeOffset.Parse(battle["playedTime"].TryWith<string>(), CultureInfo.InvariantCulture,
+                (long) (DateTimeOffset.Parse(battle["playedTime"].TryWith<string>(), CultureInfo.InvariantCulture,
                             DateTimeStyles.AssumeUniversal)
                         - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.FromHours(0))).TotalSeconds;
             body.EndAt = body.StartAt + battle["duration"].TryWith<int?>() ?? 300;
@@ -295,7 +295,7 @@ namespace Stat.Itok.Core
                     if (body.Rule == StatInkRule.TriColor)
                     {
                         body.ThirdTeamPercent =
-                        (battle["otherTeams"] as JArray)[1]["result"]["paintRatio"].TryWith<decimal?>() * 100;
+                            (battle["otherTeams"] as JArray)[1]["result"]["paintRatio"].TryWith<decimal?>() * 100;
                     }
                 }
                 catch (Exception)
@@ -379,7 +379,7 @@ namespace Stat.Itok.Core
                         var challenge = parent["bankaraMatchChallenge"];
                         if (challenge != null && challenge.Type != JTokenType.Null)
                         {
-                            var ranks = new[] { "c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s" };
+                            var ranks = new[] {"c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s"};
                             if (challenge["rank_up_battle"].TryWith<bool?>() == true)
                                 body.RankUpBattle = StatInkBoolean.Yes;
                             else
@@ -460,7 +460,7 @@ namespace Stat.Itok.Core
                 }
             }
         }
-
+        
         private static void FillSplafest(JToken battle, StatInkBattleBody body)
         {
             if (body.Lobby == StatInkLobby.SplatFestChallenge || body.Lobby == StatInkLobby.SplatFestOpen)
@@ -473,12 +473,10 @@ namespace Stat.Itok.Core
                 if (body.Lobby == StatInkLobby.SplatFestChallenge)
                     body.FestPower = battle["festMatch"]["myFestPower"].TryWith<decimal?>();
 
-                body.OurTeamColor = ConvertAsColorStr(battle["myTeam"]["color"]);
                 body.OurTeamTheme = battle["myTeam"]["festTeamName"]?.TryWith<string>();
 
                 var otherTeamsArray = battle["otherTeams"] as JArray;
                 var theirTeam = otherTeamsArray[0];
-                body.TheirTeamColor = ConvertAsColorStr(theirTeam["color"]);
                 body.TheirTeamTheme = theirTeam["festTeamName"]?.TryWith<string>();
 
                 if (body.Rule == StatInkRule.TriColor)
@@ -488,7 +486,6 @@ namespace Stat.Itok.Core
                     if (otherTeamsArray.Count > 1)
                     {
                         var thirdTeam = otherTeamsArray[1];
-                        body.ThirdTeamColor = ConvertAsColorStr(thirdTeam["color"]);
                         body.ThirdTeamTheme = thirdTeam["festTeamName"]?.TryWith<string>();
                         body.ThirdTeamRole = ConvertTriColorRole(thirdTeam["tricolorRole"]?.TryWith<string>());
                     }
@@ -500,21 +497,26 @@ namespace Stat.Itok.Core
             string userLang, Dictionary<string, string> gearInfoDict)
         {
             var myTeam = battle["myTeam"]["players"] as JArray;
+            body.OurTeamColor = ConvertAsColorStr(battle["myTeam"]["color"]);
             for (int i = 0; i < myTeam.Count; i++)
             {
                 var playerJ = myTeam[i];
                 body.OurTeamPlayers.Add(BuildStatInkPlayer(playerJ, i, userLang, gearInfoDict));
             }
+
             var otherTeamsArray = battle["otherTeams"] as JArray;
             var theirTeam = otherTeamsArray[0]["players"] as JArray;
+            body.TheirTeamColor = ConvertAsColorStr(otherTeamsArray[0]["color"]);
             for (int i = 0; i < theirTeam.Count; i++)
             {
                 var playerJ = theirTeam[i];
                 body.TheirTeamPlayers.Add(BuildStatInkPlayer(playerJ, i, userLang, gearInfoDict));
             }
+
             if (body.Rule == StatInkRule.TriColor && otherTeamsArray.Count > 1)
             {
                 var thirdTeam = otherTeamsArray[1]["players"] as JArray;
+                body.ThirdTeamColor = ConvertAsColorStr(otherTeamsArray[1]["color"]);
                 for (int i = 0; i < thirdTeam.Count; i++)
                 {
                     var playerJ = thirdTeam[i];
@@ -528,8 +530,9 @@ namespace Stat.Itok.Core
         {
             var player = new StatInkPlayer();
             player.Me = playerJ["isMyself"].TryWith<bool?>() == true
-                || playerJ["isMySelf"].TryWith<bool?>() == true
-                ? StatInkBoolean.Yes : StatInkBoolean.No;
+                        || playerJ["isMySelf"].TryWith<bool?>() == true
+                ? StatInkBoolean.Yes
+                : StatInkBoolean.No;
             player.Name = playerJ["name"].TryWith<string>();
             player.Number = playerJ["nameId"].TryWith<string>();
             player.SplashtagTitle = playerJ["byname"].TryWith<string>();
@@ -725,10 +728,10 @@ namespace Stat.Itok.Core
 
         private static string ConvertAsColorStr(JToken colorObj)
         {
-            var r = (int?)(colorObj["r"].TryWith<decimal?>() * 255);
-            var g = (int?)(colorObj["g"].TryWith<decimal?>() * 255);
-            var b = (int?)(colorObj["b"].TryWith<decimal?>() * 255);
-            var a = (int?)(colorObj["a"].TryWith<decimal?>() * 255);
+            var r = (int?) (colorObj["r"].TryWith<decimal?>() * 255);
+            var g = (int?) (colorObj["g"].TryWith<decimal?>() * 255);
+            var b = (int?) (colorObj["b"].TryWith<decimal?>() * 255);
+            var a = (int?) (colorObj["a"].TryWith<decimal?>() * 255);
             return $"{r?.ToString("x2")}{g?.ToString("x2")}{b?.ToString("x2")}{a?.ToString("x2")}";
         }
 
@@ -845,10 +848,10 @@ namespace Stat.Itok.Core
                 Array.Copy(hash, 0, newGuid, 0, 16);
 
                 // set the four most significant bits (bits 12 through 15) of the time_hi_and_version field to the appropriate 4-bit version number from Section 4.1.3 (step 8)
-                newGuid[6] = (byte)((newGuid[6] & 0x0F) | (version << 4));
+                newGuid[6] = (byte) ((newGuid[6] & 0x0F) | (version << 4));
 
                 // set the two most significant bits (bits 6 and 7) of the clock_seq_hi_and_reserved to zero and one, respectively (step 10)
-                newGuid[8] = (byte)((newGuid[8] & 0x3F) | 0x80);
+                newGuid[8] = (byte) ((newGuid[8] & 0x3F) | 0x80);
 
                 // convert the resulting UUID to local byte order (step 13)
                 GuidUtility.SwapByteOrder(newGuid);

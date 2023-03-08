@@ -57,7 +57,31 @@ namespace Stat.Itok.Tests
             var groupStr = File.ReadAllText("./samples/tricolor/0/group.json");
             var detail_1 = File.ReadAllText("./samples/tricolor/0/detail.json");
             var res = StatHelper.BuildStatInkBattleBody(detail_1, groupStr);
+            Assert.IsFalse(string.IsNullOrEmpty(res.OurTeamColor));
+            Assert.IsFalse(string.IsNullOrEmpty(res.TheirTeamColor));
+            Assert.IsFalse(string.IsNullOrEmpty(res.ThirdTeamColor));
+        }
 
+        [TestMethod]
+        public void TestXColorConvert()
+        {
+            var groupStr = File.ReadAllText("./samples/Detail_XMatch/0_group.json");
+            var detail_1 = File.ReadAllText("./samples/Detail_XMatch/1.json");
+            var res = StatHelper.BuildStatInkBattleBody(detail_1, groupStr);
+            Assert.IsFalse(string.IsNullOrEmpty(res.OurTeamColor));
+            Assert.IsFalse(string.IsNullOrEmpty(res.TheirTeamColor));
+            Assert.IsTrue(string.IsNullOrEmpty(res.ThirdTeamColor));
+        }
+        
+        [TestMethod]
+        public void TestRankedColorConvert()
+        {
+            var groupStr = File.ReadAllText("./convert/1/Group.json");
+            var detail_1 = File.ReadAllText("./convert/1/Detail.json");
+            var res = StatHelper.BuildStatInkBattleBody(detail_1, groupStr);
+            Assert.IsFalse(string.IsNullOrEmpty(res.OurTeamColor));
+            Assert.IsFalse(string.IsNullOrEmpty(res.TheirTeamColor));
+            Assert.IsTrue(string.IsNullOrEmpty(res.ThirdTeamColor));
         }
     }
 }
