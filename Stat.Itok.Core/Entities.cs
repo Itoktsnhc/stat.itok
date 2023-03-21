@@ -360,6 +360,10 @@ public class StatInkPlayer
     [JsonConverter(typeof(StringEnumConverter))]
     [JsonProperty("disconnected")]
     public StatInkBoolean Disconnected { get; set; }
+    
+    [JsonConverter(typeof(StringEnumConverter))]
+    [JsonProperty("crown")]
+    public StatInkBoolean? Crown { get; set; }
 }
 
 public class StatInkGears

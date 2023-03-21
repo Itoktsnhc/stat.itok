@@ -72,7 +72,7 @@ namespace Stat.Itok.Tests
             Assert.IsFalse(string.IsNullOrEmpty(res.TheirTeamColor));
             Assert.IsTrue(string.IsNullOrEmpty(res.ThirdTeamColor));
         }
-        
+
         [TestMethod]
         public void TestRankedColorConvert()
         {
@@ -82,6 +82,17 @@ namespace Stat.Itok.Tests
             Assert.IsFalse(string.IsNullOrEmpty(res.OurTeamColor));
             Assert.IsFalse(string.IsNullOrEmpty(res.TheirTeamColor));
             Assert.IsTrue(string.IsNullOrEmpty(res.ThirdTeamColor));
+        }
+
+        [TestMethod]
+        public void TestXMatch_0()
+        {
+            var groupStr = File.ReadAllText("./samples/Detail_XMatch/0_group.json");
+            var detail_1 = File.ReadAllText("./samples/Detail_XMatch/1.json");
+            var res = StatHelper.BuildStatInkBattleBody(detail_1, groupStr);
+            Assert.AreEqual(res.ChallengeWin, 2);
+            Assert.AreEqual(res.ChallengeLose, 3);
+            Assert.AreEqual(res.OurTeamPlayers[0].Crown, StatInkBoolean.No);
         }
     }
 }

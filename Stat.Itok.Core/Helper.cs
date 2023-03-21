@@ -455,6 +455,8 @@ namespace Stat.Itok.Core
                         {
                             var afterXPower = xMatchMeasurement["xPowerAfter"]?.TryWith<decimal?>();
                             body.XPowerAfter = afterXPower;
+                            body.ChallengeWin = xMatchMeasurement["winCount"]?.TryWith<int?>();
+                            body.ChallengeLose = xMatchMeasurement["loseCount"]?.TryWith<int?>();
                         }
                     }
                 }
@@ -553,6 +555,9 @@ namespace Stat.Itok.Core
             {
                 player.Disconnected = StatInkBoolean.Yes;
             }
+            player.Crown = playerJ["crown"].TryWith<bool?>()  == true
+                ? StatInkBoolean.Yes
+                : playerJ["crown"].TryWith<bool?>() == false? StatInkBoolean.No: null;
 
             FillGearsForPlayerJ(playerJ, player, userLang, gearInfoDict);
 
