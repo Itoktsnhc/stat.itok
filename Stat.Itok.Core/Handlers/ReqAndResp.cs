@@ -70,10 +70,17 @@ public record ReqDoGraphQL : IRequest<string>
 public record ReqGetNinMiscConfig: IRequest<NinMiscConfig> { }
 
 
-public record ReqPostBattle : IRequest<StatInkPostBattleSuccess>
+public record ReqPostBattle : IRequest<StatInkPostBodySuccess>
 {
     public string ApiKey { get; set; }
     public StatInkBattleBody Body { get; set; }
 }
 
+public record ReqPostSalmon : IRequest<StatInkPostBodySuccess>
+{
+    public string ApiKey { get; set; }
+    public StatInkSalmonBody Body { get; set; }
+}
+
 public record ReqGetGearsInfo : IRequest<Dictionary<string, string>>;
+public record ReqGetSalmonWeaponsInfo : IRequest<Dictionary<string, string>>;

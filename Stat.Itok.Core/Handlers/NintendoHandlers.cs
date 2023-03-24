@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 using Stat.Itok.Core.ApiClients;
+using Stat.Itok.Core.Helpers;
 
 namespace Stat.Itok.Core.Handlers;
 
@@ -31,8 +32,8 @@ public class NintendoPublicHandlers : HandlerBase,
 
     public async Task<NinTokenCopyInfo> Handle(ReqGetTokenCopyInfo request, CancellationToken cancellationToken)
     {
-        var authCode = StatHelper.BuildRandomSizedBased64Str(32);
-        var authCodeVerifier = StatHelper.BuildRandomSizedBased64Str(64);
+        var authCode = StatInkHelper.BuildRandomSizedBased64Str(32);
+        var authCodeVerifier = StatInkHelper.BuildRandomSizedBased64Str(64);
         var strResp = await RunWithDefaultPolicy(_api.GetTokenCopyUrlAsync(authCode, authCodeVerifier), true);
         return new NinTokenCopyInfo()
         {
@@ -134,6 +135,7 @@ public class NintendoPublicHandlers : HandlerBase,
                 checkResp = PreCheckResult.NeedBuildFromBegin;
             }
         }
+
         return new RespPreCheck
         {
             AuthContext = newAuthContext,
@@ -201,7 +203,7 @@ public class NintendoPrivateHandlers : HandlerBase,
         var strResp =
             await RunWithDefaultPolicy(_api.GetPreGameTokenAsync(request.AccessTokenInfo.AccessToken, request.User));
         var jTokenResp =
-            strResp.ThrowIfJsonPropChainNotFound(new[] { "result", "webApiServerCredential", "accessToken" });
+            strResp.ThrowIfJsonPropChainNotFound(new[] {"result", "webApiServerCredential", "accessToken"});
 
         return jTokenResp["result"]!["webApiServerCredential"]!["accessToken"]!.Value<string>();
     }
@@ -211,7 +213,7 @@ public class NintendoPrivateHandlers : HandlerBase,
         var strResp =
             await RunWithDefaultPolicy(_api.GetGameTokenAsync(request.PreGameToken, request.User));
         var jTokenResp =
-            strResp.ThrowIfJsonPropChainNotFound(new[] { "result", "accessToken" });
+            strResp.ThrowIfJsonPropChainNotFound(new[] {"result", "accessToken"});
 
         return jTokenResp["result"]!["accessToken"]!.Value<string>();
     }

@@ -10,6 +10,7 @@ using System.Net.Http.Json;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
+using Stat.Itok.Core.Helpers;
 
 namespace Stat.Itok.Core.ApiClients
 {
@@ -131,7 +132,7 @@ namespace Stat.Itok.Core.ApiClients
                 {
                     var jsUrl = await GetMainJsUrlPathAsync();
                     var jsContent = await GetWebViewRawContentAsync(jsUrl);
-                    liveData = StatHelper.ParseNinWebViewData(jsContent);
+                    liveData = StatInkHelper.ParseNinWebViewData(jsContent);
 
                     var html = await _client.GetStringAsync(_options.Value.NSOAppStoreLink);
                     var doc = new HtmlDocument();
@@ -553,7 +554,7 @@ namespace Stat.Itok.Core.ApiClients
 
             var cookieList = new List<string>() { $"_gtoken={gToken}" };
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
-            var queryBody = StatHelper.BuildGraphQLBody(queryHash, varName, varValue);
+            var queryBody = StatInkHelper.BuildGraphQLBody(queryHash, varName, varValue);
             req.Content = new StringContent(queryBody, Encoding.UTF8, "application/json");
             var rawResp = await _client.SendAsync(req);
             return rawResp;

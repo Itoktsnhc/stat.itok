@@ -17,8 +17,8 @@ using Microsoft.Azure.Cosmos.Linq;
 using Microsoft.Extensions.Options;
 using MailKit.Net.Smtp;
 using MimeKit;
-using static Microsoft.ApplicationInsights.MetricDimensionNames.TelemetryContext;
 using MailKit.Net.Proxy;
+using Stat.Itok.Core.Helpers;
 
 namespace Stat.Itok.Func.Worker.Functions;
 
@@ -77,7 +77,7 @@ public class JobDispatcher
         {
             try
             {
-                await DispatchJobRunAsync(job);
+                await DispatchBattleJobRunAsync(job);
             }
             catch (Exception ex)
             {
@@ -86,7 +86,7 @@ public class JobDispatcher
         }
     }
 
-    private async Task DispatchJobRunAsync(JobConfig jobConfig)
+    private async Task DispatchBattleJobRunAsync(JobConfig jobConfig)
     {
         var checkRes = await _mediator.Send(new ReqPreCheck { AuthContext = jobConfig.NinAuthContext });
         if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
@@ -105,6 +105,7 @@ public class JobDispatcher
         await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
 
         var jobRunTaskList = new List<BattleTaskPayload>();
+
         foreach (var queryName in jobConfig.EnabledQueries)
         {
             var queryNameFull = queryName.EndsWith("Query") ? queryName : queryName + "Query";
@@ -194,7 +195,7 @@ Thanks.
             AuthContext = jobConfig.NinAuthContext,
             QueryHash = queryHash,
         });
-        var jobRunTaskList = StatHelper.ExtractBattleIds(groupRes, queryHash)
+        var jobRunTaskList = BattleHelper.ExtractBattleIds(groupRes, queryHash)
             .SelectMany(x => x.BattleIds.Select(y => new BattleTaskPayload
             {
                 BattleGroupRawStr = x.RawBattleGroup,
@@ -242,7 +243,7 @@ Thanks.
                     $"[{nameof(BattleTaskPayload)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]",
                     jobRun.TrackedId)
                 {
-                    Options = StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr),
+                    Options = BattleHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr),
                     Tags = new List<string> { StatItokConstants.StatVersion },
                     CreatedBy = "stat.itok"
 
@@ -254,11 +255,11 @@ Thanks.
                 {
                     var queueClient = await _storage.GeJobRunTaskQueueClientAsync();
                     var jobRunTaskLite = battleTask.Adapt<JobRunTaskLite>();
-                    jobRunTaskLite.PayloadId = $"{jobConfig.Id}__{StatHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)}";
+                    jobRunTaskLite.PayloadId = $"{jobConfig.Id}__{BattleHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)}";
 
                     var resp = await queueClient
                         .SendMessageAsync(
-                            Helper.CompressStr(JsonConvert.SerializeObject(jobRunTaskLite)), TimeSpan.FromSeconds(30));
+                            CommonHelper.CompressStr(JsonConvert.SerializeObject(jobRunTaskLite)), TimeSpan.FromSeconds(30));
                     await _jobTracker.UpdateJobStatesAsync(battleTask.TrackedId,
                         new UpdateJobStateDto(JobState.WaitingToRun, $"queue message Id:{resp.Value.MessageId}"));
 
@@ -290,7 +291,7 @@ Thanks.
         {
             var targetBattleId =
                 CosmosEntity.BuildCosmosRealId<BattleTaskPayload>(
-                    $"{jobConfig.Id}__{StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr)}", _options.Value.CosmosDbPkPrefix);
+                    $"{jobConfig.Id}__{BattleHelper.GetBattleIdForStatInk(task.BattleIdRawStr)}", _options.Value.CosmosDbPkPrefix);
 
             var query = new QueryDefinition(
                 query: "SELECT * FROM store AS s WHERE s.id = @targetBattleId"
@@ -307,7 +308,7 @@ Thanks.
                 foreach (var _ in response)
                 {
                     _logger.LogInformation("{jobConfigId}: ignoring exist battle {battleId} ",
-                        jobConfig.Id, StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
+                        jobConfig.Id, BattleHelper.GetBattleIdForStatInk(task.BattleIdRawStr));
                     return;
                 }
             }

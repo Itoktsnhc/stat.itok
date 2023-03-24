@@ -17,6 +17,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Stat.Itok.Core;
 using Stat.Itok.Core.Handlers;
+using Stat.Itok.Core.Helpers;
 
 namespace Stat.Itok.Func.Worker.Functions;
 
@@ -49,7 +50,7 @@ public class JobRunTaskWorker
         [QueueTrigger(StatItokConstants.JobRunTaskQueueName, Connection = "WorkerQueueConnStr")]
         QueueMessage queueMsg)
     {
-        var msgStr = Helper.DecompressStr(queueMsg.MessageText);
+        var msgStr = CommonHelper.DecompressStr(queueMsg.MessageText);
         var jobRunTaskLite = JsonConvert.DeserializeObject<JobRunTaskLite>(msgStr);
         var task = await _cosmos.GetEntityIfExistAsync<BattleTaskPayload>(jobRunTaskLite!.PayloadId);
         await _jobTracker.UpdateJobStatesAsync(jobRunTaskLite.TrackedId,
@@ -69,12 +70,14 @@ public class JobRunTaskWorker
 
             if (status == RunBattleTaskStatus.Ok)
             {
-                await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.RanToCompletion, $"{status}, {msg}"));
+                await _jobTracker.UpdateJobStatesAsync(task.TrackedId,
+                    new UpdateJobStateDto(JobState.RanToCompletion, $"{status}, {msg}"));
                 await _jobTracker.UpdateJobOptionsAsync(task.TrackedId, new UpdateJobOptionsDto($"{status}, {msg}"));
             }
             else
             {
-                await _jobTracker.UpdateJobStatesAsync(task.TrackedId, new UpdateJobStateDto(JobState.Faulted, $"{status}, {msg}"));
+                await _jobTracker.UpdateJobStatesAsync(task.TrackedId,
+                    new UpdateJobStateDto(JobState.Faulted, $"{status}, {msg}"));
             }
         }
         catch (Exception e)
@@ -98,6 +101,22 @@ public class JobRunTaskWorker
         return gearsInfo;
     }
 
+
+    private async Task<Dictionary<string, string>> GetSalmonWeaponsInfoAsync(bool unCached = false)
+    {
+
+        if (!unCached &&
+            _memCache.TryGetValue<Dictionary<string, string>>(nameof(GetSalmonWeaponsInfoAsync), out var weaponInfo) &&
+            weaponInfo != null)
+        {
+            return weaponInfo;
+        }
+
+        weaponInfo = await _mediator.Send(new ReqGetSalmonWeaponsInfo());
+        _memCache.Set(nameof(GetSalmonWeaponsInfoAsync), weaponInfo);
+        return weaponInfo;
+    }
+
     private async Task<(RunBattleTaskStatus, string)> RunBattleTaskAsync(BattleTaskPayload task)
     {
         var debugContext = new BattleTaskDebugContext();
@@ -108,62 +127,50 @@ public class JobRunTaskWorker
             debugContext.JobConfigId = task.JobConfigId;
             debugContext.BattleIdRawStr = task.BattleIdRawStr;
             debugContext.BattleGroupRawStr = task.BattleGroupRawStr;
-            debugContext.StatInkBattleId = StatHelper.GetBattleIdForStatInk(task.BattleIdRawStr);
+            debugContext.StatInkBattleId = BattleHelper.GetBattleIdForStatInk(task.BattleIdRawStr);
 
             #endregion
 
             var ninMiscConfig = await _mediator.Send(new ReqGetNinMiscConfig());
             var queryHashDict = ninMiscConfig.GraphQL.APIs;
-            var gearsInfo = await GetGearsInfoAsync();
+
             var jobConfig = await _cosmos.GetEntityIfExistAsync<JobConfig>(task.JobConfigId);
-            var vsDetailHistoryQueryName = $"{nameof(QueryHash.VsHistoryDetail)}Query";
             jobConfig.CorrectUserInfoLang();
 
-            var detailRes = await _mediator.Send(new ReqDoGraphQL()
-            {
-                AuthContext = jobConfig.NinAuthContext,
-                QueryHash = queryHashDict[vsDetailHistoryQueryName],
-                VarName = "vsResultId",
-                VarValue = task.BattleIdRawStr
-            });
+            var (detailRes, payloadType) =
+                await GetDetailResAndTypeAsync(jobConfig.NinAuthContext, task.BattleIdRawStr, queryHashDict);
 
             #region Fill Basic DebugInfo
 
             debugContext.BattleDetailRawStr = detailRes;
+            debugContext.PayloadType = payloadType;
 
             #endregion
 
-            var battleBody = StatHelper.BuildStatInkBattleBody(
-                detailRes,
+            var (battleBody, salmonBody, resp) = await BuildBodyAndSendAsync(payloadType, detailRes,
                 task.BattleGroupRawStr,
-                jobConfig.NinAuthContext.UserInfo.Lang, gearsInfo);
+                jobConfig, debugContext);
+
 
             #region Fill Basic DebugInfo
 
             debugContext.StatInkBattleBody = battleBody;
+            debugContext.StatInkSalmonBody = salmonBody;
 
             #endregion
-            if (battleBody == null)
+
+            if (battleBody == null && salmonBody == null)
             {
                 return (RunBattleTaskStatus.BattleBodyIsNull, $"DebugContext:[{debugContext.FilePath}]");
             }
-            var resp = await _mediator.Send(new ReqPostBattle
-            {
-                ApiKey = jobConfig.StatInkApiKey,
-                Body = battleBody
-            });
 
             #region Fill Basic DebugInfo
 
-            debugContext.StatInkPostBattleSuccess = resp;
+            debugContext.StatInkPostBodySuccess = resp;
 
             #endregion
 
             return (RunBattleTaskStatus.Ok, $"URL:[{resp.Url}]  ID:[{resp.Id}]");
-        }
-        catch (Exception)
-        {
-            throw;
         }
         finally
         {
@@ -179,12 +186,77 @@ public class JobRunTaskWorker
         }
     }
 
+    private async Task<(StatInkBattleBody, StatInkSalmonBody, StatInkPostBodySuccess)>
+        BuildBodyAndSendAsync(string payloadType, string detailRes, string groupRawStr, JobConfig jobConfig, BattleTaskDebugContext debugContext)
+    {
+        switch (payloadType)
+        {
+            case nameof(QueryHash.VsHistoryDetail):
+                {
+                    var gearsInfo = await GetGearsInfoAsync();
+                    var battleBody = BattleHelper.BuildStatInkBattleBody(
+                        detailRes, groupRawStr, jobConfig.NinAuthContext.UserInfo.Lang, gearsInfo);
+                    debugContext.StatInkBattleBody = battleBody;
+                    if (battleBody != null)
+                    {
+                        var resp = await _mediator.Send(new ReqPostBattle
+                        {
+                            ApiKey = jobConfig.StatInkApiKey,
+                            Body = battleBody
+                        });
+                        return (battleBody, null, resp);
+                    }
+
+                    break;
+                }
+            case nameof(QueryHash.CoopHistoryDetail):
+                {
+                    var weaponsInfo = await GetSalmonWeaponsInfoAsync();
+                    var salmonBody = BattleHelper.BuildStatInkSalmonBody(
+                        detailRes, groupRawStr, jobConfig.NinAuthContext.UserInfo.Lang, weaponsInfo);
+                    debugContext.StatInkSalmonBody = salmonBody;
+                    if (salmonBody != null)
+                    {
+                        var resp = await _mediator.Send(new ReqPostSalmon
+                        {
+                            ApiKey = jobConfig.StatInkApiKey,
+                            Body = salmonBody
+                        });
+                        return (null, salmonBody, resp);
+                    }
+
+                    break;
+                }
+        }
+
+
+        return (null, null, null);
+    }
+
+
+    private async Task<(string, string)> GetDetailResAndTypeAsync(NinAuthContext authContext, string payloadIdRawStr,
+        Dictionary<string, string> queryHashDict)
+    {
+        var decoded = Encoding.UTF8.GetString(Convert.FromBase64String(payloadIdRawStr));
+        var payloadType = decoded.StartsWith(nameof(QueryHash.CoopHistoryDetail))
+            ? nameof(QueryHash.CoopHistoryDetail)
+            : nameof(QueryHash.VsHistoryDetail);
+        var detailRes = await _mediator.Send(new ReqDoGraphQL()
+        {
+            AuthContext = authContext,
+            QueryHash = queryHashDict[$"{payloadType}Query"],
+            VarName = payloadType is nameof(QueryHash.CoopHistoryDetail) ? "coopHistoryDetailId" : "vsResultId",
+            VarValue = payloadIdRawStr
+        });
+        return (detailRes, payloadType);
+    }
+
     private async Task SaveDebugContextAsync(BattleTaskDebugContext entity)
     {
         var container = await _storage.GetBlobContainerClientAsync<BattleTaskDebugContext>();
         var blob = container.GetBlockBlobClient(entity.FilePath);
         using var ms =
-            new MemoryStream(Helper.CompressBytes(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(entity))));
+            new MemoryStream(CommonHelper.CompressBytes(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(entity))));
         ms.Seek(0, SeekOrigin.Begin);
         await blob.UploadAsync(ms);
         var properties = await blob.GetPropertiesAsync();
@@ -212,7 +284,7 @@ public class JobRunTaskWorker
         using var ms = new MemoryStream();
         await blob.DownloadToAsync(ms);
         ms.Seek(0, SeekOrigin.Begin);
-        var content = Encoding.UTF8.GetString(Helper.DecompressBytes(ms.ToArray()));
+        var content = Encoding.UTF8.GetString(CommonHelper.DecompressBytes(ms.ToArray()));
         return JsonConvert.DeserializeObject<BattleTaskDebugContext>(content);
     }
 }

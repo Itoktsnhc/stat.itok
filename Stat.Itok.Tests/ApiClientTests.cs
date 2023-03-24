@@ -3,6 +3,8 @@ using Microsoft.Extensions.Options;
 using Stat.Itok.Core;
 using Stat.Itok.Core.ApiClients;
 using System.Net;
+using Newtonsoft.Json;
+using Stat.Itok.Core.Helpers;
 
 namespace Stat.Itok.Tests
 {
@@ -10,6 +12,7 @@ namespace Stat.Itok.Tests
     public class NintendoApiClientTests
     {
         private readonly IServiceProvider _sp;
+
         public NintendoApiClientTests()
         {
             var svc = new ServiceCollection()
@@ -24,7 +27,7 @@ namespace Stat.Itok.Tests
                     {
                         APIs = new Dictionary<string, string>
                         {
-                            { "PhotoAlbumRefetchQuery","123"}
+                            {"PhotoAlbumRefetchQuery", "123"}
                         }
                     }
                 })
@@ -42,7 +45,6 @@ namespace Stat.Itok.Tests
                         AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
                     });
             _sp = svc.BuildServiceProvider();
-
         }
 
         [TestMethod]
@@ -54,7 +56,7 @@ namespace Stat.Itok.Tests
         }
 
         [TestMethod]
-        public async Task TestGetWebViewVerion()
+        public async Task TestGetWebViewVersion()
         {
             var api = _sp.GetRequiredService<INintendoApiForTest>();
             var ver = await api.GetWebViewVersionAsync();
@@ -65,10 +67,21 @@ namespace Stat.Itok.Tests
         public async Task TestGetTokenPasteUrl()
         {
             var api = _sp.GetRequiredService<INintendoApiForTest>();
-            var authCode = StatHelper.BuildRandomSizedBased64Str(32);
-            var authCodeVerifier = StatHelper.BuildRandomSizedBased64Str(64);
+            var authCode = StatInkHelper.BuildRandomSizedBased64Str(32);
+            var authCodeVerifier = StatInkHelper.BuildRandomSizedBased64Str(64);
             var verifyUrl = await api.GetTokenCopyUrlAsync(authCode, authCodeVerifier);
             Assert.IsNotNull(verifyUrl);
+        }
+
+        [TestMethod]
+        public async Task TestSalmonQueryAsync()
+        {
+            var api = _sp.GetRequiredService<INintendoApiForTest>();
+            var authConfig = JsonConvert.DeserializeObject<JobConfig>(File.ReadAllText("./configs/user_auth_cfg.json"));
+            var authContext = authConfig.NinAuthContext;
+            var resp = await api.SendGraphQLRequestAsync(authContext.GameToken, authContext.BulletToken,
+                authContext.UserInfo, "379f0d9b78b531be53044bcac031b34b", "coopHistoryDetailId","Q29vcEhpc3RvcnlEZXRhaWwtdS1xcTJlajJ3ZG9rM3k1d2V1N25tbToyMDIzMDMyM1QxNDMwMTZfYmExYzYyMzUtNTRkZC00MWJmLWJhZWQtOTExODI4OWI0M2I1");
+            var content = await resp.Content.ReadAsStringAsync();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.Numerics;
+using System.Runtime.Serialization;
 using Azure.Data.Tables;
 using Azure;
 using Newtonsoft.Json;
@@ -99,7 +100,7 @@ public record StatInkBattleBody
 {
     [JsonConverter(typeof(StringEnumConverter))]
     [JsonProperty("test")]
-    public StatInkBoolean Test { get; set; }
+    public StatInkBoolean Test { get; set; } = StatInkBoolean.No;
 
     [JsonProperty("uuid")]
     public string UUID { get; set; }
@@ -360,7 +361,7 @@ public class StatInkPlayer
     [JsonConverter(typeof(StringEnumConverter))]
     [JsonProperty("disconnected")]
     public StatInkBoolean Disconnected { get; set; }
-    
+
     [JsonConverter(typeof(StringEnumConverter))]
     [JsonProperty("crown")]
     public StatInkBoolean? Crown { get; set; }
@@ -387,7 +388,7 @@ public class StatInkGear
     public List<string> SecondaryAbility { get; set; } = new List<string>();
 }
 
-public class StatInkPostBattleSuccess
+public class StatInkPostBodySuccess
 {
     [JsonProperty("id")]
     public string Id { get; set; }
@@ -398,7 +399,8 @@ public class StatInkPostBattleSuccess
 
 public enum RunBattleTaskStatus
 {
-    Ok = 0, BattleBodyIsNull = 1
+    Ok = 0,
+    BattleBodyIsNull = 1
 }
 
 public record JobRun
@@ -428,12 +430,209 @@ public class BattleTaskDebugContext
     public string JobConfigId { get; set; }
     public string StatInkBattleId { get; set; }
     public StatInkBattleBody StatInkBattleBody { get; set; }
-    public StatInkPostBattleSuccess StatInkPostBattleSuccess { get; set; }
+    public StatInkSalmonBody StatInkSalmonBody { get; set; }
+    public StatInkPostBodySuccess StatInkPostBodySuccess { get; set; }
     public string BattleIdRawStr { get; set; }
     public string BattleGroupRawStr { get; set; }
     public string BattleDetailRawStr { get; set; }
+    public string PayloadType { get; set; }
 }
 
 public class PoisonQueueMsg
 {
+}
+
+/// <summary>
+/// https://github.com/fetus-hina/stat.ink/wiki/Spl3-API:-Salmon-%EF%BC%8D-Post
+/// </summary>
+public record StatInkSalmonBody
+{
+    [JsonProperty("uuid")]
+    public string Uuid { get; set; }
+
+    [JsonProperty("private")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public StatInkBoolean IsPrivate { get; set; }
+
+    [JsonProperty("big_run")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public StatInkBoolean IsBigRun { get; set; }
+
+    [JsonProperty("stage")]
+    public string Stage { get; set; }
+
+    [JsonProperty("danger_rate")]
+    public double? DangerRate { get; set; }
+
+    [JsonProperty("clear_waves")]
+    public int? ClearWaves { get; set; }
+
+    [JsonProperty("fail_reason")]
+    public string FailReason { get; set; }
+
+    [JsonProperty("king_smell")]
+    public int? KingSmell { get; set; }
+
+    [JsonProperty("king_salmonid")]
+    public string KingSalmonId { get; set; }
+
+    [JsonProperty("clear_extra")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public StatInkBoolean ClearExtra { get; set; }
+
+    [JsonProperty("title_before")]
+    public string TitleBefore { get; set; }
+
+    [JsonProperty("title_exp_before")]
+    public int? TitleExpBefore { get; set; }
+
+    [JsonProperty("title_after")]
+    public string TitleAfter { get; set; }
+
+    [JsonProperty("title_exp_after")]
+    public int? TitleExpAfter { get; set; }
+
+    [JsonProperty("golden_eggs")]
+    public int? GoldenEggs { get; set; }
+
+    [JsonProperty("power_eggs")]
+    public int? PowerEggs { get; set; }
+
+    [JsonProperty("gold_scale")]
+    public int? GoldScale { get; set; }
+
+    [JsonProperty("silver_scale")]
+    public int? SilverScale { get; set; }
+    
+    [JsonProperty("bronze_scale")]
+    public int? BronzeScale { get; set; }
+
+    [JsonProperty("job_point")]
+    public int? JobPoint { get; set; }
+
+    [JsonProperty("job_score")]
+    public int? JobScore { get; set; }
+
+    [JsonProperty("job_rate")]
+    public double? JobRate { get; set; }
+
+    [JsonProperty("job_bonus")]
+    public int? JobBonus { get; set; }
+
+    [JsonProperty("waves")]
+    public List<Wave> Waves { get; set; }
+
+    [JsonProperty("players")]
+    public List<SalmonPlayer> Players { get; set; }
+
+    [JsonProperty("bosses")]
+    public Dictionary<string, Boss> Bosses { get; set; }
+
+    [JsonProperty("note")]
+    public string Note { get; set; }
+
+    [JsonProperty("private_note")]
+    public string PrivateNote { get; set; }
+
+    [JsonProperty("link_url")]
+    public string LinkUrl { get; set; }
+
+    [JsonProperty("agent")]
+    public string Agent { get; set; } = "stat.itok";
+
+    [JsonProperty("agent_version")]
+    public string AgentVersion { get; set; } = StatItokConstants.StatVersion;
+
+    [JsonProperty("agent_variables")]
+    public Dictionary<string, string> AgentVariables { get; set; }
+
+    [JsonProperty("automated")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public StatInkBoolean Automated { get; set; } = StatInkBoolean.Yes;
+
+    [JsonProperty("start_at")]
+    public long? StartAt { get; set; }
+
+    [JsonProperty("end_at")]
+    public long? EndAt { get; set; }
+}
+
+public record Boss
+{
+    [JsonProperty("appearances")]
+    public int? Appearances { get; set; }
+
+    [JsonProperty("defeated")]
+    public int? Defeated { get; set; }
+
+    [JsonProperty("defeated_by_me")]
+    public int? DefeatedByMe { get; set; }
+}
+
+public record Wave
+{
+    [JsonProperty("tide")]
+    public string Tide { get; set; }
+
+    [JsonProperty("event")]
+    public string Event { get; set; }
+
+    [JsonProperty("golden_quota")]
+    public int? GoldenQuota { get; set; }
+
+    [JsonProperty("golden_delivered")]
+    public int? GoldenDelivered { get; set; }
+
+    [JsonProperty("golden_appearances")]
+    public int? GoldenAppearances { get; set; }
+
+    [JsonProperty("special_uses")]
+    public Dictionary<string, int> SpecialUses { get; set; }
+}
+
+public record SalmonPlayer
+{
+    [JsonProperty("me")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public StatInkBoolean Me { get; set; }
+
+    [JsonProperty("name")]
+    public string Name { get; set; }
+
+    [JsonProperty("number")]
+    public string Number { get; set; }
+
+    [JsonProperty("splashtag_title")]
+    public string SplashTagTitle { get; set; }
+
+    [JsonProperty("uniform")]
+    public string Uniform { get; set; }
+
+    [JsonProperty("special")]
+    public string Special { get; set; }
+
+    [JsonProperty("weapons")]
+    public List<string> Weapons { get; set; }
+
+    [JsonProperty("golden_eggs")]
+    public int? GoldenEggs { get; set; }
+
+    [JsonProperty("golden_assist")]
+    public int? GoldenAssist { get; set; }
+
+    [JsonProperty("power_eggs")]
+    public int? PowerEggs { get; set; }
+
+    [JsonProperty("rescue")]
+    public int? Rescue { get; set; }
+
+    [JsonProperty("rescued")]
+    public int? Rescued { get; set; }
+
+    [JsonProperty("defeat_boss")]
+    public int? DefeatBoss { get; set; }
+
+    [JsonProperty("disconnected")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public StatInkBoolean Disconnected { get; set; } = StatInkBoolean.No;
 }

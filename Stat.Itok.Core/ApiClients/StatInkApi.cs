@@ -9,7 +9,9 @@ namespace Stat.Itok.Core.ApiClients
     {
         Task<IList<string>> GetUuidListAsync(string apiKey);
         Task<HttpResponseMessage> PostBattlesAsync(string apiKey, StatInkBattleBody battle);
+        Task<HttpResponseMessage> PostSalmonAsync(string apiKey, StatInkSalmonBody salmon);
         Task<HttpResponseMessage> GetGearKeyDictAsync();
+        Task<HttpResponseMessage> GetSalmonWeaponKeyDictAsync();
         Task DeleteBattleAsync(string apiKey, string battleId);
     }
 
@@ -63,7 +65,12 @@ namespace Stat.Itok.Core.ApiClients
             rawResp.EnsureSuccessStatusCode();
         }
 
-        //https://github.com/fetus-hina/stat.ink/wiki/Spl3-API:-Post-v3-battle
+        /// <summary>
+        /// https://github.com/fetus-hina/stat.ink/wiki/Spl3-API:-Post-v3-battle
+        /// </summary>
+        /// <param name="apiKey"></param>
+        /// <param name="battle"></param>
+        /// <returns></returns>
         public async Task<HttpResponseMessage> PostBattlesAsync(string apiKey, StatInkBattleBody battle)
         {
             var req = new HttpRequestMessage()
@@ -74,6 +81,28 @@ namespace Stat.Itok.Core.ApiClients
             req.Headers.TryAddWithoutValidation("Authorization", $"Bearer {apiKey}");
             req.Content = new StringContent(JsonConvert.SerializeObject(battle), Encoding.UTF8, "application/json");
             var rawResp = await _client.SendAsync(req);
+            return rawResp;
+        }
+
+        /// <summary>
+        /// https://github.com/fetus-hina/stat.ink/wiki/Spl3-API:-Salmon-%EF%BC%8D-Post
+        /// </summary>
+        public async Task<HttpResponseMessage> PostSalmonAsync(string apiKey, StatInkSalmonBody salmon)
+        {
+            var req = new HttpRequestMessage()
+            {
+                RequestUri = new Uri(_options.Value.StatInkSalmonApi),
+                Method = HttpMethod.Post
+            };
+            req.Headers.TryAddWithoutValidation("Authorization", $"Bearer {apiKey}");
+            req.Content = new StringContent(JsonConvert.SerializeObject(salmon), Encoding.UTF8, "application/json");
+            var rawResp = await _client.SendAsync(req);
+            return rawResp;
+        }
+
+        public async Task<HttpResponseMessage> GetSalmonWeaponKeyDictAsync()
+        {
+            var rawResp = await _client.GetAsync(_options.Value.StatInkSalmonFullWeaponApi);
             return rawResp;
         }
     }

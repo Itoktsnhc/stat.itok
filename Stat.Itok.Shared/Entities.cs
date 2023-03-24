@@ -105,11 +105,6 @@ namespace Stat.Itok.Shared
     public static class QueryHash
     {
         public const int HomeQuery = int.MaxValue;
-        public const int LatestBattleHistories = int.MaxValue;
-        public const int RegularBattleHistories = int.MaxValue;
-        public const int BankaraBattleHistories = int.MaxValue;
-        public const int XBattleHistories = int.MaxValue;
-        public const int PrivateBattleHistories = int.MaxValue;
         public const int VsHistoryDetail = int.MaxValue;
         public const int CoopHistoryDetail = int.MaxValue;
     }

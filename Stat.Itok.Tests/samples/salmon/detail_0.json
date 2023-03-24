@@ -1,0 +1,591 @@
+﻿{
+  "data": {
+    "coopHistoryDetail": {
+      "__typename": "CoopHistoryDetail",
+      "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIzMDExNFQwOTQzMTFfMDJhZTI2NWQtZmU4NS00ZGNjLTgxZDUtYzQ3ZmE3ZDE1YWRl",
+      "afterGrade": {
+        "name": "熟练",
+        "id": "Q29vcEdyYWRlLTM="
+      },
+      "myResult": {
+        "player": {
+          "__isPlayer": "CoopPlayer",
+          "byname": "潮流的长发",
+          "name": "Mr.Fish",
+          "nameId": "4824",
+          "nameplate": {
+            "badges": [
+              {
+                "image": {
+                  "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/d09f4c2a3cd2ae4b86973d5cdb8f138135a57c7692563289d3020c989d03a9e5_0.png?Expires=1704844800\u0026Signature=IaA59o42dEXc~6hPhGe1fAgbIjb2HaPUKFefBNxU~Cc4o0EnxCbiCUVAlLyZBieg9I2vtztIQRJugoy43PHVnvr83tVXwpwePYuiGu4Qlu0AwE0TgOsPf7VJpjcs724TEmggrLf5qOTFEfcGduSCT6u9ea2XjGLaT6uKyOypDff7iHEoWj4cBPYZ6kNDameDmG65M8SX9GLBcY-RXDZz5jZTQb6Thzn7VefTt4Au3c0hqUlP-xZiL8rZ6Iau9NXrOpQ6iFTD6cQBZxF5v4n0KC5doBrtxw4jxLBsy5fgRSdvNz-sHYGoHH74VP2ns9hW-8zykt-PtAMgWkpWt1BpLA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                },
+                "id": "QmFkZ2UtMzAwMjAwMQ=="
+              },
+              {
+                "image": {
+                  "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/cae0db268805251dbf27c482d2cc1c04392a55644de8149d611f6b9a5d145067_0.png?Expires=1704844800\u0026Signature=tBH9dGMZuLob8pfE54Xmm27bzYdPu66AaHdCs7PdGBXRH6gzLbGnpack6~oB9t1lDuNP3z70D50V-nxAJ51WhjTqif7L~-eC3gTClQQdGkZGqDqwEa3NzxOHITTE9OtMed7GP5EHp9jqR3TouuPcTLJKDDNy8c8NieJFUvfyki06~Hil6vA2qodNvcnhDqZmfA2vwNGw64Q4z7TKoEJvnnp0ySFUTNHRtJlX6LVZSUCG-oj5lFgv5IwO5w8SdfmMOQou3MpeSEt7SYWCWqu-xtDf0bXYblJkaWB0xQRi3TzPU7cEa7yDoOj9ejK1rW6gme9ET9Zn4T4ABRdB3ymzOA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                },
+                "id": "QmFkZ2UtMTA4MDAwMA=="
+              },
+              {
+                "image": {
+                  "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/b592f7a8c745ac1ea150f30095e81382d72d978aa41a31f20f89a0ae01ca6613_0.png?Expires=1704844800\u0026Signature=Ok8Pd~jLOCNgQ-92w3OJtIGoo8Tbmvu0WRNBJnWAtKZeZM4eCvmGWY4jqSq5c1A5Qgw8OCKCf54lU~2TphkVE8AVD2bYDI8JIoipNB8VKfgoBAWFousjDtfe0e9dDVa67H89MhN3H0GroVVmcol4rilh3tqYd5YRZhSjRsslGdb42LGEccwNpRsVDIi-Ik9uFntiBmnh1xUZUU5zcbpi1hCp3nD64z8-nl98Q6Jr6OV1LszjOcLQmvNlReXqOLTTdp5BqWQ~iZSxQe4EJq999aX~onRL9cNMaHEdxJd-E7K1lHtsoLXqIFn3GojvmUqBFZoJpmk-IiVJNafwdTMLsw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                },
+                "id": "QmFkZ2UtMzAwMTAwMQ=="
+              }
+            ],
+            "background": {
+              "textColor": {
+                "a": 1.0,
+                "b": 1.0,
+                "g": 1.0,
+                "r": 1.0
+              },
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/npl_img/993daf5fa35c4b8d9e8600cc1be7f228019ccddc081cadbed4620a54badf3da2_0.png?Expires=1704844800\u0026Signature=ISKBXT7ju~0nRn5viI~BRPC4CX-kjz15pbt2go9W7C5OFrBD14fUz64rGiPFJ1DwGiHt7ACbkGdNhNzW45RnQZeWSqZZp9qKU2wS0pIH-fNVzicfoZVWciQjDldn4X72VJRGDXXbOQhM2i8X3Ey0Ck85lBwxN1XS2~I8zh2BMWb8H7D8CxKLzutTlUVWP5GCrrVWvSg9TF05lFaDSZ8CVcY7Ze8luO6~hOKi-W836aRO2mJw8zIAwzjd4WG5awkY2g1OT9hcKG0nGy4BqnxtlJUwonvFJwrIo00-c7g9i1rQil~3AGAUdimEX4SnuihrdtdCFD16rK8o4l9ZUkNWvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "TmFtZXBsYXRlQmFja2dyb3VuZC0xMTA1Ng=="
+            }
+          },
+          "uniform": {
+            "name": "打工连身工作服 橘色",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_skin_img/89df74f2b5fbc49f76fb31f730fed012bb77f903746e81df108958010c95ef53_0.png?Expires=1704844800\u0026Signature=fSLqAf5x1NcRITeKCdOGFh6MJt0ITHArAWPL7BuDdLyyRTnHlyat68JN6ix~bTow4F~QDGcUkqzr~Cv5qmyZMuR4DWndoIQkvdHAXVjb-kITysJjipkZwJFCHvy1QFQbSysIdYFzLX2UN3LCBB4XOimiSTum2UrO7zuTzYFTNG86ZDFso2fnT1EFJv4uygKp5T1TgB9O4Mv~ZB3V-yBJEy24kspA1ujSwGYnpBr1zyWy~IZ68jdZKWG36awLwWSdNtTaHxCwy-mq9hTYOk1pBYE0~PxBGSvP18eOhjRpUhUbpBhdIA8MwXclJHCzRXmE7y9Yu9wI9dX92hVQiArmWQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcFVuaWZvcm0tMQ=="
+          },
+          "id": "Q29vcFBsYXllci11LWF2c2R0bXF3eHpicWZzZmphbm1tOjIwMjMwMTE0VDA5NDMxMV8wMmFlMjY1ZC1mZTg1LTRkY2MtODFkNS1jNDdmYTdkMTVhZGU6dS1hdnNkdG1xd3h6YnFmc2ZqYW5tbQ==",
+          "species": "OCTOLING"
+        },
+        "weapons": [
+          {
+            "name": "熊先生印章狙击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5cc158250a207241f51d767a47bbb6139fe1c4fb652cc182b73aac93baa659c5_0.png?Expires=1704844800\u0026Signature=iUiI7iej~71seNB8h9Ab4QzsxMkoPsCpN2TRVRgN0LcPHcJdxT5~q6Cu6rEOEyADx1q2hfwOWb1FqFQRwhehTcorOEgeNdNTGv4yg-FN4D5Yg5xlVa3wpWDLvw3OnaQOuE--cKP6A6pa-LuKjvHrz5DZpHAAg7EcJZ-Um9n2wswPM8SIR7ZFYEw8UxTjTG29AZ-YOxsRZ1Ad8OayGf1JSB-Fqdt1wGj8kapeRC6GAIozi1E0L7Uo-rKr4XDhgBKpQHyVAqg1axVHUphFMSgpkmEPS89wjcuafHP3vU4pIavIEpH8ZGgLDNNDVsJ0vE4d4YCfQKJIWe81ANQW6T7Jlw__\u0026Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "LACT-450",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/9baac6cc774d0e6f2ac8f6e217d700e6f1f47320130598c5f1e922210ccdcc89_0.png?Expires=1704844800\u0026Signature=K7mluWTv8893dO4peJQjEGZ4hLkyEgPnnwzApdNiUcIhZq5E7r~HDyB9A29Y5IODCfg2Z62vLMorfpimtlet88Smu8SObC6NC3I3G0fYNVjh3wGAd7nBK9dlJVxIGvaCx3HIhcsUfzFduWVzVH~jLDqAeUKZSdwjuTsnnMfyh4v~k~k8MQ7-VkUo7NY-iAft7WOwFTO48HiousMdzGeHIE4MiNvIc0G3LK4xOUubUD-~CghGgPuzLIRJRazM~3~i-u6fmvTmHUjv0nEx3teeM472nnOBIviYnSazKfRQSoDgc2Mlg1tXlRsiKvEeRxvV0iYYzWDvhIl7GI1Tq9NPxQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "熊先生印章狙击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5cc158250a207241f51d767a47bbb6139fe1c4fb652cc182b73aac93baa659c5_0.png?Expires=1704844800\u0026Signature=iUiI7iej~71seNB8h9Ab4QzsxMkoPsCpN2TRVRgN0LcPHcJdxT5~q6Cu6rEOEyADx1q2hfwOWb1FqFQRwhehTcorOEgeNdNTGv4yg-FN4D5Yg5xlVa3wpWDLvw3OnaQOuE--cKP6A6pa-LuKjvHrz5DZpHAAg7EcJZ-Um9n2wswPM8SIR7ZFYEw8UxTjTG29AZ-YOxsRZ1Ad8OayGf1JSB-Fqdt1wGj8kapeRC6GAIozi1E0L7Uo-rKr4XDhgBKpQHyVAqg1axVHUphFMSgpkmEPS89wjcuafHP3vU4pIavIEpH8ZGgLDNNDVsJ0vE4d4YCfQKJIWe81ANQW6T7Jlw__\u0026Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "specialWeapon": {
+          "name": "弹跳声呐",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/463eedc60013608666b260c79ac8c352f9795c3d0cce074d3fbbdbd2c054a56d_0.png?Expires=1704844800\u0026Signature=exr1FgmaSI10LIb~ZSLSJLEr6CVszwL6YK8bddppEmFZveoSturRcZ5Y7MN8-KZECVEdEIYkVf5YHN~SgXwiL4jB1WNsGymeTcDVzhU0RPYQ5jx0Muu7SxeVzpOIRmI8jfrSWgdSdOLe-vA10wWRmMnDI9WOj5w6mSo8E6dKwIkZj2EYaSUf5Idw8fJNYo81ubcg0Lu4v6z~e33MRyPCZHcpccnxc34zcGhaZu7I~h89XtyA-tfxNbC53g5xeOZHyMAqH-LVqJi~l9D8n8sUOP7Nl~PeOEKs8PhYt5ppyvGTPhMri3tfe8pOQopXHxKQmSqdplhUYJXRm5SQsOtunQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+          },
+          "weaponId": 20007
+        },
+        "defeatEnemyCount": 2,
+        "deliverCount": 594,
+        "goldenAssistCount": 0,
+        "goldenDeliverCount": 11,
+        "rescueCount": 4,
+        "rescuedCount": 3
+      },
+      "memberResults": [
+        {
+          "player": {
+            "__isPlayer": "CoopPlayer",
+            "byname": "100%的狗",
+            "name": "ポチ",
+            "nameId": "2082",
+            "nameplate": {
+              "badges": [
+                {
+                  "image": {
+                    "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/721384e6eb4c8497ca3ca71bbbf5e5e50a8892136bfd0e02432a750249906fe9_0.png?Expires=1704844800\u0026Signature=tx1fDlVhfnw2l0jXYnL8~oSIpBb5tc2Cn0l7mLKZleoUr0HyOY8uMwGJGEOtxKUR2GHkOj7LU9YFCtD1q2o2Jmx2F8b7runG32xvedtDX2L8YIE7RQfbEeSdun~eFRyNY2nwOhjTMms~gHqvQxLR1Zl942IcX9ypq44S5PRu1QoIr0GhyZCR4uF4MTLMuNb4EfzgPE8PYcW6fD2xZQwi3DkPKxCc7m1ODgLm7ZehZCxpfsqnKhlPyj9fsXbmdZzgl12JtqcxAj5zxCDTexUZGtjXVrRQF~7zqnA9YHb1TalGoJS3hFWSgJPK82IBwzf3pLn7yUthWgc9MQnRPjCyRw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                  },
+                  "id": "QmFkZ2UtNDEwMDMwMA=="
+                },
+                {
+                  "image": {
+                    "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/912292f110cf1f2fa26a2e3873b6012b799084256936f13597aaac60ef9fe7a7_0.png?Expires=1704844800\u0026Signature=dkx2IGvFIXoQ0D6Wlwbv1CAwyC42v6E5nvGBkEUqVjx0APDzqNEVx53Sn~LEHDX6LPHOKKyrvzZrj4dtqQmTLOMyiFJF4xs5HMQXrE6kOMS9k039y9GMvejreV9SNswH9hpfLUR7gjZbtW3KUBkSyKxZO8V7nZSxvTAwFU~EpaT0SqQ~uGHTnv6DLEUyCpXkHJ42Zjg18gRXgCgosXtcctfMp4L0ltEsXDRLZ4c0cFc5v~mB9FJ9WnSgRPns9MmknUEJj-7RaYGGlene8BI1LKtBLjZ5MBj~PqKtbiiUiL5ZPmErNzEV2aAwof1VmA5FpFDpCOY5lZHLWNKu2JtZaw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                  },
+                  "id": "QmFkZ2UtNDAwMDE3MA=="
+                },
+                {
+                  "image": {
+                    "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/05ec43904e95e3f2107ed862810b55331aeeb9ca3ceeb49700f95481ab26bfc1_0.png?Expires=1704844800\u0026Signature=v4MePzBu0ugGfnRgdU~maRDBwKPFAH5v5LAWjpUllNQHJnS~-CpJB6vtmZxmzYtwCt9COaORxbHSmdrda1DGj4~tDM1edweiNleREIMv7ABQcZbx82KWu3qVSChC~TwXspYHs12VC12E8u3hFvkCP4cB~YnkjhYoCOXAWnYwl6RQ2vQgqNgNlqZtrw2cOQsEe5bkSxVyfWnKCNYGeq5-gHNDy6ksdI5HOgpTOwDxTUPSGButmMu-lWnG1zjBpRwr-Geqrd2habGjt~mpVL8RgDeI~Bo-Lgv-f3EUZYxO-k8eWgc6bGu2BINvfqAbydtneL-VOj2UcFvHuB3yZVYd-w__\u0026Key-Pair-Id=KNBS2THMRC385"
+                  },
+                  "id": "QmFkZ2UtNDEwMDEwMA=="
+                }
+              ],
+              "background": {
+                "textColor": {
+                  "a": 1.0,
+                  "b": 1.0,
+                  "g": 1.0,
+                  "r": 1.0
+                },
+                "image": {
+                  "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/npl_img/7bb1728740cc02013110cf14d37eb6e065873384ca8f6ce78be3ae5f834ad1f0_0.png?Expires=1704844800\u0026Signature=Vq7QzOK~H1clKjNvdhQBFZ5dXn86y8qPvtadZaFz4lxfPwZZKvTUF4CqQ6jNUju~von-AuHibV4dlZWWvYEZVHQUOoY5tklhRPK-hDvV-uFdrfHsUNLHDxFvUejj6bMHiALYUcWF-QbubKPOGBQFaPa9vpzSMmZjusj-8qqxMN484jcmJmUbhnpG08elgmyYGmGa8aumVCP9AgfkOoScha63ZEvFFH5SkMJQKQnbeG-ijMrABEJRJtZ7yVD1ADFt5xFCAZ9OZKPieIZC3APMHf3YLpSYkHKgke3lBSqnOW~l0Ipl~13aHE06MnJwjKaARDJBBCb8-zIrl53kab7iQQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+                },
+                "id": "TmFtZXBsYXRlQmFja2dyb3VuZC0xMTA1NQ=="
+              }
+            },
+            "uniform": {
+              "name": "打工连身工作服 绿色",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_skin_img/87f1b945e1dc58370d4843365714a296ab7d012d2ee6b31eedd3d7fdd840c9a9_0.png?Expires=1704844800\u0026Signature=APg88p64KpUixL57W1llB4xLnij0I4BiIT3YaIYTnWp1BIWL5ns001A4qItW80AXO8Zc0XQNsHO-YnfRg8nVhrv83eyY32v1eo-k9hQe0vxckadfPvpt0EEc1vtb2Yb6nNjmiCZkD2-CsZJAzDz4BU9EE5ySFaNTO3ZcXHxGCYR-3wAMeCgGZkIgCxeflEVPo~3yUOj51-7Uyk27~7-gy2PtyK1RBEXJDd~xp263V21-KybsJGmohkchP7hrmzhR9-n2CIxGI-93Zy7iobXCK9PFbTdgsxySKTUjlpVaLAF9rmCLYUdosDdPBuC5Qu9SMSqpf5vsrWd-lmou-FGYUQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "Q29vcFVuaWZvcm0tMg=="
+            },
+            "id": "Q29vcFBsYXllci11LWF2c2R0bXF3eHpicWZzZmphbm1tOjIwMjMwMTE0VDA5NDMxMV8wMmFlMjY1ZC1mZTg1LTRkY2MtODFkNS1jNDdmYTdkMTVhZGU6dS1hbGVieXBzYXpuM3VpMmptZ25tbQ==",
+            "species": "INKLING"
+          },
+          "weapons": [
+            {
+              "name": "消防栓旋转枪",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800\u0026Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            },
+            {
+              "name": "新叶射击枪",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/8e134a80cd54f4235329493afd43ff754b367a65e460facfcca862b174754b0e_0.png?Expires=1704844800\u0026Signature=au~ZRtplZRuQ9rBWP7rMmBZMY27Z9bbm99sLdXZQQt6ThgZWpQ9nPrUZspB2ll-sxDrk5xh8xPT2-YBOxYoyI8TsQpV0Oz33EyS6C4WxumT9ZvLGhil3-b6jC3vezBvIDteZ9H5Q-VYYqCe6WDaDYTaDgvBs0XINaz0mdKgX4RYZqBS1H7oo50HwpD2iGRwv17irX-3RfZvTZn9S-btyQ6CNm7Wg-CtQdjaTHtxOMyXmggyfMjyHFeyZbXpehPdVty1WQeasa8dvKJQhhSqSZu4xKLa5P4rp6RH15gK7ar1Ry1d760eFG7w0fZTIrA0EV2romMSn3JBO37G~I4hhbA__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            },
+            {
+              "name": "四重弹跳手枪 黑",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e68609e51d30dfb13e1ea996e46995ed1f7cf561caef0fe96314966d0a039109_0.png?Expires=1704844800\u0026Signature=Jh-xT10a-IchDF557-5QYrJZTYHjj8Ic1E8bfw3oU0bc8inq3y84nN0D284frsaTj2GM2BXvW6DJGchU18tcFLoM2it9UrRuKeV3P5miQQMKXxa2IL0-H6~sfR2CWrf-zuxukoSmLm-l4oWmLzNr1AM2-vW~55KzkGfh8PK6bhRucgHlueAaCWzTOkOkpV9x9UgnYdzhNJ4YskuX1LJoXHdUWuTSzJBPQ4Ys~l4av6MNZfSUUIuiSAopl-YKESBq-NYm6AwxsPQWHc8OoqjLLnwOzCUbcEsJrb5w2F5w35KivVevEzMdPvtl-KBI8GYwt~Yl--1PEy8ZHbqXOyCnDg__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            }
+          ],
+          "specialWeapon": {
+            "name": "喷射背包",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/252059408283fbcb69ca9c18b98effd3b8653ab73b7349c42472281e5a1c38f9_0.png?Expires=1704844800\u0026Signature=BxNhz1M6IOCnTjs6NJ87XHxN-6Ib~8EWUIvnpwG8xqXa6X3n42Ghv9vTQaMgkhSNzmJGpsYAIc2wxrDwhNugHg5WgAe6uz~-twvscV54fSjQRfCO5GzD4WjXX3GhM-GJ~mtEuVX3aSQOSo5LDB8ju9QuJFiUBesKq9WMirqX3qUB5SxCfoeY5WMelCcWd-hW-s2bBH2lPo0VL7Nd6tTArB0LffavXjdCLXDAwvvvpDbpDxx~PvTJPJkyd7nnmnHKjuVkAObw8EdaI9vQ2usW~dn3oBGoMeQIvvOEgC-9qi1FVi64GbxmqRGheE1A9Kavh58GGMASnlpcH78t39JYYw__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "weaponId": 20010
+          },
+          "defeatEnemyCount": 8,
+          "deliverCount": 561,
+          "goldenAssistCount": 2,
+          "goldenDeliverCount": 11,
+          "rescueCount": 4,
+          "rescuedCount": 3
+        },
+        {
+          "player": {
+            "__isPlayer": "CoopPlayer",
+            "byname": "VR玩家",
+            "name": "UR はづきれん",
+            "nameId": "3918",
+            "nameplate": {
+              "badges": [
+                null,
+                null,
+                null
+              ],
+              "background": {
+                "textColor": {
+                  "a": 1.0,
+                  "b": 0.00293231895,
+                  "g": 0.302125514,
+                  "r": 0.73720479
+                },
+                "image": {
+                  "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/npl_img/d7b61473019f6ac56967bbd306f9d703302f411ff030976660cda56e6f967ea0_0.png?Expires=1704844800\u0026Signature=ZPJOS1ZlJcbGQKVtLgAjrA9CZZ3~mnVODezX0J5rRDXntfMA0OjJTpOjTysGsxhxMHTsZc2GlMDSS1eJKva8Ou5AisMal2YXmY18~-UPNaFIzZboEoANogf~YtI9G-KGuZhCFzDJy0exFGlYXvzCoU704TEURqLgOFvsdc~5tM8tlGW~7NgUn9wOub-sk6n0lfbegGrAFinNSAz-BM9cUE6UrbJiDcWXrHAOGb~rE9vCGGU7DK9Gajsy94pOGwQNXjvczMi5XSpB5GoaiC2Dj5WVOsRRnsuz3ThXS~GVVgeNnRNesbpM4RqdOaZmmrQLYCT87MROvLCgksgjt1WTHA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                },
+                "id": "TmFtZXBsYXRlQmFja2dyb3VuZC0xMTAwMw=="
+              }
+            },
+            "uniform": {
+              "name": "打工连身工作服 绿色",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_skin_img/87f1b945e1dc58370d4843365714a296ab7d012d2ee6b31eedd3d7fdd840c9a9_0.png?Expires=1704844800\u0026Signature=APg88p64KpUixL57W1llB4xLnij0I4BiIT3YaIYTnWp1BIWL5ns001A4qItW80AXO8Zc0XQNsHO-YnfRg8nVhrv83eyY32v1eo-k9hQe0vxckadfPvpt0EEc1vtb2Yb6nNjmiCZkD2-CsZJAzDz4BU9EE5ySFaNTO3ZcXHxGCYR-3wAMeCgGZkIgCxeflEVPo~3yUOj51-7Uyk27~7-gy2PtyK1RBEXJDd~xp263V21-KybsJGmohkchP7hrmzhR9-n2CIxGI-93Zy7iobXCK9PFbTdgsxySKTUjlpVaLAF9rmCLYUdosDdPBuC5Qu9SMSqpf5vsrWd-lmou-FGYUQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "Q29vcFVuaWZvcm0tMg=="
+            },
+            "id": "Q29vcFBsYXllci11LWF2c2R0bXF3eHpicWZzZmphbm1tOjIwMjMwMTE0VDA5NDMxMV8wMmFlMjY1ZC1mZTg1LTRkY2MtODFkNS1jNDdmYTdkMTVhZGU6dS1xa2hkYmhzM25wZ25ubWF5dXVtbQ==",
+            "species": "OCTOLING"
+          },
+          "weapons": [
+            {
+              "name": "熊先生印章狙击枪",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5cc158250a207241f51d767a47bbb6139fe1c4fb652cc182b73aac93baa659c5_0.png?Expires=1704844800\u0026Signature=iUiI7iej~71seNB8h9Ab4QzsxMkoPsCpN2TRVRgN0LcPHcJdxT5~q6Cu6rEOEyADx1q2hfwOWb1FqFQRwhehTcorOEgeNdNTGv4yg-FN4D5Yg5xlVa3wpWDLvw3OnaQOuE--cKP6A6pa-LuKjvHrz5DZpHAAg7EcJZ-Um9n2wswPM8SIR7ZFYEw8UxTjTG29AZ-YOxsRZ1Ad8OayGf1JSB-Fqdt1wGj8kapeRC6GAIozi1E0L7Uo-rKr4XDhgBKpQHyVAqg1axVHUphFMSgpkmEPS89wjcuafHP3vU4pIavIEpH8ZGgLDNNDVsJ0vE4d4YCfQKJIWe81ANQW6T7Jlw__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            },
+            {
+              "name": "熊先生印章狙击枪",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5cc158250a207241f51d767a47bbb6139fe1c4fb652cc182b73aac93baa659c5_0.png?Expires=1704844800\u0026Signature=iUiI7iej~71seNB8h9Ab4QzsxMkoPsCpN2TRVRgN0LcPHcJdxT5~q6Cu6rEOEyADx1q2hfwOWb1FqFQRwhehTcorOEgeNdNTGv4yg-FN4D5Yg5xlVa3wpWDLvw3OnaQOuE--cKP6A6pa-LuKjvHrz5DZpHAAg7EcJZ-Um9n2wswPM8SIR7ZFYEw8UxTjTG29AZ-YOxsRZ1Ad8OayGf1JSB-Fqdt1wGj8kapeRC6GAIozi1E0L7Uo-rKr4XDhgBKpQHyVAqg1axVHUphFMSgpkmEPS89wjcuafHP3vU4pIavIEpH8ZGgLDNNDVsJ0vE4d4YCfQKJIWe81ANQW6T7Jlw__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            },
+            {
+              "name": "熊先生印章狙击枪",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5cc158250a207241f51d767a47bbb6139fe1c4fb652cc182b73aac93baa659c5_0.png?Expires=1704844800\u0026Signature=iUiI7iej~71seNB8h9Ab4QzsxMkoPsCpN2TRVRgN0LcPHcJdxT5~q6Cu6rEOEyADx1q2hfwOWb1FqFQRwhehTcorOEgeNdNTGv4yg-FN4D5Yg5xlVa3wpWDLvw3OnaQOuE--cKP6A6pa-LuKjvHrz5DZpHAAg7EcJZ-Um9n2wswPM8SIR7ZFYEw8UxTjTG29AZ-YOxsRZ1Ad8OayGf1JSB-Fqdt1wGj8kapeRC6GAIozi1E0L7Uo-rKr4XDhgBKpQHyVAqg1axVHUphFMSgpkmEPS89wjcuafHP3vU4pIavIEpH8ZGgLDNNDVsJ0vE4d4YCfQKJIWe81ANQW6T7Jlw__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            }
+          ],
+          "specialWeapon": {
+            "name": "赞气弹",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/bd327d1b64372dedefd32adb28bea62a5b6152d93aada5d9fc4f669a1955d6d4_0.png?Expires=1704844800\u0026Signature=H9APV6Q0JmctI3fEYnIjaLIPjT3FaYIZJe56jKzdCMrWsiYA73qGQomHHGYaV681OdjzUyvA7WXWxMhOm4eDSceYOaZnKDRK9lMmx68h-tnaw6EooYtk9L-~dkp66Wr42~vFjn0ciAI2kIrHPz3XohFIE0COl-IiRuTC4qEQGOsqIIdYIjjCT8m7qCdiLmLdJr0tLnXs2Ir7ZMVCDG9cW2Ng4B0jHt8rP-RgQMIIADmN855sZ2ncQwgBBOzFAvZzaMHBlXX6ynjJsNR--Fp0fTrUlAN-T8z4vYv8UpuDT5Ww7IWVjp3gQ2WxUlJrr0lUVC2Io6HCVQ8jsDmkXYa-9g__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "weaponId": 20006
+          },
+          "defeatEnemyCount": 7,
+          "deliverCount": 593,
+          "goldenAssistCount": 6,
+          "goldenDeliverCount": 11,
+          "rescueCount": 2,
+          "rescuedCount": 2
+        },
+        {
+          "player": {
+            "__isPlayer": "CoopPlayer",
+            "byname": "今年的小菜",
+            "name": "アッガイ？",
+            "nameId": "1613",
+            "nameplate": {
+              "badges": [
+                {
+                  "image": {
+                    "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/2b4091853cfb5bed3fe8da6c7ce3a216472a75bb5455d5f355533d509c22da1c_0.png?Expires=1704844800\u0026Signature=lRiKX6hmK5y3KQBslFMcfO2w1-7DD9VBuyOyJNr0LAS-WiDqTGZvPMAnGLWwWTdG33ZnUU9tyhqVw502xfd3HEqponcEHMppmm~8pwAhZdHxuI5nAVBJX3tOhoIagl2eDuxwK3kyYJ-QWs2mvtd6aGAZYSfJykX~o0ikYNJMowSVGRIhkppgXGeB3We55ATx-1ja4MJJLLgddg-TBW-ybxCT8tXwgXGu4alRvOj-meXpGJXEK2NQ2d4f8jT4RnVFUY3qHKT9Rnx~uG-4jmCqZkNCHHSTQQgc3Gud7VrpgeEgXuZLJLiFHbuYy0wMsrZInzDK1fO6UHmc-oQ3wqoKTg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                  },
+                  "id": "QmFkZ2UtMzAwMDAwMA=="
+                },
+                {
+                  "image": {
+                    "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/05ec43904e95e3f2107ed862810b55331aeeb9ca3ceeb49700f95481ab26bfc1_0.png?Expires=1704844800\u0026Signature=v4MePzBu0ugGfnRgdU~maRDBwKPFAH5v5LAWjpUllNQHJnS~-CpJB6vtmZxmzYtwCt9COaORxbHSmdrda1DGj4~tDM1edweiNleREIMv7ABQcZbx82KWu3qVSChC~TwXspYHs12VC12E8u3hFvkCP4cB~YnkjhYoCOXAWnYwl6RQ2vQgqNgNlqZtrw2cOQsEe5bkSxVyfWnKCNYGeq5-gHNDy6ksdI5HOgpTOwDxTUPSGButmMu-lWnG1zjBpRwr-Geqrd2habGjt~mpVL8RgDeI~Bo-Lgv-f3EUZYxO-k8eWgc6bGu2BINvfqAbydtneL-VOj2UcFvHuB3yZVYd-w__\u0026Key-Pair-Id=KNBS2THMRC385"
+                  },
+                  "id": "QmFkZ2UtNDEwMDEwMA=="
+                },
+                {
+                  "image": {
+                    "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/badge_img/76157481c4efb83250a076c325d965e3fc7c6a48e87e6bd0584650870c76cf6b_0.png?Expires=1704844800\u0026Signature=r9AB1ByJe3My1cqhoyfnvFF00kOo7JL2vEw7tmwB-e4S7AxqpIhQZ~su-XOhCLO79GGCfx5x8Ap8Rt-9GgIMDVLgu3JB5I-4UI2a7NmWgfx2xPztj3Oowdf9RQtczrq3P9pqaG4YO-AFD-mVFDcZLds3T9jx2GK6cLIvjpfDX-VwyBUjLmH7cpgRVTVbCSmCIbU~lsRQTJZjLJZz4nDsyZNcAz8T4Obai3NWkQBXFEW92YmNgB7DjgnHuevpnOd-aPXFkWsFXEDAffVKs0S0b4D24sAj9Vb6Pn52ckD3CuhX-OFZpvf--RtxcTPTQXklPfSuBC5IGrKZWdb6-S~9zA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                  },
+                  "id": "QmFkZ2UtNDEwMDIwMA=="
+                }
+              ],
+              "background": {
+                "textColor": {
+                  "a": 1.0,
+                  "b": 1.0,
+                  "g": 1.0,
+                  "r": 1.0
+                },
+                "image": {
+                  "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/npl_img/cf96547ad3b1fbe6197f0bb95b3d675d3980960d9c0de096a1abdb1135b74421_0.png?Expires=1704844800\u0026Signature=jfuJFJCxDpAk7CAG3hJo0vKp~QusdWqJiV4Gyxhqwl5b6zaopKaHcdlESya9sLkWjwiGbld9ITex7LKlXExq3gUaulrA7Y1Vz0WSMHFBO3nFcJZTIkU-64xylTYYa5kXPR0rwV0-fU35ynLLpY9cPVz7LltXzkX57thIm7I27so0O1582UFeSt03FmZqzLbRvSCUhdIIkTn046OYFrsMNSyvuvYnDWN2rE4DiD2GS35cYTPwA3eKCiNZhRMUIhSCXutL~lFMjiDYTAjmwIUm-ohSWC2XbXkkyxybonFIXpKDkVrMjEZlvmxE9R7VABLtCl9v~6ypD~Fz6L0OHxIAog__\u0026Key-Pair-Id=KNBS2THMRC385"
+                },
+                "id": "TmFtZXBsYXRlQmFja2dyb3VuZC0xMDAy"
+              }
+            },
+            "uniform": {
+              "name": "打工连身工作服 橘色",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_skin_img/89df74f2b5fbc49f76fb31f730fed012bb77f903746e81df108958010c95ef53_0.png?Expires=1704844800\u0026Signature=fSLqAf5x1NcRITeKCdOGFh6MJt0ITHArAWPL7BuDdLyyRTnHlyat68JN6ix~bTow4F~QDGcUkqzr~Cv5qmyZMuR4DWndoIQkvdHAXVjb-kITysJjipkZwJFCHvy1QFQbSysIdYFzLX2UN3LCBB4XOimiSTum2UrO7zuTzYFTNG86ZDFso2fnT1EFJv4uygKp5T1TgB9O4Mv~ZB3V-yBJEy24kspA1ujSwGYnpBr1zyWy~IZ68jdZKWG36awLwWSdNtTaHxCwy-mq9hTYOk1pBYE0~PxBGSvP18eOhjRpUhUbpBhdIA8MwXclJHCzRXmE7y9Yu9wI9dX92hVQiArmWQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "Q29vcFVuaWZvcm0tMQ=="
+            },
+            "id": "Q29vcFBsYXllci11LWF2c2R0bXF3eHpicWZzZmphbm1tOjIwMjMwMTE0VDA5NDMxMV8wMmFlMjY1ZC1mZTg1LTRkY2MtODFkNS1jNDdmYTdkMTVhZGU6dS1hdzJhZnZ5YTdkMjRndmY1enJubQ==",
+            "species": "INKLING"
+          },
+          "weapons": [
+            {
+              "name": "熊先生印章狙击枪",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5cc158250a207241f51d767a47bbb6139fe1c4fb652cc182b73aac93baa659c5_0.png?Expires=1704844800\u0026Signature=iUiI7iej~71seNB8h9Ab4QzsxMkoPsCpN2TRVRgN0LcPHcJdxT5~q6Cu6rEOEyADx1q2hfwOWb1FqFQRwhehTcorOEgeNdNTGv4yg-FN4D5Yg5xlVa3wpWDLvw3OnaQOuE--cKP6A6pa-LuKjvHrz5DZpHAAg7EcJZ-Um9n2wswPM8SIR7ZFYEw8UxTjTG29AZ-YOxsRZ1Ad8OayGf1JSB-Fqdt1wGj8kapeRC6GAIozi1E0L7Uo-rKr4XDhgBKpQHyVAqg1axVHUphFMSgpkmEPS89wjcuafHP3vU4pIavIEpH8ZGgLDNNDVsJ0vE4d4YCfQKJIWe81ANQW6T7Jlw__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            },
+            {
+              "name": "广域标记枪",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/6e58a0747ab899badcb6f351512c6034e0a49bd6453281f32c7f550a2132fd65_0.png?Expires=1704844800\u0026Signature=P1RakHxoX1H4a9NoHVvLZXvrudyaFycfit8keIsSiXXfsC26ypfWBPqcIguXSp5hpySKgmUBmYz4kPrfbLg9K3OxGy959iDCHaYzl~nQChb2D-SoQ2x2ssGF1DFZEoFYTaMuy-AHnEjn0WGbnDvqxHYAvbmBT3kePW34NhhXinQGpAatSXZ-oeFzfpaFlTKNWJXIH~gtSlyIrjvozeSYzHh-jlI2pc66WTSEGBFDmbsknfsDbvreq8HtILHgnS2Erq-q40hIQdOhBQhTc8lIBevUmkQReqtmTbPWvRcWAQBt0MroyNuTFA-9A~I6H7Sgqna1MVprpg0z793j9op5ow__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            },
+            {
+              "name": "窄域标记枪",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/25e98eaba1e17308db191b740d9b89e6a977bfcd37c8dc1d65883731c0c72609_0.png?Expires=1704844800\u0026Signature=kmeKJENcH9GKTeWC~pbDlCp7MrjP4csSDpGznZDpwzbOdm3d5VJ8PLolLQIhp0SymW7PuMF4rxAvY9jHHqu5rHltOJH9yO-prXudAUcUPmVSPDYP7o8s9mf2znpoXk3oGS3kylZT2c-KXfQZlez8oNnaj4YbkJircB8KZUXhUG1~oXcPdu46~l5~x~srPHTw2GXx8V~-y1MGJOANJUp~Erig4R82LeKiPAYJGWQvI1MzvfPNew0Q1TVOs9gKFuF6p1Jlv8Yvi17yymSYV7Z3b8m9IZSVrFz~cMWl9aHSxcN2er-yO1VIE9cs~qaEBXfVG1TMfEFZkZI5VemBs-6emg__\u0026Key-Pair-Id=KNBS2THMRC385"
+              }
+            }
+          ],
+          "specialWeapon": {
+            "name": "鲨鱼坐骑",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/0785cb4979024a83aaa2196e287e232d5d7e4ac959895a650c30ed00fedbc714_0.png?Expires=1704844800\u0026Signature=DNghm8EMpl2R9BwZZW4uPNpP5FFB5xJ~g~XDHS25OZZs9t4k1Alil3LyMqD7eHv5snk3zstwVoD-OFpqFMTh4RZG1sSWh2q3tDSCOjMfa-6lxiM6xVoYfeo3h5d0oX2pWrGFHWRU9l0-LrObc4Td0OzfhFkLjaiOw8tbwTjeSYKRHd12lN1fhDLlBBKXP2vtSH423mD-kp1s5rEwzJbPRJltJoHjU4yEpMSwh71Bt5VGZcv6Oa~s7kKHoVNOOTSDoTS9SG7uoKHLJ72melxY9LPz8Sr1ACrgZg-kdn-Dri~~aOXfD-LQhms82fkDPQ4Icw-PDhvueAYpNWid-8WGvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "weaponId": 20013
+          },
+          "defeatEnemyCount": 3,
+          "deliverCount": 367,
+          "goldenAssistCount": 0,
+          "goldenDeliverCount": 11,
+          "rescueCount": 1,
+          "rescuedCount": 3
+        }
+      ],
+      "bossResult": null,
+      "enemyResults": [
+        {
+          "defeatCount": 0,
+          "teamDefeatCount": 1,
+          "popCount": 2,
+          "enemy": {
+            "name": "炸弹鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/f59fe344bd941f90dc8d3458ffd29b6586c1cffd00864967e7766a5a931dc4f6_0.png?Expires=1704844800\u0026Signature=HvwxzTqBuyHTPkSe9gZgje7Z9mb3OokJnc7-D90Vm3WIEF6rA1qBW7AfSuG661hr63MkYYaKQ2~91HaRDUx8~1VMlQMi-T9N~zLJRf7i9OCvXemDBx~Qd0dPDLp7AkvrI7-pbunimFhZMfImR6-XKMDYLdYB~7BMWbwRmWs8DFTXHYmftf6NU381pSr5zZFEH9QPzMOwy7h-BXFBsZsDFN-nGOiQvs7rFAzIhPouo~JKTSLrVrJqhuLnD3fdd9R09c6i8t28TIK5V8oxzY8xUX8-8MtC-koyC-UV7exEMW-d6VbjLSD4fG3LOaHa2kcSFZ~s045xsZmadg7CgpuXuA__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTQ="
+          }
+        },
+        {
+          "defeatCount": 0,
+          "teamDefeatCount": 2,
+          "popCount": 3,
+          "enemy": {
+            "name": "垫肩飞鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/03c31763738c5628db6d8e7dd3ba0fd2fcb79a1f47694488b51969375148edde_0.png?Expires=1704844800\u0026Signature=aCd4lS-p058EbsZg9YbqiJDbyMIOUSwFwlwCLkRSVFdNCkq0xDMraz0WEsv-x6sGKNOvzuONCVlTD4QGp5OAE3Gzc5rf9GjgG7qrfGKJVl57co~b3BUBERKY~YPkMBMt-kYEHKY-MaFMFXRaGAEkr5dOT3sAQVXffGpMfMatvF09OW1wBQ8Mn74uszPjfiCNcQzMmKJFstYhrxeAjiPKUGGHcJhQZjRRve9oXUm3cAn7IMpK~kmK3fv~Fjif8j3u4r1qmP5Fb~1ba4OuAbRxUCv2RfTvEah-9YmkOdkO5w~9Zng3~HCzDt8KHI7oM~NwNUnTIwxBl84LzxJv~QHvMw__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTU="
+          }
+        },
+        {
+          "defeatCount": 0,
+          "teamDefeatCount": 1,
+          "popCount": 1,
+          "enemy": {
+            "name": "铁板鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/3a3e2c87b96b92e31ffc59a273b7d6aca20f9941e05ad84d6ae26092a627aa34_0.png?Expires=1704844800\u0026Signature=Ix4WiDPxAqq8Z1kNj6XuljRz47PJEPPQ5AFyn57eFelfeV9Y9cWLy2AeMDIMScXB63jzy811NcsDmNkFN~bUGFC~5nhT3lytemDLJozJY4ED1vLsiXhgA9veLV6eZWY8ej58vHIvOIvXtm3kMVa3yGtmSgOHAwNIFUlYZ7X9Ez5Ugi~XoNZY-sV3HspedEz6SlG2m-RnFPY8TVLh6nvseMWCcA2O6vYqGhek54MHulbuJdfgn9mjigj4GYbOT2hLaMCdxtqHTn12Uf3oXhz1yam4D8PqF8tX4Sa74g~GdlwttCLzkUMYrjn4TZfzeSiUgFxzPeReK-Tl0EPZTeyymg__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTY="
+          }
+        },
+        {
+          "defeatCount": 0,
+          "teamDefeatCount": 1,
+          "popCount": 1,
+          "enemy": {
+            "name": "蛇鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/999097a0908a4560f05a16e3f97c07b5d10bed22bee6d2ce0eedb2e6a6dcb9d0_0.png?Expires=1704844800\u0026Signature=DH53lE5ynbeVZ9n3KP2uwV0qUIwAr7-W~8hHaFHn9DI99qP7sxw~yZIVUPh2BDOdIY9vqHIMU2oef~L0ihF5TUw1FEq6cMiOp6BKNBoI2RG-wqfNORm9GhAnT~qGpGgDwSAH5DzC~kd79ZjBmMN7znEHFRjxbDqMDqh5bGgB7oYAotKjyAhdRxhelgf9O7AkTW4muUfh9Si7ZWnrdRnptTSccq5KC7meCMqsQUnXXdfwEFnQWwie-yUYFmhnzq9tGqJZUjVhFtBnyuTK6b5HanzP8RU-pHBI4WW1yMtqJJeq5MfQVEVPlE5OiW6qNmP23gFmv2Mb59wv1YIyhcS3hg__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTc="
+          }
+        },
+        {
+          "defeatCount": 0,
+          "teamDefeatCount": 2,
+          "popCount": 4,
+          "enemy": {
+            "name": "高塔鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/2d740da6f03364c3c289625455374f734fd8a96b25c26fde13912e90f3aea68c_0.png?Expires=1704844800\u0026Signature=Vubdw6Uig0N6mfN1w6xKhK1VhlhvBd2sUuUI~lbnzagZ-VJSqJvQIYdc41MtSVzWuf3KddZoFRmKBmE6sBfvvNkEAeBTDFYNH-etgauRkzDfSWIC2uRQGMNkVPy3FtxG4XtAYZ-OY-MEnt2XjsE2Lgxyv8bkcarhNJ3uxbVN-gMeae3Y03mzQuoL5YhOs62~1UMvUxzEzMPUBSuN-PwaOKcbkYr2RlM5pczXmxaXfgIvTwyK-i-L8do2z6rNmtlpmXZNaxmzMX~CTbeXhiA-csh6HgJrb~C---MJzArkLXHuwHQ-25yLn7macc7wWugBRWEplIJ9iOImiew~wgKZow__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTg="
+          }
+        },
+        {
+          "defeatCount": 1,
+          "teamDefeatCount": 3,
+          "popCount": 3,
+          "enemy": {
+            "name": "鼹鼠鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/fd5abb7a9087c528e45a7a4e29c9c03d673b69d6f0ba2f424f6df8b732d9919a_0.png?Expires=1704844800\u0026Signature=Xh0O843QqqXw7IAcmKxyZJZwgqTpfvz-RP3hFkq0UlMClHTPak3DBNpDF696PAtNIgLNCOxmmQ7idEYcgI7ZUPXEpru4aPrtHYpLPwpx1b61lACtiBFsH4cxZ9zUjB44gM3YZdSrm4t6Eq3bE990RzusU2e2Skf6ccbrJvo9xEC7vJ6HrA1a23K~buAgoy~alwjV6~mRB8PAzEx98zIv3VFSm41yd2ZBaGKL97VTmz4vor5Rj~iabV9qGLNVaXj7iCtbjg0kojkUhvsW4jwQ3xvBM4aZ60sTA-V23JwlCDv0j0frX3KDtDA4CLf2oxIhZRXb1hENQKSNGW2kKuXLSw__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTk="
+          }
+        },
+        {
+          "defeatCount": 0,
+          "teamDefeatCount": 3,
+          "popCount": 3,
+          "enemy": {
+            "name": "蝙蝠鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/faed7977b2144ac5979de0ca7d23aefd507e517c3fbe19431054ac5a6ba300fa_0.png?Expires=1704844800\u0026Signature=ZP3o8OgXqTgnemAN2cKgUTSqdrXhfnW77jSMoIzxtx9vF4b8icAcD~duNshjUt8U5UjyFwN-PxRYvbHh5Nk06jQ9YWtH-CA7J1mXDqxjQNtYzCDYxYuY03t4z4jOWu0Mf79WLEfdmL9YICLgLAmqflmyO8Yu7N1Ayb7HOniYoB6gFWtBTQJOD3hpz65WzU9tktitZqnzQSnCGTbpUW6mHE596OvcFfCRQMwP6vh4BAhJrfSjebr0mQTgPCbvPvBKdMZOXN~Xt5wre12BhY-AjzTUlRVmttaZkWHzn-oX5KjwRfHdtLImcSnf21xgPjmSF0RpK6iYfUAYf~Ro-sHtbw__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTEw"
+          }
+        },
+        {
+          "defeatCount": 0,
+          "teamDefeatCount": 1,
+          "popCount": 2,
+          "enemy": {
+            "name": "柱鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/fb4851c75f62b8b50d9bac2128d6ef1c703c7884b63402762ddf78c1555e364a_0.png?Expires=1704844800\u0026Signature=orTY2INrDGXDQkQm~px25VYVTDNz9kldOyaPu5OJhGwa0TJScHDtOdbrx6eEV2Iohzr00Rg9G6I5PlOxykDkeo4PNSR2KdGzVtlT7XN8zw10zCnMM7je6a5wXO5qnq-lSs1O0aGFxnC1Qzk8rWzLGfiFgvO0pio9xnSCQlp0SDdtvQ7vBfiSuS~k142thqPNA3E7q-9cXtIY691unhPM-GVsntXu~dq8je4DvF18ZSjLM-W8SjhYBqw8DO0~X7zBkxywHkQkqzehzMNrVr6CjtbEyoMkL8RYkJHYs8efZw6LSeRp6U-tz~43uk59kb2gV9ETH6gi-wzO4ZP0bMOl3A__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTEx"
+          }
+        },
+        {
+          "defeatCount": 1,
+          "teamDefeatCount": 3,
+          "popCount": 4,
+          "enemy": {
+            "name": "潜水鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/dbbf89da359fd880db49730ecc4f66150b148274aa005e22c1152cbf1a45e378_0.png?Expires=1704844800\u0026Signature=Uy-hfkOevpt3BIz2PDGcFbKeAy0h~QivaaAejX7slhOM6xmGlVyeQZiH37J40Mcw9D1-aS0tqIH5A9RzRWo8bbjFV6XXp1GP9Wc4kvkjVQ26jMJjnr5788L7RDQhhbIMSc1csH603LsNgdyVJReoA9kGN67K8xvodliM~Wi3Mc5Oe84D-bdz~6fTbuCKcM1Vy8xdo-vUGT~u~n7AfWiOSQPa7DksxuJ6fRS-36~l96dgG9ZnAbJQItGJ4ramK~~JOfMDxxcXrRhrfgBG3q-MoINIoV2OLGgYTiv4Dhtn-TNDrfOxDez-z5MHqHRD-j7VevZTtzvvfZw0IUCHT0XusQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTEy"
+          }
+        },
+        {
+          "defeatCount": 0,
+          "teamDefeatCount": 2,
+          "popCount": 4,
+          "enemy": {
+            "name": "铁球鱼",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/coop_enemy_img/2c7a648b4c73f291b5ede9c55f33d4e3f99c263d3a27ef3d2eb2a96d328d66ac_0.png?Expires=1704844800\u0026Signature=HAnxQSN1HY4fpimiUHNwc1Ur-eLCVEnTsjOaR~OTLDB8pFXaxizPJDfyR0O7nnxzfshyE8Hz4-IBQW5dLhuchKVgc5U423Eo2W3gPYGuZZeflSIawyV6FDihLmmBKUVbu4AnQ46bSiqVrFVNNHs2IKrepzNPcaDplZSfr4nenAKyZSeGwpI13M4n3Z-Xy-G~-Pvcf4a3~O7Gb4jLYSdJqv0J~LKSG-HdsxuCw3Lb6odBBDgPTvioViK1CQDbqGDyaFPn9~mqAqJnYSeVi9kXRN29KCKlmQ2VvWIe25AX7P6iQxnn83o4If1r76ZTCgUIkC9kXhwfDXwuOr7nBzhFCQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+            },
+            "id": "Q29vcEVuZW15LTEz"
+          }
+        }
+      ],
+      "waveResults": [
+        {
+          "waveNumber": 1,
+          "waterLevel": 1,
+          "eventWave": null,
+          "deliverNorm": 11,
+          "goldenPopCount": 18,
+          "teamDeliverCount": 15,
+          "specialWeapons": []
+        },
+        {
+          "waveNumber": 2,
+          "waterLevel": 0,
+          "eventWave": null,
+          "deliverNorm": 12,
+          "goldenPopCount": 21,
+          "teamDeliverCount": 21,
+          "specialWeapons": []
+        },
+        {
+          "waveNumber": 3,
+          "waterLevel": 0,
+          "eventWave": {
+            "name": "大胖鱼大量出现",
+            "id": "Q29vcEV2ZW50V2F2ZS02"
+          },
+          "deliverNorm": 14,
+          "goldenPopCount": 18,
+          "teamDeliverCount": 8,
+          "specialWeapons": [
+            {
+              "name": "喷射背包",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/252059408283fbcb69ca9c18b98effd3b8653ab73b7349c42472281e5a1c38f9_0.png?Expires=1704844800\u0026Signature=BxNhz1M6IOCnTjs6NJ87XHxN-6Ib~8EWUIvnpwG8xqXa6X3n42Ghv9vTQaMgkhSNzmJGpsYAIc2wxrDwhNugHg5WgAe6uz~-twvscV54fSjQRfCO5GzD4WjXX3GhM-GJ~mtEuVX3aSQOSo5LDB8ju9QuJFiUBesKq9WMirqX3qUB5SxCfoeY5WMelCcWd-hW-s2bBH2lPo0VL7Nd6tTArB0LffavXjdCLXDAwvvvpDbpDxx~PvTJPJkyd7nnmnHKjuVkAObw8EdaI9vQ2usW~dn3oBGoMeQIvvOEgC-9qi1FVi64GbxmqRGheE1A9Kavh58GGMASnlpcH78t39JYYw__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "U3BlY2lhbFdlYXBvbi0yMDAxMA=="
+            },
+            {
+              "name": "喷射背包",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/252059408283fbcb69ca9c18b98effd3b8653ab73b7349c42472281e5a1c38f9_0.png?Expires=1704844800\u0026Signature=BxNhz1M6IOCnTjs6NJ87XHxN-6Ib~8EWUIvnpwG8xqXa6X3n42Ghv9vTQaMgkhSNzmJGpsYAIc2wxrDwhNugHg5WgAe6uz~-twvscV54fSjQRfCO5GzD4WjXX3GhM-GJ~mtEuVX3aSQOSo5LDB8ju9QuJFiUBesKq9WMirqX3qUB5SxCfoeY5WMelCcWd-hW-s2bBH2lPo0VL7Nd6tTArB0LffavXjdCLXDAwvvvpDbpDxx~PvTJPJkyd7nnmnHKjuVkAObw8EdaI9vQ2usW~dn3oBGoMeQIvvOEgC-9qi1FVi64GbxmqRGheE1A9Kavh58GGMASnlpcH78t39JYYw__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "U3BlY2lhbFdlYXBvbi0yMDAxMA=="
+            },
+            {
+              "name": "赞气弹",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/bd327d1b64372dedefd32adb28bea62a5b6152d93aada5d9fc4f669a1955d6d4_0.png?Expires=1704844800\u0026Signature=H9APV6Q0JmctI3fEYnIjaLIPjT3FaYIZJe56jKzdCMrWsiYA73qGQomHHGYaV681OdjzUyvA7WXWxMhOm4eDSceYOaZnKDRK9lMmx68h-tnaw6EooYtk9L-~dkp66Wr42~vFjn0ciAI2kIrHPz3XohFIE0COl-IiRuTC4qEQGOsqIIdYIjjCT8m7qCdiLmLdJr0tLnXs2Ir7ZMVCDG9cW2Ng4B0jHt8rP-RgQMIIADmN855sZ2ncQwgBBOzFAvZzaMHBlXX6ynjJsNR--Fp0fTrUlAN-T8z4vYv8UpuDT5Ww7IWVjp3gQ2WxUlJrr0lUVC2Io6HCVQ8jsDmkXYa-9g__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "U3BlY2lhbFdlYXBvbi0yMDAwNg=="
+            },
+            {
+              "name": "赞气弹",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/bd327d1b64372dedefd32adb28bea62a5b6152d93aada5d9fc4f669a1955d6d4_0.png?Expires=1704844800\u0026Signature=H9APV6Q0JmctI3fEYnIjaLIPjT3FaYIZJe56jKzdCMrWsiYA73qGQomHHGYaV681OdjzUyvA7WXWxMhOm4eDSceYOaZnKDRK9lMmx68h-tnaw6EooYtk9L-~dkp66Wr42~vFjn0ciAI2kIrHPz3XohFIE0COl-IiRuTC4qEQGOsqIIdYIjjCT8m7qCdiLmLdJr0tLnXs2Ir7ZMVCDG9cW2Ng4B0jHt8rP-RgQMIIADmN855sZ2ncQwgBBOzFAvZzaMHBlXX6ynjJsNR--Fp0fTrUlAN-T8z4vYv8UpuDT5Ww7IWVjp3gQ2WxUlJrr0lUVC2Io6HCVQ8jsDmkXYa-9g__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "U3BlY2lhbFdlYXBvbi0yMDAwNg=="
+            },
+            {
+              "name": "鲨鱼坐骑",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/0785cb4979024a83aaa2196e287e232d5d7e4ac959895a650c30ed00fedbc714_0.png?Expires=1704844800\u0026Signature=DNghm8EMpl2R9BwZZW4uPNpP5FFB5xJ~g~XDHS25OZZs9t4k1Alil3LyMqD7eHv5snk3zstwVoD-OFpqFMTh4RZG1sSWh2q3tDSCOjMfa-6lxiM6xVoYfeo3h5d0oX2pWrGFHWRU9l0-LrObc4Td0OzfhFkLjaiOw8tbwTjeSYKRHd12lN1fhDLlBBKXP2vtSH423mD-kp1s5rEwzJbPRJltJoHjU4yEpMSwh71Bt5VGZcv6Oa~s7kKHoVNOOTSDoTS9SG7uoKHLJ72melxY9LPz8Sr1ACrgZg-kdn-Dri~~aOXfD-LQhms82fkDPQ4Icw-PDhvueAYpNWid-8WGvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "U3BlY2lhbFdlYXBvbi0yMDAxMw=="
+            },
+            {
+              "name": "鲨鱼坐骑",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/0785cb4979024a83aaa2196e287e232d5d7e4ac959895a650c30ed00fedbc714_0.png?Expires=1704844800\u0026Signature=DNghm8EMpl2R9BwZZW4uPNpP5FFB5xJ~g~XDHS25OZZs9t4k1Alil3LyMqD7eHv5snk3zstwVoD-OFpqFMTh4RZG1sSWh2q3tDSCOjMfa-6lxiM6xVoYfeo3h5d0oX2pWrGFHWRU9l0-LrObc4Td0OzfhFkLjaiOw8tbwTjeSYKRHd12lN1fhDLlBBKXP2vtSH423mD-kp1s5rEwzJbPRJltJoHjU4yEpMSwh71Bt5VGZcv6Oa~s7kKHoVNOOTSDoTS9SG7uoKHLJ72melxY9LPz8Sr1ACrgZg-kdn-Dri~~aOXfD-LQhms82fkDPQ4Icw-PDhvueAYpNWid-8WGvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "U3BlY2lhbFdlYXBvbi0yMDAxMw=="
+            },
+            {
+              "name": "弹跳声呐",
+              "image": {
+                "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/blue/463eedc60013608666b260c79ac8c352f9795c3d0cce074d3fbbdbd2c054a56d_0.png?Expires=1704844800\u0026Signature=exr1FgmaSI10LIb~ZSLSJLEr6CVszwL6YK8bddppEmFZveoSturRcZ5Y7MN8-KZECVEdEIYkVf5YHN~SgXwiL4jB1WNsGymeTcDVzhU0RPYQ5jx0Muu7SxeVzpOIRmI8jfrSWgdSdOLe-vA10wWRmMnDI9WOj5w6mSo8E6dKwIkZj2EYaSUf5Idw8fJNYo81ubcg0Lu4v6z~e33MRyPCZHcpccnxc34zcGhaZu7I~h89XtyA-tfxNbC53g5xeOZHyMAqH-LVqJi~l9D8n8sUOP7Nl~PeOEKs8PhYt5ppyvGTPhMri3tfe8pOQopXHxKQmSqdplhUYJXRm5SQsOtunQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+              },
+              "id": "U3BlY2lhbFdlYXBvbi0yMDAwNw=="
+            }
+          ]
+        }
+      ],
+      "resultWave": 3,
+      "playedTime": "2023-01-14T09:43:11Z",
+      "rule": "REGULAR",
+      "coopStage": {
+        "name": "鲑坝",
+        "image": {
+          "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/be584c7c7f547b8cbac318617f646680541f88071bc71db73cd461eb3ea6326e_3.png?Expires=1704844800\u0026Signature=VpuwrcAmzmstyZPshgPFjkoNohhAJctJa9pUyEfqDrMTSAGq0mdVMT08UMIDo~J6sLh0YGYAPcOyhEHmy1OFIE66YuRSPtZqu2HK5ObjvsUyHWmi6R285rLc4cK5tXs38gY97MnZNbzO1SoAQP9rloMCIS4hZLqPg0BE1zMeAijHrQDhZxefeUfu7TPdFM-DWQGYhLU1VLtZEHx4SyuIHA1EySGax4UBvqC8BlgpSj~t9qC34lNBRXyL6MgyqRQG8P0j~2zS6X9VYKIzupMhxl2Y0py8HD1m1bLkisry7zU60NdBwZF8391Esdmq0KEVb~5ikAfoKDlT4WRvFAM-vg__\u0026Key-Pair-Id=KNBS2THMRC385"
+        },
+        "id": "Q29vcFN0YWdlLTE="
+      },
+      "dangerRate": 0.68,
+      "scenarioCode": null,
+      "smellMeter": 0,
+      "weapons": [
+        {
+          "name": "随机",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/473fffb2442075078d8bb7125744905abdeae651b6a5b7453ae295582e45f7d1_0.png?Expires=1704844800\u0026Signature=eLsoNcKFcMpLOc6GXQ-5PKakhBYqbyLRv5GVUacwc-9sZG6QUz5Nos9L~Y9ws5bZpn2v-LBfGuKA3KtzyZwiRmq3V5w6X437PgTXnbzB8OWMHYC7J5N-kcpMFmJbfCcRxp8ADYZWCgyQHk3XDXQz-GgeLMkPtRM7fKVv1f5NNyRCLfzPN5Q-lotTRCRs0DgksaJ7x2UxGzLs5w3ixCApqiPCeCcWSlBo0sDT1lCsDUYHp~LAKcUXvidXszycGz4xbUqBwY9Q7QgM~1nYiloZf2D1GpTZD2jFsEIAwQZHeuDuQ5aD2kZFLkWJ65uHyi3T1NHxLahhkZi3Fdt3HSUCFA__\u0026Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        {
+          "name": "随机",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/473fffb2442075078d8bb7125744905abdeae651b6a5b7453ae295582e45f7d1_0.png?Expires=1704844800\u0026Signature=eLsoNcKFcMpLOc6GXQ-5PKakhBYqbyLRv5GVUacwc-9sZG6QUz5Nos9L~Y9ws5bZpn2v-LBfGuKA3KtzyZwiRmq3V5w6X437PgTXnbzB8OWMHYC7J5N-kcpMFmJbfCcRxp8ADYZWCgyQHk3XDXQz-GgeLMkPtRM7fKVv1f5NNyRCLfzPN5Q-lotTRCRs0DgksaJ7x2UxGzLs5w3ixCApqiPCeCcWSlBo0sDT1lCsDUYHp~LAKcUXvidXszycGz4xbUqBwY9Q7QgM~1nYiloZf2D1GpTZD2jFsEIAwQZHeuDuQ5aD2kZFLkWJ65uHyi3T1NHxLahhkZi3Fdt3HSUCFA__\u0026Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        {
+          "name": "随机",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/473fffb2442075078d8bb7125744905abdeae651b6a5b7453ae295582e45f7d1_0.png?Expires=1704844800\u0026Signature=eLsoNcKFcMpLOc6GXQ-5PKakhBYqbyLRv5GVUacwc-9sZG6QUz5Nos9L~Y9ws5bZpn2v-LBfGuKA3KtzyZwiRmq3V5w6X437PgTXnbzB8OWMHYC7J5N-kcpMFmJbfCcRxp8ADYZWCgyQHk3XDXQz-GgeLMkPtRM7fKVv1f5NNyRCLfzPN5Q-lotTRCRs0DgksaJ7x2UxGzLs5w3ixCApqiPCeCcWSlBo0sDT1lCsDUYHp~LAKcUXvidXszycGz4xbUqBwY9Q7QgM~1nYiloZf2D1GpTZD2jFsEIAwQZHeuDuQ5aD2kZFLkWJ65uHyi3T1NHxLahhkZi3Fdt3HSUCFA__\u0026Key-Pair-Id=KNBS2THMRC385"
+          }
+        },
+        {
+          "name": "随机",
+          "image": {
+            "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/473fffb2442075078d8bb7125744905abdeae651b6a5b7453ae295582e45f7d1_0.png?Expires=1704844800\u0026Signature=eLsoNcKFcMpLOc6GXQ-5PKakhBYqbyLRv5GVUacwc-9sZG6QUz5Nos9L~Y9ws5bZpn2v-LBfGuKA3KtzyZwiRmq3V5w6X437PgTXnbzB8OWMHYC7J5N-kcpMFmJbfCcRxp8ADYZWCgyQHk3XDXQz-GgeLMkPtRM7fKVv1f5NNyRCLfzPN5Q-lotTRCRs0DgksaJ7x2UxGzLs5w3ixCApqiPCeCcWSlBo0sDT1lCsDUYHp~LAKcUXvidXszycGz4xbUqBwY9Q7QgM~1nYiloZf2D1GpTZD2jFsEIAwQZHeuDuQ5aD2kZFLkWJ65uHyi3T1NHxLahhkZi3Fdt3HSUCFA__\u0026Key-Pair-Id=KNBS2THMRC385"
+          }
+        }
+      ],
+      "afterGradePoint": 40,
+      "scale": null,
+      "jobPoint": 97,
+      "jobScore": 54,
+      "jobRate": 1.8,
+      "jobBonus": 0,
+      "nextHistoryDetail": {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIzMDIxOVQwNjQ2NTFfM2YzMTljY2ItYTU2Yi00NTlhLTk0OTktMjM2YThmNTI3MWEx"
+      },
+      "previousHistoryDetail": {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMTIxMFQwOTI3MzFfMDA3NjAzNmYtM2U4Zi00ZDUyLTkxYzItZDkxMGE4ZmEyNTU5"
+      }
+    }
+  }
+}

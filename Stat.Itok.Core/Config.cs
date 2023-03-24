@@ -30,8 +30,10 @@ namespace Stat.Itok.Core
 
         public string IMinkFCalcApi { get; set; } = "https://api.imink.app/f";
         public string StatInkBattleApi { get; set; } = "https://stat.ink/api/v3/battle";
+        public string StatInkSalmonApi { get; set; } = "https://stat.ink/api/v3/salmon";
         public string StatInkUUIDListApi { get; set; } = "https://stat.ink/api/v3/s3s/uuid-list";
         public string StatInkFullGearApi { get; set; } = "https://stat.ink/api/v3/ability?full=1";
+        public string StatInkSalmonFullWeaponApi { get; set; } = "https://stat.ink/api/v3/salmon/weapon?full=1";
         public FallbackConfig FallbackConfig { get; set; }
         public string JobSysBase { get; set; } = "http://jobtracker.itok.xyz";
         public int MaxNeedBuildFromBeginCount { get; set; } = 12 * 24;

@@ -16,6 +16,7 @@
   export let isTurfWarSelected = true;
   export let isRankBattleSelected = true;
   export let isXMatchSelected = true;
+  export let isSalmonSelected = true;
   export let forcedUserLang = "zh-CN";
   if ($locale == "en-US") forcedUserLang = "en-US";
   export let statInkApiKey = "";
@@ -76,6 +77,7 @@
       if (isRankBattleSelected)
         jobConfig.enabledQueries.push("BankaraBattleHistories");
       if (isXMatchSelected) jobConfig.enabledQueries.push("XBattleHistories");
+      if (isSalmonSelected) jobConfig.enabledQueries.push("CoopHistory");
       jobConfig.forcedUserLang = forcedUserLang;
       jobConfig.statInkApiKey = statInkApiKey;
       jobConfig.notificationEmail = notificationEmail;
@@ -157,6 +159,7 @@
         );
         isXMatchSelected =
           jobConfig.enabledQueries.includes("XBattleHistories");
+        isSalmonSelected = jobConfig.enabledQueries.includes("CoopHistory");
         forcedUserLang = jobConfig.forcedUserLang;
         statInkApiKey = jobConfig.statInkApiKey;
         notificationEmail = jobConfig.notificationEmail;
@@ -229,11 +232,16 @@
             ><input bind:checked={isXMatchSelected} type="checkbox" />
             {$_("profile.mode_label_x_match")}</label
           >
+          <label class="checkbox px-2"
+            ><input bind:checked={isSalmonSelected} type="checkbox" />
+            {$_("profile.mode_label_salmon")}</label
+          >
         </div>
         <div
           class="py-1 is-size-7 has-background-warning {isTurfWarSelected ||
           isRankBattleSelected ||
-          isXMatchSelected
+          isXMatchSelected ||
+          isSalmonSelected
             ? 'is-hidden'
             : ''}"
         >

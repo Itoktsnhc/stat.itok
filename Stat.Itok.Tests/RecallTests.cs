@@ -15,6 +15,7 @@ using Stat.Itok.Shared;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Stat.Itok.Core.Helpers;
 
 namespace Stat.Itok.Tests
 {
@@ -25,7 +26,8 @@ namespace Stat.Itok.Tests
 
         public RecallTests()
         {
-            var content = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText("./configs/settings.json"));
+            var content =
+                JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText("./configs/settings.json"));
             var svc = new ServiceCollection()
                 .AddSingleton(_ => Options.Create(new GlobalConfig()
                 {
@@ -87,8 +89,10 @@ namespace Stat.Itok.Tests
             await foreach (var item in res)
             {
                 var jobConfig = item.Adapt<JobConfig>();
-                jobConfig.EnabledQueries = JsonConvert.DeserializeObject<List<string>>(Helper.DecompressStr(item.EnabledQueriesStr));
-                jobConfig.NinAuthContext = JsonConvert.DeserializeObject<NinAuthContext>(Helper.DecompressStr(item.NinAuthContextStr));
+                jobConfig.EnabledQueries =
+                    JsonConvert.DeserializeObject<List<string>>(CommonHelper.DecompressStr(item.EnabledQueriesStr));
+                jobConfig.NinAuthContext =
+                    JsonConvert.DeserializeObject<NinAuthContext>(CommonHelper.DecompressStr(item.NinAuthContextStr));
                 var resp = await cosmos.UpsertEntityInStoreAsync<JobConfig>(jobConfig.Id, jobConfig);
             }
         }
@@ -101,17 +105,19 @@ namespace Stat.Itok.Tests
             var ids = File.ReadAllLines("./configs/doc_id_list.txt");
             foreach (var id in ids)
             {
-                await container.DeleteItemAsync<JobConfig>(id, new Microsoft.Azure.Cosmos.PartitionKey("prod.JobConfig"));
+                await container.DeleteItemAsync<JobConfig>(id,
+                    new Microsoft.Azure.Cosmos.PartitionKey("prod.JobConfig"));
             }
         }
+
         [TestMethod]
         public void MyTestMethod()
         {
             var payloadNameList = Directory.GetFiles("D:\\_repos\\stat.itok\\Stat.Itok.Tests\\msg\\");
             foreach (var payload in payloadNameList)
             {
-                var content = JsonConvert.DeserializeObject<JobRunTaskLite>(Helper.DecompressStr(File.ReadAllText(payload)));
-
+                var content =
+                    JsonConvert.DeserializeObject<JobRunTaskLite>(CommonHelper.DecompressStr(File.ReadAllText(payload)));
             }
         }
 
@@ -121,8 +127,8 @@ namespace Stat.Itok.Tests
             var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
             var container = cosmos.GetContainer<BattleTaskPayload>();
             var query = new QueryDefinition(
-                    query: "SELECT * FROM store AS s WHERE s.partitionKey = 'prod.BattleTaskPayload' and s._ts >=1670895947"
-                );
+                query: "SELECT * FROM store AS s WHERE s.partitionKey = 'prod.BattleTaskPayload' and s._ts >=1670895947"
+            );
             using var filteredFeed = container.GetItemQueryIterator<PureIdDto>(
                 queryDefinition: query
             );
@@ -132,27 +138,30 @@ namespace Stat.Itok.Tests
                 FeedResponse<PureIdDto> response = await filteredFeed.ReadNextAsync();
                 foreach (var item in response.Resource)
                 {
-                    var resp = await container.DeleteItemAsync<PureIdDto>(item.Id, new Microsoft.Azure.Cosmos.PartitionKey("prod.BattleTaskPayload"));
+                    var resp = await container.DeleteItemAsync<PureIdDto>(item.Id,
+                        new Microsoft.Azure.Cosmos.PartitionKey("prod.BattleTaskPayload"));
                     i++;
                 }
             }
+
             Console.WriteLine(i);
         }
 
         [TestMethod]
-        public async Task PerformeIndexPolicyAsync()
+        public async Task PerformIndexPolicyAsync()
         {
             var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
             var container = cosmos.GetContainer<BattleTaskPayload>();
-            string sqlQueryText = "SELECT c.data.trackedId FROM c where c.partitionKey = 'prod.BattleTaskPayload' and c.data.jobConfigId = 'nin_user_1ae0221c54a7cba9'   order by c.data.trackedId desc offset 0 limit 10";
+            string sqlQueryText =
+                "SELECT c.data.trackedId FROM c where c.partitionKey = 'prod.BattleTaskPayload' and c.data.jobConfigId = 'nin_user_1ae0221c54a7cba9'   order by c.data.trackedId desc offset 0 limit 10";
 
             QueryDefinition query = new QueryDefinition(sqlQueryText);
 
             FeedIterator<PureIdDto> resultSetIterator = container.GetItemQueryIterator<PureIdDto>(
-                        query, requestOptions: new QueryRequestOptions
-                        {
-                            PopulateIndexMetrics = true
-                        });
+                query, requestOptions: new QueryRequestOptions
+                {
+                    PopulateIndexMetrics = true
+                });
 
             FeedResponse<PureIdDto> response = null;
 
@@ -171,7 +180,8 @@ namespace Stat.Itok.Tests
             var ids = File.ReadAllLines("./configs/rerun_list.txt");
             foreach (var id in ids)
             {
-                await container.DeleteItemAsync<PureIdDto>(id, new Microsoft.Azure.Cosmos.PartitionKey("prod.BattleTaskPayload"));
+                await container.DeleteItemAsync<PureIdDto>(id,
+                    new Microsoft.Azure.Cosmos.PartitionKey("prod.BattleTaskPayload"));
             }
         }
 

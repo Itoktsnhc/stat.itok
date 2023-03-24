@@ -1,0 +1,161 @@
+﻿{
+  "startTime": "2023-02-18T08:00:00Z",
+  "endTime": "2023-02-20T00:00:00Z",
+  "mode": "REGULAR",
+  "rule": "REGULAR",
+  "highestResult": {
+    "grade": {
+      "name": "熟练",
+      "id": "Q29vcEdyYWRlLTM="
+    },
+    "gradePoint": 80,
+    "jobScore": 55,
+    "trophy": null
+  },
+  "historyDetails": {
+    "nodes": [
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIzMDIxOVQwNjU0MTlfMzVkNDE2MTAtMzA0Yy00ZGFmLWFjYzUtNTJiZWQ5MzlhYjk2",
+        "weapons": [
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/9d7272733ae2f2282938da17d69f13419a935eef42239132a02fcf37d8678f10_0.png?Expires=1704844800&Signature=vCKIZPRZYZdvyPJ~bfBRKaEv1wC-wmLz6MSo8iReVsqJ6iR2K~jAjbRHF4zOdw6Rui9L4OJYcU~hYkY4fgFqd~C6oRNp9bqG1JxuoVsgFs8AxNJSyqXwQ2ubIMAv~0TxOPI9i3tFIcZt4yvRrPQ25lHxxsAkpOqxqc-LZIsAPWoGFYwL6HE7PSWypJ9eRGG1SqJXYgF1rWHO0taCpqYkY3Lmu7xAxjbJ0XDgNb07cT-t-1HR1Ncr7dgDClsFRUFXFWnnT2Swhc58SLpqMgPyG9oBLQBWDbO2T1t1QTUnHvf9Xrl3FPamP8WJXk1P-WC-CEfQLwX8X2ylpX-hhCiWQQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/9d7272733ae2f2282938da17d69f13419a935eef42239132a02fcf37d8678f10_0.png?Expires=1704844800&Signature=vCKIZPRZYZdvyPJ~bfBRKaEv1wC-wmLz6MSo8iReVsqJ6iR2K~jAjbRHF4zOdw6Rui9L4OJYcU~hYkY4fgFqd~C6oRNp9bqG1JxuoVsgFs8AxNJSyqXwQ2ubIMAv~0TxOPI9i3tFIcZt4yvRrPQ25lHxxsAkpOqxqc-LZIsAPWoGFYwL6HE7PSWypJ9eRGG1SqJXYgF1rWHO0taCpqYkY3Lmu7xAxjbJ0XDgNb07cT-t-1HR1Ncr7dgDClsFRUFXFWnnT2Swhc58SLpqMgPyG9oBLQBWDbO2T1t1QTUnHvf9Xrl3FPamP8WJXk1P-WC-CEfQLwX8X2ylpX-hhCiWQQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/9d7272733ae2f2282938da17d69f13419a935eef42239132a02fcf37d8678f10_0.png?Expires=1704844800&Signature=vCKIZPRZYZdvyPJ~bfBRKaEv1wC-wmLz6MSo8iReVsqJ6iR2K~jAjbRHF4zOdw6Rui9L4OJYcU~hYkY4fgFqd~C6oRNp9bqG1JxuoVsgFs8AxNJSyqXwQ2ubIMAv~0TxOPI9i3tFIcZt4yvRrPQ25lHxxsAkpOqxqc-LZIsAPWoGFYwL6HE7PSWypJ9eRGG1SqJXYgF1rWHO0taCpqYkY3Lmu7xAxjbJ0XDgNb07cT-t-1HR1Ncr7dgDClsFRUFXFWnnT2Swhc58SLpqMgPyG9oBLQBWDbO2T1t1QTUnHvf9Xrl3FPamP8WJXk1P-WC-CEfQLwX8X2ylpX-hhCiWQQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/9d7272733ae2f2282938da17d69f13419a935eef42239132a02fcf37d8678f10_0.png?Expires=1704844800&Signature=vCKIZPRZYZdvyPJ~bfBRKaEv1wC-wmLz6MSo8iReVsqJ6iR2K~jAjbRHF4zOdw6Rui9L4OJYcU~hYkY4fgFqd~C6oRNp9bqG1JxuoVsgFs8AxNJSyqXwQ2ubIMAv~0TxOPI9i3tFIcZt4yvRrPQ25lHxxsAkpOqxqc-LZIsAPWoGFYwL6HE7PSWypJ9eRGG1SqJXYgF1rWHO0taCpqYkY3Lmu7xAxjbJ0XDgNb07cT-t-1HR1Ncr7dgDClsFRUFXFWnnT2Swhc58SLpqMgPyG9oBLQBWDbO2T1t1QTUnHvf9Xrl3FPamP8WJXk1P-WC-CEfQLwX8X2ylpX-hhCiWQQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": null,
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIzMDIxOVQwNjQ2NTFfM2YzMTljY2ItYTU2Yi00NTlhLTk0OTktMjM2YThmNTI3MWEx"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "漂浮落难船",
+          "id": "Q29vcFN0YWdlLTY="
+        },
+        "afterGrade": {
+          "name": "熟练",
+          "id": "Q29vcEdyYWRlLTM="
+        },
+        "afterGradePoint": 80,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 533
+        },
+        "memberResults": [
+          {
+            "deliverCount": 629
+          },
+          {
+            "deliverCount": 429
+          },
+          {
+            "deliverCount": 303
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 24
+          },
+          {
+            "teamDeliverCount": 16
+          },
+          {
+            "teamDeliverCount": 15
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIzMDIxOVQwNjQ2NTFfM2YzMTljY2ItYTU2Yi00NTlhLTk0OTktMjM2YThmNTI3MWEx",
+        "weapons": [
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/9d7272733ae2f2282938da17d69f13419a935eef42239132a02fcf37d8678f10_0.png?Expires=1704844800&Signature=vCKIZPRZYZdvyPJ~bfBRKaEv1wC-wmLz6MSo8iReVsqJ6iR2K~jAjbRHF4zOdw6Rui9L4OJYcU~hYkY4fgFqd~C6oRNp9bqG1JxuoVsgFs8AxNJSyqXwQ2ubIMAv~0TxOPI9i3tFIcZt4yvRrPQ25lHxxsAkpOqxqc-LZIsAPWoGFYwL6HE7PSWypJ9eRGG1SqJXYgF1rWHO0taCpqYkY3Lmu7xAxjbJ0XDgNb07cT-t-1HR1Ncr7dgDClsFRUFXFWnnT2Swhc58SLpqMgPyG9oBLQBWDbO2T1t1QTUnHvf9Xrl3FPamP8WJXk1P-WC-CEfQLwX8X2ylpX-hhCiWQQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/9d7272733ae2f2282938da17d69f13419a935eef42239132a02fcf37d8678f10_0.png?Expires=1704844800&Signature=vCKIZPRZYZdvyPJ~bfBRKaEv1wC-wmLz6MSo8iReVsqJ6iR2K~jAjbRHF4zOdw6Rui9L4OJYcU~hYkY4fgFqd~C6oRNp9bqG1JxuoVsgFs8AxNJSyqXwQ2ubIMAv~0TxOPI9i3tFIcZt4yvRrPQ25lHxxsAkpOqxqc-LZIsAPWoGFYwL6HE7PSWypJ9eRGG1SqJXYgF1rWHO0taCpqYkY3Lmu7xAxjbJ0XDgNb07cT-t-1HR1Ncr7dgDClsFRUFXFWnnT2Swhc58SLpqMgPyG9oBLQBWDbO2T1t1QTUnHvf9Xrl3FPamP8WJXk1P-WC-CEfQLwX8X2ylpX-hhCiWQQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/9d7272733ae2f2282938da17d69f13419a935eef42239132a02fcf37d8678f10_0.png?Expires=1704844800&Signature=vCKIZPRZYZdvyPJ~bfBRKaEv1wC-wmLz6MSo8iReVsqJ6iR2K~jAjbRHF4zOdw6Rui9L4OJYcU~hYkY4fgFqd~C6oRNp9bqG1JxuoVsgFs8AxNJSyqXwQ2ubIMAv~0TxOPI9i3tFIcZt4yvRrPQ25lHxxsAkpOqxqc-LZIsAPWoGFYwL6HE7PSWypJ9eRGG1SqJXYgF1rWHO0taCpqYkY3Lmu7xAxjbJ0XDgNb07cT-t-1HR1Ncr7dgDClsFRUFXFWnnT2Swhc58SLpqMgPyG9oBLQBWDbO2T1t1QTUnHvf9Xrl3FPamP8WJXk1P-WC-CEfQLwX8X2ylpX-hhCiWQQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/9d7272733ae2f2282938da17d69f13419a935eef42239132a02fcf37d8678f10_0.png?Expires=1704844800&Signature=vCKIZPRZYZdvyPJ~bfBRKaEv1wC-wmLz6MSo8iReVsqJ6iR2K~jAjbRHF4zOdw6Rui9L4OJYcU~hYkY4fgFqd~C6oRNp9bqG1JxuoVsgFs8AxNJSyqXwQ2ubIMAv~0TxOPI9i3tFIcZt4yvRrPQ25lHxxsAkpOqxqc-LZIsAPWoGFYwL6HE7PSWypJ9eRGG1SqJXYgF1rWHO0taCpqYkY3Lmu7xAxjbJ0XDgNb07cT-t-1HR1Ncr7dgDClsFRUFXFWnnT2Swhc58SLpqMgPyG9oBLQBWDbO2T1t1QTUnHvf9Xrl3FPamP8WJXk1P-WC-CEfQLwX8X2ylpX-hhCiWQQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIzMDIxOVQwNjU0MTlfMzVkNDE2MTAtMzA0Yy00ZGFmLWFjYzUtNTJiZWQ5MzlhYjk2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIzMDExNFQwOTQzMTFfMDJhZTI2NWQtZmU4NS00ZGNjLTgxZDUtYzQ3ZmE3ZDE1YWRl"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "漂浮落难船",
+          "id": "Q29vcFN0YWdlLTY="
+        },
+        "afterGrade": {
+          "name": "熟练",
+          "id": "Q29vcEdyYWRlLTM="
+        },
+        "afterGradePoint": 60,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 555
+        },
+        "memberResults": [
+          {
+            "deliverCount": 738
+          },
+          {
+            "deliverCount": 603
+          },
+          {
+            "deliverCount": 791
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 14
+          },
+          {
+            "teamDeliverCount": 18
+          },
+          {
+            "teamDeliverCount": 17
+          }
+        ]
+      }
+    ]
+  }
+}

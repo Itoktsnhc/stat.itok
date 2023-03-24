@@ -11,6 +11,7 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Stat.Itok.Core;
+using Stat.Itok.Core.Helpers;
 
 namespace Stat.Itok.Func.Worker.Functions;
 
@@ -39,7 +40,7 @@ public class JobRunTaskPoisonWorker
         try
         {
             await TrySavePoisonAsync(queueMsg);
-            var msgStr = Helper.DecompressStr(queueMsg.MessageText);
+            var msgStr = CommonHelper.DecompressStr(queueMsg.MessageText);
             var jobRunTaskLite = JsonConvert.DeserializeObject<JobRunTaskLite>(msgStr);
             _logger.LogWarning("Parsed Poison FOR TrackedId {jobId}", jobRunTaskLite.TrackedId);
 
@@ -57,7 +58,7 @@ public class JobRunTaskPoisonWorker
         var fileName = $"{msg.MessageId}.payload";
         var container = await _storage.GetBlobContainerClientAsync<PoisonQueueMsg>();
         var blob = container.GetBlockBlobClient(fileName);
-        using var ms = new MemoryStream(Helper.CompressBytes(Encoding.UTF8.GetBytes(msg.MessageText)));
+        using var ms = new MemoryStream(CommonHelper.CompressBytes(Encoding.UTF8.GetBytes(msg.MessageText)));
         ms.Seek(0, SeekOrigin.Begin);
         await blob.UploadAsync(ms);
         var properties = await blob.GetPropertiesAsync();
