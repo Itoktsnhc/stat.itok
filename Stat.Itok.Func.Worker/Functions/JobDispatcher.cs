@@ -68,6 +68,7 @@ public class JobDispatcher
                 jobs.Add(job.Data);
             }
         }
+
         _logger.LogInformation("JobExecutor GOT Total {N} records", jobs.Count);
         jobs = jobs.Where(x => x.Enabled).ToList();
         _logger.LogInformation("JobExecutor GOT {N} active records", jobs.Count);
@@ -88,7 +89,7 @@ public class JobDispatcher
 
     private async Task DispatchBattleJobRunAsync(JobConfig jobConfig)
     {
-        var checkRes = await _mediator.Send(new ReqPreCheck { AuthContext = jobConfig.NinAuthContext });
+        var checkRes = await _mediator.Send(new ReqPreCheck {AuthContext = jobConfig.NinAuthContext});
         if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
         {
             jobConfig.NeedBuildFromBeginCount++;
@@ -96,6 +97,7 @@ public class JobDispatcher
             _logger.LogError($"job config: {jobConfig.Id} failed renew");
             return;
         }
+
         jobConfig.NeedBuildFromBeginCount = 0;
 
         jobConfig.NinAuthContext = checkRes.AuthContext;
@@ -141,11 +143,12 @@ public class JobDispatcher
             _logger.LogWarning($"{nameof(_options.Value.EmailConfig)} is null or empty");
             return;
         }
+
         try
         {
             var mailConfig = _options.Value.EmailConfig;
             using var client = new SmtpClient();
-#if DEBUG 
+#if DEBUG
             //china main_land for gmail connection
             client.ProxyClient = new HttpProxyClient("127.0.0.1", 10245);
 #endif
@@ -163,10 +166,10 @@ public class JobDispatcher
                 mail.Bcc.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
             }
 
-            var content = config.ForcedUserLang.StartsWith("zh-", StringComparison.InvariantCultureIgnoreCase) ?
-                @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效，如需继续使用对战历史监控功能，请重新设置。"
+            var content = config.ForcedUserLang.StartsWith("zh-", StringComparison.InvariantCultureIgnoreCase)
+                ? @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效，如需继续使用对战历史监控功能，请重新设置。"
                 : "The Nintendo account information you previously configured on the stat.itok website has been tested to be invalid. " +
-                "If you wish to continue using the match history monitoring feature, please config again.";
+                  "If you wish to continue using the match history monitoring feature, please config again.";
             var bodyBuilder = new BodyBuilder
             {
                 TextBody = @$"
@@ -214,12 +217,10 @@ Thanks.
             return;
         }
 
-        var jobRunContainer = _cosmos.GetContainer<JobRun>();
-
         var newJobDto = new AddJobDto($"[{nameof(JobRun)}] for [{jobConfig.NinAuthContext.UserInfo.Nickname}]")
         {
             Options = $"{jobConfig.Id}",
-            Tags = new List<string> { StatItokConstants.StatVersion },
+            Tags = new List<string> {StatItokConstants.StatVersion},
             CreatedBy = "stat.itok"
         };
         var tJob = await _jobTracker.CreateNewJobAsync(newJobDto);
@@ -244,9 +245,11 @@ Thanks.
                     jobRun.TrackedId)
                 {
                     Options = BattleHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr),
-                    Tags = new List<string> { StatItokConstants.StatVersion },
+                    Tags = new List<string>
+                    {
+                        StatItokConstants.StatVersion, BattleHelper.GetPayloadTypeForStatInk(battleTask.BattleIdRawStr)
+                    },
                     CreatedBy = "stat.itok"
-
                 };
                 var tJobRunTask =
                     await _jobTracker.CreateNewJobAsync(addJobDto);
@@ -255,11 +258,13 @@ Thanks.
                 {
                     var queueClient = await _storage.GeJobRunTaskQueueClientAsync();
                     var jobRunTaskLite = battleTask.Adapt<JobRunTaskLite>();
-                    jobRunTaskLite.PayloadId = $"{jobConfig.Id}__{BattleHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)}";
+                    jobRunTaskLite.PayloadId =
+                        $"{jobConfig.Id}__{BattleHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)}";
 
                     var resp = await queueClient
                         .SendMessageAsync(
-                            CommonHelper.CompressStr(JsonConvert.SerializeObject(jobRunTaskLite)), TimeSpan.FromSeconds(30));
+                            CommonHelper.CompressStr(JsonConvert.SerializeObject(jobRunTaskLite)),
+                            TimeSpan.FromSeconds(30));
                     await _jobTracker.UpdateJobStatesAsync(battleTask.TrackedId,
                         new UpdateJobStateDto(JobState.WaitingToRun, $"queue message Id:{resp.Value.MessageId}"));
 
@@ -291,7 +296,8 @@ Thanks.
         {
             var targetBattleId =
                 CosmosEntity.BuildCosmosRealId<BattleTaskPayload>(
-                    $"{jobConfig.Id}__{BattleHelper.GetBattleIdForStatInk(task.BattleIdRawStr)}", _options.Value.CosmosDbPkPrefix);
+                    $"{jobConfig.Id}__{BattleHelper.GetBattleIdForStatInk(task.BattleIdRawStr)}",
+                    _options.Value.CosmosDbPkPrefix);
 
             var query = new QueryDefinition(
                 query: "SELECT * FROM store AS s WHERE s.id = @targetBattleId"

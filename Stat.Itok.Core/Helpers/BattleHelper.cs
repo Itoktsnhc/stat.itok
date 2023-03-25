@@ -630,6 +630,15 @@ public static class BattleHelper
         var res = GuidUtility.Create(guidNs, dataSeg, 5);
         return res.ToString();
     }
+    
+    public static string GetPayloadTypeForStatInk(string rawBattleId)
+    {
+        var decoded = Encoding.UTF8.GetString(Convert.FromBase64String(rawBattleId));
+      
+        return decoded.StartsWith("CoopHistoryDetail")
+            ? "salmon"
+            : "battle";
+    }
 
     public static StatInkSalmonBody BuildStatInkSalmonBody(string detailRes, string groupRawStr,
         string userLang,
