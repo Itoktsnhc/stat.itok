@@ -177,7 +177,7 @@ public static class BattleHelper
                     var challenge = parent["bankaraMatchChallenge"];
                     if (challenge != null && challenge.Type != JTokenType.Null)
                     {
-                        var ranks = new[] { "c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s" };
+                        var ranks = new[] {"c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s"};
                         if (challenge["rank_up_battle"].TryWith<bool?>() == true)
                             body.RankUpBattle = StatInkBoolean.Yes;
                         else
@@ -534,10 +534,10 @@ public static class BattleHelper
 
     private static string ConvertAsColorStr(JToken colorObj)
     {
-        var r = (int?)(colorObj["r"].TryWith<decimal?>() * 255);
-        var g = (int?)(colorObj["g"].TryWith<decimal?>() * 255);
-        var b = (int?)(colorObj["b"].TryWith<decimal?>() * 255);
-        var a = (int?)(colorObj["a"].TryWith<decimal?>() * 255);
+        var r = (int?) (colorObj["r"].TryWith<decimal?>() * 255);
+        var g = (int?) (colorObj["g"].TryWith<decimal?>() * 255);
+        var b = (int?) (colorObj["b"].TryWith<decimal?>() * 255);
+        var a = (int?) (colorObj["a"].TryWith<decimal?>() * 255);
         return $"{r?.ToString("x2")}{g?.ToString("x2")}{b?.ToString("x2")}{a?.ToString("x2")}";
     }
 
@@ -630,11 +630,11 @@ public static class BattleHelper
         var res = GuidUtility.Create(guidNs, dataSeg, 5);
         return res.ToString();
     }
-    
+
     public static string GetPayloadTypeForStatInk(string rawBattleId)
     {
         var decoded = Encoding.UTF8.GetString(Convert.FromBase64String(rawBattleId));
-      
+
         return decoded.StartsWith("CoopHistoryDetail")
             ? "salmon"
             : "battle";
@@ -691,13 +691,18 @@ public static class BattleHelper
                 ? StatInkBoolean.Yes
                 : StatInkBoolean.No;
         }
+
         var currentStageFullId = job["coopStage"]?["id"]?.TryWith<string>();
         //https://stat.ink/api-info/salmon-title3 prevGrade_Point
         if (payload.IsPrivate != StatInkBoolean.Yes)
         {
             payload.TitleAfter = ParseCommonId(job["afterGrade"]?["id"]?.TryWith<string>());
             payload.TitleExpAfter = job["afterGradePoint"]?.TryWith<int?>();
-            var prevJobId = job["previousHistoryDetail"]?["id"]?.TryWith<string>();
+            string prevJobId = null;
+            if (job["previousHistoryDetail"] != null && job["previousHistoryDetail"].Type != JTokenType.Null)
+            {
+                prevJobId = job["previousHistoryDetail"]["id"]?.TryWith<string>();
+            }
 
             if (!string.IsNullOrWhiteSpace(prevJobId) && group != null)
             {
@@ -718,6 +723,7 @@ public static class BattleHelper
                     }
                 }
             }
+
             if (string.IsNullOrWhiteSpace(payload.TitleBefore)) payload.TitleBefore = payload.TitleAfter;
             if (payload.TitleExpBefore == null) payload.TitleExpBefore = payload.TitleExpAfter;
         }
@@ -748,6 +754,7 @@ public static class BattleHelper
             payload.SilverScale = job["scale"]?["silver"]?.TryWith<int?>();
             payload.BronzeScale = job["scale"]?["bronze"]?.TryWith<int?>();
         }
+
         payload.JobScore = job["jobScore"]?.TryWith<int?>();
         payload.JobRate = job["jobRate"]?.TryWith<double?>();
         payload.JobBonus = job["jobBonus"]?.TryWith<int?>();
@@ -797,7 +804,7 @@ public static class BattleHelper
         }
 
         payload.Players ??= new List<SalmonPlayer>();
-        var players = new JArray { job["myResult"] };
+        var players = new JArray {job["myResult"]};
         foreach (var memberRes in job["memberResults"])
         {
             players.Add(memberRes);
@@ -854,7 +861,6 @@ public static class BattleHelper
                 {
                     playerInfo.Weapons.Add(weaponInfo[subKey]);
                 }
-
             }
 
             payload.Players.Add(playerInfo);
@@ -883,6 +889,7 @@ public static class BattleHelper
         {
             payload.Stage = ParseCommonId(currentStageFullId);
         }
+
         return payload;
     }
 

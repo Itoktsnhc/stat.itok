@@ -1,0 +1,455 @@
+﻿{
+  "startTime": "2022-09-13T08:00:00Z",
+  "endTime": "2022-09-15T00:00:00Z",
+  "mode": "REGULAR",
+  "rule": "REGULAR",
+  "highestResult": {
+    "grade": {
+      "name": "独当一面",
+      "id": "Q29vcEdyYWRlLTI="
+    },
+    "gradePoint": 40,
+    "jobScore": 50,
+    "trophy": null
+  },
+  "historyDetails": {
+    "nodes": [
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMjM3NTFfZGUzMmE1MjEtZWUxOS00NTkyLWJhODktM2RmZTlhNjJjNzk2",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "远距爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/0d2963b386b6da598b8da1087eab3f48b99256e2e6a20fc8bbe53b34579fb338_0.png?Expires=1704844800&Signature=KMP0EE~lcfFRY6PHW8~KkovWByCKn0Uy1L2-PsQ6hnwQT03ZSRpSaHArwBvlxlvanGPkU5co-K4kuhD7eUy5CwTvVhsL5A27DB8QU9NlGHCA7Ev~urk7YBR2Wa~kCUKUAIpQshSyhWLXaaJlEH-YfnkZ9A~sC4~zmLhZQxY0vAtxKC4GQd4Sf2sX90hGAiZP2D0-zhFJpYw1oQqz4xtFpEd-GRCq5d5kw63o7aK-4ir1LZRbQrXYMoMr6g5fZWQ1ULh3R~Zwp7XzxJor6S-VjFKfj9kWdKcFLN6-FvSX7fhMfBphVAcSc9INjfcOKjqvmlGrlS6l0XrgKOXHJHM8Zg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "公升4K",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ed294b2c7b3111988d577d7efddb9e5e475efc5e0932e5416efedc41fd98eb04_0.png?Expires=1704844800&Signature=qJPg~l2q--2GNw9KoxQyISS3~Xe~xYMuWZagYLuGm5u6qGK3OZqpnxtAsXzczjveXkSrqTMSr67xsyiMx2AXywjei8dsNyuq44tY14cQla~gfWYO44KMF~o02qT0speuJpQUmQo6uUmVjdxnyrV7b3bp-HwofxlomDMotHHPlolQg27QpZSU4oakgCU918KwacCzKYJbGdVet7xVS1hBJmnc7RPLfUS1oOcpDAVX6dtl8tnL~PWzYP7vPgFPeT1J9jSOk7K~TytXvetlHK6~wr56Om2qxxMCa3KqrtiuEnVP4p-wjH8S4n8gBEDOZICxsC2qI9-whzt2MSTPwK2oDg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNVQxMjU3MDRfMDdjYmQyODMtMGY2Ni00ZmE3LWE0MTctODI0NDM3OWM5ZWY0"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMjMwNDRfZGUzMmE1MjEtZWUxOS00NTkyLWJhODktM2RmZTlhNjJjNzk2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "独当一面",
+          "id": "Q29vcEdyYWRlLTI="
+        },
+        "afterGradePoint": 40,
+        "gradePointDiff": "KEEP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 534
+        },
+        "memberResults": [
+          {
+            "deliverCount": 230
+          },
+          {
+            "deliverCount": 426
+          },
+          {
+            "deliverCount": 284
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 18
+          },
+          {
+            "teamDeliverCount": 17
+          },
+          {
+            "teamDeliverCount": 15
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMjMwNDRfZGUzMmE1MjEtZWUxOS00NTkyLWJhODktM2RmZTlhNjJjNzk2",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "远距爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/0d2963b386b6da598b8da1087eab3f48b99256e2e6a20fc8bbe53b34579fb338_0.png?Expires=1704844800&Signature=KMP0EE~lcfFRY6PHW8~KkovWByCKn0Uy1L2-PsQ6hnwQT03ZSRpSaHArwBvlxlvanGPkU5co-K4kuhD7eUy5CwTvVhsL5A27DB8QU9NlGHCA7Ev~urk7YBR2Wa~kCUKUAIpQshSyhWLXaaJlEH-YfnkZ9A~sC4~zmLhZQxY0vAtxKC4GQd4Sf2sX90hGAiZP2D0-zhFJpYw1oQqz4xtFpEd-GRCq5d5kw63o7aK-4ir1LZRbQrXYMoMr6g5fZWQ1ULh3R~Zwp7XzxJor6S-VjFKfj9kWdKcFLN6-FvSX7fhMfBphVAcSc9INjfcOKjqvmlGrlS6l0XrgKOXHJHM8Zg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "公升4K",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ed294b2c7b3111988d577d7efddb9e5e475efc5e0932e5416efedc41fd98eb04_0.png?Expires=1704844800&Signature=qJPg~l2q--2GNw9KoxQyISS3~Xe~xYMuWZagYLuGm5u6qGK3OZqpnxtAsXzczjveXkSrqTMSr67xsyiMx2AXywjei8dsNyuq44tY14cQla~gfWYO44KMF~o02qT0speuJpQUmQo6uUmVjdxnyrV7b3bp-HwofxlomDMotHHPlolQg27QpZSU4oakgCU918KwacCzKYJbGdVet7xVS1hBJmnc7RPLfUS1oOcpDAVX6dtl8tnL~PWzYP7vPgFPeT1J9jSOk7K~TytXvetlHK6~wr56Om2qxxMCa3KqrtiuEnVP4p-wjH8S4n8gBEDOZICxsC2qI9-whzt2MSTPwK2oDg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMjM3NTFfZGUzMmE1MjEtZWUxOS00NTkyLWJhODktM2RmZTlhNjJjNzk2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMTQxMzFfNjgzMTFhNDYtY2EwZC00MDA1LWE5MjgtZDEyMzM5MTA0ZTIy"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "独当一面",
+          "id": "Q29vcEdyYWRlLTI="
+        },
+        "afterGradePoint": 40,
+        "gradePointDiff": "KEEP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 536
+        },
+        "memberResults": [
+          {
+            "deliverCount": 718
+          },
+          {
+            "deliverCount": 236
+          },
+          {
+            "deliverCount": 646
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 12
+          },
+          {
+            "teamDeliverCount": 17
+          },
+          {
+            "teamDeliverCount": 18
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMTQxMzFfNjgzMTFhNDYtY2EwZC00MDA1LWE5MjgtZDEyMzM5MTA0ZTIy",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "远距爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/0d2963b386b6da598b8da1087eab3f48b99256e2e6a20fc8bbe53b34579fb338_0.png?Expires=1704844800&Signature=KMP0EE~lcfFRY6PHW8~KkovWByCKn0Uy1L2-PsQ6hnwQT03ZSRpSaHArwBvlxlvanGPkU5co-K4kuhD7eUy5CwTvVhsL5A27DB8QU9NlGHCA7Ev~urk7YBR2Wa~kCUKUAIpQshSyhWLXaaJlEH-YfnkZ9A~sC4~zmLhZQxY0vAtxKC4GQd4Sf2sX90hGAiZP2D0-zhFJpYw1oQqz4xtFpEd-GRCq5d5kw63o7aK-4ir1LZRbQrXYMoMr6g5fZWQ1ULh3R~Zwp7XzxJor6S-VjFKfj9kWdKcFLN6-FvSX7fhMfBphVAcSc9INjfcOKjqvmlGrlS6l0XrgKOXHJHM8Zg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "公升4K",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ed294b2c7b3111988d577d7efddb9e5e475efc5e0932e5416efedc41fd98eb04_0.png?Expires=1704844800&Signature=qJPg~l2q--2GNw9KoxQyISS3~Xe~xYMuWZagYLuGm5u6qGK3OZqpnxtAsXzczjveXkSrqTMSr67xsyiMx2AXywjei8dsNyuq44tY14cQla~gfWYO44KMF~o02qT0speuJpQUmQo6uUmVjdxnyrV7b3bp-HwofxlomDMotHHPlolQg27QpZSU4oakgCU918KwacCzKYJbGdVet7xVS1hBJmnc7RPLfUS1oOcpDAVX6dtl8tnL~PWzYP7vPgFPeT1J9jSOk7K~TytXvetlHK6~wr56Om2qxxMCa3KqrtiuEnVP4p-wjH8S4n8gBEDOZICxsC2qI9-whzt2MSTPwK2oDg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMjMwNDRfZGUzMmE1MjEtZWUxOS00NTkyLWJhODktM2RmZTlhNjJjNzk2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMTMyMzFfNjgzMTFhNDYtY2EwZC00MDA1LWE5MjgtZDEyMzM5MTA0ZTIy"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "独当一面",
+          "id": "Q29vcEdyYWRlLTI="
+        },
+        "afterGradePoint": 40,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 482
+        },
+        "memberResults": [
+          {
+            "deliverCount": 473
+          },
+          {
+            "deliverCount": 885
+          },
+          {
+            "deliverCount": 549
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 14
+          },
+          {
+            "teamDeliverCount": 15
+          },
+          {
+            "teamDeliverCount": 17
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMTMyMzFfNjgzMTFhNDYtY2EwZC00MDA1LWE5MjgtZDEyMzM5MTA0ZTIy",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "远距爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/0d2963b386b6da598b8da1087eab3f48b99256e2e6a20fc8bbe53b34579fb338_0.png?Expires=1704844800&Signature=KMP0EE~lcfFRY6PHW8~KkovWByCKn0Uy1L2-PsQ6hnwQT03ZSRpSaHArwBvlxlvanGPkU5co-K4kuhD7eUy5CwTvVhsL5A27DB8QU9NlGHCA7Ev~urk7YBR2Wa~kCUKUAIpQshSyhWLXaaJlEH-YfnkZ9A~sC4~zmLhZQxY0vAtxKC4GQd4Sf2sX90hGAiZP2D0-zhFJpYw1oQqz4xtFpEd-GRCq5d5kw63o7aK-4ir1LZRbQrXYMoMr6g5fZWQ1ULh3R~Zwp7XzxJor6S-VjFKfj9kWdKcFLN6-FvSX7fhMfBphVAcSc9INjfcOKjqvmlGrlS6l0XrgKOXHJHM8Zg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "公升4K",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ed294b2c7b3111988d577d7efddb9e5e475efc5e0932e5416efedc41fd98eb04_0.png?Expires=1704844800&Signature=qJPg~l2q--2GNw9KoxQyISS3~Xe~xYMuWZagYLuGm5u6qGK3OZqpnxtAsXzczjveXkSrqTMSr67xsyiMx2AXywjei8dsNyuq44tY14cQla~gfWYO44KMF~o02qT0speuJpQUmQo6uUmVjdxnyrV7b3bp-HwofxlomDMotHHPlolQg27QpZSU4oakgCU918KwacCzKYJbGdVet7xVS1hBJmnc7RPLfUS1oOcpDAVX6dtl8tnL~PWzYP7vPgFPeT1J9jSOk7K~TytXvetlHK6~wr56Om2qxxMCa3KqrtiuEnVP4p-wjH8S4n8gBEDOZICxsC2qI9-whzt2MSTPwK2oDg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMTQxMzFfNjgzMTFhNDYtY2EwZC00MDA1LWE5MjgtZDEyMzM5MTA0ZTIy"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxM1QxMzA2MjFfZDM5YzAyY2YtOGIwZC00MTA0LWJhOGEtMjEwODY0MDQwN2Iw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "半吊子",
+          "id": "Q29vcEdyYWRlLTE="
+        },
+        "afterGradePoint": 90,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": false,
+          "boss": {
+            "name": "横纲",
+            "id": "Q29vcEVuZW15LTIz"
+          }
+        },
+        "myResult": {
+          "deliverCount": 681
+        },
+        "memberResults": [
+          {
+            "deliverCount": 534
+          },
+          {
+            "deliverCount": 528
+          },
+          {
+            "deliverCount": 850
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 14
+          },
+          {
+            "teamDeliverCount": 15
+          },
+          {
+            "teamDeliverCount": 20
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxM1QxMzA2MjFfZDM5YzAyY2YtOGIwZC00MTA0LWJhOGEtMjEwODY0MDQwN2Iw",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "远距爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/0d2963b386b6da598b8da1087eab3f48b99256e2e6a20fc8bbe53b34579fb338_0.png?Expires=1704844800&Signature=KMP0EE~lcfFRY6PHW8~KkovWByCKn0Uy1L2-PsQ6hnwQT03ZSRpSaHArwBvlxlvanGPkU5co-K4kuhD7eUy5CwTvVhsL5A27DB8QU9NlGHCA7Ev~urk7YBR2Wa~kCUKUAIpQshSyhWLXaaJlEH-YfnkZ9A~sC4~zmLhZQxY0vAtxKC4GQd4Sf2sX90hGAiZP2D0-zhFJpYw1oQqz4xtFpEd-GRCq5d5kw63o7aK-4ir1LZRbQrXYMoMr6g5fZWQ1ULh3R~Zwp7XzxJor6S-VjFKfj9kWdKcFLN6-FvSX7fhMfBphVAcSc9INjfcOKjqvmlGrlS6l0XrgKOXHJHM8Zg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "公升4K",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ed294b2c7b3111988d577d7efddb9e5e475efc5e0932e5416efedc41fd98eb04_0.png?Expires=1704844800&Signature=qJPg~l2q--2GNw9KoxQyISS3~Xe~xYMuWZagYLuGm5u6qGK3OZqpnxtAsXzczjveXkSrqTMSr67xsyiMx2AXywjei8dsNyuq44tY14cQla~gfWYO44KMF~o02qT0speuJpQUmQo6uUmVjdxnyrV7b3bp-HwofxlomDMotHHPlolQg27QpZSU4oakgCU918KwacCzKYJbGdVet7xVS1hBJmnc7RPLfUS1oOcpDAVX6dtl8tnL~PWzYP7vPgFPeT1J9jSOk7K~TytXvetlHK6~wr56Om2qxxMCa3KqrtiuEnVP4p-wjH8S4n8gBEDOZICxsC2qI9-whzt2MSTPwK2oDg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxNFQxMTMyMzFfNjgzMTFhNDYtY2EwZC00MDA1LWE5MjgtZDEyMzM5MTA0ZTIy"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxM1QxMjU5MTZfZDM5YzAyY2YtOGIwZC00MTA0LWJhOGEtMjEwODY0MDQwN2Iw"
+        },
+        "resultWave": 2,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "半吊子",
+          "id": "Q29vcEdyYWRlLTE="
+        },
+        "afterGradePoint": 70,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 405
+        },
+        "memberResults": [
+          {
+            "deliverCount": 151
+          },
+          {
+            "deliverCount": 273
+          },
+          {
+            "deliverCount": 657
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 10
+          },
+          {
+            "teamDeliverCount": 8
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxM1QxMjU5MTZfZDM5YzAyY2YtOGIwZC00MTA0LWJhOGEtMjEwODY0MDQwN2Iw",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "远距爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/0d2963b386b6da598b8da1087eab3f48b99256e2e6a20fc8bbe53b34579fb338_0.png?Expires=1704844800&Signature=KMP0EE~lcfFRY6PHW8~KkovWByCKn0Uy1L2-PsQ6hnwQT03ZSRpSaHArwBvlxlvanGPkU5co-K4kuhD7eUy5CwTvVhsL5A27DB8QU9NlGHCA7Ev~urk7YBR2Wa~kCUKUAIpQshSyhWLXaaJlEH-YfnkZ9A~sC4~zmLhZQxY0vAtxKC4GQd4Sf2sX90hGAiZP2D0-zhFJpYw1oQqz4xtFpEd-GRCq5d5kw63o7aK-4ir1LZRbQrXYMoMr6g5fZWQ1ULh3R~Zwp7XzxJor6S-VjFKfj9kWdKcFLN6-FvSX7fhMfBphVAcSc9INjfcOKjqvmlGrlS6l0XrgKOXHJHM8Zg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "公升4K",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ed294b2c7b3111988d577d7efddb9e5e475efc5e0932e5416efedc41fd98eb04_0.png?Expires=1704844800&Signature=qJPg~l2q--2GNw9KoxQyISS3~Xe~xYMuWZagYLuGm5u6qGK3OZqpnxtAsXzczjveXkSrqTMSr67xsyiMx2AXywjei8dsNyuq44tY14cQla~gfWYO44KMF~o02qT0speuJpQUmQo6uUmVjdxnyrV7b3bp-HwofxlomDMotHHPlolQg27QpZSU4oakgCU918KwacCzKYJbGdVet7xVS1hBJmnc7RPLfUS1oOcpDAVX6dtl8tnL~PWzYP7vPgFPeT1J9jSOk7K~TytXvetlHK6~wr56Om2qxxMCa3KqrtiuEnVP4p-wjH8S4n8gBEDOZICxsC2qI9-whzt2MSTPwK2oDg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hdnNkdG1xd3h6YnFmc2ZqYW5tbToyMDIyMDkxM1QxMzA2MjFfZDM5YzAyY2YtOGIwZC00MTA0LWJhOGEtMjEwODY0MDQwN2Iw"
+        },
+        "previousHistoryDetail": null,
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "半吊子",
+          "id": "Q29vcEdyYWRlLTE="
+        },
+        "afterGradePoint": 80,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 486
+        },
+        "memberResults": [
+          {
+            "deliverCount": 467
+          },
+          {
+            "deliverCount": 602
+          },
+          {
+            "deliverCount": 640
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 12
+          },
+          {
+            "teamDeliverCount": 17
+          },
+          {
+            "teamDeliverCount": 15
+          }
+        ]
+      }
+    ]
+  }
+}
