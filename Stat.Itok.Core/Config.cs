@@ -35,7 +35,7 @@ namespace Stat.Itok.Core
         public string StatInkFullGearApi { get; set; } = "https://stat.ink/api/v3/ability?full=1";
         public string StatInkSalmonFullWeaponApi { get; set; } = "https://stat.ink/api/v3/salmon/weapon?full=1";
         public FallbackConfig FallbackConfig { get; set; }
-        public string JobSysBase { get; set; } = "http://jobtracker.itok.xyz";
+        public string JobSysBase { get; set; } = "https://tasks.itok.xyz";
         public int MaxNeedBuildFromBeginCount { get; set; } = 12 * 24;
     }
 
