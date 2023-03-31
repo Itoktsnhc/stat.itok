@@ -1,0 +1,1729 @@
+﻿{
+  "startTime": "2023-03-31T00:00:00Z",
+  "endTime": "2023-04-01T16:00:00Z",
+  "mode": "REGULAR",
+  "rule": "REGULAR",
+  "highestResult": {
+    "grade": {
+      "name": "传说",
+      "id": "Q29vcEdyYWRlLTg="
+    },
+    "gradePoint": 260,
+    "jobScore": 118,
+    "trophy": null
+  },
+  "historyDetails": {
+    "nodes": [
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODU1MzJfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": null,
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODUwMzlfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": -1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 210,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          },
+          {
+            "deliverCount": 0
+          },
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": []
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODUwMzlfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODU1MzJfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODQ3NDhfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": 2,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 230,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 423
+        },
+        "memberResults": [
+          {
+            "deliverCount": 414
+          },
+          {
+            "deliverCount": 516
+          },
+          {
+            "deliverCount": 366
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 29
+          },
+          {
+            "teamDeliverCount": 27
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODQ3NDhfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODUwMzlfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODQwNDZfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 240,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 228
+        },
+        "memberResults": [
+          {
+            "deliverCount": 157
+          },
+          {
+            "deliverCount": 131
+          },
+          {
+            "deliverCount": 95
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 25
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODQwNDZfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODQ3NDhfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODMzNDJfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 260,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 694
+        },
+        "memberResults": [
+          {
+            "deliverCount": 580
+          },
+          {
+            "deliverCount": 628
+          },
+          {
+            "deliverCount": 859
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 33
+          },
+          {
+            "teamDeliverCount": 31
+          },
+          {
+            "teamDeliverCount": 31
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODMzNDJfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODQwNDZfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODMwNTRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 240,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 881
+        },
+        "memberResults": [
+          {
+            "deliverCount": 322
+          },
+          {
+            "deliverCount": 613
+          },
+          {
+            "deliverCount": 952
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 37
+          },
+          {
+            "teamDeliverCount": 30
+          },
+          {
+            "teamDeliverCount": 33
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODMwNTRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODMzNDJfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODI2MDRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 220,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 202
+        },
+        "memberResults": [
+          {
+            "deliverCount": 172
+          },
+          {
+            "deliverCount": 265
+          },
+          {
+            "deliverCount": 128
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 8
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODI2MDRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODMwNTRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODE3MzJfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": 2,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 240,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 540
+        },
+        "memberResults": [
+          {
+            "deliverCount": 326
+          },
+          {
+            "deliverCount": 331
+          },
+          {
+            "deliverCount": 498
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 31
+          },
+          {
+            "teamDeliverCount": 22
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODE3MzJfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODI2MDRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODE0NDRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 250,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": true,
+          "boss": {
+            "name": "辰龙",
+            "id": "Q29vcEVuZW15LTI0"
+          }
+        },
+        "myResult": {
+          "deliverCount": 2670
+        },
+        "memberResults": [
+          {
+            "deliverCount": 726
+          },
+          {
+            "deliverCount": 2039
+          },
+          {
+            "deliverCount": 1196
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 49
+          },
+          {
+            "teamDeliverCount": 34
+          },
+          {
+            "teamDeliverCount": 35
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODE0NDRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODE3MzJfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODA3MzdfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 230,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 226
+        },
+        "memberResults": [
+          {
+            "deliverCount": 183
+          },
+          {
+            "deliverCount": 287
+          },
+          {
+            "deliverCount": 228
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 23
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODA3MzdfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODE0NDRfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzU3MDhfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 250,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 970
+        },
+        "memberResults": [
+          {
+            "deliverCount": 893
+          },
+          {
+            "deliverCount": 763
+          },
+          {
+            "deliverCount": 937
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 36
+          },
+          {
+            "teamDeliverCount": 30
+          },
+          {
+            "teamDeliverCount": 44
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzU3MDhfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwODA3MzdfMDhhODJmNTctZWU5Ny00Y2RkLTkyZDMtYzU0YWJjNjQ0NWI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzUyMTVfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 230,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 607
+        },
+        "memberResults": [
+          {
+            "deliverCount": 921
+          },
+          {
+            "deliverCount": 1033
+          },
+          {
+            "deliverCount": 545
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 31
+          },
+          {
+            "teamDeliverCount": 32
+          },
+          {
+            "teamDeliverCount": 32
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzUyMTVfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzU3MDhfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzQ1MTJfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "resultWave": 2,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 210,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 777
+        },
+        "memberResults": [
+          {
+            "deliverCount": 455
+          },
+          {
+            "deliverCount": 361
+          },
+          {
+            "deliverCount": 708
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 30
+          },
+          {
+            "teamDeliverCount": 27
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzQ1MTJfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzUyMTVfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzM2NDVfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 220,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 635
+        },
+        "memberResults": [
+          {
+            "deliverCount": 658
+          },
+          {
+            "deliverCount": 990
+          },
+          {
+            "deliverCount": 534
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 29
+          },
+          {
+            "teamDeliverCount": 34
+          },
+          {
+            "teamDeliverCount": 35
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzM2NDVfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzQ1MTJfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzI5NDRfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 200,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": true,
+          "boss": {
+            "name": "辰龙",
+            "id": "Q29vcEVuZW15LTI0"
+          }
+        },
+        "myResult": {
+          "deliverCount": 882
+        },
+        "memberResults": [
+          {
+            "deliverCount": 971
+          },
+          {
+            "deliverCount": 1071
+          },
+          {
+            "deliverCount": 808
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 35
+          },
+          {
+            "teamDeliverCount": 36
+          },
+          {
+            "teamDeliverCount": 29
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzI5NDRfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzM2NDVfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzIyMzhfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 180,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 836
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1162
+          },
+          {
+            "deliverCount": 571
+          },
+          {
+            "deliverCount": 545
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 27
+          },
+          {
+            "teamDeliverCount": 42
+          },
+          {
+            "teamDeliverCount": 32
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzIyMzhfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzI5NDRfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzExNTRfMDI3ZmQ3NTItYzJhNy00Y2U1LWI4ZDctMzk3MTA5MGY2YzM3"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 160,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 919
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1112
+          },
+          {
+            "deliverCount": 524
+          },
+          {
+            "deliverCount": 775
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 28
+          },
+          {
+            "teamDeliverCount": 38
+          },
+          {
+            "teamDeliverCount": 39
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzExNTRfMDI3ZmQ3NTItYzJhNy00Y2U1LWI4ZDctMzk3MTA5MGY2YzM3",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzIyMzhfY2EwZTQxZDItODFiZS00N2RhLTgyN2QtYjQ2ZDY3MTBmZGMw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzAyMTlfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 140,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 648
+        },
+        "memberResults": [
+          {
+            "deliverCount": 953
+          },
+          {
+            "deliverCount": 400
+          },
+          {
+            "deliverCount": 928
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 27
+          },
+          {
+            "teamDeliverCount": 31
+          },
+          {
+            "teamDeliverCount": 35
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzAyMTlfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzExNTRfMDI3ZmQ3NTItYzJhNy00Y2U1LWI4ZDctMzk3MTA5MGY2YzM3"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjU1MTNfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 120,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1059
+        },
+        "memberResults": [
+          {
+            "deliverCount": 910
+          },
+          {
+            "deliverCount": 1094
+          },
+          {
+            "deliverCount": 763
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 35
+          },
+          {
+            "teamDeliverCount": 37
+          },
+          {
+            "teamDeliverCount": 33
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjU1MTNfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNzAyMTlfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjUyMTJfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 100,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1597
+        },
+        "memberResults": [
+          {
+            "deliverCount": 625
+          },
+          {
+            "deliverCount": 1871
+          },
+          {
+            "deliverCount": 468
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 29
+          },
+          {
+            "teamDeliverCount": 34
+          },
+          {
+            "teamDeliverCount": 33
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjUyMTJfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjU1MTNfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjQ1MDlfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 80,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 435
+        },
+        "memberResults": [
+          {
+            "deliverCount": 554
+          },
+          {
+            "deliverCount": 791
+          },
+          {
+            "deliverCount": 263
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 23
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjQ1MDlfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjUyMTJfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjM2NTNfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 100,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 716
+        },
+        "memberResults": [
+          {
+            "deliverCount": 564
+          },
+          {
+            "deliverCount": 778
+          },
+          {
+            "deliverCount": 803
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 27
+          },
+          {
+            "teamDeliverCount": 39
+          },
+          {
+            "teamDeliverCount": 32
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjM2NTNfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjQ1MDlfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjI5MjlfZjQ2OGNjMmMtYTg2NS00ZjFkLWJhMTAtNjNiZTU4ZDBjOTRk"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 80,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": true,
+          "boss": {
+            "name": "辰龙",
+            "id": "Q29vcEVuZW15LTI0"
+          }
+        },
+        "myResult": {
+          "deliverCount": 982
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1754
+          },
+          {
+            "deliverCount": 987
+          },
+          {
+            "deliverCount": 868
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 43
+          },
+          {
+            "teamDeliverCount": 26
+          },
+          {
+            "teamDeliverCount": 35
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjI5MjlfZjQ2OGNjMmMtYTg2NS00ZjFkLWJhMTAtNjNiZTU4ZDBjOTRk",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjM2NTNfODlmNzY5ZmEtZTk2MC00ZDhiLWE4M2MtZThjNTczZjY0MmU2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjIyMTRfZjQ2OGNjMmMtYTg2NS00ZjFkLWJhMTAtNjNiZTU4ZDBjOTRk"
+        },
+        "resultWave": 3,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 60,
+        "gradePointDiff": "KEEP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 682
+        },
+        "memberResults": [
+          {
+            "deliverCount": 565
+          },
+          {
+            "deliverCount": 1067
+          },
+          {
+            "deliverCount": 904
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 25
+          },
+          {
+            "teamDeliverCount": 39
+          },
+          {
+            "teamDeliverCount": 23
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjIyMTRfZjQ2OGNjMmMtYTg2NS00ZjFkLWJhMTAtNjNiZTU4ZDBjOTRk",
+        "weapons": [
+          {
+            "name": "斯普拉机动枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/b43978029ea582de3aca34549cafd810df20082b94104634093392e11e30d9bd_0.png?Expires=1704844800&Signature=cBQI8zfTNxNJ48MAAaqfpdN~f5x2q~oK-~8v1KGaYtrYjEId6tYVU5V17o5ayDLnpdKXlpLvSd2DZrldsW7EHDw~-hgaqBy4sNtktWM7fBb2L5R9TS8xQqXjjB1koU1cXAUXD5yrWwW9Stja9X2pQRzNZz-vOrFQ13cOJ~-LskKUZNShfhnGeyMY-wDZ4OAhTGioU2flo8R5MtY6eZbVECa299XobkhF5XzpAgeOPNHjA5oQ5SIT2lRLrmYtluW-6oO9vkq6qGPOv9SR6GfdbXdRsJe0QR1JA9Wyu94dzA4oCYgZ8QC68sBvc2075LGd5rJy-tAkW52SAftrtP3QZA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "工作刮水刀",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/ddd2a4258a70cdaf8a1dbc0ded024db497445d71f950fe7645fa8c69a178a082_0.png?Expires=1704844800&Signature=CuvPlq26Vix8my-5ESc-8xMtghoQNuGGG9eJhFQQbaWcegek-gSbp6SzLPtiWE0uGmcl6qvE5XzDLrPRHwwfTDGWxw8vuMuRXKhBeOhu6Qp1lMMg1fpL2N4NOq~pPVPpEuNVrJ05hD7egwOPDj4AoB9BbtDZXeFomI4UqVSbn~2RqRb0V4NrcRv4oQmEF8sCa5G3bvmJ3VVRdzfQWaBpIf6eLYMtsGTd2vUc-aveAJfN373fiUKwdhtcCYsjggqbPjPBtfopjFKrW7TEmfqmZysrfzvqA75LzmwMS3RKkG3etutWJ60CI0m-zpinrWBQ6Q5F0~BiOEts9LRyVTP0EQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "顶尖射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/5607f7014bbc7339feeb67218c05ef19c7a466152b1bd056a899b955127ea433_0.png?Expires=1704844800&Signature=A5zk09coYi0X~zTlucBO4KqsG707ieiPMD29pNKj3mbAoYaTL7vWbwT-pAPfJudcIS9mOZVUseyu1~vtQHDpriO5HbgibDjs5ydKNd~h0az5HvDQ7HpVOb9wCxxWJJnaOKadq4~iFBTtYK1zlqf-KNI-8NkZLbVxkp7suE2Z1e3IK0lzAfPWMTcQWQluWOBMWbgARxTXFkOaGd6T3RSI6LlgmJHYn9FhpnOb3BGqMC4uDd3ROy6RMP5Qwf16drG5jrBRkEZar8uNkhgT4OBLu3Gexmfpl4ezky7sRSV2S2a1LEb77lcSBxL1lBI4sz72Kyd4o8En9HuPT6td8ryV7Q__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "消防栓旋转枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/34fe0401b6f6a0b09839696fc820ece9570a9d56e3a746b65f0604dec91a9920_0.png?Expires=1704844800&Signature=cDY0Ukwzpw7~5oAzcMZkpLz5FyNPE5T6sdHL7PiWFtgCmyk73aFK3sEz6FyXzbPLXCEQuBWdskU6DzZr0kE~wN98Y5pIf-G1dTbJZrw9ZZ5oxp4zKhLobfaA5KR-ETFZBfgJluQz7bfqbsEPZNHMX5m953ZdIUsaNCuMxvLpDgJh0iyz2RD~Xpm7i5Qm0-CUG37zw~hKEli0aY7VPV9entnnp58T-F91BBvTiNSyhbJhzxwOGZjOutKUr2zrL-eBKK2fYo6TGoCWV1WeyXla554XhygFGlREEM4lkp6~WKycsmEaV~IPUuSMDrW0xHBYomaU88XE4b4vyLcLySQfQA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMVQwNjI5MjlfZjQ2OGNjMmMtYTg2NS00ZjFkLWJhMTAtNjNiZTU4ZDBjOTRk"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMzMFQxNzQ2NDhfNjhjMTM2YjItZmQ2OS00MGNjLWE4Y2YtZmVmODgwNTNhNDQ1"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 60,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 595
+        },
+        "memberResults": [
+          {
+            "deliverCount": 684
+          },
+          {
+            "deliverCount": 674
+          },
+          {
+            "deliverCount": 1052
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 33
+          },
+          {
+            "teamDeliverCount": 43
+          },
+          {
+            "teamDeliverCount": 32
+          }
+        ]
+      }
+    ]
+  }
+}

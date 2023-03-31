@@ -651,7 +651,8 @@ public static class BattleHelper
             Uuid = GetBattleIdForStatInk(job["id"]?.TryWith<string>())
         };
         var jobRule = job["rule"]?.TryWith<string>();
-        if (jobRule is "PRIVATE_CUSTOM" or "PRIVATE_SCENARIO" || job["jobPoint"]?.TryWith<int?>() is null or 0)
+        //|| job["jobPoint"]?.TryWith<int?>() is null or 0
+        if (jobRule is "PRIVATE_CUSTOM" or "PRIVATE_SCENARIO")
         {
             payload.IsPrivate = StatInkBoolean.Yes;
         }
