@@ -784,10 +784,6 @@ public static class BattleHelper
                 }
             }
 
-            else
-            {
-            }
-
             waveInfo.SpecialUses ??= new Dictionary<string, int>();
             foreach (var specialWeapon in wave["specialWeapons"] as JArray)
             {
@@ -801,6 +797,8 @@ public static class BattleHelper
 
                 waveInfo.SpecialUses[specialKey]++;
             }
+
+            payload.Waves.Add(waveInfo);
         }
 
         payload.Players ??= new List<SalmonPlayer>();
