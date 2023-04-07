@@ -21,7 +21,7 @@ public class StatInkHandler : HandlerBase,
 
     public async Task<StatInkPostBodySuccess> Handle(ReqPostBattle request, CancellationToken cancellationToken)
     {
-        var strResp = await RunWithDefaultPolicy(_api.PostBattlesAsync(request.ApiKey, request.Body));
+        var strResp = await RunWithDefaultPolicy(_api.PostBattleAsync(request.ApiKey, request.Body));
         var jTokenResp = strResp.ThrowIfJsonPropNotFound("id", "url");
         return new StatInkPostBodySuccess()
         {

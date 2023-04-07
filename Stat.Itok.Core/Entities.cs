@@ -436,6 +436,7 @@ public class BattleTaskDebugContext
     public string BattleGroupRawStr { get; set; }
     public string BattleDetailRawStr { get; set; }
     public string PayloadType { get; set; }
+    public long? TrackedId { get; set; }
 }
 
 public class PoisonQueueMsg

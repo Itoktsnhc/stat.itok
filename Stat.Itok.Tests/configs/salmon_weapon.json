@@ -1,0 +1,1447 @@
+﻿[
+  {
+    "key": "52gal",
+    "aliases": [
+      "50",
+      "52_gal"
+    ],
+    "name": {
+      "de_DE": ".52 Gallon",
+      "en_GB": ".52 Gal",
+      "en_US": ".52 Gal",
+      "es_ES": "Salpicadora 2000",
+      "es_MX": "Salpicadora 2000",
+      "fr_CA": "Calibre 2000",
+      "fr_FR": "Calibre 2000",
+      "it_IT": "Calibro 2000",
+      "ja_JP": ".52ガロン",
+      "ko_KR": ".52 갤런",
+      "nl_NL": ".52 Kaliter",
+      "ru_RU": "Струевик .52",
+      "zh_CN": ".52加仑",
+      "zh_TW": ".52加侖"
+    }
+  },
+  {
+    "key": "96gal",
+    "aliases": [
+      "80",
+      "96_gal"
+    ],
+    "name": {
+      "de_DE": ".96 Gallon",
+      "en_GB": ".96 Gal",
+      "en_US": ".96 Gal",
+      "es_ES": "Salpicadora 3000",
+      "es_MX": "Salpicadora 3000",
+      "fr_CA": "Calibre 3000",
+      "fr_FR": "Calibre 3000",
+      "it_IT": "Calibro 3000",
+      "ja_JP": ".96ガロン",
+      "ko_KR": ".96 갤런",
+      "nl_NL": ".96 Kaliter",
+      "ru_RU": "Струевик .96",
+      "zh_CN": ".96加仑",
+      "zh_TW": ".96加侖"
+    }
+  },
+  {
+    "key": "bamboo14mk1",
+    "aliases": [
+      "2050",
+      "bamboozler_14_mk_i"
+    ],
+    "name": {
+      "de_DE": "Klotzer 14-A",
+      "en_GB": "Bamboozler 14 Mk I",
+      "en_US": "Bamboozler 14 Mk I",
+      "es_ES": "Bambufusil 14-I",
+      "es_MX": "Bamzuka 14-I",
+      "fr_CA": "Bimbamboum Mk I",
+      "fr_FR": "Bimbamboum Mk I",
+      "it_IT": "Bimbamboom 14-I",
+      "ja_JP": "14式竹筒銃・甲",
+      "ko_KR": "14식 대나무 총 갑",
+      "nl_NL": "Bamboem 14-A",
+      "ru_RU": "Бамбух 14-I",
+      "zh_CN": "14式竹筒枪·甲",
+      "zh_TW": "14式竹筒槍‧甲"
+    }
+  },
+  {
+    "key": "barrelspinner",
+    "aliases": [
+      "4010",
+      "heavy_splatling"
+    ],
+    "name": {
+      "de_DE": "Splatling",
+      "en_GB": "Heavy Splatling",
+      "en_US": "Heavy Splatling",
+      "es_ES": "Tintralladora",
+      "es_MX": "Garabateador Pro",
+      "fr_CA": "Badigeonneur",
+      "fr_FR": "Badigeonneur",
+      "it_IT": "Splatling a tanica",
+      "ja_JP": "バレルスピナー",
+      "ko_KR": "배럴 스피너",
+      "nl_NL": "Spetling",
+      "ru_RU": "Брызгомет XL",
+      "zh_CN": "桶装旋转枪",
+      "zh_TW": "桶裝旋轉槍"
+    }
+  },
+  {
+    "key": "bold",
+    "aliases": [
+      "0",
+      "sploosh_o_matic"
+    ],
+    "name": {
+      "de_DE": "Disperser",
+      "en_GB": "Sploosh-o-matic",
+      "en_US": "Sploosh-o-matic",
+      "es_ES": "Marcador",
+      "es_MX": "Marcador grueso",
+      "fr_CA": "Marqueur lourd",
+      "fr_FR": "Marqueur lourd",
+      "it_IT": "Marker",
+      "ja_JP": "ボールドマーカー",
+      "ko_KR": "볼드 마커",
+      "nl_NL": "Spettertuit",
+      "ru_RU": "Плюхотрон",
+      "zh_CN": "广域标记枪",
+      "zh_TW": "廣域標記槍"
+    }
+  },
+  {
+    "key": "bottlegeyser",
+    "aliases": [
+      "400",
+      "squeezer"
+    ],
+    "name": {
+      "de_DE": "Quetscher",
+      "en_GB": "Squeezer",
+      "en_US": "Squeezer",
+      "es_ES": "Tintopresor",
+      "es_MX": "Tintopresor",
+      "fr_CA": "Compresseur",
+      "fr_FR": "Compresseur",
+      "it_IT": "Strizzer",
+      "ja_JP": "ボトルガイザー",
+      "ko_KR": "보틀 가이저",
+      "nl_NL": "Floeper",
+      "ru_RU": "Бутылятор",
+      "zh_CN": "开瓶喷泉枪",
+      "zh_TW": "開瓶噴泉槍"
+    }
+  },
+  {
+    "key": "bucketslosher",
+    "aliases": [
+      "3000",
+      "slosher"
+    ],
+    "name": {
+      "de_DE": "Schwapper",
+      "en_GB": "Slosher",
+      "en_US": "Slosher",
+      "es_ES": "Derramatic",
+      "es_MX": "Derramatic",
+      "fr_CA": "Seauceur",
+      "fr_FR": "Seauceur",
+      "it_IT": "Secchiostro",
+      "ja_JP": "バケットスロッシャー",
+      "ko_KR": "버킷 슬로셔",
+      "nl_NL": "Morser",
+      "ru_RU": "Ведроган",
+      "zh_CN": "飞溅泼桶",
+      "zh_TW": "飛濺潑桶"
+    }
+  },
+  {
+    "key": "campingshelter",
+    "aliases": [
+      "6010",
+      "tenta_brella"
+    ],
+    "name": {
+      "de_DE": "Camp-Pluviator",
+      "en_GB": "Tenta Brella",
+      "en_US": "Tenta Brella",
+      "es_ES": "Paratintas maxi",
+      "es_MX": "Paratintas forestal",
+      "fr_CA": "Méga para-encre",
+      "fr_FR": "Para-encre XL",
+      "it_IT": "Sparatenda",
+      "ja_JP": "キャンピングシェルター",
+      "ko_KR": "캠핑 셸터",
+      "nl_NL": "Kampeerplenzer",
+      "ru_RU": "Зонтент",
+      "zh_CN": "露营防空伞",
+      "zh_TW": "露營防空傘"
+    }
+  },
+  {
+    "key": "carbon",
+    "aliases": [
+      "1000",
+      "carbon_roller"
+    ],
+    "name": {
+      "de_DE": "Karbonroller",
+      "en_GB": "Carbon Roller",
+      "en_US": "Carbon Roller",
+      "es_ES": "Rodillo de carbono",
+      "es_MX": "Rodillo de carbono",
+      "fr_CA": "Rouleau carbone",
+      "fr_FR": "Rouleau carbone",
+      "it_IT": "Rullo di carbonio",
+      "ja_JP": "カーボンローラー",
+      "ko_KR": "카본 롤러",
+      "nl_NL": "Carbonroller",
+      "ru_RU": "Валик ЛАЙТ",
+      "zh_CN": "碳纤维滚筒",
+      "zh_TW": "碳纖維滾筒"
+    }
+  },
+  {
+    "key": "clashblaster",
+    "aliases": [
+      "230",
+      "clash_blaster"
+    ],
+    "name": {
+      "de_DE": "Kontra-Blaster",
+      "en_GB": "Clash Blaster",
+      "en_US": "Clash Blaster",
+      "es_ES": "Turbodevastador",
+      "es_MX": "Hiperlanzamotas",
+      "fr_CA": "Rafalblasteur",
+      "fr_FR": "Rafablaster",
+      "it_IT": "Blaster da mischia",
+      "ja_JP": "クラッシュブラスター",
+      "ko_KR": "크래시 블래스터",
+      "nl_NL": "Knalblaster",
+      "ru_RU": "Контрабластер",
+      "zh_CN": "冲涂爆破枪",
+      "zh_TW": "衝塗爆破槍"
+    }
+  },
+  {
+    "key": "drivewiper",
+    "aliases": [
+      "8010",
+      "splatana_wiper"
+    ],
+    "name": {
+      "de_DE": "Wischer-Splatana",
+      "en_GB": "Splatana Wiper",
+      "en_US": "Splatana Wiper",
+      "es_ES": "Azotintador brisa",
+      "es_MX": "Azotintador brisa",
+      "fr_CA": "Éclatana Doto",
+      "fr_FR": "Éclatana Doto",
+      "it_IT": "Tergilama",
+      "ja_JP": "ドライブワイパー",
+      "ko_KR": "드라이브 와이퍼",
+      "nl_NL": "Wisserbladzwieper",
+      "ru_RU": "Cплат-дворник",
+      "zh_CN": "雨刷刮水刀",
+      "zh_TW": "雨刷刮水刀"
+    }
+  },
+  {
+    "key": "dualsweeper",
+    "aliases": [
+      "5030",
+      "dualie_squelchers"
+    ],
+    "name": {
+      "de_DE": "Dual-Platscher",
+      "en_GB": "Dualie Squelchers",
+      "en_US": "Dualie Squelchers",
+      "es_ES": "Barredora dual",
+      "es_MX": "Soplador dual",
+      "fr_CA": "Double nettoyeur",
+      "fr_FR": "Double nettoyeur",
+      "it_IT": "Sweeper duplo",
+      "ja_JP": "デュアルスイーパー",
+      "ko_KR": "듀얼 스위퍼",
+      "nl_NL": "Dubbelplonzers",
+      "ru_RU": "Спурт-плескари",
+      "zh_CN": "双重清洁枪",
+      "zh_TW": "雙重清潔槍"
+    }
+  },
+  {
+    "key": "dynamo",
+    "aliases": [
+      "1020",
+      "dynamo_roller"
+    ],
+    "name": {
+      "de_DE": "Dynaroller",
+      "en_GB": "Dynamo Roller",
+      "en_US": "Dynamo Roller",
+      "es_ES": "Dinamorrodillo",
+      "es_MX": "Rodillo Pro",
+      "fr_CA": "Dynamo-rouleau",
+      "fr_FR": "Dynamo-rouleau",
+      "it_IT": "Rullo dinamo",
+      "ja_JP": "ダイナモローラー",
+      "ko_KR": "다이너모 롤러",
+      "nl_NL": "Dynamoroller",
+      "ru_RU": "Мотовалик",
+      "zh_CN": "电动马达滚筒",
+      "zh_TW": "電動馬達滾筒"
+    }
+  },
+  {
+    "key": "explosher",
+    "aliases": [
+      "3040"
+    ],
+    "name": {
+      "de_DE": "Knall-Schwapper",
+      "en_GB": "Explosher",
+      "en_US": "Explosher",
+      "es_ES": "Derramatic turbo",
+      "es_MX": "Derramatic XP",
+      "fr_CA": "Détoneur",
+      "fr_FR": "Détoneur",
+      "it_IT": "Termosecchiostro",
+      "ja_JP": "エクスプロッシャー",
+      "ko_KR": "익스플로셔",
+      "nl_NL": "Kliederkachel",
+      "ru_RU": "Шпарган",
+      "zh_CN": "爆炸泼桶",
+      "zh_TW": "爆炸潑桶"
+    }
+  },
+  {
+    "key": "furo",
+    "aliases": [
+      "3030",
+      "bloblobber"
+    ],
+    "name": {
+      "de_DE": "Wannen-Schwapper",
+      "en_GB": "Bloblobber",
+      "en_US": "Bloblobber",
+      "es_ES": "Derramatic baño",
+      "es_MX": "Derramatic baño",
+      "fr_CA": "Bassineur",
+      "fr_FR": "Bassineur",
+      "it_IT": "Secchiostro vasca",
+      "ja_JP": "オーバーフロッシャー",
+      "ko_KR": "오버플로셔",
+      "nl_NL": "Spatkuip",
+      "ru_RU": "Ваннаган",
+      "zh_CN": "满溢泡澡泼桶",
+      "zh_TW": "滿溢泡澡潑桶"
+    }
+  },
+  {
+    "key": "h3reelgun",
+    "aliases": [
+      "310",
+      "h_3_nozzlenose"
+    ],
+    "name": {
+      "de_DE": "S3 Tintenwerfer",
+      "en_GB": "H-3 Nozzlenose",
+      "en_US": "H-3 Nozzlenose",
+      "es_ES": "Tintambor pesado",
+      "es_MX": "Manguera pesada",
+      "fr_CA": "Arroseur lourd",
+      "fr_FR": "Arroseur lourd",
+      "it_IT": "Triplete",
+      "ja_JP": "H3リールガン",
+      "ko_KR": "H3 릴 건",
+      "nl_NL": "H-3 Langsnuit",
+      "ru_RU": "Тяжелый каплетрон",
+      "zh_CN": "H3卷管枪",
+      "zh_TW": "H3捲管槍"
+    }
+  },
+  {
+    "key": "hissen",
+    "aliases": [
+      "3010",
+      "tri_slosher"
+    ],
+    "name": {
+      "de_DE": "3R-Schwapper",
+      "en_GB": "Tri-Slosher",
+      "en_US": "Tri-Slosher",
+      "es_ES": "Derramatic triple",
+      "es_MX": "Derramatic triple",
+      "fr_CA": "Seauceur trio",
+      "fr_FR": "Dépoteur",
+      "it_IT": "Secchiostro triplo",
+      "ja_JP": "ヒッセン",
+      "ko_KR": "물통",
+      "nl_NL": "Triomorser",
+      "ru_RU": "Ведроган 3 в 1",
+      "zh_CN": "洗笔桶",
+      "zh_TW": "洗筆桶"
+    }
+  },
+  {
+    "key": "hokusai",
+    "aliases": [
+      "1110",
+      "octobrush"
+    ],
+    "name": {
+      "de_DE": "Kalligraf",
+      "en_GB": "Octobrush",
+      "en_US": "Octobrush",
+      "es_ES": "Brocha",
+      "es_MX": "Pincel caligrafía",
+      "fr_CA": "Épinceau brosse",
+      "fr_FR": "Épinceau brosse",
+      "it_IT": "Tinturicchio",
+      "ja_JP": "ホクサイ",
+      "ko_KR": "호쿠사이",
+      "nl_NL": "Octokwast",
+      "ru_RU": "Арт-кисть",
+      "zh_CN": "北斋",
+      "zh_TW": "北齋"
+    }
+  },
+  {
+    "key": "hotblaster",
+    "aliases": [
+      "210",
+      "blaster"
+    ],
+    "name": {
+      "de_DE": "Blaster",
+      "en_GB": "Blaster",
+      "en_US": "Blaster",
+      "es_ES": "Devastador",
+      "es_MX": "Lanzamotas",
+      "fr_CA": "Éclablasteur",
+      "fr_FR": "Éclablaster",
+      "it_IT": "Blaster",
+      "ja_JP": "ホットブラスター",
+      "ko_KR": "핫 블래스터",
+      "nl_NL": "Klodderblaster",
+      "ru_RU": "Бластер",
+      "zh_CN": "火热爆破枪",
+      "zh_TW": "火熱爆破槍"
+    }
+  },
+  {
+    "key": "hydra",
+    "aliases": [
+      "4020",
+      "hydra_splatling"
+    ],
+    "name": {
+      "de_DE": "Hydrant",
+      "en_GB": "Hydra Splatling",
+      "en_US": "Hydra Splatling",
+      "es_ES": "Extintador",
+      "es_MX": "Garabateador HD",
+      "fr_CA": "Exteinteur",
+      "fr_FR": "Exteinteur",
+      "it_IT": "Idrante",
+      "ja_JP": "ハイドラント",
+      "ko_KR": "하이드런트",
+      "nl_NL": "Blusling",
+      "ru_RU": "Брызгомет «Горыныч»",
+      "zh_CN": "消防栓旋转枪",
+      "zh_TW": "消防栓旋轉槍"
+    }
+  },
+  {
+    "key": "jetsweeper",
+    "aliases": [
+      "90",
+      "jet_squelcher"
+    ],
+    "name": {
+      "de_DE": "Platscher",
+      "en_GB": "Jet Squelcher",
+      "en_US": "Jet Squelcher",
+      "es_ES": "Megabarredora",
+      "es_MX": "Megasoplador",
+      "fr_CA": "Méganettoyeur",
+      "fr_FR": "Nettoyeur XL",
+      "it_IT": "Sweeper",
+      "ja_JP": "ジェットスイーパー",
+      "ko_KR": "제트 스위퍼",
+      "nl_NL": "Straalplonzer",
+      "ru_RU": "Плескарь",
+      "zh_CN": "喷射清洁枪",
+      "zh_TW": "噴射清潔槍"
+    }
+  },
+  {
+    "key": "jimuwiper",
+    "aliases": [
+      "8000",
+      "splatana_stamper"
+    ],
+    "name": {
+      "de_DE": "Stempel-Splatana",
+      "en_GB": "Splatana Stamper",
+      "en_US": "Splatana Stamper",
+      "es_ES": "Azotintador pro",
+      "es_MX": "Azotintador Pro",
+      "fr_CA": "Éclatana d'estampe",
+      "fr_FR": "Éclatana d'estampe",
+      "it_IT": "Splattalama",
+      "ja_JP": "ジムワイパー",
+      "ko_KR": "사무 와이퍼",
+      "nl_NL": "Stempelzwieper",
+      "ru_RU": "Сплат-печатель",
+      "zh_CN": "工作刮水刀",
+      "zh_TW": "工作刮水刀"
+    }
+  },
+  {
+    "key": "kelvin525",
+    "aliases": [
+      "5020",
+      "glooga_dualies"
+    ],
+    "name": {
+      "de_DE": "Kelvin 525",
+      "en_GB": "Glooga Dualies",
+      "en_US": "Glooga Dualies",
+      "es_ES": "Fundidora 525 dual",
+      "es_MX": "Fundidora 525 dual",
+      "fr_CA": "Double Kelvin 525",
+      "fr_FR": "Double Kelvin 525",
+      "it_IT": "Kelvin duplo 525",
+      "ja_JP": "ケルビン525",
+      "ko_KR": "켈빈 525",
+      "nl_NL": "Kelvin 525",
+      "ru_RU": "Термоплюхи 525",
+      "zh_CN": "开尔文525",
+      "zh_TW": "開爾文525"
+    }
+  },
+  {
+    "key": "kugelschreiber",
+    "aliases": [
+      "4030",
+      "ballpoint_splatling"
+    ],
+    "name": {
+      "de_DE": "Kuli-Splatling",
+      "en_GB": "Ballpoint Splatling",
+      "en_US": "Ballpoint Splatling",
+      "es_ES": "Ametrallógrafo",
+      "es_MX": "Garabateador PLM",
+      "fr_CA": "Badigeonneur stylo",
+      "fr_FR": "Badigeonneur stylo",
+      "it_IT": "Tetrapenna",
+      "ja_JP": "クーゲルシュライバー",
+      "ko_KR": "쿠겔 슈라이버",
+      "nl_NL": "Stylospetling",
+      "ru_RU": "Кугельшрайбер",
+      "zh_CN": "圆珠笔",
+      "zh_TW": "圓珠筆"
+    }
+  },
+  {
+    "key": "l3reelgun",
+    "aliases": [
+      "300",
+      "l_3_nozzlenose"
+    ],
+    "name": {
+      "de_DE": "L3 Tintenwerfer",
+      "en_GB": "L-3 Nozzlenose",
+      "en_US": "L-3 Nozzlenose",
+      "es_ES": "Tintambor ligero",
+      "es_MX": "Manguera ligera",
+      "fr_CA": "Arroseur léger",
+      "fr_FR": "Arroseur léger",
+      "it_IT": "Triplete compatto",
+      "ja_JP": "L3リールガン",
+      "ko_KR": "L3 릴 건",
+      "nl_NL": "L-3 Stompsnuit",
+      "ru_RU": "Каплетрон-компакт",
+      "zh_CN": "L3卷管枪",
+      "zh_TW": "L3捲管槍"
+    }
+  },
+  {
+    "key": "lact450",
+    "aliases": [
+      "7020",
+      "reef_lux_450"
+    ],
+    "name": {
+      "de_DE": "LACT-450",
+      "en_GB": "REEF-LUX 450",
+      "en_US": "REEF-LUX 450",
+      "es_ES": "AR-CR0 450",
+      "es_MX": "AR-CR0 450",
+      "fr_CA": "Coralux 450",
+      "fr_FR": "Coralux 450",
+      "it_IT": "ARCO-RAL 450",
+      "ja_JP": "LACT-450",
+      "ko_KR": "LACT-450",
+      "nl_NL": "RIF-LEX 450",
+      "ru_RU": "КО-РАЛЛ 450",
+      "zh_CN": "LACT-450",
+      "zh_TW": "LACT-450"
+    }
+  },
+  {
+    "key": "liter4k",
+    "aliases": [
+      "2030",
+      "e_liter_4k"
+    ],
+    "name": {
+      "de_DE": "E-liter 4K",
+      "en_GB": "E-liter 4K",
+      "en_US": "E-liter 4K",
+      "es_ES": "Entintador 4K",
+      "es_MX": "Entintador 4K",
+      "fr_CA": "X-traceur +",
+      "fr_FR": "Extraceur +",
+      "it_IT": "Tinter a carica 4K",
+      "ja_JP": "リッター4K",
+      "ko_KR": "리터 4K",
+      "nl_NL": "E-liter 4K",
+      "ru_RU": "Э-литр 95",
+      "zh_CN": "公升4K",
+      "zh_TW": "公升4K"
+    }
+  },
+  {
+    "key": "liter4k_scope",
+    "aliases": [
+      "2040",
+      "e_liter_4k_scope"
+    ],
+    "name": {
+      "de_DE": "Ziel-E-liter 4K",
+      "en_GB": "E-liter 4K Scope",
+      "en_US": "E-liter 4K Scope",
+      "es_ES": "Telentintador 4K",
+      "es_MX": "Telentintador 4K",
+      "fr_CA": "X-traceur + zoom",
+      "fr_FR": "Extraceur + zoom",
+      "it_IT": "Tinter con mirino 4K",
+      "ja_JP": "4Kスコープ",
+      "ko_KR": "4K 스코프",
+      "nl_NL": "E-liter 4K met vizier",
+      "ru_RU": "Снайп-э-литр 95",
+      "zh_CN": "4K准星枪",
+      "zh_TW": "4K準星槍"
+    }
+  },
+  {
+    "key": "longblaster",
+    "aliases": [
+      "220",
+      "range_blaster"
+    ],
+    "name": {
+      "de_DE": "Fern-Blaster",
+      "en_GB": "Range Blaster",
+      "en_US": "Range Blaster",
+      "es_ES": "Teledevastador",
+      "es_MX": "Telelanzamotas",
+      "fr_CA": "Éclablasteur LP",
+      "fr_FR": "Éclablaster XL",
+      "it_IT": "Blaster a distanza",
+      "ja_JP": "ロングブラスター",
+      "ko_KR": "롱 블래스터",
+      "nl_NL": "Teleblaster",
+      "ru_RU": "Дальнобластер",
+      "zh_CN": "远距爆破枪",
+      "zh_TW": "遠距爆破槍"
+    }
+  },
+  {
+    "key": "maneuver",
+    "aliases": [
+      "5010",
+      "splat_dualies"
+    ],
+    "name": {
+      "de_DE": "Klecks-Doppler",
+      "en_GB": "Splat Dualies",
+      "en_US": "Splat Dualies",
+      "es_ES": "Difusor dual",
+      "es_MX": "Difusor dual",
+      "fr_CA": "Double encreur",
+      "fr_FR": "Double encreur",
+      "it_IT": "Repolper duplo",
+      "ja_JP": "スプラマニューバー",
+      "ko_KR": "스플랫 머누버",
+      "nl_NL": "Dubbelknallers",
+      "ru_RU": "Спуртометы",
+      "zh_CN": "斯普拉机动枪",
+      "zh_TW": "斯普拉機動槍"
+    }
+  },
+  {
+    "key": "nautilus47",
+    "aliases": [
+      "4040",
+      "nautilus_47"
+    ],
+    "name": {
+      "de_DE": "Nautilus 47",
+      "en_GB": "Nautilus 47",
+      "en_US": "Nautilus 47",
+      "es_ES": "Subtralladora 47",
+      "es_MX": "Nautilo 47",
+      "fr_CA": "Nautilus 47",
+      "fr_FR": "Nautilus 47",
+      "it_IT": "Nautilus 47",
+      "ja_JP": "ノーチラス47",
+      "ko_KR": "노틸러스 47",
+      "nl_NL": "Nautilus 47",
+      "ru_RU": "Наутилус-47",
+      "zh_CN": "鹦鹉螺号47",
+      "zh_TW": "鸚鵡螺號47"
+    }
+  },
+  {
+    "key": "nova",
+    "aliases": [
+      "200",
+      "luna_blaster"
+    ],
+    "name": {
+      "de_DE": "Luna-Blaster",
+      "en_GB": "Luna Blaster",
+      "en_US": "Luna Blaster",
+      "es_ES": "Ultradevastador",
+      "es_MX": "Lanzamotas Nova",
+      "fr_CA": "Proxiblasteur",
+      "fr_FR": "Proxiblaster",
+      "it_IT": "Blaster lunar",
+      "ja_JP": "ノヴァブラスター",
+      "ko_KR": "노바 블래스터",
+      "nl_NL": "Lunablaster",
+      "ru_RU": "Лунобластер",
+      "zh_CN": "新星爆破枪",
+      "zh_TW": "新星爆破槍"
+    }
+  },
+  {
+    "key": "nzap85",
+    "aliases": [
+      "60",
+      "n_zap_85"
+    ],
+    "name": {
+      "de_DE": "N-ZAP85",
+      "en_GB": "N-ZAP '85",
+      "en_US": "N-ZAP '85",
+      "es_ES": "N-ZAP 85",
+      "es_MX": "N-ZAP 85",
+      "fr_CA": "N-ZAP 85",
+      "fr_FR": "N-ZAP 85",
+      "it_IT": "N-ZAP85",
+      "ja_JP": "N-ZAP85",
+      "ko_KR": "N-ZAP85",
+      "nl_NL": "N-ZAP '85",
+      "ru_RU": "N-ZAP 85",
+      "zh_CN": "N-ZAP85",
+      "zh_TW": "N-ZAP85"
+    }
+  },
+  {
+    "key": "pablo",
+    "aliases": [
+      "1100",
+      "inkbrush"
+    ],
+    "name": {
+      "de_DE": "Quasto",
+      "en_GB": "Inkbrush",
+      "en_US": "Inkbrush",
+      "es_ES": "Pincel",
+      "es_MX": "Pincel",
+      "fr_CA": "Épinceau",
+      "fr_FR": "Épinceau",
+      "it_IT": "Calamaravaggio",
+      "ja_JP": "パブロ",
+      "ko_KR": "파블로",
+      "nl_NL": "Inktkwast",
+      "ru_RU": "Кисть",
+      "zh_CN": "巴勃罗",
+      "zh_TW": "巴勃羅"
+    }
+  },
+  {
+    "key": "parashelter",
+    "aliases": [
+      "6000",
+      "splat_brella"
+    ],
+    "name": {
+      "de_DE": "Parapluviator",
+      "en_GB": "Splat Brella",
+      "en_US": "Splat Brella",
+      "es_ES": "Paratintas",
+      "es_MX": "Paratintas",
+      "fr_CA": "Para-encre",
+      "fr_FR": "Para-encre",
+      "it_IT": "Sparasole",
+      "ja_JP": "パラシェルター",
+      "ko_KR": "파라 셸터",
+      "nl_NL": "Plenzer",
+      "ru_RU": "Сплат-зонт",
+      "zh_CN": "遮阳防空伞",
+      "zh_TW": "遮陽防空傘"
+    }
+  },
+  {
+    "key": "prime",
+    "aliases": [
+      "70",
+      "splattershot_pro"
+    ],
+    "name": {
+      "de_DE": "Profi-Kleckser",
+      "en_GB": "Splattershot Pro",
+      "en_US": "Splattershot Pro",
+      "es_ES": "Lanzatintas plus",
+      "es_MX": "Rociador Pro",
+      "fr_CA": "Liquéficateur pro",
+      "fr_FR": "Liquidateur pro",
+      "it_IT": "Splasher élite",
+      "ja_JP": "プライムシューター",
+      "ko_KR": "프라임 슈터",
+      "nl_NL": "Superspetter Pro",
+      "ru_RU": "Каплестрел ПРО",
+      "zh_CN": "顶尖射击枪",
+      "zh_TW": "頂尖射擊槍"
+    }
+  },
+  {
+    "key": "promodeler_mg",
+    "aliases": [
+      "30",
+      "aerospray_mg"
+    ],
+    "name": {
+      "de_DE": "Airbrush MG",
+      "en_GB": "Aerospray MG",
+      "en_US": "Aerospray MG",
+      "es_ES": "Aerógrafo pro",
+      "es_MX": "Aerógrafo GP",
+      "fr_CA": "Pouche-pouche",
+      "fr_FR": "Aérogun",
+      "it_IT": "Aerografo",
+      "ja_JP": "プロモデラーMG",
+      "ko_KR": "프로모델러 MG",
+      "nl_NL": "Kladderwerper",
+      "ru_RU": "Аэроспрей",
+      "zh_CN": "专业模型枪MG",
+      "zh_TW": "專業模型槍MG"
+    }
+  },
+  {
+    "key": "quadhopper_black",
+    "aliases": [
+      "5040",
+      "dark_tetra_dualies"
+    ],
+    "name": {
+      "de_DE": "Quadhopper Noir",
+      "en_GB": "Dark Tetra Dualies",
+      "en_US": "Dark Tetra Dualies",
+      "es_ES": "Motatrónic dual negro",
+      "es_MX": "Tetra dual negro",
+      "fr_CA": "Double voltigeur noir",
+      "fr_FR": "Double voltigeur noir",
+      "it_IT": "Moscarpino duplo nero",
+      "ja_JP": "クアッドホッパーブラック",
+      "ko_KR": "블랙 쿼드 호퍼",
+      "nl_NL": "Quadhoppers Zwart",
+      "ru_RU": "Черные спуртокроссы",
+      "zh_CN": "四重弹跳手枪 黑",
+      "zh_TW": "四重彈跳手槍 黑"
+    }
+  },
+  {
+    "key": "rapid",
+    "aliases": [
+      "240",
+      "rapid_blaster"
+    ],
+    "name": {
+      "de_DE": "Turbo-Blaster",
+      "en_GB": "Rapid Blaster",
+      "en_US": "Rapid Blaster",
+      "es_ES": "Devastador exprés",
+      "es_MX": "Turbolanzamotas",
+      "fr_CA": "Turboblasteur",
+      "fr_FR": "Turboblaster",
+      "it_IT": "Blaster rapido",
+      "ja_JP": "ラピッドブラスター",
+      "ko_KR": "래피드 블래스터",
+      "nl_NL": "Flitsblaster",
+      "ru_RU": "Бластермат",
+      "zh_CN": "快速爆破枪",
+      "zh_TW": "快速爆破槍"
+    }
+  },
+  {
+    "key": "rapid_elite",
+    "aliases": [
+      "250",
+      "rapid_blaster_pro"
+    ],
+    "name": {
+      "de_DE": "Turbo-Blaster Plus",
+      "en_GB": "Rapid Blaster Pro",
+      "en_US": "Rapid Blaster Pro",
+      "es_ES": "Superdevastador",
+      "es_MX": "Turbolanzamotas Pro",
+      "fr_CA": "Turboblasteur pro",
+      "fr_FR": "Turboblaster pro",
+      "it_IT": "Blaster élite",
+      "ja_JP": "Rブラスターエリート",
+      "ko_KR": "R 블래스터 엘리트",
+      "nl_NL": "Flitsblaster Pro",
+      "ru_RU": "Бластермат ПРО",
+      "zh_CN": "快速爆破枪 精英",
+      "zh_TW": "快速爆破槍 精英"
+    }
+  },
+  {
+    "key": "rpen_5h",
+    "aliases": [
+      "snipewriter_5h"
+    ],
+    "name": {
+      "de_DE": "R-BLR/5H",
+      "en_GB": "Snipewriter 5H",
+      "en_US": "Snipewriter 5H",
+      "es_ES": "Cargaminas 5H",
+      "es_MX": "Cargaminas 5H",
+      "fr_CA": "Crayon X - 5H",
+      "fr_FR": "Crayon X - 5H",
+      "it_IT": "Lapis cecchino 5H",
+      "ja_JP": "R-PEN/5H",
+      "ko_KR": "R-PEN/5H",
+      "nl_NL": "Schotlood 5H",
+      "ru_RU": "Патрондаш 5Т",
+      "zh_CN": "R-PEN/5H",
+      "zh_TW": "R-PEN/5H"
+    }
+  },
+  {
+    "key": "screwslosher",
+    "aliases": [
+      "3020",
+      "sloshing_machine"
+    ],
+    "name": {
+      "de_DE": "Trommel-Schwapper",
+      "en_GB": "Sloshing Machine",
+      "en_US": "Sloshing Machine",
+      "es_ES": "Derramatic centrífugo",
+      "es_MX": "Derramatic centrífugo",
+      "fr_CA": "Encrifugeur",
+      "fr_FR": "Encrifugeur",
+      "it_IT": "Secchiostro centrifuga",
+      "ja_JP": "スクリュースロッシャー",
+      "ko_KR": "스크루 슬로셔",
+      "nl_NL": "Klotstrommel",
+      "ru_RU": "Центрифугер",
+      "zh_CN": "回旋泼桶",
+      "zh_TW": "迴旋潑桶"
+    }
+  },
+  {
+    "key": "sharp",
+    "aliases": [
+      "20",
+      "splash_o_matic"
+    ],
+    "name": {
+      "de_DE": "Fein-Disperser",
+      "en_GB": "Splash-o-matic",
+      "en_US": "Splash-o-matic",
+      "es_ES": "Marcador fino",
+      "es_MX": "Plumón",
+      "fr_CA": "Marqueur léger",
+      "fr_FR": "Marqueur léger",
+      "it_IT": "Marker d'assalto",
+      "ja_JP": "シャープマーカー",
+      "ko_KR": "샤프 마커",
+      "nl_NL": "Spetterspuit",
+      "ru_RU": "Плюхомет",
+      "zh_CN": "窄域标记枪",
+      "zh_TW": "窄域標記槍"
+    }
+  },
+  {
+    "key": "soytuber",
+    "aliases": [
+      "2060",
+      "goo_tuber"
+    ],
+    "name": {
+      "de_DE": "T-Tuber",
+      "en_GB": "Goo Tuber",
+      "en_US": "Goo Tuber",
+      "es_ES": "Tubofusil",
+      "es_MX": "Entintubo",
+      "fr_CA": "Détubeur",
+      "fr_FR": "Détubeur",
+      "it_IT": "Tintubator",
+      "ja_JP": "ソイチューバー",
+      "ko_KR": "소이 튜버",
+      "nl_NL": "Spetbuizer",
+      "ru_RU": "Трубастер",
+      "zh_CN": "高压油管枪",
+      "zh_TW": "高壓油管槍"
+    }
+  },
+  {
+    "key": "spaceshooter",
+    "aliases": [
+      "splattershot_nova"
+    ],
+    "name": {
+      "de_DE": "Kosmo-Kleckser",
+      "en_GB": "Splattershot Nova",
+      "en_US": "Splattershot Nova",
+      "es_ES": "Lanzatintas espacial",
+      "es_MX": "Rociador espacial",
+      "fr_CA": "Lanceur spatial",
+      "fr_FR": "Lanceur spatial",
+      "it_IT": "Splasher Nova",
+      "ja_JP": "スペースシューター",
+      "ko_KR": "스페이스 슈터",
+      "nl_NL": "Superspetter Nova",
+      "ru_RU": "Каплестрел НОВА",
+      "zh_CN": "太空射击枪",
+      "zh_TW": "太空射擊槍"
+    }
+  },
+  {
+    "key": "splatcharger",
+    "aliases": [
+      "2010",
+      "splat_charger"
+    ],
+    "name": {
+      "de_DE": "Klecks-Konzentrator",
+      "en_GB": "Splat Charger",
+      "en_US": "Splat Charger",
+      "es_ES": "Cargatintas",
+      "es_MX": "Cargatintas",
+      "fr_CA": "Concentraceur",
+      "fr_FR": "Concentraceur",
+      "it_IT": "Splatter a carica",
+      "ja_JP": "スプラチャージャー",
+      "ko_KR": "스플랫 차저",
+      "nl_NL": "Bloplader",
+      "ru_RU": "Сплатган",
+      "zh_CN": "斯普拉蓄力狙击枪",
+      "zh_TW": "斯普拉蓄力狙擊槍"
+    }
+  },
+  {
+    "key": "splatroller",
+    "aliases": [
+      "1010",
+      "splat_roller"
+    ],
+    "name": {
+      "de_DE": "Klecksroller",
+      "en_GB": "Splat Roller",
+      "en_US": "Splat Roller",
+      "es_ES": "Rodillo básico",
+      "es_MX": "Rodillo básico",
+      "fr_CA": "Rouleau",
+      "fr_FR": "Rouleau",
+      "it_IT": "Rullo splat",
+      "ja_JP": "スプラローラー",
+      "ko_KR": "스플랫 롤러",
+      "nl_NL": "Klodderroller",
+      "ru_RU": "Сплат-валик",
+      "zh_CN": "斯普拉滚筒",
+      "zh_TW": "斯普拉滾筒"
+    }
+  },
+  {
+    "key": "splatscope",
+    "aliases": [
+      "2020",
+      "splatterscope"
+    ],
+    "name": {
+      "de_DE": "Ziel-Konzentrator",
+      "en_GB": "Splatterscope",
+      "en_US": "Splatterscope",
+      "es_ES": "Cargatintas con mira",
+      "es_MX": "Telecargatintas",
+      "fr_CA": "Concentraceur zoom",
+      "fr_FR": "Concentraceur zoom",
+      "it_IT": "Splatter con mirino",
+      "ja_JP": "スプラスコープ",
+      "ko_KR": "스플랫 스코프",
+      "nl_NL": "Schelpschutter",
+      "ru_RU": "Снайпокрас",
+      "zh_CN": "斯普拉准星枪",
+      "zh_TW": "斯普拉準星槍"
+    }
+  },
+  {
+    "key": "splatspinner",
+    "aliases": [
+      "4000",
+      "mini_splatling"
+    ],
+    "name": {
+      "de_DE": "Klecks-Splatling",
+      "en_GB": "Mini Splatling",
+      "en_US": "Mini Splatling",
+      "es_ES": "Tintralladora ligera",
+      "es_MX": "Garabateador",
+      "fr_CA": "Badigeonneur XP",
+      "fr_FR": "Badigeonneur XS",
+      "it_IT": "Mini splatling",
+      "ja_JP": "スプラスピナー",
+      "ko_KR": "스플랫 스피너",
+      "nl_NL": "Mini-Spetling",
+      "ru_RU": "Брызгомет-М",
+      "zh_CN": "斯普拉旋转枪",
+      "zh_TW": "斯普拉旋轉槍"
+    }
+  },
+  {
+    "key": "sputtery",
+    "aliases": [
+      "5000",
+      "dapple_dualies"
+    ],
+    "name": {
+      "de_DE": "Sprenkler",
+      "en_GB": "Dapple Dualies",
+      "en_US": "Dapple Dualies",
+      "es_ES": "Atomizador dual",
+      "es_MX": "Atomizador dual",
+      "fr_CA": "Double moucheteur",
+      "fr_FR": "Double moucheteur",
+      "it_IT": "Ripolpella duplo",
+      "ja_JP": "スパッタリー",
+      "ko_KR": "스퍼터리",
+      "nl_NL": "Dubbelspatters",
+      "ru_RU": "Импрессиометы",
+      "zh_CN": "溅镀枪",
+      "zh_TW": "濺鍍槍"
+    }
+  },
+  {
+    "key": "spygadget",
+    "aliases": [
+      "6020",
+      "undercover_brella"
+    ],
+    "name": {
+      "de_DE": "UnderCover",
+      "en_GB": "Undercover Brella",
+      "en_US": "Undercover Brella",
+      "es_ES": "Paratintas clásico",
+      "es_MX": "Paratintas discreto",
+      "fr_CA": "Para-encre espion",
+      "fr_FR": "Para-encre espion",
+      "it_IT": "Bombrello",
+      "ja_JP": "スパイガジェット",
+      "ko_KR": "스파이 가젯",
+      "nl_NL": "Paraplenzer",
+      "ru_RU": "Шпионский зонт",
+      "zh_CN": "特工配件",
+      "zh_TW": "特務配件"
+    }
+  },
+  {
+    "key": "squiclean_a",
+    "aliases": [
+      "2000",
+      "classic_squiffer"
+    ],
+    "name": {
+      "de_DE": "Sepiator α",
+      "en_GB": "Classic Squiffer",
+      "en_US": "Classic Squiffer",
+      "es_ES": "Kalarrapid α",
+      "es_MX": "Delineador X",
+      "fr_CA": "Lignizateur alpha",
+      "fr_FR": "Décap'express Alpha",
+      "it_IT": "Kalamarapid α",
+      "ja_JP": "スクイックリンα",
+      "ko_KR": "스퀵 클린 α",
+      "nl_NL": "Octopoets",
+      "ru_RU": "Стиратель",
+      "zh_CN": "鱿快洁α",
+      "zh_TW": "魷快潔α"
+    }
+  },
+  {
+    "key": "sshooter",
+    "aliases": [
+      "40",
+      "splattershot"
+    ],
+    "name": {
+      "de_DE": "Kleckser",
+      "en_GB": "Splattershot",
+      "en_US": "Splattershot",
+      "es_ES": "Lanzatintas",
+      "es_MX": "Rociador",
+      "fr_CA": "Liquéficateur",
+      "fr_FR": "Liquidateur",
+      "it_IT": "Splasher",
+      "ja_JP": "スプラシューター",
+      "ko_KR": "스플랫 슈터",
+      "nl_NL": "Superspetter",
+      "ru_RU": "Каплестрел",
+      "zh_CN": "斯普拉射击枪",
+      "zh_TW": "斯普拉射擊槍"
+    }
+  },
+  {
+    "key": "tristringer",
+    "aliases": [
+      "7010",
+      "tri_stringer"
+    ],
+    "name": {
+      "de_DE": "Tri-Stringer",
+      "en_GB": "Tri-Stringer",
+      "en_US": "Tri-Stringer",
+      "es_ES": "Arcromatizador triple",
+      "es_MX": "Arcromatizador triple",
+      "fr_CA": "Trisperceur",
+      "fr_FR": "Trisperceur",
+      "it_IT": "Tri-calamarco",
+      "ja_JP": "トライストリンガー",
+      "ko_KR": "트라이 스트링거",
+      "nl_NL": "Triospanner",
+      "ru_RU": "Тритиватор",
+      "zh_CN": "三发猎鱼弓",
+      "zh_TW": "三發獵魚弓"
+    }
+  },
+  {
+    "key": "variableroller",
+    "aliases": [
+      "1030",
+      "flingza_roller"
+    ],
+    "name": {
+      "de_DE": "Flex-Roller",
+      "en_GB": "Flingza Roller",
+      "en_US": "Flingza Roller",
+      "es_ES": "Rodillo versátil",
+      "es_MX": "Rodillo versátil",
+      "fr_CA": "Flexi-rouleau",
+      "fr_FR": "Flexi-rouleau",
+      "it_IT": "Flexi-rullo",
+      "ja_JP": "ヴァリアブルローラー",
+      "ko_KR": "베리어블 롤러",
+      "nl_NL": "Flexroller",
+      "ru_RU": "Омнивалик",
+      "zh_CN": "可变式滚筒",
+      "zh_TW": "可變式滾筒"
+    }
+  },
+  {
+    "key": "wakaba",
+    "aliases": [
+      "10",
+      "splattershot_jr"
+    ],
+    "name": {
+      "de_DE": "Junior-Kleckser",
+      "en_GB": "Splattershot Jr.",
+      "en_US": "Splattershot Jr.",
+      "es_ES": "Lanzatintas novato",
+      "es_MX": "Rociador básico",
+      "fr_CA": "Liquéficateur ultra",
+      "fr_FR": "Liquidateur Jr.",
+      "it_IT": "Sparacolore recluta",
+      "ja_JP": "わかばシューター",
+      "ko_KR": "새싹 슈터",
+      "nl_NL": "Superspetter jr.",
+      "ru_RU": "Каплестрел-У",
+      "zh_CN": "新叶射击枪",
+      "zh_TW": "新葉射擊槍"
+    }
+  },
+  {
+    "key": "wideroller",
+    "aliases": [
+      "big_swig_roller"
+    ],
+    "name": {
+      "de_DE": "Breitroller",
+      "en_GB": "Big Swig Roller",
+      "en_US": "Big Swig Roller",
+      "es_ES": "Rodillo mágnum",
+      "es_MX": "Rodillo mágnum",
+      "fr_CA": "Rouleau large",
+      "fr_FR": "Rouleau large",
+      "it_IT": "Ampiorullo",
+      "ja_JP": "ワイドローラー",
+      "ko_KR": "와이드 롤러",
+      "nl_NL": "Breedroller",
+      "ru_RU": "Макси-валик",
+      "zh_CN": "宽滚筒",
+      "zh_TW": "寬滾筒"
+    }
+  },
+  {
+    "key": "kuma_blaster",
+    "aliases": [
+      "grizzco_blaster",
+      "20900"
+    ],
+    "name": {
+      "de_DE": "Bär-Blaster",
+      "en_GB": "Grizzco Blaster",
+      "en_US": "Grizzco Blaster",
+      "es_ES": "Devastador Don Oso",
+      "es_MX": "Lanzamotas Don Oso",
+      "fr_CA": "Blasteur M. Ours Cie",
+      "fr_FR": "Blaster M. Ours SA",
+      "it_IT": "Blaster Ursus",
+      "ja_JP": "クマサン印のブラスター",
+      "ko_KR": "Mr. 베어표 블래스터",
+      "nl_NL": "Beer & Co-blaster",
+      "ru_RU": "Бластер «Потапыч Inc.»",
+      "zh_CN": "熊先生印章爆破枪",
+      "zh_TW": "熊先生印章爆破槍"
+    }
+  },
+  {
+    "key": "kuma_charger",
+    "aliases": [
+      "grizzco_charger",
+      "22900"
+    ],
+    "name": {
+      "de_DE": "Bär-Konzentrator",
+      "en_GB": "Grizzco Charger",
+      "en_US": "Grizzco Charger",
+      "es_ES": "Cargatintas Don Oso",
+      "es_MX": "Cargatintas Don Oso",
+      "fr_CA": "Fusil M. Ours Cie",
+      "fr_FR": "Fusil M. Ours SA",
+      "it_IT": "Splatter a carica Ursus",
+      "ja_JP": "クマサン印のチャージャー",
+      "ko_KR": "Mr. 베어표 차저",
+      "nl_NL": "Beer & Co-lader",
+      "ru_RU": "Сплатган «Потапыч Inc.»",
+      "zh_CN": "熊先生印章狙击枪",
+      "zh_TW": "熊先生印章狙擊槍"
+    }
+  },
+  {
+    "key": "kuma_shelter",
+    "aliases": [
+      "grizzco_brella",
+      "26900"
+    ],
+    "name": {
+      "de_DE": "Bär-Pluviator",
+      "en_GB": "Grizzco Brella",
+      "en_US": "Grizzco Brella",
+      "es_ES": "Paratintas Don Oso",
+      "es_MX": "Paratintas Don Oso",
+      "fr_CA": "Para-encre M. Ours Cie",
+      "fr_FR": "Para-encre M. Ours SA",
+      "it_IT": "Sparasole Ursus",
+      "ja_JP": "クマサン印のシェルター",
+      "ko_KR": "Mr. 베어표 셸터",
+      "nl_NL": "Beer & Co-plenzer",
+      "ru_RU": "Зонтган «Потапыч Inc.»",
+      "zh_CN": "熊先生印章防空伞",
+      "zh_TW": "熊先生印章防空傘"
+    }
+  },
+  {
+    "key": "kuma_slosher",
+    "aliases": [
+      "grizzco_slosher",
+      "23900"
+    ],
+    "name": {
+      "de_DE": "Bär-Schwapper",
+      "en_GB": "Grizzco Slosher",
+      "en_US": "Grizzco Slosher",
+      "es_ES": "Derramatic Don Oso",
+      "es_MX": "Derramatic Don Oso",
+      "fr_CA": "Seauceur M. Ours Cie",
+      "fr_FR": "Seau M. Ours SA",
+      "it_IT": "Secchiostro Ursus",
+      "ja_JP": "クマサン印のスロッシャー",
+      "ko_KR": "Mr. 베어표 슬로셔",
+      "nl_NL": "Beer & Co-morser",
+      "ru_RU": "Ведроган «Потапыч Inc.»",
+      "zh_CN": "熊先生印章泼桶",
+      "zh_TW": "熊先生印章潑桶"
+    }
+  },
+  {
+    "key": "kuma_stringer",
+    "aliases": [
+      "grizzco_stringer",
+      "27900"
+    ],
+    "name": {
+      "de_DE": "Bär-Stringer",
+      "en_GB": "Grizzco Stringer",
+      "en_US": "Grizzco Stringer",
+      "es_ES": "Arcromatizador Don Oso",
+      "es_MX": "Arcromatizador Don Oso",
+      "fr_CA": "Transperceur M. Ours Cie",
+      "fr_FR": "Transperceur M. Ours SA",
+      "it_IT": "Calamarco Ursus",
+      "ja_JP": "クマサン印のストリンガー",
+      "ko_KR": "Mr. 베어표 스트링거",
+      "nl_NL": "Beer & Co-spanner",
+      "ru_RU": "Тетиватор «Потапыч Inc.»",
+      "zh_CN": "熊先生印章猎鱼弓",
+      "zh_TW": "熊先生印章獵魚弓"
+    }
+  },
+  {
+    "key": "kuma_wiper",
+    "aliases": [
+      "28900",
+      "grizzco_splatana"
+    ],
+    "name": {
+      "de_DE": "Bär-Splatana",
+      "en_GB": "Grizzco Splatana",
+      "en_US": "Grizzco Splatana",
+      "es_ES": "Azotintador Don Oso",
+      "es_MX": "Azotintador Don Oso",
+      "fr_CA": "Éclatana M. Ours Cie",
+      "fr_FR": "Éclatana M. Ours SA",
+      "it_IT": "Lama Ursus",
+      "ja_JP": "クマサン印のワイパー",
+      "ko_KR": "Mr. 베어표 와이퍼",
+      "nl_NL": "Beer & Co-zwieper",
+      "ru_RU": "Сплат-катана «Потапыч Inc.»",
+      "zh_CN": "熊先生印章刮水刀",
+      "zh_TW": "熊先生印章刮水刀"
+    }
+  }
+]

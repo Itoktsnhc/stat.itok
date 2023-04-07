@@ -104,7 +104,6 @@ public class JobRunTaskWorker
 
     private async Task<Dictionary<string, string>> GetSalmonWeaponsInfoAsync(bool unCached = false)
     {
-
         if (!unCached &&
             _memCache.TryGetValue<Dictionary<string, string>>(nameof(GetSalmonWeaponsInfoAsync), out var weaponInfo) &&
             weaponInfo != null)
@@ -124,6 +123,7 @@ public class JobRunTaskWorker
         {
             #region Fill Basic DebugInfo
 
+            debugContext.TrackedId = task.TrackedId;
             debugContext.JobConfigId = task.JobConfigId;
             debugContext.BattleIdRawStr = task.BattleIdRawStr;
             debugContext.BattleGroupRawStr = task.BattleGroupRawStr;
@@ -187,46 +187,47 @@ public class JobRunTaskWorker
     }
 
     private async Task<(StatInkBattleBody, StatInkSalmonBody, StatInkPostBodySuccess)>
-        BuildBodyAndSendAsync(string payloadType, string detailRes, string groupRawStr, JobConfig jobConfig, BattleTaskDebugContext debugContext)
+        BuildBodyAndSendAsync(string payloadType, string detailRes, string groupRawStr, JobConfig jobConfig,
+            BattleTaskDebugContext debugContext)
     {
         switch (payloadType)
         {
             case nameof(QueryHash.VsHistoryDetail):
+            {
+                var gearsInfo = await GetGearsInfoAsync();
+                var battleBody = BattleHelper.BuildStatInkBattleBody(
+                    detailRes, groupRawStr, jobConfig.NinAuthContext.UserInfo.Lang, gearsInfo);
+                debugContext.StatInkBattleBody = battleBody;
+                if (battleBody != null)
                 {
-                    var gearsInfo = await GetGearsInfoAsync();
-                    var battleBody = BattleHelper.BuildStatInkBattleBody(
-                        detailRes, groupRawStr, jobConfig.NinAuthContext.UserInfo.Lang, gearsInfo);
-                    debugContext.StatInkBattleBody = battleBody;
-                    if (battleBody != null)
+                    var resp = await _mediator.Send(new ReqPostBattle
                     {
-                        var resp = await _mediator.Send(new ReqPostBattle
-                        {
-                            ApiKey = jobConfig.StatInkApiKey,
-                            Body = battleBody
-                        });
-                        return (battleBody, null, resp);
-                    }
-
-                    break;
+                        ApiKey = jobConfig.StatInkApiKey,
+                        Body = battleBody
+                    });
+                    return (battleBody, null, resp);
                 }
+
+                break;
+            }
             case nameof(QueryHash.CoopHistoryDetail):
+            {
+                var weaponsInfo = await GetSalmonWeaponsInfoAsync();
+                var salmonBody = BattleHelper.BuildStatInkSalmonBody(
+                    detailRes, groupRawStr, jobConfig.NinAuthContext.UserInfo.Lang, weaponsInfo);
+                debugContext.StatInkSalmonBody = salmonBody;
+                if (salmonBody != null)
                 {
-                    var weaponsInfo = await GetSalmonWeaponsInfoAsync();
-                    var salmonBody = BattleHelper.BuildStatInkSalmonBody(
-                        detailRes, groupRawStr, jobConfig.NinAuthContext.UserInfo.Lang, weaponsInfo);
-                    debugContext.StatInkSalmonBody = salmonBody;
-                    if (salmonBody != null)
+                    var resp = await _mediator.Send(new ReqPostSalmon
                     {
-                        var resp = await _mediator.Send(new ReqPostSalmon
-                        {
-                            ApiKey = jobConfig.StatInkApiKey,
-                            Body = salmonBody
-                        });
-                        return (null, salmonBody, resp);
-                    }
-
-                    break;
+                        ApiKey = jobConfig.StatInkApiKey,
+                        Body = salmonBody
+                    });
+                    return (null, salmonBody, resp);
                 }
+
+                break;
+            }
         }
 
 

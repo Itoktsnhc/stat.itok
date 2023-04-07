@@ -8,11 +8,12 @@ namespace Stat.Itok.Core.ApiClients
     public interface IStatInkApi
     {
         Task<IList<string>> GetUuidListAsync(string apiKey);
-        Task<HttpResponseMessage> PostBattlesAsync(string apiKey, StatInkBattleBody battle);
+        Task<HttpResponseMessage> PostBattleAsync(string apiKey, StatInkBattleBody battle);
         Task<HttpResponseMessage> PostSalmonAsync(string apiKey, StatInkSalmonBody salmon);
         Task<HttpResponseMessage> GetGearKeyDictAsync();
         Task<HttpResponseMessage> GetSalmonWeaponKeyDictAsync();
-        Task DeleteBattleAsync(string apiKey, string battleId);
+        Task DeleteBattleAsync(string apiKey, string id);
+        Task DeleteSalmonAsync(string apiKey, string Id);
     }
 
     public interface IStatInkApiForTest : IStatInkApi
@@ -53,11 +54,23 @@ namespace Stat.Itok.Core.ApiClients
         }
 
         //https://github.com/fetus-hina/stat.ink/wiki/Spl3-API:-Delete-v3-battle#request
-        public async Task DeleteBattleAsync(string apiKey, string battleId)
+        public async Task DeleteBattleAsync(string apiKey, string id)
         {
             var req = new HttpRequestMessage()
             {
-                RequestUri = new Uri($"{_options.Value.StatInkBattleApi}/{battleId}"),
+                RequestUri = new Uri($"{_options.Value.StatInkBattleApi}/{id}"),
+                Method = HttpMethod.Delete
+            };
+            req.Headers.TryAddWithoutValidation("Authorization", $"Bearer {apiKey}");
+            var rawResp = await _client.SendAsync(req);
+            rawResp.EnsureSuccessStatusCode();
+        }
+
+        public async Task DeleteSalmonAsync(string apiKey, string id)
+        {
+            var req = new HttpRequestMessage()
+            {
+                RequestUri = new Uri($"{_options.Value.StatInkSalmonApi}/{id}"),
                 Method = HttpMethod.Delete
             };
             req.Headers.TryAddWithoutValidation("Authorization", $"Bearer {apiKey}");
@@ -71,7 +84,7 @@ namespace Stat.Itok.Core.ApiClients
         /// <param name="apiKey"></param>
         /// <param name="battle"></param>
         /// <returns></returns>
-        public async Task<HttpResponseMessage> PostBattlesAsync(string apiKey, StatInkBattleBody battle)
+        public async Task<HttpResponseMessage> PostBattleAsync(string apiKey, StatInkBattleBody battle)
         {
             var req = new HttpRequestMessage()
             {

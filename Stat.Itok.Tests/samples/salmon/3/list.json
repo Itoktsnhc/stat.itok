@@ -1,0 +1,2563 @@
+﻿{
+  "startTime": "2023-03-29T08:00:00Z",
+  "endTime": "2023-03-31T00:00:00Z",
+  "mode": "REGULAR",
+  "rule": "REGULAR",
+  "highestResult": {
+    "grade": {
+      "name": "传说",
+      "id": "Q29vcEdyYWRlLTg="
+    },
+    "gradePoint": 520,
+    "jobScore": 139,
+    "trophy": null
+  },
+  "historyDetails": {
+    "nodes": [
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxNDE3MDZfNWM4NDg1NWItY2E0OC00ZTgwLWJmMGItODY3Y2MxMzQyNDI4",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": null,
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxNDA5NTZfNWM4NDg1NWItY2E0OC00ZTgwLWJmMGItODY3Y2MxMzQyNDI4"
+        },
+        "resultWave": -1,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 500,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          },
+          {
+            "deliverCount": 0
+          },
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": []
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxNDA5NTZfNWM4NDg1NWItY2E0OC00ZTgwLWJmMGItODY3Y2MxMzQyNDI4",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxNDE3MDZfNWM4NDg1NWItY2E0OC00ZTgwLWJmMGItODY3Y2MxMzQyNDI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzU4MjVfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 520,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 750
+        },
+        "memberResults": [
+          {
+            "deliverCount": 906
+          },
+          {
+            "deliverCount": 1015
+          },
+          {
+            "deliverCount": 584
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 29
+          },
+          {
+            "teamDeliverCount": 38
+          },
+          {
+            "teamDeliverCount": 38
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzU4MjVfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxNDA5NTZfNWM4NDg1NWItY2E0OC00ZTgwLWJmMGItODY3Y2MxMzQyNDI4"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzUxMjdfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 500,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1089
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1185
+          },
+          {
+            "deliverCount": 720
+          },
+          {
+            "deliverCount": 1071
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 50
+          },
+          {
+            "teamDeliverCount": 31
+          },
+          {
+            "teamDeliverCount": 40
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzUxMjdfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzU4MjVfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzQyMjFfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 480,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 789
+        },
+        "memberResults": [
+          {
+            "deliverCount": 687
+          },
+          {
+            "deliverCount": 785
+          },
+          {
+            "deliverCount": 916
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 49
+          },
+          {
+            "teamDeliverCount": 40
+          },
+          {
+            "teamDeliverCount": 42
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzQyMjFfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzUxMjdfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzMzMzdfODRhMDVlMGQtODFkZC00NjlkLThjMmMtODY4YjQ4NWFhNTc5"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 460,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": true,
+          "boss": {
+            "name": "横纲",
+            "id": "Q29vcEVuZW15LTIz"
+          }
+        },
+        "myResult": {
+          "deliverCount": 1161
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1168
+          },
+          {
+            "deliverCount": 1053
+          },
+          {
+            "deliverCount": 1306
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 32
+          },
+          {
+            "teamDeliverCount": 43
+          },
+          {
+            "teamDeliverCount": 48
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzMzMzdfODRhMDVlMGQtODFkZC00NjlkLThjMmMtODY4YjQ4NWFhNTc5",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzQyMjFfM2QwZjJlMGQtMTlhMS00MTcxLWE2ZmYtOTA3OWJkNjQ3MmUw"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzI1NTVfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 440,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 904
+        },
+        "memberResults": [
+          {
+            "deliverCount": 798
+          },
+          {
+            "deliverCount": 958
+          },
+          {
+            "deliverCount": 1032
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 40
+          },
+          {
+            "teamDeliverCount": 29
+          },
+          {
+            "teamDeliverCount": 50
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzI1NTVfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzMzMzdfODRhMDVlMGQtODFkZC00NjlkLThjMmMtODY4YjQ4NWFhNTc5"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzE2NTlfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 420,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1055
+        },
+        "memberResults": [
+          {
+            "deliverCount": 893
+          },
+          {
+            "deliverCount": 1070
+          },
+          {
+            "deliverCount": 915
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 36
+          },
+          {
+            "teamDeliverCount": 46
+          },
+          {
+            "teamDeliverCount": 47
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzE2NTlfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzI1NTVfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzA5NThfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 400,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": true,
+          "boss": {
+            "name": "横纲",
+            "id": "Q29vcEVuZW15LTIz"
+          }
+        },
+        "myResult": {
+          "deliverCount": 1399
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1413
+          },
+          {
+            "deliverCount": 1337
+          },
+          {
+            "deliverCount": 1000
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 28
+          },
+          {
+            "teamDeliverCount": 36
+          },
+          {
+            "teamDeliverCount": 47
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzA5NThfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzE2NTlfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzA2MzBfOGEyN2YxMzYtNmU0My00YmQwLTg3ZDYtOWI5MzA1ZGYwMzI3"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 380,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 772
+        },
+        "memberResults": [
+          {
+            "deliverCount": 598
+          },
+          {
+            "deliverCount": 739
+          },
+          {
+            "deliverCount": 978
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 31
+          },
+          {
+            "teamDeliverCount": 38
+          },
+          {
+            "teamDeliverCount": 44
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzA2MzBfOGEyN2YxMzYtNmU0My00YmQwLTg3ZDYtOWI5MzA1ZGYwMzI3",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzA5NThfM2NiMWI4MzAtNmRkNS00N2UxLWEwYWQtMzljZThhNTJjODZi"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMjA1NTZfZWRmY2ZjNzctZjgxMS00ZTc2LTg5YzktMTZhNmY0Y2E5NjZk"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 360,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 267
+        },
+        "memberResults": [
+          {
+            "deliverCount": 587
+          },
+          {
+            "deliverCount": 256
+          },
+          {
+            "deliverCount": 290
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 25
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMjA1NTZfZWRmY2ZjNzctZjgxMS00ZTc2LTg5YzktMTZhNmY0Y2E5NjZk",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMzA2MzBfOGEyN2YxMzYtNmU0My00YmQwLTg3ZDYtOWI5MzA1ZGYwMzI3"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTU3MTFfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 380,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": false,
+          "boss": {
+            "name": "横纲",
+            "id": "Q29vcEVuZW15LTIz"
+          }
+        },
+        "myResult": {
+          "deliverCount": 1150
+        },
+        "memberResults": [
+          {
+            "deliverCount": 2260
+          },
+          {
+            "deliverCount": 1336
+          },
+          {
+            "deliverCount": 1367
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 52
+          },
+          {
+            "teamDeliverCount": 37
+          },
+          {
+            "teamDeliverCount": 50
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTU3MTFfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMjA1NTZfZWRmY2ZjNzctZjgxMS00ZTc2LTg5YzktMTZhNmY0Y2E5NjZk"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTUwMDhfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1"
+        },
+        "resultWave": 3,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 360,
+        "gradePointDiff": "KEEP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1111
+        },
+        "memberResults": [
+          {
+            "deliverCount": 658
+          },
+          {
+            "deliverCount": 1117
+          },
+          {
+            "deliverCount": 816
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 36
+          },
+          {
+            "teamDeliverCount": 44
+          },
+          {
+            "teamDeliverCount": 26
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTUwMDhfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTU3MTFfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTQzMDVfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 360,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 926
+        },
+        "memberResults": [
+          {
+            "deliverCount": 776
+          },
+          {
+            "deliverCount": 768
+          },
+          {
+            "deliverCount": 841
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 43
+          },
+          {
+            "teamDeliverCount": 28
+          },
+          {
+            "teamDeliverCount": 50
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTQzMDVfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTUwMDhfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTM2MDZfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 340,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 715
+        },
+        "memberResults": [
+          {
+            "deliverCount": 835
+          },
+          {
+            "deliverCount": 458
+          },
+          {
+            "deliverCount": 751
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 43
+          },
+          {
+            "teamDeliverCount": 32
+          },
+          {
+            "teamDeliverCount": 46
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTM2MDZfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTQzMDVfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTI4MTJfMjhkZTY0OGQtZmJhNC00MDYyLTkzYWQtOWYwNGYzM2ZlMjQx"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 320,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 856
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1098
+          },
+          {
+            "deliverCount": 563
+          },
+          {
+            "deliverCount": 711
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 32
+          },
+          {
+            "teamDeliverCount": 38
+          },
+          {
+            "teamDeliverCount": 34
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTI4MTJfMjhkZTY0OGQtZmJhNC00MDYyLTkzYWQtOWYwNGYzM2ZlMjQx",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTM2MDZfNjVmNzE1ZjgtYTlhYi00MWY1LWI1NTgtZjdlOGYxZGUwZmI1"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTIxMTNfMjhkZTY0OGQtZmJhNC00MDYyLTkzYWQtOWYwNGYzM2ZlMjQx"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 300,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1359
+        },
+        "memberResults": [
+          {
+            "deliverCount": 730
+          },
+          {
+            "deliverCount": 1053
+          },
+          {
+            "deliverCount": 896
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 39
+          },
+          {
+            "teamDeliverCount": 52
+          },
+          {
+            "teamDeliverCount": 35
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTIxMTNfMjhkZTY0OGQtZmJhNC00MDYyLTkzYWQtOWYwNGYzM2ZlMjQx",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTI4MTJfMjhkZTY0OGQtZmJhNC00MDYyLTkzYWQtOWYwNGYzM2ZlMjQx"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTExNDdfYzJkZGVmNDItMTg4Zi00OGQyLThjYjUtMDA1MGNmYWIzOGNh"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 280,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 788
+        },
+        "memberResults": [
+          {
+            "deliverCount": 953
+          },
+          {
+            "deliverCount": 1558
+          },
+          {
+            "deliverCount": 858
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 29
+          },
+          {
+            "teamDeliverCount": 30
+          },
+          {
+            "teamDeliverCount": 36
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTExNDdfYzJkZGVmNDItMTg4Zi00OGQyLThjYjUtMDA1MGNmYWIzOGNh",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTIxMTNfMjhkZTY0OGQtZmJhNC00MDYyLTkzYWQtOWYwNGYzM2ZlMjQx"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTAzMDBfYzJkZGVmNDItMTg4Zi00OGQyLThjYjUtMDA1MGNmYWIzOGNh"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 260,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 710
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1085
+          },
+          {
+            "deliverCount": 750
+          },
+          {
+            "deliverCount": 834
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 35
+          },
+          {
+            "teamDeliverCount": 38
+          },
+          {
+            "teamDeliverCount": 36
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTAzMDBfYzJkZGVmNDItMTg4Zi00OGQyLThjYjUtMDA1MGNmYWIzOGNh",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTExNDdfYzJkZGVmNDItMTg4Zi00OGQyLThjYjUtMDA1MGNmYWIzOGNh"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMDU4MTNfZjFkMjcwNmYtYTE1Yy00MWVjLWI1ZWEtZGMzMDk1YjdhN2Fm"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 240,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": true,
+          "boss": {
+            "name": "横纲",
+            "id": "Q29vcEVuZW15LTIz"
+          }
+        },
+        "myResult": {
+          "deliverCount": 1242
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1134
+          },
+          {
+            "deliverCount": 1306
+          },
+          {
+            "deliverCount": 1140
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 38
+          },
+          {
+            "teamDeliverCount": 28
+          },
+          {
+            "teamDeliverCount": 37
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMDU4MTNfZjFkMjcwNmYtYTE1Yy00MWVjLWI1ZWEtZGMzMDk1YjdhN2Fm",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMTAzMDBfYzJkZGVmNDItMTg4Zi00OGQyLThjYjUtMDA1MGNmYWIzOGNh"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTU5NDRfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 220,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 316
+        },
+        "memberResults": [
+          {
+            "deliverCount": 118
+          },
+          {
+            "deliverCount": 132
+          },
+          {
+            "deliverCount": 223
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 24
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTU5NDRfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQxMDU4MTNfZjFkMjcwNmYtYTE1Yy00MWVjLWI1ZWEtZGMzMDk1YjdhN2Fm"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTUyNDFfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 240,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1691
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1115
+          },
+          {
+            "deliverCount": 643
+          },
+          {
+            "deliverCount": 1261
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 41
+          },
+          {
+            "teamDeliverCount": 39
+          },
+          {
+            "teamDeliverCount": 36
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTUyNDFfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTU5NDRfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTQzNDdfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 220,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 913
+        },
+        "memberResults": [
+          {
+            "deliverCount": 614
+          },
+          {
+            "deliverCount": 1006
+          },
+          {
+            "deliverCount": 623
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 34
+          },
+          {
+            "teamDeliverCount": 28
+          },
+          {
+            "teamDeliverCount": 32
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTQzNDdfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTUyNDFfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTMyMTVfMDJmMWJmMWEtYzUxMy00ODYzLWI0NjMtZTA2YjBmY2QwZGU1"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 200,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": false,
+          "boss": {
+            "name": "横纲",
+            "id": "Q29vcEVuZW15LTIz"
+          }
+        },
+        "myResult": {
+          "deliverCount": 1454
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1236
+          },
+          {
+            "deliverCount": 1039
+          },
+          {
+            "deliverCount": 849
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 35
+          },
+          {
+            "teamDeliverCount": 32
+          },
+          {
+            "teamDeliverCount": 39
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTMyMTVfMDJmMWJmMWEtYzUxMy00ODYzLWI0NjMtZTA2YjBmY2QwZGU1",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTQzNDdfMDYxNTU5M2UtOTQzYi00OTJhLTgxNzQtZmE1YjNmOGUxMTIz"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTI4MTlfZTJmNzE1YjYtMzYzNS00NzIwLWJkMDUtMTRkMjE2NWNlMGJi"
+        },
+        "resultWave": 3,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 180,
+        "gradePointDiff": "KEEP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 736
+        },
+        "memberResults": [
+          {
+            "deliverCount": 734
+          },
+          {
+            "deliverCount": 653
+          },
+          {
+            "deliverCount": 617
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 40
+          },
+          {
+            "teamDeliverCount": 30
+          },
+          {
+            "teamDeliverCount": 28
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTI4MTlfZTJmNzE1YjYtMzYzNS00NzIwLWJkMDUtMTRkMjE2NWNlMGJi",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTMyMTVfMDJmMWJmMWEtYzUxMy00ODYzLWI0NjMtZTA2YjBmY2QwZGU1"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTE4NDlfZmE3ZjkyMTMtZGI1ZS00ZjNmLWJmYTEtZjExN2UyZWRmM2E2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 180,
+        "gradePointDiff": "DOWN",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 319
+        },
+        "memberResults": [
+          {
+            "deliverCount": 155
+          },
+          {
+            "deliverCount": 183
+          },
+          {
+            "deliverCount": 123
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 10
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTE4NDlfZmE3ZjkyMTMtZGI1ZS00ZjNmLWJmYTEtZjExN2UyZWRmM2E2",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTI4MTlfZTJmNzE1YjYtMzYzNS00NzIwLWJkMDUtMTRkMjE2NWNlMGJi"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTExMDhfOGZmZDFjMGYtZjg2NC00YmJkLWIwNDAtN2E1YTY3ODkzMzcx"
+        },
+        "resultWave": 3,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 200,
+        "gradePointDiff": "KEEP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1094
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1158
+          },
+          {
+            "deliverCount": 1427
+          },
+          {
+            "deliverCount": 826
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 33
+          },
+          {
+            "teamDeliverCount": 42
+          },
+          {
+            "teamDeliverCount": 28
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTExMDhfOGZmZDFjMGYtZjg2NC00YmJkLWIwNDAtN2E1YTY3ODkzMzcx",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTE4NDlfZmE3ZjkyMTMtZGI1ZS00ZjNmLWJmYTEtZjExN2UyZWRmM2E2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTAzMDFfNDZjYmFmYmYtYmEyZS00MGU0LTg5NTItMDZmNGY2ZTE4YjJk"
+        },
+        "resultWave": 3,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 200,
+        "gradePointDiff": "KEEP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1050
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1183
+          },
+          {
+            "deliverCount": 1012
+          },
+          {
+            "deliverCount": 927
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 28
+          },
+          {
+            "teamDeliverCount": 29
+          },
+          {
+            "teamDeliverCount": 19
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTAzMDFfNDZjYmFmYmYtYmEyZS00MGU0LTg5NTItMDZmNGY2ZTE4YjJk",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTExMDhfOGZmZDFjMGYtZjg2NC00YmJkLWIwNDAtN2E1YTY3ODkzMzcx"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODU1MjdfNDZjYmFmYmYtYmEyZS00MGU0LTg5NTItMDZmNGY2ZTE4YjJk"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 200,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 820
+        },
+        "memberResults": [
+          {
+            "deliverCount": 555
+          },
+          {
+            "deliverCount": 861
+          },
+          {
+            "deliverCount": 834
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 39
+          },
+          {
+            "teamDeliverCount": 30
+          },
+          {
+            "teamDeliverCount": 36
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODU1MjdfNDZjYmFmYmYtYmEyZS00MGU0LTg5NTItMDZmNGY2ZTE4YjJk",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwOTAzMDFfNDZjYmFmYmYtYmEyZS00MGU0LTg5NTItMDZmNGY2ZTE4YjJk"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODQ3MjdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 180,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1304
+        },
+        "memberResults": [
+          {
+            "deliverCount": 882
+          },
+          {
+            "deliverCount": 1030
+          },
+          {
+            "deliverCount": 845
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 32
+          },
+          {
+            "teamDeliverCount": 37
+          },
+          {
+            "teamDeliverCount": 37
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODQ3MjdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODU1MjdfNDZjYmFmYmYtYmEyZS00MGU0LTg5NTItMDZmNGY2ZTE4YjJk"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODM4NDdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 160,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 847
+        },
+        "memberResults": [
+          {
+            "deliverCount": 747
+          },
+          {
+            "deliverCount": 1214
+          },
+          {
+            "deliverCount": 804
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 25
+          },
+          {
+            "teamDeliverCount": 36
+          },
+          {
+            "teamDeliverCount": 28
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODM4NDdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODQ3MjdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODMxNDdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 140,
+        "gradePointDiff": "UP",
+        "bossResult": {
+          "hasDefeatBoss": true,
+          "boss": {
+            "name": "横纲",
+            "id": "Q29vcEVuZW15LTIz"
+          }
+        },
+        "myResult": {
+          "deliverCount": 1158
+        },
+        "memberResults": [
+          {
+            "deliverCount": 1268
+          },
+          {
+            "deliverCount": 1319
+          },
+          {
+            "deliverCount": 1047
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 31
+          },
+          {
+            "teamDeliverCount": 35
+          },
+          {
+            "teamDeliverCount": 48
+          },
+          {
+            "teamDeliverCount": null
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODMxNDdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODM4NDdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODI0NDRfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 120,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 679
+        },
+        "memberResults": [
+          {
+            "deliverCount": 693
+          },
+          {
+            "deliverCount": 843
+          },
+          {
+            "deliverCount": 618
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 31
+          },
+          {
+            "teamDeliverCount": 45
+          },
+          {
+            "teamDeliverCount": 39
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODI0NDRfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODMxNDdfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODE2NTdfY2IzYWI0OWYtMzZhOC00MjgzLWE4OTAtNDA5MTI0YWVlZTVi"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 100,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 638
+        },
+        "memberResults": [
+          {
+            "deliverCount": 903
+          },
+          {
+            "deliverCount": 671
+          },
+          {
+            "deliverCount": 438
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 35
+          },
+          {
+            "teamDeliverCount": 26
+          },
+          {
+            "teamDeliverCount": 35
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODE2NTdfY2IzYWI0OWYtMzZhOC00MjgzLWE4OTAtNDA5MTI0YWVlZTVi",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODI0NDRfZmFjNzJjZDAtNjNhZC00MDI5LTg1MWMtMGNmYTE4ZmY0M2I2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODAzMjVfZWQ3YWM4NjktYTVjYS00ODExLTlhY2YtNTE2MTc1ZDNhMTI1"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 80,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 868
+        },
+        "memberResults": [
+          {
+            "deliverCount": 659
+          },
+          {
+            "deliverCount": 961
+          },
+          {
+            "deliverCount": 664
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 25
+          },
+          {
+            "teamDeliverCount": 28
+          },
+          {
+            "teamDeliverCount": 40
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODAzMjVfZWQ3YWM4NjktYTVjYS00ODExLTlhY2YtNTE2MTc1ZDNhMTI1",
+        "weapons": [
+          {
+            "name": "溅镀枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/f1c8fc32bd90fc9258dc17e9f9bcfd5e6498f6e283709bf1896b78193b8e39e9_0.png?Expires=1704844800&Signature=dCOnGUXMKGVVzlwYD4N2yDMYMgAdCULelSmnmSTdnXC~vxD25edgEEfELag-D4Oz10X5zEiXIEoeJ5lsNC2Iu0AHG6A3B4-PHpcH-hwE8XoIiAtv~oQc6LoppRuOre9xMU5qMmwRRc2bcZ-1Iq8ioLHMj~vAbrRWXwtwasjEuZgwpzCvLQCLeAs~1~hP-d1L3tOzXWMNvzxtFVZ8ARGuaUX9Is3lx-jR0N2R8koB11SSx~~HqHjiakOeiGjfk26nuOZ9w0adIqr4taApnksdD4~8cXidZD7FSrBfrN9FB60oVTPQNWYcVc87ilshwHTojKALJ984ZXcj3wDp5fUoOw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "L3卷管枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/96833fc0f74242cd2bc73b241aab8a00d499ce9f6557722ef6503e12af8979f4_0.png?Expires=1704844800&Signature=Ys6FiyiDvxZhPqQ71LmlR82RGeQLDF2LE4Fo8Ojpdj-QXklFskt6~9OquCICXZsLolunOw0OVNMX8kLHo2hEeWMIHp3W-y5qj5T81JUqvQt~TjvdADO1b6Afiai43YYsufJ1cOCSY~3PylsZjoxwKjVPyZnMJcQHKUb8aM6fdy9~vXDsAiIqinpFLminO-jl-20kEYsF7KTaIGIW7AMn0gwYUb9FxkoJpZ1sXgPUL6rzHajccLSpUGNVq4mLM2Cjab2WtFVoFMlJKhIE3k-r3Bw5Euyvtjz7C-GgI6y0zRFMKkAeUaDSWZBKCYRSPn6Hf-eki5Xj5-xwttSSGeKJnw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "电动马达滚筒",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/18fdddee9c918842f076c10f12e46d891aca302d2677bf968ee2fe4e65b831a8_0.png?Expires=1704844800&Signature=J~Fybx8q9TQ9WuCNH-u7zsuXgKxvV4XaayEw0Dh2iOJ5Zlmn6w1tuKRCrbObfBiyem1OJoo7u8inF86jbnMPXLaKmWJqJRwsprd8b-W7IKkSKkMQ56n9lQdGAkXmApNlig1FtlkCnDi2X08zlSLzavaHlqk9KOmxq735mFp1ltj0H-~Mdjk8I~px1x3lGM9KwuZNB9SKzaf5jUiEFHHQ4JkyMeOtMf9vt5gb0IU1v-QfJpnpHnZR3LHrpEJVrNHJal7gOhRUwyrmdaXau52~0QTU1zJmhvWqJ8x5w~po5xDcu76~hKzmQ20sMwXC2SAVjaxKMMGtx-0LxHksiDw5cQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "三发猎鱼弓",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/676d9f49276f171a93ac06646c0fbdfbeb8c3d0284a057aee306404a6034ffef_0.png?Expires=1704844800&Signature=KCYJWaXXFW4pa3IJYpvasTTg~~Re5LeBuO6UnjIeTe1E4QvGWNj-I9PZf3Rx3GMw9NkFP44NRi8bkBdUpoK3MRKZRwW2tavBrRqZuaeCuT9ij~NAvNL50r6pgo4tdowWE-tENw1HCCVf68IGrMMDH7dcsoYufTvzcsOUupH5rHS3-Zi6MB3M35PFLtQDxaMFAMivH-rhzw6gjXV~JGgHuHl0IiYCBiRWYow98Y4u02GxzNL4ALIjmwlxpPAKXAnp9-iZ-t4-4cjB-jw0V-sutg1FXJgptykaCNV301uM5dQyxKdqUCI~WKvgl-3C1DvOvnNvtf41eH8jpOSNLztrGw__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwODE2NTdfY2IzYWI0OWYtMzZhOC00MjgzLWE4OTAtNDA5MTI0YWVlZTVi"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1xZGpubjN1bXJmbnRsNWZpYW5tbToyMDIzMDMyOVQwNjQzNTlfNGZlZjRmM2MtY2VkNC00ZDQxLWIyOTctMDk5MDFjY2UzOTNl"
+        },
+        "resultWave": 0,
+        "coopStage": {
+          "name": "鲑坝",
+          "id": "Q29vcFN0YWdlLTE="
+        },
+        "afterGrade": {
+          "name": "传说",
+          "id": "Q29vcEdyYWRlLTg="
+        },
+        "afterGradePoint": 60,
+        "gradePointDiff": "UP",
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 1029
+        },
+        "memberResults": [
+          {
+            "deliverCount": 732
+          },
+          {
+            "deliverCount": 996
+          },
+          {
+            "deliverCount": 736
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 32
+          },
+          {
+            "teamDeliverCount": 27
+          },
+          {
+            "teamDeliverCount": 36
+          }
+        ]
+      }
+    ]
+  }
+}
