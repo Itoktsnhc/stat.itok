@@ -1,0 +1,2136 @@
+﻿{
+  "startTime": null,
+  "endTime": null,
+  "mode": "PRIVATE_CUSTOM",
+  "rule": "REGULAR",
+  "highestResult": null,
+  "historyDetails": {
+    "nodes": [
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDEyNDJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": null,
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDExMzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDExMzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDEyNDJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDEwNDFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDEwNDFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDExMzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA5MzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA5MzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDEwNDFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA4MzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA4MzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA5MzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA3NDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA3NDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA4MzlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA2MzdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA2MzdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA3NDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA1MzFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA1MzFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA2MzdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA0MjNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA0MjNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA1MzFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAzMjRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAzMjRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDA0MjNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAyMjJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAyMjJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAzMjRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAxMDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAxMDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAyMjJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU5NDhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU5NDhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwNDAxMDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU4MzhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU4MzhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU5NDhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU3MzNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU3MzNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU4MzhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU2MjFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU2MjFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU3MzNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU0MjlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU0MjlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU2MjFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUzMjJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 11
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUzMjJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzU0MjlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUyMjNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUyMjNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUzMjJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUxMTNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUxMTNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUyMjNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUwMDhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUwMDhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUxMTNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ4NDVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ4NDVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzUwMDhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ3MzJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ3MzJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ4NDVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ2MjhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ2MjhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ3MzJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ0NTNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ0NTNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ2MjhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQzNTFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQzNTFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQ0NTNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQyNDdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQyNDdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQzNTFfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQxNDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQxNDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQyNDdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQwNDBfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQwNDBfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQxNDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM5MzRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM5MzRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzQwNDBfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM4MzJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM4MzJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM5MzRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM3MjlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM3MjlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM4MzJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM2MjVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM2MjVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM3MjlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM1MjdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM1MjdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM2MjVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM0MjBfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM0MjBfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM1MjdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMzMDNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMzMDNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzM0MjBfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMxNThfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMxNThfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMzMDNfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMwNTVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMwNTVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMxNThfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI5NDlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI5NDlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzMwNTVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI4NDZfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI4NDZfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI5NDlfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI3NDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI3NDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI4NDZfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI2MzhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI2MzhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI3NDRfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI1MzdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI1MzdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI2MzhfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI0MzVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI0MzVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI1MzdfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzIzMzVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzIzMzVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzI0MzVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzIyMTJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzIyMTJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2",
+        "weapons": [
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "窄域标记枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/25e98eaba1e17308db191b740d9b89e6a977bfcd37c8dc1d65883731c0c72609_0.png?Expires=1704844800&Signature=kmeKJENcH9GKTeWC~pbDlCp7MrjP4csSDpGznZDpwzbOdm3d5VJ8PLolLQIhp0SymW7PuMF4rxAvY9jHHqu5rHltOJH9yO-prXudAUcUPmVSPDYP7o8s9mf2znpoXk3oGS3kylZT2c-KXfQZlez8oNnaj4YbkJircB8KZUXhUG1~oXcPdu46~l5~x~srPHTw2GXx8V~-y1MGJOANJUp~Erig4R82LeKiPAYJGWQvI1MzvfPNew0Q1TVOs9gKFuF6p1Jlv8Yvi17yymSYV7Z3b8m9IZSVrFz~cMWl9aHSxcN2er-yO1VIE9cs~qaEBXfVG1TMfEFZkZI5VemBs-6emg__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/473fffb2442075078d8bb7125744905abdeae651b6a5b7453ae295582e45f7d1_0.png?Expires=1704844800&Signature=eLsoNcKFcMpLOc6GXQ-5PKakhBYqbyLRv5GVUacwc-9sZG6QUz5Nos9L~Y9ws5bZpn2v-LBfGuKA3KtzyZwiRmq3V5w6X437PgTXnbzB8OWMHYC7J5N-kcpMFmJbfCcRxp8ADYZWCgyQHk3XDXQz-GgeLMkPtRM7fKVv1f5NNyRCLfzPN5Q-lotTRCRs0DgksaJ7x2UxGzLs5w3ixCApqiPCeCcWSlBo0sDT1lCsDUYHp~LAKcUXvidXszycGz4xbUqBwY9Q7QgM~1nYiloZf2D1GpTZD2jFsEIAwQZHeuDuQ5aD2kZFLkWJ65uHyi3T1NHxLahhkZi3Fdt3HSUCFA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "随机",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/ui_img/473fffb2442075078d8bb7125744905abdeae651b6a5b7453ae295582e45f7d1_0.png?Expires=1704844800&Signature=eLsoNcKFcMpLOc6GXQ-5PKakhBYqbyLRv5GVUacwc-9sZG6QUz5Nos9L~Y9ws5bZpn2v-LBfGuKA3KtzyZwiRmq3V5w6X437PgTXnbzB8OWMHYC7J5N-kcpMFmJbfCcRxp8ADYZWCgyQHk3XDXQz-GgeLMkPtRM7fKVv1f5NNyRCLfzPN5Q-lotTRCRs0DgksaJ7x2UxGzLs5w3ixCApqiPCeCcWSlBo0sDT1lCsDUYHp~LAKcUXvidXszycGz4xbUqBwY9Q7QgM~1nYiloZf2D1GpTZD2jFsEIAwQZHeuDuQ5aD2kZFLkWJ65uHyi3T1NHxLahhkZi3Fdt3HSUCFA__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzIzMzVfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzE5MjBfMTJhMTYwY2YtOWNlZC00OTdiLTk1MDAtNDZkMDc1OWQxMDJm"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      },
+      {
+        "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzE5MjBfMTJhMTYwY2YtOWNlZC00OTdiLTk1MDAtNDZkMDc1OWQxMDJm",
+        "weapons": [
+          {
+            "name": "火热爆破枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/29ccca01285a04f42dc15911f3cd1ee940f9ca0e94c75ba07378828afb3165c0_0.png?Expires=1704844800&Signature=DNLvHoWRyff~OlDdN~3MYPSPPiICkYQtPTWLPsQj~2BG3RU1TxhxEuQyI5s4nK0xpl2F3uG0jNXLXoCoR1jEZaZKIXRgs39VCQXIUlu-achaypP-MTCb3uO5Ew5nyFEQd9ApV5QtG~rQ3GHzN9jEIOCYAvcE8I9R1cQpRmkG2xMuOXI9xfgTjZNKin1p-m0~l72Mj2ggsEGGq9Z9ldGP4n3vG1Fdh7nEtufqWwkanTrHh17QNG3FxdOcTcRRPvethmHYqW2BbeQ72k1809L522tp4JVTox8ocT428we2MjMST2ZLySxSseXYbMP61YTACWVfWBGarnQic-5R07aV~A__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          },
+          {
+            "name": "斯普拉射击枪",
+            "image": {
+              "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_0.png?Expires=1704844800&Signature=TIB2P5Iwd6JKGiyYtq9GnZ7Ks4ibMHPYymHBbQjgtoOVkQ6UXm6G~qUIhC4v5Vjt6IT85-vY-RBIC1uBKPhWwcDgi8gX8iOeBAQ36GDGDrSTg3JHZbiS3rs2QzCou-gMdgvAzSjLYj4Me6ML8DjKKG6d6bik5BUsvqUdCBiEjjxOm51E8hKueVhthVdCn8SCZ1e7jsoS2T6cyjKtdTsS1jkE17BJQ~6meTQaYMOuq9VjMRaueJO2xA9lIVofgJfCQrrf2oT1zxE2c1zd4Anzu4CHy8hagtbFyCyzjFUHxA3OWb6YlXjyEkDJXMKzumyoSaiet58IKjDOhb0MZf6pbQ__&Key-Pair-Id=KNBS2THMRC385"
+            }
+          }
+        ],
+        "nextHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQxMFQwMzIyMTJfMjk5Njg4YzQtM2Y5OC00MjU5LTljOTEtNDc2ZmZiMDg0MGY2"
+        },
+        "previousHistoryDetail": {
+          "id": "Q29vcEhpc3RvcnlEZXRhaWwtdS1hZDYyNzZuaHN0MzVyeWV1a25tbToyMDIzMDQwOVQyMTA4MTVfODNmYTNhNTUtNGM4Mi00NmU2LTk0M2QtZjViZDRlMDJlYjYx"
+        },
+        "resultWave": 1,
+        "coopStage": {
+          "name": "新卷堡",
+          "id": "Q29vcFN0YWdlLTI="
+        },
+        "afterGrade": null,
+        "afterGradePoint": null,
+        "gradePointDiff": null,
+        "bossResult": null,
+        "myResult": {
+          "deliverCount": 0
+        },
+        "memberResults": [
+          {
+            "deliverCount": 0
+          }
+        ],
+        "waveResults": [
+          {
+            "teamDeliverCount": 0
+          }
+        ]
+      }
+    ]
+  }
+}

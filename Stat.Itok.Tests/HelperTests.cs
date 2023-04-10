@@ -111,7 +111,15 @@ namespace Stat.Itok.Tests
             var detailStr = File.ReadAllText("./samples/salmon/1/detail_0.json");
             var res = BattleHelper.BuildStatInkSalmonBody(detailStr, groupStr, "xx", new Dictionary<string, string>());
         }
-        
+
+        [TestMethod]
+        public void TestSalmonRun_4()
+        {
+            var groupStr = File.ReadAllText("./samples/salmon/4/list.json");
+            var detailStr = File.ReadAllText("./samples/salmon/4/detail_0.json");
+            var res = BattleHelper.BuildStatInkSalmonBody(detailStr, groupStr, "xx", new Dictionary<string, string>());
+        }
+
         [TestMethod]
         public void TestSalmonRun_2()
         {
