@@ -459,6 +459,10 @@ public record StatInkSalmonBody
     [JsonConverter(typeof(StringEnumConverter))]
     public StatInkBoolean IsBigRun { get; set; }
 
+    [JsonProperty("eggstra_work")]
+    [JsonConverter(typeof(StringEnumConverter))]
+    public StatInkBoolean IsEggstraWork { get; set; } = StatInkBoolean.No;
+
     [JsonProperty("stage")]
     public string Stage { get; set; }
 
@@ -504,7 +508,7 @@ public record StatInkSalmonBody
 
     [JsonProperty("silver_scale")]
     public int? SilverScale { get; set; }
-    
+
     [JsonProperty("bronze_scale")]
     public int? BronzeScale { get; set; }
 

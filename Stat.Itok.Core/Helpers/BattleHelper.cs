@@ -177,7 +177,7 @@ public static class BattleHelper
                     var challenge = parent["bankaraMatchChallenge"];
                     if (challenge != null && challenge.Type != JTokenType.Null)
                     {
-                        var ranks = new[] { "c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s" };
+                        var ranks = new[] {"c-", "c", "c+", "b-", "b", "b+", "a-", "a", "a+", "s"};
                         if (challenge["rank_up_battle"].TryWith<bool?>() == true)
                             body.RankUpBattle = StatInkBoolean.Yes;
                         else
@@ -534,10 +534,10 @@ public static class BattleHelper
 
     private static string ConvertAsColorStr(JToken colorObj)
     {
-        var r = (int?)(colorObj["r"].TryWith<decimal?>() * 255);
-        var g = (int?)(colorObj["g"].TryWith<decimal?>() * 255);
-        var b = (int?)(colorObj["b"].TryWith<decimal?>() * 255);
-        var a = (int?)(colorObj["a"].TryWith<decimal?>() * 255);
+        var r = (int?) (colorObj["r"].TryWith<decimal?>() * 255);
+        var g = (int?) (colorObj["g"].TryWith<decimal?>() * 255);
+        var b = (int?) (colorObj["b"].TryWith<decimal?>() * 255);
+        var a = (int?) (colorObj["a"].TryWith<decimal?>() * 255);
         return $"{r?.ToString("x2")}{g?.ToString("x2")}{b?.ToString("x2")}{a?.ToString("x2")}";
     }
 
@@ -645,18 +645,19 @@ public static class BattleHelper
         Dictionary<string, string> weaponInfo)
     {
         var job = JToken.Parse(detailRes)["data"]!["coopHistoryDetail"];
-         var payload = new StatInkSalmonBody
+        var payload = new StatInkSalmonBody
         {
             Uuid = GetBattleIdForStatInk(job["id"]?.TryWith<string>())
         };
         var groupWrapper = JToken.Parse(groupRawStr);
         var jobMode = groupWrapper["mode"]?.TryWith<string>();
-        if(!string.IsNullOrWhiteSpace(jobMode) && jobMode.StartsWith("PRIVATE_"))
+        if (!string.IsNullOrWhiteSpace(jobMode) && jobMode.StartsWith("PRIVATE_"))
         {
             payload.IsPrivate = StatInkBoolean.Yes;
         }
+
         var group = groupWrapper["historyDetails"]!["nodes"] as JArray;
-       
+
         var jobRule = job["rule"]?.TryWith<string>();
 
         payload.DangerRate = job["dangerRate"]?.TryWith<double?>() * 100;
@@ -812,7 +813,7 @@ public static class BattleHelper
         }
 
         payload.Players ??= new List<SalmonPlayer>();
-        var players = new JArray { job["myResult"] };
+        var players = new JArray {job["myResult"]};
         foreach (var memberRes in job["memberResults"])
         {
             players.Add(memberRes);
@@ -893,6 +894,7 @@ public static class BattleHelper
         //payload.EndAt
 
         payload.IsBigRun = jobRule is "BIG_RUN" ? StatInkBoolean.Yes : StatInkBoolean.No;
+        payload.IsEggstraWork = jobRule is "TEAM_CONTEST" ? StatInkBoolean.Yes : StatInkBoolean.No;
         if (payload.IsBigRun != StatInkBoolean.Yes)
         {
             payload.Stage = ParseCommonId(currentStageFullId);
