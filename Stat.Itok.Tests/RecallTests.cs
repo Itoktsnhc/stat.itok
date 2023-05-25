@@ -117,7 +117,8 @@ namespace Stat.Itok.Tests
             foreach (var payload in payloadNameList)
             {
                 var content =
-                    JsonConvert.DeserializeObject<JobRunTaskLite>(CommonHelper.DecompressStr(File.ReadAllText(payload)));
+                    JsonConvert.DeserializeObject<JobRunTaskLite>(
+                        CommonHelper.DecompressStr(File.ReadAllText(payload)));
             }
         }
 
@@ -182,6 +183,31 @@ namespace Stat.Itok.Tests
             {
                 await container.DeleteItemAsync<PureIdDto>(id,
                     new Microsoft.Azure.Cosmos.PartitionKey("prod.BattleTaskPayload"));
+            }
+        }
+
+        [TestMethod]
+        public async Task ResetJobConfigEnableAndLimitAsync()
+        {
+            var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
+            var container = cosmos.GetContainer<BattleTaskPayload>();
+            var rawSQL =
+                $"SELECT * FROM c where c.partitionKey= 'prod.JobConfig'";
+            QueryDefinition query = new QueryDefinition(rawSQL);
+
+            var resultSetIterator = container.GetItemQueryIterator<CosmosEntity<JobConfig>>(
+                query);
+
+            while (resultSetIterator.HasMoreResults)
+            {
+                var response = await resultSetIterator.ReadNextAsync();
+                foreach (var entity in response)
+                {
+                    var jobConfig = entity.Data;
+                    jobConfig.Enabled = true;
+                    jobConfig.NeedBuildFromBeginCount = 0;
+                    var resp = await cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
+                }
             }
         }
 
