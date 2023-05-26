@@ -6,7 +6,8 @@ namespace Stat.Itok.Core.ApiClients
 {
     public interface IImInkApi
     {
-        Task<IMinkFCalcApiResp> CallFCalcApiAsync(string idToken, string steps);
+        Task<IMinkFCalcApiResp> CallFCalcApiAsync(string idToken, int step, string userId,
+            string coralUserId = null);
     }
 
     public class ImInkApi : IImInkApi
@@ -20,7 +21,8 @@ namespace Stat.Itok.Core.ApiClients
             _options = options;
         }
 
-        public async Task<IMinkFCalcApiResp> CallFCalcApiAsync(string idToken, string steps)
+        public async Task<IMinkFCalcApiResp> CallFCalcApiAsync(string idToken, int step, string userId,
+            string coralUserId = null)
         {
             var req = new HttpRequestMessage()
             {
@@ -32,8 +34,14 @@ namespace Stat.Itok.Core.ApiClients
             var bodyDict = new Dictionary<string, string>()
             {
                 {"token", idToken},
-                {"hashMethod", steps},
+                {"hash_method", step.ToString()},
+                {"na_id", userId},
             };
+            if (step == 2 && !string.IsNullOrWhiteSpace(coralUserId))
+            {
+                bodyDict["coral_user_id"] = coralUserId;
+            }
+
             req.Content = JsonContent.Create(bodyDict);
             var rawResp = await _client.SendAsync(req);
             rawResp.EnsureSuccessStatusCode();

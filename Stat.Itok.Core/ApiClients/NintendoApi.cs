@@ -60,7 +60,7 @@ namespace Stat.Itok.Core.ApiClients
         /// <param name="stepOneIdToken"></param>
         /// <param name="userInfo"></param>
         /// <returns></returns>
-        Task<HttpResponseMessage> GetGameTokenAsync(string stepOneIdToken, NinUserInfo userInfo);
+        Task<HttpResponseMessage> GetGameTokenAsync(string stepOneIdToken, NinUserInfo userInfo, string coralUserId);
 
         /// <summary>
         /// 7, also known as bulletToken
@@ -83,7 +83,6 @@ namespace Stat.Itok.Core.ApiClients
 
         // ReSharper disable once InconsistentNaming
         Task<string> GetNSOAppVersionAsync(bool forceRefresh = false);
-
     }
 
     public class NintendoApi : INintendoApiForTest
@@ -120,10 +119,12 @@ namespace Stat.Itok.Core.ApiClients
 
         public async Task<NinMiscConfig> GetNinMiscConfigAsync(bool unCached = false)
         {
-            if (!unCached && _memCache.TryGetValue<NinMiscConfig>(nameof(GetNinMiscConfigAsync), out var cachedWebViewData))
+            if (!unCached &&
+                _memCache.TryGetValue<NinMiscConfig>(nameof(GetNinMiscConfigAsync), out var cachedWebViewData))
             {
                 return cachedWebViewData;
             }
+
             var combinedNinMiscConfig = _defaultConfig.Adapt<NinMiscConfig>();
             try
             {
@@ -159,6 +160,7 @@ namespace Stat.Itok.Core.ApiClients
             {
                 _logger.LogError("error when fetch or combine NinMiscConfig", ex);
             }
+
             _memCache.Set(nameof(GetNinMiscConfigAsync), combinedNinMiscConfig);
 
             return combinedNinMiscConfig;
@@ -194,7 +196,7 @@ namespace Stat.Itok.Core.ApiClients
                 req.Headers.TryAddWithoutValidation(k, v);
             }
 
-            var cookieList = new List<string>() { "_dht=1" };
+            var cookieList = new List<string>() {"_dht=1"};
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
             var resp = await _client.SendAsync(req);
             resp.EnsureSuccessStatusCode();
@@ -229,7 +231,7 @@ namespace Stat.Itok.Core.ApiClients
                 req.Headers.TryAddWithoutValidation(k, v);
             }
 
-            var cookieList = new List<string>() { "_dht=1" };
+            var cookieList = new List<string>() {"_dht=1"};
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
             var resp = await _client.SendAsync(req);
             resp.EnsureSuccessStatusCode();
@@ -401,7 +403,7 @@ namespace Stat.Itok.Core.ApiClients
 
         public async Task<HttpResponseMessage> GetPreGameTokenAsync(string accessIdToken, NinUserInfo userInfo)
         {
-            var inkApiResp = await _inkApi.CallFCalcApiAsync(accessIdToken, "1");
+            var inkApiResp = await _inkApi.CallFCalcApiAsync(accessIdToken, 1, userInfo.Id);
             var req = new HttpRequestMessage
             {
                 Method = HttpMethod.Post,
@@ -442,9 +444,10 @@ namespace Stat.Itok.Core.ApiClients
             return rawResp;
         }
 
-        public async Task<HttpResponseMessage> GetGameTokenAsync(string stepOneIdToken, NinUserInfo userInfo)
+        public async Task<HttpResponseMessage> GetGameTokenAsync(string stepOneIdToken, NinUserInfo userInfo,
+            string coralUserId)
         {
-            var inkApiResp = await _inkApi.CallFCalcApiAsync(stepOneIdToken, "2");
+            var inkApiResp = await _inkApi.CallFCalcApiAsync(stepOneIdToken, 2, userInfo.Id, coralUserId);
             var req = new HttpRequestMessage
             {
                 Method = HttpMethod.Post,
@@ -512,7 +515,7 @@ namespace Stat.Itok.Core.ApiClients
                 req.Headers.TryAddWithoutValidation(k, v);
             }
 
-            var cookieList = new List<string>() { "_dht=1", $"_gtoken={stepTwoIdToken}" };
+            var cookieList = new List<string>() {"_dht=1", $"_gtoken={stepTwoIdToken}"};
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
 
             var rawResp = await _client.SendAsync(req);
@@ -552,7 +555,7 @@ namespace Stat.Itok.Core.ApiClients
                 req.Headers.TryAddWithoutValidation(k, v);
             }
 
-            var cookieList = new List<string>() { $"_gtoken={gToken}" };
+            var cookieList = new List<string>() {$"_gtoken={gToken}"};
             req.Headers.TryAddWithoutValidation("Cookie", string.Join(';', cookieList));
             var queryBody = StatInkHelper.BuildGraphQLBody(queryHash, varName, varValue);
             req.Content = new StringContent(queryBody, Encoding.UTF8, "application/json");

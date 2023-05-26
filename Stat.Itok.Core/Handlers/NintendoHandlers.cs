@@ -69,15 +69,18 @@ public class NintendoPublicHandlers : HandlerBase,
         {
             AccessTokenInfo = accessTokenInfo
         }, cancellationToken);
-        var preGameToken = await _mediator.Send(new ReqGetPreGameToken()
+        var preGameTokenResp = await _mediator.Send(new ReqGetPreGameToken()
         {
             User = user,
             AccessTokenInfo = accessTokenInfo
         }, cancellationToken);
+        var preGameToken = preGameTokenResp.PreGameToken;
+        var coralUserId = preGameTokenResp.CoralUserId;
         var gameToken = await _mediator.Send(new ReqGetGameToken()
         {
             User = user,
-            PreGameToken = preGameToken
+            PreGameToken = preGameToken,
+            CoralUserId = coralUserId
         }, cancellationToken);
         var bulletToken = await _mediator.Send(new ReqGetBulletGameToken()
         {
@@ -153,7 +156,7 @@ public class NintendoPrivateHandlers : HandlerBase,
     IRequestHandler<ReqGetSessionToken, string>,
     IRequestHandler<ReqGetAccessToken, NinAccessTokenInfo>,
     IRequestHandler<ReqGetUserInfo, NinUserInfo>,
-    IRequestHandler<ReqGetPreGameToken, string>,
+    IRequestHandler<ReqGetPreGameToken, RespPerGameToken>,
     IRequestHandler<ReqGetGameToken, string>,
     IRequestHandler<ReqGetBulletGameToken, string>
 {
@@ -198,20 +201,25 @@ public class NintendoPrivateHandlers : HandlerBase,
         };
     }
 
-    public async Task<string> Handle(ReqGetPreGameToken request, CancellationToken cancellationToken)
+    public async Task<RespPerGameToken> Handle(ReqGetPreGameToken request, CancellationToken cancellationToken)
     {
         var strResp =
             await RunWithDefaultPolicy(_api.GetPreGameTokenAsync(request.AccessTokenInfo.AccessToken, request.User));
-        var jTokenResp =
+        var preGameTokenJResp =
             strResp.ThrowIfJsonPropChainNotFound(new[] {"result", "webApiServerCredential", "accessToken"});
-
-        return jTokenResp["result"]!["webApiServerCredential"]!["accessToken"]!.Value<string>();
+        var coralUserIdJResp =
+            strResp.ThrowIfJsonPropChainNotFound(new[] {"result", "user", "id"});
+        return new RespPerGameToken()
+        {
+            PreGameToken = preGameTokenJResp["result"]!["webApiServerCredential"]!["accessToken"]!.Value<string>(),
+            CoralUserId = coralUserIdJResp["result"]!["user"]!["id"]!.Value<string>()
+        };
     }
 
     public async Task<string> Handle(ReqGetGameToken request, CancellationToken cancellationToken)
     {
         var strResp =
-            await RunWithDefaultPolicy(_api.GetGameTokenAsync(request.PreGameToken, request.User));
+            await RunWithDefaultPolicy(_api.GetGameTokenAsync(request.PreGameToken, request.User, request.CoralUserId));
         var jTokenResp =
             strResp.ThrowIfJsonPropChainNotFound(new[] {"result", "accessToken"});
 
