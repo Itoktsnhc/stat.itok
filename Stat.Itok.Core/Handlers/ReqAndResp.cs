@@ -40,15 +40,22 @@ public record ReqGetUserInfo : IRequest<NinUserInfo>
     public NinAccessTokenInfo AccessTokenInfo { get; set; }
 }
 
-public record ReqGetPreGameToken : IRequest<string>
+public record ReqGetPreGameToken : IRequest<RespPerGameToken>
 {
     public NinAccessTokenInfo AccessTokenInfo { get; set; }
     public NinUserInfo User { get; set; }
 }
 
+public record RespPerGameToken
+{
+    public string PreGameToken { get; set; }
+    public string CoralUserId { get; set; }
+}
+
 public record ReqGetGameToken : IRequest<string>
 {
     public string PreGameToken { get; set; }
+    public string CoralUserId { get; set; }
     public NinUserInfo User { get; set; }
 }
 
@@ -67,8 +74,9 @@ public record ReqDoGraphQL : IRequest<string>
     public string VarValue { get; set; }
 }
 
-public record ReqGetNinMiscConfig: IRequest<NinMiscConfig> { }
-
+public record ReqGetNinMiscConfig : IRequest<NinMiscConfig>
+{
+}
 
 public record ReqPostBattle : IRequest<StatInkPostBodySuccess>
 {
@@ -83,4 +91,5 @@ public record ReqPostSalmon : IRequest<StatInkPostBodySuccess>
 }
 
 public record ReqGetGearsInfo : IRequest<Dictionary<string, string>>;
+
 public record ReqGetSalmonWeaponsInfo : IRequest<Dictionary<string, string>>;
