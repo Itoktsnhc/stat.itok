@@ -1,0 +1,2181 @@
+﻿{
+  "data": {
+    "eventBattleHistories": {
+      "summary": {
+        "assistAverage": 0.46630703117856814,
+        "deathAverage": 1.662247417024778,
+        "killAverage": 2.5729176190911582,
+        "perUnitTimeMinute": 1,
+        "specialAverage": 1.5141263600621742,
+        "win": 25,
+        "lose": 24
+      },
+      "historyGroupsOnlyFirst": {
+        "nodes": [
+          {
+            "historyDetails": {
+              "nodes": [
+                {
+                  "player": {
+                    "weapon": {
+                      "specialWeapon": {
+                        "maskingImage": {
+                          "width": 100,
+                          "height": 100,
+                          "maskImageUrl": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/mask/7269f1fa71d746d7b86ca2a71fc24c6ea4c764077ee50d692f80eddeaff90f1d_4.png?Expires=1704844800\u0026Signature=qR~9SW6WQGJ56lAjFUcphPJzPZYvfqfBu4PciZ27e-k5huxt2uZiasYXQgSAml9368xPrjzFHgukoqQYRBarSHrKGU00lQ4IyYkfBQc8WJr0b5TNZhOTY357KWkGc9pS8A22sjyR7I8ZaDZwztQm-nso6NPyTNk8cGUgNDKkbJ0hm7AHRXnKnuiR24Y-M-9OCnrhoyvC8L8cVZJHiyEZmNGJx~je4J-E99rhBJs6D~gmgPnoVpWGgDAAfJUimGG6nDOvIwldV0zId~xXGNHyq6X4ahJZxQKRvuIjjYTnQMqrO4O52AXGsG2Jb~FgjkqwF0sHUOY1Hfq~1yibWODdew__\u0026Key-Pair-Id=KNBS2THMRC385",
+                          "overlayImageUrl": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/special_img/overlay/7269f1fa71d746d7b86ca2a71fc24c6ea4c764077ee50d692f80eddeaff90f1d_5.png?Expires=1704844800\u0026Signature=P1bvV2yCEpw5woTRCxrttSL2eoKAKAZYaHMk8hgQC3AozghFrt6zs0WOdGOskpLt1FXhFaXYNIhd0o1If84GJ76hseeEmHyD3TtD~qTNZELP58JJqCEVjlQlTTxDZMT5XmI3JSsSGzW8k2cSQTgaQ9T6qW1R7wWKr6QWmC8xdpMUCHSpyo57Fj6KmjeM9TE9F3vDnglIohKAM9Hu~Ox1SRrwpkVqnPZITzRWVlKNeHiV9gekr2yIYRABLSlVdP5Dt222hkF6uk4Zc2RRUXC16TQ3wcYbGONOxJHc0~Locb~3WRv5GSqcG1xXe3kXgkhrN-kL8jZ7lrhURuV4G3K~eQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+                        },
+                        "id": "U3BlY2lhbFdlYXBvbi0x"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTk1ODA2Xzk1ZWIzMjFlLTRmNGYtNDllYy1iYjc4LWI0MjAwZjkzMmE3OTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NTgwNl85NWViMzIxZS00ZjRmLTQ5ZWMtYmI3OC1iNDIwMGY5MzJhNzk="
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "historyGroups": {
+        "nodes": [
+          {
+            "leagueMatchHistoryGroup": {
+              "leagueMatchEvent": {
+                "name": "终极发射狂欢祭",
+                "id": "TGVhZ3VlTWF0Y2hFdmVudC1TcGVjaWFsUnVzaF9VbHRyYVNob3Q="
+              },
+              "vsRule": {
+                "name": "真格塔楼",
+                "rule": "LOFT",
+                "id": "VnNSdWxlLTI="
+              },
+              "teamComposition": "TEAM",
+              "myLeaguePower": 1891.2852760381647
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NTgwNl85NWViMzIxZS00ZjRmLTQ5ZWMtYmI3OC1iNDIwMGY5MzJhNzk=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTk1ODA2Xzk1ZWIzMjFlLTRmNGYtNDllYy1iYjc4LWI0MjAwZjkzMmE3OTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 72
+                    }
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NTMwM184ZjU1MGZlZS0yMjU1LTRiZjctOGU0NS0wMGEzMTI1NTA5ZTU="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NTMwM184ZjU1MGZlZS0yMjU1LTRiZjctOGU0NS0wMGEzMTI1NTA5ZTU=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTk1MzAzXzhmNTUwZmVlLTIyNTUtNGJmNy04ZTQ1LTAwYTMxMjU1MDllNTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "score": 0
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NTgwNl85NWViMzIxZS00ZjRmLTQ5ZWMtYmI3OC1iNDIwMGY5MzJhNzk="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NDgxNl8yNWQzYzE2ZC05OTNjLTQ0ZTYtODVlYi04MGFmYzVjOTMwOGY="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NDgxNl8yNWQzYzE2ZC05OTNjLTQ0ZTYtODVlYi04MGFmYzVjOTMwOGY=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTk0ODE2XzI1ZDNjMTZkLTk5M2MtNDRlNi04NWViLTgwYWZjNWM5MzA4Zjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "LOSE",
+                  "myTeam": {
+                    "result": {
+                      "score": 0
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NTMwM184ZjU1MGZlZS0yMjU1LTRiZjctOGU0NS0wMGEzMTI1NTA5ZTU="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NDAzMl9lYmQyYzE5MS0zNWIxLTQ2NTUtYTk2Mi1lODFhMDNlOGE3NWE="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NDAzMl9lYmQyYzE5MS0zNWIxLTQ2NTUtYTk2Mi1lODFhMDNlOGE3NWE=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTk0MDMyX2ViZDJjMTkxLTM1YjEtNDY1NS1hOTYyLWU4MWEwM2U4YTc1YTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 87
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NDgxNl8yNWQzYzE2ZC05OTNjLTQ0ZTYtODVlYi04MGFmYzVjOTMwOGY="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MzMyOF85MDMwOTlkOS0yODFiLTQ2NTItODUwYS0zMWNiMzhjZDc1Y2Y="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MzMyOF85MDMwOTlkOS0yODFiLTQ2NTItODUwYS0zMWNiMzhjZDc1Y2Y=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTkzMzI4XzkwMzA5OWQ5LTI4MWItNDY1Mi04NTBhLTMxY2IzOGNkNzVjZjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 55
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5NDAzMl9lYmQyYzE5MS0zNWIxLTQ2NTUtYTk2Mi1lODFhMDNlOGE3NWE="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MjU1OF8wM2Y0YmFmOC0wYTg1LTRmMDMtYjMyMS03MGI5ZmM0NDM4MjU="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MjU1OF8wM2Y0YmFmOC0wYTg1LTRmMDMtYjMyMS03MGI5ZmM0NDM4MjU=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTkyNTU4XzAzZjRiYWY4LTBhODUtNGYwMy1iMzIxLTcwYjlmYzQ0MzgyNTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 88
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MzMyOF85MDMwOTlkOS0yODFiLTQ2NTItODUwYS0zMWNiMzhjZDc1Y2Y="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MTgyOF9lY2EyNmI5Mi1mZDFkLTQ0MjktOWUxOS01NWFhZTJlZDMyZGU="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MTgyOF9lY2EyNmI5Mi1mZDFkLTQ0MjktOWUxOS01NWFhZTJlZDMyZGU=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTkxODI4X2VjYTI2YjkyLWZkMWQtNDQyOS05ZTE5LTU1YWFlMmVkMzJkZTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 50
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MjU1OF8wM2Y0YmFmOC0wYTg1LTRmMDMtYjMyMS03MGI5ZmM0NDM4MjU="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MTA0MV85YWNlMzllNy1iMzZmLTQ1MmEtYWFjOC0wZjBmZWVlZmFjMTQ="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MTA0MV85YWNlMzllNy1iMzZmLTQ1MmEtYWFjOC0wZjBmZWVlZmFjMTQ=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTkxMDQxXzlhY2UzOWU3LWIzNmYtNDUyYS1hYWM4LTBmMGZlZWVmYWMxNDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 58
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MTgyOF9lY2EyNmI5Mi1mZDFkLTQ0MjktOWUxOS01NWFhZTJlZDMyZGU="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MDI1MV9jM2QxMzBkYy1hZDBmLTQ5MTItYmM0My04MTRhZTk0ZTA5NGE="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MDI1MV9jM2QxMzBkYy1hZDBmLTQ5MTItYmM0My04MTRhZTk0ZTA5NGE=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTkwMjUxX2MzZDEzMGRjLWFkMGYtNDkxMi1iYzQzLTgxNGFlOTRlMDk0YTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 56
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MTA0MV85YWNlMzllNy1iMzZmLTQ1MmEtYWFjOC0wZjBmZWVlZmFjMTQ="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NTU0N18yMGJiMjI0OC1mODMzLTQ4MjEtYmFiYS1mOWFjNjNiODk5OGU="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NTU0N18yMGJiMjI0OC1mODMzLTQ4MjEtYmFiYS1mOWFjNjNiODk5OGU=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTg1NTQ3XzIwYmIyMjQ4LWY4MzMtNDgyMS1iYWJhLWY5YWM2M2I4OTk4ZTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 72
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE5MDI1MV9jM2QxMzBkYy1hZDBmLTQ5MTItYmM0My04MTRhZTk0ZTA5NGE="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NTA0OV83ZWRhOGE1MS0xNWIyLTQ4YWUtYTEwNi1iNDFiZjdkYzUyNzg="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NTA0OV83ZWRhOGE1MS0xNWIyLTQ4YWUtYTEwNi1iNDFiZjdkYzUyNzg=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTg1MDQ5XzdlZGE4YTUxLTE1YjItNDhhZS1hMTA2LWI0MWJmN2RjNTI3ODp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "score": 100
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NTU0N18yMGJiMjI0OC1mODMzLTQ4MjEtYmFiYS1mOWFjNjNiODk5OGU="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NDM0NF8wMDFmZDhhYy02ZTBkLTQ5NDItOGE3Ni02MGZjYTFkYzVhNmU="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NDM0NF8wMDFmZDhhYy02ZTBkLTQ5NDItOGE3Ni02MGZjYTFkYzVhNmU=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTg0MzQ0XzAwMWZkOGFjLTZlMGQtNDk0Mi04YTc2LTYwZmNhMWRjNWE2ZTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 55
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NTA0OV83ZWRhOGE1MS0xNWIyLTQ4YWUtYTEwNi1iNDFiZjdkYzUyNzg="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MzYxOF8xMjQ3NDE0OS0zODk1LTQxMGUtYWNhMy1kYjlkNWY5MzliNDk="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MzYxOF8xMjQ3NDE0OS0zODk1LTQxMGUtYWNhMy1kYjlkNWY5MzliNDk=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTgzNjE4XzEyNDc0MTQ5LTM4OTUtNDEwZS1hY2EzLWRiOWQ1ZjkzOWI0OTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 76
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4NDM0NF8wMDFmZDhhYy02ZTBkLTQ5NDItOGE3Ni02MGZjYTFkYzVhNmU="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MjgzM18yNzhmYTY3ZC0xYmU2LTRjZGQtODZkMy03NDdhNjE2ZWJjOGQ="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MjgzM18yNzhmYTY3ZC0xYmU2LTRjZGQtODZkMy03NDdhNjE2ZWJjOGQ=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTgyODMzXzI3OGZhNjdkLTFiZTYtNGNkZC04NmQzLTc0N2E2MTZlYmM4ZDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 45
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MzYxOF8xMjQ3NDE0OS0zODk1LTQxMGUtYWNhMy1kYjlkNWY5MzliNDk="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MjEwN18yZjQ4NjM4ZC0yOTk2LTQ1YjgtOGViNS01YmQ5MGJiMTc0ZmQ="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MjEwN18yZjQ4NjM4ZC0yOTk2LTQ1YjgtOGViNS01YmQ5MGJiMTc0ZmQ=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTgyMTA3XzJmNDg2MzhkLTI5OTYtNDViOC04ZWI1LTViZDkwYmIxNzRmZDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 60
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MjgzM18yNzhmYTY3ZC0xYmU2LTRjZGQtODZkMy03NDdhNjE2ZWJjOGQ="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MTM0NV83ODRhNGNmNy00MTE2LTQ5OWMtYWQzNi0wYTg2MDI4MjJlYmM="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MTM0NV83ODRhNGNmNy00MTE2LTQ5OWMtYWQzNi0wYTg2MDI4MjJlYmM=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTgxMzQ1Xzc4NGE0Y2Y3LTQxMTYtNDk5Yy1hZDM2LTBhODYwMjgyMmViYzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 99
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MjEwN18yZjQ4NjM4ZC0yOTk2LTQ1YjgtOGViNS01YmQ5MGJiMTc0ZmQ="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MDYwOV82ZDJlYWM4OC1kZTU1LTQ2OGMtYjMyOS03MDgxYTA1ODg2YTc="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MDYwOV82ZDJlYWM4OC1kZTU1LTQ2OGMtYjMyOS03MDgxYTA1ODg2YTc=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTgwNjA5XzZkMmVhYzg4LWRlNTUtNDY4Yy1iMzI5LTcwODFhMDU4ODZhNzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 54
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MTM0NV83ODRhNGNmNy00MTE2LTQ5OWMtYWQzNi0wYTg2MDI4MjJlYmM="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MDE1OV9kODc5ZmIzZS1jZDMxLTQ3ODYtOTdjYy0zYTVhNGNiOGVmYmY="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MDE1OV9kODc5ZmIzZS1jZDMxLTQ3ODYtOTdjYy0zYTVhNGNiOGVmYmY=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTgwMTU5X2Q4NzlmYjNlLWNkMzEtNDc4Ni05N2NjLTNhNWE0Y2I4ZWZiZjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "score": 100
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MDYwOV82ZDJlYWM4OC1kZTU1LTQ2OGMtYjMyOS03MDgxYTA1ODg2YTc="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNTc1M184MDZhYTkwMy1iZDNlLTQzNmUtOTRhOS03OTMwNjMxY2Y2MjM="
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "leagueMatchHistoryGroup": {
+              "leagueMatchEvent": {
+                "name": "终极发射狂欢祭",
+                "id": "TGVhZ3VlTWF0Y2hFdmVudC1TcGVjaWFsUnVzaF9VbHRyYVNob3Q="
+              },
+              "vsRule": {
+                "name": "真格塔楼",
+                "rule": "LOFT",
+                "id": "VnNSdWxlLTI="
+              },
+              "teamComposition": "SOLO",
+              "myLeaguePower": 1788.816341602573
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNTc1M184MDZhYTkwMy1iZDNlLTQzNmUtOTRhOS03OTMwNjMxY2Y2MjM=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTE1NzUzXzgwNmFhOTAzLWJkM2UtNDM2ZS05NGE5LTc5MzA2MzFjZjYyMzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 21
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDE4MDE1OV9kODc5ZmIzZS1jZDMxLTQ3ODYtOTdjYy0zYTVhNGNiOGVmYmY="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNDkzN19kNzViNzMxNi00MzVmLTQzZDktODA5My05YzQyNzkxYjEzMjQ="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNDkzN19kNzViNzMxNi00MzVmLTQzZDktODA5My05YzQyNzkxYjEzMjQ=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTE0OTM3X2Q3NWI3MzE2LTQzNWYtNDNkOS04MDkzLTljNDI3OTFiMTMyNDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 46
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNTc1M184MDZhYTkwMy1iZDNlLTQzNmUtOTRhOS03OTMwNjMxY2Y2MjM="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNDA0M180NjYzZmYyNC1hYTNlLTRkZmUtYjM0Ni1jMzgyN2Y2YjMzOTk="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNDA0M180NjYzZmYyNC1hYTNlLTRkZmUtYjM0Ni1jMzgyN2Y2YjMzOTk=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTE0MDQzXzQ2NjNmZjI0LWFhM2UtNGRmZS1iMzQ2LWMzODI3ZjZiMzM5OTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 51
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNDkzN19kNzViNzMxNi00MzVmLTQzZDktODA5My05YzQyNzkxYjEzMjQ="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExMzUzNl8yYTU1NDUwZS1hNTU1LTRkNzMtODAxMy1iZDFmMGNiNmNjM2Q="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExMzUzNl8yYTU1NDUwZS1hNTU1LTRkNzMtODAxMy1iZDFmMGNiNmNjM2Q=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "金眼鲷美术馆",
+                    "id": "VnNTdGFnZS0xMQ==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/b9d8cfa186d197a27e075600a107c99d9e21646d116730f0843e0fff0aaba7dd_3.png?Expires=1704844800\u0026Signature=E8xzyNAMakGu8yRArGp0vClOVd0C0q8LSc8jp4h-Om2qGK-SQWU1mD4fEwtIK55EfRSbevmxwVHxpgl0mxAaV8r3iq2a1bUFSN7NtFykv6lMTxWQ~FCwbRgp4uCzseTtlFN0QaDWrLMMdaaIjLrI8XXTlTWXdunxaqjA5XNcSzEXtM4gLYz~GZShihV1Fx-1QAzvxIRV~YvCxgWLWL07aqheEFm7sZA3e6w1c-MsyHG8K9P~j8Wq30FjH6Vvl36m167G~xcg6CQC~W6zoOXg76woeAaM85S2EFb2vWtRRdcmMUS6KRLc8Fd9rmVCG2v1Vgi~C~jtM9NjRKOqSRiMyg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTEzNTM2XzJhNTU0NTBlLWE1NTUtNGQ3My04MDEzLWJkMWYwY2I2Y2MzZDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "WIN",
+                  "myTeam": {
+                    "result": {
+                      "score": 100
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExNDA0M180NjYzZmYyNC1hYTNlLTRkZmUtYjM0Ni1jMzgyN2Y2YjMzOTk="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExMjgyM18wYzVmNTQwMy1kYmZmLTQ2ZGEtODk1OS1jYjc3MWY0NDRhOTI="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExMjgyM18wYzVmNTQwMy1kYmZmLTQ2ZGEtODk1OS1jYjc3MWY0NDRhOTI=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "真格塔楼",
+                    "id": "VnNSdWxlLTI="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDZUMTEyODIzXzBjNWY1NDAzLWRiZmYtNDZkYS04OTU5LWNiNzcxZjQ0NGE5Mjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "score": 87
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExMzUzNl8yYTU1NDUwZS1hNTU1LTRkNzMtODAxMy1iZDFmMGNiNmNjM2Q="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNTAwN184NGQ3MjNhOC1jMWEwLTQyMWEtOTEzZC04ZjNiZTI2NzEyNjc="
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "leagueMatchHistoryGroup": {
+              "leagueMatchEvent": {
+                "name": "新赛季开幕纪念杯",
+                "id": "TGVhZ3VlTWF0Y2hFdmVudC1OZXdTZWFzb25DdXA="
+              },
+              "vsRule": {
+                "name": "占地对战",
+                "rule": "TURF_WAR",
+                "id": "VnNSdWxlLTA="
+              },
+              "teamComposition": "SOLO",
+              "myLeaguePower": 1456.254268231626
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNTAwN184NGQ3MjNhOC1jMWEwLTQyMWEtOTEzZC04ZjNiZTI2NzEyNjc=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjE1MDA3Xzg0ZDcyM2E4LWMxYTAtNDIxYS05MTNkLThmM2JlMjY3MTI2Nzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1030
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjA2VDExMjgyM18wYzVmNTQwMy1kYmZmLTQ2ZGEtODk1OS1jYjc3MWY0NDRhOTI="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNDUwOV9jNDEyNTdlZC1lMTM0LTQyOTUtYmEyYS1lNWFlZmQxYmRjMTA="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNDUwOV9jNDEyNTdlZC1lMTM0LTQyOTUtYmEyYS1lNWFlZmQxYmRjMTA=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjE0NTA5X2M0MTI1N2VkLWUxMzQtNDI5NS1iYTJhLWU1YWVmZDFiZGMxMDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1318
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNTAwN184NGQ3MjNhOC1jMWEwLTQyMWEtOTEzZC04ZjNiZTI2NzEyNjc="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNDIzOF9hYzMzNDU2My1hMzUyLTRlNTctYWMwOS00NjdkOWYxNzA5MmY="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNDIzOF9hYzMzNDU2My1hMzUyLTRlNTctYWMwOS00NjdkOWYxNzA5MmY=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "DRAW",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjE0MjM4X2FjMzM0NTYzLWEzNTItNGU1Ny1hYzA5LTQ2N2Q5ZjE3MDkyZjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "myTeam": {},
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNDUwOV9jNDEyNTdlZC1lMTM0LTQyOTUtYmEyYS1lNWFlZmQxYmRjMTA="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMzc1MF9kMTBhMGM5MS1iMWI2LTQ4ZDYtODU1ZC0wMzFjOGMxM2ExM2I="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMzc1MF9kMTBhMGM5MS1iMWI2LTQ4ZDYtODU1ZC0wMzFjOGMxM2ExM2I=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjEzNzUwX2QxMGEwYzkxLWIxYjYtNDhkNi04NTVkLTAzMWM4YzEzYTEzYjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 864
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxNDIzOF9hYzMzNDU2My1hMzUyLTRlNTctYWMwOS00NjdkOWYxNzA5MmY="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMzI0MV8xMjEwYzVlYS1kNzdmLTQwN2ItYjVhYS1jZTFhZTQ2N2NiODk="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMzI0MV8xMjEwYzVlYS1kNzdmLTQwN2ItYjVhYS1jZTFhZTQ2N2NiODk=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjEzMjQxXzEyMTBjNWVhLWQ3N2YtNDA3Yi1iNWFhLWNlMWFlNDY3Y2I4OTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1377
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMzc1MF9kMTBhMGM5MS1iMWI2LTQ4ZDYtODU1ZC0wMzFjOGMxM2ExM2I="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMjcyMl8wZTIzYTMxZC1mNWZjLTRlZTctYTZkNC01Y2YzNzU3NTU5ZWM="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMjcyMl8wZTIzYTMxZC1mNWZjLTRlZTctYTZkNC01Y2YzNzU3NTU5ZWM=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjEyNzIyXzBlMjNhMzFkLWY1ZmMtNGVlNy1hNmQ0LTVjZjM3NTc1NTllYzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 747
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMzI0MV8xMjEwYzVlYS1kNzdmLTQwN2ItYjVhYS1jZTFhZTQ2N2NiODk="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMjIwNV9hZDY2ZGVlNS04YjZkLTRmMjgtOGUyYi1hZmM5YTI5MmE4ODA="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMjIwNV9hZDY2ZGVlNS04YjZkLTRmMjgtOGUyYi1hZmM5YTI5MmE4ODA=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjEyMjA1X2FkNjZkZWU1LThiNmQtNGYyOC04ZTJiLWFmYzlhMjkyYTg4MDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 873
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMjcyMl8wZTIzYTMxZC1mNWZjLTRlZTctYTZkNC01Y2YzNzU3NTU5ZWM="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMTcxNV80NjQ1OTM4OC0zY2E5LTQxMjEtOTYxYS0zZDhlOTYwYmE5Y2E="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMTcxNV80NjQ1OTM4OC0zY2E5LTQxMjEtOTYxYS0zZDhlOTYwYmE5Y2E=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjExNzE1XzQ2NDU5Mzg4LTNjYTktNDEyMS05NjFhLTNkOGU5NjBiYTljYTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1240
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMjIwNV9hZDY2ZGVlNS04YjZkLTRmMjgtOGUyYi1hZmM5YTI5MmE4ODA="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMTIxN19kZTZjZGMyZC0xMGViLTQ1NjEtOTBhYi0zM2FmMjZlODcxYjU="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMTIxN19kZTZjZGMyZC0xMGViLTQ1NjEtOTBhYi0zM2FmMjZlODcxYjU=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjExMjE3X2RlNmNkYzJkLTEwZWItNDU2MS05MGFiLTMzYWYyNmU4NzFiNTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 757
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMTcxNV80NjQ1OTM4OC0zY2E5LTQxMjEtOTYxYS0zZDhlOTYwYmE5Y2E="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMDcyNV9lMzMzNWNiYS1lM2U3LTQ0NTItOTJiNS0zMzI5ZmNiZDI3MzY="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMDcyNV9lMzMzNWNiYS1lM2U3LTQ0NTItOTJiNS0zMzI5ZmNiZDI3MzY=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjEwNzI1X2UzMzM1Y2JhLWUzZTctNDQ1Mi05MmI1LTMzMjlmY2JkMjczNjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1219
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMTIxN19kZTZjZGMyZC0xMGViLTQ1NjEtOTBhYi0zM2FmMjZlODcxYjU="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMDA0OF8wZDBhMTVmNi1jNzc4LTRmOGQtYWRiYy0yNmU5OGYzYTZhY2Y="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMDA0OF8wZDBhMTVmNi1jNzc4LTRmOGQtYWRiYy0yNmU5OGYzYTZhY2Y=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjEwMDQ4XzBkMGExNWY2LWM3NzgtNGY4ZC1hZGJjLTI2ZTk4ZjNhNmFjZjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 881
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMDcyNV9lMzMzNWNiYS1lM2U3LTQ0NTItOTJiNS0zMzI5ZmNiZDI3MzY="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNTQyN18zMmFjODZjNS0wNWE1LTQ5YTYtODZjOC0zZWMxM2E4MTU1NDM="
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "leagueMatchHistoryGroup": {
+              "leagueMatchEvent": {
+                "name": "新赛季开幕纪念杯",
+                "id": "TGVhZ3VlTWF0Y2hFdmVudC1OZXdTZWFzb25DdXA="
+              },
+              "vsRule": {
+                "name": "占地对战",
+                "rule": "TURF_WAR",
+                "id": "VnNSdWxlLTA="
+              },
+              "teamComposition": "TEAM",
+              "myLeaguePower": 1457.5996176365702
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNTQyN18zMmFjODZjNS0wNWE1LTQ5YTYtODZjOC0zZWMxM2E4MTU1NDM=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjA1NDI3XzMyYWM4NmM1LTA1YTUtNDlhNi04NmM4LTNlYzEzYTgxNTU0Mzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1447
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIxMDA0OF8wZDBhMTVmNi1jNzc4LTRmOGQtYWRiYy0yNmU5OGYzYTZhY2Y="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNDgyMl9kMzBiZDYwNy1mYjM0LTRlZmUtYWY3OS1iZTliNGI2ZWExYmY="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNDgyMl9kMzBiZDYwNy1mYjM0LTRlZmUtYWY3OS1iZTliNGI2ZWExYmY=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "斯普拉射击枪",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/e3874d7d504acf89488ad7f68d29a348caea1a41cd43bd9a272069b0c0466570_1.png?Expires=1704844800\u0026Signature=RjpztdkPhSgY~FyJ1HNnNJHYDoLeZH98OlKXJN-6BrJIzyNu7KgoCqM2dMt8xQhT5HTn6mueLJcD0reGkFgvntiNQwrBxZOV20gROOqED9LTlfaEmKKyK7DeF86iDzHss9bo1MRDfuWmEH1EPC9AF3XkHOIH3KsftFS2LREDdumtcU54dfUrkgOXxjZBEnIwZTLHxrzUKhh4x2ctI1qWZxEuNNSXZEWZ69Tk02akpXlulni8xP8HjzFGoH1KL~cK44hgUZSVUz5x~k8MzrBqruYyy4cUtGzgVWfUEbjOs9Gp1ffhA~zbyPpQ5EOdi1SmUazlv8opv--yrcx8KfwQwA__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQw"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjA0ODIyX2QzMGJkNjA3LWZiMzQtNGVmZS1hZjc5LWJlOWI0YjZlYTFiZjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 619
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNTQyN18zMmFjODZjNS0wNWE1LTQ5YTYtODZjOC0zZWMxM2E4MTU1NDM="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNDI1Nl9iODc5OWRhYy1mOWRkLTQ1MzAtYjIyNi04YzM5NmE1Mjk2YTc="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNDI1Nl9iODc5OWRhYy1mOWRkLTQ1MzAtYjIyNi04YzM5NmE1Mjk2YTc=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "N-ZAP89",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/99ae6d768381f9aef77d6b0826bbb5c3078e9c33692e87628ce2d377673ffefa_1.png?Expires=1704844800\u0026Signature=XK0vBm~emNtnDPotp1HckXlr0KB~LakLRjPc9Zg9quvjyi3Ros64k0iuLE0dKoaln2EPIZlMEE4Jv1bJCLqqkC91y78ReNG697nGDREv7bA5SbrI80ZUdKtiefvrXpbjuGUMwCTI~9SClG0B91IQiUUwZ5IwlxxHQYahPoKeNIpq-6iRjO7yBrubOB~QW5hvbNhg5Xv9DsGPfX8WIf4CSIyz~gV61kPQI-Uh-EjhWMDS~Xjt8Uz9VibyhG2Qka1Kq0U4goeuH6D9rnPV5-1k3PHR3-hB-HHcCPOxTJsrvvaQfMVwn44854haYZ~oqxlwDCEkXorzhPGnAJcMHqzBvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTYx"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjA0MjU2X2I4Nzk5ZGFjLWY5ZGQtNDUzMC1iMjI2LThjMzk2YTUyOTZhNzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1219
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNDgyMl9kMzBiZDYwNy1mYjM0LTRlZmUtYWY3OS1iZTliNGI2ZWExYmY="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMzczM18yYTZmOWJmNy03M2QwLTQ4YTUtYmUxYi0yZjA3MDUzNGQ3Zjc="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMzczM18yYTZmOWJmNy03M2QwLTQ4YTUtYmUxYi0yZjA3MDUzNGQ3Zjc=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "N-ZAP89",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/99ae6d768381f9aef77d6b0826bbb5c3078e9c33692e87628ce2d377673ffefa_1.png?Expires=1704844800\u0026Signature=XK0vBm~emNtnDPotp1HckXlr0KB~LakLRjPc9Zg9quvjyi3Ros64k0iuLE0dKoaln2EPIZlMEE4Jv1bJCLqqkC91y78ReNG697nGDREv7bA5SbrI80ZUdKtiefvrXpbjuGUMwCTI~9SClG0B91IQiUUwZ5IwlxxHQYahPoKeNIpq-6iRjO7yBrubOB~QW5hvbNhg5Xv9DsGPfX8WIf4CSIyz~gV61kPQI-Uh-EjhWMDS~Xjt8Uz9VibyhG2Qka1Kq0U4goeuH6D9rnPV5-1k3PHR3-hB-HHcCPOxTJsrvvaQfMVwn44854haYZ~oqxlwDCEkXorzhPGnAJcMHqzBvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTYx"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjAzNzMzXzJhNmY5YmY3LTczZDAtNDhhNS1iZTFiLTJmMDcwNTM0ZDdmNzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1079
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwNDI1Nl9iODc5OWRhYy1mOWRkLTQ1MzAtYjIyNi04YzM5NmE1Mjk2YTc="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMzIwNV9mOTc3NzU0My01NDA5LTRiMDEtYmU0My00NGExMTZlMDI0OWE="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMzIwNV9mOTc3NzU0My01NDA5LTRiMDEtYmU0My00NGExMTZlMDI0OWE=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "N-ZAP89",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/99ae6d768381f9aef77d6b0826bbb5c3078e9c33692e87628ce2d377673ffefa_1.png?Expires=1704844800\u0026Signature=XK0vBm~emNtnDPotp1HckXlr0KB~LakLRjPc9Zg9quvjyi3Ros64k0iuLE0dKoaln2EPIZlMEE4Jv1bJCLqqkC91y78ReNG697nGDREv7bA5SbrI80ZUdKtiefvrXpbjuGUMwCTI~9SClG0B91IQiUUwZ5IwlxxHQYahPoKeNIpq-6iRjO7yBrubOB~QW5hvbNhg5Xv9DsGPfX8WIf4CSIyz~gV61kPQI-Uh-EjhWMDS~Xjt8Uz9VibyhG2Qka1Kq0U4goeuH6D9rnPV5-1k3PHR3-hB-HHcCPOxTJsrvvaQfMVwn44854haYZ~oqxlwDCEkXorzhPGnAJcMHqzBvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTYx"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjAzMjA1X2Y5Nzc3NTQzLTU0MDktNGIwMS1iZTQzLTQ0YTExNmUwMjQ5YTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1291
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMzczM18yYTZmOWJmNy03M2QwLTQ4YTUtYmUxYi0yZjA3MDUzNGQ3Zjc="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMjYyN19hZGU5YzNlMS0yZWZhLTQ0YzItOWE1ZC02Nzg1YzdlNmFhMDc="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMjYyN19hZGU5YzNlMS0yZWZhLTQ0YzItOWE1ZC02Nzg1YzdlNmFhMDc=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "N-ZAP89",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/99ae6d768381f9aef77d6b0826bbb5c3078e9c33692e87628ce2d377673ffefa_1.png?Expires=1704844800\u0026Signature=XK0vBm~emNtnDPotp1HckXlr0KB~LakLRjPc9Zg9quvjyi3Ros64k0iuLE0dKoaln2EPIZlMEE4Jv1bJCLqqkC91y78ReNG697nGDREv7bA5SbrI80ZUdKtiefvrXpbjuGUMwCTI~9SClG0B91IQiUUwZ5IwlxxHQYahPoKeNIpq-6iRjO7yBrubOB~QW5hvbNhg5Xv9DsGPfX8WIf4CSIyz~gV61kPQI-Uh-EjhWMDS~Xjt8Uz9VibyhG2Qka1Kq0U4goeuH6D9rnPV5-1k3PHR3-hB-HHcCPOxTJsrvvaQfMVwn44854haYZ~oqxlwDCEkXorzhPGnAJcMHqzBvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTYx"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjAyNjI3X2FkZTljM2UxLTJlZmEtNDRjMi05YTVkLTY3ODVjN2U2YWEwNzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 985
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMzIwNV9mOTc3NzU0My01NDA5LTRiMDEtYmU0My00NGExMTZlMDI0OWE="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMjAzM19kOGNjNTFmOS0wOWM5LTQ3YzktOTk4Zi0wYzdiODdiNzk2MjA="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMjAzM19kOGNjNTFmOS0wOWM5LTQ3YzktOTk4Zi0wYzdiODdiNzk2MjA=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "N-ZAP89",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/99ae6d768381f9aef77d6b0826bbb5c3078e9c33692e87628ce2d377673ffefa_1.png?Expires=1704844800\u0026Signature=XK0vBm~emNtnDPotp1HckXlr0KB~LakLRjPc9Zg9quvjyi3Ros64k0iuLE0dKoaln2EPIZlMEE4Jv1bJCLqqkC91y78ReNG697nGDREv7bA5SbrI80ZUdKtiefvrXpbjuGUMwCTI~9SClG0B91IQiUUwZ5IwlxxHQYahPoKeNIpq-6iRjO7yBrubOB~QW5hvbNhg5Xv9DsGPfX8WIf4CSIyz~gV61kPQI-Uh-EjhWMDS~Xjt8Uz9VibyhG2Qka1Kq0U4goeuH6D9rnPV5-1k3PHR3-hB-HHcCPOxTJsrvvaQfMVwn44854haYZ~oqxlwDCEkXorzhPGnAJcMHqzBvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTYx"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjAyMDMzX2Q4Y2M1MWY5LTA5YzktNDdjOS05OThmLTBjN2I4N2I3OTYyMDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 837
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMjYyN19hZGU5YzNlMS0yZWZhLTQ0YzItOWE1ZC02Nzg1YzdlNmFhMDc="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMTUwMV80M2IxZTJiYi1kN2E1LTQxNTEtYjY1Ni0xZmE2ZjI0NTZlYTY="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMTUwMV80M2IxZTJiYi1kN2E1LTQxNTEtYjY1Ni0xZmE2ZjI0NTZlYTY=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "N-ZAP89",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/99ae6d768381f9aef77d6b0826bbb5c3078e9c33692e87628ce2d377673ffefa_1.png?Expires=1704844800\u0026Signature=XK0vBm~emNtnDPotp1HckXlr0KB~LakLRjPc9Zg9quvjyi3Ros64k0iuLE0dKoaln2EPIZlMEE4Jv1bJCLqqkC91y78ReNG697nGDREv7bA5SbrI80ZUdKtiefvrXpbjuGUMwCTI~9SClG0B91IQiUUwZ5IwlxxHQYahPoKeNIpq-6iRjO7yBrubOB~QW5hvbNhg5Xv9DsGPfX8WIf4CSIyz~gV61kPQI-Uh-EjhWMDS~Xjt8Uz9VibyhG2Qka1Kq0U4goeuH6D9rnPV5-1k3PHR3-hB-HHcCPOxTJsrvvaQfMVwn44854haYZ~oqxlwDCEkXorzhPGnAJcMHqzBvg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTYx"
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjAxNTAxXzQzYjFlMmJiLWQ3YTUtNDE1MS1iNjU2LTFmYTZmMjQ1NmVhNjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1391
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMjAzM19kOGNjNTFmOS0wOWM5LTQ3YzktOTk4Zi0wYzdiODdiNzk2MjA="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMDkyNF8yMTE5M2NiZS05MGMzLTRmOGMtYTIyNy1iYjgwMGRhN2FkMzI="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMDkyNF8yMTE5M2NiZS05MGMzLTRmOGMtYTIyNy1iYjgwMGRhN2FkMzI=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "L3卷管枪D",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/86708ce24222800655a7659cec38e4fa69fb430af0bd73b243f3cb3d1e9d1229_1.png?Expires=1704844800\u0026Signature=hI6ar-DLd8clh8Mt45BQVy-J5dtVUaPQxGy7Xp44WCaoyD5HFamdk2ktBLm3E8rei0pAYzR8nIN6O4uijPvdBQkrr7CuNKM7vusW5ltPZYNu28CmrBDNdPfvuob-aA0Tg5ZPcbsJ2~qNeilP~o7I9oBLoB5h~mqu5JRMkkxUnTHoRQa~Ww~FKdfAWknyZTmwO3F6JdrsRtAn~xMdoNAS59D3kZCzirm8RC6thQ2A1lhUpCnmORFgRid4qzNQlsvoEOjR7lX2JiM9eVOEastSf1wlOk5QAWlB1zbuisfdxEkCNdSFWgD0kx2GOoq-Stri-~qwnUg8qQBTno~y5YwdkQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTMwMQ=="
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjAwOTI0XzIxMTkzY2JlLTkwYzMtNGY4Yy1hMjI3LWJiODAwZGE3YWQzMjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 888
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMTUwMV80M2IxZTJiYi1kN2E1LTQxNTEtYjY1Ni0xZmE2ZjI0NTZlYTY="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMDM0Nl9kN2UzYjQ5Ni1jZDU3LTQ5OGMtODI2Yi0zM2YyZWI5ZmZjMmI="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMDM0Nl9kN2UzYjQ5Ni1jZDU3LTQ5OGMtODI2Yi0zM2YyZWI5ZmZjMmI=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "L3卷管枪D",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/86708ce24222800655a7659cec38e4fa69fb430af0bd73b243f3cb3d1e9d1229_1.png?Expires=1704844800\u0026Signature=hI6ar-DLd8clh8Mt45BQVy-J5dtVUaPQxGy7Xp44WCaoyD5HFamdk2ktBLm3E8rei0pAYzR8nIN6O4uijPvdBQkrr7CuNKM7vusW5ltPZYNu28CmrBDNdPfvuob-aA0Tg5ZPcbsJ2~qNeilP~o7I9oBLoB5h~mqu5JRMkkxUnTHoRQa~Ww~FKdfAWknyZTmwO3F6JdrsRtAn~xMdoNAS59D3kZCzirm8RC6thQ2A1lhUpCnmORFgRid4qzNQlsvoEOjR7lX2JiM9eVOEastSf1wlOk5QAWlB1zbuisfdxEkCNdSFWgD0kx2GOoq-Stri-~qwnUg8qQBTno~y5YwdkQ__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTMwMQ=="
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMjAwMzQ2X2Q3ZTNiNDk2LWNkNTctNDk4Yy04MjZiLTMzZjJlYjlmZmMyYjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1247
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMDkyNF8yMTE5M2NiZS05MGMzLTRmOGMtYTIyNy1iYjgwMGRhN2FkMzI="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzNDAzMV9mM2NlM2QyYS0zNDljLTQwMjEtOWI5MS03MjIxZmY0YWE3Y2I="
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "leagueMatchHistoryGroup": {
+              "leagueMatchEvent": {
+                "name": "新赛季开幕纪念杯",
+                "id": "TGVhZ3VlTWF0Y2hFdmVudC1OZXdTZWFzb25DdXA="
+              },
+              "vsRule": {
+                "name": "占地对战",
+                "rule": "TURF_WAR",
+                "id": "VnNSdWxlLTA="
+              },
+              "teamComposition": "TEAM",
+              "myLeaguePower": 1512.8613666924716
+            },
+            "historyDetails": {
+              "nodes": [
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzNDAzMV9mM2NlM2QyYS0zNDljLTQwMjEtOWI5MS03MjIxZmY0YWE3Y2I=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "桶装旋转枪 装饰",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/38ab621068b4706163a209a224a554e98f20d537b6b030a41ddc3964a6be33b9_1.png?Expires=1704844800\u0026Signature=alzbOKlfQAFtnzMf9Mwx3nHEmi~chiNoWe93kktiele15pwklhMlZdly3qM0cCNaCvjiorB09yyfDxeEWMB791z05fMYM6C-lot3nlgJq0My47gBAbybIS2u9SmIiGhzA-UUqVZqNUwWhpqnDt391sjFdpBsjpArUgkxvkELZ3KhnG9a8POxPF6qd~SL7OmD6PZ43JjPZlNUAOYA962FAsyoE8uL2UptGWHO8Tq6c9dGBkBZ4nYen5hvjbBO5yyTppmDyXyvZ~thzcnH8MYj9N4T6AFpJomeUEQX~xcC~rrmQVrPjtQ1j0Kt44fQSx0KF1xvYZmTj60kJ1XSBulxdw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQwMTE="
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMTM0MDMxX2YzY2UzZDJhLTM0OWMtNDAyMS05YjkxLTcyMjFmZjRhYTdjYjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1015
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDIwMDM0Nl9kN2UzYjQ5Ni1jZDU3LTQ5OGMtODI2Yi0zM2YyZWI5ZmZjMmI="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMzUyNV9iOGNkNmMxOC04YjY4LTQ2MTYtYTdlMy0xNjM2NjhiYTcyNWY="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMzUyNV9iOGNkNmMxOC04YjY4LTQ2MTYtYTdlMy0xNjM2NjhiYTcyNWY=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "桶装旋转枪 装饰",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/38ab621068b4706163a209a224a554e98f20d537b6b030a41ddc3964a6be33b9_1.png?Expires=1704844800\u0026Signature=alzbOKlfQAFtnzMf9Mwx3nHEmi~chiNoWe93kktiele15pwklhMlZdly3qM0cCNaCvjiorB09yyfDxeEWMB791z05fMYM6C-lot3nlgJq0My47gBAbybIS2u9SmIiGhzA-UUqVZqNUwWhpqnDt391sjFdpBsjpArUgkxvkELZ3KhnG9a8POxPF6qd~SL7OmD6PZ43JjPZlNUAOYA962FAsyoE8uL2UptGWHO8Tq6c9dGBkBZ4nYen5hvjbBO5yyTppmDyXyvZ~thzcnH8MYj9N4T6AFpJomeUEQX~xcC~rrmQVrPjtQ1j0Kt44fQSx0KF1xvYZmTj60kJ1XSBulxdw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQwMTE="
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMTMzNTI1X2I4Y2Q2YzE4LThiNjgtNDYxNi1hN2UzLTE2MzY2OGJhNzI1Zjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 934
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzNDAzMV9mM2NlM2QyYS0zNDljLTQwMjEtOWI5MS03MjIxZmY0YWE3Y2I="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMzAyMl9lOTA5ZTNkMi00ZjQ2LTQ0MzgtODZhZi1mMmY4M2Y1Yzc4MTQ="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMzAyMl9lOTA5ZTNkMi00ZjQ2LTQ0MzgtODZhZi1mMmY4M2Y1Yzc4MTQ=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "桶装旋转枪 装饰",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/38ab621068b4706163a209a224a554e98f20d537b6b030a41ddc3964a6be33b9_1.png?Expires=1704844800\u0026Signature=alzbOKlfQAFtnzMf9Mwx3nHEmi~chiNoWe93kktiele15pwklhMlZdly3qM0cCNaCvjiorB09yyfDxeEWMB791z05fMYM6C-lot3nlgJq0My47gBAbybIS2u9SmIiGhzA-UUqVZqNUwWhpqnDt391sjFdpBsjpArUgkxvkELZ3KhnG9a8POxPF6qd~SL7OmD6PZ43JjPZlNUAOYA962FAsyoE8uL2UptGWHO8Tq6c9dGBkBZ4nYen5hvjbBO5yyTppmDyXyvZ~thzcnH8MYj9N4T6AFpJomeUEQX~xcC~rrmQVrPjtQ1j0Kt44fQSx0KF1xvYZmTj60kJ1XSBulxdw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQwMTE="
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMTMzMDIyX2U5MDllM2QyLTRmNDYtNDQzOC04NmFmLWYyZjgzZjVjNzgxNDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 946
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMzUyNV9iOGNkNmMxOC04YjY4LTQ2MTYtYTdlMy0xNjM2NjhiYTcyNWY="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMjUxMF9hYTNlMzY2Yi1hZTE3LTRkNDAtOTE0Zi0xZWUwZjc1MjMxNzg="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMjUxMF9hYTNlMzY2Yi1hZTE3LTRkNDAtOTE0Zi0xZWUwZjc1MjMxNzg=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "昆布赛道",
+                    "id": "VnNTdGFnZS0xNw==",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/7b3cf118bd9f45d141cd6db0ee75b06e697fa83945c7fe1e6f8483de6a591f5f_3.png?Expires=1704844800\u0026Signature=GsZkra4gcGhveyMlMXccb1e3L3WkZ3ILbD5jlh1tb5N6UHoQ9JwjvmreW3FjtUXqV8JM7PVNu3Sgz1mpVBvaN6j5c80BvGT5LJ9EcdfDdByNhYhayt0MRt2iPtzdjG0I3VvpsqQOgnLo~7SjPldJVGuMHP7z2O8L0NBwL~~AzFwCt1t5kKnVLJPgad0IBL6L0trh6xvn41uRUF~KE4~CspO9G4dFrDE76FZmC9mFBBEtdoem-G3SRXA6U-DAh2IK3Uvy4lQgpARfOOulzV3y0fT57X~7SOUhkVO24AB6d3fxkOyitO3-DxdMr~ldAV6mFKz36S8rbAf1Yr-myke3Ww__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "桶装旋转枪 装饰",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/38ab621068b4706163a209a224a554e98f20d537b6b030a41ddc3964a6be33b9_1.png?Expires=1704844800\u0026Signature=alzbOKlfQAFtnzMf9Mwx3nHEmi~chiNoWe93kktiele15pwklhMlZdly3qM0cCNaCvjiorB09yyfDxeEWMB791z05fMYM6C-lot3nlgJq0My47gBAbybIS2u9SmIiGhzA-UUqVZqNUwWhpqnDt391sjFdpBsjpArUgkxvkELZ3KhnG9a8POxPF6qd~SL7OmD6PZ43JjPZlNUAOYA962FAsyoE8uL2UptGWHO8Tq6c9dGBkBZ4nYen5hvjbBO5yyTppmDyXyvZ~thzcnH8MYj9N4T6AFpJomeUEQX~xcC~rrmQVrPjtQ1j0Kt44fQSx0KF1xvYZmTj60kJ1XSBulxdw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQwMTE="
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMTMyNTEwX2FhM2UzNjZiLWFlMTctNGQ0MC05MTRmLTFlZTBmNzUyMzE3ODp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1216
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMzAyMl9lOTA5ZTNkMi00ZjQ2LTQ0MzgtODZhZi1mMmY4M2Y1Yzc4MTQ="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMTk0NV9mOTRiMGQzNC0wMWQ0LTRkMzEtYjZkYy00ZWEyMTgwZDA5N2I="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMTk0NV9mOTRiMGQzNC0wMWQ0LTRkMzEtYjZkYy00ZWEyMTgwZDA5N2I=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "LOSE",
+                  "player": {
+                    "weapon": {
+                      "name": "桶装旋转枪 装饰",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/38ab621068b4706163a209a224a554e98f20d537b6b030a41ddc3964a6be33b9_1.png?Expires=1704844800\u0026Signature=alzbOKlfQAFtnzMf9Mwx3nHEmi~chiNoWe93kktiele15pwklhMlZdly3qM0cCNaCvjiorB09yyfDxeEWMB791z05fMYM6C-lot3nlgJq0My47gBAbybIS2u9SmIiGhzA-UUqVZqNUwWhpqnDt391sjFdpBsjpArUgkxvkELZ3KhnG9a8POxPF6qd~SL7OmD6PZ43JjPZlNUAOYA962FAsyoE8uL2UptGWHO8Tq6c9dGBkBZ4nYen5hvjbBO5yyTppmDyXyvZ~thzcnH8MYj9N4T6AFpJomeUEQX~xcC~rrmQVrPjtQ1j0Kt44fQSx0KF1xvYZmTj60kJ1XSBulxdw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQwMTE="
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMTMxOTQ1X2Y5NGIwZDM0LTAxZDQtNGQzMS1iNmRjLTRlYTIxODBkMDk3Yjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 653
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMjUxMF9hYTNlMzY2Yi1hZTE3LTRkNDAtOTE0Zi0xZWUwZjc1MjMxNzg="
+                  },
+                  "previousHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMTI1MV8zZjRjY2QzMS1jZDM3LTQ2OWYtYTAxNy03ODA5ZDgyOGU4MzQ="
+                  }
+                },
+                {
+                  "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMTI1MV8zZjRjY2QzMS1jZDM3LTQ2OWYtYTAxNy03ODA5ZDgyOGU4MzQ=",
+                  "vsMode": {
+                    "mode": "LEAGUE",
+                    "id": "VnNNb2RlLTQ="
+                  },
+                  "vsRule": {
+                    "name": "占地对战",
+                    "id": "VnNSdWxlLTA="
+                  },
+                  "vsStage": {
+                    "name": "塔拉波特购物公园",
+                    "id": "VnNTdGFnZS04",
+                    "image": {
+                      "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/f70e9f5af477a39ccfab631bfb81c9e2cedb4cd0947fe260847c214a6d23695f_3.png?Expires=1704844800\u0026Signature=N759Cbh~H9AKxRaMlx~MYS1umdbzteOSmTPxa34aIdDpT7Q0q7IEKfEise4CeABAAl0QVg59rvwK6i8vs~1HM6CkEHqUavzUYpxBxNSA4eEQmtdjBNbF46XHlzp7aBLbwnBo7XRUWJUZ~ACFdxEcmdFLl2PDgJG3lzTeTQy2YOk74So-lDWSi9Xjf3O-ni90-0shRkrVEhO7mbLjCG9ZNMSvR9QzRz-ELDjNByy6y8bmzN8-fqBTDVcTI9KaX-EybkQDN3Jom8Rtg90L2ZH3nMdTSD7m0zSM0NQQSyPIgWWXb8x769gDDqbUX4LBsH1NUHoZortEGVCMjRyQat1VYg__\u0026Key-Pair-Id=KNBS2THMRC385"
+                    }
+                  },
+                  "judgement": "WIN",
+                  "player": {
+                    "weapon": {
+                      "name": "桶装旋转枪 装饰",
+                      "image": {
+                        "url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/38ab621068b4706163a209a224a554e98f20d537b6b030a41ddc3964a6be33b9_1.png?Expires=1704844800\u0026Signature=alzbOKlfQAFtnzMf9Mwx3nHEmi~chiNoWe93kktiele15pwklhMlZdly3qM0cCNaCvjiorB09yyfDxeEWMB791z05fMYM6C-lot3nlgJq0My47gBAbybIS2u9SmIiGhzA-UUqVZqNUwWhpqnDt391sjFdpBsjpArUgkxvkELZ3KhnG9a8POxPF6qd~SL7OmD6PZ43JjPZlNUAOYA962FAsyoE8uL2UptGWHO8Tq6c9dGBkBZ4nYen5hvjbBO5yyTppmDyXyvZ~thzcnH8MYj9N4T6AFpJomeUEQX~xcC~rrmQVrPjtQ1j0Kt44fQSx0KF1xvYZmTj60kJ1XSBulxdw__\u0026Key-Pair-Id=KNBS2THMRC385"
+                      },
+                      "id": "V2VhcG9uLTQwMTE="
+                    },
+                    "id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA2MDNUMTMxMjUxXzNmNGNjZDMxLWNkMzctNDY5Zi1hMDE3LTc4MDlkODI4ZTgzNDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+                  },
+                  "knockout": "NEITHER",
+                  "myTeam": {
+                    "result": {
+                      "paintPoint": 1195
+                    }
+                  },
+                  "nextHistoryDetail": {
+                    "id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMTk0NV9mOTRiMGQzNC0wMWQ0LTRkMzEtYjZkYy00ZWEyMTgwZDA5N2I="
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

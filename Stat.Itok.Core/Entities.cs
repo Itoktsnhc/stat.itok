@@ -57,7 +57,10 @@ public enum StatInkLobby
     Private,
 
     [EnumMember(Value = "xmatch")]
-    XMatch
+    XMatch,
+    
+    [EnumMember(Value = "event")]
+    Event
 }
 
 public enum StatInkResult
@@ -314,6 +317,12 @@ public record StatInkBattleBody
 
     [JsonProperty("third_team_theme")]
     public string ThirdTeamTheme { get; set; }
+
+    [JsonProperty("event")]
+    public string Event { get; set; }
+    
+    [JsonProperty("event_power")]
+    public decimal? EventPower { get; set; }
 }
 
 public class StatInkPlayer

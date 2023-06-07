@@ -259,6 +259,14 @@ public static class BattleHelper
                 }
             }
         }
+
+        if (body.Lobby == StatInkLobby.Event)
+        {
+            //payload["event"] = battle["leagueMatch"]["leagueMatchEvent"]["id"]
+            body.Event = battle["leagueMatch"]?["leagueMatchEvent"]?["id"].TryWith<string>();
+            //payload["event_power"] = battle["leagueMatch"]["myLeaguePower"]
+            body.EventPower = battle["leagueMatch"]["myLeaguePower"]?.TryWith<decimal?>();
+        }
     }
 
     private static void FillSplafest(JToken battle, StatInkBattleBody body)
@@ -573,6 +581,8 @@ public static class BattleHelper
         }
 
         if (mode == "X_MATCH") return StatInkLobby.XMatch;
+
+        if (mode == "LEAGUE") return StatInkLobby.Event;
 
         throw new NotSupportedException($"{mode}:mode;");
     }

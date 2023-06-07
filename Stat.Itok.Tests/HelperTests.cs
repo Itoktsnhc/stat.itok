@@ -127,5 +127,14 @@ namespace Stat.Itok.Tests
             var detailStr = File.ReadAllText("./samples/salmon/2/detail_0.json");
             var res = BattleHelper.BuildStatInkSalmonBody(detailStr, groupStr, "xx", new Dictionary<string, string>());
         }
+        
+        
+        [TestMethod]
+        public void TestEventBattle_0()
+        {
+            var groupStr = File.ReadAllText("./samples/EventBattleHistoriesQuery/0/group.json");
+            var detailStr = File.ReadAllText("./samples/EventBattleHistoriesQuery/0/detail_1.json");
+            var res = BattleHelper.BuildStatInkBattleBody(detailStr, groupStr, "zh-cn", new Dictionary<string, string>());
+        }
     }
 }

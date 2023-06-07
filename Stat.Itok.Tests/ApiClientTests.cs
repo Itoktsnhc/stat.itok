@@ -83,5 +83,16 @@ namespace Stat.Itok.Tests
                 authContext.UserInfo, "379f0d9b78b531be53044bcac031b34b", "coopHistoryDetailId","Q29vcEhpc3RvcnlEZXRhaWwtdS1xcTJlajJ3ZG9rM3k1d2V1N25tbToyMDIzMDMyM1QxNDMwMTZfYmExYzYyMzUtNTRkZC00MWJmLWJhZWQtOTExODI4OWI0M2I1");
             var content = await resp.Content.ReadAsStringAsync();
         }
+        
+        [TestMethod]
+        public async Task TestEventBattleHistoriesQueryAsync()
+        {
+            var api = _sp.GetRequiredService<INintendoApiForTest>();
+            var authConfig = JsonConvert.DeserializeObject<JobConfig>(File.ReadAllText("./configs/user_auth_cfg.json"));
+            var authContext = authConfig.NinAuthContext;
+            var resp = await api.SendGraphQLRequestAsync(authContext.GameToken, authContext.BulletToken,
+                authContext.UserInfo, "9ee0099fbe3d8db2a838a75cf42856dd", "vsResultId","VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwNjAzVDEzMjUxMF9hYTNlMzY2Yi1hZTE3LTRkNDAtOTE0Zi0xZWUwZjc1MjMxNzg=");
+            var content = await resp.Content.ReadAsStringAsync();
+        }
     }
 }

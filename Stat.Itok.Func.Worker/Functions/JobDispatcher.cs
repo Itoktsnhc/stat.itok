@@ -59,22 +59,22 @@ public class JobDispatcher
             .GetItemLinqQueryable<CosmosEntity<JobConfig>>()
             .Where(x => x.PartitionKey == pk)
             .ToFeedIterator();
-        var jobs = new List<JobConfig>();
+        var jobConfigs = new List<JobConfig>();
         while (feed.HasMoreResults)
         {
             var resp = await feed.ReadNextAsync();
-            foreach (var job in resp)
+            foreach (var jobConfigEntity in resp)
             {
-                jobs.Add(job.Data);
+                jobConfigs.Add(jobConfigEntity.Data);
             }
         }
 
-        _logger.LogInformation("JobExecutor GOT Total {N} records", jobs.Count);
-        jobs = jobs.Where(x => x.Enabled).ToList();
-        _logger.LogInformation("JobExecutor GOT {N} active records", jobs.Count);
-        if (jobs.Count <= 0) return;
+        _logger.LogInformation("JobExecutor GOT Total {N} records", jobConfigs.Count);
+        jobConfigs = jobConfigs.Where(x => x.Enabled).ToList();
+        _logger.LogInformation("JobExecutor GOT {N} active records", jobConfigs.Count);
+        if (jobConfigs.Count <= 0) return;
 
-        foreach (var job in jobs)
+        foreach (var job in jobConfigs)
         {
             try
             {
