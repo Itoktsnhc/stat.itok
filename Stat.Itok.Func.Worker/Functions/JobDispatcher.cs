@@ -132,8 +132,15 @@ public class JobDispatcher
             jobConfig.NeedBuildFromBeginCount <
             Math.Min(_options.Value.MaxNeedBuildFromBeginCount, jobConfig.NeedBuildFromBeginLimit)) return;
         jobConfig.Enabled = false;
-        await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
-        await SendWarningEmailAsync(jobConfig);
+        try
+        {
+            await SendWarningEmailAsync(jobConfig);
+            await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, $"Error when {nameof(SendWarningEmailAsync)}");
+        }
     }
 
     private async Task SendWarningEmailAsync(JobConfig config)
@@ -144,50 +151,43 @@ public class JobDispatcher
             return;
         }
 
-        try
-        {
-            var mailConfig = _options.Value.EmailConfig;
-            using var client = new SmtpClient();
+        var mailConfig = _options.Value.EmailConfig;
+        using var client = new SmtpClient();
 #if DEBUG
-            //china main_land for gmail connection
-            client.ProxyClient = new HttpProxyClient("127.0.0.1", 10245);
+        //china main_land for gmail connection
+        client.ProxyClient = new HttpProxyClient("127.0.0.1", 10245);
 #endif
-            await client.ConnectAsync(mailConfig.Server, mailConfig.Port, true);
-            await client.AuthenticateAsync(mailConfig.Username, mailConfig.Password);
-            var mail = new MimeMessage();
-            mail.From.Add(new MailboxAddress(mailConfig.FromEmail, mailConfig.Username));
-            if (string.IsNullOrWhiteSpace(config.NotificationEmail))
-            {
-                mail.To.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
-            }
-            else
-            {
-                mail.To.Add(new MailboxAddress(config.NotificationEmail, config.NotificationEmail));
-                mail.Bcc.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
-            }
+        await client.ConnectAsync(mailConfig.Server, mailConfig.Port, true);
+        await client.AuthenticateAsync(mailConfig.Username, mailConfig.Password);
+        var mail = new MimeMessage();
+        mail.From.Add(new MailboxAddress(mailConfig.FromEmail, mailConfig.Username));
+        if (string.IsNullOrWhiteSpace(config.NotificationEmail))
+        {
+            mail.To.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
+        }
+        else
+        {
+            mail.To.Add(new MailboxAddress(config.NotificationEmail, config.NotificationEmail));
+            mail.Bcc.Add(new MailboxAddress(mailConfig.AdminEmail, mailConfig.AdminEmail));
+        }
 
-            var content = config.ForcedUserLang.StartsWith("zh-", StringComparison.InvariantCultureIgnoreCase)
-                ? @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效，如需继续使用对战历史监控功能，请重新设置。"
-                : "The Nintendo account information you previously configured on the stat.itok website has been tested to be invalid. " +
-                  "If you wish to continue using the match history monitoring feature, please config again.";
-            var bodyBuilder = new BodyBuilder
-            {
-                TextBody = @$"
+        var content = config.ForcedUserLang.StartsWith("zh-", StringComparison.InvariantCultureIgnoreCase)
+            ? @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效，如需继续使用对战历史监控功能，请重新设置。"
+            : "The Nintendo account information you previously configured on the stat.itok website has been tested to be invalid. " +
+              "If you wish to continue using the match history monitoring feature, please config again.";
+        var bodyBuilder = new BodyBuilder
+        {
+            TextBody = @$"
 Hi {config.NinAuthContext?.UserInfo?.Nickname ?? config.NotificationEmail}:
 
     {content}
 
 Thanks.
 "
-            };
-            mail.Body = bodyBuilder.ToMessageBody();
-            mail.Subject = "[Stat.Itok] Warning";
-            await client.SendAsync(mail);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, $"Error when {nameof(SendWarningEmailAsync)}");
-        }
+        };
+        mail.Body = bodyBuilder.ToMessageBody();
+        mail.Subject = "[Stat.Itok] Warning";
+        await client.SendAsync(mail);
     }
 
     private async Task<IList<BattleTaskPayload>> GetJobRunTasksAsync(
