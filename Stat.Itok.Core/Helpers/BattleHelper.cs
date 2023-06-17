@@ -948,7 +948,7 @@ public static class BattleHelper
             "20012" => "kanitank",
             "20013" => "sameride",
             "20014" => "tripletornado",
-            _ => specialId
+            _ => "unknown"
         };
     }
 
