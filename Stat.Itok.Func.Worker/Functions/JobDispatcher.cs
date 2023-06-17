@@ -90,11 +90,24 @@ public class JobDispatcher
     private async Task DispatchBattleJobRunAsync(JobConfig jobConfig)
     {
         var checkRes = await _mediator.Send(new ReqPreCheck {AuthContext = jobConfig.NinAuthContext});
-        if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
+        var statInkApiCheckRes = await _mediator.Send(new ReqTestStatApiKey()
+        {
+            ApiKey = jobConfig.StatInkApiKey
+        });
+        if (checkRes.Result == PreCheckResult.NeedBuildFromBegin || !statInkApiCheckRes.Result)
         {
             jobConfig.NeedBuildFromBeginCount++;
             await DoWarningIfNeedAsync(jobConfig);
-            _logger.LogError($"job config: {jobConfig.Id} failed renew");
+            if (checkRes.Result == PreCheckResult.NeedBuildFromBegin)
+            {
+                _logger.LogError($"job config: {jobConfig.Id} failed renew");
+            }
+
+            if (!statInkApiCheckRes.Result)
+            {
+                _logger.LogError($"job config: {jobConfig.Id}'s stat.ink API KEY not OK");
+            }
+
             return;
         }
 
@@ -172,8 +185,8 @@ public class JobDispatcher
         }
 
         var content = config.ForcedUserLang.StartsWith("zh-", StringComparison.InvariantCultureIgnoreCase)
-            ? @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效，如需继续使用对战历史监控功能，请重新设置。"
-            : "The Nintendo account information you previously configured on the stat.itok website has been tested to be invalid. " +
+            ? @"你之前在stat.itok网站上配置的账号授权信息经检测已经失效(任天堂 或者 stat.ink)，如需继续使用对战历史监控功能，请重新设置。"
+            : "The account information(nintendo or stat.ink) you previously configured on the stat.itok website has been tested to be invalid. " +
               "If you wish to continue using the match history monitoring feature, please config again.";
         var bodyBuilder = new BodyBuilder
         {

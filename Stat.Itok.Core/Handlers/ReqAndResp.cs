@@ -90,6 +90,11 @@ public record ReqPostSalmon : IRequest<StatInkPostBodySuccess>
     public StatInkSalmonBody Body { get; set; }
 }
 
+public record ReqTestStatApiKey : IRequest<ApiResp<string>>
+{
+    public string ApiKey { get; set; }
+}
+
 public record ReqGetGearsInfo : IRequest<Dictionary<string, string>>;
 
 public record ReqGetSalmonWeaponsInfo : IRequest<Dictionary<string, string>>;

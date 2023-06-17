@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 using Stat.Itok.Core.ApiClients;
 using Stat.Itok.Core.Helpers;
@@ -9,14 +10,17 @@ public class StatInkHandler : HandlerBase,
     IRequestHandler<ReqPostBattle, StatInkPostBodySuccess>,
     IRequestHandler<ReqPostSalmon, StatInkPostBodySuccess>,
     IRequestHandler<ReqGetGearsInfo, Dictionary<string, string>>,
-    IRequestHandler<ReqGetSalmonWeaponsInfo, Dictionary<string, string>>
+    IRequestHandler<ReqGetSalmonWeaponsInfo, Dictionary<string, string>>,
+    IRequestHandler<ReqTestStatApiKey, ApiResp<string>>
 
 {
     private readonly IStatInkApi _api;
+    private readonly ILogger<StatInkHandler> _logger;
 
-    public StatInkHandler(IStatInkApi api)
+    public StatInkHandler(IStatInkApi api, ILogger<StatInkHandler> logger)
     {
         _api = api;
+        _logger = logger;
     }
 
     public async Task<StatInkPostBodySuccess> Handle(ReqPostBattle request, CancellationToken cancellationToken)
@@ -48,7 +52,8 @@ public class StatInkHandler : HandlerBase,
         }).GroupBy(x => x.Item1).ToDictionary(x => x.Key, y => y.First().Item2);
     }
 
-    public async Task<Dictionary<string, string>> Handle(ReqGetSalmonWeaponsInfo request, CancellationToken cancellationToken)
+    public async Task<Dictionary<string, string>> Handle(ReqGetSalmonWeaponsInfo request,
+        CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.GetSalmonWeaponKeyDictAsync());
         return JArray.Parse(strResp).SelectMany(x =>
@@ -77,4 +82,17 @@ public class StatInkHandler : HandlerBase,
         };
     }
 
+    public async Task<ApiResp<string>> Handle(ReqTestStatApiKey request, CancellationToken cancellationToken)
+    {
+        try
+        {
+            var _ = await _api.GetUuidListAsync(request.ApiKey);
+            return ApiResp.OkWith("OK");
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e, $"error when do {nameof(ReqTestStatApiKey)}");
+            return ApiResp<string>.Error("NOT OK");
+        }
+    }
 }

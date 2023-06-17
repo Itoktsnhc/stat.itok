@@ -48,15 +48,26 @@ public class UpsertJobConfig
             jobConfig.NeedBuildFromBeginLimit = Math.Max(12, jobConfig.NeedBuildFromBeginLimit);
             await validator.ValidateAndThrowAsync(jobConfig);
             jobConfig!.Id = $"nin_user_{jobConfig.NinAuthContext.UserInfo.Id}";
-            var precheckRes = await _mediator.Send(new ReqPreCheck()
+            var preCheckRes = await _mediator.Send(new ReqPreCheck()
             {
                 AuthContext = jobConfig.NinAuthContext
             });
-            if (precheckRes.Result == PreCheckResult.NeedBuildFromBegin)
+            var statInkApiCheckRes = await _mediator.Send(new ReqTestStatApiKey()
+            {
+                ApiKey = jobConfig.StatInkApiKey
+            });
+
+            if (preCheckRes.Result == PreCheckResult.NeedBuildFromBegin)
             {
                 throw new Exception("Cannot Login. Try re-login your account in browser");
             }
-            jobConfig.NinAuthContext = precheckRes.AuthContext;
+
+            if (!statInkApiCheckRes.Result)
+            {
+                throw new Exception("Cannot Login. stat.ink's api key not working");
+            }
+
+            jobConfig.NinAuthContext = preCheckRes.AuthContext;
             jobConfig.LastUpdateTime = DateTimeOffset.Now;
             var upsertResp = await _cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
             _logger.LogInformation("upsert doc:{obj} with resp:{resp}", jobConfig, upsertResp);
@@ -83,11 +94,8 @@ public class JobConfigValidator : AbstractValidator<JobConfig>
         RuleFor(config => config.EnabledQueries).NotNull();
 
         RuleFor(config => config.StatInkApiKey).NotEmpty();
-        When(config => !string.IsNullOrWhiteSpace(config.NotificationEmail), () =>
-        {
-            RuleFor(config => config.NotificationEmail).EmailAddress();
-        });
+        When(config => !string.IsNullOrWhiteSpace(config.NotificationEmail),
+            () => { RuleFor(config => config.NotificationEmail).EmailAddress(); });
         RuleFor(config => config.NeedBuildFromBeginLimit).GreaterThanOrEqualTo(12);
-
     }
 }
