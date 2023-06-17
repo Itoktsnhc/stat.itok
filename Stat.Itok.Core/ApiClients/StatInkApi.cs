@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Net;
+using System.Text;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -14,6 +15,7 @@ namespace Stat.Itok.Core.ApiClients
         Task<HttpResponseMessage> GetSalmonWeaponKeyDictAsync();
         Task DeleteBattleAsync(string apiKey, string id);
         Task DeleteSalmonAsync(string apiKey, string Id);
+        Task<bool> TestApiKeyAsync(string apiKey);
     }
 
     public interface IStatInkApiForTest : IStatInkApi
@@ -29,6 +31,18 @@ namespace Stat.Itok.Core.ApiClients
         {
             _client = client;
             _options = options;
+        }
+
+        public async Task<bool> TestApiKeyAsync(string apiKey)
+        {
+            var req = new HttpRequestMessage()
+            {
+                Method = HttpMethod.Get,
+                RequestUri = new Uri(_options.Value.StatInkUUIDListApi)
+            };
+            req.Headers.TryAddWithoutValidation("Authorization", $"Bearer {apiKey}");
+            var rawResp = await _client.SendAsync(req);
+            return rawResp.StatusCode != HttpStatusCode.Unauthorized;
         }
 
         public async Task<IList<string>> GetUuidListAsync(string apiKey)

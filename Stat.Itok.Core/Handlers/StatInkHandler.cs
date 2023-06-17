@@ -86,8 +86,10 @@ public class StatInkHandler : HandlerBase,
     {
         try
         {
-            var _ = await _api.GetUuidListAsync(request.ApiKey);
-            return ApiResp.OkWith("OK");
+            var valid = await _api.TestApiKeyAsync(request.ApiKey);
+            if (valid)
+                return ApiResp.OkWith("OK");
+            return ApiResp<string>.Error("NOT OK");
         }
         catch (Exception e)
         {
