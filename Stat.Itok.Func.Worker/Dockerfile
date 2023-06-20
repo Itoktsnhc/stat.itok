@@ -9,7 +9,7 @@ COPY ./Stat.Itok.Shared /src/dotnet-function-app/Stat.Itok.Shared
 
 RUN cd /src/dotnet-function-app/Stat.Itok.Func.Worker && \
     mkdir -p /home/site/wwwroot && \
-    dotnet publish ./Stat.Itok.Func.Worker.csproj --output /home/site/wwwroot
+    dotnet publish --configuration Release ./Stat.Itok.Func.Worker.csproj --output /home/site/wwwroot
 
 # To enable ssh & remote debugging on app service change the base image to the one below
 # FROM mcr.microsoft.com/azure-functions/dotnet:4-appservice
