@@ -33,7 +33,9 @@
   }
 ]
 ```
-### Function App: background worker
+### Backend Worker 
+
+#### AS Azure Function
 
 >  same as static web app
 
@@ -57,4 +59,34 @@
   }
 ]
 ```
+#### AS Docker Container
 
+1. Pull the latest image
+`docker pull ghcr.io/itoktsnhc/stat.itok:latest`
+
+2. run with same config above(But as environment variables) in docker 
+``` yml
+  # docker-compose -f stat.itok.yml -p stat_itok up -d
+  version: "3.9"
+
+  services:
+    stat_itok:
+      container_name: stat_itok
+      restart: unless-stopped
+      image: "ghcr.io/itoktsnhc/stat.itok"
+      pull_policy: always
+      environment:
+        AzureWebJobs.JobWorker.Disabled: "0"
+        AzureWebJobs.JobDispatcher.Disabled: "0"
+        AzureWebJobsStorage: "FILLME"
+        GlobalConfig__CosmosDbConnStr: "FILLME"
+        GlobalConfig__CosmosDbPkPrefix: "prod"
+        GlobalConfig__EmailConfig__AdminEmail: "FILLME"
+        GlobalConfig__EmailConfig__Password: "FILLME"
+        GlobalConfig__EmailConfig__Server: "FILLME"
+        GlobalConfig__EmailConfig__Username: "FILLME"
+        GlobalConfig__StorageAccountConnStr: "FILLME"
+        WorkerQueueConnStr: "FILLME"
+
+
+```
