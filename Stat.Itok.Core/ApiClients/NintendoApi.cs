@@ -161,7 +161,7 @@ namespace Stat.Itok.Core.ApiClients
                 _logger.LogError("error when fetch or combine NinMiscConfig", ex);
             }
 
-            _memCache.Set(nameof(GetNinMiscConfigAsync), combinedNinMiscConfig);
+            _memCache.Set(nameof(GetNinMiscConfigAsync), combinedNinMiscConfig, TimeSpan.FromMinutes(5));
 
             return combinedNinMiscConfig;
         }
