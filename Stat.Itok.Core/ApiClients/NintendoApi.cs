@@ -412,7 +412,7 @@ namespace Stat.Itok.Core.ApiClients
             var bodyParamDict = new Dictionary<string, string>()
             {
                 {"f", inkApiResp.F},
-                {"language", inkApiResp.F},
+                {"language", userInfo.Lang},
                 {"naBirthday", userInfo.Birthday},
                 {"naCountry", userInfo.Country},
                 {"naIdToken", accessIdToken},
