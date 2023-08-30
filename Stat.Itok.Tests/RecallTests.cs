@@ -211,6 +211,29 @@ namespace Stat.Itok.Tests
             }
         }
 
+        [TestMethod]
+        public async Task DeleteInvalidJobHisByTimeRangeAsync()
+        {
+            var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
+            var container = cosmos.GetContainer<BattleTaskPayload>();
+            var rawSQL =
+                $"SELECT * FROM c where c.partitionKey = 'prod.BattleTaskPayload' and c.data.jobConfigId ='nin_user_47b6e130639b6029' and c._ts >1693302503\r\n";
+            QueryDefinition query = new QueryDefinition(rawSQL);
+
+            var resultSetIterator = container.GetItemQueryIterator<PureIdDto>(
+                query);
+
+            while (resultSetIterator.HasMoreResults)
+            {
+                var response = await resultSetIterator.ReadNextAsync();
+                foreach (var entity in response)
+                {
+                    await container.DeleteItemAsync<PureIdDto>(entity.Id,
+                     new Microsoft.Azure.Cosmos.PartitionKey("prod.BattleTaskPayload"));
+                }
+            }
+        }
+
 
         private class PureIdDto
         {
