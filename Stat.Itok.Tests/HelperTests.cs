@@ -136,5 +136,17 @@ namespace Stat.Itok.Tests
             var detailStr = File.ReadAllText("./samples/EventBattleHistoriesQuery/0/detail_1.json");
             var res = BattleHelper.BuildStatInkBattleBody(detailStr, groupStr, "zh-cn", new Dictionary<string, string>());
         }
+
+
+        [TestMethod] 
+        public void TestEventBattle_1()
+        {
+            var groupStr = File.ReadAllText("./samples/EventBattleHistoriesQuery/1/group.json");
+            var detailStr = File.ReadAllText("./samples/EventBattleHistoriesQuery/1/detail_1.json");
+            var res = BattleHelper.BuildStatInkBattleBody(detailStr, groupStr, "zh-cn", new Dictionary<string, string>());
+            Assert.IsNotNull(res);
+            Assert.IsNotNull(res.OurTeamCount);
+            Assert.IsNotNull(res.TheirTeamCount);
+        }
     }
 }

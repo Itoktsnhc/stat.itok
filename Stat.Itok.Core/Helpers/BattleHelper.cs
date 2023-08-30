@@ -262,6 +262,15 @@ public static class BattleHelper
 
         if (body.Lobby == StatInkLobby.Event)
         {
+            try
+            {
+                body.OurTeamCount = battle["myTeam"]["result"]["score"].TryWith<int?>();
+                body.TheirTeamCount = (battle["otherTeams"] as JArray)[0]["result"]["score"].TryWith<int?>();
+            }
+            catch (Exception)
+            {
+                //ignore
+            }
             //payload["event"] = battle["leagueMatch"]["leagueMatchEvent"]["id"]
             body.Event = battle["leagueMatch"]?["leagueMatchEvent"]?["id"].TryWith<string>();
             //payload["event_power"] = battle["leagueMatch"]["myLeaguePower"]

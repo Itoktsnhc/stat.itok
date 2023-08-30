@@ -1,0 +1,356 @@
+{
+	"leagueMatchHistoryGroup": {
+		"leagueMatchEvent": {
+			"name": "触手喷射狂欢祭",
+			"id": "TGVhZ3VlTWF0Y2hFdmVudC1TcGVjaWFsUnVzaF9aaXBDYXN0ZXI="
+		},
+		"vsRule": {
+			"name": "真格区域",
+			"rule": "AREA",
+			"id": "VnNSdWxlLTE="
+		},
+		"teamComposition": "TEAM",
+		"myLeaguePower": 1764.0198149457378,
+		"measurementState": "COMPLETED"
+	},
+	"historyDetails": {
+		"nodes": [
+			{
+				"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNTM1MV9kNjk1ZWZkOC1lNTYyLTQ0NjktYjAwZC05MjNjMDE2ZmMwNzM=",
+				"vsMode": {
+					"mode": "LEAGUE",
+					"id": "VnNNb2RlLTQ="
+				},
+				"vsRule": {
+					"name": "真格区域",
+					"id": "VnNSdWxlLTE="
+				},
+				"vsStage": {
+					"name": "烟管鱼市场",
+					"id": "VnNTdGFnZS0z",
+					"image": {
+						"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1704844800&Signature=XR14fMfUBSQQnJ1l-JGp3E4RBu~72ux8vBgHzO78axY3~s3YmxRRF6DhqUpxPgeRweBq6EQegN4RhRgwtX9ccGbB0KKLc-bocgeKNBFeahWcFZdO2J1-UTjye~3Z8T3J5oGeCP-tmy-HM7whcsdBPNNlheUSTLttAy7W6vI9NnBQZjuOxdVEp5~Z5Ymc1ZRWLnz64trRgS3bknfVPCN69E7FCIl67eTWC96t2sh-CdxQGt1hUr2a0kuN4MoI~dWlRfZK~vNXvnA-ToH~gv4t9aH9pJu72kqz0ee7hdzIvLnCjF0e1NLza-P9ViLAU~3SPFddzyOGEpybnZv1BEotCA__&Key-Pair-Id=KNBS2THMRC385"
+					}
+				},
+				"judgement": "WIN",
+				"player": {
+					"weapon": {
+						"name": "四重弹跳手枪 白",
+						"image": {
+							"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/c7ea86898ec19beb8bc685a183f6e80e37f1f3c52e492297f87a22a99eccda70_1.png?Expires=1704844800&Signature=kKbdOU1CIN5lwzVNAEwYX9Z7LnmMoa60864Jqm1QKzcKWVXa4cZbANSOe3iXyj5zWjWJXM9CJgjZmvl6~04yhCAgXUKU0i5IiTsazObQhrUkds6AO-i7OBmPc1KrFxIL7D6edL8NSUzqI-KRRBCyqy-t82yt-KDeF1yGq4pIuegZChLEzNTNTG~2NRDlQfVH9pPyhY487Cd43Ma-tkvCDf1S0gptwF2PiFZ8GQ84urD~bc37qH4-DTDXYtdAZBi990XSUV5b0tE0BHlxrLUtOQU19VKiaL9KvST4suPjnjGkjPYzzYa5HTV2k0giWXP~iUOUaWj4mEi97r83ibvNBQ__&Key-Pair-Id=KNBS2THMRC385"
+						},
+						"id": "V2VhcG9uLTUwNDE="
+					},
+					"id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA4MjlUMTA1MzUxX2Q2OTVlZmQ4LWU1NjItNDQ2OS1iMDBkLTkyM2MwMTZmYzA3Mzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+				},
+				"knockout": "WIN",
+				"myTeam": {
+					"result": {
+						"paintPoint": null,
+						"score": 100
+					}
+				},
+				"nextHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNTkwMl8xMWQzYTUxMi0yOTIzLTRjMTUtYjE4MC00N2YzYWFkYTE3NGU="
+				},
+				"previousHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNDcyMV81ODMyOGViOC00YjNlLTQwODYtOTFmOC0yOTRjODQ4N2Q3NjQ="
+				}
+			},
+			{
+				"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNDcyMV81ODMyOGViOC00YjNlLTQwODYtOTFmOC0yOTRjODQ4N2Q3NjQ=",
+				"vsMode": {
+					"mode": "LEAGUE",
+					"id": "VnNNb2RlLTQ="
+				},
+				"vsRule": {
+					"name": "真格区域",
+					"id": "VnNSdWxlLTE="
+				},
+				"vsStage": {
+					"name": "鬼蝠鲼玛利亚号",
+					"id": "VnNTdGFnZS0xOA==",
+					"image": {
+						"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/0b7fd997781e03eb9d5bf1875ed070f698afc654f4fe929452c65aa26c0a35fd_3.png?Expires=1704844800&Signature=KOwTPZkZvC7FTMo5HOggwfoCRtZz0RRqrxzQciUVSMRF0xSiFpyTEd~Xs17YDd6-8c~Ievr0EO-uy2Xz8yx33sMuVzpJfzGx90C5KAK0bRHM0-D9vU4Rwm8NMAcK4bzdfQsk4JJ9ath9HP3P~lj57BHzR94k9zDj9svli4dZexBpcCtT3KSfTQOf~UFG5I6pcLnd2K3cwCSSS8C6NDtZtHeRJIKFZM3h8UjDoV-weXZ0rFVMbHKcqIfRDvcAyoamW1JluPgCavolg9CJVZ9UFhrIhwfZWwNDUF6hBHFIcjwCdjcoEKsdC5HySp4E1JEZIINqndIOpFuv~RZK~Wrf-Q__&Key-Pair-Id=KNBS2THMRC385"
+					}
+				},
+				"judgement": "LOSE",
+				"player": {
+					"weapon": {
+						"name": "四重弹跳手枪 白",
+						"image": {
+							"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/c7ea86898ec19beb8bc685a183f6e80e37f1f3c52e492297f87a22a99eccda70_1.png?Expires=1704844800&Signature=kKbdOU1CIN5lwzVNAEwYX9Z7LnmMoa60864Jqm1QKzcKWVXa4cZbANSOe3iXyj5zWjWJXM9CJgjZmvl6~04yhCAgXUKU0i5IiTsazObQhrUkds6AO-i7OBmPc1KrFxIL7D6edL8NSUzqI-KRRBCyqy-t82yt-KDeF1yGq4pIuegZChLEzNTNTG~2NRDlQfVH9pPyhY487Cd43Ma-tkvCDf1S0gptwF2PiFZ8GQ84urD~bc37qH4-DTDXYtdAZBi990XSUV5b0tE0BHlxrLUtOQU19VKiaL9KvST4suPjnjGkjPYzzYa5HTV2k0giWXP~iUOUaWj4mEi97r83ibvNBQ__&Key-Pair-Id=KNBS2THMRC385"
+						},
+						"id": "V2VhcG9uLTUwNDE="
+					},
+					"id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA4MjlUMTA0NzIxXzU4MzI4ZWI4LTRiM2UtNDA4Ni05MWY4LTI5NGM4NDg3ZDc2NDp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+				},
+				"knockout": "NEITHER",
+				"myTeam": {
+					"result": {
+						"paintPoint": null,
+						"score": 68
+					}
+				},
+				"nextHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNTM1MV9kNjk1ZWZkOC1lNTYyLTQ0NjktYjAwZC05MjNjMDE2ZmMwNzM="
+				},
+				"previousHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNDIwNF9mN2RkNDIxYi1kMGY5LTRhYzgtYmQxZi1mZWZlZDhlYjUyMGY="
+				}
+			},
+			{
+				"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNDIwNF9mN2RkNDIxYi1kMGY5LTRhYzgtYmQxZi1mZWZlZDhlYjUyMGY=",
+				"vsMode": {
+					"mode": "LEAGUE",
+					"id": "VnNNb2RlLTQ="
+				},
+				"vsRule": {
+					"name": "真格区域",
+					"id": "VnNSdWxlLTE="
+				},
+				"vsStage": {
+					"name": "鬼蝠鲼玛利亚号",
+					"id": "VnNTdGFnZS0xOA==",
+					"image": {
+						"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/0b7fd997781e03eb9d5bf1875ed070f698afc654f4fe929452c65aa26c0a35fd_3.png?Expires=1704844800&Signature=KOwTPZkZvC7FTMo5HOggwfoCRtZz0RRqrxzQciUVSMRF0xSiFpyTEd~Xs17YDd6-8c~Ievr0EO-uy2Xz8yx33sMuVzpJfzGx90C5KAK0bRHM0-D9vU4Rwm8NMAcK4bzdfQsk4JJ9ath9HP3P~lj57BHzR94k9zDj9svli4dZexBpcCtT3KSfTQOf~UFG5I6pcLnd2K3cwCSSS8C6NDtZtHeRJIKFZM3h8UjDoV-weXZ0rFVMbHKcqIfRDvcAyoamW1JluPgCavolg9CJVZ9UFhrIhwfZWwNDUF6hBHFIcjwCdjcoEKsdC5HySp4E1JEZIINqndIOpFuv~RZK~Wrf-Q__&Key-Pair-Id=KNBS2THMRC385"
+					}
+				},
+				"judgement": "LOSE",
+				"player": {
+					"weapon": {
+						"name": "四重弹跳手枪 白",
+						"image": {
+							"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/c7ea86898ec19beb8bc685a183f6e80e37f1f3c52e492297f87a22a99eccda70_1.png?Expires=1704844800&Signature=kKbdOU1CIN5lwzVNAEwYX9Z7LnmMoa60864Jqm1QKzcKWVXa4cZbANSOe3iXyj5zWjWJXM9CJgjZmvl6~04yhCAgXUKU0i5IiTsazObQhrUkds6AO-i7OBmPc1KrFxIL7D6edL8NSUzqI-KRRBCyqy-t82yt-KDeF1yGq4pIuegZChLEzNTNTG~2NRDlQfVH9pPyhY487Cd43Ma-tkvCDf1S0gptwF2PiFZ8GQ84urD~bc37qH4-DTDXYtdAZBi990XSUV5b0tE0BHlxrLUtOQU19VKiaL9KvST4suPjnjGkjPYzzYa5HTV2k0giWXP~iUOUaWj4mEi97r83ibvNBQ__&Key-Pair-Id=KNBS2THMRC385"
+						},
+						"id": "V2VhcG9uLTUwNDE="
+					},
+					"id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA4MjlUMTA0MjA0X2Y3ZGQ0MjFiLWQwZjktNGFjOC1iZDFmLWZlZmVkOGViNTIwZjp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+				},
+				"knockout": "LOSE",
+				"myTeam": {
+					"result": {
+						"paintPoint": null,
+						"score": 0
+					}
+				},
+				"nextHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNDcyMV81ODMyOGViOC00YjNlLTQwODYtOTFmOC0yOTRjODQ4N2Q3NjQ="
+				},
+				"previousHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMzgyOF9lYzUwMmJlOS00MTEwLTRiN2YtYTE5MS1kZGRjNTE5YWEyY2U="
+				}
+			},
+			{
+				"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMzgyOF9lYzUwMmJlOS00MTEwLTRiN2YtYTE5MS1kZGRjNTE5YWEyY2U=",
+				"vsMode": {
+					"mode": "LEAGUE",
+					"id": "VnNNb2RlLTQ="
+				},
+				"vsRule": {
+					"name": "真格区域",
+					"id": "VnNSdWxlLTE="
+				},
+				"vsStage": {
+					"name": "鬼蝠鲼玛利亚号",
+					"id": "VnNTdGFnZS0xOA==",
+					"image": {
+						"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/0b7fd997781e03eb9d5bf1875ed070f698afc654f4fe929452c65aa26c0a35fd_3.png?Expires=1704844800&Signature=KOwTPZkZvC7FTMo5HOggwfoCRtZz0RRqrxzQciUVSMRF0xSiFpyTEd~Xs17YDd6-8c~Ievr0EO-uy2Xz8yx33sMuVzpJfzGx90C5KAK0bRHM0-D9vU4Rwm8NMAcK4bzdfQsk4JJ9ath9HP3P~lj57BHzR94k9zDj9svli4dZexBpcCtT3KSfTQOf~UFG5I6pcLnd2K3cwCSSS8C6NDtZtHeRJIKFZM3h8UjDoV-weXZ0rFVMbHKcqIfRDvcAyoamW1JluPgCavolg9CJVZ9UFhrIhwfZWwNDUF6hBHFIcjwCdjcoEKsdC5HySp4E1JEZIINqndIOpFuv~RZK~Wrf-Q__&Key-Pair-Id=KNBS2THMRC385"
+					}
+				},
+				"judgement": "WIN",
+				"player": {
+					"weapon": {
+						"name": "四重弹跳手枪 白",
+						"image": {
+							"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/c7ea86898ec19beb8bc685a183f6e80e37f1f3c52e492297f87a22a99eccda70_1.png?Expires=1704844800&Signature=kKbdOU1CIN5lwzVNAEwYX9Z7LnmMoa60864Jqm1QKzcKWVXa4cZbANSOe3iXyj5zWjWJXM9CJgjZmvl6~04yhCAgXUKU0i5IiTsazObQhrUkds6AO-i7OBmPc1KrFxIL7D6edL8NSUzqI-KRRBCyqy-t82yt-KDeF1yGq4pIuegZChLEzNTNTG~2NRDlQfVH9pPyhY487Cd43Ma-tkvCDf1S0gptwF2PiFZ8GQ84urD~bc37qH4-DTDXYtdAZBi990XSUV5b0tE0BHlxrLUtOQU19VKiaL9KvST4suPjnjGkjPYzzYa5HTV2k0giWXP~iUOUaWj4mEi97r83ibvNBQ__&Key-Pair-Id=KNBS2THMRC385"
+						},
+						"id": "V2VhcG9uLTUwNDE="
+					},
+					"id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA4MjlUMTAzODI4X2VjNTAyYmU5LTQxMTAtNGI3Zi1hMTkxLWRkZGM1MTlhYTJjZTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+				},
+				"knockout": "WIN",
+				"myTeam": {
+					"result": {
+						"paintPoint": null,
+						"score": 100
+					}
+				},
+				"nextHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwNDIwNF9mN2RkNDIxYi1kMGY5LTRhYzgtYmQxZi1mZWZlZDhlYjUyMGY="
+				},
+				"previousHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMzMxOF9jZThmMTI1Ni1iODk4LTQzYWItYWExZi0yYjc3NzQyY2U4NWU="
+				}
+			},
+			{
+				"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMzMxOF9jZThmMTI1Ni1iODk4LTQzYWItYWExZi0yYjc3NzQyY2U4NWU=",
+				"vsMode": {
+					"mode": "LEAGUE",
+					"id": "VnNNb2RlLTQ="
+				},
+				"vsRule": {
+					"name": "真格区域",
+					"id": "VnNSdWxlLTE="
+				},
+				"vsStage": {
+					"name": "烟管鱼市场",
+					"id": "VnNTdGFnZS0z",
+					"image": {
+						"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1704844800&Signature=XR14fMfUBSQQnJ1l-JGp3E4RBu~72ux8vBgHzO78axY3~s3YmxRRF6DhqUpxPgeRweBq6EQegN4RhRgwtX9ccGbB0KKLc-bocgeKNBFeahWcFZdO2J1-UTjye~3Z8T3J5oGeCP-tmy-HM7whcsdBPNNlheUSTLttAy7W6vI9NnBQZjuOxdVEp5~Z5Ymc1ZRWLnz64trRgS3bknfVPCN69E7FCIl67eTWC96t2sh-CdxQGt1hUr2a0kuN4MoI~dWlRfZK~vNXvnA-ToH~gv4t9aH9pJu72kqz0ee7hdzIvLnCjF0e1NLza-P9ViLAU~3SPFddzyOGEpybnZv1BEotCA__&Key-Pair-Id=KNBS2THMRC385"
+					}
+				},
+				"judgement": "WIN",
+				"player": {
+					"weapon": {
+						"name": "四重弹跳手枪 白",
+						"image": {
+							"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/c7ea86898ec19beb8bc685a183f6e80e37f1f3c52e492297f87a22a99eccda70_1.png?Expires=1704844800&Signature=kKbdOU1CIN5lwzVNAEwYX9Z7LnmMoa60864Jqm1QKzcKWVXa4cZbANSOe3iXyj5zWjWJXM9CJgjZmvl6~04yhCAgXUKU0i5IiTsazObQhrUkds6AO-i7OBmPc1KrFxIL7D6edL8NSUzqI-KRRBCyqy-t82yt-KDeF1yGq4pIuegZChLEzNTNTG~2NRDlQfVH9pPyhY487Cd43Ma-tkvCDf1S0gptwF2PiFZ8GQ84urD~bc37qH4-DTDXYtdAZBi990XSUV5b0tE0BHlxrLUtOQU19VKiaL9KvST4suPjnjGkjPYzzYa5HTV2k0giWXP~iUOUaWj4mEi97r83ibvNBQ__&Key-Pair-Id=KNBS2THMRC385"
+						},
+						"id": "V2VhcG9uLTUwNDE="
+					},
+					"id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA4MjlUMTAzMzE4X2NlOGYxMjU2LWI4OTgtNDNhYi1hYTFmLTJiNzc3NDJjZTg1ZTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+				},
+				"knockout": "WIN",
+				"myTeam": {
+					"result": {
+						"paintPoint": null,
+						"score": 100
+					}
+				},
+				"nextHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMzgyOF9lYzUwMmJlOS00MTEwLTRiN2YtYTE5MS1kZGRjNTE5YWEyY2U="
+				},
+				"previousHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMjY0NF9iNTY1MGU5MS0zY2NmLTQ4NjktYjU5Yy01NjhjMWJiZDRmMDg="
+				}
+			},
+			{
+				"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMjY0NF9iNTY1MGU5MS0zY2NmLTQ4NjktYjU5Yy01NjhjMWJiZDRmMDg=",
+				"vsMode": {
+					"mode": "LEAGUE",
+					"id": "VnNNb2RlLTQ="
+				},
+				"vsRule": {
+					"name": "真格区域",
+					"id": "VnNSdWxlLTE="
+				},
+				"vsStage": {
+					"name": "鬼蝠鲼玛利亚号",
+					"id": "VnNTdGFnZS0xOA==",
+					"image": {
+						"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/0b7fd997781e03eb9d5bf1875ed070f698afc654f4fe929452c65aa26c0a35fd_3.png?Expires=1704844800&Signature=KOwTPZkZvC7FTMo5HOggwfoCRtZz0RRqrxzQciUVSMRF0xSiFpyTEd~Xs17YDd6-8c~Ievr0EO-uy2Xz8yx33sMuVzpJfzGx90C5KAK0bRHM0-D9vU4Rwm8NMAcK4bzdfQsk4JJ9ath9HP3P~lj57BHzR94k9zDj9svli4dZexBpcCtT3KSfTQOf~UFG5I6pcLnd2K3cwCSSS8C6NDtZtHeRJIKFZM3h8UjDoV-weXZ0rFVMbHKcqIfRDvcAyoamW1JluPgCavolg9CJVZ9UFhrIhwfZWwNDUF6hBHFIcjwCdjcoEKsdC5HySp4E1JEZIINqndIOpFuv~RZK~Wrf-Q__&Key-Pair-Id=KNBS2THMRC385"
+					}
+				},
+				"judgement": "WIN",
+				"player": {
+					"weapon": {
+						"name": "四重弹跳手枪 白",
+						"image": {
+							"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/c7ea86898ec19beb8bc685a183f6e80e37f1f3c52e492297f87a22a99eccda70_1.png?Expires=1704844800&Signature=kKbdOU1CIN5lwzVNAEwYX9Z7LnmMoa60864Jqm1QKzcKWVXa4cZbANSOe3iXyj5zWjWJXM9CJgjZmvl6~04yhCAgXUKU0i5IiTsazObQhrUkds6AO-i7OBmPc1KrFxIL7D6edL8NSUzqI-KRRBCyqy-t82yt-KDeF1yGq4pIuegZChLEzNTNTG~2NRDlQfVH9pPyhY487Cd43Ma-tkvCDf1S0gptwF2PiFZ8GQ84urD~bc37qH4-DTDXYtdAZBi990XSUV5b0tE0BHlxrLUtOQU19VKiaL9KvST4suPjnjGkjPYzzYa5HTV2k0giWXP~iUOUaWj4mEi97r83ibvNBQ__&Key-Pair-Id=KNBS2THMRC385"
+						},
+						"id": "V2VhcG9uLTUwNDE="
+					},
+					"id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA4MjlUMTAyNjQ0X2I1NjUwZTkxLTNjY2YtNDg2OS1iNTljLTU2OGMxYmJkNGYwODp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+				},
+				"knockout": "WIN",
+				"myTeam": {
+					"result": {
+						"paintPoint": null,
+						"score": 100
+					}
+				},
+				"nextHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMzMxOF9jZThmMTI1Ni1iODk4LTQzYWItYWExZi0yYjc3NzQyY2U4NWU="
+				},
+				"previousHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMjAwOF9lZDk4YTZkMi0zMDAxLTQ1ZDYtYmMxZC0zZWFlZDMzNjY2ZGE="
+				}
+			},
+			{
+				"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMjAwOF9lZDk4YTZkMi0zMDAxLTQ1ZDYtYmMxZC0zZWFlZDMzNjY2ZGE=",
+				"vsMode": {
+					"mode": "LEAGUE",
+					"id": "VnNNb2RlLTQ="
+				},
+				"vsRule": {
+					"name": "真格区域",
+					"id": "VnNSdWxlLTE="
+				},
+				"vsStage": {
+					"name": "鬼蝠鲼玛利亚号",
+					"id": "VnNTdGFnZS0xOA==",
+					"image": {
+						"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/0b7fd997781e03eb9d5bf1875ed070f698afc654f4fe929452c65aa26c0a35fd_3.png?Expires=1704844800&Signature=KOwTPZkZvC7FTMo5HOggwfoCRtZz0RRqrxzQciUVSMRF0xSiFpyTEd~Xs17YDd6-8c~Ievr0EO-uy2Xz8yx33sMuVzpJfzGx90C5KAK0bRHM0-D9vU4Rwm8NMAcK4bzdfQsk4JJ9ath9HP3P~lj57BHzR94k9zDj9svli4dZexBpcCtT3KSfTQOf~UFG5I6pcLnd2K3cwCSSS8C6NDtZtHeRJIKFZM3h8UjDoV-weXZ0rFVMbHKcqIfRDvcAyoamW1JluPgCavolg9CJVZ9UFhrIhwfZWwNDUF6hBHFIcjwCdjcoEKsdC5HySp4E1JEZIINqndIOpFuv~RZK~Wrf-Q__&Key-Pair-Id=KNBS2THMRC385"
+					}
+				},
+				"judgement": "LOSE",
+				"player": {
+					"weapon": {
+						"name": "四重弹跳手枪 白",
+						"image": {
+							"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/c7ea86898ec19beb8bc685a183f6e80e37f1f3c52e492297f87a22a99eccda70_1.png?Expires=1704844800&Signature=kKbdOU1CIN5lwzVNAEwYX9Z7LnmMoa60864Jqm1QKzcKWVXa4cZbANSOe3iXyj5zWjWJXM9CJgjZmvl6~04yhCAgXUKU0i5IiTsazObQhrUkds6AO-i7OBmPc1KrFxIL7D6edL8NSUzqI-KRRBCyqy-t82yt-KDeF1yGq4pIuegZChLEzNTNTG~2NRDlQfVH9pPyhY487Cd43Ma-tkvCDf1S0gptwF2PiFZ8GQ84urD~bc37qH4-DTDXYtdAZBi990XSUV5b0tE0BHlxrLUtOQU19VKiaL9KvST4suPjnjGkjPYzzYa5HTV2k0giWXP~iUOUaWj4mEi97r83ibvNBQ__&Key-Pair-Id=KNBS2THMRC385"
+						},
+						"id": "V2VhcG9uLTUwNDE="
+					},
+					"id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA4MjlUMTAyMDA4X2VkOThhNmQyLTMwMDEtNDVkNi1iYzFkLTNlYWVkMzM2NjZkYTp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+				},
+				"knockout": "NEITHER",
+				"myTeam": {
+					"result": {
+						"paintPoint": null,
+						"score": 71
+					}
+				},
+				"nextHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMjY0NF9iNTY1MGU5MS0zY2NmLTQ4NjktYjU5Yy01NjhjMWJiZDRmMDg="
+				},
+				"previousHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMTY0MF8wNTljMWZjMC0yODc3LTRiZmQtYjg0ZC0yODhiNGE0MzQxOTc="
+				}
+			},
+			{
+				"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMTY0MF8wNTljMWZjMC0yODc3LTRiZmQtYjg0ZC0yODhiNGE0MzQxOTc=",
+				"vsMode": {
+					"mode": "LEAGUE",
+					"id": "VnNNb2RlLTQ="
+				},
+				"vsRule": {
+					"name": "真格区域",
+					"id": "VnNSdWxlLTE="
+				},
+				"vsStage": {
+					"name": "烟管鱼市场",
+					"id": "VnNTdGFnZS0z",
+					"image": {
+						"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/stage_img/banner/low_resolution/8dc2f16d39c630bab40cead5b2485ca3559e829d0d3de0c2232c7a62fefb5fa9_3.png?Expires=1704844800&Signature=XR14fMfUBSQQnJ1l-JGp3E4RBu~72ux8vBgHzO78axY3~s3YmxRRF6DhqUpxPgeRweBq6EQegN4RhRgwtX9ccGbB0KKLc-bocgeKNBFeahWcFZdO2J1-UTjye~3Z8T3J5oGeCP-tmy-HM7whcsdBPNNlheUSTLttAy7W6vI9NnBQZjuOxdVEp5~Z5Ymc1ZRWLnz64trRgS3bknfVPCN69E7FCIl67eTWC96t2sh-CdxQGt1hUr2a0kuN4MoI~dWlRfZK~vNXvnA-ToH~gv4t9aH9pJu72kqz0ee7hdzIvLnCjF0e1NLza-P9ViLAU~3SPFddzyOGEpybnZv1BEotCA__&Key-Pair-Id=KNBS2THMRC385"
+					}
+				},
+				"judgement": "LOSE",
+				"player": {
+					"weapon": {
+						"name": "新星爆破枪",
+						"image": {
+							"url": "https://api.lp1.av5ja.srv.nintendo.net/resources/prod/v1/weapon_illust/10d4a1584d1428cb164ddfbc5febc9b1e77fd05e2e9ed9de851838a94d202c15_1.png?Expires=1704844800&Signature=lKnL6RlI0XQ1tSeXc47EyA5b4YZLqhzFI6riKUw9Ip8PZR40uOGwiCkMrShgQozEEoV69Xr-g7PYjN39vlylvice44Vcvm1uAUd~rdjxmBr7RHRd80NcxXee-p6M~Uqa7ZhFM0vfzyXJbt3o31o91VPFIn0ygIuwPmNxoryKfgyHsneO93GWiQJNEF6M1UZZm-H0QW3QuO4KCNebrT93gNHObn1AGy1eshkoZztK6f~0dHtCg0kzSQRTfOdz~0j-LVyyKDXUnjiPskibN7JlWdZaqzGNTP~5rZ8cTdHRJIhOHfeFWMy0raJhN9bikeQefmtYQbbBLtGN50bsHiwO-g__&Key-Pair-Id=KNBS2THMRC385"
+						},
+						"id": "V2VhcG9uLTIwMA=="
+					},
+					"id": "VnNQbGF5ZXItdS1xZGpubjN1bXJmbnRsNWZpYW5tbTpMRUFHVUU6MjAyMzA4MjlUMTAxNjQwXzA1OWMxZmMwLTI4NzctNGJmZC1iODRkLTI4OGI0YTQzNDE5Nzp1LXFkam5uM3VtcmZudGw1Zmlhbm1t"
+				},
+				"knockout": "LOSE",
+				"myTeam": {
+					"result": {
+						"paintPoint": null,
+						"score": 0
+					}
+				},
+				"nextHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMjAwOF9lZDk4YTZkMi0zMDAxLTQ1ZDYtYmMxZC0zZWFlZDMzNjY2ZGE="
+				},
+				"previousHistoryDetail": {
+					"id": "VnNIaXN0b3J5RGV0YWlsLXUtcWRqbm4zdW1yZm50bDVmaWFubW06TEVBR1VFOjIwMjMwODI5VDEwMTE1MF9kMmRjNzk1ZS0xZWFjLTQ1ZTQtODZmNC04MTY0ODFkNDAzOTc="
+				}
+			}
+		]
+	}
+}
