@@ -16,13 +16,13 @@ RUN cd /src/dotnet-function-app/Stat.Itok.Func.Worker && \
 FROM mcr.microsoft.com/azure-functions/dotnet:4
 ENV AzureWebJobsScriptRoot=/home/site/wwwroot \
     AzureFunctionsJobHost__Logging__Console__IsEnabled=true
-
-COPY ./_misc /home/
-
-ENV CORECLR_ENABLE_PROFILING=1
-ENV CORECLR_PROFILER={BD1A650D-AC5D-4896-B64F-D6FA25D6B26A}
-ENV CORECLR_PROFILER_PATH=/home/Pyroscope.Profiler.Native.so
-ENV LD_PRELOAD=/home/Pyroscope.Linux.ApiWrapper.x64.so
+#
+#COPY ./_misc /home/
+#
+#ENV CORECLR_ENABLE_PROFILING=1
+#ENV CORECLR_PROFILER={BD1A650D-AC5D-4896-B64F-D6FA25D6B26A}
+#ENV CORECLR_PROFILER_PATH=/home/Pyroscope.Profiler.Native.so
+#ENV LD_PRELOAD=/home/Pyroscope.Linux.ApiWrapper.x64.so
 
 
 #ENV PYROSCOPE_APPLICATION_NAME=stat.itok.worker
