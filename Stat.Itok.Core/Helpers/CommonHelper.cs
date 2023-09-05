@@ -27,7 +27,7 @@ namespace Stat.Itok.Core.Helpers
             var revision = str.Substring(revisionRange.Index, 8);
             webViewData.WebViewVersion = $"{versionRange.Value}-{revision}";
             var graphQLMatchRes = Regex.Matches(str,
-                "params:\\{id:.(?<id>[0-9a-f]{32}).,metadata:\\{\\},name:.(?<name>[a-zA-Z0-9_]+).,");
+                "params:\\{id:.(?<id>[0-9a-f]{64}).,metadata:\\{\\},name:.(?<name>[a-zA-Z0-9_]+).,");
 
             foreach (Match match in graphQLMatchRes)
             {

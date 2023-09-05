@@ -217,7 +217,7 @@ namespace Stat.Itok.Tests
             var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
             var container = cosmos.GetContainer<BattleTaskPayload>();
             var rawSQL =
-                $"SELECT * FROM c where c.partitionKey = 'prod.BattleTaskPayload' and c.data.jobConfigId ='nin_user_47b6e130639b6029' and c._ts >1693302503\r\n";
+                $"SELECT * FROM c where c.partitionKey = 'prod.BattleTaskPayload' and c.data.jobConfigId ='nin_user_1cefa0676d5aba27' and c._ts >1693838917\r\n";
             QueryDefinition query = new QueryDefinition(rawSQL);
 
             var resultSetIterator = container.GetItemQueryIterator<PureIdDto>(

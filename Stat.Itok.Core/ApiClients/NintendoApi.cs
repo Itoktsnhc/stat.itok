@@ -151,9 +151,9 @@ namespace Stat.Itok.Core.ApiClients
                     combinedNinMiscConfig.WebViewVersion = liveData.WebViewVersion;
                 if (!string.IsNullOrWhiteSpace(liveData.NSOAppVersion))
                     combinedNinMiscConfig.NSOAppVersion = liveData.NSOAppVersion;
-                foreach (var (key, val) in liveData.GraphQL.APIs)
+                if(liveData.GraphQL.APIs?.Any() == true)
                 {
-                    combinedNinMiscConfig.GraphQL.APIs[key] = val;
+                    combinedNinMiscConfig.GraphQL.APIs = liveData.GraphQL.APIs;
                 }
             }
             catch (Exception ex)
