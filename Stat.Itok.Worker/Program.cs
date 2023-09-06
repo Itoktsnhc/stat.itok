@@ -43,7 +43,7 @@ IHost host = Host.CreateDefaultBuilder(args)
                     AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
                 });
 
-        // services.AddHostedService<Dispatcher>();
+        services.AddHostedService<Dispatcher>();
         services.AddHostedService<TaskWorker>();
     })
     .Build();
