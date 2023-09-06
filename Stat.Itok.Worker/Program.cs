@@ -1,12 +1,18 @@
 using System.Net;
 using JobTrackerX.Client;
 using Microsoft.Extensions.Options;
+using Serilog;
 using Stat.Itok.Core;
 using Stat.Itok.Core.ApiClients;
 using Stat.Itok.Worker;
 using Stat.Itok.Worker.Workers;
 
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .WriteTo.Console().CreateLogger();
+
 IHost host = Host.CreateDefaultBuilder(args)
+    .UseSerilog()
     .ConfigureAppConfiguration(b => BuildConfiguration(args, b))
     .ConfigureServices((builder, services) =>
     {
