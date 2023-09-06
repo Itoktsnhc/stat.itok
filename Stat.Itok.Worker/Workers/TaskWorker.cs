@@ -56,6 +56,7 @@ public class TaskWorker : YetBgWorker
                             _logger.LogInformation(
                                 $"\t BEGIN Processing Message: {queueMsg.MessageId} with dequeueCount: {queueMsg.DequeueCount}");
                             await HandleWorkerTaskMsgAsync(queueMsg);
+                            await queueClient.DeleteMessageAsync(queueMsg.MessageId, queueMsg.PopReceipt, ctx);
                         }
                         catch (Exception e)
                         {
