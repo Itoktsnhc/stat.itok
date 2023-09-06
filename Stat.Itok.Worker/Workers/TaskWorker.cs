@@ -39,43 +39,49 @@ public class TaskWorker : YetBgWorker
     {
         while (!ctx.IsCancellationRequested)
         {
-            var now = DateTimeOffset.Now;
             try
             {
-                _logger.LogInformation($"BEGIN {nameof(TaskWorker)} @ {now}");
+                _logger.LogInformation($"BEGIN {nameof(TaskWorker)}");
                 var queueClient = await _storage.GetJobRunTaskQueueClientAsync();
-                var messages = await queueClient.ReceiveMessagesAsync(5, TimeSpan.FromMinutes(5), ctx);
-                if (messages.HasValue)
+                var props = await queueClient.GetPropertiesAsync(ctx);
+                var msgCount = props.Value.ApproximateMessagesCount;
+                _logger.LogInformation($"GOT ApproximateMessagesCount: {msgCount} {nameof(TaskWorker)}");
+                while (msgCount > 0)
                 {
-                    _logger.LogInformation(
-                        $"GOT {messages.Value.Length} messages from queue [{StatItokConstants.JobRunTaskQueueName}]");
-                    foreach (var queueMsg in messages.Value)
+                    var messages = await queueClient.ReceiveMessagesAsync(5, TimeSpan.FromMinutes(5), ctx);
+                    if (messages.HasValue)
                     {
-                        try
-                        {
-                            _logger.LogInformation(
-                                $"\t BEGIN Processing Message: {queueMsg.MessageId} with dequeueCount: {queueMsg.DequeueCount}");
-                            await HandleWorkerTaskMsgAsync(queueMsg);
-                            await queueClient.DeleteMessageAsync(queueMsg.MessageId, queueMsg.PopReceipt, ctx);
-                        }
-                        catch (Exception e)
-                        {
-                            _logger.LogError(e,
-                                $"Exception {nameof(HandleWorkerTaskMsgAsync)} @ {queueMsg.MessageId}, Try Next Message");
-                        }
-
                         _logger.LogInformation(
-                            $"\t END Processing Message: {queueMsg.MessageId} with dequeueCount: {queueMsg.DequeueCount}");
+                            $"GOT {messages.Value.Length} messages from queue [{StatItokConstants.JobRunTaskQueueName}]");
+                        foreach (var queueMsg in messages.Value)
+                        {
+                            try
+                            {
+                                _logger.LogInformation(
+                                    $"\t BEGIN Processing Message: {queueMsg.MessageId} with dequeueCount: {queueMsg.DequeueCount}");
+                                await HandleWorkerTaskMsgAsync(queueMsg);
+                                await queueClient.DeleteMessageAsync(queueMsg.MessageId, queueMsg.PopReceipt, ctx);
+                            }
+                            catch (Exception e)
+                            {
+                                _logger.LogError(e,
+                                    $"Exception {nameof(HandleWorkerTaskMsgAsync)} @ {queueMsg.MessageId}, Try Next Message");
+                            }
+
+                            msgCount--;
+                            _logger.LogInformation(
+                                $"\t END Processing Message: {queueMsg.MessageId} with dequeueCount: {queueMsg.DequeueCount}");
+                        }
                     }
                 }
             }
             catch (Exception e)
             {
-                _logger.LogError(e, $"Exception {nameof(TaskWorker)} @ {now}");
+                _logger.LogError(e, $"Exception {nameof(TaskWorker)}");
             }
             finally
             {
-                _logger.LogInformation($"END {nameof(TaskWorker)} @ {now}");
+                _logger.LogInformation($"END {nameof(TaskWorker)}");
                 await Task.Delay(TimeSpan.FromMinutes(1), ctx);
             }
         }

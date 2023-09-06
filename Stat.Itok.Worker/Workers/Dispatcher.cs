@@ -43,19 +43,18 @@ public class Dispatcher : YetBgWorker
     {
         while (!ctx.IsCancellationRequested)
         {
-            var now = DateTimeOffset.Now;
             try
             {
-                _logger.LogInformation($"BEGIN {nameof(Dispatcher)} @ {now}");
+                _logger.LogInformation($"BEGIN {nameof(Dispatcher)}");
                 await DoDispatchAsync();
             }
             catch (Exception e)
             {
-                _logger.LogError(e, $"Exception {nameof(Dispatcher)} @ {now}");
+                _logger.LogError(e, $"Exception {nameof(Dispatcher)}");
             }
             finally
             {
-                _logger.LogInformation($"END {nameof(Dispatcher)} @ {now}");
+                _logger.LogInformation($"END {nameof(Dispatcher)}");
                 await Task.Delay(TimeSpan.FromMinutes(5), ctx);
             }
         }
