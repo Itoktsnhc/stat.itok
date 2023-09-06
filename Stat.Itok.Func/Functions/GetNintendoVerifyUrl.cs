@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using MediatR;
+using Mediator;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;

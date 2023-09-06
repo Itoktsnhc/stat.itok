@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Http;
 using FluentValidation;
 using JobTrackerX.Client;
-using MediatR;
+using Mediator;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Azure.WebJobs.Logging;
 using Microsoft.Extensions.Configuration;
@@ -27,8 +27,7 @@ namespace Stat.Itok.Func
             builder.Services.AddHttpClient()
                 .AddMemoryCache()
                 .AddSingleton<IStorageAccessor, StorageAccessor>()
-                .AddMediatR(typeof(NintendoPrivateHandlers))
-                .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
+                .AddMediator(cfg => cfg.ServiceLifetime = ServiceLifetime.Transient)
                 .AddSingleton<RemoteConfigStore>()
                 .AddSingleton<ICosmosAccessor, CosmosDbAccessor>()
                 .AddSingleton(sp =>

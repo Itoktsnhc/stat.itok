@@ -355,3 +355,4 @@ Stat.Itok.Front/dist
 /Stat.Itok.Tests/configs/doc_id_list.txt
 Stat.Itok.Tests/configs/rerun_list.txt
 Stat.Itok.Tests/configs/user_auth_cfg.json
+Stat.Itok.Worker/appsettings.dev.json

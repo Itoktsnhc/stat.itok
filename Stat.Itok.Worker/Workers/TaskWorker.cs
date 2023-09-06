@@ -1,54 +1,93 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using Azure.Storage.Blobs.Models;
 using Azure.Storage.Blobs.Specialized;
 using Azure.Storage.Queues.Models;
 using JobTrackerX.Client;
 using JobTrackerX.SharedLibs;
-using Mapster;
-using MediatR;
-using Microsoft.Azure.WebJobs;
+using Mediator;
 using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Stat.Itok.Core;
 using Stat.Itok.Core.Handlers;
 using Stat.Itok.Core.Helpers;
+using Stat.Itok.Shared;
 
-namespace Stat.Itok.Func.Worker.Functions;
+namespace Stat.Itok.Worker.Workers;
 
-public class JobRunTaskWorker
+public class TaskWorker : YetBgWorker
 {
     private readonly IMediator _mediator;
-    private readonly ILogger<JobRunTaskWorker> _logger;
+    private readonly ILogger<TaskWorker> _logger;
     private readonly IStorageAccessor _storage;
     private readonly IJobTrackerClient _jobTracker;
     private readonly IMemoryCache _memCache;
     private readonly ICosmosAccessor _cosmos;
 
-    public JobRunTaskWorker(
-        IMediator mediator,
-        ILogger<JobRunTaskWorker> logger,
-        IStorageAccessor storage,
-        IJobTrackerClient jobTracker,
-        IMemoryCache memCache, ICosmosAccessor cosmos)
+    public TaskWorker(IHostApplicationLifetime appLifetime, IMediator mediator, IStorageAccessor storage,
+        IJobTrackerClient jobTracker, IMemoryCache memCache, ICosmosAccessor cosmos,
+        ILogger<TaskWorker> logger) : base(appLifetime)
     {
         _mediator = mediator;
-        _logger = logger;
         _storage = storage;
         _jobTracker = jobTracker;
         _memCache = memCache;
         _cosmos = cosmos;
+        _logger = logger;
     }
 
-    [FunctionName("JobWorker")]
-    public async Task ActJobWorkerAsync(
-        [QueueTrigger(StatItokConstants.JobRunTaskQueueName, Connection = "WorkerQueueConnStr")]
-        QueueMessage queueMsg)
+    protected override async Task ExecuteAsync(CancellationToken ctx)
+    {
+        while (!ctx.IsCancellationRequested)
+        {
+            try
+            {
+                _logger.LogInformation($"BEGIN {nameof(TaskWorker)}");
+                var queueClient = await _storage.GetJobRunTaskQueueClientAsync();
+                var props = await queueClient.GetPropertiesAsync(ctx);
+                var msgCount = props.Value.ApproximateMessagesCount;
+                _logger.LogInformation($"GOT ApproximateMessagesCount: {msgCount} {nameof(TaskWorker)}");
+                while (msgCount > 0)
+                {
+                    var messages = await queueClient.ReceiveMessagesAsync(5, TimeSpan.FromMinutes(5), ctx);
+                    if (messages.HasValue)
+                    {
+                        _logger.LogInformation(
+                            $"GOT {messages.Value.Length} messages from queue [{StatItokConstants.JobRunTaskQueueName}]");
+                        foreach (var queueMsg in messages.Value)
+                        {
+                            try
+                            {
+                                _logger.LogInformation(
+                                    $"\t BEGIN Processing Message: {queueMsg.MessageId} with dequeueCount: {queueMsg.DequeueCount}");
+                                await HandleWorkerTaskMsgAsync(queueMsg);
+                                await queueClient.DeleteMessageAsync(queueMsg.MessageId, queueMsg.PopReceipt, ctx);
+                            }
+                            catch (Exception e)
+                            {
+                                _logger.LogError(e,
+                                    $"Exception {nameof(HandleWorkerTaskMsgAsync)} @ {queueMsg.MessageId}, Try Next Message");
+                            }
+
+                            msgCount--;
+                            _logger.LogInformation(
+                                $"\t END Processing Message: {queueMsg.MessageId} with dequeueCount: {queueMsg.DequeueCount}");
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, $"Exception {nameof(TaskWorker)}");
+            }
+            finally
+            {
+                _logger.LogInformation($"END {nameof(TaskWorker)}");
+                await Task.Delay(TimeSpan.FromMinutes(1), ctx);
+            }
+        }
+    }
+
+    private async Task HandleWorkerTaskMsgAsync(QueueMessage queueMsg)
     {
         var msgStr = CommonHelper.DecompressStr(queueMsg.MessageText);
         var jobRunTaskLite = JsonConvert.DeserializeObject<JobRunTaskLite>(msgStr);
@@ -85,35 +124,6 @@ public class JobRunTaskWorker
             await _jobTracker.AppendToJobLogAsync(task.TrackedId, new AppendLogDto(e.Message));
             throw;
         }
-    }
-
-    private async Task<Dictionary<string, string>> GetGearsInfoAsync(bool unCached = false)
-    {
-        if (!unCached &&
-            _memCache.TryGetValue<Dictionary<string, string>>(nameof(GetGearsInfoAsync), out var gearsInfo) &&
-            gearsInfo != null)
-        {
-            return gearsInfo;
-        }
-
-        gearsInfo = await _mediator.Send(new ReqGetGearsInfo());
-        _memCache.Set(nameof(GetGearsInfoAsync), gearsInfo);
-        return gearsInfo;
-    }
-
-
-    private async Task<Dictionary<string, string>> GetSalmonWeaponsInfoAsync(bool unCached = false)
-    {
-        if (!unCached &&
-            _memCache.TryGetValue<Dictionary<string, string>>(nameof(GetSalmonWeaponsInfoAsync), out var weaponInfo) &&
-            weaponInfo != null)
-        {
-            return weaponInfo;
-        }
-
-        weaponInfo = await _mediator.Send(new ReqGetSalmonWeaponsInfo());
-        _memCache.Set(nameof(GetSalmonWeaponsInfoAsync), weaponInfo);
-        return weaponInfo;
     }
 
     private async Task<(RunBattleTaskStatus, string)> RunBattleTaskAsync(BattleTaskPayload task)
@@ -232,6 +242,36 @@ public class JobRunTaskWorker
 
 
         return (null, null, null);
+    }
+
+
+    private async Task<Dictionary<string, string>> GetGearsInfoAsync(bool unCached = false)
+    {
+        if (!unCached &&
+            _memCache.TryGetValue<Dictionary<string, string>>(nameof(GetGearsInfoAsync), out var gearsInfo) &&
+            gearsInfo != null)
+        {
+            return gearsInfo;
+        }
+
+        gearsInfo = await _mediator.Send(new ReqGetGearsInfo());
+        _memCache.Set(nameof(GetGearsInfoAsync), gearsInfo);
+        return gearsInfo;
+    }
+
+
+    private async Task<Dictionary<string, string>> GetSalmonWeaponsInfoAsync(bool unCached = false)
+    {
+        if (!unCached &&
+            _memCache.TryGetValue<Dictionary<string, string>>(nameof(GetSalmonWeaponsInfoAsync), out var weaponInfo) &&
+            weaponInfo != null)
+        {
+            return weaponInfo;
+        }
+
+        weaponInfo = await _mediator.Send(new ReqGetSalmonWeaponsInfo());
+        _memCache.Set(nameof(GetSalmonWeaponsInfoAsync), weaponInfo);
+        return weaponInfo;
     }
 
 

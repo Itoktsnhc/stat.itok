@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "Stat.Itok.Worker": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "STAT_ITOK_CONFIG": "appsettings.dev.json"
+      }
+    }
+  }
+}

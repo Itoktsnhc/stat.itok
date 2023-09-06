@@ -1,4 +1,4 @@
-﻿using MediatR;
+﻿using Mediator;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 using Stat.Itok.Core.ApiClients;
@@ -30,7 +30,7 @@ public class NintendoPublicHandlers : HandlerBase,
     }
 
 
-    public async Task<NinTokenCopyInfo> Handle(ReqGetTokenCopyInfo request, CancellationToken cancellationToken)
+    public async ValueTask<NinTokenCopyInfo> Handle(ReqGetTokenCopyInfo request, CancellationToken cancellationToken)
     {
         var authCode = StatInkHelper.BuildRandomSizedBased64Str(32);
         var authCodeVerifier = StatInkHelper.BuildRandomSizedBased64Str(64);
@@ -42,7 +42,7 @@ public class NintendoPublicHandlers : HandlerBase,
         };
     }
 
-    public async Task<NinAuthContext> Handle(ReqGenAuthContext request, CancellationToken cancellationToken)
+    public async ValueTask<NinAuthContext> Handle(ReqGenAuthContext request, CancellationToken cancellationToken)
     {
         var sessionToken = await _mediator.Send(new ReqGetSessionToken()
         {
@@ -59,7 +59,7 @@ public class NintendoPublicHandlers : HandlerBase,
         }, cancellationToken);
     }
 
-    public async Task<NinAuthContext> Handle(ReqReGenAuthContext request, CancellationToken cancellationToken)
+    public async ValueTask<NinAuthContext> Handle(ReqReGenAuthContext request, CancellationToken cancellationToken)
     {
         var accessTokenInfo = await _mediator.Send(new ReqGetAccessToken()
         {
@@ -101,7 +101,7 @@ public class NintendoPublicHandlers : HandlerBase,
         return ctx;
     }
 
-    public async Task<string> Handle(ReqDoGraphQL request, CancellationToken cancellationToken)
+    public async ValueTask<string> Handle(ReqDoGraphQL request, CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.SendGraphQLRequestAsync(request.AuthContext.GameToken,
             request.AuthContext.BulletToken, request.AuthContext.UserInfo, request.QueryHash, request.VarName,
@@ -109,7 +109,7 @@ public class NintendoPublicHandlers : HandlerBase,
         return strResp;
     }
 
-    public async Task<RespPreCheck> Handle(ReqPreCheck request, CancellationToken cancellationToken)
+    public async ValueTask<RespPreCheck> Handle(ReqPreCheck request, CancellationToken cancellationToken)
     {
         var checkResp = PreCheckResult.Ok;
         NinAuthContext newAuthContext = request.AuthContext;
@@ -146,7 +146,7 @@ public class NintendoPublicHandlers : HandlerBase,
         };
     }
 
-    public async Task<NinMiscConfig> Handle(ReqGetNinMiscConfig request, CancellationToken cancellationToken)
+    public async ValueTask<NinMiscConfig> Handle(ReqGetNinMiscConfig request, CancellationToken cancellationToken)
     {
         return await _api.GetNinMiscConfigAsync();
     }
@@ -167,7 +167,7 @@ public class NintendoPrivateHandlers : HandlerBase,
         _api = api;
     }
 
-    public async Task<string> Handle(ReqGetSessionToken request, CancellationToken cancellationToken)
+    public async ValueTask<string> Handle(ReqGetSessionToken request, CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.GetSessionTokenAsync(request.TokenCopyInfo.RedirectUrl,
             request.TokenCopyInfo.AuthCodeVerifier));
@@ -176,7 +176,7 @@ public class NintendoPrivateHandlers : HandlerBase,
         return jTokenResp["session_token"]!.Value<string>();
     }
 
-    public async Task<NinAccessTokenInfo> Handle(ReqGetAccessToken request, CancellationToken cancellationToken)
+    public async ValueTask<NinAccessTokenInfo> Handle(ReqGetAccessToken request, CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.GetAccessTokenInfoAsync(request.SessionToken));
         var jTokenResp = strResp.ThrowIfJsonPropNotFound("access_token", "id_token");
@@ -187,7 +187,7 @@ public class NintendoPrivateHandlers : HandlerBase,
         };
     }
 
-    public async Task<NinUserInfo> Handle(ReqGetUserInfo request, CancellationToken cancellationToken)
+    public async ValueTask<NinUserInfo> Handle(ReqGetUserInfo request, CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.GetUserInfoAsync(request.AccessTokenInfo.AccessToken));
         var jTokenResp = strResp.ThrowIfJsonPropNotFound("id", "country", "language", "nickname", "birthday");
@@ -201,7 +201,7 @@ public class NintendoPrivateHandlers : HandlerBase,
         };
     }
 
-    public async Task<RespPerGameToken> Handle(ReqGetPreGameToken request, CancellationToken cancellationToken)
+    public async ValueTask<RespPerGameToken> Handle(ReqGetPreGameToken request, CancellationToken cancellationToken)
     {
         var strResp =
             await RunWithDefaultPolicy(_api.GetPreGameTokenAsync(request.AccessTokenInfo.AccessToken, request.User));
@@ -216,7 +216,7 @@ public class NintendoPrivateHandlers : HandlerBase,
         };
     }
 
-    public async Task<string> Handle(ReqGetGameToken request, CancellationToken cancellationToken)
+    public async ValueTask<string> Handle(ReqGetGameToken request, CancellationToken cancellationToken)
     {
         var strResp =
             await RunWithDefaultPolicy(_api.GetGameTokenAsync(request.PreGameToken, request.User, request.CoralUserId));
@@ -226,7 +226,7 @@ public class NintendoPrivateHandlers : HandlerBase,
         return jTokenResp["result"]!["accessToken"]!.Value<string>();
     }
 
-    public async Task<string> Handle(ReqGetBulletGameToken request, CancellationToken cancellationToken)
+    public async ValueTask<string> Handle(ReqGetBulletGameToken request, CancellationToken cancellationToken)
     {
         var strResp =
             await RunWithDefaultPolicy(_api.GetBulletTokenAsync(request.GameToken, request.User));

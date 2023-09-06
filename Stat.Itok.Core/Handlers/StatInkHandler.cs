@@ -1,4 +1,4 @@
-﻿using MediatR;
+﻿using Mediator;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
 using Stat.Itok.Core.ApiClients;
@@ -23,7 +23,7 @@ public class StatInkHandler : HandlerBase,
         _logger = logger;
     }
 
-    public async Task<StatInkPostBodySuccess> Handle(ReqPostBattle request, CancellationToken cancellationToken)
+    public async ValueTask<StatInkPostBodySuccess> Handle(ReqPostBattle request, CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.PostBattleAsync(request.ApiKey, request.Body));
         var jTokenResp = strResp.ThrowIfJsonPropNotFound("id", "url");
@@ -34,7 +34,7 @@ public class StatInkHandler : HandlerBase,
         };
     }
 
-    public async Task<Dictionary<string, string>> Handle(ReqGetGearsInfo request, CancellationToken cancellationToken)
+    public async ValueTask<Dictionary<string, string>> Handle(ReqGetGearsInfo request, CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.GetGearKeyDictAsync());
         return JArray.Parse(strResp).SelectMany(x =>
@@ -52,7 +52,7 @@ public class StatInkHandler : HandlerBase,
         }).GroupBy(x => x.Item1).ToDictionary(x => x.Key, y => y.First().Item2);
     }
 
-    public async Task<Dictionary<string, string>> Handle(ReqGetSalmonWeaponsInfo request,
+    public async ValueTask<Dictionary<string, string>> Handle(ReqGetSalmonWeaponsInfo request,
         CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.GetSalmonWeaponKeyDictAsync());
@@ -71,7 +71,7 @@ public class StatInkHandler : HandlerBase,
         }).GroupBy(x => x.Item1).ToDictionary(x => x.Key, y => y.First().Item2);
     }
 
-    public async Task<StatInkPostBodySuccess> Handle(ReqPostSalmon request, CancellationToken cancellationToken)
+    public async ValueTask<StatInkPostBodySuccess> Handle(ReqPostSalmon request, CancellationToken cancellationToken)
     {
         var strResp = await RunWithDefaultPolicy(_api.PostSalmonAsync(request.ApiKey, request.Body));
         var jTokenResp = strResp.ThrowIfJsonPropNotFound("id", "url");
@@ -82,7 +82,7 @@ public class StatInkHandler : HandlerBase,
         };
     }
 
-    public async Task<ApiResp<string>> Handle(ReqTestStatApiKey request, CancellationToken cancellationToken)
+    public async ValueTask<ApiResp<string>> Handle(ReqTestStatApiKey request, CancellationToken cancellationToken)
     {
         try
         {
