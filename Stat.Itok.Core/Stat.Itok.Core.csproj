@@ -12,7 +12,7 @@
 		<PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.2.1" />
 		<PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
 		<PackageReference Include="Mapster" Version="7.3.0" />
-		<PackageReference Include="MediatR" Version="11.0.0" />
+		<PackageReference Include="Mediator.Abstractions" Version="2.1.5" />
 		<PackageReference Include="Microsoft.Azure.Cosmos" Version="3.31.2" />
 		<PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />

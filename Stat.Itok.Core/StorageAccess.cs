@@ -70,7 +70,8 @@ namespace Stat.Itok.Core
         {
             var cName = _options.Value.CosmosContainerName;
             var container = _client.GetContainer(_options.Value.CosmosDbName, cName);
-            return await container.UpsertItemAsync(CosmosEntity.CreateFrom(CosmosEntity.BuildCosmosRealId<TEntity>(entityId, _options.Value.CosmosDbPkPrefix),
+            return await container.UpsertItemAsync(CosmosEntity.CreateFrom(
+                CosmosEntity.BuildCosmosRealId<TEntity>(entityId, _options.Value.CosmosDbPkPrefix),
                 entity, _options.Value.CosmosDbPkPrefix));
         }
 
@@ -85,21 +86,21 @@ namespace Stat.Itok.Core
             var container = _client.GetContainer(_options.Value.CosmosDbName, _options.Value.CosmosContainerName);
             try
             {
-                var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(CosmosEntity.BuildCosmosRealId<TEntity>(id, _options.Value.CosmosDbPkPrefix),
-              new PartitionKey(CosmosEntity.GetPartitionKey<TEntity>(_options.Value.CosmosDbPkPrefix)));
+                var resp = await container.ReadItemAsync<CosmosEntity<TEntity>>(
+                    CosmosEntity.BuildCosmosRealId<TEntity>(id, _options.Value.CosmosDbPkPrefix),
+                    new PartitionKey(CosmosEntity.GetPartitionKey<TEntity>(_options.Value.CosmosDbPkPrefix)));
                 return resp.Resource.Data;
             }
             catch (Exception)
             {
                 return default;
             }
-
         }
     }
 
     public interface IStorageAccessor
     {
-        Task<QueueClient> GeJobRunTaskQueueClientAsync();
+        Task<QueueClient> GetJobRunTaskQueueClientAsync();
         Task<BlobContainerClient> GetBlobContainerClientAsync<T>();
     }
 
@@ -147,9 +148,9 @@ namespace Stat.Itok.Core
             return tableClient;
         }
 
-        public async Task<QueueClient> GeJobRunTaskQueueClientAsync()
+        public async Task<QueueClient> GetJobRunTaskQueueClientAsync()
         {
-            var serviceClient = new QueueServiceClient(Environment.GetEnvironmentVariable("WorkerQueueConnStr"));
+            var serviceClient = new QueueServiceClient(_options.Value.StorageAccountConnStr);
             var queueClient = serviceClient.GetQueueClient(StatItokConstants.JobRunTaskQueueName);
             await queueClient.CreateIfNotExistsAsync();
             return queueClient;

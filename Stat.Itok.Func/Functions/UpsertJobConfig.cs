@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-using MediatR;
+using Mediator;
 using Stat.Itok.Core.Handlers;
 
 namespace Stat.Itok.Func.Functions;

@@ -4,7 +4,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "environmentVariables": {
-        "DOTNET_ENVIRONMENT": "Development"
+        "STAT_ITOK_CONFIG": "appsettings.dev.json"
       }
     }
   }

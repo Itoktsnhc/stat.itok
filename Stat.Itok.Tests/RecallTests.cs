@@ -45,7 +45,6 @@ namespace Stat.Itok.Tests
                 .AddHttpClient()
                 .AddMemoryCache()
                 .AddSingleton<IStorageAccessor, StorageAccessor>()
-                .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
                 .AddSingleton<IJobTrackerClient, JobTrackerClient>(x =>
                     new JobTrackerClient(x.GetRequiredService<IOptions<GlobalConfig>>().Value.JobSysBase))
                 .AddSingleton<RemoteConfigStore>()
@@ -55,7 +54,6 @@ namespace Stat.Itok.Tests
                     return store.GetNinMiscConfigAsync().GetAwaiter().GetResult();
                 })
                 .AddMediatR(typeof(NintendoPrivateHandlers))
-                .AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingPipeline<,>))
                 .AddMemoryCache()
                 .AddLogging();
             svc.AddHttpClient<INintendoApi, NintendoApi>()

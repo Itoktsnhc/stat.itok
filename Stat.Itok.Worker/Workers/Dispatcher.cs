@@ -1,42 +1,35 @@
-﻿using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using JobTrackerX.Client;
 using JobTrackerX.SharedLibs;
+using MailKit.Net.Proxy;
+using MailKit.Net.Smtp;
 using Mapster;
-using MediatR;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
-using Stat.Itok.Core;
-using Stat.Itok.Core.Handlers;
+using Mediator;
 using Microsoft.Azure.Cosmos;
 using Microsoft.Azure.Cosmos.Linq;
 using Microsoft.Extensions.Options;
-using MailKit.Net.Smtp;
 using MimeKit;
-using MailKit.Net.Proxy;
+using Newtonsoft.Json;
+using Stat.Itok.Core;
+using Stat.Itok.Core.Handlers;
 using Stat.Itok.Core.Helpers;
+using Stat.Itok.Shared;
 
-namespace Stat.Itok.Func.Worker.Functions;
+namespace Stat.Itok.Worker.Workers;
 
-public class JobDispatcher
+public class Dispatcher : YetBgWorker
 {
     private readonly IMediator _mediator;
-    private readonly ILogger<JobDispatcher> _logger;
+    private readonly ILogger<Dispatcher> _logger;
     private readonly IStorageAccessor _storage;
     private readonly IJobTrackerClient _jobTracker;
     private readonly ICosmosAccessor _cosmos;
     private readonly IOptions<GlobalConfig> _options;
 
-    public JobDispatcher(
-        IMediator mediator,
-        ILogger<JobDispatcher> logger,
-        IStorageAccessor storage,
-        IJobTrackerClient jobTracker,
-        ICosmosAccessor cosmos, IOptions<GlobalConfig> options)
+    public Dispatcher(IHostApplicationLifetime appLifetime, IMediator mediator, ILogger<Dispatcher> logger,
+        IStorageAccessor storage, IJobTrackerClient jobTracker,
+        ICosmosAccessor cosmos,
+        IOptions<GlobalConfig> options) : base(appLifetime)
     {
         _mediator = mediator;
         _logger = logger;
@@ -46,13 +39,29 @@ public class JobDispatcher
         _options = options;
     }
 
-    [FunctionName("JobDispatcher")]
-    public async Task ActJobDispatcher([TimerTrigger("0 */5 * * * *"
-#if DEBUG
-            , RunOnStartup = true
-#endif
-        )]
-        TimerInfo timerInfo)
+    protected override async Task ExecuteAsync(CancellationToken ctx)
+    {
+        while (!ctx.IsCancellationRequested)
+        {
+            var now = DateTimeOffset.Now;
+            try
+            {
+                _logger.LogInformation($"BEGIN {nameof(Dispatcher)} @ {now}");
+                await DoDispatchAsync();
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, $"Exception {nameof(Dispatcher)} @ {now}");
+            }
+            finally
+            {
+                _logger.LogInformation($"END {nameof(Dispatcher)} @ {now}");
+                await Task.Delay(TimeSpan.FromMinutes(5), ctx);
+            }
+        }
+    }
+
+    private async Task DoDispatchAsync()
     {
         var pk = CosmosEntity.GetPartitionKey<JobConfig>(_options.Value.CosmosDbPkPrefix);
         using var feed = _cosmos.GetContainer<JobConfig>()
@@ -269,7 +278,7 @@ Thanks.
                 battleTask.TrackedId = tJobRunTask.JobId;
                 try
                 {
-                    var queueClient = await _storage.GeJobRunTaskQueueClientAsync();
+                    var queueClient = await _storage.GetJobRunTaskQueueClientAsync();
                     var jobRunTaskLite = battleTask.Adapt<JobRunTaskLite>();
                     jobRunTaskLite.PayloadId =
                         $"{jobConfig.Id}__{BattleHelper.GetBattleIdForStatInk(battleTask.BattleIdRawStr)}";
