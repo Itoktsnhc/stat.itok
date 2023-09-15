@@ -231,6 +231,31 @@ namespace Stat.Itok.Tests
                 }
             }
         }
+        
+        [TestMethod]
+        public async Task DisableAllAccountAsync()
+        {
+            var cosmos = _sp.GetRequiredService<CosmosDbAccessor>();
+            var container = cosmos.GetContainer<BattleTaskPayload>();
+            var rawSQL =
+                $"SELECT * FROM c where c.partitionKey = 'prod.JobConfig' and c.data.ninAuthContext.userInfo.nickname != 'itoktsnhc'\r\n";
+            QueryDefinition query = new QueryDefinition(rawSQL);
+
+            var resultSetIterator = container.GetItemQueryIterator<CosmosEntity<JobConfig>>(
+                query);
+
+            while (resultSetIterator.HasMoreResults)
+            {
+                var response = await resultSetIterator.ReadNextAsync();
+                foreach (var entity in response)
+                {
+                    var jobConfig = entity.Data;
+                    jobConfig.Enabled = false;
+                    jobConfig.NeedBuildFromBeginCount = 0;
+                    var resp = await cosmos.UpsertEntityInStoreAsync(jobConfig.Id, jobConfig);
+                }
+            }
+        }
 
 
         private class PureIdDto
