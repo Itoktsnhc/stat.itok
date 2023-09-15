@@ -5,7 +5,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/itoktsnhc/stat.itok/background_worker.yml?branch=release%2Fbackground&label=worker)  
 [![CodeFactor](https://www.codefactor.io/repository/github/itoktsnhc/stat.itok/badge)](https://www.codefactor.io/repository/github/itoktsnhc/stat.itok)
 
-
+# 2023-09-16(CST)开始，将会临时禁用所有账户的自动抓取。并停止 stat.itok web端的访问。后续该项目仅作为本人splatoon3的同步工具。
 A tool/system for uploading your splatoon3 battle history from NSOAPP to [stat.ink](https://stat.ink/)
 
 > **Hosted on Azure now: https://stat.itok.xyz/**
