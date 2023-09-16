@@ -56,7 +56,7 @@ public class Dispatcher : YetBgWorker
             finally
             {
                 _logger.LogInformation($"END {nameof(Dispatcher)}");
-                await Task.Delay(TimeSpan.FromMinutes(30), ctx);
+                await Task.Delay(TimeSpan.FromMinutes(15), ctx);
             }
         }
     }
