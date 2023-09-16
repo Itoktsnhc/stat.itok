@@ -22,6 +22,8 @@ public class TaskWorker : YetBgWorker
     private readonly IJobTrackerClient _jobTracker;
     private readonly IMemoryCache _memCache;
     private readonly ICosmosAccessor _cosmos;
+    private readonly Random _random = new();
+
 
     public TaskWorker(IHostApplicationLifetime appLifetime, IMediator mediator, IStorageAccessor storage,
         IJobTrackerClient jobTracker, IMemoryCache memCache, ICosmosAccessor cosmos,
@@ -71,6 +73,8 @@ public class TaskWorker : YetBgWorker
                             msgCount--;
                             _logger.LogInformation(
                                 $"\t END Processing Message: {queueMsg.MessageId} with dequeueCount: {queueMsg.DequeueCount}");
+                            var waitSec = TimeSpan.FromSeconds(_random.Next(5, 20));
+                            _logger.LogInformation($"Cool down for random sec: {waitSec}");
                         }
                     }
                 }

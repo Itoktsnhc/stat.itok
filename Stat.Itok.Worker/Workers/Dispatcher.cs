@@ -25,6 +25,7 @@ public class Dispatcher : YetBgWorker
     private readonly IJobTrackerClient _jobTracker;
     private readonly ICosmosAccessor _cosmos;
     private readonly IOptions<GlobalConfig> _options;
+    private readonly Random _random = new();
 
     public Dispatcher(IHostApplicationLifetime appLifetime, IMediator mediator, ILogger<Dispatcher> logger,
         IStorageAccessor storage, IJobTrackerClient jobTracker,
@@ -55,7 +56,7 @@ public class Dispatcher : YetBgWorker
             finally
             {
                 _logger.LogInformation($"END {nameof(Dispatcher)}");
-                await Task.Delay(TimeSpan.FromMinutes(5), ctx);
+                await Task.Delay(TimeSpan.FromMinutes(30), ctx);
             }
         }
     }
@@ -91,6 +92,12 @@ public class Dispatcher : YetBgWorker
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error when DispatchJobRunAsync");
+            }
+            finally
+            {
+                var waitSec = TimeSpan.FromSeconds(_random.Next(5, 60));
+                _logger.LogInformation($"Cool down for random sec: {waitSec}");
+                await Task.Delay(waitSec);
             }
         }
     }
